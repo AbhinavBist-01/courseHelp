@@ -1,0 +1,3840 @@
+[
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0001",
+    "text": "Hey everyone and welcome to one more new lecture.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 1,
+      "start": 0,
+      "end": 4.14,
+      "duration": 4.14,
+      "startTimestamp": "00:00:00.000",
+      "endTimestamp": "00:00:04.140",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0002",
+    "text": "In this lecture we are going to learn that how you can basically set up navigation inside",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 2,
+      "start": 4.76,
+      "end": 10.42,
+      "duration": 5.66,
+      "startTimestamp": "00:00:04.760",
+      "endTimestamp": "00:00:10.420",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0003",
+    "text": "your Expo application.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 3,
+      "start": 10.82,
+      "end": 12.08,
+      "duration": 1.26,
+      "startTimestamp": "00:00:10.820",
+      "endTimestamp": "00:00:12.080",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0004",
+    "text": "In today's lecture definitely going to see that how you can manage multiple screens.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 4,
+      "start": 12.4,
+      "end": 17.1,
+      "duration": 4.7,
+      "startTimestamp": "00:00:12.400",
+      "endTimestamp": "00:00:17.100",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0005",
+    "text": "and set up navigation from scratch.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 5,
+      "start": 18.319,
+      "end": 20.9,
+      "duration": 2.581,
+      "startTimestamp": "00:00:18.319",
+      "endTimestamp": "00:00:20.900",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0006",
+    "text": "Perfect, but before moving ahead, I just wanted to set up a device.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 6,
+      "start": 21.439,
+      "end": 25.64,
+      "duration": 4.201,
+      "startTimestamp": "00:00:21.439",
+      "endTimestamp": "00:00:25.640",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0007",
+    "text": "But before we begin installing navigation libraries and do anything,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 7,
+      "start": 26.02,
+      "end": 29.759,
+      "duration": 3.739,
+      "startTimestamp": "00:00:26.020",
+      "endTimestamp": "00:00:29.759",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0008",
+    "text": "you don't need any Android Studio or Xcode to test your app.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 8,
+      "start": 30.419,
+      "end": 34.58,
+      "duration": 4.161,
+      "startTimestamp": "00:00:30.419",
+      "endTimestamp": "00:00:34.580",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0009",
+    "text": "And I'm assuming you guys know that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 9,
+      "start": 34.76,
+      "end": 36.519,
+      "duration": 1.759,
+      "startTimestamp": "00:00:34.760",
+      "endTimestamp": "00:00:36.519",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0010",
+    "text": "We will use ExpoGo.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 10,
+      "start": 37.019,
+      "end": 38.379,
+      "duration": 1.36,
+      "startTimestamp": "00:00:37.019",
+      "endTimestamp": "00:00:38.379",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0011",
+    "text": "And app, you basically just going to install on your phone.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 11,
+      "start": 38.84,
+      "end": 42.6,
+      "duration": 3.76,
+      "startTimestamp": "00:00:38.840",
+      "endTimestamp": "00:00:42.600",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0012",
+    "text": "to run your project instantly.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 12,
+      "start": 43.1,
+      "end": 45.32,
+      "duration": 2.22,
+      "startTimestamp": "00:00:43.100",
+      "endTimestamp": "00:00:45.320",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0013",
+    "text": "You just run the export of server and scan the QR code and everything is going to work.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 13,
+      "start": 45.859,
+      "end": 50.14,
+      "duration": 4.281,
+      "startTimestamp": "00:00:45.859",
+      "endTimestamp": "00:00:50.140",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0014",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 14,
+      "start": 50.64,
+      "end": 50.92,
+      "duration": 0.28,
+      "startTimestamp": "00:00:50.640",
+      "endTimestamp": "00:00:50.920",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0015",
+    "text": "So don't worry.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 15,
+      "start": 51.3,
+      "end": 51.839,
+      "duration": 0.539,
+      "startTimestamp": "00:00:51.300",
+      "endTimestamp": "00:00:51.839",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0016",
+    "text": "But for just simulating and just show you guys, I'm just connecting my physical phone",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 16,
+      "start": 52.079,
+      "end": 57.379,
+      "duration": 5.3,
+      "startTimestamp": "00:00:52.079",
+      "endTimestamp": "00:00:57.379",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0017",
+    "text": "to my system and opening that here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 17,
+      "start": 57.38,
+      "end": 60,
+      "duration": 2.62,
+      "startTimestamp": "00:00:57.380",
+      "endTimestamp": "00:01:00.000",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0018",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 18,
+      "start": 60.14,
+      "end": 60.36,
+      "duration": 0.22,
+      "startTimestamp": "00:01:00.140",
+      "endTimestamp": "00:01:00.360",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0019",
+    "text": "So just give me a minute.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 19,
+      "start": 60.479,
+      "end": 61.44,
+      "duration": 0.961,
+      "startTimestamp": "00:01:00.479",
+      "endTimestamp": "00:01:01.440",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0020",
+    "text": "Let me quickly open that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 20,
+      "start": 61.96,
+      "end": 63.379,
+      "duration": 1.419,
+      "startTimestamp": "00:01:01.960",
+      "endTimestamp": "00:01:03.379",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0021",
+    "text": "Cool. So I hope so that this is now up and visible to you.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 21,
+      "start": 63.38,
+      "end": 68.6,
+      "duration": 5.22,
+      "startTimestamp": "00:01:03.380",
+      "endTimestamp": "00:01:08.600",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0022",
+    "text": "Like this is my physical connected device.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 22,
+      "start": 68.9,
+      "end": 70.68,
+      "duration": 1.78,
+      "startTimestamp": "00:01:08.900",
+      "endTimestamp": "00:01:10.680",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0023",
+    "text": "I'm just to show you the screen.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 23,
+      "start": 70.82,
+      "end": 72.5,
+      "duration": 1.68,
+      "startTimestamp": "00:01:10.820",
+      "endTimestamp": "00:01:12.500",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0024",
+    "text": "That's why I'm doing this. Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 24,
+      "start": 72.979,
+      "end": 74.68,
+      "duration": 1.701,
+      "startTimestamp": "00:01:12.979",
+      "endTimestamp": "00:01:14.680",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0025",
+    "text": "And I'm using a screen copy for that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 25,
+      "start": 74.76,
+      "end": 78.34,
+      "duration": 3.58,
+      "startTimestamp": "00:01:14.760",
+      "endTimestamp": "00:01:18.340",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0026",
+    "text": "You can just definitely go and search for screen copy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 26,
+      "start": 78.34100000000001,
+      "end": 81.94,
+      "duration": 3.599,
+      "startTimestamp": "00:01:18.341",
+      "endTimestamp": "00:01:21.940",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0027",
+    "text": "And this is again completely optional.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 27,
+      "start": 81.979,
+      "end": 84.28,
+      "duration": 2.301,
+      "startTimestamp": "00:01:21.979",
+      "endTimestamp": "00:01:24.280",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0028",
+    "text": "You need not to do so.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 28,
+      "start": 84.34,
+      "end": 85.759,
+      "duration": 1.419,
+      "startTimestamp": "00:01:24.340",
+      "endTimestamp": "00:01:25.759",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0029",
+    "text": "You just simply open your phone and scan the QR code in your ExpoGo app.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 29,
+      "start": 85.96000000000001,
+      "end": 90.619,
+      "duration": 4.659,
+      "startTimestamp": "00:01:25.960",
+      "endTimestamp": "00:01:30.619",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0030",
+    "text": "And that is going to work perfectly.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 30,
+      "start": 90.62,
+      "end": 92.46000000000001,
+      "duration": 1.84,
+      "startTimestamp": "00:01:30.620",
+      "endTimestamp": "00:01:32.460",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0031",
+    "text": "Cool, nice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 31,
+      "start": 92.5,
+      "end": 94.68,
+      "duration": 2.18,
+      "startTimestamp": "00:01:32.500",
+      "endTimestamp": "00:01:34.680",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0032",
+    "text": "Now let's move ahead and start talking about this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 32,
+      "start": 95.86,
+      "end": 99.06,
+      "duration": 3.2,
+      "startTimestamp": "00:01:35.860",
+      "endTimestamp": "00:01:39.060",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0033",
+    "text": "So for doing so you just simply need to go inside your VS code and inside your VS code",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 33,
+      "start": 99.25999999999999,
+      "end": 105.68,
+      "duration": 6.42,
+      "startTimestamp": "00:01:39.260",
+      "endTimestamp": "00:01:45.680",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0034",
+    "text": "make sure that I am on module 3, I mean it depends.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 34,
+      "start": 105.9,
+      "end": 108.9,
+      "duration": 3,
+      "startTimestamp": "00:01:45.900",
+      "endTimestamp": "00:01:48.900",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0035",
+    "text": "Now, let me just clear everything and first thing that I am going to do is to install",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 35,
+      "start": 109.7,
+      "end": 116.46000000000001,
+      "duration": 6.76,
+      "startTimestamp": "00:01:49.700",
+      "endTimestamp": "00:01:56.460",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0036",
+    "text": "my expo.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 36,
+      "start": 116.461,
+      "end": 117.119,
+      "duration": 0.658,
+      "startTimestamp": "00:01:56.461",
+      "endTimestamp": "00:01:57.119",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0037",
+    "text": "So, for installing my expo application, I am going to copy this command and this is",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 37,
+      "start": 117.32,
+      "end": 123.42,
+      "duration": 6.1,
+      "startTimestamp": "00:01:57.320",
+      "endTimestamp": "00:02:03.420",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0038",
+    "text": "going to be burnx create expo app at the latest and what is your app name?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 38,
+      "start": 123.421,
+      "end": 132.06,
+      "duration": 8.639,
+      "startTimestamp": "00:02:03.421",
+      "endTimestamp": "00:02:12.060",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0039",
+    "text": "So let me install in current directory.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 39,
+      "start": 132.061,
+      "end": 134.2,
+      "duration": 2.139,
+      "startTimestamp": "00:02:12.061",
+      "endTimestamp": "00:02:14.200",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0040",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 40,
+      "start": 135.22,
+      "end": 135.7,
+      "duration": 0.48,
+      "startTimestamp": "00:02:15.220",
+      "endTimestamp": "00:02:15.700",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0041",
+    "text": "So, this is going to install my expo app.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 41,
+      "start": 135.76,
+      "end": 137.86,
+      "duration": 2.1,
+      "startTimestamp": "00:02:15.760",
+      "endTimestamp": "00:02:17.860",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0042",
+    "text": "Let me wait for it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 42,
+      "start": 138.07999999999998,
+      "end": 139.07999999999998,
+      "duration": 1,
+      "startTimestamp": "00:02:18.080",
+      "endTimestamp": "00:02:19.080",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0043",
+    "text": "All right, guys.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 43,
+      "start": 140.379,
+      "end": 140.86,
+      "duration": 0.481,
+      "startTimestamp": "00:02:20.379",
+      "endTimestamp": "00:02:20.860",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0044",
+    "text": "So, now my application is installed successfully.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 44,
+      "start": 141.06,
+      "end": 143.4,
+      "duration": 2.34,
+      "startTimestamp": "00:02:21.060",
+      "endTimestamp": "00:02:23.400",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0045",
+    "text": "Now what is the next step?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 45,
+      "start": 144.22,
+      "end": 145.36,
+      "duration": 1.14,
+      "startTimestamp": "00:02:24.220",
+      "endTimestamp": "00:02:25.360",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0046",
+    "text": "Next step is basically going to reset my project.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 46,
+      "start": 145.72,
+      "end": 148.22,
+      "duration": 2.5,
+      "startTimestamp": "00:02:25.720",
+      "endTimestamp": "00:02:28.220",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0047",
+    "text": "So, for that you can simply say 1x run reset project.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 47,
+      "start": 148.88,
+      "end": 156.31900000000002,
+      "duration": 7.439,
+      "startTimestamp": "00:02:28.880",
+      "endTimestamp": "00:02:36.319",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0048",
+    "text": "So, this is basically going to reset my project.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 48,
+      "start": 156.78,
+      "end": 159.459,
+      "duration": 2.679,
+      "startTimestamp": "00:02:36.780",
+      "endTimestamp": "00:02:39.459",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0049",
+    "text": "All right, no problem.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 49,
+      "start": 161.76,
+      "end": 163,
+      "duration": 1.24,
+      "startTimestamp": "00:02:41.760",
+      "endTimestamp": "00:02:43.000",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0050",
+    "text": "I can just simply run scripts slash reset and then I can simply say project.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 50,
+      "start": 163.079,
+      "end": 172.5,
+      "duration": 9.421,
+      "startTimestamp": "00:02:43.079",
+      "endTimestamp": "00:02:52.500",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0051",
+    "text": "Now I don't want it to move any existing file in any folder.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 51,
+      "start": 173.159,
+      "end": 176.799,
+      "duration": 3.64,
+      "startTimestamp": "00:02:53.159",
+      "endTimestamp": "00:02:56.799",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0052",
+    "text": "Let me just simply say no and clear this out.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 52,
+      "start": 177.31900000000002,
+      "end": 180.359,
+      "duration": 3.04,
+      "startTimestamp": "00:02:57.319",
+      "endTimestamp": "00:03:00.359",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0053",
+    "text": "Perfect, so now you will see that we are reset to properly normal and if I now simply hit",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 53,
+      "start": 181.2,
+      "end": 186.8,
+      "duration": 5.6,
+      "startTimestamp": "00:03:01.200",
+      "endTimestamp": "00:03:06.800",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0054",
+    "text": "1x Expo Start.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 54,
+      "start": 187.1,
+      "end": 189.1,
+      "duration": 2,
+      "startTimestamp": "00:03:07.100",
+      "endTimestamp": "00:03:09.100",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0055",
+    "text": "So this is going to make up and running my application and now you can simply open your",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 55,
+      "start": 189.98,
+      "end": 196.26,
+      "duration": 6.28,
+      "startTimestamp": "00:03:09.980",
+      "endTimestamp": "00:03:16.260",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0056",
+    "text": "camera and start running it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 56,
+      "start": 196.261,
+      "end": 198.04,
+      "duration": 1.779,
+      "startTimestamp": "00:03:16.261",
+      "endTimestamp": "00:03:18.040",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0057",
+    "text": "Let me just simply my expo go app.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 57,
+      "start": 198.06,
+      "end": 200.06,
+      "duration": 2,
+      "startTimestamp": "00:03:18.060",
+      "endTimestamp": "00:03:20.060",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0058",
+    "text": "Then for opening this in Android, I'm simply going to say A. So, after pressing on A, you",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 58,
+      "start": 200.6,
+      "end": 207.48,
+      "duration": 6.88,
+      "startTimestamp": "00:03:20.600",
+      "endTimestamp": "00:03:27.480",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0059",
+    "text": "will see they are doing so this and edit app/index.tss to edit this screen.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 59,
+      "start": 207.481,
+      "end": 214.04,
+      "duration": 6.559,
+      "startTimestamp": "00:03:27.481",
+      "endTimestamp": "00:03:34.040",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0060",
+    "text": "So, all right, everything is working perfectly.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 60,
+      "start": 214.18,
+      "end": 217,
+      "duration": 2.82,
+      "startTimestamp": "00:03:34.180",
+      "endTimestamp": "00:03:37.000",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0061",
+    "text": "Now what next?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 61,
+      "start": 218.1,
+      "end": 218.84,
+      "duration": 0.74,
+      "startTimestamp": "00:03:38.100",
+      "endTimestamp": "00:03:38.840",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0062",
+    "text": "Next, I just simply wanted to move ahead and first of all, first step is always going to",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 62,
+      "start": 219.959,
+      "end": 226.12,
+      "duration": 6.161,
+      "startTimestamp": "00:03:39.959",
+      "endTimestamp": "00:03:46.120",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0063",
+    "text": "delete this file.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 63,
+      "start": 226.121,
+      "end": 226.9,
+      "duration": 0.779,
+      "startTimestamp": "00:03:46.121",
+      "endTimestamp": "00:03:46.900",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0064",
+    "text": "Yes, because we don't need it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 64,
+      "start": 227.31900000000002,
+      "end": 229.599,
+      "duration": 2.28,
+      "startTimestamp": "00:03:47.319",
+      "endTimestamp": "00:03:49.599",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0065",
+    "text": "After deleting it, yes, you will see something like this, but we are going to fix it in a",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 65,
+      "start": 230.06,
+      "end": 233.9,
+      "duration": 3.84,
+      "startTimestamp": "00:03:50.060",
+      "endTimestamp": "00:03:53.900",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0066",
+    "text": "while and let's move ahead.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 66,
+      "start": 233.901,
+      "end": 236.44,
+      "duration": 2.539,
+      "startTimestamp": "00:03:53.901",
+      "endTimestamp": "00:03:56.440",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0067",
+    "text": "And after moving ahead, I just wanted to do so what I just wanted to install this much",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 67,
+      "start": 236.7,
+      "end": 243.319,
+      "duration": 6.619,
+      "startTimestamp": "00:03:56.700",
+      "endTimestamp": "00:04:03.319",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0068",
+    "text": "of things.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 68,
+      "start": 243.32,
+      "end": 244.08,
+      "duration": 0.76,
+      "startTimestamp": "00:04:03.320",
+      "endTimestamp": "00:04:04.080",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0069",
+    "text": "So they are basically prompting us to install react navigation native stack.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 69,
+      "start": 244.26,
+      "end": 249.58,
+      "duration": 5.32,
+      "startTimestamp": "00:04:04.260",
+      "endTimestamp": "00:04:09.580",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0070",
+    "text": "So simply copy this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 70,
+      "start": 249.8,
+      "end": 250.94,
+      "duration": 1.14,
+      "startTimestamp": "00:04:09.800",
+      "endTimestamp": "00:04:10.940",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0071",
+    "text": "No problem.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 71,
+      "start": 251.12,
+      "end": 251.64,
+      "duration": 0.52,
+      "startTimestamp": "00:04:11.120",
+      "endTimestamp": "00:04:11.640",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0072",
+    "text": "And after this close your currently running application and paste this command.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 72,
+      "start": 252.2,
+      "end": 257.48,
+      "duration": 5.28,
+      "startTimestamp": "00:04:12.200",
+      "endTimestamp": "00:04:17.480",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0073",
+    "text": "So this is going to install a react navigation library.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 73,
+      "start": 257.76,
+      "end": 261.26,
+      "duration": 3.5,
+      "startTimestamp": "00:04:17.760",
+      "endTimestamp": "00:04:21.260",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0074",
+    "text": "And if I'm not wrong, they are by default supported it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 74,
+      "start": 261.98,
+      "end": 264.46,
+      "duration": 2.48,
+      "startTimestamp": "00:04:21.980",
+      "endTimestamp": "00:04:24.460",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0075",
+    "text": "Yes, I mean, they only took four seconds.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 75,
+      "start": 264.62,
+      "end": 266.6,
+      "duration": 1.98,
+      "startTimestamp": "00:04:24.620",
+      "endTimestamp": "00:04:26.600",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0076",
+    "text": "So I think they already have it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 76,
+      "start": 266.86,
+      "end": 268.44,
+      "duration": 1.58,
+      "startTimestamp": "00:04:26.860",
+      "endTimestamp": "00:04:28.440",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0077",
+    "text": "Now, if you also wanted to install this React Navigation elements, so let's install that",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 77,
+      "start": 268.9,
+      "end": 276.78,
+      "duration": 7.88,
+      "startTimestamp": "00:04:28.900",
+      "endTimestamp": "00:04:36.780",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0078",
+    "text": "as well and they already have to us and we are good to go.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 78,
+      "start": 276.84000000000003,
+      "end": 281.979,
+      "duration": 5.139,
+      "startTimestamp": "00:04:36.840",
+      "endTimestamp": "00:04:41.979",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0079",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 79,
+      "start": 282.4,
+      "end": 282.8,
+      "duration": 0.4,
+      "startTimestamp": "00:04:42.400",
+      "endTimestamp": "00:04:42.800",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0080",
+    "text": "No problem.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 80,
+      "start": 283.22,
+      "end": 283.94,
+      "duration": 0.72,
+      "startTimestamp": "00:04:43.220",
+      "endTimestamp": "00:04:43.940",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0081",
+    "text": "Now, what is the first step to start using your this React Navigation library?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 81,
+      "start": 284.68,
+      "end": 291.5,
+      "duration": 6.82,
+      "startTimestamp": "00:04:44.680",
+      "endTimestamp": "00:04:51.500",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0082",
+    "text": "To create a navigation stack and initially we are understanding about stack this like",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 82,
+      "start": 291.8,
+      "end": 299.379,
+      "duration": 7.579,
+      "startTimestamp": "00:04:51.800",
+      "endTimestamp": "00:04:59.379",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0083",
+    "text": "we have multiple patterns.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 83,
+      "start": 299.38,
+      "end": 300.52,
+      "duration": 1.14,
+      "startTimestamp": "00:04:59.380",
+      "endTimestamp": "00:05:00.520",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0084",
+    "text": "So we are now understanding about stack patterns.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 84,
+      "start": 300.78,
+      "end": 302.979,
+      "duration": 2.199,
+      "startTimestamp": "00:05:00.780",
+      "endTimestamp": "00:05:02.979",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0085",
+    "text": "So how you can basically create that and set up that because that is a base for it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 85,
+      "start": 302.98,
+      "end": 307.74,
+      "duration": 4.76,
+      "startTimestamp": "00:05:02.980",
+      "endTimestamp": "00:05:07.740",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0086",
+    "text": "So, this is basically going to import this and again need not to go inside static for",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 86,
+      "start": 308,
+      "end": 315.08,
+      "duration": 7.08,
+      "startTimestamp": "00:05:08.000",
+      "endTimestamp": "00:05:15.080",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0087",
+    "text": "now just simply press on dynamic and just focus for a few minutes here and then we will",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 87,
+      "start": 315.081,
+      "end": 320.62,
+      "duration": 5.539,
+      "startTimestamp": "00:05:15.081",
+      "endTimestamp": "00:05:20.620",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0088",
+    "text": "see how you can set up that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 88,
+      "start": 320.621,
+      "end": 322.3,
+      "duration": 1.679,
+      "startTimestamp": "00:05:20.621",
+      "endTimestamp": "00:05:22.300",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0089",
+    "text": "So, the step number one is done.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 89,
+      "start": 322.86,
+      "end": 324.82,
+      "duration": 1.96,
+      "startTimestamp": "00:05:22.860",
+      "endTimestamp": "00:05:24.820",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0090",
+    "text": "No problem.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 90,
+      "start": 325.06,
+      "end": 325.64,
+      "duration": 0.58,
+      "startTimestamp": "00:05:25.060",
+      "endTimestamp": "00:05:25.640",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0091",
+    "text": "Now, let us move ahead and start implementing it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 91,
+      "start": 326.1,
+      "end": 329.18,
+      "duration": 3.08,
+      "startTimestamp": "00:05:26.100",
+      "endTimestamp": "00:05:29.180",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0092",
+    "text": "Alright, so for that you again need to create an app folder, easy, no problem.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 92,
+      "start": 329.3,
+      "end": 336.34000000000003,
+      "duration": 7.04,
+      "startTimestamp": "00:05:29.300",
+      "endTimestamp": "00:05:36.340",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0093",
+    "text": "And then step number one is to create a root stack navigator.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 93,
+      "start": 337.34000000000003,
+      "end": 342.34000000000003,
+      "duration": 5,
+      "startTimestamp": "00:05:37.340",
+      "endTimestamp": "00:05:42.340",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0094",
+    "text": "So for that you can simply create app.tsx.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 94,
+      "start": 342.47,
+      "end": 345.9,
+      "duration": 3.43,
+      "startTimestamp": "00:05:42.470",
+      "endTimestamp": "00:05:45.900",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0095",
+    "text": "Easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 95,
+      "start": 346.6,
+      "end": 347.4,
+      "duration": 0.8,
+      "startTimestamp": "00:05:46.600",
+      "endTimestamp": "00:05:47.400",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0096",
+    "text": "And then import bunch of things with me.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 96,
+      "start": 348.24,
+      "end": 350.52,
+      "duration": 2.28,
+      "startTimestamp": "00:05:48.240",
+      "endTimestamp": "00:05:50.520",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0097",
+    "text": "So the first thing is going to be like let me increase the size of it so that this is",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 97,
+      "start": 350.68,
+      "end": 356.65999999999997,
+      "duration": 5.98,
+      "startTimestamp": "00:05:50.680",
+      "endTimestamp": "00:05:56.660",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0098",
+    "text": "visible properly.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 98,
+      "start": 356.661,
+      "end": 357.56,
+      "duration": 0.899,
+      "startTimestamp": "00:05:56.661",
+      "endTimestamp": "00:05:57.560",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0099",
+    "text": "Yes.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 99,
+      "start": 358.64,
+      "end": 358.76,
+      "duration": 0.12,
+      "startTimestamp": "00:05:58.640",
+      "endTimestamp": "00:05:58.760",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0100",
+    "text": "So simply say import.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 100,
+      "start": 359.26,
+      "end": 360.76,
+      "duration": 1.5,
+      "startTimestamp": "00:05:59.260",
+      "endTimestamp": "00:06:00.760",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0101",
+    "text": "Create.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 101,
+      "start": 361.5,
+      "end": 362.06,
+      "duration": 0.56,
+      "startTimestamp": "00:06:01.500",
+      "endTimestamp": "00:06:02.060",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0102",
+    "text": "native stack navigator from react navigation native stack first step and then second step",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 102,
+      "start": 362.4,
+      "end": 371.58,
+      "duration": 9.18,
+      "startTimestamp": "00:06:02.400",
+      "endTimestamp": "00:06:11.580",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0103",
+    "text": "is going to simply say const stack is equals to first of all let me see and smooth my AI",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 103,
+      "start": 371.68,
+      "end": 381.46,
+      "duration": 9.78,
+      "startTimestamp": "00:06:11.680",
+      "endTimestamp": "00:06:21.460",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0104",
+    "text": "perfect and then simply going to say create native stack navigation step 2 is also done.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 104,
+      "start": 381.9,
+      "end": 387.68,
+      "duration": 5.78,
+      "startTimestamp": "00:06:21.900",
+      "endTimestamp": "00:06:27.680",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0105",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 105,
+      "start": 388.62,
+      "end": 389.1,
+      "duration": 0.48,
+      "startTimestamp": "00:06:28.620",
+      "endTimestamp": "00:06:29.100",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0106",
+    "text": "Now, what next we need?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 106,
+      "start": 390,
+      "end": 391.5,
+      "duration": 1.5,
+      "startTimestamp": "00:06:30.000",
+      "endTimestamp": "00:06:31.500",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0107",
+    "text": "Next we need to create a root stack.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 107,
+      "start": 392.52,
+      "end": 395.18,
+      "duration": 2.66,
+      "startTimestamp": "00:06:32.520",
+      "endTimestamp": "00:06:35.180",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0108",
+    "text": "What is the root stack?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 108,
+      "start": 395.36,
+      "end": 396.58,
+      "duration": 1.22,
+      "startTimestamp": "00:06:35.360",
+      "endTimestamp": "00:06:36.580",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0109",
+    "text": "Basically a system where we are going to tell that look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 109,
+      "start": 396.96,
+      "end": 400.94,
+      "duration": 3.98,
+      "startTimestamp": "00:06:36.960",
+      "endTimestamp": "00:06:40.940",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0110",
+    "text": "We have home screen, we have detail screen like that we are doing in like what is the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 110,
+      "start": 401.02,
+      "end": 408.1,
+      "duration": 7.08,
+      "startTimestamp": "00:06:41.020",
+      "endTimestamp": "00:06:48.100",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0111",
+    "text": "name of the library that we are using for it react router DOM.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 111,
+      "start": 408.101,
+      "end": 411.98,
+      "duration": 3.879,
+      "startTimestamp": "00:06:48.101",
+      "endTimestamp": "00:06:51.980",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0112",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 112,
+      "start": 412.46,
+      "end": 412.72,
+      "duration": 0.26,
+      "startTimestamp": "00:06:52.460",
+      "endTimestamp": "00:06:52.720",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0113",
+    "text": "So, I hope so you guys know about it react router DOM.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 113,
+      "start": 412.8,
+      "end": 415.2,
+      "duration": 2.4,
+      "startTimestamp": "00:06:52.800",
+      "endTimestamp": "00:06:55.200",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0114",
+    "text": "Here, react router you will understanding and you are implementing all of that in kind",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 114,
+      "start": 417.3,
+      "end": 423.1,
+      "duration": 5.8,
+      "startTimestamp": "00:06:57.300",
+      "endTimestamp": "00:07:03.100",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0115",
+    "text": "of same way.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 115,
+      "start": 423.12,
+      "end": 424.02,
+      "duration": 0.9,
+      "startTimestamp": "00:07:03.120",
+      "endTimestamp": "00:07:04.020",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0116",
+    "text": "So, I can simply going to say this as function root stack easy this is just a simple kind",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 116,
+      "start": 424.74,
+      "end": 432.28,
+      "duration": 7.54,
+      "startTimestamp": "00:07:04.740",
+      "endTimestamp": "00:07:12.280",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0117",
+    "text": "of an component and this is going to return very easy thing what is that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 117,
+      "start": 432.281,
+      "end": 437.24,
+      "duration": 4.959,
+      "startTimestamp": "00:07:12.281",
+      "endTimestamp": "00:07:17.240",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0118",
+    "text": "This is some bunch of boilerplate code that you need to write.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 118,
+      "start": 437.4,
+      "end": 441.54,
+      "duration": 4.14,
+      "startTimestamp": "00:07:17.400",
+      "endTimestamp": "00:07:21.540",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0119",
+    "text": ".navigator easy and this navigator is going to accept all the screens that you have.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 119,
+      "start": 443,
+      "end": 449.139,
+      "duration": 6.139,
+      "startTimestamp": "00:07:23.000",
+      "endTimestamp": "00:07:29.139",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0120",
+    "text": "So, how they are going to work simply stack.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 120,
+      "start": 449.44,
+      "end": 451.58,
+      "duration": 2.14,
+      "startTimestamp": "00:07:29.440",
+      "endTimestamp": "00:07:31.580",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0121",
+    "text": "Navigator, not navigator, sorry, stack dot screen.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 121,
+      "start": 453.6,
+      "end": 457.88,
+      "duration": 4.28,
+      "startTimestamp": "00:07:33.600",
+      "endTimestamp": "00:07:37.880",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0122",
+    "text": "Yes.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 122,
+      "start": 458.12,
+      "end": 458.479,
+      "duration": 0.359,
+      "startTimestamp": "00:07:38.120",
+      "endTimestamp": "00:07:38.479",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0123",
+    "text": "And then inside this screen and make sure that this screen is self-closing.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 123,
+      "start": 458.74,
+      "end": 463.74,
+      "duration": 5,
+      "startTimestamp": "00:07:38.740",
+      "endTimestamp": "00:07:43.740",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0124",
+    "text": "And this screen is going to accept two things for now.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 124,
+      "start": 464.78,
+      "end": 468.08,
+      "duration": 3.3,
+      "startTimestamp": "00:07:44.780",
+      "endTimestamp": "00:07:48.080",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0125",
+    "text": "First thing is the name of screen.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 125,
+      "start": 468.8,
+      "end": 470.44,
+      "duration": 1.64,
+      "startTimestamp": "00:07:48.800",
+      "endTimestamp": "00:07:50.440",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0126",
+    "text": "So let me call that a home.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 126,
+      "start": 470.56,
+      "end": 472.18,
+      "duration": 1.62,
+      "startTimestamp": "00:07:50.560",
+      "endTimestamp": "00:07:52.180",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0127",
+    "text": "And then second thing is going to be component.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 127,
+      "start": 472.4,
+      "end": 475.08,
+      "duration": 2.68,
+      "startTimestamp": "00:07:52.400",
+      "endTimestamp": "00:07:55.080",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0128",
+    "text": "I mean very much resembling with the react router.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 128,
+      "start": 475.259,
+      "end": 477.74,
+      "duration": 2.481,
+      "startTimestamp": "00:07:55.259",
+      "endTimestamp": "00:07:57.740",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0129",
+    "text": "And then inside this you can simply create a folder and name that as a screens not rocket",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 129,
+      "start": 478.68,
+      "end": 485.12,
+      "duration": 6.44,
+      "startTimestamp": "00:07:58.680",
+      "endTimestamp": "00:08:05.120",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0130",
+    "text": "signs at all.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 130,
+      "start": 485.121,
+      "end": 486.1,
+      "duration": 0.979,
+      "startTimestamp": "00:08:05.121",
+      "endTimestamp": "00:08:06.100",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0131",
+    "text": "And then I'm simply going to say this as home dot TSX.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 131,
+      "start": 486.759,
+      "end": 490.6,
+      "duration": 3.841,
+      "startTimestamp": "00:08:06.759",
+      "endTimestamp": "00:08:10.600",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0132",
+    "text": "And this is just a short form for this is just a snippet.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 132,
+      "start": 491,
+      "end": 496.12,
+      "duration": 5.12,
+      "startTimestamp": "00:08:11.000",
+      "endTimestamp": "00:08:16.120",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0133",
+    "text": "So R-N-F-E-S.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 133,
+      "start": 496.2,
+      "end": 498.08,
+      "duration": 1.88,
+      "startTimestamp": "00:08:16.200",
+      "endTimestamp": "00:08:18.080",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0134",
+    "text": "So this is going to create me a react native component with just a simple text of home.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 134,
+      "start": 498.38,
+      "end": 504.02,
+      "duration": 5.64,
+      "startTimestamp": "00:08:18.380",
+      "endTimestamp": "00:08:24.020",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0135",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 135,
+      "start": 505.12,
+      "end": 505.32,
+      "duration": 0.2,
+      "startTimestamp": "00:08:25.120",
+      "endTimestamp": "00:08:25.320",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0136",
+    "text": "And if you wanted to center it, you can definitely center it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 136,
+      "start": 505.38,
+      "end": 508.24,
+      "duration": 2.86,
+      "startTimestamp": "00:08:25.380",
+      "endTimestamp": "00:08:28.240",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0137",
+    "text": "So we'll do that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 137,
+      "start": 508.3,
+      "end": 509.02,
+      "duration": 0.72,
+      "startTimestamp": "00:08:28.300",
+      "endTimestamp": "00:08:29.020",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0138",
+    "text": "Don't worry.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 138,
+      "start": 509.1,
+      "end": 509.54,
+      "duration": 0.44,
+      "startTimestamp": "00:08:29.100",
+      "endTimestamp": "00:08:29.540",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0139",
+    "text": "And then simply import this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 139,
+      "start": 510.08,
+      "end": 512.32,
+      "duration": 2.24,
+      "startTimestamp": "00:08:30.080",
+      "endTimestamp": "00:08:32.320",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0140",
+    "text": "Easy, step 2 is also done, I don't think so that any rocket science is going on here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 140,
+      "start": 512.321,
+      "end": 518.12,
+      "duration": 5.799,
+      "startTimestamp": "00:08:32.321",
+      "endTimestamp": "00:08:38.120",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0141",
+    "text": "Easy, let me save it and then what you can do you can simply say export default function",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 141,
+      "start": 518.72,
+      "end": 527.38,
+      "duration": 8.66,
+      "startTimestamp": "00:08:38.720",
+      "endTimestamp": "00:08:47.380",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0142",
+    "text": "name of the file which is app and then I wanted to return this root stack.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 142,
+      "start": 527.56,
+      "end": 532.88,
+      "duration": 5.32,
+      "startTimestamp": "00:08:47.560",
+      "endTimestamp": "00:08:52.880",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0143",
+    "text": "Easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 143,
+      "start": 533.2,
+      "end": 533.68,
+      "duration": 0.48,
+      "startTimestamp": "00:08:53.200",
+      "endTimestamp": "00:08:53.680",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0144",
+    "text": "Now, let me just simply return my root stack and save it and then you are just simply going",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 144,
+      "start": 534.1,
+      "end": 541.019,
+      "duration": 6.919,
+      "startTimestamp": "00:08:54.100",
+      "endTimestamp": "00:09:01.019",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0145",
+    "text": "to run it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 145,
+      "start": 541.02,
+      "end": 542.279,
+      "duration": 1.259,
+      "startTimestamp": "00:09:01.020",
+      "endTimestamp": "00:09:02.279",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0146",
+    "text": "Perfect, but let me create one more screen for now.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 146,
+      "start": 542.72,
+      "end": 545.36,
+      "duration": 2.64,
+      "startTimestamp": "00:09:02.720",
+      "endTimestamp": "00:09:05.360",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0147",
+    "text": "Let me call this as details.tsx and rn.tsx.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 147,
+      "start": 545.899,
+      "end": 551.42,
+      "duration": 5.521,
+      "startTimestamp": "00:09:05.899",
+      "endTimestamp": "00:09:11.420",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0148",
+    "text": "Cool, and this is going to be details and you will simply copy this, simply paste this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 148,
+      "start": 551.421,
+      "end": 558.399,
+      "duration": 6.978,
+      "startTimestamp": "00:09:11.421",
+      "endTimestamp": "00:09:18.399",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0149",
+    "text": "and make sure to remember the name you are giving them.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 149,
+      "start": 558.4,
+      "end": 561.319,
+      "duration": 2.919,
+      "startTimestamp": "00:09:18.400",
+      "endTimestamp": "00:09:21.319",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0150",
+    "text": "So again this is going to be details and here I wanted to use details.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 150,
+      "start": 562.24,
+      "end": 567,
+      "duration": 4.76,
+      "startTimestamp": "00:09:22.240",
+      "endTimestamp": "00:09:27.000",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0151",
+    "text": "Easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 151,
+      "start": 567.259,
+      "end": 567.699,
+      "duration": 0.44,
+      "startTimestamp": "00:09:27.259",
+      "endTimestamp": "00:09:27.699",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0152",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 152,
+      "start": 568,
+      "end": 568.66,
+      "duration": 0.66,
+      "startTimestamp": "00:09:28.000",
+      "endTimestamp": "00:09:28.660",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0153",
+    "text": "Now, let me clear everything and simply run 1x expo start and the moment I hit this and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 153,
+      "start": 569.28,
+      "end": 576.66,
+      "duration": 7.38,
+      "startTimestamp": "00:09:29.280",
+      "endTimestamp": "00:09:36.660",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0154",
+    "text": "just wait for it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 154,
+      "start": 576.6610000000001,
+      "end": 577.66,
+      "duration": 0.999,
+      "startTimestamp": "00:09:36.661",
+      "endTimestamp": "00:09:37.660",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0155",
+    "text": "So let me just wait for it and no problem.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 155,
+      "start": 577.76,
+      "end": 580.88,
+      "duration": 3.12,
+      "startTimestamp": "00:09:37.760",
+      "endTimestamp": "00:09:40.880",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0156",
+    "text": "Let's again press A. So this is going to open that up into it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 156,
+      "start": 581.26,
+      "end": 586.46,
+      "duration": 5.2,
+      "startTimestamp": "00:09:41.260",
+      "endTimestamp": "00:09:46.460",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0157",
+    "text": "What if I need to reload it?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 157,
+      "start": 586.84,
+      "end": 588.04,
+      "duration": 1.2,
+      "startTimestamp": "00:09:46.840",
+      "endTimestamp": "00:09:48.040",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0158",
+    "text": "Yes, I need to reload it and the moment I reload it, look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 158,
+      "start": 588.07,
+      "end": 592.94,
+      "duration": 4.87,
+      "startTimestamp": "00:09:48.070",
+      "endTimestamp": "00:09:52.940",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0159",
+    "text": "Now, you can basically see that they are basically showing us a home here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 159,
+      "start": 593.1,
+      "end": 598.12,
+      "duration": 5.02,
+      "startTimestamp": "00:09:53.100",
+      "endTimestamp": "00:09:58.120",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0160",
+    "text": "And yes, now you are able to see this home page, but we're still thinking that I wanted",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 160,
+      "start": 599.36,
+      "end": 605.92,
+      "duration": 6.56,
+      "startTimestamp": "00:09:59.360",
+      "endTimestamp": "00:10:05.920",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0161",
+    "text": "to move to my details page.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 161,
+      "start": 605.921,
+      "end": 607.74,
+      "duration": 1.819,
+      "startTimestamp": "00:10:05.921",
+      "endTimestamp": "00:10:07.740",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0162",
+    "text": "How I can move there?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 162,
+      "start": 607.94,
+      "end": 609.04,
+      "duration": 1.1,
+      "startTimestamp": "00:10:07.940",
+      "endTimestamp": "00:10:09.040",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0163",
+    "text": "It's also very easy like React Navigation provide you a link component.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 163,
+      "start": 609.2,
+      "end": 614.84,
+      "duration": 5.64,
+      "startTimestamp": "00:10:09.200",
+      "endTimestamp": "00:10:14.840",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0164",
+    "text": "Yes, make sure to import from React Navigation because right now we are not using XporOptr",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 164,
+      "start": 615.42,
+      "end": 620.4,
+      "duration": 4.98,
+      "startTimestamp": "00:10:15.420",
+      "endTimestamp": "00:10:20.400",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0165",
+    "text": "and this link is basically going to tell you that where you wanted to move.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 165,
+      "start": 620.84,
+      "end": 627.4,
+      "duration": 6.56,
+      "startTimestamp": "00:10:20.840",
+      "endTimestamp": "00:10:27.400",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0166",
+    "text": "So from home, I basically wanted to go to my detail page.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 166,
+      "start": 627.68,
+      "end": 633.98,
+      "duration": 6.3,
+      "startTimestamp": "00:10:27.680",
+      "endTimestamp": "00:10:33.980",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0167",
+    "text": "So let me just give it a screen prop.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 167,
+      "start": 634.2,
+      "end": 636.68,
+      "duration": 2.48,
+      "startTimestamp": "00:10:34.200",
+      "endTimestamp": "00:10:36.680",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0168",
+    "text": "And this screen is going to accept a details then now these details is make sure to match",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 168,
+      "start": 637.3,
+      "end": 644.899,
+      "duration": 7.599,
+      "startTimestamp": "00:10:37.300",
+      "endTimestamp": "00:10:44.899",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0169",
+    "text": "with this name if this is not going to match error will throw here nice and then inside",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 169,
+      "start": 644.9,
+      "end": 652.5,
+      "duration": 7.6,
+      "startTimestamp": "00:10:44.900",
+      "endTimestamp": "00:10:52.500",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0170",
+    "text": "this screen you can simply say go to details no problem and if I save it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 170,
+      "start": 652.6,
+      "end": 658,
+      "duration": 5.4,
+      "startTimestamp": "00:10:52.600",
+      "endTimestamp": "00:10:58.000",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0171",
+    "text": "Look, you can ignore this for now.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 171,
+      "start": 658.001,
+      "end": 660.12,
+      "duration": 2.119,
+      "startTimestamp": "00:10:58.001",
+      "endTimestamp": "00:11:00.120",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0172",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 172,
+      "start": 660.52,
+      "end": 660.66,
+      "duration": 0.14,
+      "startTimestamp": "00:11:00.520",
+      "endTimestamp": "00:11:00.660",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0173",
+    "text": "But if I just simply press on go to details and boom, look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 173,
+      "start": 660.661,
+      "end": 665.5,
+      "duration": 4.839,
+      "startTimestamp": "00:11:00.661",
+      "endTimestamp": "00:11:05.500",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0174",
+    "text": "I am redirected to details page and you will see that they are in properly stacked behavior",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 174,
+      "start": 665.52,
+      "end": 671.28,
+      "duration": 5.76,
+      "startTimestamp": "00:11:05.520",
+      "endTimestamp": "00:11:11.280",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0175",
+    "text": "because they are also showing me a back button and the moment I press on back, I'm redirected",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 175,
+      "start": 671.281,
+      "end": 676.78,
+      "duration": 5.499,
+      "startTimestamp": "00:11:11.281",
+      "endTimestamp": "00:11:16.780",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0176",
+    "text": "to home once again.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 176,
+      "start": 676.781,
+      "end": 677.84,
+      "duration": 1.059,
+      "startTimestamp": "00:11:16.781",
+      "endTimestamp": "00:11:17.840",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0177",
+    "text": "Easy. So, this is how you can basically, this is very basic simulation. Perfect. So, this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 177,
+      "start": 678.2,
+      "end": 685.22,
+      "duration": 7.02,
+      "startTimestamp": "00:11:18.200",
+      "endTimestamp": "00:11:25.220",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0178",
+    "text": "is how you can basically implement this and see everything in action. In same way, if",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 178,
+      "start": 685.28,
+      "end": 692.52,
+      "duration": 7.24,
+      "startTimestamp": "00:11:25.280",
+      "endTimestamp": "00:11:32.520",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0179",
+    "text": "you wanted to create another screen, let us say I wanted to create a profile screen. So,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 179,
+      "start": 692.56,
+      "end": 697.74,
+      "duration": 5.18,
+      "startTimestamp": "00:11:32.560",
+      "endTimestamp": "00:11:37.740",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0180",
+    "text": "I will simply going to say this as profile.tsx, rnfes and this will become profile. Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 180,
+      "start": 697.741,
+      "end": 705.98,
+      "duration": 8.239,
+      "startTimestamp": "00:11:37.741",
+      "endTimestamp": "00:11:45.980",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0181",
+    "text": "What next?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 181,
+      "start": 705.981,
+      "end": 706.96,
+      "duration": 0.979,
+      "startTimestamp": "00:11:45.981",
+      "endTimestamp": "00:11:46.960",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0182",
+    "text": "First of all, let me go to home page easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 182,
+      "start": 707.4,
+      "end": 709.92,
+      "duration": 2.52,
+      "startTimestamp": "00:11:47.400",
+      "endTimestamp": "00:11:49.920",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0183",
+    "text": "Now next is going to be I need to go my app.tsx in same way let me oops okay let me just simply",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 183,
+      "start": 710.3,
+      "end": 718.28,
+      "duration": 7.98,
+      "startTimestamp": "00:11:50.300",
+      "endTimestamp": "00:11:58.280",
+      "estimatedTokens": 30
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0184",
+    "text": "copy this and paste this now give the name so let me just call that call that a profile",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 184,
+      "start": 718.281,
+      "end": 724.58,
+      "duration": 6.299,
+      "startTimestamp": "00:11:58.281",
+      "endTimestamp": "00:12:04.580",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0185",
+    "text": "and you will say this profile.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 185,
+      "start": 725.14,
+      "end": 727.18,
+      "duration": 2.04,
+      "startTimestamp": "00:12:05.140",
+      "endTimestamp": "00:12:07.180",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0186",
+    "text": "and save it. Now let's say from detail I wanted to go to profile page. Now it's up to you",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 186,
+      "start": 727.5,
+      "end": 734.72,
+      "duration": 7.22,
+      "startTimestamp": "00:12:07.500",
+      "endTimestamp": "00:12:14.720",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0187",
+    "text": "how you wanted to manage them. Now link is going to accept the screen then make sure",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 187,
+      "start": 734.74,
+      "end": 740.84,
+      "duration": 6.1,
+      "startTimestamp": "00:12:14.740",
+      "endTimestamp": "00:12:20.840",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0188",
+    "text": "to give the correct name.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 188,
+      "start": 740.841,
+      "end": 742.28,
+      "duration": 1.439,
+      "startTimestamp": "00:12:20.841",
+      "endTimestamp": "00:12:22.280",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0189",
+    "text": "So, this is going to be profile and I'm simply say this is go to profile.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 189,
+      "start": 743.1,
+      "end": 748.54,
+      "duration": 5.44,
+      "startTimestamp": "00:12:23.100",
+      "endTimestamp": "00:12:28.540",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0190",
+    "text": "Easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 190,
+      "start": 749.6,
+      "end": 749.819,
+      "duration": 0.219,
+      "startTimestamp": "00:12:29.600",
+      "endTimestamp": "00:12:29.819",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0191",
+    "text": "And now first of all, let me go to details and inside details I have go to profile and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 191,
+      "start": 750.3389999999999,
+      "end": 756.319,
+      "duration": 5.98,
+      "startTimestamp": "00:12:30.339",
+      "endTimestamp": "00:12:36.319",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0192",
+    "text": "if I click on go to profile, I am on profile.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 192,
+      "start": 756.32,
+      "end": 758.94,
+      "duration": 2.62,
+      "startTimestamp": "00:12:36.320",
+      "endTimestamp": "00:12:38.940",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0193",
+    "text": "I can go back.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 193,
+      "start": 759.1,
+      "end": 759.94,
+      "duration": 0.84,
+      "startTimestamp": "00:12:39.100",
+      "endTimestamp": "00:12:39.940",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0194",
+    "text": "But now if I press on back, I am navigated to details page.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 194,
+      "start": 760.279,
+      "end": 765.44,
+      "duration": 5.161,
+      "startTimestamp": "00:12:40.279",
+      "endTimestamp": "00:12:45.440",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0195",
+    "text": "But if I now press on details patch.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 195,
+      "start": 765.66,
+      "end": 767.62,
+      "duration": 1.96,
+      "startTimestamp": "00:12:45.660",
+      "endTimestamp": "00:12:47.620",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0196",
+    "text": "I am back push back to basically home page easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 196,
+      "start": 767.8,
+      "end": 774.019,
+      "duration": 6.219,
+      "startTimestamp": "00:12:47.800",
+      "endTimestamp": "00:12:54.019",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0197",
+    "text": "So I hope so that makes sense how you can basically implement this very very very basic",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 197,
+      "start": 774.24,
+      "end": 780.58,
+      "duration": 6.34,
+      "startTimestamp": "00:12:54.240",
+      "endTimestamp": "00:13:00.580",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0198",
+    "text": "navigation easy from next chapter we are going to understand about.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 198,
+      "start": 780.581,
+      "end": 785.839,
+      "duration": 5.258,
+      "startTimestamp": "00:13:00.581",
+      "endTimestamp": "00:13:05.839",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0199",
+    "text": "more understand about something known as navigation hook like we have bunch of methods into that",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 199,
+      "start": 786.519,
+      "end": 793.2,
+      "duration": 6.681,
+      "startTimestamp": "00:13:06.519",
+      "endTimestamp": "00:13:13.200",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0200",
+    "text": "going to understand bunch of them line by line and have a very great implementation",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 200,
+      "start": 793.42,
+      "end": 798.279,
+      "duration": 4.859,
+      "startTimestamp": "00:13:13.420",
+      "endTimestamp": "00:13:18.279",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0201",
+    "text": "for it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 201,
+      "start": 798.32,
+      "end": 798.86,
+      "duration": 0.54,
+      "startTimestamp": "00:13:18.320",
+      "endTimestamp": "00:13:18.860",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_0202",
+    "text": "So yeah this is pretty much it for this chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "fileName": "2. Setting Up React Navigation in Expo_epm.vtt",
+      "captionIndex": 202,
+      "start": 799.18,
+      "end": 803.18,
+      "duration": 4,
+      "startTimestamp": "00:13:19.180",
+      "endTimestamp": "00:13:23.180",
+      "estimatedTokens": 20
+    }
+  }
+]

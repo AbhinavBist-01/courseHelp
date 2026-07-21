@@ -1,0 +1,4277 @@
+[
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0001",
+    "text": "All right, everyone, and welcome to chapter number four.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 1,
+      "start": 0,
+      "end": 3.82,
+      "duration": 3.82,
+      "startTimestamp": "00:00:00.000",
+      "endTimestamp": "00:00:03.820",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0002",
+    "text": "In this chapter, we are going to implement the Pokemon detail screen.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 2,
+      "start": 3.9,
+      "end": 8.039,
+      "duration": 4.139,
+      "startTimestamp": "00:00:03.900",
+      "endTimestamp": "00:00:08.039",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0003",
+    "text": "So the moment you click on any Pokemon card, you are going to be redirected towards the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 3,
+      "start": 8.38,
+      "end": 13.82,
+      "duration": 5.44,
+      "startTimestamp": "00:00:08.380",
+      "endTimestamp": "00:00:13.820",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0004",
+    "text": "detail page of that specific Pokemon.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 4,
+      "start": 13.9,
+      "end": 16.34,
+      "duration": 2.44,
+      "startTimestamp": "00:00:13.900",
+      "endTimestamp": "00:00:16.340",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0005",
+    "text": "So this chapter is all about that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 5,
+      "start": 16.48,
+      "end": 18.3,
+      "duration": 1.82,
+      "startTimestamp": "00:00:16.480",
+      "endTimestamp": "00:00:18.300",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0006",
+    "text": "So let's move ahead and without wasting any time, start implementing it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 6,
+      "start": 18.59,
+      "end": 23.8,
+      "duration": 5.21,
+      "startTimestamp": "00:00:18.590",
+      "endTimestamp": "00:00:23.800",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0007",
+    "text": "So, for that definitely you just simply need to click on any of the Pokemon and you will",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 7,
+      "start": 23.9,
+      "end": 30.4,
+      "duration": 6.5,
+      "startTimestamp": "00:00:23.900",
+      "endTimestamp": "00:00:30.400",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0008",
+    "text": "be redirected to this empty screen.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 8,
+      "start": 30.401,
+      "end": 33.12,
+      "duration": 2.719,
+      "startTimestamp": "00:00:30.401",
+      "endTimestamp": "00:00:33.120",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0009",
+    "text": "So, let me just click it once again and let us move inside this Pokemon detail page and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 9,
+      "start": 33.739,
+      "end": 40.66,
+      "duration": 6.921,
+      "startTimestamp": "00:00:33.739",
+      "endTimestamp": "00:00:40.660",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0010",
+    "text": "start implementing it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 10,
+      "start": 40.661,
+      "end": 42.239,
+      "duration": 1.578,
+      "startTimestamp": "00:00:40.661",
+      "endTimestamp": "00:00:42.239",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0011",
+    "text": "So, for that definitely first of all, let me just paste all my styles related thing",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 11,
+      "start": 43.12,
+      "end": 49.38,
+      "duration": 6.26,
+      "startTimestamp": "00:00:43.120",
+      "endTimestamp": "00:00:49.380",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0012",
+    "text": "and definitely you guys also need to do the same.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 12,
+      "start": 49.9,
+      "end": 52.56,
+      "duration": 2.66,
+      "startTimestamp": "00:00:49.900",
+      "endTimestamp": "00:00:52.560",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0013",
+    "text": "So, let me paste all the styles related thing first of all.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 13,
+      "start": 53.42,
+      "end": 56.64,
+      "duration": 3.22,
+      "startTimestamp": "00:00:53.420",
+      "endTimestamp": "00:00:56.640",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0014",
+    "text": "So, let me import my colors.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 14,
+      "start": 56.76,
+      "end": 58.54,
+      "duration": 1.78,
+      "startTimestamp": "00:00:56.760",
+      "endTimestamp": "00:00:58.540",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0015",
+    "text": "So, you will see that I have container header safe area and lot of bunch of CSS related",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 15,
+      "start": 59.54,
+      "end": 67.36,
+      "duration": 7.82,
+      "startTimestamp": "00:00:59.540",
+      "endTimestamp": "00:01:07.360",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0016",
+    "text": "things.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 16,
+      "start": 67.361,
+      "end": 67.6,
+      "duration": 0.239,
+      "startTimestamp": "00:01:07.361",
+      "endTimestamp": "00:01:07.600",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0017",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 17,
+      "start": 67.78,
+      "end": 67.979,
+      "duration": 0.199,
+      "startTimestamp": "00:01:07.780",
+      "endTimestamp": "00:01:07.979",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0018",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 18,
+      "start": 69.06,
+      "end": 69.34,
+      "duration": 0.28,
+      "startTimestamp": "00:01:09.060",
+      "endTimestamp": "00:01:09.340",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0019",
+    "text": "Let's move ahead.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 19,
+      "start": 70.22,
+      "end": 71.12,
+      "duration": 0.9,
+      "startTimestamp": "00:01:10.220",
+      "endTimestamp": "00:01:11.120",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0020",
+    "text": "And start importing bunch of other thing as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 20,
+      "start": 71.6,
+      "end": 75.06,
+      "duration": 3.46,
+      "startTimestamp": "00:01:11.600",
+      "endTimestamp": "00:01:15.060",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0021",
+    "text": "Like let me just simply write here const route and let me off my AI.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 21,
+      "start": 75.5,
+      "end": 81.06,
+      "duration": 5.56,
+      "startTimestamp": "00:01:15.500",
+      "endTimestamp": "00:01:21.060",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0022",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 22,
+      "start": 82.22,
+      "end": 82.479,
+      "duration": 0.259,
+      "startTimestamp": "00:01:22.220",
+      "endTimestamp": "00:01:22.479",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0023",
+    "text": "So const route is equals to use route and make sure to import from react navigation.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 23,
+      "start": 82.979,
+      "end": 88.42,
+      "duration": 5.441,
+      "startTimestamp": "00:01:22.979",
+      "endTimestamp": "00:01:28.420",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0024",
+    "text": "And this route is going to be the type of Pokemon detail screen route prop, perfect",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 24,
+      "start": 89.1,
+      "end": 97.78,
+      "duration": 8.68,
+      "startTimestamp": "00:01:29.100",
+      "endTimestamp": "00:01:37.780",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0025",
+    "text": "because they have this Pokemon detail and Pokemon detail is the type of this simple",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 25,
+      "start": 97.781,
+      "end": 104.22,
+      "duration": 6.439,
+      "startTimestamp": "00:01:37.781",
+      "endTimestamp": "00:01:44.220",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0026",
+    "text": "basic typescript thing.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 26,
+      "start": 105.68,
+      "end": 106.72,
+      "duration": 1.04,
+      "startTimestamp": "00:01:45.680",
+      "endTimestamp": "00:01:46.720",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0027",
+    "text": "And then let me also initialize my navigation, navigation should also come from expo navigation",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 27,
+      "start": 107.36,
+      "end": 114.38,
+      "duration": 7.02,
+      "startTimestamp": "00:01:47.360",
+      "endTimestamp": "00:01:54.380",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0028",
+    "text": "And then let me extract my Pokemon from route params. Why this is coming from route params?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 28,
+      "start": 115.8,
+      "end": 123.34,
+      "duration": 7.54,
+      "startTimestamp": "00:01:55.800",
+      "endTimestamp": "00:02:03.340",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0029",
+    "text": "Because every time when let me go to home screen and then let you know. So every time when you",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 29,
+      "start": 123.86,
+      "end": 130.26,
+      "duration": 6.4,
+      "startTimestamp": "00:02:03.860",
+      "endTimestamp": "00:02:10.260",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0030",
+    "text": "click on any card you will see that we are calling this function name as handle card press.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 30,
+      "start": 130.261,
+      "end": 137.28,
+      "duration": 7.019,
+      "startTimestamp": "00:02:10.261",
+      "endTimestamp": "00:02:17.280",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0031",
+    "text": "And by pressing here we are navigating to this page by this data.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 31,
+      "start": 137.6,
+      "end": 142.5,
+      "duration": 4.9,
+      "startTimestamp": "00:02:17.600",
+      "endTimestamp": "00:02:22.500",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0032",
+    "text": "So this is what I am talking about and we are extracting that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 32,
+      "start": 142.501,
+      "end": 146.36,
+      "duration": 3.859,
+      "startTimestamp": "00:02:22.501",
+      "endTimestamp": "00:02:26.360",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0033",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 33,
+      "start": 146.9,
+      "end": 147.12,
+      "duration": 0.22,
+      "startTimestamp": "00:02:26.900",
+      "endTimestamp": "00:02:27.120",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0034",
+    "text": "And then let me just simply write here the main type and this is going to be as Pokemon",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 34,
+      "start": 147.72,
+      "end": 154.54,
+      "duration": 6.82,
+      "startTimestamp": "00:02:27.720",
+      "endTimestamp": "00:02:34.540",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0035",
+    "text": "dot types the 0 because a Pokemon can have multiple types but let me just simply extract",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 35,
+      "start": 155.06,
+      "end": 161.56,
+      "duration": 6.5,
+      "startTimestamp": "00:02:35.060",
+      "endTimestamp": "00:02:41.560",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0036",
+    "text": "the 0th index type.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 36,
+      "start": 161.561,
+      "end": 163.76,
+      "duration": 2.199,
+      "startTimestamp": "00:02:41.561",
+      "endTimestamp": "00:02:43.760",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0037",
+    "text": "name and let me just get the color of it. So, accent color is equals to get type color",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 37,
+      "start": 165.4,
+      "end": 174.78,
+      "duration": 9.38,
+      "startTimestamp": "00:02:45.400",
+      "endTimestamp": "00:02:54.780",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0038",
+    "text": "and then let me just pass my main type effect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 38,
+      "start": 175.12,
+      "end": 178.88,
+      "duration": 3.76,
+      "startTimestamp": "00:02:55.120",
+      "endTimestamp": "00:02:58.880",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0039",
+    "text": "And then let me start implementing the design.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 39,
+      "start": 180.1,
+      "end": 182.98,
+      "duration": 2.88,
+      "startTimestamp": "00:03:00.100",
+      "endTimestamp": "00:03:02.980",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0040",
+    "text": "So the first thing is going to be view, which is the type of styles.container.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 40,
+      "start": 183.12,
+      "end": 189.76,
+      "duration": 6.64,
+      "startTimestamp": "00:03:03.120",
+      "endTimestamp": "00:03:09.760",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0041",
+    "text": "And then inside this, let me also import this status bar.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 41,
+      "start": 190.2,
+      "end": 194.26,
+      "duration": 4.06,
+      "startTimestamp": "00:03:10.200",
+      "endTimestamp": "00:03:14.260",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0042",
+    "text": "And this status bar will also basically come from a component named as status bar.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 42,
+      "start": 194.98,
+      "end": 201.02,
+      "duration": 6.04,
+      "startTimestamp": "00:03:14.980",
+      "endTimestamp": "00:03:21.020",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0043",
+    "text": "For now, let me just import this specific status bar from expo status bar.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 43,
+      "start": 201.8,
+      "end": 209.56,
+      "duration": 7.76,
+      "startTimestamp": "00:03:21.800",
+      "endTimestamp": "00:03:29.560",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0044",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 44,
+      "start": 209.72,
+      "end": 209.88,
+      "duration": 0.16,
+      "startTimestamp": "00:03:29.720",
+      "endTimestamp": "00:03:29.880",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0045",
+    "text": "So, below this just simply says status bar and make sure to import that from expo and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 45,
+      "start": 209.96,
+      "end": 218.04,
+      "duration": 8.08,
+      "startTimestamp": "00:03:29.960",
+      "endTimestamp": "00:03:38.040",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0046",
+    "text": "then add the style as light and then let me simply paste it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 46,
+      "start": 218.041,
+      "end": 223.14,
+      "duration": 5.099,
+      "startTimestamp": "00:03:38.041",
+      "endTimestamp": "00:03:43.140",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0047",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 47,
+      "start": 223.32,
+      "end": 223.52,
+      "duration": 0.2,
+      "startTimestamp": "00:03:43.320",
+      "endTimestamp": "00:03:43.520",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0048",
+    "text": "And then below this, let me handle the scroll area.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 48,
+      "start": 223.84,
+      "end": 227.94,
+      "duration": 4.1,
+      "startTimestamp": "00:03:43.840",
+      "endTimestamp": "00:03:47.940",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0049",
+    "text": "So, let me simply say this as scroll view.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 49,
+      "start": 228.1,
+      "end": 231.24,
+      "duration": 3.14,
+      "startTimestamp": "00:03:48.100",
+      "endTimestamp": "00:03:51.240",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0050",
+    "text": "This scroll view is first of all going to accept a prop as show vertical scroll indicator",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 50,
+      "start": 232.12,
+      "end": 239.2,
+      "duration": 7.08,
+      "startTimestamp": "00:03:52.120",
+      "endTimestamp": "00:03:59.200",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0051",
+    "text": "and this is going to be as false.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 51,
+      "start": 240.12,
+      "end": 242,
+      "duration": 1.88,
+      "startTimestamp": "00:04:00.120",
+      "endTimestamp": "00:04:02.000",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0052",
+    "text": "And inside this scroll view, I wanted to show my header image area.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 52,
+      "start": 242.56,
+      "end": 247.38,
+      "duration": 4.82,
+      "startTimestamp": "00:04:02.560",
+      "endTimestamp": "00:04:07.380",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0053",
+    "text": "So, I am just simply going to say this as view perfect and this view is basically going",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 53,
+      "start": 247.9,
+      "end": 255.42,
+      "duration": 7.52,
+      "startTimestamp": "00:04:07.900",
+      "endTimestamp": "00:04:15.420",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0054",
+    "text": "to have bunch of style.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 54,
+      "start": 255.421,
+      "end": 256.919,
+      "duration": 1.498,
+      "startTimestamp": "00:04:15.421",
+      "endTimestamp": "00:04:16.919",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0055",
+    "text": "So, let me just first of all open here array and first is going to be header perfect and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 55,
+      "start": 257.899,
+      "end": 264.539,
+      "duration": 6.64,
+      "startTimestamp": "00:04:17.899",
+      "endTimestamp": "00:04:24.539",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0056",
+    "text": "cool and then second after adding simple comma let me just simply say this as background",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 56,
+      "start": 264.74,
+      "end": 271.26,
+      "duration": 6.52,
+      "startTimestamp": "00:04:24.740",
+      "endTimestamp": "00:04:31.260",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0057",
+    "text": "color has co colors dot card.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 57,
+      "start": 271.8,
+      "end": 276.62,
+      "duration": 4.82,
+      "startTimestamp": "00:04:31.800",
+      "endTimestamp": "00:04:36.620",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0058",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 58,
+      "start": 278.099,
+      "end": 278.3,
+      "duration": 0.201,
+      "startTimestamp": "00:04:38.099",
+      "endTimestamp": "00:04:38.300",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0059",
+    "text": "Look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 59,
+      "start": 278.46,
+      "end": 278.94,
+      "duration": 0.48,
+      "startTimestamp": "00:04:38.460",
+      "endTimestamp": "00:04:38.940",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0060",
+    "text": "This is what I'm talking about.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 60,
+      "start": 279.12,
+      "end": 280.9,
+      "duration": 1.78,
+      "startTimestamp": "00:04:39.120",
+      "endTimestamp": "00:04:40.900",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0061",
+    "text": "And then below this, let me have a safe area view.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 61,
+      "start": 281.34000000000003,
+      "end": 286.099,
+      "duration": 4.759,
+      "startTimestamp": "00:04:41.340",
+      "endTimestamp": "00:04:46.099",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0062",
+    "text": "Make sure to import this from area context.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 62,
+      "start": 286.539,
+      "end": 290.02,
+      "duration": 3.481,
+      "startTimestamp": "00:04:46.539",
+      "endTimestamp": "00:04:50.020",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0063",
+    "text": "And, then we are basically going to have a style.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 63,
+      "start": 290.8,
+      "end": 294.08,
+      "duration": 3.28,
+      "startTimestamp": "00:04:50.800",
+      "endTimestamp": "00:04:54.080",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0064",
+    "text": "This style is also going to be equals to styles.safeArea.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 64,
+      "start": 294.759,
+      "end": 299.259,
+      "duration": 4.5,
+      "startTimestamp": "00:04:54.759",
+      "endTimestamp": "00:04:59.259",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0065",
+    "text": "And then inside this I am going to render one view and this view is going to show us",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 65,
+      "start": 300.94,
+      "end": 307.06,
+      "duration": 6.12,
+      "startTimestamp": "00:05:00.940",
+      "endTimestamp": "00:05:07.060",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0066",
+    "text": "the iron icon of arrow back.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 66,
+      "start": 307.199,
+      "end": 309.24,
+      "duration": 2.041,
+      "startTimestamp": "00:05:07.199",
+      "endTimestamp": "00:05:09.240",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0067",
+    "text": "Perfect, so let me paste that, you will see that and let me import my iron icons from",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 67,
+      "start": 309.5,
+      "end": 315.82,
+      "duration": 6.32,
+      "startTimestamp": "00:05:09.500",
+      "endTimestamp": "00:05:15.820",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0068",
+    "text": "vector icons, the name of arrow back, size, color and go back and if I save it, this is",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 68,
+      "start": 315.821,
+      "end": 321.86,
+      "duration": 6.039,
+      "startTimestamp": "00:05:15.821",
+      "endTimestamp": "00:05:21.860",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0069",
+    "text": "how they are going to look.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 69,
+      "start": 321.861,
+      "end": 323.06,
+      "duration": 1.199,
+      "startTimestamp": "00:05:21.861",
+      "endTimestamp": "00:05:23.060",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0070",
+    "text": "But let me just add bunch of styles here as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 70,
+      "start": 323.66,
+      "end": 326.4,
+      "duration": 2.74,
+      "startTimestamp": "00:05:23.660",
+      "endTimestamp": "00:05:26.400",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0071",
+    "text": "So this is going to be styles.navbar and now if I save it, this is how they aligned properly.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 71,
+      "start": 327.08,
+      "end": 333.36,
+      "duration": 6.28,
+      "startTimestamp": "00:05:27.080",
+      "endTimestamp": "00:05:33.360",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0072",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 72,
+      "start": 334.98,
+      "end": 335.5,
+      "duration": 0.52,
+      "startTimestamp": "00:05:34.980",
+      "endTimestamp": "00:05:35.500",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0073",
+    "text": "And then below this, I wanted to show my Pokemon ID.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 73,
+      "start": 335.78,
+      "end": 338.76,
+      "duration": 2.98,
+      "startTimestamp": "00:05:35.780",
+      "endTimestamp": "00:05:38.760",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0074",
+    "text": "So this is going to be a simple hashtag.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 74,
+      "start": 339.64,
+      "end": 341.94,
+      "duration": 2.3,
+      "startTimestamp": "00:05:39.640",
+      "endTimestamp": "00:05:41.940",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0075",
+    "text": "And then inside this, let me get this string.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 75,
+      "start": 342.9,
+      "end": 345.56,
+      "duration": 2.66,
+      "startTimestamp": "00:05:42.900",
+      "endTimestamp": "00:05:45.560",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0076",
+    "text": "And this string is going to accept Pokemon dot and we have the ID for it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 76,
+      "start": 347.32,
+      "end": 353.92,
+      "duration": 6.6,
+      "startTimestamp": "00:05:47.320",
+      "endTimestamp": "00:05:53.920",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0077",
+    "text": "Let me just simply say pad start.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 77,
+      "start": 354.44,
+      "end": 356.54,
+      "duration": 2.1,
+      "startTimestamp": "00:05:54.440",
+      "endTimestamp": "00:05:56.540",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0078",
+    "text": "This is going to be something like this and if I save it, this is how this #0001 looks",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 78,
+      "start": 362.18,
+      "end": 369.36,
+      "duration": 7.18,
+      "startTimestamp": "00:06:02.180",
+      "endTimestamp": "00:06:09.360",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0079",
+    "text": "to us.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 79,
+      "start": 369.419,
+      "end": 369.94,
+      "duration": 0.521,
+      "startTimestamp": "00:06:09.419",
+      "endTimestamp": "00:06:09.940",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0080",
+    "text": "Then, let me simply add one style here as well and then I am simply going to say this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 80,
+      "start": 370.979,
+      "end": 376.18,
+      "duration": 5.201,
+      "startTimestamp": "00:06:10.979",
+      "endTimestamp": "00:06:16.180",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0081",
+    "text": "as styles.headerId and now if I save it, this is how they look.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 81,
+      "start": 376.24,
+      "end": 381.82,
+      "duration": 5.58,
+      "startTimestamp": "00:06:16.240",
+      "endTimestamp": "00:06:21.820",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0082",
+    "text": "Perfect, now out of this view let me coming to here, let me open one more new view, this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 82,
+      "start": 382.2,
+      "end": 390.26,
+      "duration": 8.06,
+      "startTimestamp": "00:06:22.200",
+      "endTimestamp": "00:06:30.260",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0083",
+    "text": "view is going to have a style of styles.imageContainer, so this will become now image container and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 83,
+      "start": 390.261,
+      "end": 400.94,
+      "duration": 10.679,
+      "startTimestamp": "00:06:30.261",
+      "endTimestamp": "00:06:40.940",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0084",
+    "text": "this image container is going to show us the image.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 84,
+      "start": 400.94100000000003,
+      "end": 404.34000000000003,
+      "duration": 3.399,
+      "startTimestamp": "00:06:40.941",
+      "endTimestamp": "00:06:44.340",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0085",
+    "text": "So, now let me import my image component from react native.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 85,
+      "start": 404.6,
+      "end": 409.62,
+      "duration": 5.02,
+      "startTimestamp": "00:06:44.600",
+      "endTimestamp": "00:06:49.620",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0086",
+    "text": "So, now this is how my store, source of it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 86,
+      "start": 410.35,
+      "end": 413.3,
+      "duration": 2.95,
+      "startTimestamp": "00:06:50.350",
+      "endTimestamp": "00:06:53.300",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0087",
+    "text": "So, Pokemon sprites other official artwork.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 87,
+      "start": 413.32,
+      "end": 415.98,
+      "duration": 2.66,
+      "startTimestamp": "00:06:53.320",
+      "endTimestamp": "00:06:55.980",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0088",
+    "text": "This is how they come and front default and this is the style of image and if I save it,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 88,
+      "start": 416.15999999999997,
+      "end": 422.32,
+      "duration": 6.16,
+      "startTimestamp": "00:06:56.160",
+      "endTimestamp": "00:07:02.320",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0089",
+    "text": "this is the style of our opened tabbed Pokemon.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 89,
+      "start": 422.7,
+      "end": 427.22,
+      "duration": 4.52,
+      "startTimestamp": "00:07:02.700",
+      "endTimestamp": "00:07:07.220",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0090",
+    "text": "Let me show you once again.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 90,
+      "start": 427.34,
+      "end": 428.22,
+      "duration": 0.88,
+      "startTimestamp": "00:07:07.340",
+      "endTimestamp": "00:07:08.220",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0091",
+    "text": "Let me search for electric and let me press on Pikachu.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 91,
+      "start": 429.2,
+      "end": 433.26,
+      "duration": 4.06,
+      "startTimestamp": "00:07:09.200",
+      "endTimestamp": "00:07:13.260",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0092",
+    "text": "You will see that the image is showing off Pikachu.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 92,
+      "start": 433.36,
+      "end": 436.26,
+      "duration": 2.9,
+      "startTimestamp": "00:07:13.360",
+      "endTimestamp": "00:07:16.260",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0093",
+    "text": "Easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 93,
+      "start": 436.78,
+      "end": 436.94,
+      "duration": 0.16,
+      "startTimestamp": "00:07:16.780",
+      "endTimestamp": "00:07:16.940",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0094",
+    "text": "And you can definitely grab multiple images as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 94,
+      "start": 437.14,
+      "end": 442.24,
+      "duration": 5.1,
+      "startTimestamp": "00:07:17.140",
+      "endTimestamp": "00:07:22.240",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0095",
+    "text": "Like below this you can add basic carousal kind of thing.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 95,
+      "start": 442.52,
+      "end": 445.68,
+      "duration": 3.16,
+      "startTimestamp": "00:07:22.520",
+      "endTimestamp": "00:07:25.680",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0096",
+    "text": "And like we have front default in same way we can have back side as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 96,
+      "start": 446.34,
+      "end": 450.38,
+      "duration": 4.04,
+      "startTimestamp": "00:07:26.340",
+      "endTimestamp": "00:07:30.380",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0097",
+    "text": "If you search for it, then you can also render that if you wanted to.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 97,
+      "start": 450.52,
+      "end": 454.26,
+      "duration": 3.74,
+      "startTimestamp": "00:07:30.520",
+      "endTimestamp": "00:07:34.260",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0098",
+    "text": "Perfect, now out of this view like you will see that we have this scroll area and let",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 98,
+      "start": 455.74,
+      "end": 462.74,
+      "duration": 7,
+      "startTimestamp": "00:07:35.740",
+      "endTimestamp": "00:07:42.740",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0099",
+    "text": "me remove this text and out of this scroll area and this view I wanted you to do one",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 99,
+      "start": 462.741,
+      "end": 469.84000000000003,
+      "duration": 7.099,
+      "startTimestamp": "00:07:42.741",
+      "endTimestamp": "00:07:49.840",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0100",
+    "text": "thing more and first of all this is a scroll and this view.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 100,
+      "start": 469.841,
+      "end": 473.86,
+      "duration": 4.019,
+      "startTimestamp": "00:07:49.841",
+      "endTimestamp": "00:07:53.860",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0101",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 101,
+      "start": 474.74,
+      "end": 475.18,
+      "duration": 0.44,
+      "startTimestamp": "00:07:54.740",
+      "endTimestamp": "00:07:55.180",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0102",
+    "text": "So, this is basically going to be something like cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 102,
+      "start": 476.36,
+      "end": 481.36,
+      "duration": 5,
+      "startTimestamp": "00:07:56.360",
+      "endTimestamp": "00:08:01.360",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0103",
+    "text": "So, you will see that we have the scroll area, scroll view basically not scroll area.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 103,
+      "start": 481.659,
+      "end": 485.94,
+      "duration": 4.281,
+      "startTimestamp": "00:08:01.659",
+      "endTimestamp": "00:08:05.940",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0104",
+    "text": "So, this one is for header and below this we wanted to show the content.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 104,
+      "start": 486.639,
+      "end": 490.879,
+      "duration": 4.24,
+      "startTimestamp": "00:08:06.639",
+      "endTimestamp": "00:08:10.879",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0105",
+    "text": "So, simply here I am just basically going to open one more new view and this view is",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 105,
+      "start": 491.46,
+      "end": 497.62,
+      "duration": 6.16,
+      "startTimestamp": "00:08:11.460",
+      "endTimestamp": "00:08:17.620",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0106",
+    "text": "going to have a style, styles of content.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 106,
+      "start": 497.621,
+      "end": 501.56,
+      "duration": 3.939,
+      "startTimestamp": "00:08:17.621",
+      "endTimestamp": "00:08:21.560",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0107",
+    "text": "not container, this is going to be style of container.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 107,
+      "start": 501.8,
+      "end": 505.28,
+      "duration": 3.48,
+      "startTimestamp": "00:08:21.800",
+      "endTimestamp": "00:08:25.280",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0108",
+    "text": "And first thing we wanted to show the name of our basically Pokemon.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 108,
+      "start": 506.099,
+      "end": 510.96,
+      "duration": 4.861,
+      "startTimestamp": "00:08:26.099",
+      "endTimestamp": "00:08:30.960",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0109",
+    "text": "And now if I save it, the name is coming something like this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 109,
+      "start": 511.199,
+      "end": 514.8389999999999,
+      "duration": 3.64,
+      "startTimestamp": "00:08:31.199",
+      "endTimestamp": "00:08:34.839",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0110",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 110,
+      "start": 515.399,
+      "end": 515.72,
+      "duration": 0.321,
+      "startTimestamp": "00:08:35.399",
+      "endTimestamp": "00:08:35.720",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0111",
+    "text": "And let me also try to format it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 111,
+      "start": 516.08,
+      "end": 518.299,
+      "duration": 2.219,
+      "startTimestamp": "00:08:36.080",
+      "endTimestamp": "00:08:38.299",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0112",
+    "text": "And this is how they look.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 112,
+      "start": 518.7,
+      "end": 519.82,
+      "duration": 1.12,
+      "startTimestamp": "00:08:38.700",
+      "endTimestamp": "00:08:39.820",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0113",
+    "text": "And we can also render the type badges of it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 113,
+      "start": 520.679,
+      "end": 523.559,
+      "duration": 2.88,
+      "startTimestamp": "00:08:40.679",
+      "endTimestamp": "00:08:43.559",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0114",
+    "text": "So this will going to become now view.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 114,
+      "start": 523.86,
+      "end": 525.92,
+      "duration": 2.06,
+      "startTimestamp": "00:08:43.860",
+      "endTimestamp": "00:08:45.920",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0115",
+    "text": "This view is going to have a style and this style is going to become styles.typeContainer",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 115,
+      "start": 526.6,
+      "end": 535.1,
+      "duration": 8.5,
+      "startTimestamp": "00:08:46.600",
+      "endTimestamp": "00:08:55.100",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0116",
+    "text": "and inside this let me just simply render them.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 116,
+      "start": 536.079,
+      "end": 539.16,
+      "duration": 3.081,
+      "startTimestamp": "00:08:56.079",
+      "endTimestamp": "00:08:59.160",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0117",
+    "text": "So Pokemon.types.map and they are going to have the access of type, all the type, implicit",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 117,
+      "start": 539.279,
+      "end": 549.38,
+      "duration": 10.101,
+      "startTimestamp": "00:08:59.279",
+      "endTimestamp": "00:09:09.380",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0118",
+    "text": "return it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 118,
+      "start": 549.66,
+      "end": 550.079,
+      "duration": 0.419,
+      "startTimestamp": "00:09:09.660",
+      "endTimestamp": "00:09:10.079",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0119",
+    "text": "And now I wanted to use the previously created type batch component.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 119,
+      "start": 550.48,
+      "end": 555.3,
+      "duration": 4.82,
+      "startTimestamp": "00:09:10.480",
+      "endTimestamp": "00:09:15.300",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0120",
+    "text": "And this is going to accept the t.type.name and then also going to accept the type and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 120,
+      "start": 555.8,
+      "end": 565.5,
+      "duration": 9.7,
+      "startTimestamp": "00:09:15.800",
+      "endTimestamp": "00:09:25.500",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0121",
+    "text": "this is going to be t.type.name once again and then size is going to become large.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 121,
+      "start": 565.7,
+      "end": 572.8389999999999,
+      "duration": 7.139,
+      "startTimestamp": "00:09:25.700",
+      "endTimestamp": "00:09:32.839",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0122",
+    "text": "Now, if I save it, this is how they are going to show us.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 122,
+      "start": 575.3,
+      "end": 579.1,
+      "duration": 3.8,
+      "startTimestamp": "00:09:35.300",
+      "endTimestamp": "00:09:39.100",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0123",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 123,
+      "start": 579.6,
+      "end": 579.92,
+      "duration": 0.32,
+      "startTimestamp": "00:09:39.600",
+      "endTimestamp": "00:09:39.920",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0124",
+    "text": "Now, out of this div, simply let's create a about section.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 124,
+      "start": 581.42,
+      "end": 586.96,
+      "duration": 5.54,
+      "startTimestamp": "00:09:41.420",
+      "endTimestamp": "00:09:46.960",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0125",
+    "text": "So let me just wrap this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 125,
+      "start": 587.22,
+      "end": 589.38,
+      "duration": 2.16,
+      "startTimestamp": "00:09:47.220",
+      "endTimestamp": "00:09:49.380",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0126",
+    "text": "thing only and here I just simply wanted to create about section so this is going to become",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 126,
+      "start": 589.4,
+      "end": 595.72,
+      "duration": 6.32,
+      "startTimestamp": "00:09:49.400",
+      "endTimestamp": "00:09:55.720",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0127",
+    "text": "one more new view.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 127,
+      "start": 595.721,
+      "end": 596.8,
+      "duration": 1.079,
+      "startTimestamp": "00:09:55.721",
+      "endTimestamp": "00:09:56.800",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0128",
+    "text": "This view is going to have a style and then style is going to become now styles.section",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 128,
+      "start": 597.6,
+      "end": 603.68,
+      "duration": 6.08,
+      "startTimestamp": "00:09:57.600",
+      "endTimestamp": "00:10:03.680",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0129",
+    "text": "perfect and this style section is going to show us the about text some with this bunch",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 129,
+      "start": 604.72,
+      "end": 610.64,
+      "duration": 5.92,
+      "startTimestamp": "00:10:04.720",
+      "endTimestamp": "00:10:10.640",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0130",
+    "text": "of styles something like this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 130,
+      "start": 610.641,
+      "end": 613.84,
+      "duration": 3.199,
+      "startTimestamp": "00:10:10.641",
+      "endTimestamp": "00:10:13.840",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0131",
+    "text": "And then here I simply wanted to show a bunch of weight, height, lot of information that",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 131,
+      "start": 615.06,
+      "end": 620.98,
+      "duration": 5.92,
+      "startTimestamp": "00:10:15.060",
+      "endTimestamp": "00:10:20.980",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0132",
+    "text": "we have.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 132,
+      "start": 620.981,
+      "end": 621.44,
+      "duration": 0.459,
+      "startTimestamp": "00:10:20.981",
+      "endTimestamp": "00:10:21.440",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0133",
+    "text": "So let me just open one more view.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 133,
+      "start": 622.38,
+      "end": 624.16,
+      "duration": 1.78,
+      "startTimestamp": "00:10:22.380",
+      "endTimestamp": "00:10:24.160",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0134",
+    "text": "This view is going to have a style, style of styles.row.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 134,
+      "start": 624.779,
+      "end": 628.74,
+      "duration": 3.961,
+      "startTimestamp": "00:10:24.779",
+      "endTimestamp": "00:10:28.740",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0135",
+    "text": "And then we are going to have another view.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 135,
+      "start": 630.54,
+      "end": 632.66,
+      "duration": 2.12,
+      "startTimestamp": "00:10:30.540",
+      "endTimestamp": "00:10:32.660",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0136",
+    "text": "And this another view is also going to have a style, style of styles.statitem.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 136,
+      "start": 634.18,
+      "end": 640.94,
+      "duration": 6.76,
+      "startTimestamp": "00:10:34.180",
+      "endTimestamp": "00:10:40.940",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0137",
+    "text": "This stat item is going to have another view and this view is going to show another style,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 137,
+      "start": 642.68,
+      "end": 650.42,
+      "duration": 7.74,
+      "startTimestamp": "00:10:42.680",
+      "endTimestamp": "00:10:50.420",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0138",
+    "text": "which is basically equal to styles.staticon.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 138,
+      "start": 651.66,
+      "end": 654.899,
+      "duration": 3.239,
+      "startTimestamp": "00:10:51.660",
+      "endTimestamp": "00:10:54.899",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0139",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 139,
+      "start": 656.579,
+      "end": 656.8,
+      "duration": 0.221,
+      "startTimestamp": "00:10:56.579",
+      "endTimestamp": "00:10:56.800",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0140",
+    "text": "And then I am going to show the scale outline icon, something like this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 140,
+      "start": 656.98,
+      "end": 662.16,
+      "duration": 5.18,
+      "startTimestamp": "00:10:56.980",
+      "endTimestamp": "00:11:02.160",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0141",
+    "text": "And if I save it, this is how the scale outline icon going to show to us.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 141,
+      "start": 662.339,
+      "end": 668,
+      "duration": 5.661,
+      "startTimestamp": "00:11:02.339",
+      "endTimestamp": "00:11:08.000",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0142",
+    "text": "Perfect and then below this I wanted to show the text out of this view.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 142,
+      "start": 668.4,
+      "end": 674.92,
+      "duration": 6.52,
+      "startTimestamp": "00:11:08.400",
+      "endTimestamp": "00:11:14.920",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0143",
+    "text": "So this one like if I save it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 143,
+      "start": 676.34,
+      "end": 678.98,
+      "duration": 2.64,
+      "startTimestamp": "00:11:16.340",
+      "endTimestamp": "00:11:18.980",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0144",
+    "text": "Alright why they are coming at this point?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 144,
+      "start": 679.38,
+      "end": 681.54,
+      "duration": 2.16,
+      "startTimestamp": "00:11:19.380",
+      "endTimestamp": "00:11:21.540",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0145",
+    "text": "So let me check and then I'll be right back.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 145,
+      "start": 682.32,
+      "end": 684.34,
+      "duration": 2.02,
+      "startTimestamp": "00:11:22.320",
+      "endTimestamp": "00:11:24.340",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0146",
+    "text": "All right, our design is already fine.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 146,
+      "start": 685.3,
+      "end": 687.819,
+      "duration": 2.519,
+      "startTimestamp": "00:11:25.300",
+      "endTimestamp": "00:11:27.819",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0147",
+    "text": "Just come here a minute.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 147,
+      "start": 688.319,
+      "end": 689.079,
+      "duration": 0.76,
+      "startTimestamp": "00:11:28.319",
+      "endTimestamp": "00:11:29.079",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0148",
+    "text": "Let me save it because this will basically going to show in kind of an grid format.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 148,
+      "start": 689.16,
+      "end": 693.9590000000001,
+      "duration": 4.799,
+      "startTimestamp": "00:11:29.160",
+      "endTimestamp": "00:11:33.959",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0149",
+    "text": "That's why the name is row.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 149,
+      "start": 694.259,
+      "end": 695.319,
+      "duration": 1.06,
+      "startTimestamp": "00:11:34.259",
+      "endTimestamp": "00:11:35.319",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0150",
+    "text": "So no, no problem.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 150,
+      "start": 695.899,
+      "end": 696.9590000000001,
+      "duration": 1.06,
+      "startTimestamp": "00:11:35.899",
+      "endTimestamp": "00:11:36.959",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0151",
+    "text": "We are doing good.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 151,
+      "start": 696.96,
+      "end": 698.139,
+      "duration": 1.179,
+      "startTimestamp": "00:11:36.960",
+      "endTimestamp": "00:11:38.139",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0152",
+    "text": "So you will see that we have this view.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 152,
+      "start": 698.68,
+      "end": 700.36,
+      "duration": 1.68,
+      "startTimestamp": "00:11:38.680",
+      "endTimestamp": "00:11:40.360",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0153",
+    "text": "You just need to copy this view and paste it once again.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 153,
+      "start": 701.22,
+      "end": 704.639,
+      "duration": 3.419,
+      "startTimestamp": "00:11:41.220",
+      "endTimestamp": "00:11:44.639",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0154",
+    "text": "And now instead of showing this scale outline I wanted to show the resize outline.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 154,
+      "start": 705.399,
+      "end": 713.72,
+      "duration": 8.321,
+      "startTimestamp": "00:11:45.399",
+      "endTimestamp": "00:11:53.720",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0155",
+    "text": "And instead of weight, I am going to say this as height and then this is going to become",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 155,
+      "start": 715.279,
+      "end": 721.22,
+      "duration": 5.941,
+      "startTimestamp": "00:11:55.279",
+      "endTimestamp": "00:12:01.220",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0156",
+    "text": "your height and instead of kg, this will become meter.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 156,
+      "start": 721.221,
+      "end": 727.959,
+      "duration": 6.738,
+      "startTimestamp": "00:12:01.221",
+      "endTimestamp": "00:12:07.959",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0157",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 157,
+      "start": 728.56,
+      "end": 728.8,
+      "duration": 0.24,
+      "startTimestamp": "00:12:08.560",
+      "endTimestamp": "00:12:08.800",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0158",
+    "text": "And if I save it, this is how they are going to look to us.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 158,
+      "start": 728.92,
+      "end": 731.54,
+      "duration": 2.62,
+      "startTimestamp": "00:12:08.920",
+      "endTimestamp": "00:12:11.540",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0159",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 159,
+      "start": 731.72,
+      "end": 731.86,
+      "duration": 0.14,
+      "startTimestamp": "00:12:11.720",
+      "endTimestamp": "00:12:11.860",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0160",
+    "text": "Now, in same way, we have another item as well, StatItem.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 160,
+      "start": 733.38,
+      "end": 738.04,
+      "duration": 4.66,
+      "startTimestamp": "00:12:13.380",
+      "endTimestamp": "00:12:18.040",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0161",
+    "text": "So let me paste it once again.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 161,
+      "start": 738.42,
+      "end": 739.98,
+      "duration": 1.56,
+      "startTimestamp": "00:12:18.420",
+      "endTimestamp": "00:12:19.980",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0162",
+    "text": "And then now instead of like everything is same, StatItem.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 162,
+      "start": 740.82,
+      "end": 746.88,
+      "duration": 6.06,
+      "startTimestamp": "00:12:20.820",
+      "endTimestamp": "00:12:26.880",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0163",
+    "text": "But now we don't need any icon for this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 163,
+      "start": 747.46,
+      "end": 749.94,
+      "duration": 2.48,
+      "startTimestamp": "00:12:27.460",
+      "endTimestamp": "00:12:29.940",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0164",
+    "text": "Instead of icon, I need a basic text.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 164,
+      "start": 750.88,
+      "end": 753.64,
+      "duration": 2.76,
+      "startTimestamp": "00:12:30.880",
+      "endTimestamp": "00:12:33.640",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0165",
+    "text": "So let me paste that text.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 165,
+      "start": 754.04,
+      "end": 755.86,
+      "duration": 1.82,
+      "startTimestamp": "00:12:34.040",
+      "endTimestamp": "00:12:35.860",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0166",
+    "text": "which is basically going to style.status label, which is as moves and then for moves, I am",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 166,
+      "start": 756,
+      "end": 763.84,
+      "duration": 7.84,
+      "startTimestamp": "00:12:36.000",
+      "endTimestamp": "00:12:43.840",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0167",
+    "text": "going to show all the moves that we have.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 167,
+      "start": 763.841,
+      "end": 765.96,
+      "duration": 2.119,
+      "startTimestamp": "00:12:43.841",
+      "endTimestamp": "00:12:45.960",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0168",
+    "text": "So let me remove this and let me paste this only.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 168,
+      "start": 766.14,
+      "end": 769.42,
+      "duration": 3.28,
+      "startTimestamp": "00:12:46.140",
+      "endTimestamp": "00:12:49.420",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0169",
+    "text": "So you will see the moves is now static.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 169,
+      "start": 770.16,
+      "end": 772.34,
+      "duration": 2.18,
+      "startTimestamp": "00:12:50.160",
+      "endTimestamp": "00:12:52.340",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0170",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 170,
+      "start": 772.74,
+      "end": 772.9,
+      "duration": 0.16,
+      "startTimestamp": "00:12:52.740",
+      "endTimestamp": "00:12:52.900",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0171",
+    "text": "You can even add here on the like multiple moves can have different icons.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 171,
+      "start": 772.96,
+      "end": 778.26,
+      "duration": 5.3,
+      "startTimestamp": "00:12:52.960",
+      "endTimestamp": "00:12:58.260",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0172",
+    "text": "And then on the basis of ability name, you can render that icons as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 172,
+      "start": 778.5,
+      "end": 785.5,
+      "duration": 7,
+      "startTimestamp": "00:12:58.500",
+      "endTimestamp": "00:13:05.500",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0173",
+    "text": "So take that as an assignment and try to implement by yourself.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 173,
+      "start": 785.56,
+      "end": 789.32,
+      "duration": 3.76,
+      "startTimestamp": "00:13:05.560",
+      "endTimestamp": "00:13:09.320",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0174",
+    "text": "You can use AI for that as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 174,
+      "start": 789.46,
+      "end": 791.12,
+      "duration": 1.66,
+      "startTimestamp": "00:13:09.460",
+      "endTimestamp": "00:13:11.120",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0175",
+    "text": "So no problem in it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 175,
+      "start": 791.22,
+      "end": 792.74,
+      "duration": 1.52,
+      "startTimestamp": "00:13:11.220",
+      "endTimestamp": "00:13:12.740",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0176",
+    "text": "Not at all.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 176,
+      "start": 793.08,
+      "end": 793.58,
+      "duration": 0.5,
+      "startTimestamp": "00:13:13.080",
+      "endTimestamp": "00:13:13.580",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0177",
+    "text": "You can use AI, but while learning, try to avoid using that and write code by yourself",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 177,
+      "start": 793.68,
+      "end": 799.46,
+      "duration": 5.78,
+      "startTimestamp": "00:13:13.680",
+      "endTimestamp": "00:13:19.460",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0178",
+    "text": "so that your muscle memory could build.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 178,
+      "start": 799.461,
+      "end": 802.06,
+      "duration": 2.599,
+      "startTimestamp": "00:13:19.461",
+      "endTimestamp": "00:13:22.060",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0179",
+    "text": "And then you can understand things very clearly.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 179,
+      "start": 802.7,
+      "end": 805.24,
+      "duration": 2.54,
+      "startTimestamp": "00:13:22.700",
+      "endTimestamp": "00:13:25.240",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0180",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 180,
+      "start": 806.9,
+      "end": 807.58,
+      "duration": 0.68,
+      "startTimestamp": "00:13:26.900",
+      "endTimestamp": "00:13:27.580",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0181",
+    "text": "So now out of this style.rows, I wanted to create another style.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 181,
+      "start": 808.09,
+      "end": 812.76,
+      "duration": 4.67,
+      "startTimestamp": "00:13:28.090",
+      "endTimestamp": "00:13:32.760",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0182",
+    "text": "So our about section is done.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 182,
+      "start": 812.94,
+      "end": 814.62,
+      "duration": 1.68,
+      "startTimestamp": "00:13:32.940",
+      "endTimestamp": "00:13:34.620",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0183",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 183,
+      "start": 815.12,
+      "end": 815.38,
+      "duration": 0.26,
+      "startTimestamp": "00:13:35.120",
+      "endTimestamp": "00:13:35.380",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0184",
+    "text": "So this content section is basically like this content have this thing.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 184,
+      "start": 815.42,
+      "end": 821.82,
+      "duration": 6.4,
+      "startTimestamp": "00:13:35.420",
+      "endTimestamp": "00:13:41.820",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0185",
+    "text": "something known as this section so this is your about section is done let's",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 185,
+      "start": 822.1,
+      "end": 826.88,
+      "duration": 4.78,
+      "startTimestamp": "00:13:42.100",
+      "endTimestamp": "00:13:46.880",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0186",
+    "text": "create another section so let me call this once again view and same thing",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 186,
+      "start": 827.019,
+      "end": 831.92,
+      "duration": 4.901,
+      "startTimestamp": "00:13:47.019",
+      "endTimestamp": "00:13:51.920",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0187",
+    "text": "nothing different style and this style is again going to become styles dot",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 187,
+      "start": 832.1,
+      "end": 837.92,
+      "duration": 5.82,
+      "startTimestamp": "00:13:52.100",
+      "endTimestamp": "00:13:57.920",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0188",
+    "text": "section easy",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 188,
+      "start": 838.44,
+      "end": 839.56,
+      "duration": 1.12,
+      "startTimestamp": "00:13:58.440",
+      "endTimestamp": "00:13:59.560",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0189",
+    "text": "Now, this style.section first of all going to show me the base status that why I have",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 189,
+      "start": 839.9,
+      "end": 847.2,
+      "duration": 7.3,
+      "startTimestamp": "00:13:59.900",
+      "endTimestamp": "00:14:07.200",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0190",
+    "text": "this and then I need to create one more new component to pokemon.stats.map and this is",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 190,
+      "start": 847.38,
+      "end": 859.12,
+      "duration": 11.74,
+      "startTimestamp": "00:14:07.380",
+      "endTimestamp": "00:14:19.120",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0191",
+    "text": "going to be stat.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 191,
+      "start": 859.121,
+      "end": 860.04,
+      "duration": 0.919,
+      "startTimestamp": "00:14:19.121",
+      "endTimestamp": "00:14:20.040",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0192",
+    "text": "And then inside this, I simply wanted to show here the status bar.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 192,
+      "start": 861.1,
+      "end": 866.38,
+      "duration": 5.28,
+      "startTimestamp": "00:14:21.100",
+      "endTimestamp": "00:14:26.380",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0193",
+    "text": "This is not an inbuilt component, stat bar, not the status bar.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 193,
+      "start": 867.38,
+      "end": 871.319,
+      "duration": 3.939,
+      "startTimestamp": "00:14:27.380",
+      "endTimestamp": "00:14:31.319",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0194",
+    "text": "Sorry, this is going to be stat bar and they are going to accept label, value, color and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 194,
+      "start": 871.38,
+      "end": 879.06,
+      "duration": 7.68,
+      "startTimestamp": "00:14:31.380",
+      "endTimestamp": "00:14:39.060",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0195",
+    "text": "key.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 195,
+      "start": 879.061,
+      "end": 879.399,
+      "duration": 0.338,
+      "startTimestamp": "00:14:39.061",
+      "endTimestamp": "00:14:39.399",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0196",
+    "text": "Easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 196,
+      "start": 880.019,
+      "end": 880.279,
+      "duration": 0.26,
+      "startTimestamp": "00:14:40.019",
+      "endTimestamp": "00:14:40.279",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0197",
+    "text": "So, let's move ahead and let me just directly and copy and paste this component.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 197,
+      "start": 880.86,
+      "end": 885.259,
+      "duration": 4.399,
+      "startTimestamp": "00:14:40.860",
+      "endTimestamp": "00:14:45.259",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0198",
+    "text": "So, inside component stat bar.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 198,
+      "start": 885.26,
+      "end": 888.199,
+      "duration": 2.939,
+      "startTimestamp": "00:14:45.260",
+      "endTimestamp": "00:14:48.199",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0199",
+    "text": "And I can directly write that and simply paste it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 199,
+      "start": 888.2,
+      "end": 892.76,
+      "duration": 4.56,
+      "startTimestamp": "00:14:48.200",
+      "endTimestamp": "00:14:52.760",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0200",
+    "text": "So you will see that this is your interface perfect and this is your component.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 200,
+      "start": 893.46,
+      "end": 900.4,
+      "duration": 6.94,
+      "startTimestamp": "00:14:53.460",
+      "endTimestamp": "00:15:00.400",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0201",
+    "text": "They are accepting this calculating some percentages and on a view we are rendering all of that",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 201,
+      "start": 900.68,
+      "end": 906.94,
+      "duration": 6.26,
+      "startTimestamp": "00:15:00.680",
+      "endTimestamp": "00:15:06.940",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0202",
+    "text": "a kind of basic I'll show you what is progress kind of bar.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 202,
+      "start": 907,
+      "end": 911.2,
+      "duration": 4.2,
+      "startTimestamp": "00:15:07.000",
+      "endTimestamp": "00:15:11.200",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0203",
+    "text": "So now if I import it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 203,
+      "start": 911.48,
+      "end": 913.32,
+      "duration": 1.84,
+      "startTimestamp": "00:15:11.480",
+      "endTimestamp": "00:15:13.320",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0204",
+    "text": "And then I will show you this is what I am talking about.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 204,
+      "start": 913.4,
+      "end": 916.38,
+      "duration": 2.98,
+      "startTimestamp": "00:15:13.400",
+      "endTimestamp": "00:15:16.380",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0205",
+    "text": "You will see the HP is this, attack is this, defense is this, special attack, special defense",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 205,
+      "start": 916.54,
+      "end": 921.72,
+      "duration": 5.18,
+      "startTimestamp": "00:15:16.540",
+      "endTimestamp": "00:15:21.720",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0206",
+    "text": "and speed.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 206,
+      "start": 921.78,
+      "end": 922.36,
+      "duration": 0.58,
+      "startTimestamp": "00:15:21.780",
+      "endTimestamp": "00:15:22.360",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0207",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 207,
+      "start": 923.54,
+      "end": 923.86,
+      "duration": 0.32,
+      "startTimestamp": "00:15:23.540",
+      "endTimestamp": "00:15:23.860",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0208",
+    "text": "So, let me just try to search for fighting and if I just open it, so this is how they",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 208,
+      "start": 924.26,
+      "end": 930.5,
+      "duration": 6.24,
+      "startTimestamp": "00:15:24.260",
+      "endTimestamp": "00:15:30.500",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0209",
+    "text": "are going to look and you can keep changing it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 209,
+      "start": 930.501,
+      "end": 933.82,
+      "duration": 3.319,
+      "startTimestamp": "00:15:30.501",
+      "endTimestamp": "00:15:33.820",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0210",
+    "text": "So cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 210,
+      "start": 933.821,
+      "end": 934.3,
+      "duration": 0.479,
+      "startTimestamp": "00:15:33.821",
+      "endTimestamp": "00:15:34.300",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0211",
+    "text": "If I go to psychic and this one, so this is how they are going to work.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 211,
+      "start": 934.56,
+      "end": 939.38,
+      "duration": 4.82,
+      "startTimestamp": "00:15:34.560",
+      "endTimestamp": "00:15:39.380",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0212",
+    "text": "Rock and if I go with it, so this is how they are going to look.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 212,
+      "start": 942.26,
+      "end": 946.54,
+      "duration": 4.28,
+      "startTimestamp": "00:15:42.260",
+      "endTimestamp": "00:15:46.540",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0213",
+    "text": "And if I search for dragon and this one, so this is how they are going to look so cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 213,
+      "start": 947.66,
+      "end": 952,
+      "duration": 4.34,
+      "startTimestamp": "00:15:47.660",
+      "endTimestamp": "00:15:52.000",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0214",
+    "text": "Now we have successfully implemented the Pokemon detail page as well and we are fetching the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 214,
+      "start": 952.86,
+      "end": 958.52,
+      "duration": 5.66,
+      "startTimestamp": "00:15:52.860",
+      "endTimestamp": "00:15:58.520",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0215",
+    "text": "details very, very nicely.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 215,
+      "start": 958.521,
+      "end": 960.36,
+      "duration": 1.839,
+      "startTimestamp": "00:15:58.521",
+      "endTimestamp": "00:16:00.360",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0216",
+    "text": "You I look charming and I'm loving it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 216,
+      "start": 960.89,
+      "end": 963.36,
+      "duration": 2.47,
+      "startTimestamp": "00:16:00.890",
+      "endTimestamp": "00:16:03.360",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0217",
+    "text": "You can see that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 217,
+      "start": 963.62,
+      "end": 964.48,
+      "duration": 0.86,
+      "startTimestamp": "00:16:03.620",
+      "endTimestamp": "00:16:04.480",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0218",
+    "text": "So, yes, now let me close everything and close this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 218,
+      "start": 964.6,
+      "end": 969.12,
+      "duration": 4.52,
+      "startTimestamp": "00:16:04.600",
+      "endTimestamp": "00:16:09.120",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0219",
+    "text": "So, this is the end of chapter number 4.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 219,
+      "start": 969.56,
+      "end": 972.74,
+      "duration": 3.18,
+      "startTimestamp": "00:16:09.560",
+      "endTimestamp": "00:16:12.740",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0220",
+    "text": "In chapter number 5, we are basically going to implement the Pokemon list screen like",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 220,
+      "start": 973.1,
+      "end": 978.42,
+      "duration": 5.32,
+      "startTimestamp": "00:16:13.100",
+      "endTimestamp": "00:16:18.420",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0221",
+    "text": "this one.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 221,
+      "start": 978.421,
+      "end": 979.22,
+      "duration": 0.799,
+      "startTimestamp": "00:16:18.421",
+      "endTimestamp": "00:16:19.220",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0222",
+    "text": "Everything is going to same.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 222,
+      "start": 979.221,
+      "end": 980.759,
+      "duration": 1.538,
+      "startTimestamp": "00:16:19.221",
+      "endTimestamp": "00:16:20.759",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0223",
+    "text": "We are just directly showing there all the list instead of adding this searching and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 223,
+      "start": 980.819,
+      "end": 985.519,
+      "duration": 4.7,
+      "startTimestamp": "00:16:20.819",
+      "endTimestamp": "00:16:25.519",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0224",
+    "text": "this filtration properties.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 224,
+      "start": 985.52,
+      "end": 987.399,
+      "duration": 1.879,
+      "startTimestamp": "00:16:25.520",
+      "endTimestamp": "00:16:27.399",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_0225",
+    "text": "So, yes, this is pretty much it for this chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "fileName": "mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "captionIndex": 225,
+      "start": 987.92,
+      "end": 991.699,
+      "duration": 3.779,
+      "startTimestamp": "00:16:27.920",
+      "endTimestamp": "00:16:31.699",
+      "estimatedTokens": 20
+    }
+  }
+]

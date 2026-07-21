@@ -1,0 +1,2586 @@
+[
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0001",
+    "text": "Alright everyone and welcome to one more new chapter and we can say one more new project",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 1,
+      "start": 0.619,
+      "end": 6.28,
+      "duration": 5.661,
+      "startTimestamp": "00:00:00.619",
+      "endTimestamp": "00:00:06.280",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0002",
+    "text": "video in this project in this video basically we are going to build something known as wallpaper",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 2,
+      "start": 6.281,
+      "end": 12.44,
+      "duration": 6.159,
+      "startTimestamp": "00:00:06.281",
+      "endTimestamp": "00:00:12.440",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0003",
+    "text": "app.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 3,
+      "start": 12.54,
+      "end": 13.02,
+      "duration": 0.48,
+      "startTimestamp": "00:00:12.540",
+      "endTimestamp": "00:00:13.020",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0004",
+    "text": "Alright you guys just thinking this is just a simple wallpaper but let me tell you in",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 4,
+      "start": 13.18,
+      "end": 18.56,
+      "duration": 5.38,
+      "startTimestamp": "00:00:13.180",
+      "endTimestamp": "00:00:18.560",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0005",
+    "text": "this app we are going to follow the Pinterest",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 5,
+      "start": 18.561,
+      "end": 22.88,
+      "duration": 4.319,
+      "startTimestamp": "00:00:18.561",
+      "endTimestamp": "00:00:22.880",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0006",
+    "text": "kind of we can say like I am assuming that you guys have used Pinterest.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 6,
+      "start": 23.3,
+      "end": 28.88,
+      "duration": 5.58,
+      "startTimestamp": "00:00:23.300",
+      "endTimestamp": "00:00:28.880",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0007",
+    "text": "Pinterest has such a nice layouting.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 7,
+      "start": 29.58,
+      "end": 31.919,
+      "duration": 2.339,
+      "startTimestamp": "00:00:29.580",
+      "endTimestamp": "00:00:31.919",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0008",
+    "text": "So we are definitely going to use the Pinterest layout and then search functionality and lot",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 8,
+      "start": 32,
+      "end": 38.42,
+      "duration": 6.42,
+      "startTimestamp": "00:00:32.000",
+      "endTimestamp": "00:00:38.420",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0009",
+    "text": "of filters functionality on the basis of category and on the basis of colors.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 9,
+      "start": 38.46,
+      "end": 42.699,
+      "duration": 4.239,
+      "startTimestamp": "00:00:38.460",
+      "endTimestamp": "00:00:42.699",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0010",
+    "text": "Yes.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 10,
+      "start": 43.48,
+      "end": 43.739,
+      "duration": 0.259,
+      "startTimestamp": "00:00:43.480",
+      "endTimestamp": "00:00:43.739",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0011",
+    "text": "So there's a lot of very interesting.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 11,
+      "start": 44.1,
+      "end": 45.84,
+      "duration": 1.74,
+      "startTimestamp": "00:00:44.100",
+      "endTimestamp": "00:00:45.840",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0012",
+    "text": "project, you can even download that images inside your local phone as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 12,
+      "start": 46.64,
+      "end": 52.5,
+      "duration": 5.86,
+      "startTimestamp": "00:00:46.640",
+      "endTimestamp": "00:00:52.500",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0013",
+    "text": "So we will see that local directory basically.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 13,
+      "start": 52.7,
+      "end": 55.38,
+      "duration": 2.68,
+      "startTimestamp": "00:00:52.700",
+      "endTimestamp": "00:00:55.380",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0014",
+    "text": "So let's move ahead and start implementing this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 14,
+      "start": 55.58,
+      "end": 57.7,
+      "duration": 2.12,
+      "startTimestamp": "00:00:55.580",
+      "endTimestamp": "00:00:57.700",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0015",
+    "text": "So this is the chapter number one for this wallpaper app, which is again a simple project",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 15,
+      "start": 58.08,
+      "end": 62.84,
+      "duration": 4.76,
+      "startTimestamp": "00:00:58.080",
+      "endTimestamp": "00:01:02.840",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0016",
+    "text": "initialization and we are definitely going to set up the pixabay APIs.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 16,
+      "start": 63.42,
+      "end": 67.62,
+      "duration": 4.2,
+      "startTimestamp": "00:01:03.420",
+      "endTimestamp": "00:01:07.620",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0017",
+    "text": "So first step first let me just.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 17,
+      "start": 67.86,
+      "end": 70.12,
+      "duration": 2.26,
+      "startTimestamp": "00:01:07.860",
+      "endTimestamp": "00:01:10.120",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0018",
+    "text": "Coming to here and then run Bunnx create expo app at the latest.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 18,
+      "start": 70.82,
+      "end": 76.88,
+      "duration": 6.06,
+      "startTimestamp": "00:01:10.820",
+      "endTimestamp": "00:01:16.880",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0019",
+    "text": "So this is going to create me the latest expo application.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 19,
+      "start": 77.42,
+      "end": 80.56,
+      "duration": 3.14,
+      "startTimestamp": "00:01:17.420",
+      "endTimestamp": "00:01:20.560",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0020",
+    "text": "Alright and definitely we can wait for it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 20,
+      "start": 82.38,
+      "end": 84.56,
+      "duration": 2.18,
+      "startTimestamp": "00:01:22.380",
+      "endTimestamp": "00:01:24.560",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0021",
+    "text": "Alright, so now we have installed it successfully and then what next?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 21,
+      "start": 85.6,
+      "end": 89.5,
+      "duration": 3.9,
+      "startTimestamp": "00:01:25.600",
+      "endTimestamp": "00:01:29.500",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0022",
+    "text": "Next I can simply say, \"Bun run a reset project\".",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 22,
+      "start": 89.74,
+      "end": 94.1,
+      "duration": 4.36,
+      "startTimestamp": "00:01:29.740",
+      "endTimestamp": "00:01:34.100",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0023",
+    "text": "So this is going to reset my project and yep, perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 23,
+      "start": 94.22,
+      "end": 98.32,
+      "duration": 4.1,
+      "startTimestamp": "00:01:34.220",
+      "endTimestamp": "00:01:38.320",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0024",
+    "text": "What next?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 24,
+      "start": 98.58,
+      "end": 99.14,
+      "duration": 0.56,
+      "startTimestamp": "00:01:38.580",
+      "endTimestamp": "00:01:39.140",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0025",
+    "text": "Next you need to visit a website named as pixabay.com.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 25,
+      "start": 99.759,
+      "end": 104.259,
+      "duration": 4.5,
+      "startTimestamp": "00:01:39.759",
+      "endTimestamp": "00:01:44.259",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0026",
+    "text": "and make sure you are going to logged in here and the moment you come you will see that",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 26,
+      "start": 104.4,
+      "end": 108.58,
+      "duration": 4.18,
+      "startTimestamp": "00:01:44.400",
+      "endTimestamp": "00:01:48.580",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0027",
+    "text": "we have lot of images.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 27,
+      "start": 108.581,
+      "end": 109.7,
+      "duration": 1.119,
+      "startTimestamp": "00:01:48.581",
+      "endTimestamp": "00:01:49.700",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0028",
+    "text": "Yes, we are definitely going to use all of this images to on our website on our application",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 28,
+      "start": 110,
+      "end": 116.5,
+      "duration": 6.5,
+      "startTimestamp": "00:01:50.000",
+      "endTimestamp": "00:01:56.500",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0029",
+    "text": "and then we can filter them.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 29,
+      "start": 116.56,
+      "end": 118.68,
+      "duration": 2.12,
+      "startTimestamp": "00:01:56.560",
+      "endTimestamp": "00:01:58.680",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0030",
+    "text": "We can search bunch of another images and on the basis of that images we can select",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 30,
+      "start": 118.8,
+      "end": 124.94,
+      "duration": 6.14,
+      "startTimestamp": "00:01:58.800",
+      "endTimestamp": "00:02:04.940",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0031",
+    "text": "them see them in a proper preview mode.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 31,
+      "start": 124.96,
+      "end": 127.14,
+      "duration": 2.18,
+      "startTimestamp": "00:02:04.960",
+      "endTimestamp": "00:02:07.140",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0032",
+    "text": "We can even download them.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 32,
+      "start": 127.18,
+      "end": 128.419,
+      "duration": 1.239,
+      "startTimestamp": "00:02:07.180",
+      "endTimestamp": "00:02:08.419",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0033",
+    "text": "So we'll see and how we can improve it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 33,
+      "start": 128.52,
+      "end": 130.4,
+      "duration": 1.88,
+      "startTimestamp": "00:02:08.520",
+      "endTimestamp": "00:02:10.400",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0034",
+    "text": "But the moment you click on explore you will find at the right bottom name as API simply",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 34,
+      "start": 130.401,
+      "end": 137.959,
+      "duration": 7.558,
+      "startTimestamp": "00:02:10.401",
+      "endTimestamp": "00:02:17.959",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0035",
+    "text": "press here and the moment you coming to here simply press on view documentation and at",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 35,
+      "start": 137.96,
+      "end": 143.14,
+      "duration": 5.18,
+      "startTimestamp": "00:02:17.960",
+      "endTimestamp": "00:02:23.140",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0036",
+    "text": "the very bottom you will find your API endpoint and your API key.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 36,
+      "start": 143.141,
+      "end": 147.78,
+      "duration": 4.639,
+      "startTimestamp": "00:02:23.141",
+      "endTimestamp": "00:02:27.780",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0037",
+    "text": "So make sure to copy this API key.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 37,
+      "start": 148.019,
+      "end": 149.76,
+      "duration": 1.741,
+      "startTimestamp": "00:02:28.019",
+      "endTimestamp": "00:02:29.760",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0038",
+    "text": "Yes, this is your API key that will coming to here and after this what you can do.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 38,
+      "start": 149.9,
+      "end": 156.31900000000002,
+      "duration": 6.419,
+      "startTimestamp": "00:02:29.900",
+      "endTimestamp": "00:02:36.319",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0039",
+    "text": "You can again simply close everything.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 39,
+      "start": 156.4,
+      "end": 160.079,
+      "duration": 3.679,
+      "startTimestamp": "00:02:36.400",
+      "endTimestamp": "00:02:40.079",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0040",
+    "text": "Alright and at the top of it let's create one new folder name as services inside this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 40,
+      "start": 161.28,
+      "end": 167.379,
+      "duration": 6.099,
+      "startTimestamp": "00:02:41.280",
+      "endTimestamp": "00:02:47.379",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0041",
+    "text": "I can simply say pixabay.ts and what I can do.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 41,
+      "start": 167.38,
+      "end": 174.68,
+      "duration": 7.3,
+      "startTimestamp": "00:02:47.380",
+      "endTimestamp": "00:02:54.680",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0042",
+    "text": "I can first of all paste the API key that we have.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 42,
+      "start": 175.34,
+      "end": 179.46,
+      "duration": 4.12,
+      "startTimestamp": "00:02:55.340",
+      "endTimestamp": "00:02:59.460",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0043",
+    "text": "Okay, I'll fix it in a while and then this is the image endpoint that we need.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 43,
+      "start": 179.6,
+      "end": 184.66,
+      "duration": 5.06,
+      "startTimestamp": "00:02:59.600",
+      "endTimestamp": "00:03:04.660",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0044",
+    "text": "Okay, so this is your image endpoint.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 44,
+      "start": 185.42,
+      "end": 187.54,
+      "duration": 2.12,
+      "startTimestamp": "00:03:05.420",
+      "endTimestamp": "00:03:07.540",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0045",
+    "text": "So first of all, what I will do here, I will simply say const base_url and then this base",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 45,
+      "start": 187.94,
+      "end": 195.66,
+      "duration": 7.72,
+      "startTimestamp": "00:03:07.940",
+      "endTimestamp": "00:03:15.660",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0046",
+    "text": "URL is going to have this URL.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 46,
+      "start": 195.78,
+      "end": 198.52,
+      "duration": 2.74,
+      "startTimestamp": "00:03:15.780",
+      "endTimestamp": "00:03:18.520",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0047",
+    "text": "Okay.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 47,
+      "start": 199.48,
+      "end": 199.88,
+      "duration": 0.4,
+      "startTimestamp": "00:03:19.480",
+      "endTimestamp": "00:03:19.880",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0048",
+    "text": "And this is your API key.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 48,
+      "start": 200.1,
+      "end": 202.54,
+      "duration": 2.44,
+      "startTimestamp": "00:03:20.100",
+      "endTimestamp": "00:03:22.540",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0049",
+    "text": "So for getting this API key, what you will do, let me close everything, simply create",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 49,
+      "start": 203.1,
+      "end": 208.64,
+      "duration": 5.54,
+      "startTimestamp": "00:03:23.100",
+      "endTimestamp": "00:03:28.640",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0050",
+    "text": "constants and inside this constant, I can create one file config dot ts.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 50,
+      "start": 208.94,
+      "end": 216.14,
+      "duration": 7.2,
+      "startTimestamp": "00:03:28.940",
+      "endTimestamp": "00:03:36.140",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0051",
+    "text": "And at this point, I can have a API underscore key is equals to the key we have.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 51,
+      "start": 217.14,
+      "end": 223.76,
+      "duration": 6.62,
+      "startTimestamp": "00:03:37.140",
+      "endTimestamp": "00:03:43.760",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0052",
+    "text": "So, let me just cut it out and paste it here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 52,
+      "start": 223.86,
+      "end": 227.1,
+      "duration": 3.24,
+      "startTimestamp": "00:03:43.860",
+      "endTimestamp": "00:03:47.100",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0053",
+    "text": "Okay, nice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 53,
+      "start": 227.3,
+      "end": 229.36,
+      "duration": 2.06,
+      "startTimestamp": "00:03:47.300",
+      "endTimestamp": "00:03:49.360",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0054",
+    "text": "Then what next?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 54,
+      "start": 230.86,
+      "end": 231.72,
+      "duration": 0.86,
+      "startTimestamp": "00:03:50.860",
+      "endTimestamp": "00:03:51.720",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0055",
+    "text": "Next is simply let me have the Pixabay image interface.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 55,
+      "start": 232.2,
+      "end": 236.66,
+      "duration": 4.46,
+      "startTimestamp": "00:03:52.200",
+      "endTimestamp": "00:03:56.660",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0056",
+    "text": "You will see there are lot of things.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 56,
+      "start": 236.72,
+      "end": 238.44,
+      "duration": 1.72,
+      "startTimestamp": "00:03:56.720",
+      "endTimestamp": "00:03:58.440",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0057",
+    "text": "Let me show you that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 57,
+      "start": 239.5,
+      "end": 240.56,
+      "duration": 1.06,
+      "startTimestamp": "00:03:59.500",
+      "endTimestamp": "00:04:00.560",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0058",
+    "text": "This is all the image types that we have.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 58,
+      "start": 241.32,
+      "end": 243.74,
+      "duration": 2.42,
+      "startTimestamp": "00:04:01.320",
+      "endTimestamp": "00:04:03.740",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0059",
+    "text": "We have ID, we have page URL, we have type.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 59,
+      "start": 243.741,
+      "end": 247.48,
+      "duration": 3.739,
+      "startTimestamp": "00:04:03.741",
+      "endTimestamp": "00:04:07.480",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0060",
+    "text": "tags, preview URL, preview width, height, web format, web format, web format height,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 60,
+      "start": 248.22,
+      "end": 254.16,
+      "duration": 5.94,
+      "startTimestamp": "00:04:08.220",
+      "endTimestamp": "00:04:14.160",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0061",
+    "text": "large image, full HDR, lot of things, I mean you can just see and from where I am getting",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 61,
+      "start": 254.96,
+      "end": 260.24,
+      "duration": 5.28,
+      "startTimestamp": "00:04:14.960",
+      "endTimestamp": "00:04:20.240",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0062",
+    "text": "all of this, if you just simply come into here, you will see all of them, yes, something",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 62,
+      "start": 260.241,
+      "end": 264.56,
+      "duration": 4.319,
+      "startTimestamp": "00:04:20.241",
+      "endTimestamp": "00:04:24.560",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0063",
+    "text": "like this, look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 63,
+      "start": 265.34,
+      "end": 266.96,
+      "duration": 1.62,
+      "startTimestamp": "00:04:25.340",
+      "endTimestamp": "00:04:26.960",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0064",
+    "text": "Got it from here I am getting all of this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 64,
+      "start": 267.64,
+      "end": 269.86,
+      "duration": 2.22,
+      "startTimestamp": "00:04:27.640",
+      "endTimestamp": "00:04:29.860",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0065",
+    "text": "Nice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 65,
+      "start": 270.02,
+      "end": 270.38,
+      "duration": 0.36,
+      "startTimestamp": "00:04:30.020",
+      "endTimestamp": "00:04:30.380",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0066",
+    "text": "So these are all the pixabay image types that we will get inside the hits.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 66,
+      "start": 270.4,
+      "end": 275.8,
+      "duration": 5.4,
+      "startTimestamp": "00:04:30.400",
+      "endTimestamp": "00:04:35.800",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0067",
+    "text": "Okay.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 67,
+      "start": 276.65999999999997,
+      "end": 277.14,
+      "duration": 0.48,
+      "startTimestamp": "00:04:36.660",
+      "endTimestamp": "00:04:37.140",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0068",
+    "text": "Nice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 68,
+      "start": 277.78,
+      "end": 278.1,
+      "duration": 0.32,
+      "startTimestamp": "00:04:37.780",
+      "endTimestamp": "00:04:38.100",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0069",
+    "text": "And in same way we can have the response.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 69,
+      "start": 278.98,
+      "end": 281.2,
+      "duration": 2.22,
+      "startTimestamp": "00:04:38.980",
+      "endTimestamp": "00:04:41.200",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0070",
+    "text": "So now we know the response contain total hits and hits.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 70,
+      "start": 281.48,
+      "end": 286.92,
+      "duration": 5.44,
+      "startTimestamp": "00:04:41.480",
+      "endTimestamp": "00:04:46.920",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0071",
+    "text": "Okay.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 71,
+      "start": 287.26,
+      "end": 287.46,
+      "duration": 0.2,
+      "startTimestamp": "00:04:47.260",
+      "endTimestamp": "00:04:47.460",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0072",
+    "text": "And yes this is the response that we have.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 72,
+      "start": 287.461,
+      "end": 289.74,
+      "duration": 2.279,
+      "startTimestamp": "00:04:47.461",
+      "endTimestamp": "00:04:49.740",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0073",
+    "text": "So, what I will do in same way I can create the pixabay response interface that contain",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 73,
+      "start": 290.1,
+      "end": 296.1,
+      "duration": 6,
+      "startTimestamp": "00:04:50.100",
+      "endTimestamp": "00:04:56.100",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0074",
+    "text": "total which is type of number total hits again type of number and the hits this hits contain",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 74,
+      "start": 296.101,
+      "end": 303.38,
+      "duration": 7.279,
+      "startTimestamp": "00:04:56.101",
+      "endTimestamp": "00:05:03.380",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0075",
+    "text": "this images which is the array.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 75,
+      "start": 303.86,
+      "end": 305.68,
+      "duration": 1.82,
+      "startTimestamp": "00:05:03.860",
+      "endTimestamp": "00:05:05.680",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0076",
+    "text": "So, yes this is the array of pixabay image look at that easy perfect now I can simply",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 76,
+      "start": 306.66,
+      "end": 312.88,
+      "duration": 6.22,
+      "startTimestamp": "00:05:06.660",
+      "endTimestamp": "00:05:12.880",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0077",
+    "text": "create one function which is export const.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 77,
+      "start": 312.881,
+      "end": 316.7,
+      "duration": 3.819,
+      "startTimestamp": "00:05:12.881",
+      "endTimestamp": "00:05:16.700",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0078",
+    "text": "fetch wallpapers is equals to async and then I can simply copy it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 78,
+      "start": 319.38,
+      "end": 324.4,
+      "duration": 5.02,
+      "startTimestamp": "00:05:19.380",
+      "endTimestamp": "00:05:24.400",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0079",
+    "text": "Let me off my AI.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 79,
+      "start": 324.44,
+      "end": 325.88,
+      "duration": 1.44,
+      "startTimestamp": "00:05:24.440",
+      "endTimestamp": "00:05:25.880",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0080",
+    "text": "Alright, and this async is going to accept bunch of information like query, category,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 80,
+      "start": 327.42,
+      "end": 334.52,
+      "duration": 7.1,
+      "startTimestamp": "00:05:27.420",
+      "endTimestamp": "00:05:34.520",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0081",
+    "text": "colors and then page.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 81,
+      "start": 335.74,
+      "end": 337.4,
+      "duration": 1.66,
+      "startTimestamp": "00:05:35.740",
+      "endTimestamp": "00:05:37.400",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0082",
+    "text": "Okay, let me paste all of them.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 82,
+      "start": 337.76,
+      "end": 339.48,
+      "duration": 1.72,
+      "startTimestamp": "00:05:37.760",
+      "endTimestamp": "00:05:39.480",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0083",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 83,
+      "start": 339.86,
+      "end": 340.26,
+      "duration": 0.4,
+      "startTimestamp": "00:05:39.860",
+      "endTimestamp": "00:05:40.260",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0084",
+    "text": "All right, and after this what I can do, I can simply open one try and catch and then",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 84,
+      "start": 340.5,
+      "end": 345.88,
+      "duration": 5.38,
+      "startTimestamp": "00:05:40.500",
+      "endTimestamp": "00:05:45.880",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0085",
+    "text": "I can say params is equals to new URL search params.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 85,
+      "start": 345.881,
+      "end": 351.2,
+      "duration": 5.319,
+      "startTimestamp": "00:05:45.881",
+      "endTimestamp": "00:05:51.200",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0086",
+    "text": "And then they are going to contain first thing as the key.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 86,
+      "start": 352.56,
+      "end": 355.4,
+      "duration": 2.84,
+      "startTimestamp": "00:05:52.560",
+      "endTimestamp": "00:05:55.400",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0087",
+    "text": "So key is equals to API underscore key that will come from constant.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 87,
+      "start": 355.82,
+      "end": 361.74,
+      "duration": 5.92,
+      "startTimestamp": "00:05:55.820",
+      "endTimestamp": "00:06:01.740",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0088",
+    "text": "Okay, second thing that we wanted to pass here is the query.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 88,
+      "start": 362,
+      "end": 366.96,
+      "duration": 4.96,
+      "startTimestamp": "00:06:02.000",
+      "endTimestamp": "00:06:06.960",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0089",
+    "text": "So query is equals to whatever the query is coming.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 89,
+      "start": 367.3,
+      "end": 369.82,
+      "duration": 2.52,
+      "startTimestamp": "00:06:07.300",
+      "endTimestamp": "00:06:09.820",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0090",
+    "text": "Then we have image_type and yes, this is the photo.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 90,
+      "start": 371.22,
+      "end": 376.26,
+      "duration": 5.04,
+      "startTimestamp": "00:06:11.220",
+      "endTimestamp": "00:06:16.260",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0091",
+    "text": "Then we have save search.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 91,
+      "start": 377.34,
+      "end": 378.9,
+      "duration": 1.56,
+      "startTimestamp": "00:06:17.340",
+      "endTimestamp": "00:06:18.900",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0092",
+    "text": "Safe search is true for now, then we have editors choice, yes that is also true for",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 92,
+      "start": 379.5,
+      "end": 386.68,
+      "duration": 7.18,
+      "startTimestamp": "00:06:19.500",
+      "endTimestamp": "00:06:26.680",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0093",
+    "text": "now, then we can have per page, so per page is equals to 20 and then page, page dot, page",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 93,
+      "start": 386.681,
+      "end": 396.64,
+      "duration": 9.959,
+      "startTimestamp": "00:06:26.681",
+      "endTimestamp": "00:06:36.640",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0094",
+    "text": "dot.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 94,
+      "start": 409.32,
+      "end": 409.48,
+      "duration": 0.16,
+      "startTimestamp": "00:06:49.320",
+      "endTimestamp": "00:06:49.480",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0095",
+    "text": "I can simply say page.toString and let me just simply format this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 95,
+      "start": 409.481,
+      "end": 409.501,
+      "duration": 0.02,
+      "startTimestamp": "00:06:49.481",
+      "endTimestamp": "00:06:49.501",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0096",
+    "text": "And then what I will do if we like if we have a category then I also wanted to append the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 96,
+      "start": 409.502,
+      "end": 410.84000000000003,
+      "duration": 1.338,
+      "startTimestamp": "00:06:49.502",
+      "endTimestamp": "00:06:50.840",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0097",
+    "text": "category inside my search params.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 97,
+      "start": 410.841,
+      "end": 413.599,
+      "duration": 2.758,
+      "startTimestamp": "00:06:50.841",
+      "endTimestamp": "00:06:53.599",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0098",
+    "text": "This is your category and if we have colors as well in future then I am also wanted to",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 98,
+      "start": 413.9,
+      "end": 420.72,
+      "duration": 6.82,
+      "startTimestamp": "00:06:53.900",
+      "endTimestamp": "00:07:00.720",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0099",
+    "text": "Append.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 99,
+      "start": 420.74,
+      "end": 421.379,
+      "duration": 0.639,
+      "startTimestamp": "00:07:00.740",
+      "endTimestamp": "00:07:01.379",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0100",
+    "text": "And the colors is equals to colors.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 100,
+      "start": 427.04,
+      "end": 430.04,
+      "duration": 3,
+      "startTimestamp": "00:07:07.040",
+      "endTimestamp": "00:07:10.040",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0101",
+    "text": "Nice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 101,
+      "start": 430.6,
+      "end": 430.919,
+      "duration": 0.319,
+      "startTimestamp": "00:07:10.600",
+      "endTimestamp": "00:07:10.919",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0102",
+    "text": "And then what I will have?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 102,
+      "start": 431.139,
+      "end": 432.4,
+      "duration": 1.261,
+      "startTimestamp": "00:07:11.139",
+      "endTimestamp": "00:07:12.400",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0103",
+    "text": "I can simply say cons response is equals to await fetch and then this fetch is first of",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 103,
+      "start": 433.04,
+      "end": 442.4,
+      "duration": 9.36,
+      "startTimestamp": "00:07:13.040",
+      "endTimestamp": "00:07:22.400",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0104",
+    "text": "all we are going to have the base underscore URL.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 104,
+      "start": 442.401,
+      "end": 446.76,
+      "duration": 4.359,
+      "startTimestamp": "00:07:22.401",
+      "endTimestamp": "00:07:26.760",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0105",
+    "text": "Very good.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 105,
+      "start": 447.3,
+      "end": 447.72,
+      "duration": 0.42,
+      "startTimestamp": "00:07:27.300",
+      "endTimestamp": "00:07:27.720",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0106",
+    "text": "and then I can have the another.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 106,
+      "start": 448.34,
+      "end": 450.4,
+      "duration": 2.06,
+      "startTimestamp": "00:07:28.340",
+      "endTimestamp": "00:07:30.400",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0107",
+    "text": "params.toString, nice, so this is your response, perfect, this is your base URL and all the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 107,
+      "start": 452.64,
+      "end": 460.15999999999997,
+      "duration": 7.52,
+      "startTimestamp": "00:07:32.640",
+      "endTimestamp": "00:07:40.160",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0108",
+    "text": "parameters after appending if we have them something like this, then what I will do if",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 108,
+      "start": 460.161,
+      "end": 467.62,
+      "duration": 7.459,
+      "startTimestamp": "00:07:40.161",
+      "endTimestamp": "00:07:47.620",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0109",
+    "text": "not of response.ok, if the response is not ok then I wanted to first of all console the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 109,
+      "start": 467.65999999999997,
+      "end": 475.08,
+      "duration": 7.42,
+      "startTimestamp": "00:07:47.660",
+      "endTimestamp": "00:07:55.080",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0110",
+    "text": "error so that we can debug them and whatever the text message will come.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 110,
+      "start": 475.081,
+      "end": 480.02,
+      "duration": 4.939,
+      "startTimestamp": "00:07:55.081",
+      "endTimestamp": "00:08:00.020",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0111",
+    "text": "error and then I can also console it and then I can throw a new error ok perfect. So, console",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 111,
+      "start": 480.4,
+      "end": 490.199,
+      "duration": 9.799,
+      "startTimestamp": "00:08:00.400",
+      "endTimestamp": "00:08:10.199",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0112",
+    "text": "error we are getting the text again consoling them and throwing the error, but if we have",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 112,
+      "start": 490.22,
+      "end": 496.72,
+      "duration": 6.5,
+      "startTimestamp": "00:08:10.220",
+      "endTimestamp": "00:08:16.720",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0113",
+    "text": "a data which is going to be the type of PIXABE response is equals to await response dot JSON.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 113,
+      "start": 496.721,
+      "end": 507.28,
+      "duration": 10.559,
+      "startTimestamp": "00:08:16.721",
+      "endTimestamp": "00:08:27.280",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0114",
+    "text": "Okay, and then what I will do, I can simply return data.heads because we only need the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 114,
+      "start": 508.82,
+      "end": 515.36,
+      "duration": 6.54,
+      "startTimestamp": "00:08:28.820",
+      "endTimestamp": "00:08:35.360",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0115",
+    "text": "heads.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 115,
+      "start": 515.48,
+      "end": 515.76,
+      "duration": 0.28,
+      "startTimestamp": "00:08:35.480",
+      "endTimestamp": "00:08:35.760",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0116",
+    "text": "Okay, what is the heads here?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 116,
+      "start": 516.38,
+      "end": 519,
+      "duration": 2.62,
+      "startTimestamp": "00:08:36.380",
+      "endTimestamp": "00:08:39.000",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0117",
+    "text": "This one, we only need this thing.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 117,
+      "start": 519.72,
+      "end": 521.78,
+      "duration": 2.06,
+      "startTimestamp": "00:08:39.720",
+      "endTimestamp": "00:08:41.780",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0118",
+    "text": "Okay, nice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 118,
+      "start": 523.299,
+      "end": 524.6,
+      "duration": 1.301,
+      "startTimestamp": "00:08:43.299",
+      "endTimestamp": "00:08:44.600",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0119",
+    "text": "So, this is your hits and then what I will do by any chance if we have any error.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 119,
+      "start": 525,
+      "end": 531.64,
+      "duration": 6.64,
+      "startTimestamp": "00:08:45.000",
+      "endTimestamp": "00:08:51.640",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0120",
+    "text": "So, what I will do, I will try to fall back to some data, something like that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 120,
+      "start": 532.2,
+      "end": 536.94,
+      "duration": 4.74,
+      "startTimestamp": "00:08:52.200",
+      "endTimestamp": "00:08:56.940",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0121",
+    "text": "So, that we will at least show some data and some demo user, but for now, I think it's",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 121,
+      "start": 537.36,
+      "end": 543.3,
+      "duration": 5.94,
+      "startTimestamp": "00:08:57.360",
+      "endTimestamp": "00:09:03.300",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0122",
+    "text": "fine.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 122,
+      "start": 543.301,
+      "end": 543.64,
+      "duration": 0.339,
+      "startTimestamp": "00:09:03.301",
+      "endTimestamp": "00:09:03.640",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0123",
+    "text": "This is all the categories we have and by any chance if we have any error, then I can",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 123,
+      "start": 544.28,
+      "end": 550.08,
+      "duration": 5.8,
+      "startTimestamp": "00:09:04.280",
+      "endTimestamp": "00:09:10.080",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0124",
+    "text": "simply coming to here and then I will say console.log the error perfect and instead",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 124,
+      "start": 550.8,
+      "end": 558.62,
+      "duration": 7.82,
+      "startTimestamp": "00:09:10.800",
+      "endTimestamp": "00:09:18.620",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0125",
+    "text": "I will show console.error no problem nice perfect then this we are done with this pixabay.ts",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 125,
+      "start": 558.72,
+      "end": 569.48,
+      "duration": 10.76,
+      "startTimestamp": "00:09:18.720",
+      "endTimestamp": "00:09:29.480",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0126",
+    "text": "so now we are done with configuration and this one last thing if I go to my config.ts",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 126,
+      "start": 569.56,
+      "end": 575.8,
+      "duration": 6.24,
+      "startTimestamp": "00:09:29.560",
+      "endTimestamp": "00:09:35.800",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0127",
+    "text": "You will see right now we only have API key.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 127,
+      "start": 575.801,
+      "end": 578.36,
+      "duration": 2.559,
+      "startTimestamp": "00:09:35.801",
+      "endTimestamp": "00:09:38.360",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0128",
+    "text": "But as we know we are going to have bunch of filters based on category and based on",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 128,
+      "start": 578.6,
+      "end": 584.779,
+      "duration": 6.179,
+      "startTimestamp": "00:09:38.600",
+      "endTimestamp": "00:09:44.779",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0129",
+    "text": "colours.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 129,
+      "start": 584.78,
+      "end": 585.139,
+      "duration": 0.359,
+      "startTimestamp": "00:09:44.780",
+      "endTimestamp": "00:09:45.139",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0130",
+    "text": "So, let me first of all add bunch of categories here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 130,
+      "start": 585.819,
+      "end": 590.259,
+      "duration": 4.44,
+      "startTimestamp": "00:09:45.819",
+      "endTimestamp": "00:09:50.259",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0131",
+    "text": "So, this is all the categories we have, backgrounds, fashion, nature, science to music got it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 131,
+      "start": 590.54,
+      "end": 599.759,
+      "duration": 9.219,
+      "startTimestamp": "00:09:50.540",
+      "endTimestamp": "00:09:59.759",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0132",
+    "text": "In same way we can have the colours constant as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 132,
+      "start": 600.22,
+      "end": 603.959,
+      "duration": 3.739,
+      "startTimestamp": "00:10:00.220",
+      "endTimestamp": "00:10:03.959",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0133",
+    "text": "Grey scale, transparent, red, orange, yellow, green, lot of other colours, ok.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 133,
+      "start": 605.26,
+      "end": 612.38,
+      "duration": 7.12,
+      "startTimestamp": "00:10:05.260",
+      "endTimestamp": "00:10:12.380",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0134",
+    "text": "So nice, this is just a basic configuration related to the chapter number one of our weather",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 134,
+      "start": 612.84,
+      "end": 620.34,
+      "duration": 7.5,
+      "startTimestamp": "00:10:12.840",
+      "endTimestamp": "00:10:20.340",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0135",
+    "text": "app.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 135,
+      "start": 620.341,
+      "end": 620.6,
+      "duration": 0.259,
+      "startTimestamp": "00:10:20.341",
+      "endTimestamp": "00:10:20.600",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_0136",
+    "text": "So with this we are done with this chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "fileName": "chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "captionIndex": 136,
+      "start": 621.02,
+      "end": 624.96,
+      "duration": 3.94,
+      "startTimestamp": "00:10:21.020",
+      "endTimestamp": "00:10:24.960",
+      "estimatedTokens": 19
+    }
+  }
+]

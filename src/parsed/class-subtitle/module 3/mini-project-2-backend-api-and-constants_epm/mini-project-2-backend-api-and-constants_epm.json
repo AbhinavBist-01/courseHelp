@@ -1,0 +1,2092 @@
+[
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0001",
+    "text": "Alright guys and welcome to chapter number two of our Pokemon multi-screen app.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 1,
+      "start": 0.4,
+      "end": 5.52,
+      "duration": 5.12,
+      "startTimestamp": "00:00:00.400",
+      "endTimestamp": "00:00:05.520",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0002",
+    "text": "In this chapter, we are basically going to add all the backend fetching logic with Pokemon",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 2,
+      "start": 6.1,
+      "end": 11.06,
+      "duration": 4.96,
+      "startTimestamp": "00:00:06.100",
+      "endTimestamp": "00:00:11.060",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0003",
+    "text": "API and then simply going to copy and paste all the types that we have for it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 3,
+      "start": 11.2,
+      "end": 16.379,
+      "duration": 5.179,
+      "startTimestamp": "00:00:11.200",
+      "endTimestamp": "00:00:16.379",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0004",
+    "text": "Easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 4,
+      "start": 16.42,
+      "end": 16.7,
+      "duration": 0.28,
+      "startTimestamp": "00:00:16.420",
+      "endTimestamp": "00:00:16.700",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0005",
+    "text": "So what you need to do simply go inside your app folder and then create an API folder.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 5,
+      "start": 17.24,
+      "end": 23.78,
+      "duration": 6.54,
+      "startTimestamp": "00:00:17.240",
+      "endTimestamp": "00:00:23.780",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0006",
+    "text": "Yes.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 6,
+      "start": 24.08,
+      "end": 24.28,
+      "duration": 0.2,
+      "startTimestamp": "00:00:24.080",
+      "endTimestamp": "00:00:24.280",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0007",
+    "text": "API simply say Pokemon dot.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 7,
+      "start": 25.04,
+      "end": 27.9,
+      "duration": 2.86,
+      "startTimestamp": "00:00:25.040",
+      "endTimestamp": "00:00:27.900",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0008",
+    "text": "TS, easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 8,
+      "start": 28.8,
+      "end": 30.06,
+      "duration": 1.26,
+      "startTimestamp": "00:00:28.800",
+      "endTimestamp": "00:00:30.060",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0009",
+    "text": "And then let me first of all paste all the types that I have related to my Pokemon.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 9,
+      "start": 31.72,
+      "end": 37.62,
+      "duration": 5.9,
+      "startTimestamp": "00:00:31.720",
+      "endTimestamp": "00:00:37.620",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0010",
+    "text": "Again you can again go to this Arapa, you will get all of that onto my GitHub, don't",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 10,
+      "start": 37.88,
+      "end": 42.54,
+      "duration": 4.66,
+      "startTimestamp": "00:00:37.880",
+      "endTimestamp": "00:00:42.540",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0011",
+    "text": "worry about that and below into zip file as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 11,
+      "start": 42.62,
+      "end": 45.44,
+      "duration": 2.82,
+      "startTimestamp": "00:00:42.620",
+      "endTimestamp": "00:00:45.440",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0012",
+    "text": "So, this is your first Pokemon ref, we have name and URL.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 12,
+      "start": 45.7,
+      "end": 49.56,
+      "duration": 3.86,
+      "startTimestamp": "00:00:45.700",
+      "endTimestamp": "00:00:49.560",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0013",
+    "text": "Then another thing is export interface Pokemon list that we have count next previous result.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 13,
+      "start": 50.32,
+      "end": 56,
+      "duration": 5.68,
+      "startTimestamp": "00:00:50.320",
+      "endTimestamp": "00:00:56.000",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0014",
+    "text": "This is basically just for infinite scrolling feature that we are going to implement.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 14,
+      "start": 56.56,
+      "end": 61.12,
+      "duration": 4.56,
+      "startTimestamp": "00:00:56.560",
+      "endTimestamp": "00:01:01.120",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0015",
+    "text": "Then we have type entry like the slot type name URL, then we have status, then we have",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 15,
+      "start": 62.1,
+      "end": 68.48,
+      "duration": 6.38,
+      "startTimestamp": "00:01:02.100",
+      "endTimestamp": "00:01:08.480",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0016",
+    "text": "Pokemon details.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 16,
+      "start": 68.481,
+      "end": 69.64,
+      "duration": 1.159,
+      "startTimestamp": "00:01:08.481",
+      "endTimestamp": "00:01:09.640",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0017",
+    "text": "This is very important.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 17,
+      "start": 69.7,
+      "end": 70.76,
+      "duration": 1.06,
+      "startTimestamp": "00:01:09.700",
+      "endTimestamp": "00:01:10.760",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0018",
+    "text": "We have the ID of Pokemon, the name, the types that we have, the status, the sprites.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 18,
+      "start": 70.8,
+      "end": 76.84,
+      "duration": 6.04,
+      "startTimestamp": "00:01:10.800",
+      "endTimestamp": "00:01:16.840",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0019",
+    "text": "Then we have width, weight, height, abilities like ability name.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 19,
+      "start": 79.03999999999999,
+      "end": 84.9,
+      "duration": 5.86,
+      "startTimestamp": "00:01:19.040",
+      "endTimestamp": "00:01:24.900",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0020",
+    "text": "This will be into the array.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 20,
+      "start": 85.02,
+      "end": 86.32,
+      "duration": 1.3,
+      "startTimestamp": "00:01:25.020",
+      "endTimestamp": "00:01:26.320",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0021",
+    "text": "So kind of that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 21,
+      "start": 86.5,
+      "end": 87.4,
+      "duration": 0.9,
+      "startTimestamp": "00:01:26.500",
+      "endTimestamp": "00:01:27.400",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0022",
+    "text": "Perfect, now let's move ahead and then simply say const base URL is equals to https colon",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 22,
+      "start": 87.9,
+      "end": 97.1,
+      "duration": 9.2,
+      "startTimestamp": "00:01:27.900",
+      "endTimestamp": "00:01:37.100",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0023",
+    "text": "slash slash pokeapi.co slash API slash V2.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 23,
+      "start": 97.101,
+      "end": 102,
+      "duration": 4.899,
+      "startTimestamp": "00:01:37.101",
+      "endTimestamp": "00:01:42.000",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0024",
+    "text": "So this is the free base URL for using Pokemon API.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 24,
+      "start": 102.8,
+      "end": 106.8,
+      "duration": 4,
+      "startTimestamp": "00:01:42.800",
+      "endTimestamp": "00:01:46.800",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0025",
+    "text": "So easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 25,
+      "start": 106.97999999999999,
+      "end": 107.68,
+      "duration": 0.7,
+      "startTimestamp": "00:01:46.980",
+      "endTimestamp": "00:01:47.680",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0026",
+    "text": "And, then we are going to create three functions.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 26,
+      "start": 107.9,
+      "end": 110.8,
+      "duration": 2.9,
+      "startTimestamp": "00:01:47.900",
+      "endTimestamp": "00:01:50.800",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0027",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 27,
+      "start": 111.34,
+      "end": 111.6,
+      "duration": 0.26,
+      "startTimestamp": "00:01:51.340",
+      "endTimestamp": "00:01:51.600",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0028",
+    "text": "First function is going to be getPokemonList and we are basically going to fetch 20 Pokemon",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 28,
+      "start": 112.5,
+      "end": 120.92,
+      "duration": 8.42,
+      "startTimestamp": "00:01:52.500",
+      "endTimestamp": "00:02:00.920",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0029",
+    "text": "at a one time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 29,
+      "start": 121,
+      "end": 121.8,
+      "duration": 0.8,
+      "startTimestamp": "00:02:01.000",
+      "endTimestamp": "00:02:01.800",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0030",
+    "text": "So, I can simply say export const.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 30,
+      "start": 122.78,
+      "end": 125.78,
+      "duration": 3,
+      "startTimestamp": "00:02:02.780",
+      "endTimestamp": "00:02:05.780",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0031",
+    "text": "get Pokemon list is equals to async and then first thing is going to be the limit which",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 31,
+      "start": 127.78,
+      "end": 134.7,
+      "duration": 6.92,
+      "startTimestamp": "00:02:07.780",
+      "endTimestamp": "00:02:14.700",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0032",
+    "text": "is type of number is equals to 20, offset is always going to be the number and then",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 32,
+      "start": 134.701,
+      "end": 142.72,
+      "duration": 8.019,
+      "startTimestamp": "00:02:14.701",
+      "endTimestamp": "00:02:22.720",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0033",
+    "text": "0 and let me just simply coming to here, easy and they are going to return me a promise,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 33,
+      "start": 142.721,
+      "end": 152.7,
+      "duration": 9.979,
+      "startTimestamp": "00:02:22.721",
+      "endTimestamp": "00:02:32.700",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0034",
+    "text": "And the type of this promise is going to be the Pokemon list response.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 34,
+      "start": 153.7,
+      "end": 160.68,
+      "duration": 6.98,
+      "startTimestamp": "00:02:33.700",
+      "endTimestamp": "00:02:40.680",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0035",
+    "text": "Perfect, easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 35,
+      "start": 161.98,
+      "end": 163.18,
+      "duration": 1.2,
+      "startTimestamp": "00:02:41.980",
+      "endTimestamp": "00:02:43.180",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0036",
+    "text": "And then we are basically going to have a very simple fetch API call.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 36,
+      "start": 164.019,
+      "end": 167.959,
+      "duration": 3.94,
+      "startTimestamp": "00:02:44.019",
+      "endTimestamp": "00:02:47.959",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0037",
+    "text": "I will call a const.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 37,
+      "start": 168.14,
+      "end": 169.44,
+      "duration": 1.3,
+      "startTimestamp": "00:02:48.140",
+      "endTimestamp": "00:02:49.440",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0038",
+    "text": "response is equals to await, which back ticks, this is first of all going to have a base",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 38,
+      "start": 170.88,
+      "end": 178.38,
+      "duration": 7.5,
+      "startTimestamp": "00:02:50.880",
+      "endTimestamp": "00:02:58.380",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0039",
+    "text": "URL and then the endpoint we need.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 39,
+      "start": 178.56,
+      "end": 181.3,
+      "duration": 2.74,
+      "startTimestamp": "00:02:58.560",
+      "endTimestamp": "00:03:01.300",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0040",
+    "text": "So this is going to be for Pokemon.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 40,
+      "start": 181.54,
+      "end": 183.48,
+      "duration": 1.94,
+      "startTimestamp": "00:03:01.540",
+      "endTimestamp": "00:03:03.480",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0041",
+    "text": "Then let me add some params, some queries basically, the limit is basically going to",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 41,
+      "start": 184.34,
+      "end": 191.06,
+      "duration": 6.72,
+      "startTimestamp": "00:03:04.340",
+      "endTimestamp": "00:03:11.060",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0042",
+    "text": "be as the limit.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 42,
+      "start": 191.08,
+      "end": 193.12,
+      "duration": 2.04,
+      "startTimestamp": "00:03:11.080",
+      "endTimestamp": "00:03:13.120",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0043",
+    "text": "So, this is the limit that we have and in same way the offset we have.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 43,
+      "start": 193.8,
+      "end": 200.06,
+      "duration": 6.26,
+      "startTimestamp": "00:03:13.800",
+      "endTimestamp": "00:03:20.060",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0044",
+    "text": "So, end offset easy this is basically also equal to the offset perfect and then I am",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 44,
+      "start": 200.15,
+      "end": 210.72,
+      "duration": 10.57,
+      "startTimestamp": "00:03:20.150",
+      "endTimestamp": "00:03:30.720",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0045",
+    "text": "basically going to return response dot JSON.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 45,
+      "start": 210.721,
+      "end": 214.62,
+      "duration": 3.899,
+      "startTimestamp": "00:03:30.721",
+      "endTimestamp": "00:03:34.620",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0046",
+    "text": "Easy, let me format this for you just to make it more readable.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 46,
+      "start": 215,
+      "end": 220.16,
+      "duration": 5.16,
+      "startTimestamp": "00:03:35.000",
+      "endTimestamp": "00:03:40.160",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0047",
+    "text": "Now you will see a basic response and returning it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 47,
+      "start": 220.74,
+      "end": 223.26,
+      "duration": 2.52,
+      "startTimestamp": "00:03:40.740",
+      "endTimestamp": "00:03:43.260",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0048",
+    "text": "We can just add one check that is going to be if we do not have the response.ok throw",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 48,
+      "start": 223.4,
+      "end": 230.72,
+      "duration": 7.32,
+      "startTimestamp": "00:03:43.400",
+      "endTimestamp": "00:03:50.720",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0049",
+    "text": "this new error, fail to fetch Pokemon list.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 49,
+      "start": 230.721,
+      "end": 233.72,
+      "duration": 2.999,
+      "startTimestamp": "00:03:50.721",
+      "endTimestamp": "00:03:53.720",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0050",
+    "text": "Simple, perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 50,
+      "start": 234.82,
+      "end": 236.42000000000002,
+      "duration": 1.6,
+      "startTimestamp": "00:03:54.820",
+      "endTimestamp": "00:03:56.420",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0051",
+    "text": "Then, let's move ahead and then say simple export const get Pokemon detail and this is",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 51,
+      "start": 236.8,
+      "end": 245.5,
+      "duration": 8.7,
+      "startTimestamp": "00:03:56.800",
+      "endTimestamp": "00:04:05.500",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0052",
+    "text": "equals to the async and then I will call this as name or id and this will become your string",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 52,
+      "start": 245.501,
+      "end": 253.06,
+      "duration": 7.559,
+      "startTimestamp": "00:04:05.501",
+      "endTimestamp": "00:04:13.060",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0053",
+    "text": "or number.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 53,
+      "start": 253.52,
+      "end": 254.26,
+      "duration": 0.74,
+      "startTimestamp": "00:04:13.520",
+      "endTimestamp": "00:04:14.260",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0054",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 54,
+      "start": 255.16,
+      "end": 255.38,
+      "duration": 0.22,
+      "startTimestamp": "00:04:15.160",
+      "endTimestamp": "00:04:15.380",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0055",
+    "text": "You will basically get Pokemon by their name or by their id.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 55,
+      "start": 255.48,
+      "end": 258.779,
+      "duration": 3.299,
+      "startTimestamp": "00:04:15.480",
+      "endTimestamp": "00:04:18.779",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0056",
+    "text": "This is going to return a promise which is type of Pokemon.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 56,
+      "start": 260.2,
+      "end": 264.16,
+      "duration": 3.96,
+      "startTimestamp": "00:04:20.200",
+      "endTimestamp": "00:04:24.160",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0057",
+    "text": "And then this will going to return us this very basics again simple database call, simple",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 57,
+      "start": 267.34,
+      "end": 275.86,
+      "duration": 8.52,
+      "startTimestamp": "00:04:27.340",
+      "endTimestamp": "00:04:35.860",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0058",
+    "text": "fetch call response is equals to await fetch back ticks this is going to be as base URL",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 58,
+      "start": 275.9,
+      "end": 285.259,
+      "duration": 9.359,
+      "startTimestamp": "00:04:35.900",
+      "endTimestamp": "00:04:45.259",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0059",
+    "text": "and after the base URL this is going to be the Pokemon.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 59,
+      "start": 286.72,
+      "end": 290.74,
+      "duration": 4.02,
+      "startTimestamp": "00:04:46.720",
+      "endTimestamp": "00:04:50.740",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0060",
+    "text": "And I will call this name or ID, whatever name is coming, whatever ID is coming on the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 60,
+      "start": 291.1,
+      "end": 296.98,
+      "duration": 5.88,
+      "startTimestamp": "00:04:51.100",
+      "endTimestamp": "00:04:56.980",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0061",
+    "text": "basis of that we are returning it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 61,
+      "start": 296.981,
+      "end": 298.88,
+      "duration": 1.899,
+      "startTimestamp": "00:04:56.981",
+      "endTimestamp": "00:04:58.880",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0062",
+    "text": "Then same thing, failed to fetch Pokemon details.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 62,
+      "start": 299.64,
+      "end": 307.18,
+      "duration": 7.54,
+      "startTimestamp": "00:04:59.640",
+      "endTimestamp": "00:05:07.180",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0063",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 63,
+      "start": 308.02,
+      "end": 308.34,
+      "duration": 0.32,
+      "startTimestamp": "00:05:08.020",
+      "endTimestamp": "00:05:08.340",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0064",
+    "text": "And you can definitely add other data like you can add this here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 64,
+      "start": 309.2,
+      "end": 312.94,
+      "duration": 3.74,
+      "startTimestamp": "00:05:09.200",
+      "endTimestamp": "00:05:12.940",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0065",
+    "text": "And, then simple return response dot json simple and then in same way I can write export",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 65,
+      "start": 313.7,
+      "end": 323.76,
+      "duration": 10.06,
+      "startTimestamp": "00:05:13.700",
+      "endTimestamp": "00:05:23.760",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0066",
+    "text": "const get pokemon by type like you can also fetch pokemon by their type like you are fetching",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 66,
+      "start": 323.761,
+      "end": 333.4,
+      "duration": 9.639,
+      "startTimestamp": "00:05:23.761",
+      "endTimestamp": "00:05:33.400",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0067",
+    "text": "on their fire water like we have multiple traits.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 67,
+      "start": 333.44,
+      "end": 336.76,
+      "duration": 3.32,
+      "startTimestamp": "00:05:33.440",
+      "endTimestamp": "00:05:36.760",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0068",
+    "text": "and the Pokemon type which is coming, so type will going to be here the string and they",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 68,
+      "start": 337,
+      "end": 345.3,
+      "duration": 8.3,
+      "startTimestamp": "00:05:37.000",
+      "endTimestamp": "00:05:45.300",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0069",
+    "text": "are going to return you again the promise is going to be as Pokemon rough which is type",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 69,
+      "start": 345.301,
+      "end": 354.26,
+      "duration": 8.959,
+      "startTimestamp": "00:05:45.301",
+      "endTimestamp": "00:05:54.260",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0070",
+    "text": "of an array because we can have multiple Pokemon of same type that's why.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 70,
+      "start": 354.261,
+      "end": 360.52,
+      "duration": 6.259,
+      "startTimestamp": "00:05:54.261",
+      "endTimestamp": "00:06:00.520",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0071",
+    "text": "And, then same simple const response is equals to await fetch and then this will going to",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 71,
+      "start": 361,
+      "end": 371.08,
+      "duration": 10.08,
+      "startTimestamp": "00:06:01.000",
+      "endTimestamp": "00:06:11.080",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0072",
+    "text": "become a back tick and base URL slash type slash whatever the type is coming as a prop.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 72,
+      "start": 371.081,
+      "end": 380.4,
+      "duration": 9.319,
+      "startTimestamp": "00:06:11.081",
+      "endTimestamp": "00:06:20.400",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0073",
+    "text": "And, then same thing like if this is not going to be as going to return this otherwise simple",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 73,
+      "start": 381.08,
+      "end": 389.44,
+      "duration": 8.36,
+      "startTimestamp": "00:06:21.080",
+      "endTimestamp": "00:06:29.440",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0074",
+    "text": "Data is equal to await response dot json and then going to return a data dot pokemon dot",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 74,
+      "start": 390.4,
+      "end": 404.199,
+      "duration": 13.799,
+      "startTimestamp": "00:06:30.400",
+      "endTimestamp": "00:06:44.199",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0075",
+    "text": "is going to be map.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 75,
+      "start": 404.56,
+      "end": 405.639,
+      "duration": 1.079,
+      "startTimestamp": "00:06:44.560",
+      "endTimestamp": "00:06:45.639",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0076",
+    "text": "We have item which is type of any for now.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 76,
+      "start": 406.08,
+      "end": 409.08,
+      "duration": 3,
+      "startTimestamp": "00:06:46.080",
+      "endTimestamp": "00:06:49.080",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0077",
+    "text": "And then we are returning the item.Pokemon just in a proper formatted way.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 77,
+      "start": 409.4,
+      "end": 416.54,
+      "duration": 7.14,
+      "startTimestamp": "00:06:49.400",
+      "endTimestamp": "00:06:56.540",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0078",
+    "text": "That's why we have added here array.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 78,
+      "start": 417.12,
+      "end": 418.479,
+      "duration": 1.359,
+      "startTimestamp": "00:06:57.120",
+      "endTimestamp": "00:06:58.479",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0079",
+    "text": "That's why we're returning into the map.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 79,
+      "start": 418.78,
+      "end": 421.06,
+      "duration": 2.28,
+      "startTimestamp": "00:06:58.780",
+      "endTimestamp": "00:07:01.060",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0080",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 80,
+      "start": 421.8,
+      "end": 422.06,
+      "duration": 0.26,
+      "startTimestamp": "00:07:01.800",
+      "endTimestamp": "00:07:02.060",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0081",
+    "text": "Nice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 81,
+      "start": 423.12,
+      "end": 423.479,
+      "duration": 0.359,
+      "startTimestamp": "00:07:03.120",
+      "endTimestamp": "00:07:03.479",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0082",
+    "text": "So, yes, we are done with this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 82,
+      "start": 423.66,
+      "end": 425.58,
+      "duration": 1.92,
+      "startTimestamp": "00:07:03.660",
+      "endTimestamp": "00:07:05.580",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0083",
+    "text": "But before moving ahead, let me close this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 83,
+      "start": 426.16,
+      "end": 428.979,
+      "duration": 2.819,
+      "startTimestamp": "00:07:06.160",
+      "endTimestamp": "00:07:08.979",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0084",
+    "text": "Let me open this, close everything.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 84,
+      "start": 429.22,
+      "end": 430.919,
+      "duration": 1.699,
+      "startTimestamp": "00:07:09.220",
+      "endTimestamp": "00:07:10.919",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0085",
+    "text": "At the root of our application and not into root, into the app, I wanted to create a constant.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 85,
+      "start": 432.08,
+      "end": 438.22,
+      "duration": 6.14,
+      "startTimestamp": "00:07:12.080",
+      "endTimestamp": "00:07:18.220",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0086",
+    "text": "And inside this constant, we are going to have two constant.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 86,
+      "start": 439.6,
+      "end": 444.28,
+      "duration": 4.68,
+      "startTimestamp": "00:07:19.600",
+      "endTimestamp": "00:07:24.280",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0087",
+    "text": "One is for colors that we are going to use all the colors we have.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 87,
+      "start": 445,
+      "end": 448.98,
+      "duration": 3.98,
+      "startTimestamp": "00:07:25.000",
+      "endTimestamp": "00:07:28.980",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0088",
+    "text": "Let me just simply paste them.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 88,
+      "start": 449.1,
+      "end": 450.74,
+      "duration": 1.64,
+      "startTimestamp": "00:07:29.100",
+      "endTimestamp": "00:07:30.740",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0089",
+    "text": "So you will see that we have a background card.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 89,
+      "start": 451.36,
+      "end": 453.65999999999997,
+      "duration": 2.3,
+      "startTimestamp": "00:07:31.360",
+      "endTimestamp": "00:07:33.660",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0090",
+    "text": "We are going to use that text, subtext, border, accent yellow, accent emerald, then all the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 90,
+      "start": 453.7,
+      "end": 459.7,
+      "duration": 6,
+      "startTimestamp": "00:07:33.700",
+      "endTimestamp": "00:07:39.700",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0091",
+    "text": "types color we have, like we have normal, we have fire, we have water, we have electric,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 91,
+      "start": 459.701,
+      "end": 464.92,
+      "duration": 5.219,
+      "startTimestamp": "00:07:39.701",
+      "endTimestamp": "00:07:44.920",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0092",
+    "text": "grass, towards the ferry.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 92,
+      "start": 465.06,
+      "end": 466.78,
+      "duration": 1.72,
+      "startTimestamp": "00:07:45.060",
+      "endTimestamp": "00:07:46.780",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0093",
+    "text": "Easy and then a simple we are exporting it something like this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 93,
+      "start": 467.1,
+      "end": 471.82,
+      "duration": 4.72,
+      "startTimestamp": "00:07:47.100",
+      "endTimestamp": "00:07:51.820",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0094",
+    "text": "Then let me also add here types.ts and now we have the color and the colors and we are",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 94,
+      "start": 472.54,
+      "end": 480.5,
+      "duration": 7.96,
+      "startTimestamp": "00:07:52.540",
+      "endTimestamp": "00:08:00.500",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0095",
+    "text": "returning all the Pokemon types we have.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 95,
+      "start": 480.501,
+      "end": 482.86,
+      "duration": 2.359,
+      "startTimestamp": "00:08:00.501",
+      "endTimestamp": "00:08:02.860",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0096",
+    "text": "Then, in this format basic and then we are also saying get type color.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 96,
+      "start": 483.1,
+      "end": 488.3,
+      "duration": 5.2,
+      "startTimestamp": "00:08:03.100",
+      "endTimestamp": "00:08:08.300",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0097",
+    "text": "Let us say if the type is normal, we are just simply searching the type normal's color and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 97,
+      "start": 489.08,
+      "end": 495.04,
+      "duration": 5.96,
+      "startTimestamp": "00:08:09.080",
+      "endTimestamp": "00:08:15.040",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0098",
+    "text": "returning that something like this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 98,
+      "start": 495.041,
+      "end": 498.52,
+      "duration": 3.479,
+      "startTimestamp": "00:08:15.041",
+      "endTimestamp": "00:08:18.520",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0099",
+    "text": "Perfect, so basic logic, don't think too much over it, you can simple copy and paste that",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 99,
+      "start": 499.58,
+      "end": 504.86,
+      "duration": 5.28,
+      "startTimestamp": "00:08:19.580",
+      "endTimestamp": "00:08:24.860",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0100",
+    "text": "for now.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 100,
+      "start": 504.96,
+      "end": 505.46,
+      "duration": 0.5,
+      "startTimestamp": "00:08:24.960",
+      "endTimestamp": "00:08:25.460",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0101",
+    "text": "Our main focus is to understand this React navigation, that's it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 101,
+      "start": 505.461,
+      "end": 509.7,
+      "duration": 4.239,
+      "startTimestamp": "00:08:25.461",
+      "endTimestamp": "00:08:29.700",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0102",
+    "text": "Perfect, eventually you will understand all of this in upcoming lectures, so don't take",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 102,
+      "start": 509.92,
+      "end": 515.539,
+      "duration": 5.619,
+      "startTimestamp": "00:08:29.920",
+      "endTimestamp": "00:08:35.539",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0103",
+    "text": "any stress for now, just write with me, keep your brain open and just write with me things",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 103,
+      "start": 515.54,
+      "end": 520.9,
+      "duration": 5.36,
+      "startTimestamp": "00:08:35.540",
+      "endTimestamp": "00:08:40.900",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0104",
+    "text": "for now.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 104,
+      "start": 520.901,
+      "end": 521.62,
+      "duration": 0.719,
+      "startTimestamp": "00:08:40.901",
+      "endTimestamp": "00:08:41.620",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0105",
+    "text": "Alright, so now we are good to go.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 105,
+      "start": 522.96,
+      "end": 525.6,
+      "duration": 2.64,
+      "startTimestamp": "00:08:42.960",
+      "endTimestamp": "00:08:45.600",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0106",
+    "text": "So we have successfully completed the chapter number two with adding all the backend fetching",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 106,
+      "start": 526.27,
+      "end": 530.68,
+      "duration": 4.41,
+      "startTimestamp": "00:08:46.270",
+      "endTimestamp": "00:08:50.680",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0107",
+    "text": "logic and Pokemon API.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 107,
+      "start": 530.681,
+      "end": 532.68,
+      "duration": 1.999,
+      "startTimestamp": "00:08:50.681",
+      "endTimestamp": "00:08:52.680",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0108",
+    "text": "From next chapter we are going to implement the home screen and in same way in upcoming",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 108,
+      "start": 532.92,
+      "end": 538.24,
+      "duration": 5.32,
+      "startTimestamp": "00:08:52.920",
+      "endTimestamp": "00:08:58.240",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0109",
+    "text": "chapters there.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 109,
+      "start": 538.241,
+      "end": 538.94,
+      "duration": 0.699,
+      "startTimestamp": "00:08:58.241",
+      "endTimestamp": "00:08:58.940",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_0110",
+    "text": "This is pretty much it for this chapter and see you in chapter number three.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "fileName": "mini-project-2-backend-api-and-constants_epm.vtt",
+      "captionIndex": 110,
+      "start": 539.22,
+      "end": 543.02,
+      "duration": 3.8,
+      "startTimestamp": "00:08:59.220",
+      "endTimestamp": "00:09:03.020",
+      "estimatedTokens": 20
+    }
+  }
+]

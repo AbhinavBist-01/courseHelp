@@ -1,0 +1,2149 @@
+[
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0001",
+    "text": "Alright everyone and in this lecture we are going to talk about layouts and slots in expo",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 1,
+      "start": 0,
+      "end": 7.76,
+      "duration": 7.76,
+      "startTimestamp": "00:00:00.000",
+      "endTimestamp": "00:00:07.760",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0002",
+    "text": "router.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 2,
+      "start": 7.84,
+      "end": 8.06,
+      "duration": 0.22,
+      "startTimestamp": "00:00:07.840",
+      "endTimestamp": "00:00:08.060",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0003",
+    "text": "So in expo router layout help you to wrap we can say the common UI around your screen",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 3,
+      "start": 8.66,
+      "end": 16.26,
+      "duration": 7.6,
+      "startTimestamp": "00:00:08.660",
+      "endTimestamp": "00:00:16.260",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0004",
+    "text": "and slot component lets you render the current route inside the layout.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 4,
+      "start": 16.96,
+      "end": 21.56,
+      "duration": 4.6,
+      "startTimestamp": "00:00:16.960",
+      "endTimestamp": "00:00:21.560",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0005",
+    "text": "So what I am talking about let's try to read it and try to understand.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 5,
+      "start": 21.561,
+      "end": 25.04,
+      "duration": 3.479,
+      "startTimestamp": "00:00:21.561",
+      "endTimestamp": "00:00:25.040",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0006",
+    "text": "Each directory with the app within the app directory including app itself can define",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 6,
+      "start": 25.9,
+      "end": 32.32,
+      "duration": 6.42,
+      "startTimestamp": "00:00:25.900",
+      "endTimestamp": "00:00:32.320",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0007",
+    "text": "a layout in the form of a slash underscore, underscore layout dot TSX file inside the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 7,
+      "start": 32.489,
+      "end": 41.96,
+      "duration": 9.471,
+      "startTimestamp": "00:00:32.489",
+      "endTimestamp": "00:00:41.960",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0008",
+    "text": "directory.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 8,
+      "start": 42.04,
+      "end": 42.32,
+      "duration": 0.28,
+      "startTimestamp": "00:00:42.040",
+      "endTimestamp": "00:00:42.320",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0009",
+    "text": "So, this file define how all the pages within that directory are arranged.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 9,
+      "start": 42.37,
+      "end": 49.04,
+      "duration": 6.67,
+      "startTimestamp": "00:00:42.370",
+      "endTimestamp": "00:00:49.040",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0010",
+    "text": "So, this is where you would define a stack navigator, we will going to talk, although",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 10,
+      "start": 49.4,
+      "end": 54.26,
+      "duration": 4.86,
+      "startTimestamp": "00:00:49.400",
+      "endTimestamp": "00:00:54.260",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0011",
+    "text": "we have already talked about this stack navigator, tab navigator, drawer navigator, all in our",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 11,
+      "start": 54.34,
+      "end": 59.62,
+      "duration": 5.28,
+      "startTimestamp": "00:00:54.340",
+      "endTimestamp": "00:00:59.620",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0012",
+    "text": "react navigation, but we are also going to understand that in this module as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 12,
+      "start": 59.68,
+      "end": 64.92,
+      "duration": 5.24,
+      "startTimestamp": "00:00:59.680",
+      "endTimestamp": "00:01:04.920",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0013",
+    "text": "So, do not worry.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 13,
+      "start": 65,
+      "end": 65.44,
+      "duration": 0.44,
+      "startTimestamp": "00:01:05.000",
+      "endTimestamp": "00:01:05.440",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0014",
+    "text": "So, this is where you would define a stack navigator, tab navigator, draw navigator,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 14,
+      "start": 66.9,
+      "end": 71.58,
+      "duration": 4.68,
+      "startTimestamp": "00:01:06.900",
+      "endTimestamp": "00:01:11.580",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0015",
+    "text": "any other layout.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 15,
+      "start": 71.76,
+      "end": 72.66,
+      "duration": 0.9,
+      "startTimestamp": "00:01:11.760",
+      "endTimestamp": "00:01:12.660",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0016",
+    "text": "So, any other layout is a slot that we are going to see what is that that you want to",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 16,
+      "start": 73.11,
+      "end": 77.9,
+      "duration": 4.79,
+      "startTimestamp": "00:01:13.110",
+      "endTimestamp": "00:01:17.900",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0017",
+    "text": "use for the pages and screen in that directory.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 17,
+      "start": 77.94,
+      "end": 81.2,
+      "duration": 3.26,
+      "startTimestamp": "00:01:17.940",
+      "endTimestamp": "00:01:21.200",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0018",
+    "text": "So, so the layout file export a default component that is rendered before whatever page you",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 18,
+      "start": 81.86,
+      "end": 88.42,
+      "duration": 6.56,
+      "startTimestamp": "00:01:21.860",
+      "endTimestamp": "00:01:28.420",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0019",
+    "text": "are navigating to within that directory.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 19,
+      "start": 88.5,
+      "end": 90.78,
+      "duration": 2.28,
+      "startTimestamp": "00:01:28.500",
+      "endTimestamp": "00:01:30.780",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0020",
+    "text": "So, we are definitely like first we have this root layout.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 20,
+      "start": 91.06,
+      "end": 94.7,
+      "duration": 3.64,
+      "startTimestamp": "00:01:31.060",
+      "endTimestamp": "00:01:34.700",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0021",
+    "text": "From where from here our application is a start rendering.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 21,
+      "start": 95.5,
+      "end": 100.12,
+      "duration": 4.62,
+      "startTimestamp": "00:01:35.500",
+      "endTimestamp": "00:01:40.120",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0022",
+    "text": "So virtually every app will have underscore layout.tsx file directory inside the app.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 22,
+      "start": 100.63,
+      "end": 107.18,
+      "duration": 6.55,
+      "startTimestamp": "00:01:40.630",
+      "endTimestamp": "00:01:47.180",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0023",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 23,
+      "start": 108.14,
+      "end": 108.5,
+      "duration": 0.36,
+      "startTimestamp": "00:01:48.140",
+      "endTimestamp": "00:01:48.500",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0024",
+    "text": "So this is the main thing that you have.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 24,
+      "start": 108.501,
+      "end": 110,
+      "duration": 1.499,
+      "startTimestamp": "00:01:48.501",
+      "endTimestamp": "00:01:50.000",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0025",
+    "text": "And from here you can define stack, you can define tabs, you can define slots.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 25,
+      "start": 110.37,
+      "end": 115.06,
+      "duration": 4.69,
+      "startTimestamp": "00:01:50.370",
+      "endTimestamp": "00:01:55.060",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0026",
+    "text": "So in this chapter, we are going to talk about layout and slots.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 26,
+      "start": 115.72,
+      "end": 119.52000000000001,
+      "duration": 3.8,
+      "startTimestamp": "00:01:55.720",
+      "endTimestamp": "00:01:59.520",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0027",
+    "text": "So let's see how we can basically implement that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 27,
+      "start": 120.2,
+      "end": 123.36,
+      "duration": 3.16,
+      "startTimestamp": "00:02:00.200",
+      "endTimestamp": "00:02:03.360",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0028",
+    "text": "I just don't want it to complicate much.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 28,
+      "start": 123.8,
+      "end": 126.04,
+      "duration": 2.24,
+      "startTimestamp": "00:02:03.800",
+      "endTimestamp": "00:02:06.040",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0029",
+    "text": "So that's why now let's move ahead and we'll see how you can basically do so that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 29,
+      "start": 126.32,
+      "end": 130.46,
+      "duration": 4.14,
+      "startTimestamp": "00:02:06.320",
+      "endTimestamp": "00:02:10.460",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0030",
+    "text": "So right now you will see that we are able to see the index and then all the files that",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 30,
+      "start": 131.13,
+      "end": 136.7,
+      "duration": 5.57,
+      "startTimestamp": "00:02:11.130",
+      "endTimestamp": "00:02:16.700",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0031",
+    "text": "we have.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 31,
+      "start": 136.86,
+      "end": 137.2,
+      "duration": 0.34,
+      "startTimestamp": "00:02:16.860",
+      "endTimestamp": "00:02:17.200",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0032",
+    "text": "But layouts mean you wanted to share some common UI.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 32,
+      "start": 137.71,
+      "end": 140.88,
+      "duration": 3.17,
+      "startTimestamp": "00:02:17.710",
+      "endTimestamp": "00:02:20.880",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0033",
+    "text": "So, let's say inside this app, where is my layout?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 33,
+      "start": 141.4,
+      "end": 144.599,
+      "duration": 3.199,
+      "startTimestamp": "00:02:21.400",
+      "endTimestamp": "00:02:24.599",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0034",
+    "text": "This one.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 34,
+      "start": 145.2,
+      "end": 145.56,
+      "duration": 0.36,
+      "startTimestamp": "00:02:25.200",
+      "endTimestamp": "00:02:25.560",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0035",
+    "text": "So, yeah.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 35,
+      "start": 145.78,
+      "end": 146.22,
+      "duration": 0.44,
+      "startTimestamp": "00:02:25.780",
+      "endTimestamp": "00:02:26.220",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0036",
+    "text": "Now, right now, I don't want it to use stack because I wanted to talk about a stack in",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 36,
+      "start": 147.04,
+      "end": 151.84,
+      "duration": 4.8,
+      "startTimestamp": "00:02:27.040",
+      "endTimestamp": "00:02:31.840",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0037",
+    "text": "separate section.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 37,
+      "start": 151.9,
+      "end": 152.84,
+      "duration": 0.94,
+      "startTimestamp": "00:02:31.900",
+      "endTimestamp": "00:02:32.840",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0038",
+    "text": "So, right now, my main motive is to make you understand about layout, like what is the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 38,
+      "start": 153.9,
+      "end": 158.159,
+      "duration": 4.259,
+      "startTimestamp": "00:02:33.900",
+      "endTimestamp": "00:02:38.159",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0039",
+    "text": "actual role of this layout.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 39,
+      "start": 158.2,
+      "end": 159.379,
+      "duration": 1.179,
+      "startTimestamp": "00:02:38.200",
+      "endTimestamp": "00:02:39.379",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0040",
+    "text": "So, for understanding that we are going to use here something on a slot.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 40,
+      "start": 159.859,
+      "end": 163.239,
+      "duration": 3.38,
+      "startTimestamp": "00:02:39.859",
+      "endTimestamp": "00:02:43.239",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0041",
+    "text": "And yes, let me change the slot here as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 41,
+      "start": 164.84,
+      "end": 167.64,
+      "duration": 2.8,
+      "startTimestamp": "00:02:44.840",
+      "endTimestamp": "00:02:47.640",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0042",
+    "text": "Now, the moment I save it, you will see all the stacks, all the back button, front button,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 42,
+      "start": 169.099,
+      "end": 174.72,
+      "duration": 5.621,
+      "startTimestamp": "00:02:49.099",
+      "endTimestamp": "00:02:54.720",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0043",
+    "text": "everything just gone away from here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 43,
+      "start": 174.86,
+      "end": 176.599,
+      "duration": 1.739,
+      "startTimestamp": "00:02:54.860",
+      "endTimestamp": "00:02:56.599",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0044",
+    "text": "Now what you can do, you can let's say just first of all do so this and let me just wrap",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 44,
+      "start": 177.86,
+      "end": 183.739,
+      "duration": 5.879,
+      "startTimestamp": "00:02:57.860",
+      "endTimestamp": "00:03:03.739",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0045",
+    "text": "all of them inside a view and we can say a safe area view.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 45,
+      "start": 183.86,
+      "end": 188.18,
+      "duration": 4.32,
+      "startTimestamp": "00:03:03.860",
+      "endTimestamp": "00:03:08.180",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0046",
+    "text": "So, let me get my safe area.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 46,
+      "start": 188.73,
+      "end": 190.54,
+      "duration": 1.81,
+      "startTimestamp": "00:03:08.730",
+      "endTimestamp": "00:03:10.540",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0047",
+    "text": "view. Perfect. And then let me wrap my slot inside this safe area view. And here let me",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 47,
+      "start": 191.1,
+      "end": 199.12,
+      "duration": 8.02,
+      "startTimestamp": "00:03:11.100",
+      "endTimestamp": "00:03:19.120",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0048",
+    "text": "call this a view. Let me import it. And I can call this as header, not inside this. Yep,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 48,
+      "start": 199.18,
+      "end": 206.16,
+      "duration": 6.98,
+      "startTimestamp": "00:03:19.180",
+      "endTimestamp": "00:03:26.160",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0049",
+    "text": "here. I will call this header. Easy. Let me import my text.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 49,
+      "start": 206.32,
+      "end": 211.3,
+      "duration": 4.98,
+      "startTimestamp": "00:03:26.320",
+      "endTimestamp": "00:03:31.300",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0050",
+    "text": "And in same way I can copy this and below my slot I can call this footer and if I save",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 50,
+      "start": 212,
+      "end": 218.4,
+      "duration": 6.4,
+      "startTimestamp": "00:03:32.000",
+      "endTimestamp": "00:03:38.400",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0051",
+    "text": "it you will interestingly see we are able to see this header and we are also able to",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 51,
+      "start": 218.52,
+      "end": 223.7,
+      "duration": 5.18,
+      "startTimestamp": "00:03:38.520",
+      "endTimestamp": "00:03:43.700",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0052",
+    "text": "see this footer.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 52,
+      "start": 223.76,
+      "end": 224.84,
+      "duration": 1.08,
+      "startTimestamp": "00:03:43.760",
+      "endTimestamp": "00:03:44.840",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0053",
+    "text": "So how you can basically see the actual output?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 53,
+      "start": 225,
+      "end": 227.64,
+      "duration": 2.64,
+      "startTimestamp": "00:03:45.000",
+      "endTimestamp": "00:03:47.640",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0054",
+    "text": "So, for that now you can see that we have header, we have photo and let's say you wanted",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 54,
+      "start": 228.2,
+      "end": 232.879,
+      "duration": 4.679,
+      "startTimestamp": "00:03:48.200",
+      "endTimestamp": "00:03:52.879",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0055",
+    "text": "to render your index dot file.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 55,
+      "start": 233.02,
+      "end": 236.07999999999998,
+      "duration": 3.06,
+      "startTimestamp": "00:03:53.020",
+      "endTimestamp": "00:03:56.080",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0056",
+    "text": "Alright, so right now let me just try to decorate this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 56,
+      "start": 236.72,
+      "end": 240.18,
+      "duration": 3.46,
+      "startTimestamp": "00:03:56.720",
+      "endTimestamp": "00:04:00.180",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0057",
+    "text": "So for that, let me get my style sheet.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 57,
+      "start": 240.54,
+      "end": 244.459,
+      "duration": 3.919,
+      "startTimestamp": "00:04:00.540",
+      "endTimestamp": "00:04:04.459",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0058",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 58,
+      "start": 245.019,
+      "end": 245.18,
+      "duration": 0.161,
+      "startTimestamp": "00:04:05.019",
+      "endTimestamp": "00:04:05.180",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0059",
+    "text": "So let me import this style sheet via basic container, a header and a photo.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 59,
+      "start": 245.76,
+      "end": 250.08,
+      "duration": 4.32,
+      "startTimestamp": "00:04:05.760",
+      "endTimestamp": "00:04:10.080",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0060",
+    "text": "Easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 60,
+      "start": 250.26,
+      "end": 250.42,
+      "duration": 0.16,
+      "startTimestamp": "00:04:10.260",
+      "endTimestamp": "00:04:10.420",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0061",
+    "text": "And then let me copy and paste that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 61,
+      "start": 251.14,
+      "end": 253.26,
+      "duration": 2.12,
+      "startTimestamp": "00:04:11.140",
+      "endTimestamp": "00:04:13.260",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0062",
+    "text": "So.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 62,
+      "start": 253.599,
+      "end": 253.78,
+      "duration": 0.181,
+      "startTimestamp": "00:04:13.599",
+      "endTimestamp": "00:04:13.780",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0063",
+    "text": "from here till here, easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 63,
+      "start": 254.5,
+      "end": 257.64,
+      "duration": 3.14,
+      "startTimestamp": "00:04:14.500",
+      "endTimestamp": "00:04:17.640",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0064",
+    "text": "So now you will see that we have this slot which is styles.container and instead of this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 64,
+      "start": 257.74,
+      "end": 265.48,
+      "duration": 7.74,
+      "startTimestamp": "00:04:17.740",
+      "endTimestamp": "00:04:25.480",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0065",
+    "text": "we can define this here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 65,
+      "start": 265.74,
+      "end": 267.46,
+      "duration": 1.72,
+      "startTimestamp": "00:04:25.740",
+      "endTimestamp": "00:04:27.460",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0066",
+    "text": "So just give me a minute, let me call this a style and this style is going to become",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 66,
+      "start": 267.52,
+      "end": 272.96,
+      "duration": 5.44,
+      "startTimestamp": "00:04:27.520",
+      "endTimestamp": "00:04:32.960",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0067",
+    "text": "now my container and I can remove this view.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 67,
+      "start": 273.1,
+      "end": 276.5,
+      "duration": 3.4,
+      "startTimestamp": "00:04:33.100",
+      "endTimestamp": "00:04:36.500",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0068",
+    "text": "Perfect and now if I save it, so look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 68,
+      "start": 276.9,
+      "end": 281,
+      "duration": 4.1,
+      "startTimestamp": "00:04:36.900",
+      "endTimestamp": "00:04:41.000",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0069",
+    "text": "Now you guys able to see this is my app header, this one and below is my app footer and all",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 69,
+      "start": 281.94,
+      "end": 289.04,
+      "duration": 7.1,
+      "startTimestamp": "00:04:41.940",
+      "endTimestamp": "00:04:49.040",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0070",
+    "text": "the content of my index.tsx file is rendering here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 70,
+      "start": 289.199,
+      "end": 293.26,
+      "duration": 4.061,
+      "startTimestamp": "00:04:49.199",
+      "endTimestamp": "00:04:53.260",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0071",
+    "text": "And let's say if I now go to my feed, perfect, let me fix this design, cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 71,
+      "start": 293.5,
+      "end": 300.54,
+      "duration": 7.04,
+      "startTimestamp": "00:04:53.500",
+      "endTimestamp": "00:05:00.540",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0072",
+    "text": "So now let me go to my feed.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 72,
+      "start": 301.03,
+      "end": 302.36,
+      "duration": 1.33,
+      "startTimestamp": "00:05:01.030",
+      "endTimestamp": "00:05:02.360",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0073",
+    "text": "So the moment I press on feed, you will see my feed is changing, the content.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 73,
+      "start": 302.47,
+      "end": 307.8,
+      "duration": 5.33,
+      "startTimestamp": "00:05:02.470",
+      "endTimestamp": "00:05:07.800",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0074",
+    "text": "In place of slot we are rendering feed so at the top of it we can see my app header bottom my f footer",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 74,
+      "start": 309.5,
+      "end": 317.14,
+      "duration": 7.64,
+      "startTimestamp": "00:05:09.500",
+      "endTimestamp": "00:05:17.140",
+      "estimatedTokens": 32
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0075",
+    "text": "Same layout sharing between all of them and interestingly you will see now. We don't have any back button",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 75,
+      "start": 317.42,
+      "end": 323.14,
+      "duration": 5.72,
+      "startTimestamp": "00:05:17.420",
+      "endTimestamp": "00:05:23.140",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0076",
+    "text": "So for that yes, you can reload it and then you can again be on your home page",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 76,
+      "start": 324.1,
+      "end": 329.04,
+      "duration": 4.94,
+      "startTimestamp": "00:05:24.100",
+      "endTimestamp": "00:05:29.040",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0077",
+    "text": "and you can test it out.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 77,
+      "start": 329.9,
+      "end": 331.66,
+      "duration": 1.76,
+      "startTimestamp": "00:05:29.900",
+      "endTimestamp": "00:05:31.660",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0078",
+    "text": "So we are just right now understanding about layouts.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 78,
+      "start": 331.759,
+      "end": 334.65999999999997,
+      "duration": 2.901,
+      "startTimestamp": "00:05:31.759",
+      "endTimestamp": "00:05:34.660",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0079",
+    "text": "Layouts is about sharing some common properties",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 79,
+      "start": 335.1,
+      "end": 339.08,
+      "duration": 3.98,
+      "startTimestamp": "00:05:35.100",
+      "endTimestamp": "00:05:39.080",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0080",
+    "text": "along with the, we can say, directories, files",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 80,
+      "start": 339.759,
+      "end": 342.28,
+      "duration": 2.521,
+      "startTimestamp": "00:05:39.759",
+      "endTimestamp": "00:05:42.280",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0081",
+    "text": "that we have.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 81,
+      "start": 342.88,
+      "end": 343.479,
+      "duration": 0.599,
+      "startTimestamp": "00:05:42.880",
+      "endTimestamp": "00:05:43.479",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0082",
+    "text": "I hope so making sense.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 82,
+      "start": 343.9,
+      "end": 344.84000000000003,
+      "duration": 0.94,
+      "startTimestamp": "00:05:43.900",
+      "endTimestamp": "00:05:44.840",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0083",
+    "text": "So, yeah, now let's see how you can create a separate like this is your root layout,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 83,
+      "start": 345.3,
+      "end": 351.18,
+      "duration": 5.88,
+      "startTimestamp": "00:05:45.300",
+      "endTimestamp": "00:05:51.180",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0084",
+    "text": "but I wanted to create a scope layout.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 84,
+      "start": 351.819,
+      "end": 353.56,
+      "duration": 1.741,
+      "startTimestamp": "00:05:51.819",
+      "endTimestamp": "00:05:53.560",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0085",
+    "text": "So how you can create a scope layout scope layout is going to be pretty easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 85,
+      "start": 354.21,
+      "end": 359.4,
+      "duration": 5.19,
+      "startTimestamp": "00:05:54.210",
+      "endTimestamp": "00:05:59.400",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0086",
+    "text": "We can say even that nested layout.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 86,
+      "start": 359.629,
+      "end": 361.479,
+      "duration": 1.85,
+      "startTimestamp": "00:05:59.629",
+      "endTimestamp": "00:06:01.479",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0087",
+    "text": "So let's say inside profile and inside this, let me create this layout.tsx.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 87,
+      "start": 362.259,
+      "end": 368.58,
+      "duration": 6.321,
+      "startTimestamp": "00:06:02.259",
+      "endTimestamp": "00:06:08.580",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0088",
+    "text": "perfect and let me copy this, let me paste it cool and instead of root layout, let me",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 88,
+      "start": 369.42,
+      "end": 378.46,
+      "duration": 9.04,
+      "startTimestamp": "00:06:09.420",
+      "endTimestamp": "00:06:18.460",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0089",
+    "text": "call this a profile layout easy and let me replace this and we already have this my app",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 89,
+      "start": 378.52,
+      "end": 387.64,
+      "duration": 9.12,
+      "startTimestamp": "00:06:18.520",
+      "endTimestamp": "00:06:27.640",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0090",
+    "text": "header my app order so I don't want it to show this instead at the top of it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 90,
+      "start": 387.74,
+      "end": 393.76,
+      "duration": 6.02,
+      "startTimestamp": "00:06:27.740",
+      "endTimestamp": "00:06:33.760",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0091",
+    "text": "I wanted to render a text and this text is going to show me profile easy, simple just",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 91,
+      "start": 394.2,
+      "end": 403.42,
+      "duration": 9.22,
+      "startTimestamp": "00:06:34.200",
+      "endTimestamp": "00:06:43.420",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0092",
+    "text": "to identify this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 92,
+      "start": 403.44,
+      "end": 404.6,
+      "duration": 1.16,
+      "startTimestamp": "00:06:43.440",
+      "endTimestamp": "00:06:44.600",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0093",
+    "text": "So now if I save it and let me go to my homepage once again.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 93,
+      "start": 405.54,
+      "end": 409.2,
+      "duration": 3.66,
+      "startTimestamp": "00:06:45.540",
+      "endTimestamp": "00:06:49.200",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0094",
+    "text": "And if I try to go to my profile page, let's say cool, so if I just press on profile user,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 94,
+      "start": 413.18,
+      "end": 419.04,
+      "duration": 5.86,
+      "startTimestamp": "00:06:53.180",
+      "endTimestamp": "00:06:59.040",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0095",
+    "text": "you will see something interesting.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 95,
+      "start": 419.54,
+      "end": 421,
+      "duration": 1.46,
+      "startTimestamp": "00:06:59.540",
+      "endTimestamp": "00:07:01.000",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0096",
+    "text": "So for all the files inside this profile, you are going to see this profile tag.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 96,
+      "start": 421.66,
+      "end": 428.72,
+      "duration": 7.06,
+      "startTimestamp": "00:07:01.660",
+      "endTimestamp": "00:07:08.720",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0097",
+    "text": "But this is your root layouts, this is your nested layout.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 97,
+      "start": 429.46,
+      "end": 432.419,
+      "duration": 2.959,
+      "startTimestamp": "00:07:09.460",
+      "endTimestamp": "00:07:12.419",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0098",
+    "text": "So, this is how you can define and this is how you can control the layouting of your",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 98,
+      "start": 433,
+      "end": 437.64,
+      "duration": 4.64,
+      "startTimestamp": "00:07:13.000",
+      "endTimestamp": "00:07:17.640",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0099",
+    "text": "files.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 99,
+      "start": 437.84,
+      "end": 437.96,
+      "duration": 0.12,
+      "startTimestamp": "00:07:17.840",
+      "endTimestamp": "00:07:17.960",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0100",
+    "text": "For now, we are using slots, but definitely you are not going to use slots that much.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 100,
+      "start": 438.66,
+      "end": 443.38,
+      "duration": 4.72,
+      "startTimestamp": "00:07:18.660",
+      "endTimestamp": "00:07:23.380",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0101",
+    "text": "So, you can read more about slots.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 101,
+      "start": 444.18,
+      "end": 445.76,
+      "duration": 1.58,
+      "startTimestamp": "00:07:24.180",
+      "endTimestamp": "00:07:25.760",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0102",
+    "text": "So, in some cases, you may want a layout with without a navigator.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 102,
+      "start": 445.86,
+      "end": 449.44,
+      "duration": 3.58,
+      "startTimestamp": "00:07:25.860",
+      "endTimestamp": "00:07:29.440",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0103",
+    "text": "In that case, you can use it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 103,
+      "start": 449.58,
+      "end": 451,
+      "duration": 1.42,
+      "startTimestamp": "00:07:29.580",
+      "endTimestamp": "00:07:31.000",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0104",
+    "text": "So, this is helpful for adding a header or footer around the current route or for displaying",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 104,
+      "start": 451.36,
+      "end": 455.98,
+      "duration": 4.62,
+      "startTimestamp": "00:07:31.360",
+      "endTimestamp": "00:07:35.980",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0105",
+    "text": "a model over any route inside a directory.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 105,
+      "start": 456.14,
+      "end": 458.48,
+      "duration": 2.34,
+      "startTimestamp": "00:07:36.140",
+      "endTimestamp": "00:07:38.480",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0106",
+    "text": "So, in this case you can use the slot component which serves as a placeholder for the current",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 106,
+      "start": 458.9,
+      "end": 466.58,
+      "duration": 7.68,
+      "startTimestamp": "00:07:38.900",
+      "endTimestamp": "00:07:46.580",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0107",
+    "text": "child route.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 107,
+      "start": 466.699,
+      "end": 467.259,
+      "duration": 0.56,
+      "startTimestamp": "00:07:46.699",
+      "endTimestamp": "00:07:47.259",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0108",
+    "text": "Yes, this is the nice definition for slot.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 108,
+      "start": 467.4,
+      "end": 470.4,
+      "duration": 3,
+      "startTimestamp": "00:07:47.400",
+      "endTimestamp": "00:07:50.400",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0109",
+    "text": "This is serve as a placeholder for the current child route.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 109,
+      "start": 470.979,
+      "end": 475.3,
+      "duration": 4.321,
+      "startTimestamp": "00:07:50.979",
+      "endTimestamp": "00:07:55.300",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0110",
+    "text": "So, yeah, I hope so I am making sense and from next chapter we are going to talk about",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 110,
+      "start": 475.6,
+      "end": 480.46,
+      "duration": 4.86,
+      "startTimestamp": "00:07:55.600",
+      "endTimestamp": "00:08:00.460",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0111",
+    "text": "some route groups, how you can create route groups, then we are going to create some stacks,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 111,
+      "start": 480.54,
+      "end": 485.28,
+      "duration": 4.74,
+      "startTimestamp": "00:08:00.540",
+      "endTimestamp": "00:08:05.280",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0112",
+    "text": "tabs, draw all of that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 112,
+      "start": 485.6,
+      "end": 487.6,
+      "duration": 2,
+      "startTimestamp": "00:08:05.600",
+      "endTimestamp": "00:08:07.600",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_0113",
+    "text": "So don't worry about it, but for now this is pretty much it and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "fileName": "6-Layouts-&-Slot-Components_epm.vtt",
+      "captionIndex": 113,
+      "start": 487.92,
+      "end": 492.64,
+      "duration": 4.72,
+      "startTimestamp": "00:08:07.920",
+      "endTimestamp": "00:08:12.640",
+      "estimatedTokens": 24
+    }
+  }
+]

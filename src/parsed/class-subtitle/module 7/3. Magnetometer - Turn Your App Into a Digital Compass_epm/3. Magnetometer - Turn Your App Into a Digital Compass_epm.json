@@ -1,0 +1,2149 @@
+[
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0001",
+    "text": "Alright guys and welcome to one more new chapter.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 1,
+      "start": 0.64,
+      "end": 3.52,
+      "duration": 2.88,
+      "startTimestamp": "00:00:00.640",
+      "endTimestamp": "00:00:03.520",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0002",
+    "text": "Right now we are done with this X-ROSCOPE.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 2,
+      "start": 3.9,
+      "end": 6.04,
+      "duration": 2.14,
+      "startTimestamp": "00:00:03.900",
+      "endTimestamp": "00:00:06.040",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0003",
+    "text": "Let's move ahead and start talking about this magnetometer.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 3,
+      "start": 6.22,
+      "end": 9.88,
+      "duration": 3.66,
+      "startTimestamp": "00:00:06.220",
+      "endTimestamp": "00:00:09.880",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0004",
+    "text": "This is also very easy and easy to understand.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 4,
+      "start": 10.3,
+      "end": 13.06,
+      "duration": 2.76,
+      "startTimestamp": "00:00:10.300",
+      "endTimestamp": "00:00:13.060",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0005",
+    "text": "Let me try to explain you what is the use of this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 5,
+      "start": 13.88,
+      "end": 16.2,
+      "duration": 2.32,
+      "startTimestamp": "00:00:13.880",
+      "endTimestamp": "00:00:16.200",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0006",
+    "text": "So this sensor tell you the magnetic field.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 6,
+      "start": 16.34,
+      "end": 19.6,
+      "duration": 3.26,
+      "startTimestamp": "00:00:16.340",
+      "endTimestamp": "00:00:19.600",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0007",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 7,
+      "start": 19.7,
+      "end": 20.6,
+      "duration": 0.9,
+      "startTimestamp": "00:00:19.700",
+      "endTimestamp": "00:00:20.600",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0008",
+    "text": "The only work of this sensor is to tell you the magnetic field around your phone.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 8,
+      "start": 21.04,
+      "end": 26.88,
+      "duration": 5.84,
+      "startTimestamp": "00:00:21.040",
+      "endTimestamp": "00:00:26.880",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0009",
+    "text": "So you can use this as a compass, which you can use like again a digital compass.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 9,
+      "start": 27.02,
+      "end": 32.88,
+      "duration": 5.86,
+      "startTimestamp": "00:00:27.020",
+      "endTimestamp": "00:00:32.880",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0010",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 10,
+      "start": 33.48,
+      "end": 33.82,
+      "duration": 0.34,
+      "startTimestamp": "00:00:33.480",
+      "endTimestamp": "00:00:33.820",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0011",
+    "text": "So why this actually matters?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 11,
+      "start": 33.96,
+      "end": 35.34,
+      "duration": 1.38,
+      "startTimestamp": "00:00:33.960",
+      "endTimestamp": "00:00:35.340",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0012",
+    "text": "So instead of just reacting on motion, you can tell which way the device is pointing.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 12,
+      "start": 35.68,
+      "end": 42.46,
+      "duration": 6.78,
+      "startTimestamp": "00:00:35.680",
+      "endTimestamp": "00:00:42.460",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0013",
+    "text": "So real use case for this magnetometer is again a compass screen.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 13,
+      "start": 43.04,
+      "end": 47.96,
+      "duration": 4.92,
+      "startTimestamp": "00:00:43.040",
+      "endTimestamp": "00:00:47.960",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0014",
+    "text": "And then directional map.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 14,
+      "start": 48.5,
+      "end": 50.78,
+      "duration": 2.28,
+      "startTimestamp": "00:00:48.500",
+      "endTimestamp": "00:00:50.780",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0015",
+    "text": "Yes, you can use this as a directional maps.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 15,
+      "start": 51.02,
+      "end": 53.78,
+      "duration": 2.76,
+      "startTimestamp": "00:00:51.020",
+      "endTimestamp": "00:00:53.780",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0016",
+    "text": "You can orientation base UIs.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 16,
+      "start": 54.58,
+      "end": 56.9,
+      "duration": 2.32,
+      "startTimestamp": "00:00:54.580",
+      "endTimestamp": "00:00:56.900",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0017",
+    "text": "You can basically create that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 17,
+      "start": 57.04,
+      "end": 58.48,
+      "duration": 1.44,
+      "startTimestamp": "00:00:57.040",
+      "endTimestamp": "00:00:58.480",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0018",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 18,
+      "start": 58.68,
+      "end": 59,
+      "duration": 0.32,
+      "startTimestamp": "00:00:58.680",
+      "endTimestamp": "00:00:59.000",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0019",
+    "text": "So let me try to explain you this by again having a great example.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 19,
+      "start": 60.08,
+      "end": 64.739,
+      "duration": 4.659,
+      "startTimestamp": "00:01:00.080",
+      "endTimestamp": "00:01:04.739",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0020",
+    "text": "So let's move ahead.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 20,
+      "start": 65.52,
+      "end": 66.56,
+      "duration": 1.04,
+      "startTimestamp": "00:01:05.520",
+      "endTimestamp": "00:01:06.560",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0021",
+    "text": "Let me add a component and I will simply say this as compass dot t s x r a f c e not r",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 21,
+      "start": 66.66,
+      "end": 73.53999999999999,
+      "duration": 6.88,
+      "startTimestamp": "00:01:06.660",
+      "endTimestamp": "00:01:13.540",
+      "estimatedTokens": 32
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0022",
+    "text": "And this will become my compass.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 22,
+      "start": 77.07900000000001,
+      "end": 79.52,
+      "duration": 2.441,
+      "startTimestamp": "00:01:17.079",
+      "endTimestamp": "00:01:19.520",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0023",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 23,
+      "start": 79.979,
+      "end": 80.219,
+      "duration": 0.24,
+      "startTimestamp": "00:01:19.979",
+      "endTimestamp": "00:01:20.219",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0024",
+    "text": "And we don't need it right now.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 24,
+      "start": 80.399,
+      "end": 82.82,
+      "duration": 2.421,
+      "startTimestamp": "00:01:20.399",
+      "endTimestamp": "00:01:22.820",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0025",
+    "text": "And below this I can import my compass.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 25,
+      "start": 83.18,
+      "end": 86.799,
+      "duration": 3.619,
+      "startTimestamp": "00:01:23.180",
+      "endTimestamp": "00:01:26.799",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0026",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 26,
+      "start": 88.799,
+      "end": 89.259,
+      "duration": 0.46,
+      "startTimestamp": "00:01:28.799",
+      "endTimestamp": "00:01:29.259",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0027",
+    "text": "Let me close this, close this as well and only focus here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 27,
+      "start": 89.72,
+      "end": 93.179,
+      "duration": 3.459,
+      "startTimestamp": "00:01:29.720",
+      "endTimestamp": "00:01:33.179",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0028",
+    "text": "So, again I simply wanted to show perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 28,
+      "start": 93.2,
+      "end": 97.07900000000001,
+      "duration": 3.879,
+      "startTimestamp": "00:01:33.200",
+      "endTimestamp": "00:01:37.079",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0029",
+    "text": "So, let's move ahead and start implementing step by step.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 29,
+      "start": 97.90899999999999,
+      "end": 101.15899999999999,
+      "duration": 3.25,
+      "startTimestamp": "00:01:37.909",
+      "endTimestamp": "00:01:41.159",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0030",
+    "text": "So, the first thing first let me just simply have here our direction.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 30,
+      "start": 101.5,
+      "end": 105.939,
+      "duration": 4.439,
+      "startTimestamp": "00:01:41.500",
+      "endTimestamp": "00:01:45.939",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0031",
+    "text": "So, direction and then set direction this is equals to use state and right now by default",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 31,
+      "start": 107.1,
+      "end": 114.399,
+      "duration": 7.299,
+      "startTimestamp": "00:01:47.100",
+      "endTimestamp": "00:01:54.399",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0032",
+    "text": "we can keep it as unknown.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 32,
+      "start": 114.4,
+      "end": 116.179,
+      "duration": 1.779,
+      "startTimestamp": "00:01:54.400",
+      "endTimestamp": "00:01:56.179",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0033",
+    "text": "And in same way, let me have again simple design.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 33,
+      "start": 116.9,
+      "end": 122.32,
+      "duration": 5.42,
+      "startTimestamp": "00:01:56.900",
+      "endTimestamp": "00:02:02.320",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0034",
+    "text": "This is for a style and this is for this school.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 34,
+      "start": 123.36,
+      "end": 126.7,
+      "duration": 3.34,
+      "startTimestamp": "00:02:03.360",
+      "endTimestamp": "00:02:06.700",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0035",
+    "text": "So you will see right now showing us unknown.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 35,
+      "start": 127.12,
+      "end": 129.3,
+      "duration": 2.18,
+      "startTimestamp": "00:02:07.120",
+      "endTimestamp": "00:02:09.300",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0036",
+    "text": "Very good.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 36,
+      "start": 129.74,
+      "end": 130.24,
+      "duration": 0.5,
+      "startTimestamp": "00:02:09.740",
+      "endTimestamp": "00:02:10.240",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0037",
+    "text": "Let's move ahead and again start implementing this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 37,
+      "start": 131.02,
+      "end": 134.64,
+      "duration": 3.62,
+      "startTimestamp": "00:02:11.020",
+      "endTimestamp": "00:02:14.640",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0038",
+    "text": "So for that I can have a use effect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 38,
+      "start": 135.06,
+      "end": 137.52,
+      "duration": 2.46,
+      "startTimestamp": "00:02:15.060",
+      "endTimestamp": "00:02:17.520",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0039",
+    "text": "And this use effect will again going to subscribe to an event but first of all let me add an",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 39,
+      "start": 137.9,
+      "end": 145.76,
+      "duration": 7.86,
+      "startTimestamp": "00:02:17.900",
+      "endTimestamp": "00:02:25.760",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0040",
+    "text": "empty dependency.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 40,
+      "start": 145.761,
+      "end": 146.659,
+      "duration": 0.898,
+      "startTimestamp": "00:02:25.761",
+      "endTimestamp": "00:02:26.659",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0041",
+    "text": "So this is going to be sub is equals to let me import this magnetometer.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 41,
+      "start": 147.86,
+      "end": 153.659,
+      "duration": 5.799,
+      "startTimestamp": "00:02:27.860",
+      "endTimestamp": "00:02:33.659",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0042",
+    "text": "So this is magnetometer.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 42,
+      "start": 154.859,
+      "end": 157.459,
+      "duration": 2.6,
+      "startTimestamp": "00:02:34.859",
+      "endTimestamp": "00:02:37.459",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0043",
+    "text": "meter dot add listener. Perfect. And then we have a x axis, y axis and again not x. This",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 43,
+      "start": 162.04,
+      "end": 170.82,
+      "duration": 8.78,
+      "startTimestamp": "00:02:42.040",
+      "endTimestamp": "00:02:50.820",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0044",
+    "text": "is going to be z axis. And then again let's use simple maths dot absolute value. If maths",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 44,
+      "start": 170.88,
+      "end": 181.52,
+      "duration": 10.64,
+      "startTimestamp": "00:02:50.880",
+      "endTimestamp": "00:03:01.520",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0045",
+    "text": "dot x is greater than.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 45,
+      "start": 181.521,
+      "end": 183.44,
+      "duration": 1.919,
+      "startTimestamp": "00:03:01.521",
+      "endTimestamp": "00:03:03.440",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0046",
+    "text": "So, math dot absolute of y perfect this means our direction will be in eastish or westish",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 46,
+      "start": 184.1,
+      "end": 197.36,
+      "duration": 13.26,
+      "startTimestamp": "00:03:04.100",
+      "endTimestamp": "00:03:17.360",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0047",
+    "text": "perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 47,
+      "start": 197.68,
+      "end": 197.94,
+      "duration": 0.26,
+      "startTimestamp": "00:03:17.680",
+      "endTimestamp": "00:03:17.940",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0048",
+    "text": "So, if x value is greater than 0 this means value is something around eastish.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 48,
+      "start": 197.941,
+      "end": 205.62,
+      "duration": 7.679,
+      "startTimestamp": "00:03:17.941",
+      "endTimestamp": "00:03:25.620",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0049",
+    "text": "Otherwise, this is going to be westish, perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 49,
+      "start": 207.74,
+      "end": 210.76,
+      "duration": 3.02,
+      "startTimestamp": "00:03:27.740",
+      "endTimestamp": "00:03:30.760",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0050",
+    "text": "So, westish.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 50,
+      "start": 211.16,
+      "end": 214.7,
+      "duration": 3.54,
+      "startTimestamp": "00:03:31.160",
+      "endTimestamp": "00:03:34.700",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0051",
+    "text": "Else, this is going to be northish and southish, perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 51,
+      "start": 216.3,
+      "end": 222.34,
+      "duration": 6.04,
+      "startTimestamp": "00:03:36.300",
+      "endTimestamp": "00:03:42.340",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0052",
+    "text": "So, I can simply have the directions as well and at the very bottom I can again come into",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 52,
+      "start": 222.341,
+      "end": 229.52,
+      "duration": 7.179,
+      "startTimestamp": "00:03:42.341",
+      "endTimestamp": "00:03:49.520",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0053",
+    "text": "here and say return and then whatever this let me just simply remove it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 53,
+      "start": 229.52100000000002,
+      "end": 236.72,
+      "duration": 7.199,
+      "startTimestamp": "00:03:49.521",
+      "endTimestamp": "00:03:56.720",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0054",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 54,
+      "start": 236.78,
+      "end": 237.16,
+      "duration": 0.38,
+      "startTimestamp": "00:03:56.780",
+      "endTimestamp": "00:03:57.160",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0055",
+    "text": "Let's test this out, but you will see right now my phone position is in something Southish,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 55,
+      "start": 237.7,
+      "end": 242.26,
+      "duration": 4.56,
+      "startTimestamp": "00:03:57.700",
+      "endTimestamp": "00:04:02.260",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0056",
+    "text": "but if I try to rotate it and look at that now we are in West now in North.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 56,
+      "start": 242.62,
+      "end": 247.319,
+      "duration": 4.699,
+      "startTimestamp": "00:04:02.620",
+      "endTimestamp": "00:04:07.319",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0057",
+    "text": "And hopefully in HD, yes, so successfully I am able to track my locations.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 57,
+      "start": 247.4,
+      "end": 253.299,
+      "duration": 5.899,
+      "startTimestamp": "00:04:07.400",
+      "endTimestamp": "00:04:13.299",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0058",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 58,
+      "start": 254.26,
+      "end": 254.459,
+      "duration": 0.199,
+      "startTimestamp": "00:04:14.260",
+      "endTimestamp": "00:04:14.459",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0059",
+    "text": "So how I am able to do so with the help of this Magnetometer.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 59,
+      "start": 254.519,
+      "end": 258.699,
+      "duration": 4.18,
+      "startTimestamp": "00:04:14.519",
+      "endTimestamp": "00:04:18.699",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0060",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 60,
+      "start": 260.079,
+      "end": 260.419,
+      "duration": 0.34,
+      "startTimestamp": "00:04:20.079",
+      "endTimestamp": "00:04:20.419",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0061",
+    "text": "So amazing.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 61,
+      "start": 261.199,
+      "end": 262.12,
+      "duration": 0.921,
+      "startTimestamp": "00:04:21.199",
+      "endTimestamp": "00:04:22.120",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0062",
+    "text": "Alright, so let's enhance this bit more again.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 62,
+      "start": 262.6,
+      "end": 265.56,
+      "duration": 2.96,
+      "startTimestamp": "00:04:22.600",
+      "endTimestamp": "00:04:25.560",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0063",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 63,
+      "start": 265.84,
+      "end": 266.08,
+      "duration": 0.24,
+      "startTimestamp": "00:04:25.840",
+      "endTimestamp": "00:04:26.080",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0064",
+    "text": "So for that, let me grab a bunch of styles.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 64,
+      "start": 266.16,
+      "end": 269.28,
+      "duration": 3.12,
+      "startTimestamp": "00:04:26.160",
+      "endTimestamp": "00:04:29.280",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0065",
+    "text": "And let me paste all of that here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 65,
+      "start": 269.7,
+      "end": 273.5,
+      "duration": 3.8,
+      "startTimestamp": "00:04:29.700",
+      "endTimestamp": "00:04:33.500",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0066",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 66,
+      "start": 273.62,
+      "end": 273.92,
+      "duration": 0.3,
+      "startTimestamp": "00:04:33.620",
+      "endTimestamp": "00:04:33.920",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0067",
+    "text": "And then in same way, I can also have a view.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 67,
+      "start": 274.24,
+      "end": 277.36,
+      "duration": 3.12,
+      "startTimestamp": "00:04:34.240",
+      "endTimestamp": "00:04:37.360",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0068",
+    "text": "Now this view have a something new thing as arrow and a color.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 68,
+      "start": 278.52,
+      "end": 282.46,
+      "duration": 3.94,
+      "startTimestamp": "00:04:38.520",
+      "endTimestamp": "00:04:42.460",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0069",
+    "text": "All right.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 69,
+      "start": 282.92,
+      "end": 283.42,
+      "duration": 0.5,
+      "startTimestamp": "00:04:42.920",
+      "endTimestamp": "00:04:43.420",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0070",
+    "text": "So let me add all the three state variables that I need.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 70,
+      "start": 283.8,
+      "end": 287.42,
+      "duration": 3.62,
+      "startTimestamp": "00:04:43.800",
+      "endTimestamp": "00:04:47.420",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0071",
+    "text": "We already have a direction.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 71,
+      "start": 287.78,
+      "end": 289.06,
+      "duration": 1.28,
+      "startTimestamp": "00:04:47.780",
+      "endTimestamp": "00:04:49.060",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0072",
+    "text": "We need arrow and a color.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 72,
+      "start": 289.34000000000003,
+      "end": 291.14,
+      "duration": 1.8,
+      "startTimestamp": "00:04:49.340",
+      "endTimestamp": "00:04:51.140",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0073",
+    "text": "And if I, what happened?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 73,
+      "start": 291.34000000000003,
+      "end": 293.8,
+      "duration": 2.46,
+      "startTimestamp": "00:04:51.340",
+      "endTimestamp": "00:04:53.800",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0074",
+    "text": "Just give me a minute.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 74,
+      "start": 294.1,
+      "end": 294.84000000000003,
+      "duration": 0.74,
+      "startTimestamp": "00:04:54.100",
+      "endTimestamp": "00:04:54.840",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0075",
+    "text": "And if I save it, you will see something like this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 75,
+      "start": 295.68,
+      "end": 298.18,
+      "duration": 2.5,
+      "startTimestamp": "00:04:55.680",
+      "endTimestamp": "00:04:58.180",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0076",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 76,
+      "start": 298.6,
+      "end": 299.62,
+      "duration": 1.02,
+      "startTimestamp": "00:04:58.600",
+      "endTimestamp": "00:04:59.620",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0077",
+    "text": "Let's try to enhance this bit more.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 77,
+      "start": 300.14,
+      "end": 302.22,
+      "duration": 2.08,
+      "startTimestamp": "00:05:00.140",
+      "endTimestamp": "00:05:02.220",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0078",
+    "text": "Everything is fine.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 78,
+      "start": 302.34,
+      "end": 303.1,
+      "duration": 0.76,
+      "startTimestamp": "00:05:02.340",
+      "endTimestamp": "00:05:03.100",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0079",
+    "text": "We have X and Y.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 79,
+      "start": 303.12,
+      "end": 304.42,
+      "duration": 1.3,
+      "startTimestamp": "00:05:03.120",
+      "endTimestamp": "00:05:04.420",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0080",
+    "text": "We don't need Z right now.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 80,
+      "start": 304.54,
+      "end": 306.68,
+      "duration": 2.14,
+      "startTimestamp": "00:05:04.540",
+      "endTimestamp": "00:05:06.680",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0081",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 81,
+      "start": 307.36,
+      "end": 307.64,
+      "duration": 0.28,
+      "startTimestamp": "00:05:07.360",
+      "endTimestamp": "00:05:07.640",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0082",
+    "text": "And if this is here, so what I will say here, inside this if I will add one more condition",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 82,
+      "start": 307.92,
+      "end": 315.12,
+      "duration": 7.2,
+      "startTimestamp": "00:05:07.920",
+      "endTimestamp": "00:05:15.120",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0083",
+    "text": "and let me just simply paste that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 83,
+      "start": 315.28,
+      "end": 317.16,
+      "duration": 1.88,
+      "startTimestamp": "00:05:15.280",
+      "endTimestamp": "00:05:17.160",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0084",
+    "text": "So, if x is greater than 0, this means direction is in east, arrow should be here and then",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 84,
+      "start": 317.2,
+      "end": 324.66,
+      "duration": 7.46,
+      "startTimestamp": "00:05:17.200",
+      "endTimestamp": "00:05:24.660",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0085",
+    "text": "color is something like this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 85,
+      "start": 324.661,
+      "end": 325.92,
+      "duration": 1.259,
+      "startTimestamp": "00:05:24.661",
+      "endTimestamp": "00:05:25.920",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0086",
+    "text": "Otherwise, we are in west and arrow is in here and set color is this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 86,
+      "start": 326.16,
+      "end": 330.8,
+      "duration": 4.64,
+      "startTimestamp": "00:05:26.160",
+      "endTimestamp": "00:05:30.800",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0087",
+    "text": "Why we are calculating for 0?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 87,
+      "start": 330.88,
+      "end": 332.5,
+      "duration": 1.62,
+      "startTimestamp": "00:05:30.880",
+      "endTimestamp": "00:05:32.500",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0088",
+    "text": "Imagine this as a Cartesian Plan.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 88,
+      "start": 334.08,
+      "end": 336.18,
+      "duration": 2.1,
+      "startTimestamp": "00:05:34.080",
+      "endTimestamp": "00:05:36.180",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0089",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 89,
+      "start": 337.1,
+      "end": 337.46,
+      "duration": 0.36,
+      "startTimestamp": "00:05:37.100",
+      "endTimestamp": "00:05:37.460",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0090",
+    "text": "So, at this point, right at the bottom we have x-axis and y-axis as zero.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 90,
+      "start": 337.759,
+      "end": 343.74,
+      "duration": 5.981,
+      "startTimestamp": "00:05:37.759",
+      "endTimestamp": "00:05:43.740",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0091",
+    "text": "If we are increasing this, we are moving towards east.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 91,
+      "start": 344.36,
+      "end": 347.32,
+      "duration": 2.96,
+      "startTimestamp": "00:05:44.360",
+      "endTimestamp": "00:05:47.320",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0092",
+    "text": "If we are decreasing this, we are moving towards west.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 92,
+      "start": 347.44,
+      "end": 350.46,
+      "duration": 3.02,
+      "startTimestamp": "00:05:47.440",
+      "endTimestamp": "00:05:50.460",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0093",
+    "text": "That's why.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 93,
+      "start": 350.94,
+      "end": 351.46,
+      "duration": 0.52,
+      "startTimestamp": "00:05:50.940",
+      "endTimestamp": "00:05:51.460",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0094",
+    "text": "Otherwise, let's do same thing inside the here, so perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 94,
+      "start": 352.06,
+      "end": 357.58,
+      "duration": 5.52,
+      "startTimestamp": "00:05:52.060",
+      "endTimestamp": "00:05:57.580",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0095",
+    "text": "Now if y is greater than 0 this means we are moving towards north, if less than 0 this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 95,
+      "start": 358.12,
+      "end": 364.06,
+      "duration": 5.94,
+      "startTimestamp": "00:05:58.120",
+      "endTimestamp": "00:06:04.060",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0096",
+    "text": "means negative we are moving towards south and if I save it look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 96,
+      "start": 364.061,
+      "end": 368.7,
+      "duration": 4.639,
+      "startTimestamp": "00:06:04.061",
+      "endTimestamp": "00:06:08.700",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0097",
+    "text": "My phone is facing towards south right now but if I change it look at that my phone is",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 97,
+      "start": 368.701,
+      "end": 374.68,
+      "duration": 5.979,
+      "startTimestamp": "00:06:08.701",
+      "endTimestamp": "00:06:14.680",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0098",
+    "text": "facing towards west.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 98,
+      "start": 374.681,
+      "end": 376.28,
+      "duration": 1.599,
+      "startTimestamp": "00:06:14.681",
+      "endTimestamp": "00:06:16.280",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0099",
+    "text": "Now on north and then in east.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 99,
+      "start": 376.98,
+      "end": 379.42,
+      "duration": 2.44,
+      "startTimestamp": "00:06:16.980",
+      "endTimestamp": "00:06:19.420",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0100",
+    "text": "So I hope you are loving it and this is how you can basically use it and create your own",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 100,
+      "start": 379.68,
+      "end": 386.6,
+      "duration": 6.92,
+      "startTimestamp": "00:06:19.680",
+      "endTimestamp": "00:06:26.600",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0101",
+    "text": "compass.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 101,
+      "start": 386.601,
+      "end": 387.1,
+      "duration": 0.499,
+      "startTimestamp": "00:06:26.601",
+      "endTimestamp": "00:06:27.100",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0102",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 102,
+      "start": 387.78,
+      "end": 388.08,
+      "duration": 0.3,
+      "startTimestamp": "00:06:27.780",
+      "endTimestamp": "00:06:28.080",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0103",
+    "text": "So, yes, so magnetometer give you X and Y values.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 103,
+      "start": 389.44,
+      "end": 393.3,
+      "duration": 3.86,
+      "startTimestamp": "00:06:29.440",
+      "endTimestamp": "00:06:33.300",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0104",
+    "text": "So bigger value decide directions.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 104,
+      "start": 393.539,
+      "end": 395.5,
+      "duration": 1.961,
+      "startTimestamp": "00:06:33.539",
+      "endTimestamp": "00:06:35.500",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0105",
+    "text": "So which show an arrow and color.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 105,
+      "start": 395.96,
+      "end": 397.379,
+      "duration": 1.419,
+      "startTimestamp": "00:06:35.960",
+      "endTimestamp": "00:06:37.379",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0106",
+    "text": "That's it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 106,
+      "start": 397.52,
+      "end": 398.22,
+      "duration": 0.7,
+      "startTimestamp": "00:06:37.520",
+      "endTimestamp": "00:06:38.220",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0107",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 107,
+      "start": 398.24,
+      "end": 398.52,
+      "duration": 0.28,
+      "startTimestamp": "00:06:38.240",
+      "endTimestamp": "00:06:38.520",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0108",
+    "text": "Yes.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 108,
+      "start": 400.12,
+      "end": 400.34000000000003,
+      "duration": 0.22,
+      "startTimestamp": "00:06:40.120",
+      "endTimestamp": "00:06:40.340",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0109",
+    "text": "So this is pretty much it for this our entire chapter.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 109,
+      "start": 400.36,
+      "end": 403.58,
+      "duration": 3.22,
+      "startTimestamp": "00:06:40.360",
+      "endTimestamp": "00:06:43.580",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0110",
+    "text": "So again, we are also done with this one like this magnetometer.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 110,
+      "start": 404.36,
+      "end": 409.319,
+      "duration": 4.959,
+      "startTimestamp": "00:06:44.360",
+      "endTimestamp": "00:06:49.319",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0111",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 111,
+      "start": 409.639,
+      "end": 409.86,
+      "duration": 0.221,
+      "startTimestamp": "00:06:49.639",
+      "endTimestamp": "00:06:49.860",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0112",
+    "text": "So let me just make it green and amazing, amazing job.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 112,
+      "start": 409.861,
+      "end": 413.5,
+      "duration": 3.639,
+      "startTimestamp": "00:06:49.861",
+      "endTimestamp": "00:06:53.500",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_0113",
+    "text": "See you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "fileName": "3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "captionIndex": 113,
+      "start": 414.12,
+      "end": 415.199,
+      "duration": 1.079,
+      "startTimestamp": "00:06:54.120",
+      "endTimestamp": "00:06:55.199",
+      "estimatedTokens": 6
+    }
+  }
+]

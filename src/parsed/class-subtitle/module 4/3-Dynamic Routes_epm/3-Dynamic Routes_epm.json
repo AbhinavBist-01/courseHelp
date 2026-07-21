@@ -1,0 +1,1674 @@
+[
+  {
+    "id": "3-Dynamic Routes_epm_0001",
+    "text": "Here everyone and in this lecture we will learn how to create dynamic routes with the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 1,
+      "start": 0.58,
+      "end": 5.56,
+      "duration": 4.98,
+      "startTimestamp": "00:00:00.580",
+      "endTimestamp": "00:00:05.560",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0002",
+    "text": "help of expo routers.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 2,
+      "start": 5.64,
+      "end": 6.94,
+      "duration": 1.3,
+      "startTimestamp": "00:00:05.640",
+      "endTimestamp": "00:00:06.940",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0003",
+    "text": "Dynamic routes let you build screen that accept parameters from the URL or we can say navigation",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 3,
+      "start": 7.78,
+      "end": 14.86,
+      "duration": 7.08,
+      "startTimestamp": "00:00:07.780",
+      "endTimestamp": "00:00:14.860",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0004",
+    "text": "path just like dynamic URL on the web and this makes your navigation feel more flexible.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 4,
+      "start": 15.08,
+      "end": 21.06,
+      "duration": 5.98,
+      "startTimestamp": "00:00:15.080",
+      "endTimestamp": "00:00:21.060",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0005",
+    "text": "Perfect. So what are dynamic routes? So in let's say in Xpo route basically here you",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 5,
+      "start": 21.6,
+      "end": 29.68,
+      "duration": 8.08,
+      "startTimestamp": "00:00:21.600",
+      "endTimestamp": "00:00:29.680",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0006",
+    "text": "wanted to have let's say you are on post. But as you know we have multiple posts onto",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 6,
+      "start": 29.74,
+      "end": 38.14,
+      "duration": 8.4,
+      "startTimestamp": "00:00:29.740",
+      "endTimestamp": "00:00:38.140",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0007",
+    "text": "our platform like post one, post two and each post have different ID.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 7,
+      "start": 38.22,
+      "end": 43,
+      "duration": 4.78,
+      "startTimestamp": "00:00:38.220",
+      "endTimestamp": "00:00:43.000",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0008",
+    "text": "And for each post, I wanted to have a route segment.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 8,
+      "start": 43.5,
+      "end": 47.6,
+      "duration": 4.1,
+      "startTimestamp": "00:00:43.500",
+      "endTimestamp": "00:00:47.600",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0009",
+    "text": "All right, for each post, I wanted to have a separate route.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 9,
+      "start": 48.75,
+      "end": 53.3,
+      "duration": 4.55,
+      "startTimestamp": "00:00:48.750",
+      "endTimestamp": "00:00:53.300",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0010",
+    "text": "So instead of separately creating for every post ID, we can use something known as dynamic",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 10,
+      "start": 54.51,
+      "end": 62.26,
+      "duration": 7.75,
+      "startTimestamp": "00:00:54.510",
+      "endTimestamp": "00:01:02.260",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0011",
+    "text": "routes because let's say right now you only have three posts.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 11,
+      "start": 62.4,
+      "end": 67.52,
+      "duration": 5.12,
+      "startTimestamp": "00:01:02.400",
+      "endTimestamp": "00:01:07.520",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0012",
+    "text": "So you are basically going to create.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 12,
+      "start": 67.63,
+      "end": 69.3,
+      "duration": 1.67,
+      "startTimestamp": "00:01:07.630",
+      "endTimestamp": "00:01:09.300",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0013",
+    "text": "We can say post1.tsx exactly post2.tsx, post3.tsx and in future let's say you have millions",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 13,
+      "start": 70.2,
+      "end": 79.759,
+      "duration": 9.559,
+      "startTimestamp": "00:01:10.200",
+      "endTimestamp": "00:01:19.759",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0014",
+    "text": "of posts then is this feasible to create post1 to post1 million.tsx?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 14,
+      "start": 79.84,
+      "end": 87.039,
+      "duration": 7.199,
+      "startTimestamp": "00:01:19.840",
+      "endTimestamp": "00:01:27.039",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0015",
+    "text": "No.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 15,
+      "start": 87.5,
+      "end": 87.759,
+      "duration": 0.259,
+      "startTimestamp": "00:01:27.500",
+      "endTimestamp": "00:01:27.759",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0016",
+    "text": "This is where the use of dynamic routes come.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 16,
+      "start": 88.24,
+      "end": 90.979,
+      "duration": 2.739,
+      "startTimestamp": "00:01:28.240",
+      "endTimestamp": "00:01:30.979",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0017",
+    "text": "Perfect, so how this actually work?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 17,
+      "start": 91.2,
+      "end": 93.74000000000001,
+      "duration": 2.54,
+      "startTimestamp": "00:01:31.200",
+      "endTimestamp": "00:01:33.740",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0018",
+    "text": "This is going to be basically work something like square notation.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 18,
+      "start": 94.25,
+      "end": 98.119,
+      "duration": 3.869,
+      "startTimestamp": "00:01:34.250",
+      "endTimestamp": "00:01:38.119",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0019",
+    "text": "Perfect, so you are basically going to use your parameters as we can say brackets and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 19,
+      "start": 98.96000000000001,
+      "end": 104.65899999999999,
+      "duration": 5.699,
+      "startTimestamp": "00:01:38.960",
+      "endTimestamp": "00:01:44.659",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0020",
+    "text": "explore outer automatically treat that parameter as a variable in the path and then with the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 20,
+      "start": 104.86,
+      "end": 111.259,
+      "duration": 6.399,
+      "startTimestamp": "00:01:44.860",
+      "endTimestamp": "00:01:51.259",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0021",
+    "text": "help of some hook, we will going to understand that in a while, you can basically create",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 21,
+      "start": 111.299,
+      "end": 116.36,
+      "duration": 5.061,
+      "startTimestamp": "00:01:51.299",
+      "endTimestamp": "00:01:56.360",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0022",
+    "text": "dynamic routes.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 22,
+      "start": 116.479,
+      "end": 117.259,
+      "duration": 0.78,
+      "startTimestamp": "00:01:56.479",
+      "endTimestamp": "00:01:57.259",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0023",
+    "text": "Let's say if I just try to give you an example of this, so you can treat this as a dynamic",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 23,
+      "start": 117.7,
+      "end": 124.539,
+      "duration": 6.839,
+      "startTimestamp": "00:01:57.700",
+      "endTimestamp": "00:02:04.539",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0024",
+    "text": "route.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 24,
+      "start": 124.68,
+      "end": 124.82,
+      "duration": 0.14,
+      "startTimestamp": "00:02:04.680",
+      "endTimestamp": "00:02:04.820",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0025",
+    "text": "Let's say we have a app router and inside this app router we have this post and each",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 25,
+      "start": 124.96,
+      "end": 130.75900000000001,
+      "duration": 5.799,
+      "startTimestamp": "00:02:04.960",
+      "endTimestamp": "00:02:10.759",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0026",
+    "text": "post have this unique square bracket and inside that square bracket we basically have something",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 26,
+      "start": 130.86,
+      "end": 137.12,
+      "duration": 6.26,
+      "startTimestamp": "00:02:10.860",
+      "endTimestamp": "00:02:17.120",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0027",
+    "text": "on as post ID.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 27,
+      "start": 137.26,
+      "end": 138.18,
+      "duration": 0.92,
+      "startTimestamp": "00:02:17.260",
+      "endTimestamp": "00:02:18.180",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0028",
+    "text": "So, this post ID is a dynamic route.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 28,
+      "start": 138.7,
+      "end": 141.3,
+      "duration": 2.6,
+      "startTimestamp": "00:02:18.700",
+      "endTimestamp": "00:02:21.300",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0029",
+    "text": "So, every time for post one, this one is going to replace this post ID same for two, same",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 29,
+      "start": 141.62,
+      "end": 147.92000000000002,
+      "duration": 6.3,
+      "startTimestamp": "00:02:21.620",
+      "endTimestamp": "00:02:27.920",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0030",
+    "text": "for the one million that we have perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 30,
+      "start": 148,
+      "end": 150.739,
+      "duration": 2.739,
+      "startTimestamp": "00:02:28.000",
+      "endTimestamp": "00:02:30.739",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0031",
+    "text": "So, by doing this, we are going to follow the best practice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 31,
+      "start": 150.86,
+      "end": 154.959,
+      "duration": 4.099,
+      "startTimestamp": "00:02:30.860",
+      "endTimestamp": "00:02:34.959",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0032",
+    "text": "So, now let's move ahead and we'll see how you can basically create it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 32,
+      "start": 155.66,
+      "end": 159.34,
+      "duration": 3.68,
+      "startTimestamp": "00:02:35.660",
+      "endTimestamp": "00:02:39.340",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0033",
+    "text": "So, for that, let me go to my VS Code and inside this app, let's say inside this profile,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 33,
+      "start": 160,
+      "end": 166.32,
+      "duration": 6.32,
+      "startTimestamp": "00:02:40.000",
+      "endTimestamp": "00:02:46.320",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0034",
+    "text": "we have this user, but let's take the post example.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 34,
+      "start": 166.88,
+      "end": 169.7,
+      "duration": 2.82,
+      "startTimestamp": "00:02:46.880",
+      "endTimestamp": "00:02:49.700",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0035",
+    "text": "So let me say this as a post and inside this post create a new file.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 35,
+      "start": 170.7,
+      "end": 175.46,
+      "duration": 4.76,
+      "startTimestamp": "00:02:50.700",
+      "endTimestamp": "00:02:55.460",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0036",
+    "text": "and use the square bracket here and let me call this as a post ID dot TSX. Easy step number one is done.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 36,
+      "start": 176,
+      "end": 183.52,
+      "duration": 7.52,
+      "startTimestamp": "00:02:56.000",
+      "endTimestamp": "00:03:03.520",
+      "estimatedTokens": 30
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0037",
+    "text": "Then simply initialize a React component as RNFES and instead of this you can simply say this as post ID screen.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 37,
+      "start": 183.76,
+      "end": 194.06,
+      "duration": 10.3,
+      "startTimestamp": "00:03:03.760",
+      "endTimestamp": "00:03:14.060",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0038",
+    "text": "Perfect. Now how you can use it and how you can basically design it to see.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 38,
+      "start": 196.57999999999998,
+      "end": 201.86,
+      "duration": 5.28,
+      "startTimestamp": "00:03:16.580",
+      "endTimestamp": "00:03:21.860",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0039",
+    "text": "So for that let me just add some basic design.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 39,
+      "start": 201.98,
+      "end": 204.3,
+      "duration": 2.32,
+      "startTimestamp": "00:03:21.980",
+      "endTimestamp": "00:03:24.300",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0040",
+    "text": "So, I have just basically added a container which is centralizing everything and then",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 40,
+      "start": 205.2,
+      "end": 211.28,
+      "duration": 6.08,
+      "startTimestamp": "00:03:25.200",
+      "endTimestamp": "00:03:31.280",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0041",
+    "text": "a basic title with font size and font weight, easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 41,
+      "start": 211.379,
+      "end": 214.28,
+      "duration": 2.901,
+      "startTimestamp": "00:03:31.379",
+      "endTimestamp": "00:03:34.280",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0042",
+    "text": "And then let me just simply use that here for now.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 42,
+      "start": 216.22,
+      "end": 220.78,
+      "duration": 4.56,
+      "startTimestamp": "00:03:36.220",
+      "endTimestamp": "00:03:40.780",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0043",
+    "text": "This one and you might be thinking from where this post ID will come.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 43,
+      "start": 222.82,
+      "end": 226.78,
+      "duration": 3.96,
+      "startTimestamp": "00:03:42.820",
+      "endTimestamp": "00:03:46.780",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0044",
+    "text": "So for that, we have this hook.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 44,
+      "start": 227,
+      "end": 230.18,
+      "duration": 3.18,
+      "startTimestamp": "00:03:47.000",
+      "endTimestamp": "00:03:50.180",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0045",
+    "text": "So first of all, let me extract post ID from a use local search param.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 45,
+      "start": 230.32,
+      "end": 236.54,
+      "duration": 6.22,
+      "startTimestamp": "00:03:50.320",
+      "endTimestamp": "00:03:56.540",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0046",
+    "text": "Easy and definitely you can give type to it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 46,
+      "start": 237.6,
+      "end": 240.18,
+      "duration": 2.58,
+      "startTimestamp": "00:03:57.600",
+      "endTimestamp": "00:04:00.180",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0047",
+    "text": "But for now, let me just simply use it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 47,
+      "start": 240.32,
+      "end": 242.6,
+      "duration": 2.28,
+      "startTimestamp": "00:04:00.320",
+      "endTimestamp": "00:04:02.600",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0048",
+    "text": "And this is coming from expo router and yeah, our dynamic route is up and running.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 48,
+      "start": 243.12,
+      "end": 249.4,
+      "duration": 6.28,
+      "startTimestamp": "00:04:03.120",
+      "endTimestamp": "00:04:09.400",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0049",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 49,
+      "start": 249.959,
+      "end": 250.04,
+      "duration": 0.081,
+      "startTimestamp": "00:04:09.959",
+      "endTimestamp": "00:04:10.040",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0050",
+    "text": "and close it. Now how you can visit to this page? Very easy, nothing is rocket science",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 50,
+      "start": 251.5,
+      "end": 257.6,
+      "duration": 6.1,
+      "startTimestamp": "00:04:11.500",
+      "endTimestamp": "00:04:17.600",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0051",
+    "text": "here, you can simply create a link. This link will going to be redirect myself, let's say",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 51,
+      "start": 257.839,
+      "end": 263.52,
+      "duration": 5.681,
+      "startTimestamp": "00:04:17.839",
+      "endTimestamp": "00:04:23.520",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0052",
+    "text": "post id page and then here let me off my AI, disturbing me a lot.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 52,
+      "start": 263.6,
+      "end": 269.96,
+      "duration": 6.36,
+      "startTimestamp": "00:04:23.600",
+      "endTimestamp": "00:04:29.960",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0053",
+    "text": "And here I can simply say and you will see that we have a suggestion this one, but instead",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 53,
+      "start": 270.3,
+      "end": 276.34000000000003,
+      "duration": 6.04,
+      "startTimestamp": "00:04:30.300",
+      "endTimestamp": "00:04:36.340",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0054",
+    "text": "of passing something like this, I can pass some random number.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 54,
+      "start": 276.539,
+      "end": 281.08,
+      "duration": 4.541,
+      "startTimestamp": "00:04:36.539",
+      "endTimestamp": "00:04:41.080",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0055",
+    "text": "Is the ignore this type error for now?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 55,
+      "start": 281.8,
+      "end": 283.62,
+      "duration": 1.82,
+      "startTimestamp": "00:04:41.800",
+      "endTimestamp": "00:04:43.620",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0056",
+    "text": "And if I save it and now if I press this post ID page, you will see I am redirected to this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 56,
+      "start": 283.729,
+      "end": 291.46,
+      "duration": 7.731,
+      "startTimestamp": "00:04:43.729",
+      "endTimestamp": "00:04:51.460",
+      "estimatedTokens": 29
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0057",
+    "text": "dynamic route.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 57,
+      "start": 291.539,
+      "end": 292.46,
+      "duration": 0.921,
+      "startTimestamp": "00:04:51.539",
+      "endTimestamp": "00:04:52.460",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0058",
+    "text": "And if I just change this number to 1.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 58,
+      "start": 292.74,
+      "end": 295.159,
+      "duration": 2.419,
+      "startTimestamp": "00:04:52.740",
+      "endTimestamp": "00:04:55.159",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0059",
+    "text": "And once again, I coming to here once again, if I press, you will see data is coming as one.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 59,
+      "start": 295.6,
+      "end": 300.56,
+      "duration": 4.96,
+      "startTimestamp": "00:04:55.600",
+      "endTimestamp": "00:05:00.560",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0060",
+    "text": "So this means I need not to create a separate route for each ID.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 60,
+      "start": 300.62,
+      "end": 305.36,
+      "duration": 4.74,
+      "startTimestamp": "00:05:00.620",
+      "endTimestamp": "00:05:05.360",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0061",
+    "text": "Instead, I can go with this notation.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 61,
+      "start": 306.04,
+      "end": 308.48,
+      "duration": 2.44,
+      "startTimestamp": "00:05:06.040",
+      "endTimestamp": "00:05:08.480",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0062",
+    "text": "Make sense.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 62,
+      "start": 309.8,
+      "end": 310.26,
+      "duration": 0.46,
+      "startTimestamp": "00:05:09.800",
+      "endTimestamp": "00:05:10.260",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0063",
+    "text": "I hope so. This is not any rocket science. And again, in same way, you can create nested, we can say dynamic route as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 63,
+      "start": 310.96,
+      "end": 319.3,
+      "duration": 8.34,
+      "startTimestamp": "00:05:10.960",
+      "endTimestamp": "00:05:19.300",
+      "estimatedTokens": 33
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0064",
+    "text": "Let's say inside this post ID.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 64,
+      "start": 319.42,
+      "end": 321.32,
+      "duration": 1.9,
+      "startTimestamp": "00:05:19.420",
+      "endTimestamp": "00:05:21.320",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0065",
+    "text": "And into this, you again wanted to create some folder.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 65,
+      "start": 321.8,
+      "end": 325.06,
+      "duration": 3.26,
+      "startTimestamp": "00:05:21.800",
+      "endTimestamp": "00:05:25.060",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0066",
+    "text": "We can say post detail and this post detail inside this, we have some other data as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 66,
+      "start": 325.25,
+      "end": 331.8,
+      "duration": 6.55,
+      "startTimestamp": "00:05:25.250",
+      "endTimestamp": "00:05:31.800",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0067",
+    "text": "So you can create nested IDs as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 67,
+      "start": 331.9,
+      "end": 335.24,
+      "duration": 3.34,
+      "startTimestamp": "00:05:31.900",
+      "endTimestamp": "00:05:35.240",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0068",
+    "text": "So let's ignore that for now.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 68,
+      "start": 335.629,
+      "end": 336.979,
+      "duration": 1.35,
+      "startTimestamp": "00:05:35.629",
+      "endTimestamp": "00:05:36.979",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0069",
+    "text": "For now, you just focus over this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 69,
+      "start": 337.22,
+      "end": 338.879,
+      "duration": 1.659,
+      "startTimestamp": "00:05:37.220",
+      "endTimestamp": "00:05:38.879",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0070",
+    "text": "This is how you can create dynamic routes inside your application.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 70,
+      "start": 339.02,
+      "end": 343.199,
+      "duration": 4.179,
+      "startTimestamp": "00:05:39.020",
+      "endTimestamp": "00:05:43.199",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0071",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 71,
+      "start": 343.599,
+      "end": 343.699,
+      "duration": 0.1,
+      "startTimestamp": "00:05:43.599",
+      "endTimestamp": "00:05:43.699",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0072",
+    "text": "And make sure to keep this thing in mind.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 72,
+      "start": 343.729,
+      "end": 346.56,
+      "duration": 2.831,
+      "startTimestamp": "00:05:43.729",
+      "endTimestamp": "00:05:46.560",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0073",
+    "text": "The name you are writing here is going to be destructured from here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 73,
+      "start": 347.3,
+      "end": 352.259,
+      "duration": 4.959,
+      "startTimestamp": "00:05:47.300",
+      "endTimestamp": "00:05:52.259",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0074",
+    "text": "Don't misspell this otherwise you are going to be encountered with an error.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 74,
+      "start": 352.419,
+      "end": 357.159,
+      "duration": 4.74,
+      "startTimestamp": "00:05:52.419",
+      "endTimestamp": "00:05:57.159",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0075",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 75,
+      "start": 358.44,
+      "end": 358.58,
+      "duration": 0.14,
+      "startTimestamp": "00:05:58.440",
+      "endTimestamp": "00:05:58.580",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0076",
+    "text": "And again, as I say, you can definitely use some advanced routing nested routing techniques.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 76,
+      "start": 359.159,
+      "end": 364.78,
+      "duration": 5.621,
+      "startTimestamp": "00:05:59.159",
+      "endTimestamp": "00:06:04.780",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0077",
+    "text": "Let's say this is just a basic thing, but you can even go with this approach.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 77,
+      "start": 364.919,
+      "end": 368.46,
+      "duration": 3.541,
+      "startTimestamp": "00:06:04.919",
+      "endTimestamp": "00:06:08.460",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0078",
+    "text": "Like you have app inside this app you have this users, users we have user ID that have",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 78,
+      "start": 369.2,
+      "end": 376.22,
+      "duration": 7.02,
+      "startTimestamp": "00:06:09.200",
+      "endTimestamp": "00:06:16.220",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0079",
+    "text": "post and then we have post ID for it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 79,
+      "start": 376.7,
+      "end": 379.12,
+      "duration": 2.42,
+      "startTimestamp": "00:06:16.700",
+      "endTimestamp": "00:06:19.120",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0080",
+    "text": "So yes this is how you can even create nested dynamic routes as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 80,
+      "start": 379.24,
+      "end": 383.72,
+      "duration": 4.48,
+      "startTimestamp": "00:06:19.240",
+      "endTimestamp": "00:06:23.720",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0081",
+    "text": "So I am assuming you guys can do this and take this as an assignment and try to implement",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 81,
+      "start": 383.75,
+      "end": 388.68,
+      "duration": 4.93,
+      "startTimestamp": "00:06:23.750",
+      "endTimestamp": "00:06:28.680",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0082",
+    "text": "that by yourself.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 82,
+      "start": 388.92,
+      "end": 390.24,
+      "duration": 1.32,
+      "startTimestamp": "00:06:28.920",
+      "endTimestamp": "00:06:30.240",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0083",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 83,
+      "start": 390.8,
+      "end": 391.539,
+      "duration": 0.739,
+      "startTimestamp": "00:06:30.800",
+      "endTimestamp": "00:06:31.539",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0084",
+    "text": "So yeah, this is pretty much it for this dynamic routes and from next chapter we are",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 84,
+      "start": 392.539,
+      "end": 397.879,
+      "duration": 5.34,
+      "startTimestamp": "00:06:32.539",
+      "endTimestamp": "00:06:37.879",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0085",
+    "text": "going to understand more about we can say cache all route segment and then we can move",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 85,
+      "start": 397.919,
+      "end": 403.58,
+      "duration": 5.661,
+      "startTimestamp": "00:06:37.919",
+      "endTimestamp": "00:06:43.580",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0086",
+    "text": "to layout and we have a lot of things to cover.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 86,
+      "start": 403.699,
+      "end": 405.699,
+      "duration": 2,
+      "startTimestamp": "00:06:43.699",
+      "endTimestamp": "00:06:45.699",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0087",
+    "text": "So don't worry about it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 87,
+      "start": 405.74,
+      "end": 406.78,
+      "duration": 1.04,
+      "startTimestamp": "00:06:45.740",
+      "endTimestamp": "00:06:46.780",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "3-Dynamic Routes_epm_0088",
+    "text": "But for now, this is pretty much it and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "3-Dynamic Routes_epm",
+      "lessonFile": "3-Dynamic Routes_epm",
+      "source": "class-subtitle/module 4/3-Dynamic Routes_epm/3-Dynamic Routes_epm.vtt",
+      "fileName": "3-Dynamic Routes_epm.vtt",
+      "captionIndex": 88,
+      "start": 407.099,
+      "end": 410.86,
+      "duration": 3.761,
+      "startTimestamp": "00:06:47.099",
+      "endTimestamp": "00:06:50.860",
+      "estimatedTokens": 17
+    }
+  }
+]

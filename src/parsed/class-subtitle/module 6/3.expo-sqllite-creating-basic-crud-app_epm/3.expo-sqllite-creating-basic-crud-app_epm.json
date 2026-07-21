@@ -1,0 +1,4258 @@
+[
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0001",
+    "text": "Alright guys and welcome to one more new chapter.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 1,
+      "start": 0.56,
+      "end": 3.38,
+      "duration": 2.82,
+      "startTimestamp": "00:00:00.560",
+      "endTimestamp": "00:00:03.380",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0002",
+    "text": "In this chapter we are basically going to talk about Expo SQLite.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 2,
+      "start": 3.64,
+      "end": 7.46,
+      "duration": 3.82,
+      "startTimestamp": "00:00:03.640",
+      "endTimestamp": "00:00:07.460",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0003",
+    "text": "This is again a library that is providing you the access of database locally into your",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 3,
+      "start": 8.16,
+      "end": 15.2,
+      "duration": 7.04,
+      "startTimestamp": "00:00:08.160",
+      "endTimestamp": "00:00:15.200",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0004",
+    "text": "phone.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 4,
+      "start": 15.201,
+      "end": 15.42,
+      "duration": 0.219,
+      "startTimestamp": "00:00:15.201",
+      "endTimestamp": "00:00:15.420",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0005",
+    "text": "Perfect like this is good for making offline applications.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 5,
+      "start": 15.8,
+      "end": 19.5,
+      "duration": 3.7,
+      "startTimestamp": "00:00:15.800",
+      "endTimestamp": "00:00:19.500",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0006",
+    "text": "So you will definitely love it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 6,
+      "start": 19.58,
+      "end": 21.1,
+      "duration": 1.52,
+      "startTimestamp": "00:00:19.580",
+      "endTimestamp": "00:00:21.100",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0007",
+    "text": "So for using it, simply copy this command from here till here and then you can basically",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 7,
+      "start": 21.34,
+      "end": 27.48,
+      "duration": 6.14,
+      "startTimestamp": "00:00:21.340",
+      "endTimestamp": "00:00:27.480",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0008",
+    "text": "run this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 8,
+      "start": 27.68,
+      "end": 28.06,
+      "duration": 0.38,
+      "startTimestamp": "00:00:27.680",
+      "endTimestamp": "00:00:28.060",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0009",
+    "text": "So let me clear my currently running application and install it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 9,
+      "start": 28.061,
+      "end": 32.94,
+      "duration": 4.879,
+      "startTimestamp": "00:00:28.061",
+      "endTimestamp": "00:00:32.940",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0010",
+    "text": "So I have run basically bunnex expo install expo SQLite easy and then let me rerun my",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 10,
+      "start": 33,
+      "end": 40.78,
+      "duration": 7.78,
+      "startTimestamp": "00:00:33.000",
+      "endTimestamp": "00:00:40.780",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0011",
+    "text": "application.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 11,
+      "start": 40.781,
+      "end": 41.22,
+      "duration": 0.439,
+      "startTimestamp": "00:00:40.781",
+      "endTimestamp": "00:00:41.220",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0012",
+    "text": "Our next expose start.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 12,
+      "start": 41.52,
+      "end": 42.76,
+      "duration": 1.24,
+      "startTimestamp": "00:00:41.520",
+      "endTimestamp": "00:00:42.760",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0013",
+    "text": "And after doing this, let me just reload it once.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 13,
+      "start": 44.48,
+      "end": 47.68,
+      "duration": 3.2,
+      "startTimestamp": "00:00:44.480",
+      "endTimestamp": "00:00:47.680",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0014",
+    "text": "And this is my index.txx file, which is completely empty.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 14,
+      "start": 47.82,
+      "end": 52.26,
+      "duration": 4.44,
+      "startTimestamp": "00:00:47.820",
+      "endTimestamp": "00:00:52.260",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0015",
+    "text": "And so for always using ExposeSQL, I mean SQLite, you need to do a bunch of settings",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 15,
+      "start": 54.18,
+      "end": 60.98,
+      "duration": 6.8,
+      "startTimestamp": "00:00:54.180",
+      "endTimestamp": "00:01:00.980",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0016",
+    "text": "and bunch of organizational thing.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 16,
+      "start": 61.18,
+      "end": 63.58,
+      "duration": 2.4,
+      "startTimestamp": "00:01:01.180",
+      "endTimestamp": "00:01:03.580",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0017",
+    "text": "So for that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 17,
+      "start": 64.14,
+      "end": 65.04,
+      "duration": 0.9,
+      "startTimestamp": "00:01:04.140",
+      "endTimestamp": "00:01:05.040",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0018",
+    "text": "At the root level, make sure to create a DB file, data file, whatever you wanted to call",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 18,
+      "start": 65.3,
+      "end": 70.42,
+      "duration": 5.12,
+      "startTimestamp": "00:01:05.300",
+      "endTimestamp": "00:01:10.420",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0019",
+    "text": "it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 19,
+      "start": 70.42099999999999,
+      "end": 70.86,
+      "duration": 0.439,
+      "startTimestamp": "00:01:10.421",
+      "endTimestamp": "00:01:10.860",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0020",
+    "text": "And then let me simply say database.ts.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 20,
+      "start": 71.24,
+      "end": 74.14,
+      "duration": 2.9,
+      "startTimestamp": "00:01:11.240",
+      "endTimestamp": "00:01:14.140",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0021",
+    "text": "So at this point, I am going to initialize my data.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 21,
+      "start": 74.36,
+      "end": 77.44,
+      "duration": 3.08,
+      "startTimestamp": "00:01:14.360",
+      "endTimestamp": "00:01:17.440",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0022",
+    "text": "I can simply say import ashrick as SQLite from SQLite.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 22,
+      "start": 78.38,
+      "end": 92.12,
+      "duration": 13.74,
+      "startTimestamp": "00:01:18.380",
+      "endTimestamp": "00:01:32.120",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0023",
+    "text": "Exposequalite, easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 23,
+      "start": 92.12100000000001,
+      "end": 92.14099999999999,
+      "duration": 0.02,
+      "startTimestamp": "00:01:32.121",
+      "endTimestamp": "00:01:32.141",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0024",
+    "text": "And then I can create a function as, I will say this as export const dbpromise because",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 24,
+      "start": 92.142,
+      "end": 96.6,
+      "duration": 4.458,
+      "startTimestamp": "00:01:32.142",
+      "endTimestamp": "00:01:36.600",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0025",
+    "text": "SQLite.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 25,
+      "start": 98.72,
+      "end": 99.36,
+      "duration": 0.64,
+      "startTimestamp": "00:01:38.720",
+      "endTimestamp": "00:01:39.360",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0026",
+    "text": "We have method something known as open database async.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 26,
+      "start": 99.94,
+      "end": 103.6,
+      "duration": 3.66,
+      "startTimestamp": "00:01:39.940",
+      "endTimestamp": "00:01:43.600",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0027",
+    "text": "So we are using async.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 27,
+      "start": 103.68,
+      "end": 104.84,
+      "duration": 1.16,
+      "startTimestamp": "00:01:43.680",
+      "endTimestamp": "00:01:44.840",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0028",
+    "text": "That's why I have named it as dbpromise.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 28,
+      "start": 105.399,
+      "end": 107.52000000000001,
+      "duration": 2.121,
+      "startTimestamp": "00:01:45.399",
+      "endTimestamp": "00:01:47.520",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0029",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 29,
+      "start": 107.72,
+      "end": 107.92,
+      "duration": 0.2,
+      "startTimestamp": "00:01:47.720",
+      "endTimestamp": "00:01:47.920",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0030",
+    "text": "Whatever you wanted to name it, it's up to you.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 30,
+      "start": 107.96000000000001,
+      "end": 110.5,
+      "duration": 2.54,
+      "startTimestamp": "00:01:47.960",
+      "endTimestamp": "00:01:50.500",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0031",
+    "text": "and then name the database name.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 31,
+      "start": 110.6,
+      "end": 113.28,
+      "duration": 2.68,
+      "startTimestamp": "00:01:50.600",
+      "endTimestamp": "00:01:53.280",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0032",
+    "text": "So I've just named it as appdata.dpa.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 32,
+      "start": 113.36,
+      "end": 116.5,
+      "duration": 3.14,
+      "startTimestamp": "00:01:53.360",
+      "endTimestamp": "00:01:56.500",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0033",
+    "text": "Whatever you want it to give, you can simply give it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 33,
+      "start": 116.56,
+      "end": 120.24,
+      "duration": 3.68,
+      "startTimestamp": "00:01:56.560",
+      "endTimestamp": "00:02:00.240",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0034",
+    "text": "Now, this is the step number one.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 34,
+      "start": 120.479,
+      "end": 122.72,
+      "duration": 2.241,
+      "startTimestamp": "00:02:00.479",
+      "endTimestamp": "00:02:02.720",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0035",
+    "text": "Now let's say I wanted to create a user table.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 35,
+      "start": 123.36,
+      "end": 126.8,
+      "duration": 3.44,
+      "startTimestamp": "00:02:03.360",
+      "endTimestamp": "00:02:06.800",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0036",
+    "text": "As you guys know, we are using SQL.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 36,
+      "start": 126.801,
+      "end": 128.4,
+      "duration": 1.599,
+      "startTimestamp": "00:02:06.801",
+      "endTimestamp": "00:02:08.400",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0037",
+    "text": "So definitely we are going to write here SQL query.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 37,
+      "start": 128.62,
+      "end": 131.8,
+      "duration": 3.18,
+      "startTimestamp": "00:02:08.620",
+      "endTimestamp": "00:02:11.800",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0038",
+    "text": "And again, I am not going to teach you how to write SQL.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 38,
+      "start": 132.2,
+      "end": 135.7,
+      "duration": 3.5,
+      "startTimestamp": "00:02:12.200",
+      "endTimestamp": "00:02:15.700",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0039",
+    "text": "So I hope so you guys know that and if not, then you can simply just follow along with",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 39,
+      "start": 136.02,
+      "end": 141.92000000000002,
+      "duration": 5.9,
+      "startTimestamp": "00:02:16.020",
+      "endTimestamp": "00:02:21.920",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0040",
+    "text": "me and see how you can write any SQL queries.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 40,
+      "start": 141.921,
+      "end": 144.86,
+      "duration": 2.939,
+      "startTimestamp": "00:02:21.921",
+      "endTimestamp": "00:02:24.860",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0041",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 41,
+      "start": 146.8,
+      "end": 147,
+      "duration": 0.2,
+      "startTimestamp": "00:02:26.800",
+      "endTimestamp": "00:02:27.000",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0042",
+    "text": "So let me for that, let me create here a function as create tables.ts and then first thing I",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 42,
+      "start": 147.12,
+      "end": 155.519,
+      "duration": 8.399,
+      "startTimestamp": "00:02:27.120",
+      "endTimestamp": "00:02:35.519",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0043",
+    "text": "am wanting to import my DB promise.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 43,
+      "start": 155.52,
+      "end": 158.739,
+      "duration": 3.219,
+      "startTimestamp": "00:02:35.520",
+      "endTimestamp": "00:02:38.739",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0044",
+    "text": "So, something like this from dot slash database and then what I can do I can simply create",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 44,
+      "start": 159.3,
+      "end": 168.48,
+      "duration": 9.18,
+      "startTimestamp": "00:02:39.300",
+      "endTimestamp": "00:02:48.480",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0045",
+    "text": "one function I can name that function as export async function and the name of that function",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 45,
+      "start": 168.481,
+      "end": 175.88,
+      "duration": 7.399,
+      "startTimestamp": "00:02:48.481",
+      "endTimestamp": "00:02:55.880",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0046",
+    "text": "is create tables.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 46,
+      "start": 175.881,
+      "end": 177.76,
+      "duration": 1.879,
+      "startTimestamp": "00:02:55.881",
+      "endTimestamp": "00:02:57.760",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0047",
+    "text": "And this create tables is basically first of all, let me get the data from this promise.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 47,
+      "start": 179.5,
+      "end": 186.16,
+      "duration": 6.66,
+      "startTimestamp": "00:02:59.500",
+      "endTimestamp": "00:03:06.160",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0048",
+    "text": "So I can simply say access from this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 48,
+      "start": 186.3,
+      "end": 188.68,
+      "duration": 2.38,
+      "startTimestamp": "00:03:06.300",
+      "endTimestamp": "00:03:08.680",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0049",
+    "text": "So DB is equals to await DB promise.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 49,
+      "start": 189.239,
+      "end": 192.3,
+      "duration": 3.061,
+      "startTimestamp": "00:03:09.239",
+      "endTimestamp": "00:03:12.300",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0050",
+    "text": "Now inside this we have the DB access.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 50,
+      "start": 193.22,
+      "end": 195.819,
+      "duration": 2.599,
+      "startTimestamp": "00:03:13.220",
+      "endTimestamp": "00:03:15.819",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0051",
+    "text": "And now what I can do?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 51,
+      "start": 196.34,
+      "end": 198,
+      "duration": 1.66,
+      "startTimestamp": "00:03:16.340",
+      "endTimestamp": "00:03:18.000",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0052",
+    "text": "Let me I just wanted to run a basic command.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 52,
+      "start": 198.34,
+      "end": 201.07999999999998,
+      "duration": 2.74,
+      "startTimestamp": "00:03:18.340",
+      "endTimestamp": "00:03:21.080",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0053",
+    "text": "So, for running a command we have a method you can definitely go and check that like",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 53,
+      "start": 201.4,
+      "end": 206.86,
+      "duration": 5.46,
+      "startTimestamp": "00:03:21.400",
+      "endTimestamp": "00:03:26.860",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0054",
+    "text": "you can see that we have execute async we have run async run async lot of methods.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 54,
+      "start": 206.879,
+      "end": 212.799,
+      "duration": 5.92,
+      "startTimestamp": "00:03:26.879",
+      "endTimestamp": "00:03:32.799",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0055",
+    "text": "So, for that I wanted to use await db.runAsync method and inside this into back ticks I can",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 55,
+      "start": 213.599,
+      "end": 222.48,
+      "duration": 8.881,
+      "startTimestamp": "00:03:33.599",
+      "endTimestamp": "00:03:42.480",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0056",
+    "text": "write my query easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 56,
+      "start": 222.481,
+      "end": 224.48,
+      "duration": 1.999,
+      "startTimestamp": "00:03:42.481",
+      "endTimestamp": "00:03:44.480",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0057",
+    "text": "So, let me try to paste the query because again I'm not wanted to write anything from",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 57,
+      "start": 224.659,
+      "end": 229.599,
+      "duration": 4.94,
+      "startTimestamp": "00:03:44.659",
+      "endTimestamp": "00:03:49.599",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0058",
+    "text": "So, this is the basic SQL query.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 58,
+      "start": 230.8,
+      "end": 233.5,
+      "duration": 2.7,
+      "startTimestamp": "00:03:50.800",
+      "endTimestamp": "00:03:53.500",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0059",
+    "text": "So, what is this create table if not exist simple basically we are asking our SQL to",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 59,
+      "start": 233.61,
+      "end": 240.48,
+      "duration": 6.87,
+      "startTimestamp": "00:03:53.610",
+      "endTimestamp": "00:04:00.480",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0060",
+    "text": "create a user table if they don't exist and which with bunch of structural thing like",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 60,
+      "start": 240.64,
+      "end": 247.16,
+      "duration": 6.52,
+      "startTimestamp": "00:04:00.640",
+      "endTimestamp": "00:04:07.160",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0061",
+    "text": "the ID is going to be integer and the constraint as primary key and then auto increment.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 61,
+      "start": 247.28,
+      "end": 252.7,
+      "duration": 5.42,
+      "startTimestamp": "00:04:07.280",
+      "endTimestamp": "00:04:12.700",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0062",
+    "text": "Easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 62,
+      "start": 252.8,
+      "end": 253.74,
+      "duration": 0.94,
+      "startTimestamp": "00:04:12.800",
+      "endTimestamp": "00:04:13.740",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0063",
+    "text": "Then we have name which is type of text and this is not null.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 63,
+      "start": 254.26,
+      "end": 257.36,
+      "duration": 3.1,
+      "startTimestamp": "00:04:14.260",
+      "endTimestamp": "00:04:17.360",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0064",
+    "text": "This means you need to pass some data.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 64,
+      "start": 257.58,
+      "end": 259.839,
+      "duration": 2.259,
+      "startTimestamp": "00:04:17.580",
+      "endTimestamp": "00:04:19.839",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0065",
+    "text": "Same for email and this is also text.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 65,
+      "start": 260.459,
+      "end": 262.58,
+      "duration": 2.121,
+      "startTimestamp": "00:04:20.459",
+      "endTimestamp": "00:04:22.580",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0066",
+    "text": "This is unique.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 66,
+      "start": 262.7,
+      "end": 263.42,
+      "duration": 0.72,
+      "startTimestamp": "00:04:22.700",
+      "endTimestamp": "00:04:23.420",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0067",
+    "text": "So email needs to be unique.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 67,
+      "start": 263.56,
+      "end": 265.26,
+      "duration": 1.7,
+      "startTimestamp": "00:04:23.560",
+      "endTimestamp": "00:04:25.260",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0068",
+    "text": "You can't save same emails into your database.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 68,
+      "start": 265.44,
+      "end": 268.88,
+      "duration": 3.44,
+      "startTimestamp": "00:04:25.440",
+      "endTimestamp": "00:04:28.880",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0069",
+    "text": "And then we have again not null.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 69,
+      "start": 269.44,
+      "end": 271.06,
+      "duration": 1.62,
+      "startTimestamp": "00:04:29.440",
+      "endTimestamp": "00:04:31.060",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0070",
+    "text": "So, this is one method is ready.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 70,
+      "start": 272.379,
+      "end": 274.819,
+      "duration": 2.44,
+      "startTimestamp": "00:04:32.379",
+      "endTimestamp": "00:04:34.819",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0071",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 71,
+      "start": 275.379,
+      "end": 275.72,
+      "duration": 0.341,
+      "startTimestamp": "00:04:35.379",
+      "endTimestamp": "00:04:35.720",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0072",
+    "text": "Now, how you can use it?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 72,
+      "start": 276.24,
+      "end": 277.379,
+      "duration": 1.139,
+      "startTimestamp": "00:04:36.240",
+      "endTimestamp": "00:04:37.379",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0073",
+    "text": "You can simply copy this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 73,
+      "start": 277.4,
+      "end": 278.74,
+      "duration": 1.34,
+      "startTimestamp": "00:04:37.400",
+      "endTimestamp": "00:04:38.740",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0074",
+    "text": "Let's say, let me go to my app and index.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 74,
+      "start": 279.099,
+      "end": 281.919,
+      "duration": 2.82,
+      "startTimestamp": "00:04:39.099",
+      "endTimestamp": "00:04:41.919",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0075",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 75,
+      "start": 282.979,
+      "end": 283.24,
+      "duration": 0.261,
+      "startTimestamp": "00:04:42.979",
+      "endTimestamp": "00:04:43.240",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0076",
+    "text": "And you can even run that into your layout.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 76,
+      "start": 283.46,
+      "end": 285.68,
+      "duration": 2.22,
+      "startTimestamp": "00:04:43.460",
+      "endTimestamp": "00:04:45.680",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0077",
+    "text": "But let me just open my index and call this function on first load.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 77,
+      "start": 285.86,
+      "end": 291.12,
+      "duration": 5.26,
+      "startTimestamp": "00:04:45.860",
+      "endTimestamp": "00:04:51.120",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0078",
+    "text": "So, I can simply import my use effect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 78,
+      "start": 291.34000000000003,
+      "end": 293.34000000000003,
+      "duration": 2,
+      "startTimestamp": "00:04:51.340",
+      "endTimestamp": "00:04:53.340",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0079",
+    "text": "And simply call my create tables method and add an empty dependency.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 79,
+      "start": 293.9,
+      "end": 300.82,
+      "duration": 6.92,
+      "startTimestamp": "00:04:53.900",
+      "endTimestamp": "00:05:00.820",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0080",
+    "text": "Easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 80,
+      "start": 301.54,
+      "end": 301.9,
+      "duration": 0.36,
+      "startTimestamp": "00:05:01.540",
+      "endTimestamp": "00:05:01.900",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0081",
+    "text": "Now you will see nothing has bragged one thing.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 81,
+      "start": 302.68,
+      "end": 306.12,
+      "duration": 3.44,
+      "startTimestamp": "00:05:02.680",
+      "endTimestamp": "00:05:06.120",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0082",
+    "text": "And I think we are good to go now.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 82,
+      "start": 307.96,
+      "end": 310.3,
+      "duration": 2.34,
+      "startTimestamp": "00:05:07.960",
+      "endTimestamp": "00:05:10.300",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0083",
+    "text": "Alright, so I think we also need to configure this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 83,
+      "start": 311.639,
+      "end": 314.88,
+      "duration": 3.241,
+      "startTimestamp": "00:05:11.639",
+      "endTimestamp": "00:05:14.880",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0084",
+    "text": "So let me just copy everything that we have.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 84,
+      "start": 315.06,
+      "end": 318.74,
+      "duration": 3.68,
+      "startTimestamp": "00:05:15.060",
+      "endTimestamp": "00:05:18.740",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0085",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 85,
+      "start": 318.919,
+      "end": 319.12,
+      "duration": 0.201,
+      "startTimestamp": "00:05:18.919",
+      "endTimestamp": "00:05:19.120",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0086",
+    "text": "From here till here, just simply copy it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 86,
+      "start": 321.5,
+      "end": 324.02,
+      "duration": 2.52,
+      "startTimestamp": "00:05:21.500",
+      "endTimestamp": "00:05:24.020",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0087",
+    "text": "So let me go to my app, Jason, and you will see that we already have this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 87,
+      "start": 324.139,
+      "end": 328.46,
+      "duration": 4.321,
+      "startTimestamp": "00:05:24.139",
+      "endTimestamp": "00:05:28.460",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0088",
+    "text": "expo SQLite added as plugin, just enhance this, whatever is written",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 88,
+      "start": 328.68,
+      "end": 333.3,
+      "duration": 4.62,
+      "startTimestamp": "00:05:28.680",
+      "endTimestamp": "00:05:33.300",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0089",
+    "text": "inside the documentation, just use it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 89,
+      "start": 333.599,
+      "end": 336.58,
+      "duration": 2.981,
+      "startTimestamp": "00:05:33.599",
+      "endTimestamp": "00:05:36.580",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0090",
+    "text": "like enable FTS, use SQL Cypher and for Android we have bunch of settings for iOS we have",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 90,
+      "start": 336.6,
+      "end": 343.82,
+      "duration": 7.22,
+      "startTimestamp": "00:05:36.600",
+      "endTimestamp": "00:05:43.820",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0091",
+    "text": "other settings as well and you guys might be thinking what is the meaning of this enable",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 91,
+      "start": 343.86,
+      "end": 348.78,
+      "duration": 4.92,
+      "startTimestamp": "00:05:43.860",
+      "endTimestamp": "00:05:48.780",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0092",
+    "text": "FTS I will talk about this in a while but for now if I reload my current application",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 92,
+      "start": 348.781,
+      "end": 354.56,
+      "duration": 5.779,
+      "startTimestamp": "00:05:48.781",
+      "endTimestamp": "00:05:54.560",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0093",
+    "text": "just to see what can be the output here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 93,
+      "start": 356.259,
+      "end": 359.8,
+      "duration": 3.541,
+      "startTimestamp": "00:05:56.259",
+      "endTimestamp": "00:05:59.800",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0094",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 94,
+      "start": 360,
+      "end": 360.259,
+      "duration": 0.259,
+      "startTimestamp": "00:06:00.000",
+      "endTimestamp": "00:06:00.259",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0095",
+    "text": "Alright, and then I can still see nothing has changed.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 95,
+      "start": 361.259,
+      "end": 363.86,
+      "duration": 2.601,
+      "startTimestamp": "00:06:01.259",
+      "endTimestamp": "00:06:03.860",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0096",
+    "text": "So this means everything is working fine for now.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 96,
+      "start": 363.979,
+      "end": 366.919,
+      "duration": 2.94,
+      "startTimestamp": "00:06:03.979",
+      "endTimestamp": "00:06:06.919",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0097",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 97,
+      "start": 368.06,
+      "end": 368.34,
+      "duration": 0.28,
+      "startTimestamp": "00:06:08.060",
+      "endTimestamp": "00:06:08.340",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0098",
+    "text": "So with this, let's move ahead and let me create a bunch of CRUD operations and then",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 98,
+      "start": 368.44,
+      "end": 374.4,
+      "duration": 5.96,
+      "startTimestamp": "00:06:08.440",
+      "endTimestamp": "00:06:14.400",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0099",
+    "text": "we'll see how I can use it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 99,
+      "start": 374.401,
+      "end": 376.479,
+      "duration": 2.078,
+      "startTimestamp": "00:06:14.401",
+      "endTimestamp": "00:06:16.479",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0100",
+    "text": "Easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 100,
+      "start": 376.5,
+      "end": 377.24,
+      "duration": 0.74,
+      "startTimestamp": "00:06:16.500",
+      "endTimestamp": "00:06:17.240",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0101",
+    "text": "So, for that what I can do I can simply go to my DB once again and I can create here",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 101,
+      "start": 377.72,
+      "end": 383.34,
+      "duration": 5.62,
+      "startTimestamp": "00:06:17.720",
+      "endTimestamp": "00:06:23.340",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0102",
+    "text": "simple crud.ts file and then let me add bunch of functions here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 102,
+      "start": 383.36,
+      "end": 389.18,
+      "duration": 5.82,
+      "startTimestamp": "00:06:23.360",
+      "endTimestamp": "00:06:29.180",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0103",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 103,
+      "start": 389.36,
+      "end": 389.58,
+      "duration": 0.22,
+      "startTimestamp": "00:06:29.360",
+      "endTimestamp": "00:06:29.580",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0104",
+    "text": "So, I am just directly copy and pasting it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 104,
+      "start": 389.66,
+      "end": 392,
+      "duration": 2.34,
+      "startTimestamp": "00:06:29.660",
+      "endTimestamp": "00:06:32.000",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0105",
+    "text": "You also need to do the same.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 105,
+      "start": 392.4,
+      "end": 394.12,
+      "duration": 1.72,
+      "startTimestamp": "00:06:32.400",
+      "endTimestamp": "00:06:34.120",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0106",
+    "text": "So, you will see that the first method that we have is insert user and like here you can",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 106,
+      "start": 394.4,
+      "end": 401.6,
+      "duration": 7.2,
+      "startTimestamp": "00:06:34.400",
+      "endTimestamp": "00:06:41.600",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0107",
+    "text": "notice one thing like insert into users the name and email simple and values and why I",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 107,
+      "start": 401.601,
+      "end": 407.88,
+      "duration": 6.279,
+      "startTimestamp": "00:06:41.601",
+      "endTimestamp": "00:06:47.880",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0108",
+    "text": "have added this question mark.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 108,
+      "start": 407.881,
+      "end": 409.139,
+      "duration": 1.258,
+      "startTimestamp": "00:06:47.881",
+      "endTimestamp": "00:06:49.139",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0109",
+    "text": "So, this question mark is a good practice like someone if someone is trying to do a",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 109,
+      "start": 409.22,
+      "end": 414.479,
+      "duration": 5.259,
+      "startTimestamp": "00:06:49.220",
+      "endTimestamp": "00:06:54.479",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0110",
+    "text": "sequel injection.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 110,
+      "start": 414.49,
+      "end": 415.419,
+      "duration": 0.929,
+      "startTimestamp": "00:06:54.490",
+      "endTimestamp": "00:06:55.419",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0111",
+    "text": "So, this thing is going to save that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 111,
+      "start": 415.55,
+      "end": 418.15999999999997,
+      "duration": 2.61,
+      "startTimestamp": "00:06:55.550",
+      "endTimestamp": "00:06:58.160",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0112",
+    "text": "We can say thing like save that practice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 112,
+      "start": 418.5,
+      "end": 421.9,
+      "duration": 3.4,
+      "startTimestamp": "00:06:58.500",
+      "endTimestamp": "00:07:01.900",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0113",
+    "text": "Got it?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 113,
+      "start": 422.28,
+      "end": 422.64,
+      "duration": 0.36,
+      "startTimestamp": "00:07:02.280",
+      "endTimestamp": "00:07:02.640",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0114",
+    "text": "So that's why you need to put it whenever you are getting something you can go with",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 114,
+      "start": 422.72,
+      "end": 427.86,
+      "duration": 5.14,
+      "startTimestamp": "00:07:02.720",
+      "endTimestamp": "00:07:07.860",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0115",
+    "text": "it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 115,
+      "start": 427.861,
+      "end": 428.44,
+      "duration": 0.579,
+      "startTimestamp": "00:07:07.861",
+      "endTimestamp": "00:07:08.440",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0116",
+    "text": "Cool and values.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 116,
+      "start": 428.5,
+      "end": 429.58,
+      "duration": 1.08,
+      "startTimestamp": "00:07:08.500",
+      "endTimestamp": "00:07:09.580",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0117",
+    "text": "So whatever the value is like this is the name and this is the email.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 117,
+      "start": 429.78,
+      "end": 432.78,
+      "duration": 3,
+      "startTimestamp": "00:07:09.780",
+      "endTimestamp": "00:07:12.780",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0118",
+    "text": "This will take the place of this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 118,
+      "start": 433.04,
+      "end": 436.72,
+      "duration": 3.68,
+      "startTimestamp": "00:07:13.040",
+      "endTimestamp": "00:07:16.720",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0119",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 119,
+      "start": 437.02,
+      "end": 437.6,
+      "duration": 0.58,
+      "startTimestamp": "00:07:17.020",
+      "endTimestamp": "00:07:17.600",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0120",
+    "text": "Same with get user.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 120,
+      "start": 438.04,
+      "end": 439.76,
+      "duration": 1.72,
+      "startTimestamp": "00:07:18.040",
+      "endTimestamp": "00:07:19.760",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0121",
+    "text": "So this is how you can get simple select star from users.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 121,
+      "start": 440.12,
+      "end": 443.48,
+      "duration": 3.36,
+      "startTimestamp": "00:07:20.120",
+      "endTimestamp": "00:07:23.480",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0122",
+    "text": "we have get users on the basis of ID.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 122,
+      "start": 444.06,
+      "end": 447.54,
+      "duration": 3.48,
+      "startTimestamp": "00:07:24.060",
+      "endTimestamp": "00:07:27.540",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0123",
+    "text": "So, this is your get users and this is our get user.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 123,
+      "start": 448.8,
+      "end": 451.979,
+      "duration": 3.179,
+      "startTimestamp": "00:07:28.800",
+      "endTimestamp": "00:07:31.979",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0124",
+    "text": "Make sure to keep that in mind and then we have delete user.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 124,
+      "start": 452.199,
+      "end": 454.78,
+      "duration": 2.581,
+      "startTimestamp": "00:07:32.199",
+      "endTimestamp": "00:07:34.780",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0125",
+    "text": "This is how you can delete it and then we have update.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 125,
+      "start": 455.5,
+      "end": 458.28,
+      "duration": 2.78,
+      "startTimestamp": "00:07:35.500",
+      "endTimestamp": "00:07:38.280",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0126",
+    "text": "Simple update user set name is equals to this one.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 126,
+      "start": 458.699,
+      "end": 463.24,
+      "duration": 4.541,
+      "startTimestamp": "00:07:38.699",
+      "endTimestamp": "00:07:43.240",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0127",
+    "text": "And the ID is equals to another, I mean this question mark.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 127,
+      "start": 463.5,
+      "end": 466.78,
+      "duration": 3.28,
+      "startTimestamp": "00:07:43.500",
+      "endTimestamp": "00:07:46.780",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0128",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 128,
+      "start": 467.14,
+      "end": 467.42,
+      "duration": 0.28,
+      "startTimestamp": "00:07:47.140",
+      "endTimestamp": "00:07:47.420",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0129",
+    "text": "So this is how this basically work.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 129,
+      "start": 467.9,
+      "end": 470.1,
+      "duration": 2.2,
+      "startTimestamp": "00:07:47.900",
+      "endTimestamp": "00:07:50.100",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0130",
+    "text": "I mean very fairly simple syntax like this question mark is going to take place with",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 130,
+      "start": 470.14,
+      "end": 475.24,
+      "duration": 5.1,
+      "startTimestamp": "00:07:50.140",
+      "endTimestamp": "00:07:55.240",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0131",
+    "text": "this name and the another question mark is going to take place with this ID.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 131,
+      "start": 475.241,
+      "end": 479.26,
+      "duration": 4.019,
+      "startTimestamp": "00:07:55.241",
+      "endTimestamp": "00:07:59.260",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0132",
+    "text": "You need to pass something like this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 132,
+      "start": 479.7,
+      "end": 481.46,
+      "duration": 1.76,
+      "startTimestamp": "00:07:59.700",
+      "endTimestamp": "00:08:01.460",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0133",
+    "text": "Now, let me save it and let me try to use it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 133,
+      "start": 482.54,
+      "end": 487.04,
+      "duration": 4.5,
+      "startTimestamp": "00:08:02.540",
+      "endTimestamp": "00:08:07.040",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0134",
+    "text": "So how I can basically use it?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 134,
+      "start": 487.139,
+      "end": 489.699,
+      "duration": 2.56,
+      "startTimestamp": "00:08:07.139",
+      "endTimestamp": "00:08:09.699",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0135",
+    "text": "So for using it, let me go inside my app.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 135,
+      "start": 490.22,
+      "end": 493.72,
+      "duration": 3.5,
+      "startTimestamp": "00:08:10.220",
+      "endTimestamp": "00:08:13.720",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0136",
+    "text": "Inside my app, let me first of all what I can do, I can create here screens.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 136,
+      "start": 494.699,
+      "end": 500.9,
+      "duration": 6.201,
+      "startTimestamp": "00:08:14.699",
+      "endTimestamp": "00:08:20.900",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0137",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 137,
+      "start": 501.699,
+      "end": 502.139,
+      "duration": 0.44,
+      "startTimestamp": "00:08:21.699",
+      "endTimestamp": "00:08:22.139",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0138",
+    "text": "And instead of screen, I can directly create here a stack as users list.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 138,
+      "start": 502.979,
+      "end": 509.02,
+      "duration": 6.041,
+      "startTimestamp": "00:08:22.979",
+      "endTimestamp": "00:08:29.020",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0139",
+    "text": "dot t s x simple and then r n f e s and I can call this as users list and I will save",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 139,
+      "start": 509.6,
+      "end": 518.24,
+      "duration": 8.64,
+      "startTimestamp": "00:08:29.600",
+      "endTimestamp": "00:08:38.240",
+      "estimatedTokens": 32
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0140",
+    "text": "it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 140,
+      "start": 518.241,
+      "end": 518.78,
+      "duration": 0.539,
+      "startTimestamp": "00:08:38.241",
+      "endTimestamp": "00:08:38.780",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0141",
+    "text": "Let me go to my index and let me get my link from expo router and let me go to slash users",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 141,
+      "start": 519.12,
+      "end": 528.84,
+      "duration": 9.72,
+      "startTimestamp": "00:08:39.120",
+      "endTimestamp": "00:08:48.840",
+      "estimatedTokens": 29
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0142",
+    "text": "list.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 142,
+      "start": 528.94,
+      "end": 529.2,
+      "duration": 0.26,
+      "startTimestamp": "00:08:48.940",
+      "endTimestamp": "00:08:49.200",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0143",
+    "text": "users list and if I just simply press I am onto my users list component and here what",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 143,
+      "start": 531.6,
+      "end": 540.1,
+      "duration": 8.5,
+      "startTimestamp": "00:08:51.600",
+      "endTimestamp": "00:09:00.100",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0144",
+    "text": "I wanted to do basically I simply wanted to like we already have react, style, view, lot",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 144,
+      "start": 540.14,
+      "end": 546.98,
+      "duration": 6.84,
+      "startTimestamp": "00:09:00.140",
+      "endTimestamp": "00:09:06.980",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0145",
+    "text": "of things.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 145,
+      "start": 546.981,
+      "end": 547.46,
+      "duration": 0.479,
+      "startTimestamp": "00:09:06.981",
+      "endTimestamp": "00:09:07.460",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0146",
+    "text": "Let me import two method.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 146,
+      "start": 548,
+      "end": 549.44,
+      "duration": 1.44,
+      "startTimestamp": "00:09:08.000",
+      "endTimestamp": "00:09:09.440",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0147",
+    "text": "So the first method is getUsers and the another one is deleteUser.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 147,
+      "start": 550.12,
+      "end": 555.64,
+      "duration": 5.52,
+      "startTimestamp": "00:09:10.120",
+      "endTimestamp": "00:09:15.640",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0148",
+    "text": "Simple. And with style sheet, I also need here a pressable.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 148,
+      "start": 555.9,
+      "end": 561.5,
+      "duration": 5.6,
+      "startTimestamp": "00:09:15.900",
+      "endTimestamp": "00:09:21.500",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0149",
+    "text": "And what I can do, I can simply call a use effect and get all the data.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 149,
+      "start": 564.1,
+      "end": 568.76,
+      "duration": 4.66,
+      "startTimestamp": "00:09:24.100",
+      "endTimestamp": "00:09:28.760",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0150",
+    "text": "But right now we definitely don't have it, but we'll do something.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 150,
+      "start": 568.78,
+      "end": 571.96,
+      "duration": 3.18,
+      "startTimestamp": "00:09:28.780",
+      "endTimestamp": "00:09:31.960",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0151",
+    "text": "So let me simply come into here and say, const users.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 151,
+      "start": 572.68,
+      "end": 578.94,
+      "duration": 6.26,
+      "startTimestamp": "00:09:32.680",
+      "endTimestamp": "00:09:38.940",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0152",
+    "text": "And this is going to be set users.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 152,
+      "start": 579.3,
+      "end": 581.74,
+      "duration": 2.44,
+      "startTimestamp": "00:09:39.300",
+      "endTimestamp": "00:09:41.740",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0153",
+    "text": "And I can say this as--",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 153,
+      "start": 582.78,
+      "end": 584.5,
+      "duration": 1.72,
+      "startTimestamp": "00:09:42.780",
+      "endTimestamp": "00:09:44.500",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0154",
+    "text": "use state and my user is empty and I can what I can do basically I can simply say a sync",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 154,
+      "start": 584.9,
+      "end": 595.08,
+      "duration": 10.18,
+      "startTimestamp": "00:09:44.900",
+      "endTimestamp": "00:09:55.080",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0155",
+    "text": "Function should be loadUsers.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 155,
+      "start": 595.86,
+      "end": 598.84,
+      "duration": 2.98,
+      "startTimestamp": "00:09:55.860",
+      "endTimestamp": "00:09:58.840",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0156",
+    "text": "And then I can keep it empty and I can simply say cons list is equals to await get users.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 156,
+      "start": 600.3,
+      "end": 607.3,
+      "duration": 7,
+      "startTimestamp": "00:10:00.300",
+      "endTimestamp": "00:10:07.300",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0157",
+    "text": "All right.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 157,
+      "start": 608.08,
+      "end": 608.54,
+      "duration": 0.46,
+      "startTimestamp": "00:10:08.080",
+      "endTimestamp": "00:10:08.540",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0158",
+    "text": "And then I can simply say set users and simply equal to list.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 158,
+      "start": 608.82,
+      "end": 612.74,
+      "duration": 3.92,
+      "startTimestamp": "00:10:08.820",
+      "endTimestamp": "00:10:12.740",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0159",
+    "text": "Very simple, fairly simple.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 159,
+      "start": 613,
+      "end": 614.54,
+      "duration": 1.54,
+      "startTimestamp": "00:10:13.000",
+      "endTimestamp": "00:10:14.540",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0160",
+    "text": "And let me set the type as any for now just to don't want it to see any typescript error.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 160,
+      "start": 615.2,
+      "end": 622.019,
+      "duration": 6.819,
+      "startTimestamp": "00:10:15.200",
+      "endTimestamp": "00:10:22.019",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0161",
+    "text": "And then I can simply call my use effect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 161,
+      "start": 622.62,
+      "end": 624.94,
+      "duration": 2.32,
+      "startTimestamp": "00:10:22.620",
+      "endTimestamp": "00:10:24.940",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0162",
+    "text": "And inside this I can call my loadUser function and we are good to go.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 162,
+      "start": 626.52,
+      "end": 632.3,
+      "duration": 5.78,
+      "startTimestamp": "00:10:26.520",
+      "endTimestamp": "00:10:32.300",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0163",
+    "text": "Now just to render them onto the UI let me just simply paste it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 163,
+      "start": 632.82,
+      "end": 637.44,
+      "duration": 4.62,
+      "startTimestamp": "00:10:32.820",
+      "endTimestamp": "00:10:37.440",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0164",
+    "text": "But right now you guys can see that we have UID, U name, email and then on press we are",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 164,
+      "start": 637.64,
+      "end": 644.3,
+      "duration": 6.66,
+      "startTimestamp": "00:10:37.640",
+      "endTimestamp": "00:10:44.300",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0165",
+    "text": "calling this method.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 165,
+      "start": 644.301,
+      "end": 645.54,
+      "duration": 1.239,
+      "startTimestamp": "00:10:44.301",
+      "endTimestamp": "00:10:45.540",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0166",
+    "text": "Perfect, like deleting it and after deleting it we are getting opening the then and then",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 166,
+      "start": 645.7,
+      "end": 651.58,
+      "duration": 5.88,
+      "startTimestamp": "00:10:45.700",
+      "endTimestamp": "00:10:51.580",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0167",
+    "text": "again loading the user just to see the instant update.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 167,
+      "start": 651.581,
+      "end": 654.08,
+      "duration": 2.499,
+      "startTimestamp": "00:10:51.581",
+      "endTimestamp": "00:10:54.080",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0168",
+    "text": "But for now you guys can see that we have nothing to show.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 168,
+      "start": 654.56,
+      "end": 657.66,
+      "duration": 3.1,
+      "startTimestamp": "00:10:54.560",
+      "endTimestamp": "00:10:57.660",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0169",
+    "text": "So for it what I can do I can basically move ahead and start creating one more method.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 169,
+      "start": 658.7,
+      "end": 665.92,
+      "duration": 7.22,
+      "startTimestamp": "00:10:58.700",
+      "endTimestamp": "00:11:05.920",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0170",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 170,
+      "start": 666.28,
+      "end": 666.62,
+      "duration": 0.34,
+      "startTimestamp": "00:11:06.280",
+      "endTimestamp": "00:11:06.620",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0171",
+    "text": "So how I can basically create it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 171,
+      "start": 667.16,
+      "end": 669.2,
+      "duration": 2.04,
+      "startTimestamp": "00:11:07.160",
+      "endTimestamp": "00:11:09.200",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0172",
+    "text": "This is going to be fairly simple.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 172,
+      "start": 670.04,
+      "end": 671.8,
+      "duration": 1.76,
+      "startTimestamp": "00:11:10.040",
+      "endTimestamp": "00:11:11.800",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0173",
+    "text": "So let me show you how.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 173,
+      "start": 672.46,
+      "end": 673.7,
+      "duration": 1.24,
+      "startTimestamp": "00:11:12.460",
+      "endTimestamp": "00:11:13.700",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0174",
+    "text": "So, for that what I can do basically I can go to my users and out of this I can simply",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 174,
+      "start": 673.9,
+      "end": 681.22,
+      "duration": 7.32,
+      "startTimestamp": "00:11:13.900",
+      "endTimestamp": "00:11:21.220",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0175",
+    "text": "initialize a link.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 175,
+      "start": 681.221,
+      "end": 682.5,
+      "duration": 1.279,
+      "startTimestamp": "00:11:21.221",
+      "endTimestamp": "00:11:22.500",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0176",
+    "text": "This link will take me to the I can say insert user screen which don't exist for now, but",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 176,
+      "start": 683.28,
+      "end": 691.42,
+      "duration": 8.14,
+      "startTimestamp": "00:11:23.280",
+      "endTimestamp": "00:11:31.420",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0177",
+    "text": "it will in a while and then I can say.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 177,
+      "start": 691.421,
+      "end": 694.28,
+      "duration": 2.859,
+      "startTimestamp": "00:11:31.421",
+      "endTimestamp": "00:11:34.280",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0178",
+    "text": "insert user simple and let me create that so for that I can simply say insert user",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 178,
+      "start": 694.6,
+      "end": 702.24,
+      "duration": 7.64,
+      "startTimestamp": "00:11:34.600",
+      "endTimestamp": "00:11:42.240",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0179",
+    "text": "dot TSX RNFES and insert user save this and save this as well and the moment I",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 179,
+      "start": 702.36,
+      "end": 709.8389999999999,
+      "duration": 7.479,
+      "startTimestamp": "00:11:42.360",
+      "endTimestamp": "00:11:49.839",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0180",
+    "text": "click on insert user I am here",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 180,
+      "start": 709.84,
+      "end": 711.819,
+      "duration": 1.979,
+      "startTimestamp": "00:11:49.840",
+      "endTimestamp": "00:11:51.819",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0181",
+    "text": "And what I can do now, I can simply initialize the UI.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 181,
+      "start": 712.1,
+      "end": 717.18,
+      "duration": 5.08,
+      "startTimestamp": "00:11:52.100",
+      "endTimestamp": "00:11:57.180",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0182",
+    "text": "So let me just simply copy and paste so that we don't waste much of time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 182,
+      "start": 717.42,
+      "end": 721.66,
+      "duration": 4.24,
+      "startTimestamp": "00:11:57.420",
+      "endTimestamp": "00:12:01.660",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0183",
+    "text": "And let me import them one by one.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 183,
+      "start": 722.639,
+      "end": 724.519,
+      "duration": 1.88,
+      "startTimestamp": "00:12:02.639",
+      "endTimestamp": "00:12:04.519",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0184",
+    "text": "One I have text input.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 184,
+      "start": 724.639,
+      "end": 726.22,
+      "duration": 1.581,
+      "startTimestamp": "00:12:04.639",
+      "endTimestamp": "00:12:06.220",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0185",
+    "text": "Another one is the button from react native and then a method which is insert user.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 185,
+      "start": 726.92,
+      "end": 732.339,
+      "duration": 5.419,
+      "startTimestamp": "00:12:06.920",
+      "endTimestamp": "00:12:12.339",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0186",
+    "text": "And let me initialize all the hooks that we need.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 186,
+      "start": 733.5,
+      "end": 735.98,
+      "duration": 2.48,
+      "startTimestamp": "00:12:13.500",
+      "endTimestamp": "00:12:15.980",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0187",
+    "text": "So the first hook is neem.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 187,
+      "start": 736.319,
+      "end": 737.6,
+      "duration": 1.281,
+      "startTimestamp": "00:12:16.319",
+      "endTimestamp": "00:12:17.600",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0188",
+    "text": "SetName which is equals to use state initially this is empty same for email so I can simply",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 188,
+      "start": 739.94,
+      "end": 747.12,
+      "duration": 7.18,
+      "startTimestamp": "00:12:19.940",
+      "endTimestamp": "00:12:27.120",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0189",
+    "text": "say const email and set email is equals to use state and again empty.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 189,
+      "start": 747.22,
+      "end": 758.3,
+      "duration": 11.08,
+      "startTimestamp": "00:12:27.220",
+      "endTimestamp": "00:12:38.300",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0190",
+    "text": "And for router I can simply say cons router is equals to use router from expo router.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 190,
+      "start": 758.8,
+      "end": 766.24,
+      "duration": 7.44,
+      "startTimestamp": "00:12:38.800",
+      "endTimestamp": "00:12:46.240",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0191",
+    "text": "Perfect, so this will push me to user list.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 191,
+      "start": 766.519,
+      "end": 768.519,
+      "duration": 2,
+      "startTimestamp": "00:12:46.519",
+      "endTimestamp": "00:12:48.519",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0192",
+    "text": "Now let me try to use it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 192,
+      "start": 769.6,
+      "end": 771.279,
+      "duration": 1.679,
+      "startTimestamp": "00:12:49.600",
+      "endTimestamp": "00:12:51.279",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0193",
+    "text": "So for name let me simply say Suraj Kumar and for email let me simply say suraj@suraj.com.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 193,
+      "start": 771.38,
+      "end": 779.1,
+      "duration": 7.72,
+      "startTimestamp": "00:12:51.380",
+      "endTimestamp": "00:12:59.100",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0194",
+    "text": "And if I press on save and look at that, now this insert user has using this query by running",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 194,
+      "start": 779.3,
+      "end": 788.26,
+      "duration": 8.96,
+      "startTimestamp": "00:12:59.300",
+      "endTimestamp": "00:13:08.260",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0195",
+    "text": "this query and if I am going to my users list, you will see I am getting this cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 195,
+      "start": 788.261,
+      "end": 794.7,
+      "duration": 6.439,
+      "startTimestamp": "00:13:08.261",
+      "endTimestamp": "00:13:14.700",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0196",
+    "text": "And if I delete by pressing over it, this user is deleted.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 196,
+      "start": 795.08,
+      "end": 798.2,
+      "duration": 3.12,
+      "startTimestamp": "00:13:15.080",
+      "endTimestamp": "00:13:18.200",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0197",
+    "text": "I can reinsert the data.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 197,
+      "start": 798.86,
+      "end": 800.18,
+      "duration": 1.32,
+      "startTimestamp": "00:13:18.860",
+      "endTimestamp": "00:13:20.180",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0198",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 198,
+      "start": 801.259,
+      "end": 801.74,
+      "duration": 0.481,
+      "startTimestamp": "00:13:21.259",
+      "endTimestamp": "00:13:21.740",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0199",
+    "text": "In the same way, you can insert bulk data.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 199,
+      "start": 801.899,
+      "end": 803.8,
+      "duration": 1.901,
+      "startTimestamp": "00:13:21.899",
+      "endTimestamp": "00:13:23.800",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0200",
+    "text": "You can do whatever you want it to do.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 200,
+      "start": 804.3,
+      "end": 806.139,
+      "duration": 1.839,
+      "startTimestamp": "00:13:24.300",
+      "endTimestamp": "00:13:26.139",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0201",
+    "text": "Let me again save this and again I'm getting I can insert lot of email, lot of gmail.com",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 201,
+      "start": 806.899,
+      "end": 815.18,
+      "duration": 8.281,
+      "startTimestamp": "00:13:26.899",
+      "endTimestamp": "00:13:35.180",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0202",
+    "text": "and if I save it, I'm getting two data.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 202,
+      "start": 815.94,
+      "end": 817.98,
+      "duration": 2.04,
+      "startTimestamp": "00:13:35.940",
+      "endTimestamp": "00:13:37.980",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0203",
+    "text": "It's perfect and I can delete it as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 203,
+      "start": 818.079,
+      "end": 820.38,
+      "duration": 2.301,
+      "startTimestamp": "00:13:38.079",
+      "endTimestamp": "00:13:40.380",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0204",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 204,
+      "start": 821.28,
+      "end": 821.72,
+      "duration": 0.44,
+      "startTimestamp": "00:13:41.280",
+      "endTimestamp": "00:13:41.720",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0205",
+    "text": "So in this, in same way, like let's say you wanted to see the detail of some user, you",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 205,
+      "start": 821.92,
+      "end": 826.24,
+      "duration": 4.32,
+      "startTimestamp": "00:13:41.920",
+      "endTimestamp": "00:13:46.240",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0206",
+    "text": "can go with that approach.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 206,
+      "start": 826.26,
+      "end": 827.54,
+      "duration": 1.28,
+      "startTimestamp": "00:13:46.260",
+      "endTimestamp": "00:13:47.540",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0207",
+    "text": "You guys know you need to create a edit user with the ID page and there you can basically",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 207,
+      "start": 827.56,
+      "end": 833.5,
+      "duration": 5.94,
+      "startTimestamp": "00:13:47.560",
+      "endTimestamp": "00:13:53.500",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0208",
+    "text": "implement all of this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 208,
+      "start": 833.52,
+      "end": 834.62,
+      "duration": 1.1,
+      "startTimestamp": "00:13:53.520",
+      "endTimestamp": "00:13:54.620",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0209",
+    "text": "So these are, this is how you can basically use SQLite and why do we even need SQLite?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 209,
+      "start": 835.2,
+      "end": 841.7,
+      "duration": 6.5,
+      "startTimestamp": "00:13:55.200",
+      "endTimestamp": "00:14:01.700",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0210",
+    "text": "just to go or complete offline sometimes and you wanted to create offline first application.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 210,
+      "start": 842,
+      "end": 848.84,
+      "duration": 6.84,
+      "startTimestamp": "00:14:02.000",
+      "endTimestamp": "00:14:08.840",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0211",
+    "text": "Let's say in mini project when this module will comes to end we are going to create a",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 211,
+      "start": 849.06,
+      "end": 856.56,
+      "duration": 7.5,
+      "startTimestamp": "00:14:09.060",
+      "endTimestamp": "00:14:16.560",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0212",
+    "text": "mini project.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 212,
+      "start": 856.561,
+      "end": 857.18,
+      "duration": 0.619,
+      "startTimestamp": "00:14:16.561",
+      "endTimestamp": "00:14:17.180",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0213",
+    "text": "And in that project, we will see that how you can create offline notes app, like where",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 213,
+      "start": 857.4,
+      "end": 863.22,
+      "duration": 5.82,
+      "startTimestamp": "00:14:17.400",
+      "endTimestamp": "00:14:23.220",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0214",
+    "text": "you will maintain your own notes and perform a full CRUD operations using SQLite database",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 214,
+      "start": 863.221,
+      "end": 870.42,
+      "duration": 7.199,
+      "startTimestamp": "00:14:23.221",
+      "endTimestamp": "00:14:30.420",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0215",
+    "text": "that will work fully offline.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 215,
+      "start": 870.82,
+      "end": 872.7,
+      "duration": 1.88,
+      "startTimestamp": "00:14:30.820",
+      "endTimestamp": "00:14:32.700",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0216",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 216,
+      "start": 873.66,
+      "end": 874.18,
+      "duration": 0.52,
+      "startTimestamp": "00:14:33.660",
+      "endTimestamp": "00:14:34.180",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0217",
+    "text": "So yes, this is pretty much it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 217,
+      "start": 874.699,
+      "end": 876.8,
+      "duration": 2.101,
+      "startTimestamp": "00:14:34.699",
+      "endTimestamp": "00:14:36.800",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0218",
+    "text": "A simple basic step.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 218,
+      "start": 876.98,
+      "end": 878.139,
+      "duration": 1.159,
+      "startTimestamp": "00:14:36.980",
+      "endTimestamp": "00:14:38.139",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0219",
+    "text": "Initialize your database.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 219,
+      "start": 878.56,
+      "end": 879.74,
+      "duration": 1.18,
+      "startTimestamp": "00:14:38.560",
+      "endTimestamp": "00:14:39.740",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0220",
+    "text": "Fairly easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 220,
+      "start": 880.4590000000001,
+      "end": 881.139,
+      "duration": 0.68,
+      "startTimestamp": "00:14:40.459",
+      "endTimestamp": "00:14:41.139",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0221",
+    "text": "Create as much tables as you want and implement as much CRUD operations as you want and just",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 221,
+      "start": 882.4590000000001,
+      "end": 888.319,
+      "duration": 5.86,
+      "startTimestamp": "00:14:42.459",
+      "endTimestamp": "00:14:48.319",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0222",
+    "text": "simply use it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 222,
+      "start": 888.42,
+      "end": 889.639,
+      "duration": 1.219,
+      "startTimestamp": "00:14:48.420",
+      "endTimestamp": "00:14:49.639",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0223",
+    "text": "So yeah, this is pretty much it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 223,
+      "start": 890,
+      "end": 891.8,
+      "duration": 1.8,
+      "startTimestamp": "00:14:50.000",
+      "endTimestamp": "00:14:51.800",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_0224",
+    "text": "And let me just end this chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "fileName": "3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "captionIndex": 224,
+      "start": 892.779,
+      "end": 896.18,
+      "duration": 3.401,
+      "startTimestamp": "00:14:52.779",
+      "endTimestamp": "00:14:56.180",
+      "estimatedTokens": 16
+    }
+  }
+]

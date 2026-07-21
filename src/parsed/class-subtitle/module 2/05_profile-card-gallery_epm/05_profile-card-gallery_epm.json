@@ -1,0 +1,3080 @@
+[
+  {
+    "id": "05_profile-card-gallery_epm_0001",
+    "text": "Hey everyone and welcome to one more new lecture.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 1,
+      "start": 0,
+      "end": 3.78,
+      "duration": 3.78,
+      "startTimestamp": "00:00:00.000",
+      "endTimestamp": "00:00:03.780",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0002",
+    "text": "In this lecture we are going to create a profile card gallery mini project.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 2,
+      "start": 3.85,
+      "end": 8.82,
+      "duration": 4.97,
+      "startTimestamp": "00:00:03.850",
+      "endTimestamp": "00:00:08.820",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0003",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 3,
+      "start": 9.7,
+      "end": 10.06,
+      "duration": 0.36,
+      "startTimestamp": "00:00:09.700",
+      "endTimestamp": "00:00:10.060",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0004",
+    "text": "So, inside this we are basically going to use the real data from the random user API",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 4,
+      "start": 10.061,
+      "end": 15.92,
+      "duration": 5.859,
+      "startTimestamp": "00:00:10.061",
+      "endTimestamp": "00:00:15.920",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0005",
+    "text": "and will style the screen with a sleek dark theme and use flat list.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 5,
+      "start": 16.1,
+      "end": 21.14,
+      "duration": 5.04,
+      "startTimestamp": "00:00:16.100",
+      "endTimestamp": "00:00:21.140",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0006",
+    "text": "to display multiple profile card efficiently.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 6,
+      "start": 21.3,
+      "end": 25.14,
+      "duration": 3.84,
+      "startTimestamp": "00:00:21.300",
+      "endTimestamp": "00:00:25.140",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0007",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 7,
+      "start": 25.58,
+      "end": 25.9,
+      "duration": 0.32,
+      "startTimestamp": "00:00:25.580",
+      "endTimestamp": "00:00:25.900",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0008",
+    "text": "So, now let us move ahead and start implementing that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 8,
+      "start": 26.279,
+      "end": 29.119,
+      "duration": 2.84,
+      "startTimestamp": "00:00:26.279",
+      "endTimestamp": "00:00:29.119",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0009",
+    "text": "So, for that I have already created here a folder profile card gallery and then I am",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 9,
+      "start": 29.57,
+      "end": 36.4,
+      "duration": 6.83,
+      "startTimestamp": "00:00:29.570",
+      "endTimestamp": "00:00:36.400",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0010",
+    "text": "simply going to run the same command that we have the name of that command.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 10,
+      "start": 36.62,
+      "end": 43.18,
+      "duration": 6.56,
+      "startTimestamp": "00:00:36.620",
+      "endTimestamp": "00:00:43.180",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0011",
+    "text": "Let me try to show you that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 11,
+      "start": 43.76,
+      "end": 45.12,
+      "duration": 1.36,
+      "startTimestamp": "00:00:43.760",
+      "endTimestamp": "00:00:45.120",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0012",
+    "text": "So just give me a minute.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 12,
+      "start": 45.22,
+      "end": 46.46,
+      "duration": 1.24,
+      "startTimestamp": "00:00:45.220",
+      "endTimestamp": "00:00:46.460",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0013",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 13,
+      "start": 47.44,
+      "end": 47.96,
+      "duration": 0.52,
+      "startTimestamp": "00:00:47.440",
+      "endTimestamp": "00:00:47.960",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0014",
+    "text": "So the name of that command is bunx create expo at the latest.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 14,
+      "start": 48.04,
+      "end": 52.12,
+      "duration": 4.08,
+      "startTimestamp": "00:00:48.040",
+      "endTimestamp": "00:00:52.120",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0015",
+    "text": "So this is going to create an expo application invalid only contain URL friendly characters.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 15,
+      "start": 53.08,
+      "end": 60.38,
+      "duration": 7.3,
+      "startTimestamp": "00:00:53.080",
+      "endTimestamp": "00:01:00.380",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0016",
+    "text": "All right.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 16,
+      "start": 61.6,
+      "end": 61.9,
+      "duration": 0.3,
+      "startTimestamp": "00:01:01.600",
+      "endTimestamp": "00:01:01.900",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0017",
+    "text": "So just give me a minute.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 17,
+      "start": 61.92,
+      "end": 62.96,
+      "duration": 1.04,
+      "startTimestamp": "00:01:01.920",
+      "endTimestamp": "00:01:02.960",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0018",
+    "text": "I'll be right back.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 18,
+      "start": 63.08,
+      "end": 63.84,
+      "duration": 0.76,
+      "startTimestamp": "00:01:03.080",
+      "endTimestamp": "00:01:03.840",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0019",
+    "text": "Alright, so actually the issue is like in previous name of this folder we don't have",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 19,
+      "start": 64.099,
+      "end": 70.68,
+      "duration": 6.581,
+      "startTimestamp": "00:01:04.099",
+      "endTimestamp": "00:01:10.680",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0020",
+    "text": "any hyphens.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 20,
+      "start": 70.681,
+      "end": 71.42,
+      "duration": 0.739,
+      "startTimestamp": "00:01:10.681",
+      "endTimestamp": "00:01:11.420",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0021",
+    "text": "So that's why they are throwing an error but it's fine.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 21,
+      "start": 71.84,
+      "end": 75.7,
+      "duration": 3.86,
+      "startTimestamp": "00:01:11.840",
+      "endTimestamp": "00:01:15.700",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0022",
+    "text": "Let me rerun the same command bunx create expo app and that app is basically going to",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 22,
+      "start": 76,
+      "end": 83.03999999999999,
+      "duration": 7.04,
+      "startTimestamp": "00:01:16.000",
+      "endTimestamp": "00:01:23.040",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0023",
+    "text": "be for dot slash for the current folder and this is going to install my expo application.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 23,
+      "start": 83.041,
+      "end": 90.18,
+      "duration": 7.139,
+      "startTimestamp": "00:01:23.041",
+      "endTimestamp": "00:01:30.180",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0024",
+    "text": "Perfect, so now we can see that our application has installed successfully and the next step",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 24,
+      "start": 90.9,
+      "end": 97.8,
+      "duration": 6.9,
+      "startTimestamp": "00:01:30.900",
+      "endTimestamp": "00:01:37.800",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0025",
+    "text": "is basically go inside your scripts and reset your project.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 25,
+      "start": 97.801,
+      "end": 101.88,
+      "duration": 4.079,
+      "startTimestamp": "00:01:37.801",
+      "endTimestamp": "00:01:41.880",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0026",
+    "text": "So reset project and simply hit enter, no and this is going to reset your project and then",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 26,
+      "start": 101.97999999999999,
+      "end": 110.28,
+      "duration": 8.3,
+      "startTimestamp": "00:01:41.980",
+      "endTimestamp": "00:01:50.280",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0027",
+    "text": "simple burn x, expose start.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 27,
+      "start": 110.281,
+      "end": 112.5,
+      "duration": 2.219,
+      "startTimestamp": "00:01:50.281",
+      "endTimestamp": "00:01:52.500",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0028",
+    "text": "So, by doing this, this is going to make up and running my expo application and then I",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 28,
+      "start": 112.9,
+      "end": 119.1,
+      "duration": 6.2,
+      "startTimestamp": "00:01:52.900",
+      "endTimestamp": "00:01:59.100",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0029",
+    "text": "can simply hit A. So, the moment I hit A, now you will see profile card gallery and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 29,
+      "start": 119.101,
+      "end": 126.68,
+      "duration": 7.579,
+      "startTimestamp": "00:01:59.101",
+      "endTimestamp": "00:02:06.680",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0030",
+    "text": "yes this is what we are basically able to see that perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 30,
+      "start": 126.681,
+      "end": 131.28,
+      "duration": 4.599,
+      "startTimestamp": "00:02:06.681",
+      "endTimestamp": "00:02:11.280",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0031",
+    "text": "Nice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 31,
+      "start": 132.76,
+      "end": 133.32,
+      "duration": 0.56,
+      "startTimestamp": "00:02:12.760",
+      "endTimestamp": "00:02:13.320",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0032",
+    "text": "Now, let's move ahead and let's plan that step by step what is our goal and what is",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 32,
+      "start": 134.22,
+      "end": 140,
+      "duration": 5.78,
+      "startTimestamp": "00:02:14.220",
+      "endTimestamp": "00:02:20.000",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0033",
+    "text": "going to do.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 33,
+      "start": 140.001,
+      "end": 140.7,
+      "duration": 0.699,
+      "startTimestamp": "00:02:20.001",
+      "endTimestamp": "00:02:20.700",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0034",
+    "text": "So for implementing that we are going to use this API.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 34,
+      "start": 141.46,
+      "end": 144.94,
+      "duration": 3.48,
+      "startTimestamp": "00:02:21.460",
+      "endTimestamp": "00:02:24.940",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0035",
+    "text": "The name of this API is random user dot me slash API and then the results you wanted",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 35,
+      "start": 145.06,
+      "end": 151.84,
+      "duration": 6.78,
+      "startTimestamp": "00:02:25.060",
+      "endTimestamp": "00:02:31.840",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0036",
+    "text": "to show at once.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 36,
+      "start": 151.841,
+      "end": 152.82,
+      "duration": 0.979,
+      "startTimestamp": "00:02:31.841",
+      "endTimestamp": "00:02:32.820",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0037",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 37,
+      "start": 153.26,
+      "end": 153.62,
+      "duration": 0.36,
+      "startTimestamp": "00:02:33.260",
+      "endTimestamp": "00:02:33.620",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0038",
+    "text": "So, we are basically going to create a gallery screen where I just wanted to show all the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 38,
+      "start": 154.1,
+      "end": 161.22,
+      "duration": 7.12,
+      "startTimestamp": "00:02:34.100",
+      "endTimestamp": "00:02:41.220",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0039",
+    "text": "basically profiles here with their name and with their photo very very minimal and easy",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 39,
+      "start": 161.221,
+      "end": 167.57999999999998,
+      "duration": 6.359,
+      "startTimestamp": "00:02:41.221",
+      "endTimestamp": "00:02:47.580",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0040",
+    "text": "to implement application.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 40,
+      "start": 167.58100000000002,
+      "end": 168.9,
+      "duration": 1.319,
+      "startTimestamp": "00:02:47.581",
+      "endTimestamp": "00:02:48.900",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0041",
+    "text": "So, I think without wasting any time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 41,
+      "start": 168.96,
+      "end": 170.76,
+      "duration": 1.8,
+      "startTimestamp": "00:02:48.960",
+      "endTimestamp": "00:02:50.760",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0042",
+    "text": "Let's move ahead and start implementing it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 42,
+      "start": 171.1,
+      "end": 174.74,
+      "duration": 3.64,
+      "startTimestamp": "00:02:51.100",
+      "endTimestamp": "00:02:54.740",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0043",
+    "text": "So for implementation what you need to do right now is to first of all go to your app",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 43,
+      "start": 175.24,
+      "end": 181.44,
+      "duration": 6.2,
+      "startTimestamp": "00:02:55.240",
+      "endTimestamp": "00:03:01.440",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0044",
+    "text": "and inside this app you will see we have this fine completely fine no problem but right",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 44,
+      "start": 181.8,
+      "end": 187.44,
+      "duration": 5.64,
+      "startTimestamp": "00:03:01.800",
+      "endTimestamp": "00:03:07.440",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0045",
+    "text": "now.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 45,
+      "start": 187.441,
+      "end": 187.9,
+      "duration": 0.459,
+      "startTimestamp": "00:03:07.441",
+      "endTimestamp": "00:03:07.900",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0046",
+    "text": "Close everything, create a new folder name as components and inside this component folder,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 46,
+      "start": 188.2,
+      "end": 196.239,
+      "duration": 8.039,
+      "startTimestamp": "00:03:08.200",
+      "endTimestamp": "00:03:16.239",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0047",
+    "text": "I wanted to create a profile gallery component.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 47,
+      "start": 196.269,
+      "end": 200.42000000000002,
+      "duration": 4.151,
+      "startTimestamp": "00:03:16.269",
+      "endTimestamp": "00:03:20.420",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0048",
+    "text": "So I will simply say this as profile.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 48,
+      "start": 200.54,
+      "end": 202.92000000000002,
+      "duration": 2.38,
+      "startTimestamp": "00:03:20.540",
+      "endTimestamp": "00:03:22.920",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0049",
+    "text": "gallery dot t s x perfect and then r n f e s and I will simply say this as profile gallery",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 49,
+      "start": 203.9,
+      "end": 215.5,
+      "duration": 11.6,
+      "startTimestamp": "00:03:23.900",
+      "endTimestamp": "00:03:35.500",
+      "estimatedTokens": 29
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0050",
+    "text": "no problem easy perfect and along with that I wanted to import bunch of thing.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 50,
+      "start": 216.379,
+      "end": 223.48,
+      "duration": 7.101,
+      "startTimestamp": "00:03:36.379",
+      "endTimestamp": "00:03:43.480",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0051",
+    "text": "So, the first thing that I wanted to import is the use effect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 51,
+      "start": 223.7,
+      "end": 227.22,
+      "duration": 3.52,
+      "startTimestamp": "00:03:43.700",
+      "endTimestamp": "00:03:47.220",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0052",
+    "text": "Yes, you can use use effect here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 52,
+      "start": 227.48,
+      "end": 229.3,
+      "duration": 1.82,
+      "startTimestamp": "00:03:47.480",
+      "endTimestamp": "00:03:49.300",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0053",
+    "text": "Then I wanted to import here use state.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 53,
+      "start": 230.02,
+      "end": 232.26,
+      "duration": 2.24,
+      "startTimestamp": "00:03:50.020",
+      "endTimestamp": "00:03:52.260",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0054",
+    "text": "We have style sheet, we have text, we have view.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 54,
+      "start": 233.18,
+      "end": 235.42000000000002,
+      "duration": 2.24,
+      "startTimestamp": "00:03:53.180",
+      "endTimestamp": "00:03:55.420",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0055",
+    "text": "I need here something known as flat list.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 55,
+      "start": 236.23,
+      "end": 238.4,
+      "duration": 2.17,
+      "startTimestamp": "00:03:56.230",
+      "endTimestamp": "00:03:58.400",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0056",
+    "text": "I also need here image and then we have one more component.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 56,
+      "start": 239.12,
+      "end": 243.36,
+      "duration": 4.24,
+      "startTimestamp": "00:03:59.120",
+      "endTimestamp": "00:04:03.360",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0057",
+    "text": "This is the new component, which is activity indicator.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 57,
+      "start": 243.54,
+      "end": 246.9,
+      "duration": 3.36,
+      "startTimestamp": "00:04:03.540",
+      "endTimestamp": "00:04:06.900",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0058",
+    "text": "So, this is basically going to show you the loader and basically like that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 58,
+      "start": 247.2,
+      "end": 252.08,
+      "duration": 4.88,
+      "startTimestamp": "00:04:07.200",
+      "endTimestamp": "00:04:12.080",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0059",
+    "text": "Easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 59,
+      "start": 252.16,
+      "end": 252.48,
+      "duration": 0.32,
+      "startTimestamp": "00:04:12.160",
+      "endTimestamp": "00:04:12.480",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0060",
+    "text": "No problem.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 60,
+      "start": 252.62,
+      "end": 253.3,
+      "duration": 0.68,
+      "startTimestamp": "00:04:12.620",
+      "endTimestamp": "00:04:13.300",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0061",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 61,
+      "start": 254.4,
+      "end": 254.66,
+      "duration": 0.26,
+      "startTimestamp": "00:04:14.400",
+      "endTimestamp": "00:04:14.660",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0062",
+    "text": "Now, let's move ahead and start implementing it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 62,
+      "start": 255.26,
+      "end": 258.86,
+      "duration": 3.6,
+      "startTimestamp": "00:04:15.260",
+      "endTimestamp": "00:04:18.860",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0063",
+    "text": "So, for the implementation, how you can basically fetch the data from API?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 63,
+      "start": 259.339,
+      "end": 263.4,
+      "duration": 4.061,
+      "startTimestamp": "00:04:19.339",
+      "endTimestamp": "00:04:23.400",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0064",
+    "text": "Very easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 64,
+      "start": 263.68,
+      "end": 264.38,
+      "duration": 0.7,
+      "startTimestamp": "00:04:23.680",
+      "endTimestamp": "00:04:24.380",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0065",
+    "text": "Going to call this API inside the fetch use effect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 65,
+      "start": 264.82,
+      "end": 269.419,
+      "duration": 4.599,
+      "startTimestamp": "00:04:24.820",
+      "endTimestamp": "00:04:29.419",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0066",
+    "text": "So, I think this is a basic react everyone know.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 66,
+      "start": 269.68,
+      "end": 272.5,
+      "duration": 2.82,
+      "startTimestamp": "00:04:29.680",
+      "endTimestamp": "00:04:32.500",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0067",
+    "text": "So, first of all, let me create some state variable.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 67,
+      "start": 272.8,
+      "end": 275.94,
+      "duration": 3.14,
+      "startTimestamp": "00:04:32.800",
+      "endTimestamp": "00:04:35.940",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0068",
+    "text": "So, we have users, then we have set users, this is going to become empty array and let",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 68,
+      "start": 276.139,
+      "end": 283.06,
+      "duration": 6.921,
+      "startTimestamp": "00:04:36.139",
+      "endTimestamp": "00:04:43.060",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0069",
+    "text": "me snooze my AI and then I am also going to have loading and then set loading.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 69,
+      "start": 283.061,
+      "end": 292.12,
+      "duration": 9.059,
+      "startTimestamp": "00:04:43.061",
+      "endTimestamp": "00:04:52.120",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0070",
+    "text": "This is also going to become use state and let me make it true initially.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 70,
+      "start": 293.259,
+      "end": 298.44,
+      "duration": 5.181,
+      "startTimestamp": "00:04:53.259",
+      "endTimestamp": "00:04:58.440",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0071",
+    "text": "Perfect, and then a simple one more thing which is pretty interesting which is the in",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 71,
+      "start": 299.1,
+      "end": 305.58,
+      "duration": 6.48,
+      "startTimestamp": "00:04:59.100",
+      "endTimestamp": "00:05:05.580",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0072",
+    "text": "built colour scheme.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 72,
+      "start": 306.1,
+      "end": 307.7,
+      "duration": 1.6,
+      "startTimestamp": "00:05:06.100",
+      "endTimestamp": "00:05:07.700",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0073",
+    "text": "So you can simply just write with me colour scheme is equals to use colour scheme and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 73,
+      "start": 307.71,
+      "end": 314.74,
+      "duration": 7.03,
+      "startTimestamp": "00:05:07.710",
+      "endTimestamp": "00:05:14.740",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0074",
+    "text": "which is coming from react native.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 74,
+      "start": 314.741,
+      "end": 316.28,
+      "duration": 1.539,
+      "startTimestamp": "00:05:14.741",
+      "endTimestamp": "00:05:16.280",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0075",
+    "text": "This is basically used to identify is we are in dark mode or light mode, simple.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 75,
+      "start": 316.52,
+      "end": 323.72,
+      "duration": 7.2,
+      "startTimestamp": "00:05:16.520",
+      "endTimestamp": "00:05:23.720",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0076",
+    "text": "And then I'm simply going to write a use effect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 76,
+      "start": 325.02,
+      "end": 327.94,
+      "duration": 2.92,
+      "startTimestamp": "00:05:25.020",
+      "endTimestamp": "00:05:27.940",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0077",
+    "text": "So how you can write it?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 77,
+      "start": 328.199,
+      "end": 329.639,
+      "duration": 1.44,
+      "startTimestamp": "00:05:28.199",
+      "endTimestamp": "00:05:29.639",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0078",
+    "text": "Simple use effect and inside this use effect, let me add empty dependency.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 78,
+      "start": 329.88,
+      "end": 335.259,
+      "duration": 5.379,
+      "startTimestamp": "00:05:29.880",
+      "endTimestamp": "00:05:35.259",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0079",
+    "text": "And then I'm directly going to use here the fetch.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 79,
+      "start": 337.1,
+      "end": 339.199,
+      "duration": 2.099,
+      "startTimestamp": "00:05:37.100",
+      "endTimestamp": "00:05:39.199",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0080",
+    "text": "Inside the fetch, let me use that random API.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 80,
+      "start": 340.1,
+      "end": 344.76,
+      "duration": 4.66,
+      "startTimestamp": "00:05:40.100",
+      "endTimestamp": "00:05:44.760",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0081",
+    "text": "Yep, easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 81,
+      "start": 345.94,
+      "end": 346.94,
+      "duration": 1,
+      "startTimestamp": "00:05:45.940",
+      "endTimestamp": "00:05:46.940",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0082",
+    "text": "And then let me just promisify this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 82,
+      "start": 347.6,
+      "end": 350.42,
+      "duration": 2.82,
+      "startTimestamp": "00:05:47.600",
+      "endTimestamp": "00:05:50.420",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0083",
+    "text": "So simple dot then inside dot then let me get my response.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 83,
+      "start": 350.52,
+      "end": 357.64,
+      "duration": 7.12,
+      "startTimestamp": "00:05:50.520",
+      "endTimestamp": "00:05:57.640",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0084",
+    "text": "This response is going to be first of all, response dot json and then another then.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 84,
+      "start": 358.48,
+      "end": 364.54,
+      "duration": 6.06,
+      "startTimestamp": "00:05:58.480",
+      "endTimestamp": "00:06:04.540",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0085",
+    "text": "And, this another then is going to be the data and inside this data what I can do I",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 85,
+      "start": 364.7,
+      "end": 372.72,
+      "duration": 8.02,
+      "startTimestamp": "00:06:04.700",
+      "endTimestamp": "00:06:12.720",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0086",
+    "text": "can simply come into here and say set users and this is going to be data dot they have",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 86,
+      "start": 372.721,
+      "end": 380.5,
+      "duration": 7.779,
+      "startTimestamp": "00:06:12.721",
+      "endTimestamp": "00:06:20.500",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0087",
+    "text": "something known as results yes important.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 87,
+      "start": 380.501,
+      "end": 382.66,
+      "duration": 2.159,
+      "startTimestamp": "00:06:20.501",
+      "endTimestamp": "00:06:22.660",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0088",
+    "text": "So, this is how they return data to us.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 88,
+      "start": 382.82,
+      "end": 384.92,
+      "duration": 2.1,
+      "startTimestamp": "00:06:22.820",
+      "endTimestamp": "00:06:24.920",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0089",
+    "text": "Then I can make my set loading as false.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 89,
+      "start": 385.7,
+      "end": 389.74,
+      "duration": 4.04,
+      "startTimestamp": "00:06:25.700",
+      "endTimestamp": "00:06:29.740",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0090",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 90,
+      "start": 390.6,
+      "end": 390.94,
+      "duration": 0.34,
+      "startTimestamp": "00:06:30.600",
+      "endTimestamp": "00:06:30.940",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0091",
+    "text": "Let handle error as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 91,
+      "start": 391.4,
+      "end": 392.86,
+      "duration": 1.46,
+      "startTimestamp": "00:06:31.400",
+      "endTimestamp": "00:06:32.860",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0092",
+    "text": "So let me just go inside the catch and by any chance if we have any kind of error, then",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 92,
+      "start": 393.1,
+      "end": 400,
+      "duration": 6.9,
+      "startTimestamp": "00:06:33.100",
+      "endTimestamp": "00:06:40.000",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0093",
+    "text": "I'm simply going to console dot error.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 93,
+      "start": 400.001,
+      "end": 403.94,
+      "duration": 3.939,
+      "startTimestamp": "00:06:40.001",
+      "endTimestamp": "00:06:43.940",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0094",
+    "text": "Yes, console dot error the error.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 94,
+      "start": 404.1,
+      "end": 406.02,
+      "duration": 1.92,
+      "startTimestamp": "00:06:44.100",
+      "endTimestamp": "00:06:46.020",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0095",
+    "text": "and set loading to false once again very easy nothing rocket science here I hope so perfect",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 95,
+      "start": 406.5,
+      "end": 415.18,
+      "duration": 8.68,
+      "startTimestamp": "00:06:46.500",
+      "endTimestamp": "00:06:55.180",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0096",
+    "text": "cool so if we are yes just listen to me carefully if we are in a loading state then I wanted",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 96,
+      "start": 415.8,
+      "end": 423.28,
+      "duration": 7.48,
+      "startTimestamp": "00:06:55.800",
+      "endTimestamp": "00:07:03.280",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0097",
+    "text": "to show activity indicator.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 97,
+      "start": 423.281,
+      "end": 425.08,
+      "duration": 1.799,
+      "startTimestamp": "00:07:03.281",
+      "endTimestamp": "00:07:05.080",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0098",
+    "text": "I can simply say.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 98,
+      "start": 425.3,
+      "end": 426.54,
+      "duration": 1.24,
+      "startTimestamp": "00:07:05.300",
+      "endTimestamp": "00:07:06.540",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0099",
+    "text": "Return, return what?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 99,
+      "start": 428,
+      "end": 429.34,
+      "duration": 1.34,
+      "startTimestamp": "00:07:08.000",
+      "endTimestamp": "00:07:09.340",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0100",
+    "text": "Return a view.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 100,
+      "start": 430.039,
+      "end": 430.84,
+      "duration": 0.801,
+      "startTimestamp": "00:07:10.039",
+      "endTimestamp": "00:07:10.840",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0101",
+    "text": "This view is going to use the activity indicator and then this is going to be self-closing",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 101,
+      "start": 431.919,
+      "end": 437.819,
+      "duration": 5.9,
+      "startTimestamp": "00:07:11.919",
+      "endTimestamp": "00:07:17.819",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0102",
+    "text": "and let me just simply add a size.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 102,
+      "start": 437.94,
+      "end": 440.08,
+      "duration": 2.14,
+      "startTimestamp": "00:07:17.940",
+      "endTimestamp": "00:07:20.080",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0103",
+    "text": "Size is going to be as large.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 103,
+      "start": 440.24,
+      "end": 442.06,
+      "duration": 1.82,
+      "startTimestamp": "00:07:20.240",
+      "endTimestamp": "00:07:22.060",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0104",
+    "text": "And color, so let me just simply add a color as hashtag FFF white color.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 104,
+      "start": 444.18,
+      "end": 449.74,
+      "duration": 5.56,
+      "startTimestamp": "00:07:24.180",
+      "endTimestamp": "00:07:29.740",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0105",
+    "text": "And for now, let me simply add my style here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 105,
+      "start": 452.76,
+      "end": 455.88,
+      "duration": 3.12,
+      "startTimestamp": "00:07:32.760",
+      "endTimestamp": "00:07:35.880",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0106",
+    "text": "And this is going to be styles dot.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 106,
+      "start": 457.15999999999997,
+      "end": 459.1,
+      "duration": 1.94,
+      "startTimestamp": "00:07:37.160",
+      "endTimestamp": "00:07:39.100",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0107",
+    "text": "Loader container and let me just first of all copy my all the style so that I need not",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 107,
+      "start": 460.52,
+      "end": 465.82,
+      "duration": 5.3,
+      "startTimestamp": "00:07:40.520",
+      "endTimestamp": "00:07:45.820",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0108",
+    "text": "to write anything.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 108,
+      "start": 465.821,
+      "end": 466.6,
+      "duration": 0.779,
+      "startTimestamp": "00:07:45.821",
+      "endTimestamp": "00:07:46.600",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0109",
+    "text": "So that's why I'm doing so that perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 109,
+      "start": 467,
+      "end": 469.86,
+      "duration": 2.86,
+      "startTimestamp": "00:07:47.000",
+      "endTimestamp": "00:07:49.860",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0110",
+    "text": "So just give me a minute.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 110,
+      "start": 470.44,
+      "end": 471.52,
+      "duration": 1.08,
+      "startTimestamp": "00:07:50.440",
+      "endTimestamp": "00:07:51.520",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0111",
+    "text": "Let me copy all of them and paste them.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 111,
+      "start": 471.96,
+      "end": 475.3,
+      "duration": 3.34,
+      "startTimestamp": "00:07:51.960",
+      "endTimestamp": "00:07:55.300",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0112",
+    "text": "So this is my style.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 112,
+      "start": 475.8,
+      "end": 477.539,
+      "duration": 1.739,
+      "startTimestamp": "00:07:55.800",
+      "endTimestamp": "00:07:57.539",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0113",
+    "text": "I'm just simply going to paste it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 113,
+      "start": 478.44,
+      "end": 480.419,
+      "duration": 1.979,
+      "startTimestamp": "00:07:58.440",
+      "endTimestamp": "00:08:00.419",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0114",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 114,
+      "start": 480.599,
+      "end": 480.84,
+      "duration": 0.241,
+      "startTimestamp": "00:08:00.599",
+      "endTimestamp": "00:08:00.840",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0115",
+    "text": "So we have a container style where we have dark BG, light BG, loader container, container",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 115,
+      "start": 481.34,
+      "end": 488,
+      "duration": 6.66,
+      "startTimestamp": "00:08:01.340",
+      "endTimestamp": "00:08:08.000",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0116",
+    "text": "and then we have a card.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 116,
+      "start": 488.001,
+      "end": 489.199,
+      "duration": 1.198,
+      "startTimestamp": "00:08:08.001",
+      "endTimestamp": "00:08:09.199",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0117",
+    "text": "Then we have avatar.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 117,
+      "start": 489.759,
+      "end": 492.12,
+      "duration": 2.361,
+      "startTimestamp": "00:08:09.759",
+      "endTimestamp": "00:08:12.120",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0118",
+    "text": "Then we have name and then email.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 118,
+      "start": 492.5,
+      "end": 494.28,
+      "duration": 1.78,
+      "startTimestamp": "00:08:12.500",
+      "endTimestamp": "00:08:14.280",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0119",
+    "text": "Simple nothing rocket science.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 119,
+      "start": 494.52,
+      "end": 496,
+      "duration": 1.48,
+      "startTimestamp": "00:08:14.520",
+      "endTimestamp": "00:08:16.000",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0120",
+    "text": "Easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 120,
+      "start": 496.28,
+      "end": 496.539,
+      "duration": 0.259,
+      "startTimestamp": "00:08:16.280",
+      "endTimestamp": "00:08:16.539",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0121",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 121,
+      "start": 498.199,
+      "end": 498.759,
+      "duration": 0.56,
+      "startTimestamp": "00:08:18.199",
+      "endTimestamp": "00:08:18.759",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0122",
+    "text": "So loading state is done.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 122,
+      "start": 499.28,
+      "end": 500.62,
+      "duration": 1.34,
+      "startTimestamp": "00:08:19.280",
+      "endTimestamp": "00:08:20.620",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0123",
+    "text": "Now let me just simply go to my views, the main return.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 123,
+      "start": 501.46,
+      "end": 504.94,
+      "duration": 3.48,
+      "startTimestamp": "00:08:21.460",
+      "endTimestamp": "00:08:24.940",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0124",
+    "text": "Let me open the style.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 124,
+      "start": 505.919,
+      "end": 507.06,
+      "duration": 1.141,
+      "startTimestamp": "00:08:25.919",
+      "endTimestamp": "00:08:27.060",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0125",
+    "text": "The style is I'm going to open array.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 125,
+      "start": 508.08,
+      "end": 510.78,
+      "duration": 2.7,
+      "startTimestamp": "00:08:28.080",
+      "endTimestamp": "00:08:30.780",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0126",
+    "text": "First I'm going to pass styles.container.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 126,
+      "start": 511.3,
+      "end": 514.58,
+      "duration": 3.28,
+      "startTimestamp": "00:08:31.300",
+      "endTimestamp": "00:08:34.580",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0127",
+    "text": "So, all the style related to container, so we have a simple flex of 1, easy no problem",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 127,
+      "start": 514.6,
+      "end": 521.1,
+      "duration": 6.5,
+      "startTimestamp": "00:08:34.600",
+      "endTimestamp": "00:08:41.100",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0128",
+    "text": "and along with that I also going to check for colour scheme, if the colour scheme is",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 128,
+      "start": 522,
+      "end": 528.079,
+      "duration": 6.079,
+      "startTimestamp": "00:08:42.000",
+      "endTimestamp": "00:08:48.079",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0129",
+    "text": "equals to equals to dark.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 129,
+      "start": 528.08,
+      "end": 529.48,
+      "duration": 1.4,
+      "startTimestamp": "00:08:48.080",
+      "endTimestamp": "00:08:49.480",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0130",
+    "text": "Then I'm going to use here the styles dot dark, dark BG, easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 130,
+      "start": 530.1,
+      "end": 535.88,
+      "duration": 5.78,
+      "startTimestamp": "00:08:50.100",
+      "endTimestamp": "00:08:55.880",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0131",
+    "text": "Otherwise I'm going to use a styles dot light BG, easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 131,
+      "start": 536.3389999999999,
+      "end": 541.339,
+      "duration": 5,
+      "startTimestamp": "00:08:56.339",
+      "endTimestamp": "00:09:01.339",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0132",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 132,
+      "start": 542.279,
+      "end": 542.62,
+      "duration": 0.341,
+      "startTimestamp": "00:09:02.279",
+      "endTimestamp": "00:09:02.620",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0133",
+    "text": "And then inside this view, let me remove it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 133,
+      "start": 543.3,
+      "end": 546.42,
+      "duration": 3.12,
+      "startTimestamp": "00:09:03.300",
+      "endTimestamp": "00:09:06.420",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0134",
+    "text": "Let me simply use my flat list.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 134,
+      "start": 547.56,
+      "end": 549.62,
+      "duration": 2.06,
+      "startTimestamp": "00:09:07.560",
+      "endTimestamp": "00:09:09.620",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0135",
+    "text": "A flat list, yep and this flat list first data they are going to have a data which is",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 135,
+      "start": 551.38,
+      "end": 558.8,
+      "duration": 7.42,
+      "startTimestamp": "00:09:11.380",
+      "endTimestamp": "00:09:18.800",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0136",
+    "text": "coming as users and then we have a key extractor.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 136,
+      "start": 558.98,
+      "end": 563.98,
+      "duration": 5,
+      "startTimestamp": "00:09:18.980",
+      "endTimestamp": "00:09:23.980",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0137",
+    "text": "So I can simply say this as item.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 137,
+      "start": 564.28,
+      "end": 566.54,
+      "duration": 2.26,
+      "startTimestamp": "00:09:24.280",
+      "endTimestamp": "00:09:26.540",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0138",
+    "text": "And this item is going to be item.login.uuid.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 138,
+      "start": 567.1,
+      "end": 572.1,
+      "duration": 5,
+      "startTimestamp": "00:09:27.100",
+      "endTimestamp": "00:09:32.100",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0139",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 139,
+      "start": 573.899,
+      "end": 574.199,
+      "duration": 0.3,
+      "startTimestamp": "00:09:33.899",
+      "endTimestamp": "00:09:34.199",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0140",
+    "text": "We can definitely add types here as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 140,
+      "start": 574.759,
+      "end": 577.5,
+      "duration": 2.741,
+      "startTimestamp": "00:09:34.759",
+      "endTimestamp": "00:09:37.500",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0141",
+    "text": "But for now, let me move ahead and then I can simply say render item.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 141,
+      "start": 577.62,
+      "end": 582.399,
+      "duration": 4.779,
+      "startTimestamp": "00:09:37.620",
+      "endTimestamp": "00:09:42.399",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0142",
+    "text": "Render item is going to have item.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 142,
+      "start": 583.3,
+      "end": 585.319,
+      "duration": 2.019,
+      "startTimestamp": "00:09:43.300",
+      "endTimestamp": "00:09:45.319",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0143",
+    "text": "And then we have destructured this item outside of this parenthesis.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 143,
+      "start": 585.7,
+      "end": 591.54,
+      "duration": 5.84,
+      "startTimestamp": "00:09:45.700",
+      "endTimestamp": "00:09:51.540",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0144",
+    "text": "Let me return a JSX and this JSX is going to be a very basic UI.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 144,
+      "start": 592.18,
+      "end": 598.1,
+      "duration": 5.92,
+      "startTimestamp": "00:09:52.180",
+      "endTimestamp": "00:09:58.100",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0145",
+    "text": "First of all, let me import image.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 145,
+      "start": 599.96,
+      "end": 601.84,
+      "duration": 1.88,
+      "startTimestamp": "00:09:59.960",
+      "endTimestamp": "00:10:01.840",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0146",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 146,
+      "start": 602.24,
+      "end": 602.48,
+      "duration": 0.24,
+      "startTimestamp": "00:10:02.240",
+      "endTimestamp": "00:10:02.480",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0147",
+    "text": "So, we have a view this view at the top of it we have image then we have a text then",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 147,
+      "start": 602.7,
+      "end": 608.6,
+      "duration": 5.9,
+      "startTimestamp": "00:10:02.700",
+      "endTimestamp": "00:10:08.600",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0148",
+    "text": "we have a email and each one of them have a basic UI design easy make sense and out",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 148,
+      "start": 608.601,
+      "end": 618.72,
+      "duration": 10.119,
+      "startTimestamp": "00:10:08.601",
+      "endTimestamp": "00:10:18.720",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0149",
+    "text": "of this yes here I can simply say content container style is basically going to be padding",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 149,
+      "start": 618.721,
+      "end": 626.38,
+      "duration": 7.659,
+      "startTimestamp": "00:10:18.721",
+      "endTimestamp": "00:10:26.380",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0150",
+    "text": "20. And if I save it and then what I am going to do, I am simply going to copy this component",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 150,
+      "start": 627.7,
+      "end": 636.34,
+      "duration": 8.64,
+      "startTimestamp": "00:10:27.700",
+      "endTimestamp": "00:10:36.340",
+      "estimatedTokens": 29
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0151",
+    "text": "and instead of showing this view, I am simply going to render this profile gallery component.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 151,
+      "start": 637.88,
+      "end": 647.2,
+      "duration": 9.32,
+      "startTimestamp": "00:10:37.880",
+      "endTimestamp": "00:10:47.200",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0152",
+    "text": "Finger cross, we'll see for the first time this is going to work or not.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 152,
+      "start": 647.5,
+      "end": 651.28,
+      "duration": 3.78,
+      "startTimestamp": "00:10:47.500",
+      "endTimestamp": "00:10:51.280",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0153",
+    "text": "And look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 153,
+      "start": 652.1,
+      "end": 653.28,
+      "duration": 1.18,
+      "startTimestamp": "00:10:52.100",
+      "endTimestamp": "00:10:53.280",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0154",
+    "text": "You can definitely change this change other data as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 154,
+      "start": 653.32,
+      "end": 656.2,
+      "duration": 2.88,
+      "startTimestamp": "00:10:53.320",
+      "endTimestamp": "00:10:56.200",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0155",
+    "text": "But now we can say that we have all the profile, all the 10 profiles that we are seeing and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 155,
+      "start": 656.74,
+      "end": 662.6,
+      "duration": 5.86,
+      "startTimestamp": "00:10:56.740",
+      "endTimestamp": "00:11:02.600",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0156",
+    "text": "how beautifully we are able to rendering all of them.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 156,
+      "start": 662.601,
+      "end": 665.7,
+      "duration": 3.099,
+      "startTimestamp": "00:11:02.601",
+      "endTimestamp": "00:11:05.700",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0157",
+    "text": "So yeah, this is how you can basically create a very basic mobile application, a basic",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 157,
+      "start": 665.98,
+      "end": 672.4,
+      "duration": 6.42,
+      "startTimestamp": "00:11:05.980",
+      "endTimestamp": "00:11:12.400",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0158",
+    "text": "profile gallery application inside react native expo.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 158,
+      "start": 673.779,
+      "end": 678.759,
+      "duration": 4.98,
+      "startTimestamp": "00:11:13.779",
+      "endTimestamp": "00:11:18.759",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0159",
+    "text": "So yeah this is pretty much it for this video for this mini project.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 159,
+      "start": 679,
+      "end": 682.72,
+      "duration": 3.72,
+      "startTimestamp": "00:11:19.000",
+      "endTimestamp": "00:11:22.720",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0160",
+    "text": "I hope you guys are enjoying this and learning something new.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 160,
+      "start": 682.959,
+      "end": 685.92,
+      "duration": 2.961,
+      "startTimestamp": "00:11:22.959",
+      "endTimestamp": "00:11:25.920",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0161",
+    "text": "If yes then don't forget to drop your 5 star rating.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 161,
+      "start": 686.3,
+      "end": 689.3,
+      "duration": 3,
+      "startTimestamp": "00:11:26.300",
+      "endTimestamp": "00:11:29.300",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_0162",
+    "text": "Till now bye bye take care see ya and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "fileName": "05_profile-card-gallery_epm.vtt",
+      "captionIndex": 162,
+      "start": 690.079,
+      "end": 693.94,
+      "duration": 3.861,
+      "startTimestamp": "00:11:30.079",
+      "endTimestamp": "00:11:33.940",
+      "estimatedTokens": 17
+    }
+  }
+]

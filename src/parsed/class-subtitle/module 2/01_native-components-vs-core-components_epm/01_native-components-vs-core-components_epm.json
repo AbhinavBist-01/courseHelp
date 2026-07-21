@@ -1,0 +1,2377 @@
+[
+  {
+    "id": "01_native-components-vs-core-components_epm_0001",
+    "text": "Hey everyone and welcome to chapter number one of module two, name as core components",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 1,
+      "start": 0,
+      "end": 6.86,
+      "duration": 6.86,
+      "startTimestamp": "00:00:00.000",
+      "endTimestamp": "00:00:06.860",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0002",
+    "text": "and styling.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 2,
+      "start": 6.92,
+      "end": 7.66,
+      "duration": 0.74,
+      "startTimestamp": "00:00:06.920",
+      "endTimestamp": "00:00:07.660",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0003",
+    "text": "In this lecture we are understand, we will understand an important concept in React Native,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 3,
+      "start": 7.82,
+      "end": 13.36,
+      "duration": 5.54,
+      "startTimestamp": "00:00:07.820",
+      "endTimestamp": "00:00:13.360",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0004",
+    "text": "name is native component versus core component.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 4,
+      "start": 13.56,
+      "end": 16.64,
+      "duration": 3.08,
+      "startTimestamp": "00:00:13.560",
+      "endTimestamp": "00:00:16.640",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0005",
+    "text": "What are native components?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 5,
+      "start": 17.3,
+      "end": 18.68,
+      "duration": 1.38,
+      "startTimestamp": "00:00:17.300",
+      "endTimestamp": "00:00:18.680",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0006",
+    "text": "one of the question is arising.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 6,
+      "start": 18.8,
+      "end": 21.22,
+      "duration": 2.42,
+      "startTimestamp": "00:00:18.800",
+      "endTimestamp": "00:00:21.220",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0007",
+    "text": "What are native components?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 7,
+      "start": 21.6,
+      "end": 25.32,
+      "duration": 3.72,
+      "startTimestamp": "00:00:21.600",
+      "endTimestamp": "00:00:25.320",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0008",
+    "text": "So native components are the actual UI element.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 8,
+      "start": 25.78,
+      "end": 29.14,
+      "duration": 3.36,
+      "startTimestamp": "00:00:25.780",
+      "endTimestamp": "00:00:29.140",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0009",
+    "text": "Listen to me carefully.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 9,
+      "start": 29.2,
+      "end": 30.06,
+      "duration": 0.86,
+      "startTimestamp": "00:00:29.200",
+      "endTimestamp": "00:00:30.060",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0010",
+    "text": "This is going to be your actual UI elements provided by the OS.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 10,
+      "start": 31.18,
+      "end": 38.559,
+      "duration": 7.379,
+      "startTimestamp": "00:00:31.180",
+      "endTimestamp": "00:00:38.559",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0011",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 11,
+      "start": 38.9,
+      "end": 39.2,
+      "duration": 0.3,
+      "startTimestamp": "00:00:38.900",
+      "endTimestamp": "00:00:39.200",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0012",
+    "text": "OS means iOS or Android here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 12,
+      "start": 39.6,
+      "end": 43.559,
+      "duration": 3.959,
+      "startTimestamp": "00:00:39.600",
+      "endTimestamp": "00:00:43.559",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0013",
+    "text": "So, native components are the actually UI elements provided by the operating system.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 13,
+      "start": 43.7,
+      "end": 51.24,
+      "duration": 7.54,
+      "startTimestamp": "00:00:43.700",
+      "endTimestamp": "00:00:51.240",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0014",
+    "text": "So, let us say if I just try to give you an example and for Apple perfect not Apple, but",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 14,
+      "start": 51.92,
+      "end": 59.38,
+      "duration": 7.46,
+      "startTimestamp": "00:00:51.920",
+      "endTimestamp": "00:00:59.380",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0015",
+    "text": "just understand this as an iOS.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 15,
+      "start": 59.48,
+      "end": 61.6,
+      "duration": 2.12,
+      "startTimestamp": "00:00:59.480",
+      "endTimestamp": "00:01:01.600",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0016",
+    "text": "So, for iOS and then we have Android perfect and then for Android.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 16,
+      "start": 62.08,
+      "end": 68.82,
+      "duration": 6.74,
+      "startTimestamp": "00:01:02.080",
+      "endTimestamp": "00:01:08.820",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0017",
+    "text": "So for iOS...",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 17,
+      "start": 69.18,
+      "end": 71.18,
+      "duration": 2,
+      "startTimestamp": "00:01:09.180",
+      "endTimestamp": "00:01:11.180",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0018",
+    "text": "We have like you need not to understand anything for now just listen to me keep your brain",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 18,
+      "start": 71.4,
+      "end": 78.58,
+      "duration": 7.18,
+      "startTimestamp": "00:01:11.400",
+      "endTimestamp": "00:01:18.580",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0019",
+    "text": "open and just downloading all the things that I am saying to you.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 19,
+      "start": 78.581,
+      "end": 83.02,
+      "duration": 4.439,
+      "startTimestamp": "00:01:18.581",
+      "endTimestamp": "00:01:23.020",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0020",
+    "text": "Now we are understanding native components.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 20,
+      "start": 83.56,
+      "end": 85.98,
+      "duration": 2.42,
+      "startTimestamp": "00:01:23.560",
+      "endTimestamp": "00:01:25.980",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0021",
+    "text": "Native means actually UI elements provided by the OS you are developing on be it iOS",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 21,
+      "start": 86.32,
+      "end": 93.58,
+      "duration": 7.26,
+      "startTimestamp": "00:01:26.320",
+      "endTimestamp": "00:01:33.580",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0022",
+    "text": "or Android.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 22,
+      "start": 93.86,
+      "end": 94.44,
+      "duration": 0.58,
+      "startTimestamp": "00:01:33.860",
+      "endTimestamp": "00:01:34.440",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0023",
+    "text": "So, in future like whenever you are going to use Objective-C, Shift-UI, then they provide",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 23,
+      "start": 94.7,
+      "end": 102.219,
+      "duration": 7.519,
+      "startTimestamp": "00:01:34.700",
+      "endTimestamp": "00:01:42.219",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0024",
+    "text": "you their native component like UI view, UI label and then UI button.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 24,
+      "start": 102.22,
+      "end": 109.82,
+      "duration": 7.6,
+      "startTimestamp": "00:01:42.220",
+      "endTimestamp": "00:01:49.820",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0025",
+    "text": "In same way on Android they provide you something like this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 25,
+      "start": 110.3,
+      "end": 116.24000000000001,
+      "duration": 5.94,
+      "startTimestamp": "00:01:50.300",
+      "endTimestamp": "00:01:56.240",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0026",
+    "text": "They provide you the view, the text view, the button.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 26,
+      "start": 116.42,
+      "end": 122.14,
+      "duration": 5.72,
+      "startTimestamp": "00:01:56.420",
+      "endTimestamp": "00:02:02.140",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0027",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 27,
+      "start": 122.64,
+      "end": 122.92,
+      "duration": 0.28,
+      "startTimestamp": "00:02:02.640",
+      "endTimestamp": "00:02:02.920",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0028",
+    "text": "So what are they are?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 28,
+      "start": 123.34,
+      "end": 124.76,
+      "duration": 1.42,
+      "startTimestamp": "00:02:03.340",
+      "endTimestamp": "00:02:04.760",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0029",
+    "text": "But basically what is view?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 29,
+      "start": 124.9,
+      "end": 126.3,
+      "duration": 1.4,
+      "startTimestamp": "00:02:04.900",
+      "endTimestamp": "00:02:06.300",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0030",
+    "text": "What is text view?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 30,
+      "start": 126.52,
+      "end": 127.28,
+      "duration": 0.76,
+      "startTimestamp": "00:02:06.520",
+      "endTimestamp": "00:02:07.280",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0031",
+    "text": "What is button?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 31,
+      "start": 127.36,
+      "end": 127.96,
+      "duration": 0.6,
+      "startTimestamp": "00:02:07.360",
+      "endTimestamp": "00:02:07.960",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0032",
+    "text": "So, these components, yes, these are all the components and these components are written",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 32,
+      "start": 128.3,
+      "end": 135.22,
+      "duration": 6.92,
+      "startTimestamp": "00:02:08.300",
+      "endTimestamp": "00:02:15.220",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0033",
+    "text": "in native languages.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 33,
+      "start": 135.3,
+      "end": 137.66,
+      "duration": 2.36,
+      "startTimestamp": "00:02:15.300",
+      "endTimestamp": "00:02:17.660",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0034",
+    "text": "So, they are written in native language like we have a lot of native language.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 34,
+      "start": 138.3,
+      "end": 144.78,
+      "duration": 6.48,
+      "startTimestamp": "00:02:18.300",
+      "endTimestamp": "00:02:24.780",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0035",
+    "text": "One is SIFT, then we have Objective C, then we have Java and then we have, let's say,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 35,
+      "start": 145.02,
+      "end": 153.18,
+      "duration": 8.16,
+      "startTimestamp": "00:02:25.020",
+      "endTimestamp": "00:02:33.180",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0036",
+    "text": "Kotlin.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 36,
+      "start": 153.38,
+      "end": 153.76,
+      "duration": 0.38,
+      "startTimestamp": "00:02:33.380",
+      "endTimestamp": "00:02:33.760",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0037",
+    "text": "So, these are the native languages like sift, Objective-C, Java or Kotlin and they are exist",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 37,
+      "start": 154.2,
+      "end": 165.92000000000002,
+      "duration": 11.72,
+      "startTimestamp": "00:02:34.200",
+      "endTimestamp": "00:02:45.920",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0038",
+    "text": "only yes they are exist only inside the native Android or iOS layer perfect they only exist",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 38,
+      "start": 165.98,
+      "end": 175.3,
+      "duration": 9.32,
+      "startTimestamp": "00:02:45.980",
+      "endTimestamp": "00:02:55.300",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0039",
+    "text": "inside the native iOS or Android layer.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 39,
+      "start": 175.519,
+      "end": 180.42,
+      "duration": 4.901,
+      "startTimestamp": "00:02:55.519",
+      "endTimestamp": "00:03:00.420",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0040",
+    "text": "Perfect, they are not directly used in react native and JavaScript code.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 40,
+      "start": 180.7,
+      "end": 189.18,
+      "duration": 8.48,
+      "startTimestamp": "00:03:00.700",
+      "endTimestamp": "00:03:09.180",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0041",
+    "text": "So listen to me carefully, they are not directly used in react native and JavaScript code.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 41,
+      "start": 189.181,
+      "end": 198.8,
+      "duration": 9.619,
+      "startTimestamp": "00:03:09.181",
+      "endTimestamp": "00:03:18.800",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0042",
+    "text": "So, like you are a react native developer.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 42,
+      "start": 198.801,
+      "end": 201.54,
+      "duration": 2.739,
+      "startTimestamp": "00:03:18.801",
+      "endTimestamp": "00:03:21.540",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0043",
+    "text": "So as a react native developer, we do not import or write native components directly.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 43,
+      "start": 201.8,
+      "end": 208.36,
+      "duration": 6.56,
+      "startTimestamp": "00:03:21.800",
+      "endTimestamp": "00:03:28.360",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0044",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 44,
+      "start": 208.94,
+      "end": 209.26,
+      "duration": 0.32,
+      "startTimestamp": "00:03:28.940",
+      "endTimestamp": "00:03:29.260",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0045",
+    "text": "You never going to write these components directly.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 45,
+      "start": 209.6,
+      "end": 212.88,
+      "duration": 3.28,
+      "startTimestamp": "00:03:29.600",
+      "endTimestamp": "00:03:32.880",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0046",
+    "text": "So this is where the core component come.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 46,
+      "start": 213.54,
+      "end": 215.84,
+      "duration": 2.3,
+      "startTimestamp": "00:03:33.540",
+      "endTimestamp": "00:03:35.840",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0047",
+    "text": "So what is core component?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 47,
+      "start": 216.46,
+      "end": 218.02,
+      "duration": 1.56,
+      "startTimestamp": "00:03:36.460",
+      "endTimestamp": "00:03:38.020",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0048",
+    "text": "If I just simply write what is core components in react native.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 48,
+      "start": 218.1,
+      "end": 223.86,
+      "duration": 5.76,
+      "startTimestamp": "00:03:38.100",
+      "endTimestamp": "00:03:43.860",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0049",
+    "text": "So, core components are the components provided by the react native.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 49,
+      "start": 224.6,
+      "end": 230,
+      "duration": 5.4,
+      "startTimestamp": "00:03:44.600",
+      "endTimestamp": "00:03:50.000",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0050",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 50,
+      "start": 230.62,
+      "end": 230.86,
+      "duration": 0.24,
+      "startTimestamp": "00:03:50.620",
+      "endTimestamp": "00:03:50.860",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0051",
+    "text": "These are the component which is provided by the react native that we use inside our",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 51,
+      "start": 230.9,
+      "end": 237.44,
+      "duration": 6.54,
+      "startTimestamp": "00:03:50.900",
+      "endTimestamp": "00:03:57.440",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0052",
+    "text": "code.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 52,
+      "start": 237.441,
+      "end": 237.72,
+      "duration": 0.279,
+      "startTimestamp": "00:03:57.441",
+      "endTimestamp": "00:03:57.720",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0053",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 53,
+      "start": 238.46,
+      "end": 238.78,
+      "duration": 0.32,
+      "startTimestamp": "00:03:58.460",
+      "endTimestamp": "00:03:58.780",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0054",
+    "text": "We are going to use this inside our actual code that we are going to write.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 54,
+      "start": 238.9,
+      "end": 244.46,
+      "duration": 5.56,
+      "startTimestamp": "00:03:58.900",
+      "endTimestamp": "00:04:04.460",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0055",
+    "text": "Some like if I just try to give you some common core components name.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 55,
+      "start": 245.12,
+      "end": 249.3,
+      "duration": 4.18,
+      "startTimestamp": "00:04:05.120",
+      "endTimestamp": "00:04:09.300",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0056",
+    "text": "We have view, we have text, we have image, we have scroll view, we have pressable, lot",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 56,
+      "start": 249.4,
+      "end": 256.54,
+      "duration": 7.14,
+      "startTimestamp": "00:04:09.400",
+      "endTimestamp": "00:04:16.540",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0057",
+    "text": "of things.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 57,
+      "start": 256.541,
+      "end": 256.88,
+      "duration": 0.339,
+      "startTimestamp": "00:04:16.541",
+      "endTimestamp": "00:04:16.880",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0058",
+    "text": "I mean, I can write bunch of here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 58,
+      "start": 256.899,
+      "end": 259.06,
+      "duration": 2.161,
+      "startTimestamp": "00:04:16.899",
+      "endTimestamp": "00:04:19.060",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0059",
+    "text": "So these components are written.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 59,
+      "start": 259.639,
+      "end": 261.639,
+      "duration": 2,
+      "startTimestamp": "00:04:19.639",
+      "endTimestamp": "00:04:21.639",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0060",
+    "text": "Yes, these components are written inside.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 60,
+      "start": 262,
+      "end": 267.16,
+      "duration": 5.16,
+      "startTimestamp": "00:04:22.000",
+      "endTimestamp": "00:04:27.160",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0061",
+    "text": "the JS.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 61,
+      "start": 267.6,
+      "end": 269.24,
+      "duration": 1.64,
+      "startTimestamp": "00:04:27.600",
+      "endTimestamp": "00:04:29.240",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0062",
+    "text": "And like if I just try to these components are written in JS and act as a cross platform",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 62,
+      "start": 270.2,
+      "end": 278.38,
+      "duration": 8.18,
+      "startTimestamp": "00:04:30.200",
+      "endTimestamp": "00:04:38.380",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0063",
+    "text": "interface like you can use this view for iOS, you can use this view for Android as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 63,
+      "start": 278.381,
+      "end": 284.64,
+      "duration": 6.259,
+      "startTimestamp": "00:04:38.381",
+      "endTimestamp": "00:04:44.640",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0064",
+    "text": "So this is the beauty of react native.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 64,
+      "start": 284.65999999999997,
+      "end": 286.65999999999997,
+      "duration": 2,
+      "startTimestamp": "00:04:44.660",
+      "endTimestamp": "00:04:46.660",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0065",
+    "text": "So, you write one component and react native internally handles the platform specific implementations",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 65,
+      "start": 286.8,
+      "end": 294.84000000000003,
+      "duration": 8.04,
+      "startTimestamp": "00:04:46.800",
+      "endTimestamp": "00:04:54.840",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0066",
+    "text": "for you.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 66,
+      "start": 294.841,
+      "end": 295.5,
+      "duration": 0.659,
+      "startTimestamp": "00:04:54.841",
+      "endTimestamp": "00:04:55.500",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0067",
+    "text": "So, I hope so that make sense.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 67,
+      "start": 295.84000000000003,
+      "end": 298.74,
+      "duration": 2.9,
+      "startTimestamp": "00:04:55.840",
+      "endTimestamp": "00:04:58.740",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0068",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 68,
+      "start": 299.319,
+      "end": 299.539,
+      "duration": 0.22,
+      "startTimestamp": "00:04:59.319",
+      "endTimestamp": "00:04:59.539",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0069",
+    "text": "So, let's say if you are writing any one of them, but if you are writing for iOS.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 69,
+      "start": 299.54,
+      "end": 306.24,
+      "duration": 6.7,
+      "startTimestamp": "00:04:59.540",
+      "endTimestamp": "00:05:06.240",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0070",
+    "text": "Let's say you are only writing for let's say you are writing inside the expo or react native",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 70,
+      "start": 306.7,
+      "end": 313.5,
+      "duration": 6.8,
+      "startTimestamp": "00:05:06.700",
+      "endTimestamp": "00:05:13.500",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0071",
+    "text": "they both are same for now.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 71,
+      "start": 313.56,
+      "end": 315.18,
+      "duration": 1.62,
+      "startTimestamp": "00:05:13.560",
+      "endTimestamp": "00:05:15.180",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0072",
+    "text": "So internally they are using react native we knows that expo is using react native internally.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 72,
+      "start": 315.54,
+      "end": 321.28,
+      "duration": 5.74,
+      "startTimestamp": "00:05:15.540",
+      "endTimestamp": "00:05:21.280",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0073",
+    "text": "So react native is going to do something they are going to compile that in a way they are",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 73,
+      "start": 322.12,
+      "end": 327.42,
+      "duration": 5.3,
+      "startTimestamp": "00:05:22.120",
+      "endTimestamp": "00:05:27.420",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0074",
+    "text": "supported inside the iOS.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 74,
+      "start": 327.421,
+      "end": 329.1,
+      "duration": 1.679,
+      "startTimestamp": "00:05:27.421",
+      "endTimestamp": "00:05:29.100",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0075",
+    "text": "And same way they are supported inside the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 75,
+      "start": 329.6,
+      "end": 333.12,
+      "duration": 3.52,
+      "startTimestamp": "00:05:29.600",
+      "endTimestamp": "00:05:33.120",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0076",
+    "text": "Android as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 76,
+      "start": 334.82,
+      "end": 336.15999999999997,
+      "duration": 1.34,
+      "startTimestamp": "00:05:34.820",
+      "endTimestamp": "00:05:36.160",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0077",
+    "text": "So everything is properly compatible.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 77,
+      "start": 336.24,
+      "end": 338.76,
+      "duration": 2.52,
+      "startTimestamp": "00:05:36.240",
+      "endTimestamp": "00:05:38.760",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0078",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 78,
+      "start": 339.64,
+      "end": 339.94,
+      "duration": 0.3,
+      "startTimestamp": "00:05:39.640",
+      "endTimestamp": "00:05:39.940",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0079",
+    "text": "So if I just simply try to map that out, so this is how they are going to work.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 79,
+      "start": 340.42,
+      "end": 344.76,
+      "duration": 4.34,
+      "startTimestamp": "00:05:40.420",
+      "endTimestamp": "00:05:44.760",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0080",
+    "text": "We have view text image.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 80,
+      "start": 345.4,
+      "end": 346.82,
+      "duration": 1.42,
+      "startTimestamp": "00:05:45.400",
+      "endTimestamp": "00:05:46.820",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0081",
+    "text": "We have written everything inside the expo.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 81,
+      "start": 347.46,
+      "end": 350.15999999999997,
+      "duration": 2.7,
+      "startTimestamp": "00:05:47.460",
+      "endTimestamp": "00:05:50.160",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0082",
+    "text": "Expo is using react native internally.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 82,
+      "start": 350.46,
+      "end": 352.88,
+      "duration": 2.42,
+      "startTimestamp": "00:05:50.460",
+      "endTimestamp": "00:05:52.880",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0083",
+    "text": "React native is going to do the implementation, which is a platform specific implementation",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 83,
+      "start": 353.24,
+      "end": 360.6,
+      "duration": 7.36,
+      "startTimestamp": "00:05:53.240",
+      "endTimestamp": "00:06:00.600",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0084",
+    "text": "like iOS for Android.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 84,
+      "start": 360.601,
+      "end": 362.4,
+      "duration": 1.799,
+      "startTimestamp": "00:06:00.601",
+      "endTimestamp": "00:06:02.400",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0085",
+    "text": "So, this is how kind of they work.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 85,
+      "start": 362.401,
+      "end": 365.32,
+      "duration": 2.919,
+      "startTimestamp": "00:06:02.401",
+      "endTimestamp": "00:06:05.320",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0086",
+    "text": "So, let's say if I just go to my VS code and just try to explain you need not to write",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 86,
+      "start": 366.18,
+      "end": 370.96,
+      "duration": 4.78,
+      "startTimestamp": "00:06:06.180",
+      "endTimestamp": "00:06:10.960",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0087",
+    "text": "anything for now.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 87,
+      "start": 370.961,
+      "end": 372.18,
+      "duration": 1.219,
+      "startTimestamp": "00:06:10.961",
+      "endTimestamp": "00:06:12.180",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0088",
+    "text": "Let's say you can see that we are importing text and view from react native from next",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 88,
+      "start": 372.8,
+      "end": 378.12,
+      "duration": 5.32,
+      "startTimestamp": "00:06:12.800",
+      "endTimestamp": "00:06:18.120",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0089",
+    "text": "chapter we are going to understand each of them.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 89,
+      "start": 378.121,
+      "end": 380.1,
+      "duration": 1.979,
+      "startTimestamp": "00:06:18.121",
+      "endTimestamp": "00:06:20.100",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0090",
+    "text": "So don't worry.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 90,
+      "start": 380.139,
+      "end": 380.82,
+      "duration": 0.681,
+      "startTimestamp": "00:06:20.139",
+      "endTimestamp": "00:06:20.820",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0091",
+    "text": "Let's say we have imported here view and we have imported here text we have two thing",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 91,
+      "start": 381.46,
+      "end": 385.68,
+      "duration": 4.22,
+      "startTimestamp": "00:06:21.460",
+      "endTimestamp": "00:06:25.680",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0092",
+    "text": "make sense.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 92,
+      "start": 386.16,
+      "end": 386.72,
+      "duration": 0.56,
+      "startTimestamp": "00:06:26.160",
+      "endTimestamp": "00:06:26.720",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0093",
+    "text": "So, on iOS, let's say you are on iOS, so on iOS this view is going to be mapped towards",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 93,
+      "start": 387,
+      "end": 394.8,
+      "duration": 7.8,
+      "startTimestamp": "00:06:27.000",
+      "endTimestamp": "00:06:34.800",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0094",
+    "text": "the UI view like that we have talked about like this is the native component.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 94,
+      "start": 394.82,
+      "end": 400.2,
+      "duration": 5.38,
+      "startTimestamp": "00:06:34.820",
+      "endTimestamp": "00:06:40.200",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0095",
+    "text": "So, you write for iOS you are using the same view, but internally they are going to map",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 95,
+      "start": 400.78,
+      "end": 407.48,
+      "duration": 6.7,
+      "startTimestamp": "00:06:40.780",
+      "endTimestamp": "00:06:47.480",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0096",
+    "text": "towards UI view same for text and in same way let's say you are on Android and on Android",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 96,
+      "start": 407.64,
+      "end": 413.8,
+      "duration": 6.16,
+      "startTimestamp": "00:06:47.640",
+      "endTimestamp": "00:06:53.800",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0097",
+    "text": "You have let's just say use this text so they are again mapped towards the text view, this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 97,
+      "start": 416.54,
+      "end": 423.82,
+      "duration": 7.28,
+      "startTimestamp": "00:06:56.540",
+      "endTimestamp": "00:07:03.820",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0098",
+    "text": "is a native component which is available to them.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 98,
+      "start": 423.86,
+      "end": 426.78,
+      "duration": 2.92,
+      "startTimestamp": "00:07:03.860",
+      "endTimestamp": "00:07:06.780",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0099",
+    "text": "So this mapping happens automatically.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 99,
+      "start": 427.139,
+      "end": 429.54,
+      "duration": 2.401,
+      "startTimestamp": "00:07:07.139",
+      "endTimestamp": "00:07:09.540",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0100",
+    "text": "You never, yes you never ever going to interact with this UI view with this text view or Android",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 100,
+      "start": 430.22,
+      "end": 436.84,
+      "duration": 6.62,
+      "startTimestamp": "00:07:10.220",
+      "endTimestamp": "00:07:16.840",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0101",
+    "text": "views whatever is that directly.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 101,
+      "start": 436.919,
+      "end": 438.96,
+      "duration": 2.041,
+      "startTimestamp": "00:07:16.919",
+      "endTimestamp": "00:07:18.960",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0102",
+    "text": "So, I mean one of the biggest question that arises right now, why React Native uses this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 102,
+      "start": 439.5,
+      "end": 446.18,
+      "duration": 6.68,
+      "startTimestamp": "00:07:19.500",
+      "endTimestamp": "00:07:26.180",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0103",
+    "text": "approach?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 103,
+      "start": 446.181,
+      "end": 446.46,
+      "duration": 0.279,
+      "startTimestamp": "00:07:26.181",
+      "endTimestamp": "00:07:26.460",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0104",
+    "text": "So, this approach first of all give you like again a single code base, up second they give",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 104,
+      "start": 447.16,
+      "end": 455.4,
+      "duration": 8.24,
+      "startTimestamp": "00:07:27.160",
+      "endTimestamp": "00:07:35.400",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0105",
+    "text": "you native look and feel, then they give you a good performance, yes they are very performant.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 105,
+      "start": 455.401,
+      "end": 461.06,
+      "duration": 5.659,
+      "startTimestamp": "00:07:35.401",
+      "endTimestamp": "00:07:41.060",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0106",
+    "text": "So, they give you good performance and a simple and consistent development experience.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 106,
+      "start": 461.1,
+      "end": 468.52,
+      "duration": 7.42,
+      "startTimestamp": "00:07:41.100",
+      "endTimestamp": "00:07:48.520",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0107",
+    "text": "So, this is what I am talking about.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 107,
+      "start": 468.68,
+      "end": 470.86,
+      "duration": 2.18,
+      "startTimestamp": "00:07:48.680",
+      "endTimestamp": "00:07:50.860",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0108",
+    "text": "They are going to give you a simple and consistent development experience.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 108,
+      "start": 470.96,
+      "end": 474.9,
+      "duration": 3.94,
+      "startTimestamp": "00:07:50.960",
+      "endTimestamp": "00:07:54.900",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0109",
+    "text": "So, you focus on building the UI using the core component and react native take care",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 109,
+      "start": 475.26,
+      "end": 482.14,
+      "duration": 6.88,
+      "startTimestamp": "00:07:55.260",
+      "endTimestamp": "00:08:02.140",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0110",
+    "text": "of rendering native UI on each platform.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 110,
+      "start": 482.141,
+      "end": 484.96,
+      "duration": 2.819,
+      "startTimestamp": "00:08:02.141",
+      "endTimestamp": "00:08:04.960",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0111",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 111,
+      "start": 485.78,
+      "end": 486.3,
+      "duration": 0.52,
+      "startTimestamp": "00:08:05.780",
+      "endTimestamp": "00:08:06.300",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0112",
+    "text": "So, I hope so that makes sense.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 112,
+      "start": 486.78,
+      "end": 488.56,
+      "duration": 1.78,
+      "startTimestamp": "00:08:06.780",
+      "endTimestamp": "00:08:08.560",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0113",
+    "text": "So, if I just try to summarize you native component or platform specific component.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 113,
+      "start": 488.68,
+      "end": 493.58,
+      "duration": 4.9,
+      "startTimestamp": "00:08:08.680",
+      "endTimestamp": "00:08:13.580",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0114",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 114,
+      "start": 494.28,
+      "end": 494.52,
+      "duration": 0.24,
+      "startTimestamp": "00:08:14.280",
+      "endTimestamp": "00:08:14.520",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0115",
+    "text": "Like UI view, UI label, UI button.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 115,
+      "start": 494.94,
+      "end": 496.98,
+      "duration": 2.04,
+      "startTimestamp": "00:08:14.940",
+      "endTimestamp": "00:08:16.980",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0116",
+    "text": "If you are using shift Objective-C like view text view button, if you are using Java and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 116,
+      "start": 497.12,
+      "end": 502.8,
+      "duration": 5.68,
+      "startTimestamp": "00:08:17.120",
+      "endTimestamp": "00:08:22.800",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0117",
+    "text": "inside Java there is another way of writing it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 117,
+      "start": 502.98,
+      "end": 505.1,
+      "duration": 2.12,
+      "startTimestamp": "00:08:22.980",
+      "endTimestamp": "00:08:25.100",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0118",
+    "text": "Like I don't exactly remember because I never written something inside Java.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 118,
+      "start": 505.28,
+      "end": 509.38,
+      "duration": 4.1,
+      "startTimestamp": "00:08:25.280",
+      "endTimestamp": "00:08:29.380",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0119",
+    "text": "Yeah, and in same way core component are react native components.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 119,
+      "start": 511.12,
+      "end": 515.28,
+      "duration": 4.16,
+      "startTimestamp": "00:08:31.120",
+      "endTimestamp": "00:08:35.280",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0120",
+    "text": "So this is what your core components.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 120,
+      "start": 515.34,
+      "end": 517.04,
+      "duration": 1.7,
+      "startTimestamp": "00:08:35.340",
+      "endTimestamp": "00:08:37.040",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0121",
+    "text": "This is why react native app feels truly native.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 121,
+      "start": 517.799,
+      "end": 520.72,
+      "duration": 2.921,
+      "startTimestamp": "00:08:37.799",
+      "endTimestamp": "00:08:40.720",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0122",
+    "text": "So from next chapter, we are going to start learning all of the core components that we",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 122,
+      "start": 521.179,
+      "end": 526.48,
+      "duration": 5.301,
+      "startTimestamp": "00:08:41.179",
+      "endTimestamp": "00:08:46.480",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0123",
+    "text": "have, like we have view, we have text image, text input, pressable, scroll view, style",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 123,
+      "start": 526.54,
+      "end": 531.62,
+      "duration": 5.08,
+      "startTimestamp": "00:08:46.540",
+      "endTimestamp": "00:08:51.620",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0124",
+    "text": "sheet, then button switch, a lot of things.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 124,
+      "start": 531.621,
+      "end": 535.52,
+      "duration": 3.899,
+      "startTimestamp": "00:08:51.621",
+      "endTimestamp": "00:08:55.520",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "01_native-components-vs-core-components_epm_0125",
+    "text": "Perfect, so yeah this is pretty much it for this chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "01_native-components-vs-core-components_epm",
+      "lessonFile": "01_native-components-vs-core-components_epm",
+      "source": "class-subtitle/module 2/01_native-components-vs-core-components_epm/01_native-components-vs-core-components_epm.vtt",
+      "fileName": "01_native-components-vs-core-components_epm.vtt",
+      "captionIndex": 125,
+      "start": 535.521,
+      "end": 542,
+      "duration": 6.479,
+      "startTimestamp": "00:08:55.521",
+      "endTimestamp": "00:09:02.000",
+      "estimatedTokens": 21
+    }
+  }
+]

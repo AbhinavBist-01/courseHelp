@@ -1,0 +1,2529 @@
+[
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0001",
+    "text": "Hey everyone and welcome to one more new lecture.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 1,
+      "start": 0.32,
+      "end": 3.2,
+      "duration": 2.88,
+      "startTimestamp": "00:00:00.320",
+      "endTimestamp": "00:00:03.200",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0002",
+    "text": "In this lecture, we are going to talk about the battery we can say library.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 2,
+      "start": 3.4,
+      "end": 8.82,
+      "duration": 5.42,
+      "startTimestamp": "00:00:03.400",
+      "endTimestamp": "00:00:08.820",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0003",
+    "text": "So a library that provides battery information for the physical device as well as corresponding",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 3,
+      "start": 9.04,
+      "end": 15.3,
+      "duration": 6.26,
+      "startTimestamp": "00:00:09.040",
+      "endTimestamp": "00:00:15.300",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0004",
+    "text": "event listener.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 4,
+      "start": 15.62,
+      "end": 16.28,
+      "duration": 0.66,
+      "startTimestamp": "00:00:15.620",
+      "endTimestamp": "00:00:16.280",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0005",
+    "text": "So definitely we are connected to our physical device perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 5,
+      "start": 16.281,
+      "end": 19.86,
+      "duration": 3.579,
+      "startTimestamp": "00:00:16.281",
+      "endTimestamp": "00:00:19.860",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0006",
+    "text": "So expo battery provides.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 6,
+      "start": 20.32,
+      "end": 22.08,
+      "duration": 1.76,
+      "startTimestamp": "00:00:20.320",
+      "endTimestamp": "00:00:22.080",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0007",
+    "text": "Information for the physical device such as battery level, whether or not a device is",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 7,
+      "start": 22.5,
+      "end": 27.32,
+      "duration": 4.82,
+      "startTimestamp": "00:00:22.500",
+      "endTimestamp": "00:00:27.320",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0008",
+    "text": "charging and more, as well as corresponding event listeners for it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 8,
+      "start": 27.38,
+      "end": 31.56,
+      "duration": 4.18,
+      "startTimestamp": "00:00:27.380",
+      "endTimestamp": "00:00:31.560",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0009",
+    "text": "So this is the chapter number 4 and you will learn how to check battery levels, charging",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 9,
+      "start": 32.72,
+      "end": 37.14,
+      "duration": 4.42,
+      "startTimestamp": "00:00:32.720",
+      "endTimestamp": "00:00:37.140",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0010",
+    "text": "status and monitor battery change in real time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 10,
+      "start": 37.239,
+      "end": 39.739,
+      "duration": 2.5,
+      "startTimestamp": "00:00:37.239",
+      "endTimestamp": "00:00:39.739",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0011",
+    "text": "So, what is battery API?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 11,
+      "start": 40.1,
+      "end": 42.62,
+      "duration": 2.52,
+      "startTimestamp": "00:00:40.100",
+      "endTimestamp": "00:00:42.620",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0012",
+    "text": "So, we can again say just for checking the battery level, we need a battery API.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 12,
+      "start": 42.98,
+      "end": 49.399,
+      "duration": 6.419,
+      "startTimestamp": "00:00:42.980",
+      "endTimestamp": "00:00:49.399",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0013",
+    "text": "Know if device is charging or not and monitor battery states and why do we even need it?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 13,
+      "start": 49.68,
+      "end": 56.18,
+      "duration": 6.5,
+      "startTimestamp": "00:00:49.680",
+      "endTimestamp": "00:00:56.180",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0014",
+    "text": "Again, let's say you are creating a video calling app and you want at least a user's",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 14,
+      "start": 56.44,
+      "end": 61.82,
+      "duration": 5.38,
+      "startTimestamp": "00:00:56.440",
+      "endTimestamp": "00:01:01.820",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0015",
+    "text": "should be 10% and greater than 10% then only you will allow them to video call with each",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 15,
+      "start": 62.7,
+      "end": 69.78,
+      "duration": 7.08,
+      "startTimestamp": "00:01:02.700",
+      "endTimestamp": "00:01:09.780",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0016",
+    "text": "other got it same for gaming app like reduce you can whenever you have a low battery you",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 16,
+      "start": 69.92,
+      "end": 76.64,
+      "duration": 6.72,
+      "startTimestamp": "00:01:09.920",
+      "endTimestamp": "00:01:16.640",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0017",
+    "text": "can reduce the graphics for it perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 17,
+      "start": 76.68,
+      "end": 79.74,
+      "duration": 3.06,
+      "startTimestamp": "00:01:16.680",
+      "endTimestamp": "00:01:19.740",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0018",
+    "text": "So",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 18,
+      "start": 80.36,
+      "end": 80.58,
+      "duration": 0.22,
+      "startTimestamp": "00:01:20.360",
+      "endTimestamp": "00:01:20.580",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0019",
+    "text": "In all of this use cases, you can basically initialize this school.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 19,
+      "start": 81.4,
+      "end": 86.96000000000001,
+      "duration": 5.56,
+      "startTimestamp": "00:01:21.400",
+      "endTimestamp": "00:01:26.960",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0020",
+    "text": "So let's see and how we can implement this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 20,
+      "start": 87.18,
+      "end": 89.88,
+      "duration": 2.7,
+      "startTimestamp": "00:01:27.180",
+      "endTimestamp": "00:01:29.880",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0021",
+    "text": "Again let's be inside the same module because I think this is the last module that we need",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 21,
+      "start": 90.4,
+      "end": 96.24000000000001,
+      "duration": 5.84,
+      "startTimestamp": "00:01:30.400",
+      "endTimestamp": "00:01:36.240",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0022",
+    "text": "and this is the last library that we need for it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 22,
+      "start": 96.241,
+      "end": 98.62,
+      "duration": 2.379,
+      "startTimestamp": "00:01:36.241",
+      "endTimestamp": "00:01:38.620",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0023",
+    "text": "So I can simply say battery and I can simply say battery example.tsx, r and fes.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 23,
+      "start": 99.18,
+      "end": 107.18,
+      "duration": 8,
+      "startTimestamp": "00:01:39.180",
+      "endTimestamp": "00:01:47.180",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0024",
+    "text": "Let's save this and let's go inside the index.tsx.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 24,
+      "start": 112.8,
+      "end": 117.02000000000001,
+      "duration": 4.22,
+      "startTimestamp": "00:01:52.800",
+      "endTimestamp": "00:01:57.020",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0025",
+    "text": "We don't need preceptics.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 25,
+      "start": 117.17,
+      "end": 118.84,
+      "duration": 1.67,
+      "startTimestamp": "00:01:57.170",
+      "endTimestamp": "00:01:58.840",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0026",
+    "text": "Instead, we need a battery examples.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 26,
+      "start": 120.31,
+      "end": 122.7,
+      "duration": 2.39,
+      "startTimestamp": "00:02:00.310",
+      "endTimestamp": "00:02:02.700",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0027",
+    "text": "Let me import it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 27,
+      "start": 123.68,
+      "end": 124.52,
+      "duration": 0.84,
+      "startTimestamp": "00:02:03.680",
+      "endTimestamp": "00:02:04.520",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0028",
+    "text": "Let me open my expo go.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 28,
+      "start": 124.66,
+      "end": 126.08,
+      "duration": 1.42,
+      "startTimestamp": "00:02:04.660",
+      "endTimestamp": "00:02:06.080",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0029",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 29,
+      "start": 126.92,
+      "end": 127.16,
+      "duration": 0.24,
+      "startTimestamp": "00:02:06.920",
+      "endTimestamp": "00:02:07.160",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0030",
+    "text": "And let me go to my module once again and let me try to reload it once.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 30,
+      "start": 128.04,
+      "end": 133.08,
+      "duration": 5.04,
+      "startTimestamp": "00:02:08.040",
+      "endTimestamp": "00:02:13.080",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0031",
+    "text": "Nice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 31,
+      "start": 133.82,
+      "end": 133.92,
+      "duration": 0.1,
+      "startTimestamp": "00:02:13.820",
+      "endTimestamp": "00:02:13.920",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0032",
+    "text": "So, how you can use it?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 32,
+      "start": 134.3,
+      "end": 136.36,
+      "duration": 2.06,
+      "startTimestamp": "00:02:14.300",
+      "endTimestamp": "00:02:16.360",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0033",
+    "text": "So let's move ahead first of all and let's try to install this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 33,
+      "start": 136.8,
+      "end": 140.92000000000002,
+      "duration": 4.12,
+      "startTimestamp": "00:02:16.800",
+      "endTimestamp": "00:02:20.920",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0034",
+    "text": "How you can basically install this very easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 34,
+      "start": 141.31,
+      "end": 144.78,
+      "duration": 3.47,
+      "startTimestamp": "00:02:21.310",
+      "endTimestamp": "00:02:24.780",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0035",
+    "text": "Simply copy this command from here till here and then simply hit Banex.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 35,
+      "start": 146.12,
+      "end": 151.52,
+      "duration": 5.4,
+      "startTimestamp": "00:02:26.120",
+      "endTimestamp": "00:02:31.520",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0036",
+    "text": "\"Expo install expo battery\" so this is going to install battery and yes you can see that",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 36,
+      "start": 152,
+      "end": 159.3,
+      "duration": 7.3,
+      "startTimestamp": "00:02:32.000",
+      "endTimestamp": "00:02:39.300",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0037",
+    "text": "this is the battery example and we don't even need maps here so I can save that so this is how",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 37,
+      "start": 159.44,
+      "end": 165.98,
+      "duration": 6.54,
+      "startTimestamp": "00:02:39.440",
+      "endTimestamp": "00:02:45.980",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0038",
+    "text": "they are coming nice. So let's see that how you can basically listen to battery levels battery",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 38,
+      "start": 166.1,
+      "end": 171.36,
+      "duration": 5.26,
+      "startTimestamp": "00:02:46.100",
+      "endTimestamp": "00:02:51.360",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0039",
+    "text": "state and low power mode everything.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 39,
+      "start": 171.44,
+      "end": 174.02,
+      "duration": 2.58,
+      "startTimestamp": "00:02:51.440",
+      "endTimestamp": "00:02:54.020",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0040",
+    "text": "Simple and very easy, perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 40,
+      "start": 174.7,
+      "end": 178.94,
+      "duration": 4.24,
+      "startTimestamp": "00:02:54.700",
+      "endTimestamp": "00:02:58.940",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0041",
+    "text": "So for that, let me just simply coming to here and let me try to show you.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 41,
+      "start": 179.879,
+      "end": 186.36,
+      "duration": 6.481,
+      "startTimestamp": "00:02:59.879",
+      "endTimestamp": "00:03:06.360",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0042",
+    "text": "So first thing first, let's maintain bunch of state variables.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 42,
+      "start": 186.76,
+      "end": 190.44,
+      "duration": 3.68,
+      "startTimestamp": "00:03:06.760",
+      "endTimestamp": "00:03:10.440",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0043",
+    "text": "Perfect. So first of all, we have a battery level, battery state and low power mode. No",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 43,
+      "start": 191.74,
+      "end": 198.28,
+      "duration": 6.54,
+      "startTimestamp": "00:03:11.740",
+      "endTimestamp": "00:03:18.280",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0044",
+    "text": "problem. Alright. In same way, let me just move ahead and what I will do, let's first",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 44,
+      "start": 198.32,
+      "end": 206.78,
+      "duration": 8.46,
+      "startTimestamp": "00:03:18.320",
+      "endTimestamp": "00:03:26.780",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0045",
+    "text": "of all make a function name as get battery information. So what I will do, I can say",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 45,
+      "start": 206.81,
+      "end": 211.4,
+      "duration": 4.59,
+      "startTimestamp": "00:03:26.810",
+      "endTimestamp": "00:03:31.400",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0046",
+    "text": "get battery info and just give me a minute let me just fix",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 46,
+      "start": 211.401,
+      "end": 218.66,
+      "duration": 7.259,
+      "startTimestamp": "00:03:31.401",
+      "endTimestamp": "00:03:38.660",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0047",
+    "text": "it yes nice so for first of all let me off my AI I don't need it nice so this is going",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 47,
+      "start": 218.7,
+      "end": 226.42000000000002,
+      "duration": 7.72,
+      "startTimestamp": "00:03:38.700",
+      "endTimestamp": "00:03:46.420",
+      "estimatedTokens": 29
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0048",
+    "text": "to be get the battery info and this is equals to your async and this async is simply going",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 48,
+      "start": 226.54,
+      "end": 236.239,
+      "duration": 9.699,
+      "startTimestamp": "00:03:46.540",
+      "endTimestamp": "00:03:56.239",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0049",
+    "text": "to first of all get the battery level battery state and is we are in power mode or not.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 49,
+      "start": 236.5,
+      "end": 242.08,
+      "duration": 5.58,
+      "startTimestamp": "00:03:56.500",
+      "endTimestamp": "00:04:02.080",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0050",
+    "text": "So, this is how you can basically get it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 50,
+      "start": 242.4,
+      "end": 245.26,
+      "duration": 2.86,
+      "startTimestamp": "00:04:02.400",
+      "endTimestamp": "00:04:05.260",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0051",
+    "text": "So, how we can import a battery?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 51,
+      "start": 245.34,
+      "end": 246.92,
+      "duration": 1.58,
+      "startTimestamp": "00:04:05.340",
+      "endTimestamp": "00:04:06.920",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0052",
+    "text": "Again a simple thing, simply say import as strict as battery from expo battery.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 52,
+      "start": 247.159,
+      "end": 252.76,
+      "duration": 5.601,
+      "startTimestamp": "00:04:07.159",
+      "endTimestamp": "00:04:12.760",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0053",
+    "text": "Got it?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 53,
+      "start": 254.48,
+      "end": 254.72,
+      "duration": 0.24,
+      "startTimestamp": "00:04:14.480",
+      "endTimestamp": "00:04:14.720",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0054",
+    "text": "Then we have level, then we have state and power mode, no problem.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 54,
+      "start": 255.76,
+      "end": 259.06,
+      "duration": 3.3,
+      "startTimestamp": "00:04:15.760",
+      "endTimestamp": "00:04:19.060",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0055",
+    "text": "How you can get level?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 55,
+      "start": 259.94,
+      "end": 260.8,
+      "duration": 0.86,
+      "startTimestamp": "00:04:19.940",
+      "endTimestamp": "00:04:20.800",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0056",
+    "text": "Simply call get battery level async.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 56,
+      "start": 261.12,
+      "end": 263,
+      "duration": 1.88,
+      "startTimestamp": "00:04:21.120",
+      "endTimestamp": "00:04:23.000",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0057",
+    "text": "How you can get the state, simply say get battery state sync.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 57,
+      "start": 263.4,
+      "end": 268.3,
+      "duration": 4.9,
+      "startTimestamp": "00:04:23.400",
+      "endTimestamp": "00:04:28.300",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0058",
+    "text": "How you can get is you are in low power mode or not.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 58,
+      "start": 268.46,
+      "end": 271.58,
+      "duration": 3.12,
+      "startTimestamp": "00:04:28.460",
+      "endTimestamp": "00:04:31.580",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0059",
+    "text": "So this is how is low power mode enabled async.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 59,
+      "start": 272.07,
+      "end": 275.3,
+      "duration": 3.23,
+      "startTimestamp": "00:04:32.070",
+      "endTimestamp": "00:04:35.300",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0060",
+    "text": "No problem.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 60,
+      "start": 275.37,
+      "end": 275.919,
+      "duration": 0.549,
+      "startTimestamp": "00:04:35.370",
+      "endTimestamp": "00:04:35.919",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0061",
+    "text": "Very easy API.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 61,
+      "start": 277.12,
+      "end": 278.15999999999997,
+      "duration": 1.04,
+      "startTimestamp": "00:04:37.120",
+      "endTimestamp": "00:04:38.160",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0062",
+    "text": "These are just API that we are using.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 62,
+      "start": 278.44,
+      "end": 281,
+      "duration": 2.56,
+      "startTimestamp": "00:04:38.440",
+      "endTimestamp": "00:04:41.000",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0063",
+    "text": "And what I will do I can set the states for all of them nice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 63,
+      "start": 281.8,
+      "end": 286.44,
+      "duration": 4.64,
+      "startTimestamp": "00:04:41.800",
+      "endTimestamp": "00:04:46.440",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0064",
+    "text": "So set battery level, set battery state and set low power mode.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 64,
+      "start": 287.169,
+      "end": 291.699,
+      "duration": 4.53,
+      "startTimestamp": "00:04:47.169",
+      "endTimestamp": "00:04:51.699",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0065",
+    "text": "In same way I am going to create a get state text.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 65,
+      "start": 292.27,
+      "end": 296.58,
+      "duration": 4.31,
+      "startTimestamp": "00:04:52.270",
+      "endTimestamp": "00:04:56.580",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0066",
+    "text": "So if my battery state is in charging is in full is in unplugged unknown on the basis",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 66,
+      "start": 297.659,
+      "end": 304.12,
+      "duration": 6.461,
+      "startTimestamp": "00:04:57.659",
+      "endTimestamp": "00:05:04.120",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0067",
+    "text": "of that state we are going to show this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 67,
+      "start": 304.3,
+      "end": 307.099,
+      "duration": 2.799,
+      "startTimestamp": "00:05:04.300",
+      "endTimestamp": "00:05:07.099",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0068",
+    "text": "So, right now you will see battery dot battery state these are first of all let me add here",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 68,
+      "start": 307.5,
+      "end": 315.5,
+      "duration": 8,
+      "startTimestamp": "00:05:07.500",
+      "endTimestamp": "00:05:15.500",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0069",
+    "text": "this is going to be the battery state type got it and this can be of null as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 69,
+      "start": 317.18,
+      "end": 325.02,
+      "duration": 7.84,
+      "startTimestamp": "00:05:17.180",
+      "endTimestamp": "00:05:25.020",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0070",
+    "text": "of it. So now if I come into here you will see. So we have a battery dot battery state",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 70,
+      "start": 325.4,
+      "end": 330.479,
+      "duration": 5.079,
+      "startTimestamp": "00:05:25.400",
+      "endTimestamp": "00:05:30.479",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0071",
+    "text": "dot charging. So the moment you press here you will get all the states that we have in",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 71,
+      "start": 330.759,
+      "end": 335.5,
+      "duration": 4.741,
+      "startTimestamp": "00:05:30.759",
+      "endTimestamp": "00:05:35.500",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0072",
+    "text": "same way we have full and plugged and unknown. We don't know what is the state for it in",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 72,
+      "start": 335.56,
+      "end": 341.12,
+      "duration": 5.56,
+      "startTimestamp": "00:05:35.560",
+      "endTimestamp": "00:05:41.120",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0073",
+    "text": "same way we can also create one utility.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 73,
+      "start": 341.15999999999997,
+      "end": 343.24,
+      "duration": 2.08,
+      "startTimestamp": "00:05:41.160",
+      "endTimestamp": "00:05:43.240",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0074",
+    "text": "Name as get battery color.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 74,
+      "start": 343.8,
+      "end": 346.539,
+      "duration": 2.739,
+      "startTimestamp": "00:05:43.800",
+      "endTimestamp": "00:05:46.539",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0075",
+    "text": "So that's crazy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 75,
+      "start": 347.22,
+      "end": 348.539,
+      "duration": 1.319,
+      "startTimestamp": "00:05:47.220",
+      "endTimestamp": "00:05:48.539",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0076",
+    "text": "These are just for UI purpose.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 76,
+      "start": 348.759,
+      "end": 350.18,
+      "duration": 1.421,
+      "startTimestamp": "00:05:48.759",
+      "endTimestamp": "00:05:50.180",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0077",
+    "text": "You need not to do.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 77,
+      "start": 350.33,
+      "end": 351.259,
+      "duration": 0.929,
+      "startTimestamp": "00:05:50.330",
+      "endTimestamp": "00:05:51.259",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0078",
+    "text": "This is just interesting.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 78,
+      "start": 351.56,
+      "end": 352.68,
+      "duration": 1.12,
+      "startTimestamp": "00:05:51.560",
+      "endTimestamp": "00:05:52.680",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0079",
+    "text": "We can say activities that we are doing.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 79,
+      "start": 353.81,
+      "end": 355.68,
+      "duration": 1.87,
+      "startTimestamp": "00:05:53.810",
+      "endTimestamp": "00:05:55.680",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0080",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 80,
+      "start": 355.96,
+      "end": 356.12,
+      "duration": 0.16,
+      "startTimestamp": "00:05:55.960",
+      "endTimestamp": "00:05:56.120",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0081",
+    "text": "In the same way, let me also create here get battery icons.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 81,
+      "start": 356.539,
+      "end": 360.639,
+      "duration": 4.1,
+      "startTimestamp": "00:05:56.539",
+      "endTimestamp": "00:06:00.639",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0082",
+    "text": "So no problems.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 82,
+      "start": 360.93,
+      "end": 361.62,
+      "duration": 0.69,
+      "startTimestamp": "00:06:00.930",
+      "endTimestamp": "00:06:01.620",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0083",
+    "text": "If battery state is charging, then show this icon.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 83,
+      "start": 361.849,
+      "end": 364.58,
+      "duration": 2.731,
+      "startTimestamp": "00:06:01.849",
+      "endTimestamp": "00:06:04.580",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0084",
+    "text": "If battery level is null, then show.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 84,
+      "start": 365.129,
+      "end": 367.36,
+      "duration": 2.231,
+      "startTimestamp": "00:06:05.129",
+      "endTimestamp": "00:06:07.360",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0085",
+    "text": "Otherwise, if 0.5 to return this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 85,
+      "start": 367.979,
+      "end": 370.72,
+      "duration": 2.741,
+      "startTimestamp": "00:06:07.979",
+      "endTimestamp": "00:06:10.720",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0086",
+    "text": "should return the low battery. These are just again a battery icons. Again for UI simulation",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 86,
+      "start": 371.7,
+      "end": 377.66,
+      "duration": 5.96,
+      "startTimestamp": "00:06:11.700",
+      "endTimestamp": "00:06:17.660",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0087",
+    "text": "purpose easy. Yes, battery levels will always in the points. So, 0 point between 0 and 0.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 87,
+      "start": 377.78,
+      "end": 389.36,
+      "duration": 11.58,
+      "startTimestamp": "00:06:17.780",
+      "endTimestamp": "00:06:29.360",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0088",
+    "text": "to 1 and then we will multiply that by 100.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 88,
+      "start": 389.361,
+      "end": 391,
+      "duration": 1.639,
+      "startTimestamp": "00:06:29.361",
+      "endTimestamp": "00:06:31.000",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0089",
+    "text": "Then we have 50%, 10%, 20% that is how we are calculating it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 89,
+      "start": 391.66,
+      "end": 396.68,
+      "duration": 5.02,
+      "startTimestamp": "00:06:31.660",
+      "endTimestamp": "00:06:36.680",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0090",
+    "text": "Cool?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 90,
+      "start": 396.98,
+      "end": 397.08,
+      "duration": 0.1,
+      "startTimestamp": "00:06:36.980",
+      "endTimestamp": "00:06:37.080",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0091",
+    "text": "Yes, that's the one very important point we need to know.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 91,
+      "start": 397.46,
+      "end": 401.2,
+      "duration": 3.74,
+      "startTimestamp": "00:06:37.460",
+      "endTimestamp": "00:06:41.200",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0092",
+    "text": "Nice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 92,
+      "start": 401.96,
+      "end": 402.26,
+      "duration": 0.3,
+      "startTimestamp": "00:06:41.960",
+      "endTimestamp": "00:06:42.260",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0093",
+    "text": "In same way, I also wanted to add one use effect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 93,
+      "start": 402.78,
+      "end": 406.4,
+      "duration": 3.62,
+      "startTimestamp": "00:06:42.780",
+      "endTimestamp": "00:06:46.400",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0094",
+    "text": "Again I'm not writing these off code because I don't think so that we need to write everything.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 94,
+      "start": 406.64,
+      "end": 411.8,
+      "duration": 5.16,
+      "startTimestamp": "00:06:46.640",
+      "endTimestamp": "00:06:51.800",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0095",
+    "text": "You can also copy and paste.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 95,
+      "start": 411.84000000000003,
+      "end": 413.2,
+      "duration": 1.36,
+      "startTimestamp": "00:06:51.840",
+      "endTimestamp": "00:06:53.200",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0096",
+    "text": "Again we are only understanding this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 96,
+      "start": 413.48,
+      "end": 415.06,
+      "duration": 1.58,
+      "startTimestamp": "00:06:53.480",
+      "endTimestamp": "00:06:55.060",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0097",
+    "text": "So that's why.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 97,
+      "start": 415.86,
+      "end": 416.52,
+      "duration": 0.66,
+      "startTimestamp": "00:06:55.860",
+      "endTimestamp": "00:06:56.520",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0098",
+    "text": "So, if I just simply paste it, so first thing let me import my use effect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 98,
+      "start": 416.8,
+      "end": 422.24,
+      "duration": 5.44,
+      "startTimestamp": "00:06:56.800",
+      "endTimestamp": "00:07:02.240",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0099",
+    "text": "So first thing this is going to get the initial battery info no problem, then we are subscribing",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 99,
+      "start": 422.68,
+      "end": 428.24,
+      "duration": 5.56,
+      "startTimestamp": "00:07:02.680",
+      "endTimestamp": "00:07:08.240",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0100",
+    "text": "to battery level like what is my battery level and we are setting the state for it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 100,
+      "start": 428.759,
+      "end": 433.3,
+      "duration": 4.541,
+      "startTimestamp": "00:07:08.759",
+      "endTimestamp": "00:07:13.300",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0101",
+    "text": "Same for we can say battery state is it charging or unplugged we are listening in real time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 101,
+      "start": 433.979,
+      "end": 439.4,
+      "duration": 5.421,
+      "startTimestamp": "00:07:13.979",
+      "endTimestamp": "00:07:19.400",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0102",
+    "text": "Then we have power subscription got it is we are in low power mode or not.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 102,
+      "start": 440.2,
+      "end": 445.36,
+      "duration": 5.16,
+      "startTimestamp": "00:07:20.200",
+      "endTimestamp": "00:07:25.360",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0103",
+    "text": "That's all we are basically doing.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 103,
+      "start": 446.58,
+      "end": 448.68,
+      "duration": 2.1,
+      "startTimestamp": "00:07:26.580",
+      "endTimestamp": "00:07:28.680",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0104",
+    "text": "Nice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 104,
+      "start": 449.46,
+      "end": 449.58,
+      "duration": 0.12,
+      "startTimestamp": "00:07:29.460",
+      "endTimestamp": "00:07:29.580",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0105",
+    "text": "So now let me try to render all of that onto the UI.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 105,
+      "start": 450.17,
+      "end": 453.9,
+      "duration": 3.73,
+      "startTimestamp": "00:07:30.170",
+      "endTimestamp": "00:07:33.900",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0106",
+    "text": "So well, first of all, let me copy the entire UI.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 106,
+      "start": 454.26,
+      "end": 457.64,
+      "duration": 3.38,
+      "startTimestamp": "00:07:34.260",
+      "endTimestamp": "00:07:37.640",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0107",
+    "text": "So just give me a minute and then I'll try to show you.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 107,
+      "start": 458.76,
+      "end": 461.46,
+      "duration": 2.7,
+      "startTimestamp": "00:07:38.760",
+      "endTimestamp": "00:07:41.460",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0108",
+    "text": "So these are just pretty straightforward and pretty interesting things by the way.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 108,
+      "start": 461.49,
+      "end": 466.32,
+      "duration": 4.83,
+      "startTimestamp": "00:07:41.490",
+      "endTimestamp": "00:07:46.320",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0109",
+    "text": "So let me just copy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 109,
+      "start": 467.22,
+      "end": 468.72,
+      "duration": 1.5,
+      "startTimestamp": "00:07:47.220",
+      "endTimestamp": "00:07:48.720",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0110",
+    "text": "And from here to here, let me paste it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 110,
+      "start": 469.4,
+      "end": 473.58,
+      "duration": 4.18,
+      "startTimestamp": "00:07:49.400",
+      "endTimestamp": "00:07:53.580",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0111",
+    "text": "So, only thing that I need to change is this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 111,
+      "start": 473.61,
+      "end": 479.84000000000003,
+      "duration": 6.23,
+      "startTimestamp": "00:07:53.610",
+      "endTimestamp": "00:07:59.840",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0112",
+    "text": "We have a battery example, but below this I need to say export default battery example,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 112,
+      "start": 480.72,
+      "end": 489.44,
+      "duration": 8.72,
+      "startTimestamp": "00:08:00.720",
+      "endTimestamp": "00:08:09.440",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0113",
+    "text": "nice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 113,
+      "start": 490.02,
+      "end": 490.36,
+      "duration": 0.34,
+      "startTimestamp": "00:08:10.020",
+      "endTimestamp": "00:08:10.360",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0114",
+    "text": "And now if I save it, look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 114,
+      "start": 490.699,
+      "end": 494.08,
+      "duration": 3.381,
+      "startTimestamp": "00:08:10.699",
+      "endTimestamp": "00:08:14.080",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0115",
+    "text": "Yes, this is the right percentage.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 115,
+      "start": 494.5,
+      "end": 497.28,
+      "duration": 2.78,
+      "startTimestamp": "00:08:14.500",
+      "endTimestamp": "00:08:17.280",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0116",
+    "text": "I can't unplug it because the moment I unplug it you are not be able to see anything.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 116,
+      "start": 497.94,
+      "end": 501.98,
+      "duration": 4.04,
+      "startTimestamp": "00:08:17.940",
+      "endTimestamp": "00:08:21.980",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0117",
+    "text": "So that's why and this is you can see that right now we are charging it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 117,
+      "start": 502.58,
+      "end": 507.22,
+      "duration": 4.64,
+      "startTimestamp": "00:08:22.580",
+      "endTimestamp": "00:08:27.220",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0118",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 118,
+      "start": 507.62,
+      "end": 507.7,
+      "duration": 0.08,
+      "startTimestamp": "00:08:27.620",
+      "endTimestamp": "00:08:27.700",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0119",
+    "text": "But what if I just coming to here and open my power saving mode.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 119,
+      "start": 508.6,
+      "end": 514.46,
+      "duration": 5.86,
+      "startTimestamp": "00:08:28.600",
+      "endTimestamp": "00:08:34.460",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0120",
+    "text": "So you will see that low power mode is enabled right now.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 120,
+      "start": 514.74,
+      "end": 517.88,
+      "duration": 3.14,
+      "startTimestamp": "00:08:34.740",
+      "endTimestamp": "00:08:37.880",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0121",
+    "text": "Got it?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 121,
+      "start": 518.1,
+      "end": 519.019,
+      "duration": 0.919,
+      "startTimestamp": "00:08:38.100",
+      "endTimestamp": "00:08:39.019",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0122",
+    "text": "In same way if we are in a low battery mode in another mode, so you can also simulate",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 122,
+      "start": 519.48,
+      "end": 524.819,
+      "duration": 5.339,
+      "startTimestamp": "00:08:39.480",
+      "endTimestamp": "00:08:44.819",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0123",
+    "text": "up on the basis of that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 123,
+      "start": 525.1,
+      "end": 527.079,
+      "duration": 1.979,
+      "startTimestamp": "00:08:45.100",
+      "endTimestamp": "00:08:47.079",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0124",
+    "text": "Got it?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 124,
+      "start": 527.759,
+      "end": 528.06,
+      "duration": 0.301,
+      "startTimestamp": "00:08:47.759",
+      "endTimestamp": "00:08:48.060",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0125",
+    "text": "So this is how you can basically see multiple states of your battery like you can check",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 125,
+      "start": 529.1,
+      "end": 536.579,
+      "duration": 7.479,
+      "startTimestamp": "00:08:49.100",
+      "endTimestamp": "00:08:56.579",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0126",
+    "text": "for state, you can check for your battery level, you can even check for is you are in",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 126,
+      "start": 536.66,
+      "end": 541.22,
+      "duration": 4.56,
+      "startTimestamp": "00:08:56.660",
+      "endTimestamp": "00:09:01.220",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0127",
+    "text": "power mode or not.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 127,
+      "start": 541.221,
+      "end": 542.5,
+      "duration": 1.279,
+      "startTimestamp": "00:09:01.221",
+      "endTimestamp": "00:09:02.500",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0128",
+    "text": "Then we have a bunch of battery state enums like charging full",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 128,
+      "start": 542.9,
+      "end": 547.66,
+      "duration": 4.76,
+      "startTimestamp": "00:09:02.900",
+      "endTimestamp": "00:09:07.660",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0129",
+    "text": "unplugged got it and yes, this is how you can basically",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 129,
+      "start": 548.68,
+      "end": 553.26,
+      "duration": 4.58,
+      "startTimestamp": "00:09:08.680",
+      "endTimestamp": "00:09:13.260",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0130",
+    "text": "Calculate that cool. So this is a simple battery simulator app",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 130,
+      "start": 554.22,
+      "end": 557.84,
+      "duration": 3.62,
+      "startTimestamp": "00:09:14.220",
+      "endTimestamp": "00:09:17.840",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0131",
+    "text": "And I hope you guys are loving it again if you wanted to go much in depth here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 131,
+      "start": 558.2,
+      "end": 563.56,
+      "duration": 5.36,
+      "startTimestamp": "00:09:18.200",
+      "endTimestamp": "00:09:23.560",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0132",
+    "text": "So, read more about it, but I think this is pretty much it for this entire module and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 132,
+      "start": 563.76,
+      "end": 570.84,
+      "duration": 7.08,
+      "startTimestamp": "00:09:23.760",
+      "endTimestamp": "00:09:30.840",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_0133",
+    "text": "see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "fileName": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "captionIndex": 133,
+      "start": 570.98,
+      "end": 572.48,
+      "duration": 1.5,
+      "startTimestamp": "00:09:30.980",
+      "endTimestamp": "00:09:32.480",
+      "estimatedTokens": 6
+    }
+  }
+]

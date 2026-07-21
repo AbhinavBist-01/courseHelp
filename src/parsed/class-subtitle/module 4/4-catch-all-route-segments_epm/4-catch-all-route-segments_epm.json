@@ -1,0 +1,2605 @@
+[
+  {
+    "id": "4-catch-all-route-segments_epm_0001",
+    "text": "Hey everyone and welcome to one more new lecture.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 1,
+      "start": 0.7,
+      "end": 4.3,
+      "duration": 3.6,
+      "startTimestamp": "00:00:00.700",
+      "endTimestamp": "00:00:04.300",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0002",
+    "text": "In this lecture, we will learn about catch all route segments in X4 router.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 2,
+      "start": 4.64,
+      "end": 9.74,
+      "duration": 5.1,
+      "startTimestamp": "00:00:04.640",
+      "endTimestamp": "00:00:09.740",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0003",
+    "text": "And this is a powerful way to we can say match any path under a directory.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 3,
+      "start": 10.72,
+      "end": 16.58,
+      "duration": 5.86,
+      "startTimestamp": "00:00:10.720",
+      "endTimestamp": "00:00:16.580",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0004",
+    "text": "So let's say you are making a blog application, you are making any documentation related application.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 4,
+      "start": 17.12,
+      "end": 23.06,
+      "duration": 5.94,
+      "startTimestamp": "00:00:17.120",
+      "endTimestamp": "00:00:23.060",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0005",
+    "text": "So for that, you need this cache all route segment.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 5,
+      "start": 23.4,
+      "end": 27.6,
+      "duration": 4.2,
+      "startTimestamp": "00:00:23.400",
+      "endTimestamp": "00:00:27.600",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0006",
+    "text": "So, the first question arises here, why do we need even the cache all route segment and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 6,
+      "start": 28,
+      "end": 34.16,
+      "duration": 6.16,
+      "startTimestamp": "00:00:28.000",
+      "endTimestamp": "00:00:34.160",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0007",
+    "text": "how they basically look.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 7,
+      "start": 34.2,
+      "end": 35.3,
+      "duration": 1.1,
+      "startTimestamp": "00:00:34.200",
+      "endTimestamp": "00:00:35.300",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0008",
+    "text": "So, the syntax of cache all route segment is something like this dot dot dot and we",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 8,
+      "start": 36.04,
+      "end": 42.22,
+      "duration": 6.18,
+      "startTimestamp": "00:00:36.040",
+      "endTimestamp": "00:00:42.220",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0009",
+    "text": "can say this as slug dot tsx.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 9,
+      "start": 42.221,
+      "end": 44.46,
+      "duration": 2.239,
+      "startTimestamp": "00:00:42.221",
+      "endTimestamp": "00:00:44.460",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0010",
+    "text": "inside the square bracket.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 10,
+      "start": 45.9,
+      "end": 48.44,
+      "duration": 2.54,
+      "startTimestamp": "00:00:45.900",
+      "endTimestamp": "00:00:48.440",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0011",
+    "text": "So this is the syntax we can say of cache all route a segment.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 11,
+      "start": 49.41,
+      "end": 53.08,
+      "duration": 3.67,
+      "startTimestamp": "00:00:49.410",
+      "endTimestamp": "00:00:53.080",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0012",
+    "text": "Alright let me fix it cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 12,
+      "start": 54.06,
+      "end": 55.72,
+      "duration": 1.66,
+      "startTimestamp": "00:00:54.060",
+      "endTimestamp": "00:00:55.720",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0013",
+    "text": "So this is the syntax of cache all route segment.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 13,
+      "start": 56.01,
+      "end": 59.44,
+      "duration": 3.43,
+      "startTimestamp": "00:00:56.010",
+      "endTimestamp": "00:00:59.440",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0014",
+    "text": "Now why do we even basically need it?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 14,
+      "start": 60.57,
+      "end": 63.2,
+      "duration": 2.63,
+      "startTimestamp": "00:01:00.570",
+      "endTimestamp": "00:01:03.200",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0015",
+    "text": "So, in file-based routing, you define dynamic routes, let's say you are following the file-based",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 15,
+      "start": 63.6,
+      "end": 70.18,
+      "duration": 6.58,
+      "startTimestamp": "00:01:03.600",
+      "endTimestamp": "00:01:10.180",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0016",
+    "text": "routing and if you wanted to define a dynamic routes with parameter, so how you can do so",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 16,
+      "start": 70.3,
+      "end": 77.58,
+      "duration": 7.28,
+      "startTimestamp": "00:01:10.300",
+      "endTimestamp": "00:01:17.580",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0017",
+    "text": "that?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 17,
+      "start": 77.66,
+      "end": 77.84,
+      "duration": 0.18,
+      "startTimestamp": "00:01:17.660",
+      "endTimestamp": "00:01:17.840",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0018",
+    "text": "So, it's going to be pretty easy, you can simply going to use this square notation and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 18,
+      "start": 78.1,
+      "end": 84.36,
+      "duration": 6.26,
+      "startTimestamp": "00:01:18.100",
+      "endTimestamp": "00:01:24.360",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0019",
+    "text": "then you can simply add here TSX and by that now this dot ID is going to behave as a dynamic",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 19,
+      "start": 84.42,
+      "end": 91.16,
+      "duration": 6.74,
+      "startTimestamp": "00:01:24.420",
+      "endTimestamp": "00:01:31.160",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0020",
+    "text": "route.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 20,
+      "start": 91.28,
+      "end": 91.44,
+      "duration": 0.16,
+      "startTimestamp": "00:01:31.280",
+      "endTimestamp": "00:01:31.440",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0021",
+    "text": "Like if I just show you here if I just simply go post ID page",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 21,
+      "start": 91.8,
+      "end": 95.62,
+      "duration": 3.82,
+      "startTimestamp": "00:01:31.800",
+      "endTimestamp": "00:01:35.620",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0022",
+    "text": "Now you can see the post ID is coming as well",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 22,
+      "start": 96.2,
+      "end": 98.46000000000001,
+      "duration": 2.26,
+      "startTimestamp": "00:01:36.200",
+      "endTimestamp": "00:01:38.460",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0023",
+    "text": "But the moment I change data to 2, 3, 4, 5 or whatever is that",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 23,
+      "start": 99.03999999999999,
+      "end": 103.32,
+      "duration": 4.28,
+      "startTimestamp": "00:01:39.040",
+      "endTimestamp": "00:01:43.320",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0024",
+    "text": "Then on the basis of that we are going to show",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 24,
+      "start": 103.75999999999999,
+      "end": 106.25999999999999,
+      "duration": 2.5,
+      "startTimestamp": "00:01:43.760",
+      "endTimestamp": "00:01:46.260",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0025",
+    "text": "That different data makes sense",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 25,
+      "start": 106.68,
+      "end": 108.44,
+      "duration": 1.76,
+      "startTimestamp": "00:01:46.680",
+      "endTimestamp": "00:01:48.440",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0026",
+    "text": "That work when you know exactly, but why then, but we have the limitation for this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 26,
+      "start": 109.3,
+      "end": 115.34,
+      "duration": 6.04,
+      "startTimestamp": "00:01:49.300",
+      "endTimestamp": "00:01:55.340",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0027",
+    "text": "What is that limitation?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 27,
+      "start": 115.97999999999999,
+      "end": 117.28,
+      "duration": 1.3,
+      "startTimestamp": "00:01:55.980",
+      "endTimestamp": "00:01:57.280",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0028",
+    "text": "Limitation is this will only work.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 28,
+      "start": 117.86,
+      "end": 120.28,
+      "duration": 2.42,
+      "startTimestamp": "00:01:57.860",
+      "endTimestamp": "00:02:00.280",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0029",
+    "text": "Works we can say works when you know, when we know that exactly how many segments.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 29,
+      "start": 122.6,
+      "end": 131.62,
+      "duration": 9.02,
+      "startTimestamp": "00:02:02.600",
+      "endTimestamp": "00:02:11.620",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0030",
+    "text": "You expect in a path.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 30,
+      "start": 133.4,
+      "end": 135.34,
+      "duration": 1.94,
+      "startTimestamp": "00:02:13.400",
+      "endTimestamp": "00:02:15.340",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0031",
+    "text": "All right, this is very important point.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 31,
+      "start": 136.03,
+      "end": 137.68,
+      "duration": 1.65,
+      "startTimestamp": "00:02:16.030",
+      "endTimestamp": "00:02:17.680",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0032",
+    "text": "You expect in a path because into this we expect that we only have one route segment.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 32,
+      "start": 138.09,
+      "end": 144.7,
+      "duration": 6.61,
+      "startTimestamp": "00:02:18.090",
+      "endTimestamp": "00:02:24.700",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0033",
+    "text": "One is post slash another one is our dynamic data.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 33,
+      "start": 145.36,
+      "end": 148.74,
+      "duration": 3.38,
+      "startTimestamp": "00:02:25.360",
+      "endTimestamp": "00:02:28.740",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0034",
+    "text": "It can be ID like this is the post ID.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 34,
+      "start": 149.17000000000002,
+      "end": 151.88,
+      "duration": 2.71,
+      "startTimestamp": "00:02:29.170",
+      "endTimestamp": "00:02:31.880",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0035",
+    "text": "So we know that we only have one dynamic route segment.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 35,
+      "start": 151.91,
+      "end": 155.5,
+      "duration": 3.59,
+      "startTimestamp": "00:02:31.910",
+      "endTimestamp": "00:02:35.500",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0036",
+    "text": "But what if your route structure can have multiple level or we can say unknown segments,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 36,
+      "start": 156.9,
+      "end": 163.3,
+      "duration": 6.4,
+      "startTimestamp": "00:02:36.900",
+      "endTimestamp": "00:02:43.300",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0037",
+    "text": "you don't know what is going to be here in upcoming lecture.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 37,
+      "start": 163.78,
+      "end": 166.84,
+      "duration": 3.06,
+      "startTimestamp": "00:02:43.780",
+      "endTimestamp": "00:02:46.840",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0038",
+    "text": "I mean, sorry, not in upcoming lecture, you don't know what's going to be, let's say",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 38,
+      "start": 167,
+      "end": 172.22,
+      "duration": 5.22,
+      "startTimestamp": "00:02:47.000",
+      "endTimestamp": "00:02:52.220",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0039",
+    "text": "post slash post ID slash username, and we can say feed, we can say anything like, like",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 39,
+      "start": 172.26,
+      "end": 178.07999999999998,
+      "duration": 5.82,
+      "startTimestamp": "00:02:52.260",
+      "endTimestamp": "00:02:58.080",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0040",
+    "text": "let me take the example of this documentation, try to just focus over it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 40,
+      "start": 178.32,
+      "end": 182.4,
+      "duration": 4.08,
+      "startTimestamp": "00:02:58.320",
+      "endTimestamp": "00:03:02.400",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0041",
+    "text": "You will see that right now they are showing us router basics notation.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 41,
+      "start": 182.8,
+      "end": 187.52,
+      "duration": 4.72,
+      "startTimestamp": "00:03:02.800",
+      "endTimestamp": "00:03:07.520",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0042",
+    "text": "Alright, but what if I change this to layout?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 42,
+      "start": 188.51,
+      "end": 190.96,
+      "duration": 2.45,
+      "startTimestamp": "00:03:08.510",
+      "endTimestamp": "00:03:10.960",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0043",
+    "text": "Now you will see we are on router basics and layout, but we are still into the guides.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 43,
+      "start": 191.74,
+      "end": 197.88,
+      "duration": 6.14,
+      "startTimestamp": "00:03:11.740",
+      "endTimestamp": "00:03:17.880",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0044",
+    "text": "Just see here, we are still into the guides route segment.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 44,
+      "start": 198.5,
+      "end": 202.84,
+      "duration": 4.34,
+      "startTimestamp": "00:03:18.500",
+      "endTimestamp": "00:03:22.840",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0045",
+    "text": "Inside this guides route segment, we still have multiple nested route segments.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 45,
+      "start": 203.4,
+      "end": 210.98,
+      "duration": 7.58,
+      "startTimestamp": "00:03:23.400",
+      "endTimestamp": "00:03:30.980",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0046",
+    "text": "So in that case, we need this cache all route segment because let's say,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 46,
+      "start": 211.11,
+      "end": 217.16,
+      "duration": 6.05,
+      "startTimestamp": "00:03:31.110",
+      "endTimestamp": "00:03:37.160",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0047",
+    "text": "This is your route segments you wanted to create.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 47,
+      "start": 218.94,
+      "end": 222.239,
+      "duration": 3.299,
+      "startTimestamp": "00:03:38.940",
+      "endTimestamp": "00:03:42.239",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0048",
+    "text": "You wanted to create admin, we can say admin slash users slash role.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 48,
+      "start": 222.4,
+      "end": 228.18,
+      "duration": 5.78,
+      "startTimestamp": "00:03:42.400",
+      "endTimestamp": "00:03:48.180",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0049",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 49,
+      "start": 229.14,
+      "end": 229.22,
+      "duration": 0.08,
+      "startTimestamp": "00:03:49.140",
+      "endTimestamp": "00:03:49.220",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0050",
+    "text": "In same way, you also wanted to create admin slash reports slash logs slash date.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 50,
+      "start": 229.56,
+      "end": 235.5,
+      "duration": 5.94,
+      "startTimestamp": "00:03:49.560",
+      "endTimestamp": "00:03:55.500",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0051",
+    "text": "So if you are going to create all of them separately, then you are going to see a lot",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 51,
+      "start": 236.31900000000002,
+      "end": 242.68,
+      "duration": 6.361,
+      "startTimestamp": "00:03:56.319",
+      "endTimestamp": "00:04:02.680",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0052",
+    "text": "of lot of files into your, we can say, folder structure.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 52,
+      "start": 242.88,
+      "end": 246.519,
+      "duration": 3.639,
+      "startTimestamp": "00:04:02.880",
+      "endTimestamp": "00:04:06.519",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0053",
+    "text": "So, this is where cache all route segment help.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 53,
+      "start": 247.1,
+      "end": 250.64,
+      "duration": 3.54,
+      "startTimestamp": "00:04:07.100",
+      "endTimestamp": "00:04:10.640",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0054",
+    "text": "They let a single route file match all unmatched segment at that level.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 54,
+      "start": 251.64,
+      "end": 257.44,
+      "duration": 5.8,
+      "startTimestamp": "00:04:11.640",
+      "endTimestamp": "00:04:17.440",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0055",
+    "text": "So, what I am basically talking about.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 55,
+      "start": 257.441,
+      "end": 259.64,
+      "duration": 2.199,
+      "startTimestamp": "00:04:17.441",
+      "endTimestamp": "00:04:19.640",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0056",
+    "text": "So, let's see how you can basically create it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 56,
+      "start": 260.38,
+      "end": 262.26,
+      "duration": 1.88,
+      "startTimestamp": "00:04:20.380",
+      "endTimestamp": "00:04:22.260",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0057",
+    "text": "So, let me take the example of.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 57,
+      "start": 262.3,
+      "end": 263.9,
+      "duration": 1.6,
+      "startTimestamp": "00:04:22.300",
+      "endTimestamp": "00:04:23.900",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0058",
+    "text": "Let me try to paste it here. Perfect. So this is the example. Now you will see we are inside",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 58,
+      "start": 264.6,
+      "end": 271.04,
+      "duration": 6.44,
+      "startTimestamp": "00:04:24.600",
+      "endTimestamp": "00:04:31.040",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0059",
+    "text": "our app directory inside admin and then we have created here cash or route segment. So",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 59,
+      "start": 271.22,
+      "end": 278,
+      "duration": 6.78,
+      "startTimestamp": "00:04:31.220",
+      "endTimestamp": "00:04:38.000",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0060",
+    "text": "the moment by using this syntax, I can create admin slash roles. I can create admin slash",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 60,
+      "start": 278.06,
+      "end": 285.74,
+      "duration": 7.68,
+      "startTimestamp": "00:04:38.060",
+      "endTimestamp": "00:04:45.740",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0061",
+    "text": "reports slash logs slash date. I can even redirect myself towards admin slash settings",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 61,
+      "start": 285.9,
+      "end": 292.56,
+      "duration": 6.66,
+      "startTimestamp": "00:04:45.900",
+      "endTimestamp": "00:04:52.560",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0062",
+    "text": "So, this is the power of a cache or route segment.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 62,
+      "start": 293.8,
+      "end": 297.28,
+      "duration": 3.48,
+      "startTimestamp": "00:04:53.800",
+      "endTimestamp": "00:04:57.280",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0063",
+    "text": "So, let's see and how we can basically create it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 63,
+      "start": 297.72,
+      "end": 300.56,
+      "duration": 2.84,
+      "startTimestamp": "00:04:57.720",
+      "endTimestamp": "00:05:00.560",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0064",
+    "text": "So, it's very easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 64,
+      "start": 300.72,
+      "end": 301.52,
+      "duration": 0.8,
+      "startTimestamp": "00:05:00.720",
+      "endTimestamp": "00:05:01.520",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0065",
+    "text": "Let's say let me close everything.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 65,
+      "start": 302.4,
+      "end": 303.56,
+      "duration": 1.16,
+      "startTimestamp": "00:05:02.400",
+      "endTimestamp": "00:05:03.560",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0066",
+    "text": "Inside this app, I am going to create a simple admin.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 66,
+      "start": 304.46,
+      "end": 306.9,
+      "duration": 2.44,
+      "startTimestamp": "00:05:04.460",
+      "endTimestamp": "00:05:06.900",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0067",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 67,
+      "start": 307.9,
+      "end": 308.06,
+      "duration": 0.16,
+      "startTimestamp": "00:05:07.900",
+      "endTimestamp": "00:05:08.060",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0068",
+    "text": "And inside this admin, if I wanted to have a multiple admin, I would have to create a",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 68,
+      "start": 308.86,
+      "end": 323.78,
+      "duration": 14.92,
+      "startTimestamp": "00:05:08.860",
+      "endTimestamp": "00:05:23.780",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0069",
+    "text": "route segment, but I don't know the name of the route segment is going to be in future",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 69,
+      "start": 323.781,
+      "end": 323.801,
+      "duration": 0.02,
+      "startTimestamp": "00:05:23.781",
+      "endTimestamp": "00:05:23.801",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0070",
+    "text": "like I don't know it's going to be user or it's going to be reports is going to be settings",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 70,
+      "start": 323.802,
+      "end": 323.822,
+      "duration": 0.02,
+      "startTimestamp": "00:05:23.802",
+      "endTimestamp": "00:05:23.822",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0071",
+    "text": "I know nothing.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 71,
+      "start": 323.823,
+      "end": 324.039,
+      "duration": 0.216,
+      "startTimestamp": "00:05:23.823",
+      "endTimestamp": "00:05:24.039",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0072",
+    "text": "So in that case and you wanted to be more smart and more cleaner.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 72,
+      "start": 324.75,
+      "end": 329.199,
+      "duration": 4.449,
+      "startTimestamp": "00:05:24.750",
+      "endTimestamp": "00:05:29.199",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0073",
+    "text": "Then you are going to do simply create a new file and we can say make name this file something",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 73,
+      "start": 329.6,
+      "end": 336.5,
+      "duration": 6.9,
+      "startTimestamp": "00:05:29.600",
+      "endTimestamp": "00:05:36.500",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0074",
+    "text": "like this dot dot dot and give a unique value here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 74,
+      "start": 336.62,
+      "end": 339.88,
+      "duration": 3.26,
+      "startTimestamp": "00:05:36.620",
+      "endTimestamp": "00:05:39.880",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0075",
+    "text": "So let me just call it as segments, you can call it slug, you can call it ID, you can",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 75,
+      "start": 339.90999999999997,
+      "end": 343.92,
+      "duration": 4.01,
+      "startTimestamp": "00:05:39.910",
+      "endTimestamp": "00:05:43.920",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0076",
+    "text": "call it route, whatever you want, segments and then dot tsx.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 76,
+      "start": 343.96,
+      "end": 348.9,
+      "duration": 4.94,
+      "startTimestamp": "00:05:43.960",
+      "endTimestamp": "00:05:48.900",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0077",
+    "text": "Easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 77,
+      "start": 349.36,
+      "end": 349.42,
+      "duration": 0.06,
+      "startTimestamp": "00:05:49.360",
+      "endTimestamp": "00:05:49.420",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0078",
+    "text": "Now, then simple R and FES perfect, let me call this as admin cache all no problem.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 78,
+      "start": 350.32,
+      "end": 358.76,
+      "duration": 8.44,
+      "startTimestamp": "00:05:50.320",
+      "endTimestamp": "00:05:58.760",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0079",
+    "text": "And first of all, let me off my AI perfect, then very easy, then I'm basically going",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 79,
+      "start": 361.3,
+      "end": 367.02,
+      "duration": 5.72,
+      "startTimestamp": "00:06:01.300",
+      "endTimestamp": "00:06:07.020",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0080",
+    "text": "to use the same hook.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 80,
+      "start": 367.14,
+      "end": 369.32,
+      "duration": 2.18,
+      "startTimestamp": "00:06:07.140",
+      "endTimestamp": "00:06:09.320",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0081",
+    "text": "So, now this is going to be as use local search params, but now what is going to be the name",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 81,
+      "start": 369.9,
+      "end": 378.96,
+      "duration": 9.06,
+      "startTimestamp": "00:06:09.900",
+      "endTimestamp": "00:06:18.960",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0082",
+    "text": "of this?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 82,
+      "start": 379.06,
+      "end": 379.4,
+      "duration": 0.34,
+      "startTimestamp": "00:06:19.060",
+      "endTimestamp": "00:06:19.400",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0083",
+    "text": "So, what is the name here segments, I am going to de-structure my segments here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 83,
+      "start": 379.68,
+      "end": 385.88,
+      "duration": 6.2,
+      "startTimestamp": "00:06:19.680",
+      "endTimestamp": "00:06:25.880",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0084",
+    "text": "Now, you can add the type of it as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 84,
+      "start": 386.21,
+      "end": 388.72,
+      "duration": 2.51,
+      "startTimestamp": "00:06:26.210",
+      "endTimestamp": "00:06:28.720",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0085",
+    "text": "So, let us say let me going to add the type of it as an object, because this is an object",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 85,
+      "start": 389.32,
+      "end": 395.58,
+      "duration": 6.26,
+      "startTimestamp": "00:06:29.320",
+      "endTimestamp": "00:06:35.580",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0086",
+    "text": "and then objects.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 86,
+      "start": 395.581,
+      "end": 396.84000000000003,
+      "duration": 1.259,
+      "startTimestamp": "00:06:35.581",
+      "endTimestamp": "00:06:36.840",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0087",
+    "text": "segments, this is going to be the type of string of array, easy nothing but just a basic,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 87,
+      "start": 397.3,
+      "end": 402.58,
+      "duration": 5.28,
+      "startTimestamp": "00:06:37.300",
+      "endTimestamp": "00:06:42.580",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0088",
+    "text": "we can say type script.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 88,
+      "start": 403.3,
+      "end": 405.039,
+      "duration": 1.739,
+      "startTimestamp": "00:06:43.300",
+      "endTimestamp": "00:06:45.039",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0089",
+    "text": "Now what you can do now, you can just simply coming to here, let me just try to design",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 89,
+      "start": 405.819,
+      "end": 412.259,
+      "duration": 6.44,
+      "startTimestamp": "00:06:45.819",
+      "endTimestamp": "00:06:52.259",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0090",
+    "text": "it little bit, it's completely optional but let me try to design.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 90,
+      "start": 412.36,
+      "end": 415.74,
+      "duration": 3.38,
+      "startTimestamp": "00:06:52.360",
+      "endTimestamp": "00:06:55.740",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0091",
+    "text": "Now I have a basic container, some title and path text easy and then let me just try to",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 91,
+      "start": 416.28,
+      "end": 423.4,
+      "duration": 7.12,
+      "startTimestamp": "00:06:56.280",
+      "endTimestamp": "00:07:03.400",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0092",
+    "text": "add it here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 92,
+      "start": 423.72,
+      "end": 424.379,
+      "duration": 0.659,
+      "startTimestamp": "00:07:03.720",
+      "endTimestamp": "00:07:04.379",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0093",
+    "text": "Now you will see that we have a new variable with which is path display because I wanted",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 93,
+      "start": 425.16,
+      "end": 430.62,
+      "duration": 5.46,
+      "startTimestamp": "00:07:05.160",
+      "endTimestamp": "00:07:10.620",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0094",
+    "text": "to show my path as an UI.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 94,
+      "start": 430.74,
+      "end": 432.74,
+      "duration": 2,
+      "startTimestamp": "00:07:10.740",
+      "endTimestamp": "00:07:12.740",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0095",
+    "text": "So that's why I'm basically going to say this as path display is going to simple segments",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 95,
+      "start": 433.33,
+      "end": 439.74,
+      "duration": 6.41,
+      "startTimestamp": "00:07:13.330",
+      "endTimestamp": "00:07:19.740",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0096",
+    "text": "and we are going to use here the join method and I'm going to join all my segments by forward",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 96,
+      "start": 441.12,
+      "end": 448.46,
+      "duration": 7.34,
+      "startTimestamp": "00:07:21.120",
+      "endTimestamp": "00:07:28.460",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0097",
+    "text": "slash easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 97,
+      "start": 448.72,
+      "end": 449.58,
+      "duration": 0.86,
+      "startTimestamp": "00:07:28.720",
+      "endTimestamp": "00:07:29.580",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0098",
+    "text": "Now let's try to use it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 98,
+      "start": 450.29,
+      "end": 452.32,
+      "duration": 2.03,
+      "startTimestamp": "00:07:30.290",
+      "endTimestamp": "00:07:32.320",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0099",
+    "text": "So let me go to my index file.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 99,
+      "start": 452.52,
+      "end": 453.78,
+      "duration": 1.26,
+      "startTimestamp": "00:07:32.520",
+      "endTimestamp": "00:07:33.780",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0100",
+    "text": "not feed index file and inside this index file let me copy the same and let me try to paste",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 100,
+      "start": 454.2,
+      "end": 461.5,
+      "duration": 7.3,
+      "startTimestamp": "00:07:34.200",
+      "endTimestamp": "00:07:41.500",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0101",
+    "text": "and this is going to be as admin easy and then this admin is we can say",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 101,
+      "start": 462.78,
+      "end": 484.18,
+      "duration": 21.4,
+      "startTimestamp": "00:07:42.780",
+      "endTimestamp": "00:08:04.180",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0102",
+    "text": "What we can say we can let's say I wanted to go inside users inside logs easy and let",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 102,
+      "start": 484.181,
+      "end": 484.201,
+      "duration": 0.02,
+      "startTimestamp": "00:08:04.181",
+      "endTimestamp": "00:08:04.201",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0103",
+    "text": "me just simply say go to admin and go to logs and now if I save it and now if I press here",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 103,
+      "start": 484.202,
+      "end": 484.222,
+      "duration": 0.02,
+      "startTimestamp": "00:08:04.202",
+      "endTimestamp": "00:08:04.222",
+      "estimatedTokens": 30
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0104",
+    "text": "look at that now I am inside my user logs in same way for the same route segment I can",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 104,
+      "start": 484.223,
+      "end": 489.94,
+      "duration": 5.717,
+      "startTimestamp": "00:08:04.223",
+      "endTimestamp": "00:08:09.940",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0105",
+    "text": "create another one as well let's say I am going to call this as reports and for the report",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 105,
+      "start": 490.02,
+      "end": 495.48,
+      "duration": 5.46,
+      "startTimestamp": "00:08:10.020",
+      "endTimestamp": "00:08:15.480",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0106",
+    "text": "Let me just simply say this on the basis of monthly.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 106,
+      "start": 495.481,
+      "end": 498.16,
+      "duration": 2.679,
+      "startTimestamp": "00:08:15.481",
+      "endTimestamp": "00:08:18.160",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0107",
+    "text": "easy go and monthly reports easy and now if I save it and if I go back and now if I click",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 107,
+      "start": 498.6,
+      "end": 509.04,
+      "duration": 10.44,
+      "startTimestamp": "00:08:18.600",
+      "endTimestamp": "00:08:29.040",
+      "estimatedTokens": 29
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0108",
+    "text": "on go monthly reports you will see I am on to the same segment but I am rendering here",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 108,
+      "start": 509.14,
+      "end": 514.799,
+      "duration": 5.659,
+      "startTimestamp": "00:08:29.140",
+      "endTimestamp": "00:08:34.799",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0109",
+    "text": "different data so on the basis of different data you can definitely decide what you wanted",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 109,
+      "start": 514.84,
+      "end": 520.08,
+      "duration": 5.24,
+      "startTimestamp": "00:08:34.840",
+      "endTimestamp": "00:08:40.080",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0110",
+    "text": "to render so this is the beauty of this cache all route segment so what is happening here",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 110,
+      "start": 520.24,
+      "end": 526.56,
+      "duration": 6.32,
+      "startTimestamp": "00:08:40.240",
+      "endTimestamp": "00:08:46.560",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0111",
+    "text": "This route tellExpoRouter cacheAllPath that are start with /edmint and then hook is basically",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 111,
+      "start": 526.9,
+      "end": 536.6,
+      "duration": 9.7,
+      "startTimestamp": "00:08:46.900",
+      "endTimestamp": "00:08:56.600",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0112",
+    "text": "like the hook we are basically using here is local search params return an array yes",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 112,
+      "start": 536.68,
+      "end": 542.64,
+      "duration": 5.96,
+      "startTimestamp": "00:08:56.680",
+      "endTimestamp": "00:09:02.640",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0113",
+    "text": "this is your array.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 113,
+      "start": 542.78,
+      "end": 543.72,
+      "duration": 0.94,
+      "startTimestamp": "00:09:02.780",
+      "endTimestamp": "00:09:03.720",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0114",
+    "text": "name as segments, you can call it whatever you want, but let's go with segment that contain",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 114,
+      "start": 544.2,
+      "end": 549.9,
+      "duration": 5.7,
+      "startTimestamp": "00:09:04.200",
+      "endTimestamp": "00:09:09.900",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0115",
+    "text": "each part after like this is this segment is going to contain each part after admin like",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 115,
+      "start": 550.56,
+      "end": 557.3,
+      "duration": 6.74,
+      "startTimestamp": "00:09:10.560",
+      "endTimestamp": "00:09:17.300",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0116",
+    "text": "we have users slash roles, we can have reports slash logs slash date, we can have settings",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 116,
+      "start": 557.38,
+      "end": 563.2,
+      "duration": 5.82,
+      "startTimestamp": "00:09:17.380",
+      "endTimestamp": "00:09:23.200",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0117",
+    "text": "slash security, you can like this segment variable, this segment property contain each",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 117,
+      "start": 563.42,
+      "end": 571.28,
+      "duration": 7.86,
+      "startTimestamp": "00:09:23.420",
+      "endTimestamp": "00:09:31.280",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0118",
+    "text": "part after admin.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 118,
+      "start": 571.281,
+      "end": 572.4,
+      "duration": 1.119,
+      "startTimestamp": "00:09:31.281",
+      "endTimestamp": "00:09:32.400",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0119",
+    "text": "So, I hope so that makes sense.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 119,
+      "start": 572.7,
+      "end": 574.9,
+      "duration": 2.2,
+      "startTimestamp": "00:09:32.700",
+      "endTimestamp": "00:09:34.900",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0120",
+    "text": "Like now the biggest question arise here when you would use a cache or route segment.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 120,
+      "start": 576.26,
+      "end": 581.96,
+      "duration": 5.7,
+      "startTimestamp": "00:09:36.260",
+      "endTimestamp": "00:09:41.960",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0121",
+    "text": "So, whenever you wanted to create a documentation but in mobile phones you definitely going",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 121,
+      "start": 582.98,
+      "end": 587.64,
+      "duration": 4.66,
+      "startTimestamp": "00:09:42.980",
+      "endTimestamp": "00:09:47.640",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0122",
+    "text": "to avoid creating documentation but let's just say.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 122,
+      "start": 587.76,
+      "end": 590.68,
+      "duration": 2.92,
+      "startTimestamp": "00:09:47.760",
+      "endTimestamp": "00:09:50.680",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0123",
+    "text": "You wanted to create a documentation of your cool and let's say you wanted to create something",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 123,
+      "start": 591.3,
+      "end": 599.3389999999999,
+      "duration": 8.039,
+      "startTimestamp": "00:09:51.300",
+      "endTimestamp": "00:09:59.339",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0124",
+    "text": "on as admin panel because admin panel can have multiple routes, multiple nested routes,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 124,
+      "start": 599.4590000000001,
+      "end": 605.16,
+      "duration": 5.701,
+      "startTimestamp": "00:09:59.459",
+      "endTimestamp": "00:10:05.160",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0125",
+    "text": "multiple unknown routes.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 125,
+      "start": 605.459,
+      "end": 606.459,
+      "duration": 1,
+      "startTimestamp": "00:10:05.459",
+      "endTimestamp": "00:10:06.459",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0126",
+    "text": "You can say paginated generated from a CMS, pages which is generated from CMS.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 126,
+      "start": 607.94,
+      "end": 613.82,
+      "duration": 5.88,
+      "startTimestamp": "00:10:07.940",
+      "endTimestamp": "00:10:13.820",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0127",
+    "text": "Anywhere you want one component and we can say anywhere you want one component to handle",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 127,
+      "start": 614.68,
+      "end": 620.6,
+      "duration": 5.92,
+      "startTimestamp": "00:10:14.680",
+      "endTimestamp": "00:10:20.600",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0128",
+    "text": "varied nested URLs without manually writing each route file.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 128,
+      "start": 621.08,
+      "end": 625.28,
+      "duration": 4.2,
+      "startTimestamp": "00:10:21.080",
+      "endTimestamp": "00:10:25.280",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0129",
+    "text": "So, we can see that cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 129,
+      "start": 625.3,
+      "end": 627.26,
+      "duration": 1.96,
+      "startTimestamp": "00:10:25.300",
+      "endTimestamp": "00:10:27.260",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0130",
+    "text": "So yeah, this is pretty much it and I can say this approach is much clean and scalable",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 130,
+      "start": 628.12,
+      "end": 634.24,
+      "duration": 6.12,
+      "startTimestamp": "00:10:28.120",
+      "endTimestamp": "00:10:34.240",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0131",
+    "text": "and this is perfect for deep routing because you can see that this is very deep and you",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 131,
+      "start": 634.92,
+      "end": 639.88,
+      "duration": 4.96,
+      "startTimestamp": "00:10:34.920",
+      "endTimestamp": "00:10:39.880",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0132",
+    "text": "can add as much as a route segments you want.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 132,
+      "start": 639.881,
+      "end": 643.399,
+      "duration": 3.518,
+      "startTimestamp": "00:10:39.881",
+      "endTimestamp": "00:10:43.399",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0133",
+    "text": "So this is definitely perfect for deep routing and we can say without any boilerplate of",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 133,
+      "start": 643.86,
+      "end": 649.56,
+      "duration": 5.7,
+      "startTimestamp": "00:10:43.860",
+      "endTimestamp": "00:10:49.560",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0134",
+    "text": "code.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 134,
+      "start": 649.64,
+      "end": 649.82,
+      "duration": 0.18,
+      "startTimestamp": "00:10:49.640",
+      "endTimestamp": "00:10:49.820",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0135",
+    "text": "So yeah.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 135,
+      "start": 650.04,
+      "end": 650.4590000000001,
+      "duration": 0.419,
+      "startTimestamp": "00:10:50.040",
+      "endTimestamp": "00:10:50.459",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0136",
+    "text": "This is pretty much it for this chapter.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 136,
+      "start": 650.9,
+      "end": 653.24,
+      "duration": 2.34,
+      "startTimestamp": "00:10:50.900",
+      "endTimestamp": "00:10:53.240",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_0137",
+    "text": "I hope you loved it and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "fileName": "4-catch-all-route-segments_epm.vtt",
+      "captionIndex": 137,
+      "start": 653.42,
+      "end": 656.46,
+      "duration": 3.04,
+      "startTimestamp": "00:10:53.420",
+      "endTimestamp": "00:10:56.460",
+      "estimatedTokens": 13
+    }
+  }
+]

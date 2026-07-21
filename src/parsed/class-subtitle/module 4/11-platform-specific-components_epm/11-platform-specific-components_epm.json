@@ -1,0 +1,1256 @@
+[
+  {
+    "id": "11-platform-specific-components_epm_0001",
+    "text": "Hey everyone and welcome to one more new lecture.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 1,
+      "start": 0,
+      "end": 3.46,
+      "duration": 3.46,
+      "startTimestamp": "00:00:00.000",
+      "endTimestamp": "00:00:03.460",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0002",
+    "text": "In this lecture, we will learn how to write platform specific code in an export outer app.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 2,
+      "start": 3.65,
+      "end": 8.8,
+      "duration": 5.15,
+      "startTimestamp": "00:00:03.650",
+      "endTimestamp": "00:00:08.800",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0003",
+    "text": "Since export outer let you build universal app, we know like we can build Android, we",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 3,
+      "start": 9.48,
+      "end": 14.78,
+      "duration": 5.3,
+      "startTimestamp": "00:00:09.480",
+      "endTimestamp": "00:00:14.780",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0004",
+    "text": "can build iOS, we can build web apps as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 4,
+      "start": 14.88,
+      "end": 17.64,
+      "duration": 2.76,
+      "startTimestamp": "00:00:14.880",
+      "endTimestamp": "00:00:17.640",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0005",
+    "text": "with one code, but sometime you will need to render different UI or functionality depending",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 5,
+      "start": 18,
+      "end": 26.04,
+      "duration": 8.04,
+      "startTimestamp": "00:00:18.000",
+      "endTimestamp": "00:00:26.040",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0006",
+    "text": "on the platform.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 6,
+      "start": 26.3,
+      "end": 27.18,
+      "duration": 0.88,
+      "startTimestamp": "00:00:26.300",
+      "endTimestamp": "00:00:27.180",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0007",
+    "text": "So in this chapter, we will explore how to do that in a right way.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 7,
+      "start": 27.89,
+      "end": 31.46,
+      "duration": 3.57,
+      "startTimestamp": "00:00:27.890",
+      "endTimestamp": "00:00:31.460",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0008",
+    "text": "So for implementing that, let me take the example of dashboard.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 8,
+      "start": 32.17,
+      "end": 36.08,
+      "duration": 3.91,
+      "startTimestamp": "00:00:32.170",
+      "endTimestamp": "00:00:36.080",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0009",
+    "text": "All right.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 9,
+      "start": 36.43,
+      "end": 36.7,
+      "duration": 0.27,
+      "startTimestamp": "00:00:36.430",
+      "endTimestamp": "00:00:36.700",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0010",
+    "text": "So, if I am using Android, I wanted to show here Android dashboard and if I am using iOS,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 10,
+      "start": 37.4,
+      "end": 43.68,
+      "duration": 6.28,
+      "startTimestamp": "00:00:37.400",
+      "endTimestamp": "00:00:43.680",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0011",
+    "text": "I wanted to show here iOS dashboard and in same way if I open this into my web, then",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 11,
+      "start": 43.92,
+      "end": 50.14,
+      "duration": 6.22,
+      "startTimestamp": "00:00:43.920",
+      "endTimestamp": "00:00:50.140",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0012",
+    "text": "I wanted to show web dashboard, easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 12,
+      "start": 50.2,
+      "end": 52.4,
+      "duration": 2.2,
+      "startTimestamp": "00:00:50.200",
+      "endTimestamp": "00:00:52.400",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0013",
+    "text": "But let's see how you can achieve that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 13,
+      "start": 53.2,
+      "end": 55.08,
+      "duration": 1.88,
+      "startTimestamp": "00:00:53.200",
+      "endTimestamp": "00:00:55.080",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0014",
+    "text": "So, for that the best practice is to always create a component folder.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 14,
+      "start": 55.4,
+      "end": 60.04,
+      "duration": 4.64,
+      "startTimestamp": "00:00:55.400",
+      "endTimestamp": "00:01:00.040",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0015",
+    "text": "And, inside this component folder basically what you need to do, you simply need to let",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 15,
+      "start": 61,
+      "end": 67.88,
+      "duration": 6.88,
+      "startTimestamp": "00:01:01.000",
+      "endTimestamp": "00:01:07.880",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0016",
+    "text": "us say I wanted to create for dashboard.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 16,
+      "start": 68.12,
+      "end": 69.84,
+      "duration": 1.72,
+      "startTimestamp": "00:01:08.120",
+      "endTimestamp": "00:01:09.840",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0017",
+    "text": "So, let me simply write here dashboard.dsx easy and then let me call it dashboard easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 17,
+      "start": 70.479,
+      "end": 78.3,
+      "duration": 7.821,
+      "startTimestamp": "00:01:10.479",
+      "endTimestamp": "00:01:18.300",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0018",
+    "text": "This is your default one.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 18,
+      "start": 78.53999999999999,
+      "end": 79.84,
+      "duration": 1.3,
+      "startTimestamp": "00:01:18.540",
+      "endTimestamp": "00:01:19.840",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0019",
+    "text": "But in same way, you have to create three other same of we can say file as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 19,
+      "start": 80.3,
+      "end": 88.08,
+      "duration": 7.78,
+      "startTimestamp": "00:01:20.300",
+      "endTimestamp": "00:01:28.080",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0020",
+    "text": "So same component as well, but something like this, I will call this as dashboard.ios.tsx.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 20,
+      "start": 88.4,
+      "end": 96,
+      "duration": 7.6,
+      "startTimestamp": "00:01:28.400",
+      "endTimestamp": "00:01:36.000",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0021",
+    "text": "So this is what I am talking about.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 21,
+      "start": 96.13,
+      "end": 98.02000000000001,
+      "duration": 1.89,
+      "startTimestamp": "00:01:36.130",
+      "endTimestamp": "00:01:38.020",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0022",
+    "text": "And you can also change this to iOS and you can also coming to here and you will simply",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 22,
+      "start": 98.61,
+      "end": 105.5,
+      "duration": 6.89,
+      "startTimestamp": "00:01:38.610",
+      "endTimestamp": "00:01:45.500",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0023",
+    "text": "say.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 23,
+      "start": 105.6,
+      "end": 105.74000000000001,
+      "duration": 0.14,
+      "startTimestamp": "00:01:45.600",
+      "endTimestamp": "00:01:45.740",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0024",
+    "text": "iOS alright and here you can also call this as iOS in same way you can also create for",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 24,
+      "start": 106.2,
+      "end": 113.64,
+      "duration": 7.44,
+      "startTimestamp": "00:01:46.200",
+      "endTimestamp": "00:01:53.640",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0025",
+    "text": "a and Android dot TSX let me paste the code and wherever my dashboard I just wanted to",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 25,
+      "start": 113.74000000000001,
+      "end": 122.42,
+      "duration": 8.68,
+      "startTimestamp": "00:01:53.740",
+      "endTimestamp": "00:02:02.420",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0026",
+    "text": "change this with dashboard Android.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 26,
+      "start": 122.52,
+      "end": 125.5,
+      "duration": 2.98,
+      "startTimestamp": "00:02:02.520",
+      "endTimestamp": "00:02:05.500",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0027",
+    "text": "And then in same way let me also create for web.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 27,
+      "start": 126.5,
+      "end": 129.919,
+      "duration": 3.419,
+      "startTimestamp": "00:02:06.500",
+      "endTimestamp": "00:02:09.919",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0028",
+    "text": "So I can simply say this as dashboard.web.tsx and let me paste the same code and let me say",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 28,
+      "start": 130.25900000000001,
+      "end": 138.84,
+      "duration": 8.581,
+      "startTimestamp": "00:02:10.259",
+      "endTimestamp": "00:02:18.840",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0029",
+    "text": "this as instead of android I will call this as android of dashboard web.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 29,
+      "start": 138.92000000000002,
+      "end": 145.86,
+      "duration": 6.94,
+      "startTimestamp": "00:02:18.920",
+      "endTimestamp": "00:02:25.860",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0030",
+    "text": "And then let me save everything, let me close everything and let me go inside my dashboard",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 30,
+      "start": 146.2,
+      "end": 152.36,
+      "duration": 6.16,
+      "startTimestamp": "00:02:26.200",
+      "endTimestamp": "00:02:32.360",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0031",
+    "text": "and instead of using this view, I am going to import my dashboard component.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 31,
+      "start": 153.02,
+      "end": 158.31900000000002,
+      "duration": 5.299,
+      "startTimestamp": "00:02:33.020",
+      "endTimestamp": "00:02:38.319",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0032",
+    "text": "But at this time, let me say this as dashboard screen so that we don't have any confusion",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 32,
+      "start": 158.86,
+      "end": 165.599,
+      "duration": 6.739,
+      "startTimestamp": "00:02:38.860",
+      "endTimestamp": "00:02:45.599",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0033",
+    "text": "and I am going to import my dashboard from default one from here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 33,
+      "start": 165.9,
+      "end": 169.38,
+      "duration": 3.48,
+      "startTimestamp": "00:02:45.900",
+      "endTimestamp": "00:02:49.380",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0034",
+    "text": "And then let me save it and then let me wait for it as my application is going to broke",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 34,
+      "start": 170.56,
+      "end": 176.14,
+      "duration": 5.58,
+      "startTimestamp": "00:02:50.560",
+      "endTimestamp": "00:02:56.140",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0035",
+    "text": "or this is going to work.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 35,
+      "start": 176.34,
+      "end": 177.78,
+      "duration": 1.44,
+      "startTimestamp": "00:02:56.340",
+      "endTimestamp": "00:02:57.780",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0036",
+    "text": "But right now you will see they are rendering everything and Metro handler is going to do",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 36,
+      "start": 178.23,
+      "end": 184.02,
+      "duration": 5.79,
+      "startTimestamp": "00:02:58.230",
+      "endTimestamp": "00:03:04.020",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0037",
+    "text": "a magic for you.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 37,
+      "start": 184.33,
+      "end": 185.4,
+      "duration": 1.07,
+      "startTimestamp": "00:03:04.330",
+      "endTimestamp": "00:03:05.400",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0038",
+    "text": "So if you just coming to here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 38,
+      "start": 185.71,
+      "end": 187.18,
+      "duration": 1.47,
+      "startTimestamp": "00:03:05.710",
+      "endTimestamp": "00:03:07.180",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0039",
+    "text": "and press on dashboard, you will see onto my windows screen, they are showing me a Android,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 39,
+      "start": 187.5,
+      "end": 193.76,
+      "duration": 6.26,
+      "startTimestamp": "00:03:07.500",
+      "endTimestamp": "00:03:13.760",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0040",
+    "text": "a dashboard Android, alright.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 40,
+      "start": 194.25,
+      "end": 195.94,
+      "duration": 1.69,
+      "startTimestamp": "00:03:14.250",
+      "endTimestamp": "00:03:15.940",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0041",
+    "text": "But in same way, if I visit localhost, let me bring it here and let me go to my dashboard,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 41,
+      "start": 196.55,
+      "end": 204.07999999999998,
+      "duration": 7.53,
+      "startTimestamp": "00:03:16.550",
+      "endTimestamp": "00:03:24.080",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0042",
+    "text": "look at that, they are showing us dashboard web and in same way, if I show you that inside",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 42,
+      "start": 204.44,
+      "end": 210.48,
+      "duration": 6.04,
+      "startTimestamp": "00:03:24.440",
+      "endTimestamp": "00:03:30.480",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0043",
+    "text": "my dashboard, I will show you that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 43,
+      "start": 210.66,
+      "end": 217.48,
+      "duration": 6.82,
+      "startTimestamp": "00:03:30.660",
+      "endTimestamp": "00:03:37.480",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0044",
+    "text": "I mean inside my iOS, so just give me a minute, let me show you that, cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 44,
+      "start": 217.481,
+      "end": 217.54,
+      "duration": 0.059,
+      "startTimestamp": "00:03:37.481",
+      "endTimestamp": "00:03:37.540",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0045",
+    "text": "Alright so right now I am assuming that you guys able to see this and let me show you",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 45,
+      "start": 218.379,
+      "end": 223.26,
+      "duration": 4.881,
+      "startTimestamp": "00:03:38.379",
+      "endTimestamp": "00:03:43.260",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0046",
+    "text": "something, if I just simply click here and take myself to a dashboard, you will see the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 46,
+      "start": 223.299,
+      "end": 228.599,
+      "duration": 5.3,
+      "startTimestamp": "00:03:43.299",
+      "endTimestamp": "00:03:48.599",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0047",
+    "text": "default one.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 47,
+      "start": 228.68,
+      "end": 229.44,
+      "duration": 0.76,
+      "startTimestamp": "00:03:48.680",
+      "endTimestamp": "00:03:49.440",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0048",
+    "text": "Alright.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 48,
+      "start": 230.44,
+      "end": 230.5,
+      "duration": 0.06,
+      "startTimestamp": "00:03:50.440",
+      "endTimestamp": "00:03:50.500",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0049",
+    "text": "Alright, initially they are showing me a default one because I have some problem but right",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 49,
+      "start": 231.2,
+      "end": 236.4,
+      "duration": 5.2,
+      "startTimestamp": "00:03:51.200",
+      "endTimestamp": "00:03:56.400",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0050",
+    "text": "now if you see this they are showing me a dashboard iOS.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 50,
+      "start": 236.5,
+      "end": 239.54,
+      "duration": 3.04,
+      "startTimestamp": "00:03:56.500",
+      "endTimestamp": "00:03:59.540",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0051",
+    "text": "So alright now this is visible to you guys and in same way you can define however you",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 51,
+      "start": 239.93,
+      "end": 246.099,
+      "duration": 6.169,
+      "startTimestamp": "00:03:59.930",
+      "endTimestamp": "00:04:06.099",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0052",
+    "text": "basically want it to.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 52,
+      "start": 246.14,
+      "end": 247.099,
+      "duration": 0.959,
+      "startTimestamp": "00:04:06.140",
+      "endTimestamp": "00:04:07.099",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0053",
+    "text": "So, yes this is pretty much it for this shifter, this is how you can basically we can say define",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 53,
+      "start": 249.68,
+      "end": 256.14,
+      "duration": 6.46,
+      "startTimestamp": "00:04:09.680",
+      "endTimestamp": "00:04:16.140",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0054",
+    "text": "your platform specific code and edit as you wanted to do so, cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 54,
+      "start": 256.339,
+      "end": 262.54,
+      "duration": 6.201,
+      "startTimestamp": "00:04:16.339",
+      "endTimestamp": "00:04:22.540",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0055",
+    "text": "So, this is a very useful feature and very advanced feature which is basically provided",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 55,
+      "start": 262.94,
+      "end": 268.64,
+      "duration": 5.7,
+      "startTimestamp": "00:04:22.940",
+      "endTimestamp": "00:04:28.640",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0056",
+    "text": "by the expo router.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 56,
+      "start": 268.78,
+      "end": 270.38,
+      "duration": 1.6,
+      "startTimestamp": "00:04:28.780",
+      "endTimestamp": "00:04:30.380",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0057",
+    "text": "So, why basically we need this platform specific code?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 57,
+      "start": 271,
+      "end": 274.22,
+      "duration": 3.22,
+      "startTimestamp": "00:04:31.000",
+      "endTimestamp": "00:04:34.220",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0058",
+    "text": "Because let's say whenever you are building some universal app, so different platforms",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 58,
+      "start": 274.88,
+      "end": 279.82,
+      "duration": 4.94,
+      "startTimestamp": "00:04:34.880",
+      "endTimestamp": "00:04:39.820",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0059",
+    "text": "sometimes require a we can say different behavior.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 59,
+      "start": 280,
+      "end": 283.8,
+      "duration": 3.8,
+      "startTimestamp": "00:04:40.000",
+      "endTimestamp": "00:04:43.800",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0060",
+    "text": "So, we can say that web often need link and desktop layout.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 60,
+      "start": 284.54,
+      "end": 288.44,
+      "duration": 3.9,
+      "startTimestamp": "00:04:44.540",
+      "endTimestamp": "00:04:48.440",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0061",
+    "text": "Mobile might need gestures native UI element.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 61,
+      "start": 288.82,
+      "end": 291.56,
+      "duration": 2.74,
+      "startTimestamp": "00:04:48.820",
+      "endTimestamp": "00:04:51.560",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0062",
+    "text": "iOS and Android.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 62,
+      "start": 292.28,
+      "end": 293.02,
+      "duration": 0.74,
+      "startTimestamp": "00:04:52.280",
+      "endTimestamp": "00:04:53.020",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0063",
+    "text": "have some slightly different conventions. So that's why this platform specific convention",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 63,
+      "start": 293.8,
+      "end": 300.139,
+      "duration": 6.339,
+      "startTimestamp": "00:04:53.800",
+      "endTimestamp": "00:05:00.139",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0064",
+    "text": "is such a game changer and by using this you can build and like anything. So yes, this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 64,
+      "start": 300.52,
+      "end": 306.9,
+      "duration": 6.38,
+      "startTimestamp": "00:05:00.520",
+      "endTimestamp": "00:05:06.900",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0065",
+    "text": "is pretty much it for this chapter and I hope you guys are loving this. By the way, yep,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 65,
+      "start": 307,
+      "end": 313.62,
+      "duration": 6.62,
+      "startTimestamp": "00:05:07.000",
+      "endTimestamp": "00:05:13.620",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_0066",
+    "text": "this is the end of this entire module and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "fileName": "11-platform-specific-components_epm.vtt",
+      "captionIndex": 66,
+      "start": 313.8,
+      "end": 317.68,
+      "duration": 3.88,
+      "startTimestamp": "00:05:13.800",
+      "endTimestamp": "00:05:17.680",
+      "estimatedTokens": 17
+    }
+  }
+]

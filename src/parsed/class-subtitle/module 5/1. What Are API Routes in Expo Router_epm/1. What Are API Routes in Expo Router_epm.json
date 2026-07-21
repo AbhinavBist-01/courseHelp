@@ -1,0 +1,2605 @@
+[
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0001",
+    "text": "Hey everyone and welcome to one more new module in this module we are basically going to talk",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 1,
+      "start": 1.14,
+      "end": 6.44,
+      "duration": 5.3,
+      "startTimestamp": "00:00:01.140",
+      "endTimestamp": "00:00:06.440",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0002",
+    "text": "about networking and backend integration.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 2,
+      "start": 6.54,
+      "end": 8.7,
+      "duration": 2.16,
+      "startTimestamp": "00:00:06.540",
+      "endTimestamp": "00:00:08.700",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0003",
+    "text": "So this is the chapter one in this lecture we are going to learn about API routes in",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 3,
+      "start": 9.35,
+      "end": 14.42,
+      "duration": 5.07,
+      "startTimestamp": "00:00:09.350",
+      "endTimestamp": "00:00:14.420",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0004",
+    "text": "expo router.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 4,
+      "start": 14.56,
+      "end": 15.3,
+      "duration": 0.74,
+      "startTimestamp": "00:00:14.560",
+      "endTimestamp": "00:00:15.300",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0005",
+    "text": "So, this is a really exciting feature because it's allow you to write server side endpoints",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 5,
+      "start": 15.8,
+      "end": 22.68,
+      "duration": 6.88,
+      "startTimestamp": "00:00:15.800",
+      "endTimestamp": "00:00:22.680",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0006",
+    "text": "right inside your expo project.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 6,
+      "start": 23.22,
+      "end": 24.9,
+      "duration": 1.68,
+      "startTimestamp": "00:00:23.220",
+      "endTimestamp": "00:00:24.900",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0007",
+    "text": "It is interesting like using the same file based routing system you already know.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 7,
+      "start": 25.6,
+      "end": 31.82,
+      "duration": 6.22,
+      "startTimestamp": "00:00:25.600",
+      "endTimestamp": "00:00:31.820",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0008",
+    "text": "So, what are API routes?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 8,
+      "start": 32.7,
+      "end": 33.94,
+      "duration": 1.24,
+      "startTimestamp": "00:00:32.700",
+      "endTimestamp": "00:00:33.940",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0009",
+    "text": "I mean, I hope you guys know about what are API routes.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 9,
+      "start": 34.1,
+      "end": 37.24,
+      "duration": 3.14,
+      "startTimestamp": "00:00:34.100",
+      "endTimestamp": "00:00:37.240",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0010",
+    "text": "If I just simply coming to here and write what are API routes?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 10,
+      "start": 37.38,
+      "end": 41.78,
+      "duration": 4.4,
+      "startTimestamp": "00:00:37.380",
+      "endTimestamp": "00:00:41.780",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0011",
+    "text": "So, API routes we can say that they are special server functions, they are server functions",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 11,
+      "start": 42.3,
+      "end": 52.16,
+      "duration": 9.86,
+      "startTimestamp": "00:00:42.300",
+      "endTimestamp": "00:00:52.160",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0012",
+    "text": "you can create inside your expo router, you can basically create them inside your expo",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 12,
+      "start": 52.579,
+      "end": 59.08,
+      "duration": 6.501,
+      "startTimestamp": "00:00:52.579",
+      "endTimestamp": "00:00:59.080",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0013",
+    "text": "router project.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 13,
+      "start": 59.58,
+      "end": 60.42,
+      "duration": 0.84,
+      "startTimestamp": "00:00:59.580",
+      "endTimestamp": "00:01:00.420",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0014",
+    "text": "and they are going to act like they are going to and let me just simply say they are going",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 14,
+      "start": 61.1,
+      "end": 70.72,
+      "duration": 9.62,
+      "startTimestamp": "00:01:01.100",
+      "endTimestamp": "00:01:10.720",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0015",
+    "text": "to act like a internet alright so let me get them cool so this API routes is basically going",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 15,
+      "start": 70.82,
+      "end": 79.46000000000001,
+      "duration": 8.64,
+      "startTimestamp": "00:01:10.820",
+      "endTimestamp": "00:01:19.460",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0016",
+    "text": "to act like a API we can say that you are creating back-end in express in fastify in",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 16,
+      "start": 79.6,
+      "end": 85.38,
+      "duration": 5.78,
+      "startTimestamp": "00:01:19.600",
+      "endTimestamp": "00:01:25.380",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0017",
+    "text": "fast api whatever you are using for it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 17,
+      "start": 85.8,
+      "end": 88.58,
+      "duration": 2.78,
+      "startTimestamp": "00:01:25.800",
+      "endTimestamp": "00:01:28.580",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0018",
+    "text": "So kind of them they are going to act like this endpoints.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 18,
+      "start": 88.581,
+      "end": 92.38,
+      "duration": 3.799,
+      "startTimestamp": "00:01:28.581",
+      "endTimestamp": "00:01:32.380",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0019",
+    "text": "So this is definitely similar to the backend endpoint.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 19,
+      "start": 93.16,
+      "end": 97.16,
+      "duration": 4,
+      "startTimestamp": "00:01:33.160",
+      "endTimestamp": "00:01:37.160",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0020",
+    "text": "You had normally build with node express or other backend frameworks.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 20,
+      "start": 97.97999999999999,
+      "end": 102.72,
+      "duration": 4.74,
+      "startTimestamp": "00:01:37.980",
+      "endTimestamp": "00:01:42.720",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0021",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 21,
+      "start": 103.5,
+      "end": 103.66,
+      "duration": 0.16,
+      "startTimestamp": "00:01:43.500",
+      "endTimestamp": "00:01:43.660",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0022",
+    "text": "So these endpoints can be called from your app.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 22,
+      "start": 104.18,
+      "end": 107.82,
+      "duration": 3.64,
+      "startTimestamp": "00:01:44.180",
+      "endTimestamp": "00:01:47.820",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0023",
+    "text": "from external even from external system to fetch and we can say the process or data.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 23,
+      "start": 108.5,
+      "end": 114.66,
+      "duration": 6.16,
+      "startTimestamp": "00:01:48.500",
+      "endTimestamp": "00:01:54.660",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0024",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 24,
+      "start": 116.38,
+      "end": 116.47999999999999,
+      "duration": 0.1,
+      "startTimestamp": "00:01:56.380",
+      "endTimestamp": "00:01:56.480",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0025",
+    "text": "So if in in simple words I can say API routes, let your expo app act like both print and plus",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 25,
+      "start": 116.56,
+      "end": 125.76,
+      "duration": 9.2,
+      "startTimestamp": "00:01:56.560",
+      "endTimestamp": "00:02:05.760",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0026",
+    "text": "back end.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 26,
+      "start": 125.92,
+      "end": 126.34,
+      "duration": 0.42,
+      "startTimestamp": "00:02:05.920",
+      "endTimestamp": "00:02:06.340",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0027",
+    "text": "This means you can create.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 27,
+      "start": 126.8,
+      "end": 128.82,
+      "duration": 2.02,
+      "startTimestamp": "00:02:06.800",
+      "endTimestamp": "00:02:08.820",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0028",
+    "text": "Rent inside of your app by using expo, you can even create back inside your application",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 28,
+      "start": 129.5,
+      "end": 136.07999999999998,
+      "duration": 6.58,
+      "startTimestamp": "00:02:09.500",
+      "endTimestamp": "00:02:16.080",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0029",
+    "text": "by using expo without needing any separate server project.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 29,
+      "start": 136.32,
+      "end": 140.96,
+      "duration": 4.64,
+      "startTimestamp": "00:02:16.320",
+      "endTimestamp": "00:02:20.960",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0030",
+    "text": "So this is the beauty of we can say.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 30,
+      "start": 141.46,
+      "end": 144.42000000000002,
+      "duration": 2.96,
+      "startTimestamp": "00:02:21.460",
+      "endTimestamp": "00:02:24.420",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0031",
+    "text": "All right, perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 31,
+      "start": 146,
+      "end": 147.819,
+      "duration": 1.819,
+      "startTimestamp": "00:02:26.000",
+      "endTimestamp": "00:02:27.819",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0032",
+    "text": "So let's move ahead and we'll see how you can basically create them.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 32,
+      "start": 148.489,
+      "end": 151.84,
+      "duration": 3.351,
+      "startTimestamp": "00:02:28.489",
+      "endTimestamp": "00:02:31.840",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0033",
+    "text": "So this is going to very straightforward syntax like you are always going to use this syntax.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 33,
+      "start": 152.439,
+      "end": 158.879,
+      "duration": 6.44,
+      "startTimestamp": "00:02:32.439",
+      "endTimestamp": "00:02:38.879",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0034",
+    "text": "So what is the syntax is this is your app and let me just organize them inside API folder",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 34,
+      "start": 159.349,
+      "end": 164.959,
+      "duration": 5.61,
+      "startTimestamp": "00:02:39.349",
+      "endTimestamp": "00:02:44.959",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0035",
+    "text": "and the name of the route you wanted to create and then simple convention plus API.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 35,
+      "start": 165.599,
+      "end": 170.2,
+      "duration": 4.601,
+      "startTimestamp": "00:02:45.599",
+      "endTimestamp": "00:02:50.200",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0036",
+    "text": "That's all.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 36,
+      "start": 170.64,
+      "end": 170.94,
+      "duration": 0.3,
+      "startTimestamp": "00:02:50.640",
+      "endTimestamp": "00:02:50.940",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0037",
+    "text": "inside that file you are like inside this file like the we are creating you can define",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 37,
+      "start": 171.8,
+      "end": 179.14,
+      "duration": 7.34,
+      "startTimestamp": "00:02:51.800",
+      "endTimestamp": "00:02:59.140",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0038",
+    "text": "get endpoint you can define post endpoint you can even define put you can define delete",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 38,
+      "start": 179.37,
+      "end": 184.56,
+      "duration": 5.19,
+      "startTimestamp": "00:02:59.370",
+      "endTimestamp": "00:03:04.560",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0039",
+    "text": "you can define patch whatever you want.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 39,
+      "start": 184.9,
+      "end": 186.54,
+      "duration": 1.64,
+      "startTimestamp": "00:03:04.900",
+      "endTimestamp": "00:03:06.540",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0040",
+    "text": "So when a request matches the route path and we can say method expo will execute that function",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 40,
+      "start": 187.07,
+      "end": 195.3,
+      "duration": 8.23,
+      "startTimestamp": "00:03:07.070",
+      "endTimestamp": "00:03:15.300",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0041",
+    "text": "and return you a response.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 41,
+      "start": 195.54,
+      "end": 196.96,
+      "duration": 1.42,
+      "startTimestamp": "00:03:15.540",
+      "endTimestamp": "00:03:16.960",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0042",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 42,
+      "start": 197.7,
+      "end": 197.84,
+      "duration": 0.14,
+      "startTimestamp": "00:03:17.700",
+      "endTimestamp": "00:03:17.840",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0043",
+    "text": "So, let's say and let me move ahead.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 43,
+      "start": 198.8,
+      "end": 201.94,
+      "duration": 3.14,
+      "startTimestamp": "00:03:18.800",
+      "endTimestamp": "00:03:21.940",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0044",
+    "text": "So for that, let me start installing my expo application.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 44,
+      "start": 202.68,
+      "end": 206.66,
+      "duration": 3.98,
+      "startTimestamp": "00:03:22.680",
+      "endTimestamp": "00:03:26.660",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0045",
+    "text": "So how you can install that?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 45,
+      "start": 206.96,
+      "end": 208.24,
+      "duration": 1.28,
+      "startTimestamp": "00:03:26.960",
+      "endTimestamp": "00:03:28.240",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0046",
+    "text": "So for installing that, you can simply run the command and install it cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 46,
+      "start": 209.32,
+      "end": 214.28,
+      "duration": 4.96,
+      "startTimestamp": "00:03:29.320",
+      "endTimestamp": "00:03:34.280",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0047",
+    "text": "Alright, so let me just simply go to the documentation and now you guys can see this is the command",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 47,
+      "start": 215.36,
+      "end": 220.81900000000002,
+      "duration": 5.459,
+      "startTimestamp": "00:03:35.360",
+      "endTimestamp": "00:03:40.819",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0048",
+    "text": "of creating it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 48,
+      "start": 221,
+      "end": 221.659,
+      "duration": 0.659,
+      "startTimestamp": "00:03:41.000",
+      "endTimestamp": "00:03:41.659",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0049",
+    "text": "Let me copy it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 49,
+      "start": 221.879,
+      "end": 222.64,
+      "duration": 0.761,
+      "startTimestamp": "00:03:41.879",
+      "endTimestamp": "00:03:42.640",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0050",
+    "text": "Let me come to my VS code, bun X and then simply paste it, create expo app at the latest.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 50,
+      "start": 222.84,
+      "end": 229.4,
+      "duration": 6.56,
+      "startTimestamp": "00:03:42.840",
+      "endTimestamp": "00:03:49.400",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0051",
+    "text": "I have already created a module 5.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 51,
+      "start": 229.64,
+      "end": 231.44,
+      "duration": 1.8,
+      "startTimestamp": "00:03:49.640",
+      "endTimestamp": "00:03:51.440",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0052",
+    "text": "Sorry, this is module 5 whatever number can be changed, but this is how I'm just trying",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 52,
+      "start": 231.56,
+      "end": 236.06,
+      "duration": 4.5,
+      "startTimestamp": "00:03:51.560",
+      "endTimestamp": "00:03:56.060",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0053",
+    "text": "to be in sequence.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 53,
+      "start": 236.159,
+      "end": 236.84,
+      "duration": 0.681,
+      "startTimestamp": "00:03:56.159",
+      "endTimestamp": "00:03:56.840",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0054",
+    "text": "And then let me simply what is your app name.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 54,
+      "start": 237.53,
+      "end": 239.739,
+      "duration": 2.209,
+      "startTimestamp": "00:03:57.530",
+      "endTimestamp": "00:03:59.739",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0055",
+    "text": "to be inside the same folder.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 55,
+      "start": 240.099,
+      "end": 242.299,
+      "duration": 2.2,
+      "startTimestamp": "00:04:00.099",
+      "endTimestamp": "00:04:02.299",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0056",
+    "text": "And then this is going to install all the dependencies that we need.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 56,
+      "start": 242.8,
+      "end": 247.6,
+      "duration": 4.8,
+      "startTimestamp": "00:04:02.800",
+      "endTimestamp": "00:04:07.600",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0057",
+    "text": "Alright so now I have successfully installed it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 57,
+      "start": 248.98,
+      "end": 252.92,
+      "duration": 3.94,
+      "startTimestamp": "00:04:08.980",
+      "endTimestamp": "00:04:12.920",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0058",
+    "text": "Now let me simply run 1x expose start and then this is going to start my server.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 58,
+      "start": 253.57,
+      "end": 260.86,
+      "duration": 7.29,
+      "startTimestamp": "00:04:13.570",
+      "endTimestamp": "00:04:20.860",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0059",
+    "text": "So let me wait for it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 59,
+      "start": 261.22,
+      "end": 262.26,
+      "duration": 1.04,
+      "startTimestamp": "00:04:21.220",
+      "endTimestamp": "00:04:22.260",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0060",
+    "text": "Alright and then simply press a.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 60,
+      "start": 262.53,
+      "end": 264.2,
+      "duration": 1.67,
+      "startTimestamp": "00:04:22.530",
+      "endTimestamp": "00:04:24.200",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0061",
+    "text": "So after pressing A they are going to open this module 5 inside my module 5.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 61,
+      "start": 265.12,
+      "end": 271.86,
+      "duration": 6.74,
+      "startTimestamp": "00:04:25.120",
+      "endTimestamp": "00:04:31.860",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0062",
+    "text": "Expo Go App, perfect, nice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 62,
+      "start": 271.861,
+      "end": 275.48,
+      "duration": 3.619,
+      "startTimestamp": "00:04:31.861",
+      "endTimestamp": "00:04:35.480",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0063",
+    "text": "Now you can see this is the by default Expo router which is coming but let move ahead",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 63,
+      "start": 275.63,
+      "end": 282.28,
+      "duration": 6.65,
+      "startTimestamp": "00:04:35.630",
+      "endTimestamp": "00:04:42.280",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0064",
+    "text": "and reset it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 64,
+      "start": 282.42,
+      "end": 283.22,
+      "duration": 0.8,
+      "startTimestamp": "00:04:42.420",
+      "endTimestamp": "00:04:43.220",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0065",
+    "text": "So simply say burn run reset project.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 65,
+      "start": 283.47,
+      "end": 287.68,
+      "duration": 4.21,
+      "startTimestamp": "00:04:43.470",
+      "endTimestamp": "00:04:47.680",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0066",
+    "text": "So by doing this you will see that they are going to run it and simply say no.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 66,
+      "start": 288.13,
+      "end": 292.22,
+      "duration": 4.09,
+      "startTimestamp": "00:04:48.130",
+      "endTimestamp": "00:04:52.220",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0067",
+    "text": "And yes, now let me run it once, not this, sorry, let me run it once again, bun x expose",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 67,
+      "start": 292.6,
+      "end": 300.04,
+      "duration": 7.44,
+      "startTimestamp": "00:04:52.600",
+      "endTimestamp": "00:05:00.040",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0068",
+    "text": "start and then let me reload it and after reloading it, you are basically going to see",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 68,
+      "start": 300.22,
+      "end": 308.88,
+      "duration": 8.66,
+      "startTimestamp": "00:05:00.220",
+      "endTimestamp": "00:05:08.880",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0069",
+    "text": "a simple page which is saying us edit this, I mean, you know, cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 69,
+      "start": 308.98,
+      "end": 314.08,
+      "duration": 5.1,
+      "startTimestamp": "00:05:08.980",
+      "endTimestamp": "00:05:14.080",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0070",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 70,
+      "start": 315.72,
+      "end": 316.2,
+      "duration": 0.48,
+      "startTimestamp": "00:05:15.720",
+      "endTimestamp": "00:05:16.200",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0071",
+    "text": "So now let's move ahead and we'll see how you can basically create the API routes.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 71,
+      "start": 317.38,
+      "end": 322.32,
+      "duration": 4.94,
+      "startTimestamp": "00:05:17.380",
+      "endTimestamp": "00:05:22.320",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0072",
+    "text": "So this is very straightforward.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 72,
+      "start": 322.54,
+      "end": 324.28,
+      "duration": 1.74,
+      "startTimestamp": "00:05:22.540",
+      "endTimestamp": "00:05:24.280",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0073",
+    "text": "So let me go to my app and inside this, let me create a API folder, always create a API",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 73,
+      "start": 325.1,
+      "end": 331.38,
+      "duration": 6.28,
+      "startTimestamp": "00:05:25.100",
+      "endTimestamp": "00:05:31.380",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0074",
+    "text": "folder.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 74,
+      "start": 331.46,
+      "end": 331.74,
+      "duration": 0.28,
+      "startTimestamp": "00:05:31.460",
+      "endTimestamp": "00:05:31.740",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0075",
+    "text": "This is the good practice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 75,
+      "start": 331.84,
+      "end": 332.84000000000003,
+      "duration": 1,
+      "startTimestamp": "00:05:31.840",
+      "endTimestamp": "00:05:32.840",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0076",
+    "text": "And let's say I simple wanted to create a hello world.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 76,
+      "start": 333.52,
+      "end": 335.8,
+      "duration": 2.28,
+      "startTimestamp": "00:05:33.520",
+      "endTimestamp": "00:05:35.800",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0077",
+    "text": "So, I can simply going to name it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 77,
+      "start": 336.2,
+      "end": 338.58,
+      "duration": 2.38,
+      "startTimestamp": "00:05:36.200",
+      "endTimestamp": "00:05:38.580",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0078",
+    "text": "So, name should be hello and then I wanted to treat this as a expo backend API route.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 78,
+      "start": 338.98,
+      "end": 346.12,
+      "duration": 7.14,
+      "startTimestamp": "00:05:38.980",
+      "endTimestamp": "00:05:46.120",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0079",
+    "text": "So, I can simply say plus API dot ts yes and then you can simply say.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 79,
+      "start": 346.46,
+      "end": 353.2,
+      "duration": 6.74,
+      "startTimestamp": "00:05:46.460",
+      "endTimestamp": "00:05:53.200",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0080",
+    "text": "export function, I can let make it get yes, make sure to make this capital, just give",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 80,
+      "start": 355.06,
+      "end": 364.78,
+      "duration": 9.72,
+      "startTimestamp": "00:05:55.060",
+      "endTimestamp": "00:06:04.780",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0081",
+    "text": "me a minute, let me off my AI.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 81,
+      "start": 364.781,
+      "end": 367.36,
+      "duration": 2.579,
+      "startTimestamp": "00:06:04.781",
+      "endTimestamp": "00:06:07.360",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0082",
+    "text": "Alright, and after that, same here you are basically going to have access of response",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 82,
+      "start": 369.8,
+      "end": 376.099,
+      "duration": 6.299,
+      "startTimestamp": "00:06:09.800",
+      "endTimestamp": "00:06:16.099",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0083",
+    "text": "and request, let me get my request, and this is going to be the type of request.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 83,
+      "start": 376.34,
+      "end": 381.74,
+      "duration": 5.4,
+      "startTimestamp": "00:06:16.340",
+      "endTimestamp": "00:06:21.740",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0084",
+    "text": "And then I can simply return a response dot, and we return JSON, and then a simple this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 84,
+      "start": 382.759,
+      "end": 391.24,
+      "duration": 8.481,
+      "startTimestamp": "00:06:22.759",
+      "endTimestamp": "00:06:31.240",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0085",
+    "text": "and I can say data, and inside the data, I can simply say hello world.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 85,
+      "start": 391.659,
+      "end": 396.319,
+      "duration": 4.66,
+      "startTimestamp": "00:06:31.659",
+      "endTimestamp": "00:06:36.319",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0086",
+    "text": "Easy? Yes.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 86,
+      "start": 397.22,
+      "end": 398.039,
+      "duration": 0.819,
+      "startTimestamp": "00:06:37.220",
+      "endTimestamp": "00:06:38.039",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0087",
+    "text": "This is how you can basically create API route inside your Xpo app.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 87,
+      "start": 398.6,
+      "end": 403.62,
+      "duration": 5.02,
+      "startTimestamp": "00:06:38.600",
+      "endTimestamp": "00:06:43.620",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0088",
+    "text": "Here you can do DB call, you wanted to have some heavy logic, you can do whatever you",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 88,
+      "start": 404.67,
+      "end": 408.9,
+      "duration": 4.23,
+      "startTimestamp": "00:06:44.670",
+      "endTimestamp": "00:06:48.900",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0089",
+    "text": "want.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 89,
+      "start": 408.98,
+      "end": 409.18,
+      "duration": 0.2,
+      "startTimestamp": "00:06:48.980",
+      "endTimestamp": "00:06:49.180",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0090",
+    "text": "Alright, so now how you can use this endpoint, that's the main point.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 90,
+      "start": 409.47,
+      "end": 413.82,
+      "duration": 4.35,
+      "startTimestamp": "00:06:49.470",
+      "endTimestamp": "00:06:53.820",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0091",
+    "text": "Easy, very easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 91,
+      "start": 414.78,
+      "end": 416.159,
+      "duration": 1.379,
+      "startTimestamp": "00:06:54.780",
+      "endTimestamp": "00:06:56.159",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0092",
+    "text": "You can simply go to our index and wherever you want it to go and then what you can do,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 92,
+      "start": 416.169,
+      "end": 422.159,
+      "duration": 5.99,
+      "startTimestamp": "00:06:56.169",
+      "endTimestamp": "00:07:02.159",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0093",
+    "text": "you can just simply coming to here and start using it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 93,
+      "start": 422.28,
+      "end": 424.72,
+      "duration": 2.44,
+      "startTimestamp": "00:07:02.280",
+      "endTimestamp": "00:07:04.720",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0094",
+    "text": "We will see that in upcoming chapters like how you can integrate this and use this in",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 94,
+      "start": 424.721,
+      "end": 429.919,
+      "duration": 5.198,
+      "startTimestamp": "00:07:04.721",
+      "endTimestamp": "00:07:09.919",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0095",
+    "text": "same way.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 95,
+      "start": 430,
+      "end": 430.52,
+      "duration": 0.52,
+      "startTimestamp": "00:07:10.000",
+      "endTimestamp": "00:07:10.520",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0096",
+    "text": "Let's say you wanted to create something else.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 96,
+      "start": 431,
+      "end": 434.58,
+      "duration": 3.58,
+      "startTimestamp": "00:07:11.000",
+      "endTimestamp": "00:07:14.580",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0097",
+    "text": "So in same file, yes, in same file, you can also create another function name as post.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 97,
+      "start": 435.21,
+      "end": 441.08,
+      "duration": 5.87,
+      "startTimestamp": "00:07:15.210",
+      "endTimestamp": "00:07:21.080",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0098",
+    "text": "And here inside this post, let's say you have received some data, you can simply say data",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 98,
+      "start": 441.94,
+      "end": 447.5,
+      "duration": 5.56,
+      "startTimestamp": "00:07:21.940",
+      "endTimestamp": "00:07:27.500",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0099",
+    "text": "await request dot json.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 99,
+      "start": 448.24,
+      "end": 450.18,
+      "duration": 1.94,
+      "startTimestamp": "00:07:28.240",
+      "endTimestamp": "00:07:30.180",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0100",
+    "text": "Yes.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 100,
+      "start": 450.21,
+      "end": 450.42,
+      "duration": 0.21,
+      "startTimestamp": "00:07:30.210",
+      "endTimestamp": "00:07:30.420",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0101",
+    "text": "easy and don't forget you can also mark this as a sync this is a good practice and also",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 101,
+      "start": 451.76,
+      "end": 459.08,
+      "duration": 7.32,
+      "startTimestamp": "00:07:31.760",
+      "endTimestamp": "00:07:39.080",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0102",
+    "text": "add here a sync cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 102,
+      "start": 459.2,
+      "end": 460.36,
+      "duration": 1.16,
+      "startTimestamp": "00:07:39.200",
+      "endTimestamp": "00:07:40.360",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0103",
+    "text": "Now what you can do you can simply return your data easy and if you wanted to create",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 103,
+      "start": 461.18,
+      "end": 468.22,
+      "duration": 7.04,
+      "startTimestamp": "00:07:41.180",
+      "endTimestamp": "00:07:48.220",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0104",
+    "text": "a separate we can say get data so you can simply do so here get data and then simple",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 104,
+      "start": 468.36,
+      "end": 474.62,
+      "duration": 6.26,
+      "startTimestamp": "00:07:48.360",
+      "endTimestamp": "00:07:54.620",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0105",
+    "text": "plus API dot TS.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 105,
+      "start": 474.76,
+      "end": 476.14,
+      "duration": 1.38,
+      "startTimestamp": "00:07:54.760",
+      "endTimestamp": "00:07:56.140",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0106",
+    "text": "This is also going to be completely valid.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 106,
+      "start": 476.52,
+      "end": 478.48,
+      "duration": 1.96,
+      "startTimestamp": "00:07:56.520",
+      "endTimestamp": "00:07:58.480",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0107",
+    "text": "Alright, so yep, but there is a point for using it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 107,
+      "start": 479.3,
+      "end": 483.52,
+      "duration": 4.22,
+      "startTimestamp": "00:07:59.300",
+      "endTimestamp": "00:08:03.520",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0108",
+    "text": "You need to make sure need some changes inside your app json.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 108,
+      "start": 484.42,
+      "end": 488.8,
+      "duration": 4.38,
+      "startTimestamp": "00:08:04.420",
+      "endTimestamp": "00:08:08.800",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0109",
+    "text": "So for that, you simply search for app json and search for web and inside this web you",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 109,
+      "start": 489.08,
+      "end": 495.96,
+      "duration": 6.88,
+      "startTimestamp": "00:08:09.080",
+      "endTimestamp": "00:08:15.960",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0110",
+    "text": "will find output.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 110,
+      "start": 496.04,
+      "end": 497.12,
+      "duration": 1.08,
+      "startTimestamp": "00:08:16.040",
+      "endTimestamp": "00:08:17.120",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0111",
+    "text": "This is by default static, but we wanted to use the server as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 111,
+      "start": 497.58,
+      "end": 502.14,
+      "duration": 4.56,
+      "startTimestamp": "00:08:17.580",
+      "endTimestamp": "00:08:22.140",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0112",
+    "text": "So that's why we need it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 112,
+      "start": 502.56,
+      "end": 504.02,
+      "duration": 1.46,
+      "startTimestamp": "00:08:22.560",
+      "endTimestamp": "00:08:24.020",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0113",
+    "text": "Cool because in future whenever you are going to deploy your app",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 113,
+      "start": 504.28,
+      "end": 507.46,
+      "duration": 3.18,
+      "startTimestamp": "00:08:24.280",
+      "endTimestamp": "00:08:27.460",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0114",
+    "text": "You separately need to deploy your API routes as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 114,
+      "start": 507.9,
+      "end": 511.62,
+      "duration": 3.72,
+      "startTimestamp": "00:08:27.900",
+      "endTimestamp": "00:08:31.620",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0115",
+    "text": "So you will see that don't worry that's bit of advanced thing but I'm talk about that",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 115,
+      "start": 511.621,
+      "end": 515.6,
+      "duration": 3.979,
+      "startTimestamp": "00:08:31.621",
+      "endTimestamp": "00:08:35.600",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0116",
+    "text": "in upcoming chapter school.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 116,
+      "start": 516.039,
+      "end": 517.08,
+      "duration": 1.041,
+      "startTimestamp": "00:08:36.039",
+      "endTimestamp": "00:08:37.080",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0117",
+    "text": "All right and yes you can simply hit by this as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 117,
+      "start": 518.5,
+      "end": 522.159,
+      "duration": 3.659,
+      "startTimestamp": "00:08:38.500",
+      "endTimestamp": "00:08:42.159",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0118",
+    "text": "So let me try to show you like what I'm talking about.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 118,
+      "start": 522.2,
+      "end": 525.66,
+      "duration": 3.46,
+      "startTimestamp": "00:08:42.200",
+      "endTimestamp": "00:08:45.660",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0119",
+    "text": "Let me try to reload it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 119,
+      "start": 526.74,
+      "end": 528.1,
+      "duration": 1.36,
+      "startTimestamp": "00:08:46.740",
+      "endTimestamp": "00:08:48.100",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0120",
+    "text": "Perfect, so let's let's say let me go to this endpoint perfect and where is that this one",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 120,
+      "start": 529.2,
+      "end": 538.1,
+      "duration": 8.9,
+      "startTimestamp": "00:08:49.200",
+      "endTimestamp": "00:08:58.100",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0121",
+    "text": "now they are showing us this but right now if I go to API slash hello and hit this look",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 121,
+      "start": 538.22,
+      "end": 545.16,
+      "duration": 6.94,
+      "startTimestamp": "00:08:58.220",
+      "endTimestamp": "00:09:05.160",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0122",
+    "text": "at that we are getting a data a backend data from this endpoint by default we are hitting",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 122,
+      "start": 545.24,
+      "end": 553.42,
+      "duration": 8.18,
+      "startTimestamp": "00:09:05.240",
+      "endTimestamp": "00:09:13.420",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0123",
+    "text": "the get request and you can even see.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 123,
+      "start": 553.44,
+      "end": 555.18,
+      "duration": 1.74,
+      "startTimestamp": "00:09:13.440",
+      "endTimestamp": "00:09:15.180",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0124",
+    "text": "Lambda bundled web bundled and they are basically showing us the output.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 124,
+      "start": 556.62,
+      "end": 561.019,
+      "duration": 4.399,
+      "startTimestamp": "00:09:16.620",
+      "endTimestamp": "00:09:21.019",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0125",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 125,
+      "start": 561.36,
+      "end": 561.519,
+      "duration": 0.159,
+      "startTimestamp": "00:09:21.360",
+      "endTimestamp": "00:09:21.519",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0126",
+    "text": "Nothing to worry much about it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 126,
+      "start": 561.8,
+      "end": 563.1,
+      "duration": 1.3,
+      "startTimestamp": "00:09:21.800",
+      "endTimestamp": "00:09:23.100",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0127",
+    "text": "So yes, this is how you can basically create APR out.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 127,
+      "start": 563.8389999999999,
+      "end": 567.92,
+      "duration": 4.081,
+      "startTimestamp": "00:09:23.839",
+      "endTimestamp": "00:09:27.920",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0128",
+    "text": "What is APR out?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 128,
+      "start": 568.12,
+      "end": 568.899,
+      "duration": 0.779,
+      "startTimestamp": "00:09:28.120",
+      "endTimestamp": "00:09:28.899",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0129",
+    "text": "You have a good idea out of it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 129,
+      "start": 569.07,
+      "end": 570.82,
+      "duration": 1.75,
+      "startTimestamp": "00:09:29.070",
+      "endTimestamp": "00:09:30.820",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0130",
+    "text": "Perfect. So if I just try to give you a quick recap, API routes are server endpoints, which",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 130,
+      "start": 571.6,
+      "end": 578.88,
+      "duration": 7.28,
+      "startTimestamp": "00:09:31.600",
+      "endTimestamp": "00:09:38.880",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0131",
+    "text": "is create inside your folder structure inside your expo folder structure expo is a framework",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 131,
+      "start": 578.98,
+      "end": 584.94,
+      "duration": 5.96,
+      "startTimestamp": "00:09:38.980",
+      "endTimestamp": "00:09:44.940",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0132",
+    "text": "which support frontend and back end both and they run server side code as well. And this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 132,
+      "start": 585.58,
+      "end": 591.22,
+      "duration": 5.64,
+      "startTimestamp": "00:09:45.580",
+      "endTimestamp": "00:09:51.220",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0133",
+    "text": "is how you can basically create your server side of API routes.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 133,
+      "start": 591.3,
+      "end": 594.44,
+      "duration": 3.14,
+      "startTimestamp": "00:09:51.300",
+      "endTimestamp": "00:09:54.440",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0134",
+    "text": "Be it get, be it post, be it put, delete doesn't matter.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 134,
+      "start": 594.6,
+      "end": 599.36,
+      "duration": 4.76,
+      "startTimestamp": "00:09:54.600",
+      "endTimestamp": "00:09:59.360",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0135",
+    "text": "So in next lecture, we will get to see that how you can basically create here some bunch",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 135,
+      "start": 600.24,
+      "end": 605.079,
+      "duration": 4.839,
+      "startTimestamp": "00:10:00.240",
+      "endTimestamp": "00:10:05.079",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0136",
+    "text": "of other API routes and then we are going to see how to call it from screen using fetch.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 136,
+      "start": 605.16,
+      "end": 610.62,
+      "duration": 5.46,
+      "startTimestamp": "00:10:05.160",
+      "endTimestamp": "00:10:10.620",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_0137",
+    "text": "Alright, so yes, this is pretty much it for this chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "fileName": "1. What Are API Routes in Expo Router_epm.vtt",
+      "captionIndex": 137,
+      "start": 611.44,
+      "end": 617.22,
+      "duration": 5.78,
+      "startTimestamp": "00:10:11.440",
+      "endTimestamp": "00:10:17.220",
+      "estimatedTokens": 21
+    }
+  }
+]

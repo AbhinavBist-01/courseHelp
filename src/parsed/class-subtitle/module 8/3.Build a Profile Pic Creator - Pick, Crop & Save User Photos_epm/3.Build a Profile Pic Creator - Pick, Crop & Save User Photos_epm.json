@@ -1,0 +1,2092 @@
+[
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0001",
+    "text": "Alright everyone and welcome to one more new mini project video.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 1,
+      "start": 0,
+      "end": 3.98,
+      "duration": 3.98,
+      "startTimestamp": "00:00:00.000",
+      "endTimestamp": "00:00:03.980",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0002",
+    "text": "In this chapter we are basically going to create a profile image picker mini project.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 2,
+      "start": 4.23,
+      "end": 10.64,
+      "duration": 6.41,
+      "startTimestamp": "00:00:04.230",
+      "endTimestamp": "00:00:10.640",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0003",
+    "text": "So let's move ahead and start building it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 3,
+      "start": 11.01,
+      "end": 13.28,
+      "duration": 2.27,
+      "startTimestamp": "00:00:11.010",
+      "endTimestamp": "00:00:13.280",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0004",
+    "text": "Right now let me come into here and then simply initialize R and FeS and then let me simply",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 4,
+      "start": 14.21,
+      "end": 20.36,
+      "duration": 6.15,
+      "startTimestamp": "00:00:14.210",
+      "endTimestamp": "00:00:20.360",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0005",
+    "text": "say index.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 5,
+      "start": 20.48,
+      "end": 21.56,
+      "duration": 1.08,
+      "startTimestamp": "00:00:20.480",
+      "endTimestamp": "00:00:21.560",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0006",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 6,
+      "start": 22.47,
+      "end": 22.66,
+      "duration": 0.19,
+      "startTimestamp": "00:00:22.470",
+      "endTimestamp": "00:00:22.660",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0007",
+    "text": "And then let me try to reload it once so that we are back to normal.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 7,
+      "start": 23.56,
+      "end": 27.58,
+      "duration": 4.02,
+      "startTimestamp": "00:00:23.560",
+      "endTimestamp": "00:00:27.580",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0008",
+    "text": "And for creating this, you need a bunch of things, but we already have other things,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 8,
+      "start": 29.6,
+      "end": 37.48,
+      "duration": 7.88,
+      "startTimestamp": "00:00:29.600",
+      "endTimestamp": "00:00:37.480",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0009",
+    "text": "but first of all, let me simply CLS it and then run Banex Expo install.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 9,
+      "start": 37.6,
+      "end": 42.82,
+      "duration": 5.22,
+      "startTimestamp": "00:00:37.600",
+      "endTimestamp": "00:00:42.820",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0010",
+    "text": "And first thing I wanted you to install is Expo image picker so that we can understand",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 10,
+      "start": 43.28,
+      "end": 49.62,
+      "duration": 6.34,
+      "startTimestamp": "00:00:43.280",
+      "endTimestamp": "00:00:49.620",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0011",
+    "text": "about this as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 11,
+      "start": 49.76,
+      "end": 50.8,
+      "duration": 1.04,
+      "startTimestamp": "00:00:49.760",
+      "endTimestamp": "00:00:50.800",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0012",
+    "text": "Then we can import expo image manipulator like we have a tons of libraries, manipulator",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 12,
+      "start": 51.1,
+      "end": 58.699,
+      "duration": 7.599,
+      "startTimestamp": "00:00:51.100",
+      "endTimestamp": "00:00:58.699",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0013",
+    "text": "and I think yes this is what we need for now and then I can simply say expo image manipulator",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 13,
+      "start": 60.079,
+      "end": 67.5,
+      "duration": 7.421,
+      "startTimestamp": "00:01:00.079",
+      "endTimestamp": "00:01:07.500",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0014",
+    "text": "perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 14,
+      "start": 67.82,
+      "end": 68.03999999999999,
+      "duration": 0.22,
+      "startTimestamp": "00:01:07.820",
+      "endTimestamp": "00:01:08.040",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0015",
+    "text": "Let me just clear it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 15,
+      "start": 69.36,
+      "end": 70.42,
+      "duration": 1.06,
+      "startTimestamp": "00:01:09.360",
+      "endTimestamp": "00:01:10.420",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0016",
+    "text": "And let me import all of the thing that I need.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 16,
+      "start": 71.2,
+      "end": 74.56,
+      "duration": 3.36,
+      "startTimestamp": "00:01:11.200",
+      "endTimestamp": "00:01:14.560",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0017",
+    "text": "So I need an image manipulator from Expo image manipulator.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 17,
+      "start": 75.399,
+      "end": 78.799,
+      "duration": 3.4,
+      "startTimestamp": "00:01:15.399",
+      "endTimestamp": "00:01:18.799",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0018",
+    "text": "I need an image picker from Expo image picker.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 18,
+      "start": 79.2,
+      "end": 82.06,
+      "duration": 2.86,
+      "startTimestamp": "00:01:19.200",
+      "endTimestamp": "00:01:22.060",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0019",
+    "text": "Use router.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 19,
+      "start": 82.64,
+      "end": 83.24,
+      "duration": 0.6,
+      "startTimestamp": "00:01:22.640",
+      "endTimestamp": "00:01:23.240",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0020",
+    "text": "Use state.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 20,
+      "start": 84.2,
+      "end": 84.64,
+      "duration": 0.44,
+      "startTimestamp": "00:01:24.200",
+      "endTimestamp": "00:01:24.640",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0021",
+    "text": "Alert.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 21,
+      "start": 85.28,
+      "end": 85.399,
+      "duration": 0.119,
+      "startTimestamp": "00:01:25.280",
+      "endTimestamp": "00:01:25.399",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0022",
+    "text": "Image.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 22,
+      "start": 85.939,
+      "end": 86.299,
+      "duration": 0.36,
+      "startTimestamp": "00:01:25.939",
+      "endTimestamp": "00:01:26.299",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0023",
+    "text": "Style sheet.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 23,
+      "start": 86.759,
+      "end": 87.179,
+      "duration": 0.42,
+      "startTimestamp": "00:01:26.759",
+      "endTimestamp": "00:01:27.179",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0024",
+    "text": "Text.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 24,
+      "start": 87.56,
+      "end": 87.78,
+      "duration": 0.22,
+      "startTimestamp": "00:01:27.560",
+      "endTimestamp": "00:01:27.780",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0025",
+    "text": "Touchable opacity and view.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 25,
+      "start": 88,
+      "end": 89.52,
+      "duration": 1.52,
+      "startTimestamp": "00:01:28.000",
+      "endTimestamp": "00:01:29.520",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0026",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 26,
+      "start": 89.679,
+      "end": 89.899,
+      "duration": 0.22,
+      "startTimestamp": "00:01:29.679",
+      "endTimestamp": "00:01:29.899",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0027",
+    "text": "And then what I can do first of all let me simply maintain and first of all let me just",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 27,
+      "start": 92.65899999999999,
+      "end": 98.96000000000001,
+      "duration": 6.301,
+      "startTimestamp": "00:01:32.659",
+      "endTimestamp": "00:01:38.960",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0028",
+    "text": "add all the styles that I need so I can come into here and save it perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 28,
+      "start": 101.22,
+      "end": 106.82,
+      "duration": 5.6,
+      "startTimestamp": "00:01:41.220",
+      "endTimestamp": "00:01:46.820",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0029",
+    "text": "So, all the styles related to container, title, profile container, profile image, placeholder,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 29,
+      "start": 107.7,
+      "end": 115.259,
+      "duration": 7.559,
+      "startTimestamp": "00:01:47.700",
+      "endTimestamp": "00:01:55.259",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0030",
+    "text": "placeholder text, button container, button and button text, alright.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 30,
+      "start": 115.72,
+      "end": 120.56,
+      "duration": 4.84,
+      "startTimestamp": "00:01:55.720",
+      "endTimestamp": "00:02:00.560",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0031",
+    "text": "Then what I can do, I can move ahead and first of all initialize all the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 31,
+      "start": 121.82,
+      "end": 137.68,
+      "duration": 15.86,
+      "startTimestamp": "00:02:01.820",
+      "endTimestamp": "00:02:17.680",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0032",
+    "text": "state variable that I need. So, I only need one state variable that is as profile image",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 32,
+      "start": 137.681,
+      "end": 137.701,
+      "duration": 0.02,
+      "startTimestamp": "00:02:17.681",
+      "endTimestamp": "00:02:17.701",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0033",
+    "text": "and set profile image perfect. And along with that let me first of all paste my entire",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 33,
+      "start": 137.702,
+      "end": 141.88,
+      "duration": 4.178,
+      "startTimestamp": "00:02:17.702",
+      "endTimestamp": "00:02:21.880",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0034",
+    "text": "UI.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 34,
+      "start": 142.14,
+      "end": 142.3,
+      "duration": 0.16,
+      "startTimestamp": "00:02:22.140",
+      "endTimestamp": "00:02:22.300",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0035",
+    "text": "So, this is the entire UI I need.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 35,
+      "start": 144.86,
+      "end": 147.62,
+      "duration": 2.76,
+      "startTimestamp": "00:02:24.860",
+      "endTimestamp": "00:02:27.620",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0036",
+    "text": "So we have a view.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 36,
+      "start": 148.04,
+      "end": 149.26,
+      "duration": 1.22,
+      "startTimestamp": "00:02:28.040",
+      "endTimestamp": "00:02:29.260",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0037",
+    "text": "This view have a text as profile picture.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 37,
+      "start": 150.42000000000002,
+      "end": 152.64,
+      "duration": 2.22,
+      "startTimestamp": "00:02:30.420",
+      "endTimestamp": "00:02:32.640",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0038",
+    "text": "Then we have a profile picture container, something like this, whatever the profile image is coming,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 38,
+      "start": 153.06,
+      "end": 159.26,
+      "duration": 6.2,
+      "startTimestamp": "00:02:33.060",
+      "endTimestamp": "00:02:39.260",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0039",
+    "text": "otherwise we are showing no photo and then a titchable opacity, which is calling a take",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 39,
+      "start": 159.42000000000002,
+      "end": 165.019,
+      "duration": 5.599,
+      "startTimestamp": "00:02:39.420",
+      "endTimestamp": "00:02:45.019",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0040",
+    "text": "photo and then a pic photo.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 40,
+      "start": 165.14,
+      "end": 166.739,
+      "duration": 1.599,
+      "startTimestamp": "00:02:45.140",
+      "endTimestamp": "00:02:46.739",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0041",
+    "text": "All right.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 41,
+      "start": 167.379,
+      "end": 167.68,
+      "duration": 0.301,
+      "startTimestamp": "00:02:47.379",
+      "endTimestamp": "00:02:47.680",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0042",
+    "text": "Nice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 42,
+      "start": 168.239,
+      "end": 168.42000000000002,
+      "duration": 0.181,
+      "startTimestamp": "00:02:48.239",
+      "endTimestamp": "00:02:48.420",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0043",
+    "text": "Now let's move ahead and first of all ask for a permission.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 43,
+      "start": 168.421,
+      "end": 173.579,
+      "duration": 5.158,
+      "startTimestamp": "00:02:48.421",
+      "endTimestamp": "00:02:53.579",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0044",
+    "text": "So for asking for a permission I can simply say const request permissions is equals to",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 44,
+      "start": 174.53,
+      "end": 180.799,
+      "duration": 6.269,
+      "startTimestamp": "00:02:54.530",
+      "endTimestamp": "00:03:00.799",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0045",
+    "text": "a sync and then I can say const status and I will say this as camera status is equals",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 45,
+      "start": 180.849,
+      "end": 191.04,
+      "duration": 10.191,
+      "startTimestamp": "00:03:00.849",
+      "endTimestamp": "00:03:11.040",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0046",
+    "text": "to await image picker.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 46,
+      "start": 191.099,
+      "end": 194.099,
+      "duration": 3,
+      "startTimestamp": "00:03:11.099",
+      "endTimestamp": "00:03:14.099",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0047",
+    "text": ".Request camera permission async in same way I can ask for media permission so I can",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 47,
+      "start": 197.54,
+      "end": 203.319,
+      "duration": 5.779,
+      "startTimestamp": "00:03:17.540",
+      "endTimestamp": "00:03:23.319",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0048",
+    "text": "say status and this will equal to media status and I can say this as await again image picker",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 48,
+      "start": 203.32,
+      "end": 213.019,
+      "duration": 9.699,
+      "startTimestamp": "00:03:23.320",
+      "endTimestamp": "00:03:33.019",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0049",
+    "text": ".request media library permission async perfect and a simple check if we don't get any permission",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 49,
+      "start": 215.04,
+      "end": 223.38,
+      "duration": 8.34,
+      "startTimestamp": "00:03:35.040",
+      "endTimestamp": "00:03:43.380",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0050",
+    "text": "then I can simply say I need permission bro please allow me otherwise I will return a",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 50,
+      "start": 223.6,
+      "end": 229.76,
+      "duration": 6.16,
+      "startTimestamp": "00:03:43.600",
+      "endTimestamp": "00:03:49.760",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0051",
+    "text": "simple true perfect if we are not getting any permission we are showing alert and returning",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 51,
+      "start": 229.78,
+      "end": 235.16,
+      "duration": 5.38,
+      "startTimestamp": "00:03:49.780",
+      "endTimestamp": "00:03:55.160",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0052",
+    "text": "a false otherwise we are returning a true nice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 52,
+      "start": 235.161,
+      "end": 238.86,
+      "duration": 3.699,
+      "startTimestamp": "00:03:55.161",
+      "endTimestamp": "00:03:58.860",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0053",
+    "text": "Now, let's move ahead and create first method name as take photo.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 53,
+      "start": 239.4,
+      "end": 246.099,
+      "duration": 6.699,
+      "startTimestamp": "00:03:59.400",
+      "endTimestamp": "00:04:06.099",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0054",
+    "text": "So I can say simply take photo is equals to async async async and this is first of all",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 54,
+      "start": 246.18,
+      "end": 256.06,
+      "duration": 9.88,
+      "startTimestamp": "00:04:06.180",
+      "endTimestamp": "00:04:16.060",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0055",
+    "text": "check has permission.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 55,
+      "start": 256.139,
+      "end": 257.459,
+      "duration": 1.32,
+      "startTimestamp": "00:04:16.139",
+      "endTimestamp": "00:04:17.459",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0056",
+    "text": "and await request permission perfect and again if we don't have any permission so I can",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 56,
+      "start": 258.8,
+      "end": 266.84,
+      "duration": 8.04,
+      "startTimestamp": "00:04:18.800",
+      "endTimestamp": "00:04:26.840",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0057",
+    "text": "simply return it otherwise I will say try and catch inside the try first thing first",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 57,
+      "start": 266.94,
+      "end": 274.099,
+      "duration": 7.159,
+      "startTimestamp": "00:04:26.940",
+      "endTimestamp": "00:04:34.099",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0058",
+    "text": "let's launch our camera.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 58,
+      "start": 274.3,
+      "end": 276.24,
+      "duration": 1.94,
+      "startTimestamp": "00:04:34.300",
+      "endTimestamp": "00:04:36.240",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0059",
+    "text": "So, I will write something like this, image picker launch camera sync, yes you can also",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 59,
+      "start": 277.2,
+      "end": 283.88,
+      "duration": 6.68,
+      "startTimestamp": "00:04:37.200",
+      "endTimestamp": "00:04:43.880",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0060",
+    "text": "launch from here and say media type as image, allow editing true, aspect ratio of our image",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 60,
+      "start": 284,
+      "end": 290.92,
+      "duration": 6.92,
+      "startTimestamp": "00:04:44.000",
+      "endTimestamp": "00:04:50.920",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0061",
+    "text": "is 1 is to 1 and then quality is 0.8.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 61,
+      "start": 291.08,
+      "end": 293.74,
+      "duration": 2.66,
+      "startTimestamp": "00:04:51.080",
+      "endTimestamp": "00:04:53.740",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0062",
+    "text": "But if result is now become cancelled, then I can say if not of result dot cancelled",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 62,
+      "start": 294.98,
+      "end": 302.58,
+      "duration": 7.6,
+      "startTimestamp": "00:04:54.980",
+      "endTimestamp": "00:05:02.580",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0063",
+    "text": "and result assets is something like this then what I will do I will resize to square or",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 63,
+      "start": 303.5,
+      "end": 314.68,
+      "duration": 11.18,
+      "startTimestamp": "00:05:03.500",
+      "endTimestamp": "00:05:14.680",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0064",
+    "text": "profile pic.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 64,
+      "start": 314.74,
+      "end": 315.4,
+      "duration": 0.66,
+      "startTimestamp": "00:05:14.740",
+      "endTimestamp": "00:05:15.400",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0065",
+    "text": "So we are basically resizing bunch of thing.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 65,
+      "start": 315.43,
+      "end": 317.64,
+      "duration": 2.21,
+      "startTimestamp": "00:05:15.430",
+      "endTimestamp": "00:05:17.640",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0066",
+    "text": "First of all let me get my image ref and you just get confused after this but no problem",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 66,
+      "start": 318.66,
+      "end": 324.42,
+      "duration": 5.76,
+      "startTimestamp": "00:05:18.660",
+      "endTimestamp": "00:05:24.420",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0067",
+    "text": "let me paste it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 67,
+      "start": 324.52,
+      "end": 325.24,
+      "duration": 0.72,
+      "startTimestamp": "00:05:24.520",
+      "endTimestamp": "00:05:25.240",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0068",
+    "text": "I have a image ref, I am just getting with this, so await image manipulator dot image",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 68,
+      "start": 325.7,
+      "end": 332.76,
+      "duration": 7.06,
+      "startTimestamp": "00:05:25.700",
+      "endTimestamp": "00:05:32.760",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0069",
+    "text": "manipulator dot manipulate and result dot asset at the zeroth index we have the access",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 69,
+      "start": 332.88,
+      "end": 338.65999999999997,
+      "duration": 5.78,
+      "startTimestamp": "00:05:32.880",
+      "endTimestamp": "00:05:38.660",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0070",
+    "text": "of URI and the size is something like this and then render this image.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 70,
+      "start": 338.84000000000003,
+      "end": 342.98,
+      "duration": 4.14,
+      "startTimestamp": "00:05:38.840",
+      "endTimestamp": "00:05:42.980",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0071",
+    "text": "Then, I will simply say const menuPulateImage is equals to await imageRef.SaveAsync.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 71,
+      "start": 344,
+      "end": 355,
+      "duration": 11,
+      "startTimestamp": "00:05:44.000",
+      "endTimestamp": "00:05:55.000",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0072",
+    "text": "So, we are saving this and I can first of all say compress this image 0.8 and then format",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 72,
+      "start": 355.7,
+      "end": 363.38,
+      "duration": 7.68,
+      "startTimestamp": "00:05:55.700",
+      "endTimestamp": "00:06:03.380",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0073",
+    "text": "will be saved.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 73,
+      "start": 363.7,
+      "end": 365.86,
+      "duration": 2.16,
+      "startTimestamp": "00:06:03.700",
+      "endTimestamp": "00:06:05.860",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0074",
+    "text": "is image manipulator dot save format and let's save in JPEG PNG or the P let's save in JPEG",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 74,
+      "start": 366.1,
+      "end": 376.44,
+      "duration": 10.34,
+      "startTimestamp": "00:06:06.100",
+      "endTimestamp": "00:06:16.440",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0075",
+    "text": "perfect and then I will set my profile image equal to manipulate image dot URI so something",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 75,
+      "start": 376.82,
+      "end": 387.02,
+      "duration": 10.2,
+      "startTimestamp": "00:06:16.820",
+      "endTimestamp": "00:06:27.020",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0076",
+    "text": "like",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 76,
+      "start": 387.021,
+      "end": 387.22,
+      "duration": 0.199,
+      "startTimestamp": "00:06:27.021",
+      "endTimestamp": "00:06:27.220",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0077",
+    "text": "this manipulated image dot URI nice and but any chance if we have any error then we will",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 77,
+      "start": 388,
+      "end": 398,
+      "duration": 10,
+      "startTimestamp": "00:06:28.000",
+      "endTimestamp": "00:06:38.000",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0078",
+    "text": "simply show this error.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 78,
+      "start": 398.04,
+      "end": 399.24,
+      "duration": 1.2,
+      "startTimestamp": "00:06:38.040",
+      "endTimestamp": "00:06:39.240",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0079",
+    "text": "So let me save it perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 79,
+      "start": 399.68,
+      "end": 401.62,
+      "duration": 1.94,
+      "startTimestamp": "00:06:39.680",
+      "endTimestamp": "00:06:41.620",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0080",
+    "text": "All right, we don't have a method I think if I'm not wrong but no problem.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 80,
+      "start": 402.65999999999997,
+      "end": 406.38,
+      "duration": 3.72,
+      "startTimestamp": "00:06:42.660",
+      "endTimestamp": "00:06:46.380",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0081",
+    "text": "Let me come into here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 81,
+      "start": 406.72,
+      "end": 407.68,
+      "duration": 0.96,
+      "startTimestamp": "00:06:46.720",
+      "endTimestamp": "00:06:47.680",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0082",
+    "text": "This is our take photo.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 82,
+      "start": 407.94,
+      "end": 408.92,
+      "duration": 0.98,
+      "startTimestamp": "00:06:47.940",
+      "endTimestamp": "00:06:48.920",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0083",
+    "text": "In same way I can have a pic photo.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 83,
+      "start": 409.96,
+      "end": 412.04,
+      "duration": 2.08,
+      "startTimestamp": "00:06:49.960",
+      "endTimestamp": "00:06:52.040",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0084",
+    "text": "pick photo is also same kind of like that. So let me just copy and paste my pick photo.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 84,
+      "start": 413.1,
+      "end": 420.06,
+      "duration": 6.96,
+      "startTimestamp": "00:06:53.100",
+      "endTimestamp": "00:07:00.060",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0085",
+    "text": "So this is my pick photo also everything is same. We are just manipulating the result",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 85,
+      "start": 422.08,
+      "end": 427.02,
+      "duration": 4.94,
+      "startTimestamp": "00:07:02.080",
+      "endTimestamp": "00:07:07.020",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0086",
+    "text": "and asset saving in JPEG and setting the profile like this. Alright, and if I reloaded once",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 86,
+      "start": 427.2,
+      "end": 434.58,
+      "duration": 7.38,
+      "startTimestamp": "00:07:07.200",
+      "endTimestamp": "00:07:14.580",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0087",
+    "text": "again let me close everything rerun my application.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 87,
+      "start": 434.62,
+      "end": 437.1,
+      "duration": 2.48,
+      "startTimestamp": "00:07:14.620",
+      "endTimestamp": "00:07:17.100",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0088",
+    "text": "Let me close all, where is my expo go?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 88,
+      "start": 438.66,
+      "end": 442.18,
+      "duration": 3.52,
+      "startTimestamp": "00:07:18.660",
+      "endTimestamp": "00:07:22.180",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0089",
+    "text": "This one, perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 89,
+      "start": 442.46,
+      "end": 444.02,
+      "duration": 1.56,
+      "startTimestamp": "00:07:22.460",
+      "endTimestamp": "00:07:24.020",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0090",
+    "text": "Now let me open my module 8 and look at that, this is our no photo and now if I press on",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 90,
+      "start": 445.46,
+      "end": 456.92,
+      "duration": 11.46,
+      "startTimestamp": "00:07:25.460",
+      "endTimestamp": "00:07:36.920",
+      "estimatedTokens": 29
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0091",
+    "text": "take photo, so you will see I am able to open my camera and if I let's say just take the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 91,
+      "start": 457.04,
+      "end": 462.44,
+      "duration": 5.4,
+      "startTimestamp": "00:07:37.040",
+      "endTimestamp": "00:07:42.440",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0092",
+    "text": "photo of my PC.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 92,
+      "start": 462.44100000000003,
+      "end": 463.52,
+      "duration": 1.079,
+      "startTimestamp": "00:07:42.441",
+      "endTimestamp": "00:07:43.520",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0093",
+    "text": "And if I save it, look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 93,
+      "start": 464.1,
+      "end": 466.26,
+      "duration": 2.16,
+      "startTimestamp": "00:07:44.100",
+      "endTimestamp": "00:07:46.260",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0094",
+    "text": "This is what my image is coming and if I press on OK, all right.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 94,
+      "start": 466.74,
+      "end": 471.64,
+      "duration": 4.9,
+      "startTimestamp": "00:07:46.740",
+      "endTimestamp": "00:07:51.640",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0095",
+    "text": "Now they are asking me to crop because we are setting this up for our profile.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 95,
+      "start": 471.78,
+      "end": 475.65999999999997,
+      "duration": 3.88,
+      "startTimestamp": "00:07:51.780",
+      "endTimestamp": "00:07:55.660",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0096",
+    "text": "If I simply say crop, look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 96,
+      "start": 475.92,
+      "end": 478.92,
+      "duration": 3,
+      "startTimestamp": "00:07:55.920",
+      "endTimestamp": "00:07:58.920",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0097",
+    "text": "Now we are able to set this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 97,
+      "start": 479.3,
+      "end": 481.36,
+      "duration": 2.06,
+      "startTimestamp": "00:07:59.300",
+      "endTimestamp": "00:08:01.360",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0098",
+    "text": "image as my profile. If I press on choose from gallery, look at that. Now my gallery",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 98,
+      "start": 481.8,
+      "end": 488.199,
+      "duration": 6.399,
+      "startTimestamp": "00:08:01.800",
+      "endTimestamp": "00:08:08.199",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0099",
+    "text": "is I am able to access my gallery. Perfect. And let's say if I just select this photo",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 99,
+      "start": 488.379,
+      "end": 494.099,
+      "duration": 5.72,
+      "startTimestamp": "00:08:08.379",
+      "endTimestamp": "00:08:14.099",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0100",
+    "text": "and if I simply press on crop, look at that. So this is how you can basically access your",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 100,
+      "start": 494.4,
+      "end": 500.419,
+      "duration": 6.019,
+      "startTimestamp": "00:08:14.400",
+      "endTimestamp": "00:08:20.419",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0101",
+    "text": "user's gallery with the help of these library image manipulator and image picker. But if",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 101,
+      "start": 500.58,
+      "end": 507.44,
+      "duration": 6.86,
+      "startTimestamp": "00:08:20.580",
+      "endTimestamp": "00:08:27.440",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0102",
+    "text": "you wanted to use.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 102,
+      "start": 507.441,
+      "end": 508.46,
+      "duration": 1.019,
+      "startTimestamp": "00:08:27.441",
+      "endTimestamp": "00:08:28.460",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0103",
+    "text": "Expo some another media library for that you need to create a build but yes this is how",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 103,
+      "start": 509,
+      "end": 516.48,
+      "duration": 7.48,
+      "startTimestamp": "00:08:29.000",
+      "endTimestamp": "00:08:36.480",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0104",
+    "text": "you can choose your images, take photos and set that as a profile picture but you can definitely",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 104,
+      "start": 516.481,
+      "end": 523.539,
+      "duration": 7.058,
+      "startTimestamp": "00:08:36.481",
+      "endTimestamp": "00:08:43.539",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0105",
+    "text": "change as background, set as wallpapers, it's up to you.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 105,
+      "start": 523.679,
+      "end": 527.34,
+      "duration": 3.661,
+      "startTimestamp": "00:08:43.679",
+      "endTimestamp": "00:08:47.340",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0106",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 106,
+      "start": 528,
+      "end": 528.88,
+      "duration": 0.88,
+      "startTimestamp": "00:08:48.000",
+      "endTimestamp": "00:08:48.880",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0107",
+    "text": "So this is how you can basically take the help of expose, expose lot of libraries like",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 107,
+      "start": 529.48,
+      "end": 538.02,
+      "duration": 8.54,
+      "startTimestamp": "00:08:49.480",
+      "endTimestamp": "00:08:58.020",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0108",
+    "text": "camera, media, audio, file picker, image picker, image manipulator, you can do bunch of things.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 108,
+      "start": 538.22,
+      "end": 545.02,
+      "duration": 6.8,
+      "startTimestamp": "00:08:58.220",
+      "endTimestamp": "00:09:05.020",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0109",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 109,
+      "start": 545.4,
+      "end": 545.68,
+      "duration": 0.28,
+      "startTimestamp": "00:09:05.400",
+      "endTimestamp": "00:09:05.680",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_0110",
+    "text": "So with this, this is pretty much it for this entire module and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "fileName": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "captionIndex": 110,
+      "start": 546.5,
+      "end": 551.66,
+      "duration": 5.16,
+      "startTimestamp": "00:09:06.500",
+      "endTimestamp": "00:09:11.660",
+      "estimatedTokens": 23
+    }
+  }
+]

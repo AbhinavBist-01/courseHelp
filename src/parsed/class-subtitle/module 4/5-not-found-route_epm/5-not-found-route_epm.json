@@ -1,0 +1,1256 @@
+[
+  {
+    "id": "5-not-found-route_epm_0001",
+    "text": "Alright everyone and in this lecture we will learn how to handle unmatched route inside",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 1,
+      "start": 0,
+      "end": 6.98,
+      "duration": 6.98,
+      "startTimestamp": "00:00:00.000",
+      "endTimestamp": "00:00:06.980",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0002",
+    "text": "the expo router.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 2,
+      "start": 7.36,
+      "end": 8.24,
+      "duration": 0.88,
+      "startTimestamp": "00:00:07.360",
+      "endTimestamp": "00:00:08.240",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0003",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 3,
+      "start": 9.22,
+      "end": 9.34,
+      "duration": 0.12,
+      "startTimestamp": "00:00:09.220",
+      "endTimestamp": "00:00:09.340",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0004",
+    "text": "So in traditional web apps when a user type any URL that does not match any route so we",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 4,
+      "start": 10.04,
+      "end": 15.98,
+      "duration": 5.94,
+      "startTimestamp": "00:00:10.040",
+      "endTimestamp": "00:00:15.980",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0005",
+    "text": "know that server is going to return as a 404 page.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 5,
+      "start": 16.059,
+      "end": 19.54,
+      "duration": 3.481,
+      "startTimestamp": "00:00:16.059",
+      "endTimestamp": "00:00:19.540",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0006",
+    "text": "But in native mobile apps, there is not a server.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 6,
+      "start": 20.32,
+      "end": 24.42,
+      "duration": 4.1,
+      "startTimestamp": "00:00:20.320",
+      "endTimestamp": "00:00:24.420",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0007",
+    "text": "We can say so technically there is not any HTTP 404.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 7,
+      "start": 25.56,
+      "end": 30.32,
+      "duration": 4.76,
+      "startTimestamp": "00:00:25.560",
+      "endTimestamp": "00:00:30.320",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0008",
+    "text": "Yep, but if we are building a universal app, let's say native plus web, like this is your",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 8,
+      "start": 31.04,
+      "end": 36.82,
+      "duration": 5.78,
+      "startTimestamp": "00:00:31.040",
+      "endTimestamp": "00:00:36.820",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0009",
+    "text": "native, like you can run this inside your Android iOS and even in web.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 9,
+      "start": 36.86,
+      "end": 41.08,
+      "duration": 4.22,
+      "startTimestamp": "00:00:36.860",
+      "endTimestamp": "00:00:41.080",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0010",
+    "text": "So technically there is, so we can say you still want a way to show a custom not found.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 10,
+      "start": 41.72,
+      "end": 47.44,
+      "duration": 5.72,
+      "startTimestamp": "00:00:41.720",
+      "endTimestamp": "00:00:47.440",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0011",
+    "text": "When the path does not exist, that's why expo router provides this using a special file",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 11,
+      "start": 48.2,
+      "end": 56.56,
+      "duration": 8.36,
+      "startTimestamp": "00:00:48.200",
+      "endTimestamp": "00:00:56.560",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0012",
+    "text": "name notation.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 12,
+      "start": 56.69,
+      "end": 57.44,
+      "duration": 0.75,
+      "startTimestamp": "00:00:56.690",
+      "endTimestamp": "00:00:57.440",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0013",
+    "text": "We can something say that as app and plus not-found.tsx.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 13,
+      "start": 59.21,
+      "end": 67.04,
+      "duration": 7.83,
+      "startTimestamp": "00:00:59.210",
+      "endTimestamp": "00:01:07.040",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0014",
+    "text": "So plus not-found is the main thing here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 14,
+      "start": 67.041,
+      "end": 70.34,
+      "duration": 3.299,
+      "startTimestamp": "00:01:07.041",
+      "endTimestamp": "00:01:10.340",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0015",
+    "text": "Cool, so this is a special notation just to create a unmatched route, a custom unmatched",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 15,
+      "start": 70.6,
+      "end": 77.72,
+      "duration": 7.12,
+      "startTimestamp": "00:01:10.600",
+      "endTimestamp": "00:01:17.720",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0016",
+    "text": "route pages.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 16,
+      "start": 77.84,
+      "end": 78.52,
+      "duration": 0.68,
+      "startTimestamp": "00:01:17.840",
+      "endTimestamp": "00:01:18.520",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0017",
+    "text": "Cool, so native app as you guys read here don't have a server, so there is technically",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 17,
+      "start": 79.38,
+      "end": 83.92,
+      "duration": 4.54,
+      "startTimestamp": "00:01:19.380",
+      "endTimestamp": "00:01:23.920",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0018",
+    "text": "no 404.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 18,
+      "start": 84.03999999999999,
+      "end": 84.64,
+      "duration": 0.6,
+      "startTimestamp": "00:01:24.040",
+      "endTimestamp": "00:01:24.640",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0019",
+    "text": "However, if you are implementing a router universally, then it makes sense to handle a missing route.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 19,
+      "start": 84.84,
+      "end": 91.24,
+      "duration": 6.4,
+      "startTimestamp": "00:01:24.840",
+      "endTimestamp": "00:01:31.240",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0020",
+    "text": "This is done automatically for each app but you can also customize it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 20,
+      "start": 92.53999999999999,
+      "end": 96.86,
+      "duration": 4.32,
+      "startTimestamp": "00:01:32.540",
+      "endTimestamp": "00:01:36.860",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0021",
+    "text": "Cool?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 21,
+      "start": 97.52000000000001,
+      "end": 97.6,
+      "duration": 0.08,
+      "startTimestamp": "00:01:37.520",
+      "endTimestamp": "00:01:37.600",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0022",
+    "text": "So, let's see how we can basically customize this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 22,
+      "start": 98.24000000000001,
+      "end": 100.52000000000001,
+      "duration": 2.28,
+      "startTimestamp": "00:01:38.240",
+      "endTimestamp": "00:01:40.520",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0023",
+    "text": "So, it's easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 23,
+      "start": 101.4,
+      "end": 102.22,
+      "duration": 0.82,
+      "startTimestamp": "00:01:41.400",
+      "endTimestamp": "00:01:42.220",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0024",
+    "text": "You can ignore it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 24,
+      "start": 102.27000000000001,
+      "end": 103.3,
+      "duration": 1.03,
+      "startTimestamp": "00:01:42.270",
+      "endTimestamp": "00:01:43.300",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0025",
+    "text": "Let me show you in much easier way.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 25,
+      "start": 103.38,
+      "end": 105.02000000000001,
+      "duration": 1.64,
+      "startTimestamp": "00:01:43.380",
+      "endTimestamp": "00:01:45.020",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0026",
+    "text": "So, how basically this is going to work?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 26,
+      "start": 105.9,
+      "end": 108.479,
+      "duration": 2.579,
+      "startTimestamp": "00:01:45.900",
+      "endTimestamp": "00:01:48.479",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0027",
+    "text": "Like, if I tell you the default behavior of it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 27,
+      "start": 109.36,
+      "end": 112.02000000000001,
+      "duration": 2.66,
+      "startTimestamp": "00:01:49.360",
+      "endTimestamp": "00:01:52.020",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0028",
+    "text": "So, the default behavior is explore outer will automatically cache all your unmatched",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 28,
+      "start": 112.3,
+      "end": 118.53999999999999,
+      "duration": 6.24,
+      "startTimestamp": "00:01:52.300",
+      "endTimestamp": "00:01:58.540",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0029",
+    "text": "route perfect this is automatically going to cache all my unmatched paths and render",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 29,
+      "start": 118.62,
+      "end": 126.62,
+      "duration": 8,
+      "startTimestamp": "00:01:58.620",
+      "endTimestamp": "00:02:06.620",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0030",
+    "text": "it either like let me try to show you what I am talking about if I go to my app.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 30,
+      "start": 127.2,
+      "end": 130.919,
+      "duration": 3.719,
+      "startTimestamp": "00:02:07.200",
+      "endTimestamp": "00:02:10.919",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0031",
+    "text": "an index cool and let me try to go in a page that don't exist let's say this pages don't",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 31,
+      "start": 131.68,
+      "end": 137.98,
+      "duration": 6.3,
+      "startTimestamp": "00:02:11.680",
+      "endTimestamp": "00:02:17.980",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0032",
+    "text": "exist this screen is don't exist if I press on feed you will see I am seeing here unmasked",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 32,
+      "start": 138.019,
+      "end": 144.92000000000002,
+      "duration": 6.901,
+      "startTimestamp": "00:02:18.019",
+      "endTimestamp": "00:02:24.920",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0033",
+    "text": "route and page could not be found at this point if you they even provide you site map",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 33,
+      "start": 144.98,
+      "end": 150.28,
+      "duration": 5.3,
+      "startTimestamp": "00:02:24.980",
+      "endTimestamp": "00:02:30.280",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0034",
+    "text": "so by that you can click anywhere and redirect there let's say let me go to my index but",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 34,
+      "start": 150.799,
+      "end": 156.879,
+      "duration": 6.08,
+      "startTimestamp": "00:02:30.799",
+      "endTimestamp": "00:02:36.879",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0035",
+    "text": "And if I again press you will see this is your unmask route.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 35,
+      "start": 156.88,
+      "end": 159.799,
+      "duration": 2.919,
+      "startTimestamp": "00:02:36.880",
+      "endTimestamp": "00:02:39.799",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0036",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 36,
+      "start": 160.5,
+      "end": 161.4,
+      "duration": 0.9,
+      "startTimestamp": "00:02:40.500",
+      "endTimestamp": "00:02:41.400",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0037",
+    "text": "So this is the default unmatched routes screen we can say.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 37,
+      "start": 161.53,
+      "end": 165.14,
+      "duration": 3.61,
+      "startTimestamp": "00:02:41.530",
+      "endTimestamp": "00:02:45.140",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0038",
+    "text": "So you can definitely customize it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 38,
+      "start": 165.23,
+      "end": 167.04,
+      "duration": 1.81,
+      "startTimestamp": "00:02:45.230",
+      "endTimestamp": "00:02:47.040",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0039",
+    "text": "How you can customize this?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 39,
+      "start": 167.53,
+      "end": 168.68,
+      "duration": 1.15,
+      "startTimestamp": "00:02:47.530",
+      "endTimestamp": "00:02:48.680",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0040",
+    "text": "Inside the app at the root level, like this is your global, we can say not found page.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 40,
+      "start": 169.42000000000002,
+      "end": 175.16,
+      "duration": 5.74,
+      "startTimestamp": "00:02:49.420",
+      "endTimestamp": "00:02:55.160",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0041",
+    "text": "So you can simply say plus not found dot TSX.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 41,
+      "start": 175.63,
+      "end": 180.14,
+      "duration": 4.51,
+      "startTimestamp": "00:02:55.630",
+      "endTimestamp": "00:03:00.140",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0042",
+    "text": "And then inside this plus not found dot TSX, you can write whatever you want.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 42,
+      "start": 180.83,
+      "end": 186.54,
+      "duration": 5.71,
+      "startTimestamp": "00:03:00.830",
+      "endTimestamp": "00:03:06.540",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0043",
+    "text": "Cool, so you can definitely something like this, let me just try to write it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 43,
+      "start": 187,
+      "end": 192.52,
+      "duration": 5.52,
+      "startTimestamp": "00:03:07.000",
+      "endTimestamp": "00:03:12.520",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0044",
+    "text": "I can say this as custom not found, so R and FES and I will say this as custom not found.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 44,
+      "start": 193.75,
+      "end": 200.16,
+      "duration": 6.41,
+      "startTimestamp": "00:03:13.750",
+      "endTimestamp": "00:03:20.160",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0045",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 45,
+      "start": 201.44,
+      "end": 201.96,
+      "duration": 0.52,
+      "startTimestamp": "00:03:21.440",
+      "endTimestamp": "00:03:21.960",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0046",
+    "text": "And then let me press on site map, we will see is this going to work or not and let me",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 46,
+      "start": 202.5,
+      "end": 208.7,
+      "duration": 6.2,
+      "startTimestamp": "00:03:22.500",
+      "endTimestamp": "00:03:28.700",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0047",
+    "text": "try to go my feed and boom look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 47,
+      "start": 208.74,
+      "end": 211.62,
+      "duration": 2.88,
+      "startTimestamp": "00:03:28.740",
+      "endTimestamp": "00:03:31.620",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0048",
+    "text": "Now we are rendering our custom not found page.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 48,
+      "start": 212.3,
+      "end": 215.52,
+      "duration": 3.22,
+      "startTimestamp": "00:03:32.300",
+      "endTimestamp": "00:03:35.520",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0049",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 49,
+      "start": 216.53,
+      "end": 216.68,
+      "duration": 0.15,
+      "startTimestamp": "00:03:36.530",
+      "endTimestamp": "00:03:36.680",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0050",
+    "text": "So this is your global level not found page.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 50,
+      "start": 217.03,
+      "end": 219.8,
+      "duration": 2.77,
+      "startTimestamp": "00:03:37.030",
+      "endTimestamp": "00:03:39.800",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0051",
+    "text": "In same way, you can even create for specific route segments as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 51,
+      "start": 219.9,
+      "end": 224.579,
+      "duration": 4.679,
+      "startTimestamp": "00:03:39.900",
+      "endTimestamp": "00:03:44.579",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0052",
+    "text": "Let's say for profile, I wanted to create it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 52,
+      "start": 225.079,
+      "end": 227.799,
+      "duration": 2.72,
+      "startTimestamp": "00:03:45.079",
+      "endTimestamp": "00:03:47.799",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0053",
+    "text": "Alright, so we'll see how you can create it simple inside profile.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 53,
+      "start": 228.209,
+      "end": 231.56,
+      "duration": 3.351,
+      "startTimestamp": "00:03:48.209",
+      "endTimestamp": "00:03:51.560",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0054",
+    "text": "We can say you can create same thing, not found dot tsx and let me just copy this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 54,
+      "start": 231.799,
+      "end": 239.64,
+      "duration": 7.841,
+      "startTimestamp": "00:03:51.799",
+      "endTimestamp": "00:03:59.640",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0055",
+    "text": "Let me paste it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 55,
+      "start": 239.94,
+      "end": 240.76,
+      "duration": 0.82,
+      "startTimestamp": "00:03:59.940",
+      "endTimestamp": "00:04:00.760",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0056",
+    "text": "Just instead of this, let me just simply say.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 56,
+      "start": 241.299,
+      "end": 243.62,
+      "duration": 2.321,
+      "startTimestamp": "00:04:01.299",
+      "endTimestamp": "00:04:03.620",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0057",
+    "text": "profile, custom not found cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 57,
+      "start": 243.8,
+      "end": 246.72,
+      "duration": 2.92,
+      "startTimestamp": "00:04:03.800",
+      "endTimestamp": "00:04:06.720",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0058",
+    "text": "And let me try to regenerate an error.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 58,
+      "start": 247.62,
+      "end": 250.68,
+      "duration": 3.06,
+      "startTimestamp": "00:04:07.620",
+      "endTimestamp": "00:04:10.680",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0059",
+    "text": "Let's say inside profile, like this one, we have user, but let's say instead of user,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 59,
+      "start": 250.76,
+      "end": 257.04,
+      "duration": 6.28,
+      "startTimestamp": "00:04:10.760",
+      "endTimestamp": "00:04:17.040",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0060",
+    "text": "I accidentally write here users.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 60,
+      "start": 257.839,
+      "end": 259.56,
+      "duration": 1.721,
+      "startTimestamp": "00:04:17.839",
+      "endTimestamp": "00:04:19.560",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0061",
+    "text": "And if I save it and try to go to my profile, now you will see we are able to see the profile,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 61,
+      "start": 260.64,
+      "end": 267.42,
+      "duration": 6.78,
+      "startTimestamp": "00:04:20.640",
+      "endTimestamp": "00:04:27.420",
+      "estimatedTokens": 30
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0062",
+    "text": "custom not found.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 62,
+      "start": 267.66,
+      "end": 268.68,
+      "duration": 1.02,
+      "startTimestamp": "00:04:27.660",
+      "endTimestamp": "00:04:28.680",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0063",
+    "text": "So, I hope so, I am making sense and yes, this is how you can basically create your",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 63,
+      "start": 269,
+      "end": 273.98,
+      "duration": 4.98,
+      "startTimestamp": "00:04:29.000",
+      "endTimestamp": "00:04:33.980",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0064",
+    "text": "global level not found and a scope level not found.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 64,
+      "start": 274.04,
+      "end": 277.62,
+      "duration": 3.58,
+      "startTimestamp": "00:04:34.040",
+      "endTimestamp": "00:04:37.620",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0065",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 65,
+      "start": 278.38,
+      "end": 278.54,
+      "duration": 0.16,
+      "startTimestamp": "00:04:38.380",
+      "endTimestamp": "00:04:38.540",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_0066",
+    "text": "So, yeah, this is pretty much it for this easy chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "fileName": "5-not-found-route_epm.vtt",
+      "captionIndex": 66,
+      "start": 279.06,
+      "end": 283.52,
+      "duration": 4.46,
+      "startTimestamp": "00:04:39.060",
+      "endTimestamp": "00:04:43.520",
+      "estimatedTokens": 21
+    }
+  }
+]

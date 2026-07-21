@@ -1,0 +1,3707 @@
+[
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0001",
+    "text": "Alright guys and welcome to one more new chapter.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 1,
+      "start": 0.639,
+      "end": 3.82,
+      "duration": 3.181,
+      "startTimestamp": "00:00:00.639",
+      "endTimestamp": "00:00:03.820",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0002",
+    "text": "In this chapter we are going to do our environment setup and going to write our first expo project.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 2,
+      "start": 4.04,
+      "end": 10.5,
+      "duration": 6.46,
+      "startTimestamp": "00:00:04.040",
+      "endTimestamp": "00:00:10.500",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0003",
+    "text": "So before you can build any mobile app you need a proper development server.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 3,
+      "start": 11.02,
+      "end": 15.5,
+      "duration": 4.48,
+      "startTimestamp": "00:00:11.020",
+      "endTimestamp": "00:00:15.500",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0004",
+    "text": "Like if you don't have any setup then you are going to have lot of errors and lot of",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 4,
+      "start": 15.76,
+      "end": 20.1,
+      "duration": 4.34,
+      "startTimestamp": "00:00:15.760",
+      "endTimestamp": "00:00:20.100",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0005",
+    "text": "frustration and lot of time going to be wasted.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 5,
+      "start": 20.101,
+      "end": 23.48,
+      "duration": 3.379,
+      "startTimestamp": "00:00:20.101",
+      "endTimestamp": "00:00:23.480",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0006",
+    "text": "So, in this video we will set up everything step by step and going to create our first",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 6,
+      "start": 23.7,
+      "end": 28.94,
+      "duration": 5.24,
+      "startTimestamp": "00:00:23.700",
+      "endTimestamp": "00:00:28.940",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0007",
+    "text": "expo app.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 7,
+      "start": 29.24,
+      "end": 29.7,
+      "duration": 0.46,
+      "startTimestamp": "00:00:29.240",
+      "endTimestamp": "00:00:29.700",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0008",
+    "text": "So, let's start with the tool we need.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 8,
+      "start": 30.46,
+      "end": 32.4,
+      "duration": 1.94,
+      "startTimestamp": "00:00:30.460",
+      "endTimestamp": "00:00:32.400",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0009",
+    "text": "So, the first tool that make sure you have is the VS code.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 9,
+      "start": 32.88,
+      "end": 36.1,
+      "duration": 3.22,
+      "startTimestamp": "00:00:32.880",
+      "endTimestamp": "00:00:36.100",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0010",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 10,
+      "start": 36.34,
+      "end": 36.5,
+      "duration": 0.16,
+      "startTimestamp": "00:00:36.340",
+      "endTimestamp": "00:00:36.500",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0011",
+    "text": "I mean it depends.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 11,
+      "start": 36.501,
+      "end": 37.32,
+      "duration": 0.819,
+      "startTimestamp": "00:00:36.501",
+      "endTimestamp": "00:00:37.320",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0012",
+    "text": "You are using VS code.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 12,
+      "start": 37.94,
+      "end": 39.36,
+      "duration": 1.42,
+      "startTimestamp": "00:00:37.940",
+      "endTimestamp": "00:00:39.360",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0013",
+    "text": "You are using cursor and then a please, please, please don't use notebook if anyone you are",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 13,
+      "start": 39.5,
+      "end": 45.4,
+      "duration": 5.9,
+      "startTimestamp": "00:00:39.500",
+      "endTimestamp": "00:00:45.400",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0014",
+    "text": "using it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 14,
+      "start": 45.401,
+      "end": 46.14,
+      "duration": 0.739,
+      "startTimestamp": "00:00:45.401",
+      "endTimestamp": "00:00:46.140",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0015",
+    "text": "So make sure you are using VS code, cursor, anti-gravity and it depends like my suggestion",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 15,
+      "start": 46.2,
+      "end": 51.48,
+      "duration": 5.28,
+      "startTimestamp": "00:00:46.200",
+      "endTimestamp": "00:00:51.480",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0016",
+    "text": "is go with VS code.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 16,
+      "start": 51.481,
+      "end": 53.38,
+      "duration": 1.899,
+      "startTimestamp": "00:00:51.481",
+      "endTimestamp": "00:00:53.380",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0017",
+    "text": "So how you can install VS code?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 17,
+      "start": 53.58,
+      "end": 55.26,
+      "duration": 1.68,
+      "startTimestamp": "00:00:53.580",
+      "endTimestamp": "00:00:55.260",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0018",
+    "text": "You can simply visit to code.vslstudio.com and if you are using macOS, if you are using",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 18,
+      "start": 55.4,
+      "end": 61.34,
+      "duration": 5.94,
+      "startTimestamp": "00:00:55.400",
+      "endTimestamp": "00:01:01.340",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0019",
+    "text": "Windows.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 19,
+      "start": 61.341,
+      "end": 61.94,
+      "duration": 0.599,
+      "startTimestamp": "00:01:01.341",
+      "endTimestamp": "00:01:01.940",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0020",
+    "text": "On the basis of that you can simply install it and make it up and running something like",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 20,
+      "start": 62.3,
+      "end": 68.9,
+      "duration": 6.6,
+      "startTimestamp": "00:01:02.300",
+      "endTimestamp": "00:01:08.900",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0021",
+    "text": "this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 21,
+      "start": 68.901,
+      "end": 69.56,
+      "duration": 0.659,
+      "startTimestamp": "00:01:08.901",
+      "endTimestamp": "00:01:09.560",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0022",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 22,
+      "start": 69.9,
+      "end": 70.2,
+      "duration": 0.3,
+      "startTimestamp": "00:01:09.900",
+      "endTimestamp": "00:01:10.200",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0023",
+    "text": "After that what you can do you can simply move ahead and then make sure that you have",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 23,
+      "start": 70.5,
+      "end": 77.38,
+      "duration": 6.88,
+      "startTimestamp": "00:01:10.500",
+      "endTimestamp": "00:01:17.380",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0024",
+    "text": "bun install inside your system.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 24,
+      "start": 77.56,
+      "end": 79.4,
+      "duration": 1.84,
+      "startTimestamp": "00:01:17.560",
+      "endTimestamp": "00:01:19.400",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0025",
+    "text": "Yes.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 25,
+      "start": 79.619,
+      "end": 79.86,
+      "duration": 0.241,
+      "startTimestamp": "00:01:19.619",
+      "endTimestamp": "00:01:19.860",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0026",
+    "text": "So what is bun?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 26,
+      "start": 80.08,
+      "end": 80.9,
+      "duration": 0.82,
+      "startTimestamp": "00:01:20.080",
+      "endTimestamp": "00:01:20.900",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0027",
+    "text": "Bun is a fast JavaScript runtime and all in one toolkit.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 27,
+      "start": 81.16,
+      "end": 85.34,
+      "duration": 4.18,
+      "startTimestamp": "00:01:21.160",
+      "endTimestamp": "00:01:25.340",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0028",
+    "text": "Incrementally adoptable all in one JavaScript, TypeScript and JSX toolkit are basically runtime",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 28,
+      "start": 87.68,
+      "end": 92.92,
+      "duration": 5.24,
+      "startTimestamp": "00:01:27.680",
+      "endTimestamp": "00:01:32.920",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0029",
+    "text": "same as we can say kind of NodeJS.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 29,
+      "start": 93.06,
+      "end": 96.08,
+      "duration": 3.02,
+      "startTimestamp": "00:01:33.060",
+      "endTimestamp": "00:01:36.080",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0030",
+    "text": "Perfect, this is fast and easy to set up.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 30,
+      "start": 96.88,
+      "end": 99.6,
+      "duration": 2.72,
+      "startTimestamp": "00:01:36.880",
+      "endTimestamp": "00:01:39.600",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0031",
+    "text": "So what you need to do, you simply need to if you are on Linux or Mac OS run this command.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 31,
+      "start": 99.7,
+      "end": 105.22,
+      "duration": 5.52,
+      "startTimestamp": "00:01:39.700",
+      "endTimestamp": "00:01:45.220",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0032",
+    "text": "If you are on Windows, then run this command inside your PowerShell or terminal.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 32,
+      "start": 105.36,
+      "end": 110.12,
+      "duration": 4.76,
+      "startTimestamp": "00:01:45.360",
+      "endTimestamp": "00:01:50.120",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0033",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 33,
+      "start": 110.6,
+      "end": 111.72,
+      "duration": 1.12,
+      "startTimestamp": "00:01:50.600",
+      "endTimestamp": "00:01:51.720",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0034",
+    "text": "So the first thing is that you need VS code.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 34,
+      "start": 112.53999999999999,
+      "end": 115.32,
+      "duration": 2.78,
+      "startTimestamp": "00:01:52.540",
+      "endTimestamp": "00:01:55.320",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0035",
+    "text": "Second thing you need is a bun.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 35,
+      "start": 116.34,
+      "end": 119.36,
+      "duration": 3.02,
+      "startTimestamp": "00:01:56.340",
+      "endTimestamp": "00:01:59.360",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0036",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 36,
+      "start": 119.84,
+      "end": 120.119,
+      "duration": 0.279,
+      "startTimestamp": "00:01:59.840",
+      "endTimestamp": "00:02:00.119",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0037",
+    "text": "And third thing that you need is simply go to your expo and make sure to log in, create",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 37,
+      "start": 120.72,
+      "end": 127.92,
+      "duration": 7.2,
+      "startTimestamp": "00:02:00.720",
+      "endTimestamp": "00:02:07.920",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0038",
+    "text": "ID.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 38,
+      "start": 127.921,
+      "end": 128.239,
+      "duration": 0.318,
+      "startTimestamp": "00:02:07.921",
+      "endTimestamp": "00:02:08.239",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0039",
+    "text": "I mean, it depends on basic thing.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 39,
+      "start": 128.419,
+      "end": 129.97899999999998,
+      "duration": 1.56,
+      "startTimestamp": "00:02:08.419",
+      "endTimestamp": "00:02:09.979",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0040",
+    "text": "And then you can simply run this command.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 40,
+      "start": 130.3,
+      "end": 133.58,
+      "duration": 3.28,
+      "startTimestamp": "00:02:10.300",
+      "endTimestamp": "00:02:13.580",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0041",
+    "text": "But as you guys know, we are using bun.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 41,
+      "start": 133.76,
+      "end": 135.94,
+      "duration": 2.18,
+      "startTimestamp": "00:02:13.760",
+      "endTimestamp": "00:02:15.940",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0042",
+    "text": "So instead of writing NPX, we are going to run bun X create expo app.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 42,
+      "start": 136.14,
+      "end": 141.62,
+      "duration": 5.48,
+      "startTimestamp": "00:02:16.140",
+      "endTimestamp": "00:02:21.620",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0043",
+    "text": "So the first thing, make sure you have a visual studio code.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 43,
+      "start": 141.68,
+      "end": 144.78,
+      "duration": 3.1,
+      "startTimestamp": "00:02:21.680",
+      "endTimestamp": "00:02:24.780",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0044",
+    "text": "Second thing, make sure you have a bun.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 44,
+      "start": 145.56,
+      "end": 147.28,
+      "duration": 1.72,
+      "startTimestamp": "00:02:25.560",
+      "endTimestamp": "00:02:27.280",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0045",
+    "text": "Third thing and this is very optional like if you can set up an emulator of Android and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 45,
+      "start": 147.5,
+      "end": 155.84,
+      "duration": 8.34,
+      "startTimestamp": "00:02:27.500",
+      "endTimestamp": "00:02:35.840",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0046",
+    "text": "let's say I am using Windows so that's why I am going with Android but if you are using",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 46,
+      "start": 155.841,
+      "end": 160.48,
+      "duration": 4.639,
+      "startTimestamp": "00:02:35.841",
+      "endTimestamp": "00:02:40.480",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0047",
+    "text": "Mac OS you can simply set up simulator but if you are developing a expo app one of the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 47,
+      "start": 160.57999999999998,
+      "end": 166.98,
+      "duration": 6.4,
+      "startTimestamp": "00:02:40.580",
+      "endTimestamp": "00:02:46.980",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0048",
+    "text": "best thing about it you can simply go to your Play Store.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 48,
+      "start": 166.981,
+      "end": 170.82,
+      "duration": 3.839,
+      "startTimestamp": "00:02:46.981",
+      "endTimestamp": "00:02:50.820",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0049",
+    "text": "and app store and you can simply search for expo go app.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 49,
+      "start": 171.98,
+      "end": 176.42000000000002,
+      "duration": 4.44,
+      "startTimestamp": "00:02:51.980",
+      "endTimestamp": "00:02:56.420",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0050",
+    "text": "Perfect, so the moment you simply go to expo go and install it, so this is something you",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 50,
+      "start": 177.239,
+      "end": 182.66,
+      "duration": 5.421,
+      "startTimestamp": "00:02:57.239",
+      "endTimestamp": "00:03:02.660",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0051",
+    "text": "can simply scan, I will show you everything, you can scan the scanner given by expo and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 51,
+      "start": 182.68,
+      "end": 187.48,
+      "duration": 4.8,
+      "startTimestamp": "00:03:02.680",
+      "endTimestamp": "00:03:07.480",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0052",
+    "text": "you will see all the output inside your actual physical device.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 52,
+      "start": 187.481,
+      "end": 192.44,
+      "duration": 4.959,
+      "startTimestamp": "00:03:07.481",
+      "endTimestamp": "00:03:12.440",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0053",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 53,
+      "start": 192.9,
+      "end": 193.879,
+      "duration": 0.979,
+      "startTimestamp": "00:03:12.900",
+      "endTimestamp": "00:03:13.879",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0054",
+    "text": "So, I hope so this makes sense.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 54,
+      "start": 194.28,
+      "end": 196.18,
+      "duration": 1.9,
+      "startTimestamp": "00:03:14.280",
+      "endTimestamp": "00:03:16.180",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0055",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 55,
+      "start": 196.54,
+      "end": 196.9,
+      "duration": 0.36,
+      "startTimestamp": "00:03:16.540",
+      "endTimestamp": "00:03:16.900",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0056",
+    "text": "Now, let's move ahead and simply copy this command and make sure to go inside your VS",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 56,
+      "start": 197.5,
+      "end": 203.98,
+      "duration": 6.48,
+      "startTimestamp": "00:03:17.500",
+      "endTimestamp": "00:03:23.980",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0057",
+    "text": "code.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 57,
+      "start": 203.981,
+      "end": 204.159,
+      "duration": 0.178,
+      "startTimestamp": "00:03:23.981",
+      "endTimestamp": "00:03:24.159",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0058",
+    "text": "I have created here module 1 and inside this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 58,
+      "start": 204.22,
+      "end": 208.12,
+      "duration": 3.9,
+      "startTimestamp": "00:03:24.220",
+      "endTimestamp": "00:03:28.120",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0059",
+    "text": "Let me simply just give me a minute.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 59,
+      "start": 208.5,
+      "end": 211.46,
+      "duration": 2.96,
+      "startTimestamp": "00:03:28.500",
+      "endTimestamp": "00:03:31.460",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0060",
+    "text": "Let me just quickly set up my VS code and then I'll be right back.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 60,
+      "start": 211.74,
+      "end": 214.9,
+      "duration": 3.16,
+      "startTimestamp": "00:03:31.740",
+      "endTimestamp": "00:03:34.900",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0061",
+    "text": "Alright guys, so this is how I have basically added my phone simulator basically at this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 61,
+      "start": 215.84,
+      "end": 221.24,
+      "duration": 5.4,
+      "startTimestamp": "00:03:35.840",
+      "endTimestamp": "00:03:41.240",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0062",
+    "text": "emulator and this is here my VS code and simply need to run bunX and the command of that is",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 62,
+      "start": 221.24099999999999,
+      "end": 228.86,
+      "duration": 7.619,
+      "startTimestamp": "00:03:41.241",
+      "endTimestamp": "00:03:48.860",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0063",
+    "text": "going to be let me simply paste that perfect and instead of NPX I'm simply going to run",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 63,
+      "start": 228.861,
+      "end": 236.459,
+      "duration": 7.598,
+      "startTimestamp": "00:03:48.861",
+      "endTimestamp": "00:03:56.459",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0064",
+    "text": "Bunn-X.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 64,
+      "start": 236.46,
+      "end": 237.2,
+      "duration": 0.74,
+      "startTimestamp": "00:03:56.460",
+      "endTimestamp": "00:03:57.200",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0065",
+    "text": "Create Expo at the latest and the moment you hit this you are going to see something like",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 65,
+      "start": 237.8,
+      "end": 246.48,
+      "duration": 8.68,
+      "startTimestamp": "00:03:57.800",
+      "endTimestamp": "00:04:06.480",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0066",
+    "text": "this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 66,
+      "start": 246.481,
+      "end": 246.8,
+      "duration": 0.319,
+      "startTimestamp": "00:04:06.481",
+      "endTimestamp": "00:04:06.800",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0067",
+    "text": "Now what is your app name?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 67,
+      "start": 247.44,
+      "end": 249.62,
+      "duration": 2.18,
+      "startTimestamp": "00:04:07.440",
+      "endTimestamp": "00:04:09.620",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0068",
+    "text": "So we wanted to install our application inside the current folder.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 68,
+      "start": 249.621,
+      "end": 253.86,
+      "duration": 4.239,
+      "startTimestamp": "00:04:09.621",
+      "endTimestamp": "00:04:13.860",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0069",
+    "text": "So, I am simply going to write dot slash.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 69,
+      "start": 253.92,
+      "end": 257.16,
+      "duration": 3.24,
+      "startTimestamp": "00:04:13.920",
+      "endTimestamp": "00:04:17.160",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0070",
+    "text": "And after that you will see like burn is installing all the dependencies for it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 70,
+      "start": 257.5,
+      "end": 263.14,
+      "duration": 5.64,
+      "startTimestamp": "00:04:17.500",
+      "endTimestamp": "00:04:23.140",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0071",
+    "text": "So you can definitely wait for it and see the output.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 71,
+      "start": 263.16,
+      "end": 267.2,
+      "duration": 4.04,
+      "startTimestamp": "00:04:23.160",
+      "endTimestamp": "00:04:27.200",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0072",
+    "text": "All right, so now you will see that this command has installed a bunch of dependencies and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 72,
+      "start": 269.54,
+      "end": 277.04,
+      "duration": 7.5,
+      "startTimestamp": "00:04:29.540",
+      "endTimestamp": "00:04:37.040",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0073",
+    "text": "a lot of other things.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 73,
+      "start": 277.041,
+      "end": 278.12,
+      "duration": 1.079,
+      "startTimestamp": "00:04:37.041",
+      "endTimestamp": "00:04:38.120",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0074",
+    "text": "And now they are even giving you the command to run something like this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 74,
+      "start": 278.34000000000003,
+      "end": 282.5,
+      "duration": 4.16,
+      "startTimestamp": "00:04:38.340",
+      "endTimestamp": "00:04:42.500",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0075",
+    "text": "But for now let me clear everything.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 75,
+      "start": 282.64,
+      "end": 284.58,
+      "duration": 1.94,
+      "startTimestamp": "00:04:42.640",
+      "endTimestamp": "00:04:44.580",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0076",
+    "text": "Perfect, and let me shift to my bash command so that I have a proper Linux like that, but",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 76,
+      "start": 284.9,
+      "end": 292.54,
+      "duration": 7.64,
+      "startTimestamp": "00:04:44.900",
+      "endTimestamp": "00:04:52.540",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0077",
+    "text": "I just wanted to be inside bash.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 77,
+      "start": 292.74,
+      "end": 294.199,
+      "duration": 1.459,
+      "startTimestamp": "00:04:52.740",
+      "endTimestamp": "00:04:54.199",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0078",
+    "text": "That's all I wanted to say.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 78,
+      "start": 294.8,
+      "end": 296.22,
+      "duration": 1.42,
+      "startTimestamp": "00:04:54.800",
+      "endTimestamp": "00:04:56.220",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0079",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 79,
+      "start": 296.52,
+      "end": 296.72,
+      "duration": 0.2,
+      "startTimestamp": "00:04:56.520",
+      "endTimestamp": "00:04:56.720",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0080",
+    "text": "Now, before start writing anything, a lot of you may have a question like which theme",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 80,
+      "start": 297.479,
+      "end": 302.5,
+      "duration": 5.021,
+      "startTimestamp": "00:04:57.479",
+      "endTimestamp": "00:05:02.500",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0081",
+    "text": "you are using, which icons you are using.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 81,
+      "start": 302.501,
+      "end": 305.16,
+      "duration": 2.659,
+      "startTimestamp": "00:05:02.501",
+      "endTimestamp": "00:05:05.160",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0082",
+    "text": "So the theme that I am using here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 82,
+      "start": 305.9,
+      "end": 308.479,
+      "duration": 2.579,
+      "startTimestamp": "00:05:05.900",
+      "endTimestamp": "00:05:08.479",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0083",
+    "text": "You can definitely see that this is the theme they look at the name of the theme is a Vesper.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 83,
+      "start": 308.7,
+      "end": 315.42,
+      "duration": 6.72,
+      "startTimestamp": "00:05:08.700",
+      "endTimestamp": "00:05:15.420",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0084",
+    "text": "Perfect if you wanted to use same theme as me so you can definitely install that and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 84,
+      "start": 316.94,
+      "end": 323.6,
+      "duration": 6.66,
+      "startTimestamp": "00:05:16.940",
+      "endTimestamp": "00:05:23.600",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0085",
+    "text": "if I am not wrong file icon name is material icon theme.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 85,
+      "start": 323.601,
+      "end": 327.14,
+      "duration": 3.539,
+      "startTimestamp": "00:05:23.601",
+      "endTimestamp": "00:05:27.140",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0086",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 86,
+      "start": 327.68,
+      "end": 327.9,
+      "duration": 0.22,
+      "startTimestamp": "00:05:27.680",
+      "endTimestamp": "00:05:27.900",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0087",
+    "text": "So this is what I am basically using.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 87,
+      "start": 327.92,
+      "end": 329.96,
+      "duration": 2.04,
+      "startTimestamp": "00:05:27.920",
+      "endTimestamp": "00:05:29.960",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0088",
+    "text": "Now we are good to go.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 88,
+      "start": 330.76,
+      "end": 332.04,
+      "duration": 1.28,
+      "startTimestamp": "00:05:30.760",
+      "endTimestamp": "00:05:32.040",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0089",
+    "text": "Now listen to me carefully.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 89,
+      "start": 332.54,
+      "end": 334.24,
+      "duration": 1.7,
+      "startTimestamp": "00:05:32.540",
+      "endTimestamp": "00:05:34.240",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0090",
+    "text": "You will see a bunch of file, a bunch of folders are here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 90,
+      "start": 334.4,
+      "end": 339.4,
+      "duration": 5,
+      "startTimestamp": "00:05:34.400",
+      "endTimestamp": "00:05:39.400",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0091",
+    "text": "Let me start from the starting.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 91,
+      "start": 340.3,
+      "end": 341.94,
+      "duration": 1.64,
+      "startTimestamp": "00:05:40.300",
+      "endTimestamp": "00:05:41.940",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0092",
+    "text": "First thing that we have is a dot VS code.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 92,
+      "start": 342.3,
+      "end": 344.84000000000003,
+      "duration": 2.54,
+      "startTimestamp": "00:05:42.300",
+      "endTimestamp": "00:05:44.840",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0093",
+    "text": "What is this?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 93,
+      "start": 345.38,
+      "end": 345.979,
+      "duration": 0.599,
+      "startTimestamp": "00:05:45.380",
+      "endTimestamp": "00:05:45.979",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0094",
+    "text": "This is related to VS code.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 94,
+      "start": 346.18,
+      "end": 348.06,
+      "duration": 1.88,
+      "startTimestamp": "00:05:46.180",
+      "endTimestamp": "00:05:48.060",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0095",
+    "text": "Like we have extensions, we have settings.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 95,
+      "start": 348.199,
+      "end": 350.32,
+      "duration": 2.121,
+      "startTimestamp": "00:05:48.199",
+      "endTimestamp": "00:05:50.320",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0096",
+    "text": "So all right, this is related to VS code.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 96,
+      "start": 350.58,
+      "end": 352.62,
+      "duration": 2.04,
+      "startTimestamp": "00:05:50.580",
+      "endTimestamp": "00:05:52.620",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0097",
+    "text": "You can ignore it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 97,
+      "start": 352.68,
+      "end": 354.22,
+      "duration": 1.54,
+      "startTimestamp": "00:05:52.680",
+      "endTimestamp": "00:05:54.220",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0098",
+    "text": "Now we have the main folder, which is your app folder.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 98,
+      "start": 354.58,
+      "end": 358.15999999999997,
+      "duration": 3.58,
+      "startTimestamp": "00:05:54.580",
+      "endTimestamp": "00:05:58.160",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0099",
+    "text": "Inside that we have some tabs, some layout model.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 99,
+      "start": 358.639,
+      "end": 361.74,
+      "duration": 3.101,
+      "startTimestamp": "00:05:58.639",
+      "endTimestamp": "00:06:01.740",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0100",
+    "text": "Ignore it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 100,
+      "start": 362,
+      "end": 362.56,
+      "duration": 0.56,
+      "startTimestamp": "00:06:02.000",
+      "endTimestamp": "00:06:02.560",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0101",
+    "text": "Then we have the asset inside the asset as the name is defining itself for having your",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 101,
+      "start": 362.6,
+      "end": 370.56,
+      "duration": 7.96,
+      "startTimestamp": "00:06:02.600",
+      "endTimestamp": "00:06:10.560",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0102",
+    "text": "fonts for have your fonts for your image for your audios for your videos all of that will",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 102,
+      "start": 370.561,
+      "end": 377.18,
+      "duration": 6.619,
+      "startTimestamp": "00:06:10.561",
+      "endTimestamp": "00:06:17.180",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0103",
+    "text": "coming inside this asset folder in same way.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 103,
+      "start": 377.181,
+      "end": 380.9,
+      "duration": 3.719,
+      "startTimestamp": "00:06:17.181",
+      "endTimestamp": "00:06:20.900",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0104",
+    "text": "We have components and you will see this components is resembling with the react like this is how",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 104,
+      "start": 381.2,
+      "end": 389.34,
+      "duration": 8.14,
+      "startTimestamp": "00:06:21.200",
+      "endTimestamp": "00:06:29.340",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0105",
+    "text": "we write react native react code.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 105,
+      "start": 389.64,
+      "end": 391.54,
+      "duration": 1.9,
+      "startTimestamp": "00:06:29.640",
+      "endTimestamp": "00:06:31.540",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0106",
+    "text": "So yeah, this is your component folder where you are going to write all the components.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 106,
+      "start": 391.7,
+      "end": 396.94,
+      "duration": 5.24,
+      "startTimestamp": "00:06:31.700",
+      "endTimestamp": "00:06:36.940",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0107",
+    "text": "In the same way we have constants, constants are for your constant values and something",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 107,
+      "start": 397,
+      "end": 403.1,
+      "duration": 6.1,
+      "startTimestamp": "00:06:37.000",
+      "endTimestamp": "00:06:43.100",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0108",
+    "text": "like that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 108,
+      "start": 403.12,
+      "end": 403.84000000000003,
+      "duration": 0.72,
+      "startTimestamp": "00:06:43.120",
+      "endTimestamp": "00:06:43.840",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0109",
+    "text": "In the same way we also have hooks.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 109,
+      "start": 404.04,
+      "end": 406,
+      "duration": 1.96,
+      "startTimestamp": "00:06:44.040",
+      "endTimestamp": "00:06:46.000",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0110",
+    "text": "Script, what is this script is for?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 110,
+      "start": 406.8,
+      "end": 409.18,
+      "duration": 2.38,
+      "startTimestamp": "00:06:46.800",
+      "endTimestamp": "00:06:49.180",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0111",
+    "text": "I'll show you that but in the same way we have node modules.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 111,
+      "start": 409.22,
+      "end": 412.62,
+      "duration": 3.4,
+      "startTimestamp": "00:06:49.220",
+      "endTimestamp": "00:06:52.620",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0112",
+    "text": "What is node modules?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 112,
+      "start": 412.84000000000003,
+      "end": 414.04,
+      "duration": 1.2,
+      "startTimestamp": "00:06:52.840",
+      "endTimestamp": "00:06:54.040",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0113",
+    "text": "Node modules have all the dependencies packages inside the node modules.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 113,
+      "start": 414.76,
+      "end": 419.36,
+      "duration": 4.6,
+      "startTimestamp": "00:06:54.760",
+      "endTimestamp": "00:06:59.360",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0114",
+    "text": "Then we have get ignore.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 114,
+      "start": 419.92,
+      "end": 420.96,
+      "duration": 1.04,
+      "startTimestamp": "00:06:59.920",
+      "endTimestamp": "00:07:00.960",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0115",
+    "text": "You will see that we have node modules,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 115,
+      "start": 425.8,
+      "end": 428.44,
+      "duration": 2.64,
+      "startTimestamp": "00:07:05.800",
+      "endTimestamp": "00:07:08.440",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0116",
+    "text": "export, dist, web builds, all of that file.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 116,
+      "start": 428.84,
+      "end": 431.419,
+      "duration": 2.579,
+      "startTimestamp": "00:07:08.840",
+      "endTimestamp": "00:07:11.419",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0117",
+    "text": "So inside this, like all the ignoring file,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 117,
+      "start": 432.5,
+      "end": 436.379,
+      "duration": 3.879,
+      "startTimestamp": "00:07:12.500",
+      "endTimestamp": "00:07:16.379",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0118",
+    "text": "like the file you don't want it to push onto the GitHub,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 118,
+      "start": 436.4,
+      "end": 440.02,
+      "duration": 3.62,
+      "startTimestamp": "00:07:16.400",
+      "endTimestamp": "00:07:20.020",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0119",
+    "text": "we are going to write that here, the path of that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 119,
+      "start": 440.46,
+      "end": 442.919,
+      "duration": 2.459,
+      "startTimestamp": "00:07:20.460",
+      "endTimestamp": "00:07:22.919",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0120",
+    "text": "Then we have app.json.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 120,
+      "start": 443.1,
+      "end": 444.88,
+      "duration": 1.78,
+      "startTimestamp": "00:07:23.100",
+      "endTimestamp": "00:07:24.880",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0121",
+    "text": "This is something new.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 121,
+      "start": 445.04,
+      "end": 446.1,
+      "duration": 1.06,
+      "startTimestamp": "00:07:25.040",
+      "endTimestamp": "00:07:26.100",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0122",
+    "text": "Like from here you can definitely configure your expo application.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 122,
+      "start": 446.76,
+      "end": 450.54,
+      "duration": 3.78,
+      "startTimestamp": "00:07:26.760",
+      "endTimestamp": "00:07:30.540",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0123",
+    "text": "Then we have bunlock.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 123,
+      "start": 450.72,
+      "end": 451.56,
+      "duration": 0.84,
+      "startTimestamp": "00:07:30.720",
+      "endTimestamp": "00:07:31.560",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0124",
+    "text": "No problem.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 124,
+      "start": 451.98,
+      "end": 452.54,
+      "duration": 0.56,
+      "startTimestamp": "00:07:31.980",
+      "endTimestamp": "00:07:32.540",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0125",
+    "text": "Then we have eslink.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 125,
+      "start": 452.65999999999997,
+      "end": 453.6,
+      "duration": 0.94,
+      "startTimestamp": "00:07:32.660",
+      "endTimestamp": "00:07:33.600",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0126",
+    "text": "Then we have package.json.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 126,
+      "start": 454.08,
+      "end": 455.32,
+      "duration": 1.24,
+      "startTimestamp": "00:07:34.080",
+      "endTimestamp": "00:07:35.320",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0127",
+    "text": "So every node.js and bun project have this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 127,
+      "start": 455.4,
+      "end": 457.88,
+      "duration": 2.48,
+      "startTimestamp": "00:07:35.400",
+      "endTimestamp": "00:07:37.880",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0128",
+    "text": "So you will see inside this we have bunch of command.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 128,
+      "start": 458.42,
+      "end": 461.18,
+      "duration": 2.76,
+      "startTimestamp": "00:07:38.420",
+      "endTimestamp": "00:07:41.180",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0129",
+    "text": "We have bunch of dependencies, we have bunch of dev dependencies and lot of other things",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 129,
+      "start": 461.8,
+      "end": 468.22,
+      "duration": 6.42,
+      "startTimestamp": "00:07:41.800",
+      "endTimestamp": "00:07:48.220",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0130",
+    "text": "as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 130,
+      "start": 468.419,
+      "end": 468.919,
+      "duration": 0.5,
+      "startTimestamp": "00:07:48.419",
+      "endTimestamp": "00:07:48.919",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0131",
+    "text": "Then we have readme and then we have tsconfig like if you are using typescript and yes for",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 131,
+      "start": 469.62,
+      "end": 475.259,
+      "duration": 5.639,
+      "startTimestamp": "00:07:49.620",
+      "endTimestamp": "00:07:55.259",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0132",
+    "text": "the entire course we are going to use typescript here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 132,
+      "start": 475.26,
+      "end": 478.819,
+      "duration": 3.559,
+      "startTimestamp": "00:07:55.260",
+      "endTimestamp": "00:07:58.819",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0133",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 133,
+      "start": 479.24,
+      "end": 479.62,
+      "duration": 0.38,
+      "startTimestamp": "00:07:59.240",
+      "endTimestamp": "00:07:59.620",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0134",
+    "text": "Now how you can start this?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 134,
+      "start": 480.039,
+      "end": 481.78,
+      "duration": 1.741,
+      "startTimestamp": "00:08:00.039",
+      "endTimestamp": "00:08:01.780",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0135",
+    "text": "So for that you can simply run burnx expose start.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 135,
+      "start": 482.419,
+      "end": 486.58,
+      "duration": 4.161,
+      "startTimestamp": "00:08:02.419",
+      "endTimestamp": "00:08:06.580",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0136",
+    "text": "So, this is going to you will see the started project react compiler and then they are going",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 136,
+      "start": 487.2,
+      "end": 494.26,
+      "duration": 7.06,
+      "startTimestamp": "00:08:07.200",
+      "endTimestamp": "00:08:14.260",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0137",
+    "text": "to start Metro bundler they are using something known as Metro bundler and you will see a",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 137,
+      "start": 494.261,
+      "end": 499.46,
+      "duration": 5.199,
+      "startTimestamp": "00:08:14.261",
+      "endTimestamp": "00:08:19.460",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0138",
+    "text": "QR code here alright then you will see IP address like expo and then this is the IP",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 138,
+      "start": 499.461,
+      "end": 506.52,
+      "duration": 7.059,
+      "startTimestamp": "00:08:19.461",
+      "endTimestamp": "00:08:26.520",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0139",
+    "text": "address the port where your application is up and running.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 139,
+      "start": 506.521,
+      "end": 509.42,
+      "duration": 2.899,
+      "startTimestamp": "00:08:26.521",
+      "endTimestamp": "00:08:29.420",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0140",
+    "text": "Then they are also prompting you this scan the QR code above with expogo if you are using",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 140,
+      "start": 509.7,
+      "end": 516.04,
+      "duration": 6.34,
+      "startTimestamp": "00:08:29.700",
+      "endTimestamp": "00:08:36.040",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0141",
+    "text": "Android they will provide you that or if you are using iOS make sure that you have installed",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 141,
+      "start": 516.2,
+      "end": 522.02,
+      "duration": 5.82,
+      "startTimestamp": "00:08:36.200",
+      "endTimestamp": "00:08:42.020",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0142",
+    "text": "expogo application and with the help of iOS camera you can scan this and you will see",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 142,
+      "start": 522.04,
+      "end": 527.38,
+      "duration": 5.34,
+      "startTimestamp": "00:08:42.040",
+      "endTimestamp": "00:08:47.380",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0143",
+    "text": "something like this I will show you.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 143,
+      "start": 527.381,
+      "end": 529.12,
+      "duration": 1.739,
+      "startTimestamp": "00:08:47.381",
+      "endTimestamp": "00:08:49.120",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0144",
+    "text": "using expo go you can simply press on S A to open Android W to open web lot of things",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 144,
+      "start": 529.2,
+      "end": 535.46,
+      "duration": 6.26,
+      "startTimestamp": "00:08:49.200",
+      "endTimestamp": "00:08:55.460",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0145",
+    "text": "but let's say I wanted to open Android so the moment I press A you will see opening",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 145,
+      "start": 535.82,
+      "end": 541,
+      "duration": 5.18,
+      "startTimestamp": "00:08:55.820",
+      "endTimestamp": "00:09:01.000",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0146",
+    "text": "on Android and opening at this port so make sure your computer and your computer is connected",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 146,
+      "start": 541.001,
+      "end": 548.3,
+      "duration": 7.299,
+      "startTimestamp": "00:09:01.001",
+      "endTimestamp": "00:09:08.300",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0147",
+    "text": "to the computer.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 147,
+      "start": 559.08,
+      "end": 559.18,
+      "duration": 0.1,
+      "startTimestamp": "00:09:19.080",
+      "endTimestamp": "00:09:19.180",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0148",
+    "text": "Your phone are connected to same network and of the moment I press A you will see that",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 148,
+      "start": 559.181,
+      "end": 559.201,
+      "duration": 0.02,
+      "startTimestamp": "00:09:19.181",
+      "endTimestamp": "00:09:19.201",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0149",
+    "text": "automatically they have installed a new application name as expogo and the moment you open this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 149,
+      "start": 559.202,
+      "end": 563.36,
+      "duration": 4.158,
+      "startTimestamp": "00:09:19.202",
+      "endTimestamp": "00:09:23.360",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0150",
+    "text": "pogo and again if I just simply press A.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 150,
+      "start": 563.361,
+      "end": 567.1,
+      "duration": 3.739,
+      "startTimestamp": "00:09:23.361",
+      "endTimestamp": "00:09:27.100",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0151",
+    "text": "Look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 151,
+      "start": 567.2,
+      "end": 568.46,
+      "duration": 1.26,
+      "startTimestamp": "00:09:27.200",
+      "endTimestamp": "00:09:28.460",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0152",
+    "text": "This is our one of the first mobile application that we have home.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 152,
+      "start": 569.22,
+      "end": 573.34,
+      "duration": 4.12,
+      "startTimestamp": "00:09:29.220",
+      "endTimestamp": "00:09:33.340",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0153",
+    "text": "We have Explorer and inside this you will see they are saying us welcome step one, step",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 153,
+      "start": 573.52,
+      "end": 579.62,
+      "duration": 6.1,
+      "startTimestamp": "00:09:33.520",
+      "endTimestamp": "00:09:39.620",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0154",
+    "text": "two, but this is little confusing for us.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 154,
+      "start": 579.621,
+      "end": 583.6,
+      "duration": 3.979,
+      "startTimestamp": "00:09:39.621",
+      "endTimestamp": "00:09:43.600",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0155",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 155,
+      "start": 583.76,
+      "end": 584.04,
+      "duration": 0.28,
+      "startTimestamp": "00:09:43.760",
+      "endTimestamp": "00:09:44.040",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0156",
+    "text": "And let me just once again open it, press open A and you can definitely log into it",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 156,
+      "start": 584.8,
+      "end": 590.96,
+      "duration": 6.16,
+      "startTimestamp": "00:09:44.800",
+      "endTimestamp": "00:09:50.960",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0157",
+    "text": "so that you will see all the development app right into the expogo app.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 157,
+      "start": 590.961,
+      "end": 596.6,
+      "duration": 5.639,
+      "startTimestamp": "00:09:50.961",
+      "endTimestamp": "00:09:56.600",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0158",
+    "text": "So, perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 158,
+      "start": 596.8,
+      "end": 598,
+      "duration": 1.2,
+      "startTimestamp": "00:09:56.800",
+      "endTimestamp": "00:09:58.000",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0159",
+    "text": "Now if I just simply close this, clear everything inside the app you will see we have lot of",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 159,
+      "start": 598.72,
+      "end": 606.2,
+      "duration": 7.48,
+      "startTimestamp": "00:09:58.720",
+      "endTimestamp": "00:10:06.200",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0160",
+    "text": "files that we haven't even talked about it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 160,
+      "start": 606.201,
+      "end": 608.92,
+      "duration": 2.719,
+      "startTimestamp": "00:10:06.201",
+      "endTimestamp": "00:10:08.920",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0161",
+    "text": "So never touch this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 161,
+      "start": 609.279,
+      "end": 611.04,
+      "duration": 1.761,
+      "startTimestamp": "00:10:09.279",
+      "endTimestamp": "00:10:11.040",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0162",
+    "text": "They have provided you something known as scripts.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 162,
+      "start": 611.42,
+      "end": 614.56,
+      "duration": 3.14,
+      "startTimestamp": "00:10:11.420",
+      "endTimestamp": "00:10:14.560",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0163",
+    "text": "So simply go inside the script and we have reset project.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 163,
+      "start": 615.2,
+      "end": 619.24,
+      "duration": 4.04,
+      "startTimestamp": "00:10:15.200",
+      "endTimestamp": "00:10:19.240",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0164",
+    "text": "Yes, so we wanted to reset it and back to normal.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 164,
+      "start": 619.8,
+      "end": 623.74,
+      "duration": 3.94,
+      "startTimestamp": "00:10:19.800",
+      "endTimestamp": "00:10:23.740",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0165",
+    "text": "So for that you can simply write bun.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 165,
+      "start": 623.8389999999999,
+      "end": 625.82,
+      "duration": 1.981,
+      "startTimestamp": "00:10:23.839",
+      "endTimestamp": "00:10:25.820",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0166",
+    "text": "Go inside your scripts slash reset project and hit this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 166,
+      "start": 626.3,
+      "end": 633.68,
+      "duration": 7.38,
+      "startTimestamp": "00:10:26.300",
+      "endTimestamp": "00:10:33.680",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0167",
+    "text": "And now they are asking you, do you want to move existing file to slash app example instead",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 167,
+      "start": 634.14,
+      "end": 641.04,
+      "duration": 6.9,
+      "startTimestamp": "00:10:34.140",
+      "endTimestamp": "00:10:41.040",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0168",
+    "text": "of deleting them?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 168,
+      "start": 641.1,
+      "end": 641.8,
+      "duration": 0.7,
+      "startTimestamp": "00:10:41.100",
+      "endTimestamp": "00:10:41.800",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0169",
+    "text": "So I said, no, I don't want it to move my existing app.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 169,
+      "start": 641.8389999999999,
+      "end": 644.7,
+      "duration": 2.861,
+      "startTimestamp": "00:10:41.839",
+      "endTimestamp": "00:10:44.700",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0170",
+    "text": "Anywhere, I just wanted to reset it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 170,
+      "start": 644.8,
+      "end": 647.48,
+      "duration": 2.68,
+      "startTimestamp": "00:10:44.800",
+      "endTimestamp": "00:10:47.480",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0171",
+    "text": "So simply say no and now you will see all the extra files are deleted and then we are",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 171,
+      "start": 647.56,
+      "end": 654.12,
+      "duration": 6.56,
+      "startTimestamp": "00:10:47.560",
+      "endTimestamp": "00:10:54.120",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0172",
+    "text": "back to normal.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 172,
+      "start": 654.2,
+      "end": 655.44,
+      "duration": 1.24,
+      "startTimestamp": "00:10:54.200",
+      "endTimestamp": "00:10:55.440",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0173",
+    "text": "So now if I clear this and go to my app, you will see we have only two files.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 173,
+      "start": 655.72,
+      "end": 662,
+      "duration": 6.28,
+      "startTimestamp": "00:10:55.720",
+      "endTimestamp": "00:11:02.000",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0174",
+    "text": "One is _layout.tsx and another one is index.tsx and if I rerun this 1x expose start, it will",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 174,
+      "start": 662.279,
+      "end": 674.779,
+      "duration": 12.5,
+      "startTimestamp": "00:11:02.279",
+      "endTimestamp": "00:11:14.779",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0175",
+    "text": "And the react compiler enabled starting Metro bundler and the moment again press A you will",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 175,
+      "start": 674.78,
+      "end": 680.76,
+      "duration": 5.98,
+      "startTimestamp": "00:11:14.780",
+      "endTimestamp": "00:11:20.760",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0176",
+    "text": "see something very interesting.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 176,
+      "start": 680.761,
+      "end": 683.22,
+      "duration": 2.459,
+      "startTimestamp": "00:11:20.761",
+      "endTimestamp": "00:11:23.220",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0177",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 177,
+      "start": 683.98,
+      "end": 684.26,
+      "duration": 0.28,
+      "startTimestamp": "00:11:23.980",
+      "endTimestamp": "00:11:24.260",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0178",
+    "text": "So opening on Android and maybe I think I need to reload it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 178,
+      "start": 684.76,
+      "end": 687.959,
+      "duration": 3.199,
+      "startTimestamp": "00:11:24.760",
+      "endTimestamp": "00:11:27.959",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0179",
+    "text": "So for reloading you can simply press on R.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 179,
+      "start": 688.08,
+      "end": 690.38,
+      "duration": 2.3,
+      "startTimestamp": "00:11:28.080",
+      "endTimestamp": "00:11:30.380",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0180",
+    "text": "So, the moment I press on R let me see perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 180,
+      "start": 690.6,
+      "end": 695.199,
+      "duration": 4.599,
+      "startTimestamp": "00:11:30.600",
+      "endTimestamp": "00:11:35.199",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0181",
+    "text": "So, if this takes time you can simply close all the files from here and you can sorry",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 181,
+      "start": 695.5,
+      "end": 703.18,
+      "duration": 7.68,
+      "startTimestamp": "00:11:35.500",
+      "endTimestamp": "00:11:43.180",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0182",
+    "text": "for that perfect you can restart it perfect opening an app like you can see they are bundling",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 182,
+      "start": 703.181,
+      "end": 708.819,
+      "duration": 5.638,
+      "startTimestamp": "00:11:43.181",
+      "endTimestamp": "00:11:48.819",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0183",
+    "text": "it and yes.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 183,
+      "start": 708.82,
+      "end": 710.68,
+      "duration": 1.86,
+      "startTimestamp": "00:11:48.820",
+      "endTimestamp": "00:11:50.680",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0184",
+    "text": "For edit this what they are saying edit app/index.tsx to edit the screen.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 184,
+      "start": 711.2,
+      "end": 717.26,
+      "duration": 6.06,
+      "startTimestamp": "00:11:51.200",
+      "endTimestamp": "00:11:57.260",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0185",
+    "text": "So I am here I can simply inside the text we are going to talk about all of them don't",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 185,
+      "start": 717.72,
+      "end": 723.48,
+      "duration": 5.76,
+      "startTimestamp": "00:11:57.720",
+      "endTimestamp": "00:12:03.480",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0186",
+    "text": "worry.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 186,
+      "start": 723.54,
+      "end": 723.7,
+      "duration": 0.16,
+      "startTimestamp": "00:12:03.540",
+      "endTimestamp": "00:12:03.700",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0187",
+    "text": "So inside that this I can simply remove all of that and write hello world and boom.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 187,
+      "start": 724.32,
+      "end": 731.26,
+      "duration": 6.94,
+      "startTimestamp": "00:12:04.320",
+      "endTimestamp": "00:12:11.260",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0188",
+    "text": "clap for yourself because for the first time you have written this by yourself.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 188,
+      "start": 732.1,
+      "end": 738.4,
+      "duration": 6.3,
+      "startTimestamp": "00:12:12.100",
+      "endTimestamp": "00:12:18.400",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0189",
+    "text": "This is your first application inside your Android and if you're using iOS you will see",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 189,
+      "start": 738.56,
+      "end": 743.56,
+      "duration": 5,
+      "startTimestamp": "00:12:18.560",
+      "endTimestamp": "00:12:23.560",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0190",
+    "text": "that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 190,
+      "start": 743.561,
+      "end": 744.14,
+      "duration": 0.579,
+      "startTimestamp": "00:12:23.561",
+      "endTimestamp": "00:12:24.140",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0191",
+    "text": "So yeah, pretty amazing, amazing job.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 191,
+      "start": 744.44,
+      "end": 747.4,
+      "duration": 2.96,
+      "startTimestamp": "00:12:24.440",
+      "endTimestamp": "00:12:27.400",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0192",
+    "text": "So let me just push this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 192,
+      "start": 747.84,
+      "end": 749.78,
+      "duration": 1.94,
+      "startTimestamp": "00:12:27.840",
+      "endTimestamp": "00:12:29.780",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0193",
+    "text": "So 01 setup of expo.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 193,
+      "start": 750.08,
+      "end": 753.9,
+      "duration": 3.82,
+      "startTimestamp": "00:12:30.080",
+      "endTimestamp": "00:12:33.900",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0194",
+    "text": "Let me simply commit this so that all the code are available to you guys.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 194,
+      "start": 754.2,
+      "end": 758.06,
+      "duration": 3.86,
+      "startTimestamp": "00:12:34.200",
+      "endTimestamp": "00:12:38.060",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_0195",
+    "text": "Perfect, so this is pretty much it for today guys and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "fileName": "03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "captionIndex": 195,
+      "start": 759.74,
+      "end": 765,
+      "duration": 5.26,
+      "startTimestamp": "00:12:39.740",
+      "endTimestamp": "00:12:45.000",
+      "estimatedTokens": 20
+    }
+  }
+]

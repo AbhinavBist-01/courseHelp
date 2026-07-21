@@ -1,0 +1,4315 @@
+[
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0001",
+    "text": "Alright everyone and welcome to one more new chapter in this chapter we are going to implement",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 1,
+      "start": 0.7,
+      "end": 6.08,
+      "duration": 5.38,
+      "startTimestamp": "00:00:00.700",
+      "endTimestamp": "00:00:06.080",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0002",
+    "text": "the clerk authentication inside our expo quick start you can use all of these videos as a",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 2,
+      "start": 6.26,
+      "end": 13,
+      "duration": 6.74,
+      "startTimestamp": "00:00:06.260",
+      "endTimestamp": "00:00:13.000",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0003",
+    "text": "reference video so every time whenever you wanted to implement your own custom authentication",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 3,
+      "start": 13.001,
+      "end": 17.58,
+      "duration": 4.579,
+      "startTimestamp": "00:00:13.001",
+      "endTimestamp": "00:00:17.580",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0004",
+    "text": "you can use our all the previous chapters whenever you wanted to implement.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 4,
+      "start": 17.82,
+      "end": 21.58,
+      "duration": 3.76,
+      "startTimestamp": "00:00:17.820",
+      "endTimestamp": "00:00:21.580",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0005",
+    "text": "authentication with the help of better auth you can use the last recorded chapters I think",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 5,
+      "start": 21.7,
+      "end": 27.04,
+      "duration": 5.34,
+      "startTimestamp": "00:00:21.700",
+      "endTimestamp": "00:00:27.040",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0006",
+    "text": "that is chapter number four or five I don't know exactly and this is the chapter where",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 6,
+      "start": 27.12,
+      "end": 31.6,
+      "duration": 4.48,
+      "startTimestamp": "00:00:27.120",
+      "endTimestamp": "00:00:31.600",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0007",
+    "text": "you can see the guide related to clerk like how you can implement clerk authentication",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 7,
+      "start": 31.601,
+      "end": 37.5,
+      "duration": 5.899,
+      "startTimestamp": "00:00:31.601",
+      "endTimestamp": "00:00:37.500",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0008",
+    "text": "inside your app perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 8,
+      "start": 39.02,
+      "end": 40.48,
+      "duration": 1.46,
+      "startTimestamp": "00:00:39.020",
+      "endTimestamp": "00:00:40.480",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0009",
+    "text": "First thing is...",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 9,
+      "start": 40.66,
+      "end": 41.66,
+      "duration": 1,
+      "startTimestamp": "00:00:40.660",
+      "endTimestamp": "00:00:41.660",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0010",
+    "text": "Enable native API in clerk dashboard navigate to native application page ensure the native",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 10,
+      "start": 42.94,
+      "end": 48.12,
+      "duration": 5.18,
+      "startTimestamp": "00:00:42.940",
+      "endTimestamp": "00:00:48.120",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0011",
+    "text": "API is enabled.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 11,
+      "start": 48.18,
+      "end": 48.92,
+      "duration": 0.74,
+      "startTimestamp": "00:00:48.180",
+      "endTimestamp": "00:00:48.920",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0012",
+    "text": "Okay, so we will see that what they are basically saying you is to enable the native API.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 12,
+      "start": 49.92,
+      "end": 57.039,
+      "duration": 7.119,
+      "startTimestamp": "00:00:49.920",
+      "endTimestamp": "00:00:57.039",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0013",
+    "text": "Okay, I do not think so that we need to do anything extra here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 13,
+      "start": 57.3,
+      "end": 60.14,
+      "duration": 2.84,
+      "startTimestamp": "00:00:57.300",
+      "endTimestamp": "00:01:00.140",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0014",
+    "text": "now what we can do.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 14,
+      "start": 60.78,
+      "end": 62.519,
+      "duration": 1.739,
+      "startTimestamp": "00:01:00.780",
+      "endTimestamp": "00:01:02.519",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0015",
+    "text": "is I think we need some publishable key up.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 15,
+      "start": 62.52,
+      "end": 67.72,
+      "duration": 5.2,
+      "startTimestamp": "00:01:02.520",
+      "endTimestamp": "00:01:07.720",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0016",
+    "text": "So we definitely need to sign up here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 16,
+      "start": 67.8,
+      "end": 69.6,
+      "duration": 1.8,
+      "startTimestamp": "00:01:07.800",
+      "endTimestamp": "00:01:09.600",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0017",
+    "text": "So perfect. No problem.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 17,
+      "start": 69.72,
+      "end": 70.64,
+      "duration": 0.92,
+      "startTimestamp": "00:01:09.720",
+      "endTimestamp": "00:01:10.640",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0018",
+    "text": "Let me open it and let me log in with Google.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 18,
+      "start": 70.74,
+      "end": 74.72,
+      "duration": 3.98,
+      "startTimestamp": "00:01:10.740",
+      "endTimestamp": "00:01:14.720",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0019",
+    "text": "Let me just wait for it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 19,
+      "start": 77.8,
+      "end": 79.06,
+      "duration": 1.26,
+      "startTimestamp": "00:01:17.800",
+      "endTimestamp": "00:01:19.060",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0020",
+    "text": "Okay. So let me log in with any of one of my account.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 20,
+      "start": 79.2,
+      "end": 82.18,
+      "duration": 2.98,
+      "startTimestamp": "00:01:19.200",
+      "endTimestamp": "00:01:22.180",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0021",
+    "text": "And okay.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 21,
+      "start": 85.24,
+      "end": 86.12,
+      "duration": 0.88,
+      "startTimestamp": "00:01:25.240",
+      "endTimestamp": "00:01:26.120",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0022",
+    "text": "Nice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 22,
+      "start": 90.42,
+      "end": 90.939,
+      "duration": 0.519,
+      "startTimestamp": "00:01:30.420",
+      "endTimestamp": "00:01:30.939",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0023",
+    "text": "So you will see that I already have two applications.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 23,
+      "start": 91.02,
+      "end": 93.479,
+      "duration": 2.459,
+      "startTimestamp": "00:01:31.020",
+      "endTimestamp": "00:01:33.479",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0024",
+    "text": "They are just previous application.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 24,
+      "start": 93.899,
+      "end": 95.24000000000001,
+      "duration": 1.341,
+      "startTimestamp": "00:01:33.899",
+      "endTimestamp": "00:01:35.240",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0025",
+    "text": "I can simply press on new application and I can name it as expo authentication or expo",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 25,
+      "start": 95.36,
+      "end": 104.299,
+      "duration": 8.939,
+      "startTimestamp": "00:01:35.360",
+      "endTimestamp": "00:01:44.299",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0026",
+    "text": "or the guide.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 26,
+      "start": 104.3,
+      "end": 104.78,
+      "duration": 0.48,
+      "startTimestamp": "00:01:44.300",
+      "endTimestamp": "00:01:44.780",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0027",
+    "text": "I think much better name and yes, you can enable the email and I think I can even enable",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 27,
+      "start": 105,
+      "end": 110.92,
+      "duration": 5.92,
+      "startTimestamp": "00:01:45.000",
+      "endTimestamp": "00:01:50.920",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0028",
+    "text": "the GitHub.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 28,
+      "start": 110.96000000000001,
+      "end": 111.539,
+      "duration": 0.579,
+      "startTimestamp": "00:01:50.960",
+      "endTimestamp": "00:01:51.539",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0029",
+    "text": "And, yep, we are good.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 29,
+      "start": 112.75999999999999,
+      "end": 114.2,
+      "duration": 1.44,
+      "startTimestamp": "00:01:52.760",
+      "endTimestamp": "00:01:54.200",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0030",
+    "text": "I can simply say create application.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 30,
+      "start": 114.6,
+      "end": 116.53999999999999,
+      "duration": 1.94,
+      "startTimestamp": "00:01:54.600",
+      "endTimestamp": "00:01:56.540",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0031",
+    "text": "So this is going to create application for me.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 31,
+      "start": 116.7,
+      "end": 118.96000000000001,
+      "duration": 2.26,
+      "startTimestamp": "00:01:56.700",
+      "endTimestamp": "00:01:58.960",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0032",
+    "text": "And yes, we wanted to create this for the expo.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 32,
+      "start": 119.68,
+      "end": 123.38,
+      "duration": 3.7,
+      "startTimestamp": "00:01:59.680",
+      "endTimestamp": "00:02:03.380",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0033",
+    "text": "Okay, so whenever you wanted to create this for a expo, these are all the steps you need",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 33,
+      "start": 124.04,
+      "end": 129.58,
+      "duration": 5.54,
+      "startTimestamp": "00:02:04.040",
+      "endTimestamp": "00:02:09.580",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0034",
+    "text": "to follow.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 34,
+      "start": 129.66,
+      "end": 130.02,
+      "duration": 0.36,
+      "startTimestamp": "00:02:09.660",
+      "endTimestamp": "00:02:10.020",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0035",
+    "text": "So first step is definitely we are using one.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 35,
+      "start": 130.1,
+      "end": 132.68,
+      "duration": 2.58,
+      "startTimestamp": "00:02:10.100",
+      "endTimestamp": "00:02:12.680",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0036",
+    "text": "You need to install clerk, clerk expo.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 36,
+      "start": 133.14,
+      "end": 136.9,
+      "duration": 3.76,
+      "startTimestamp": "00:02:13.140",
+      "endTimestamp": "00:02:16.900",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0037",
+    "text": "So okay.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 37,
+      "start": 137.12,
+      "end": 138.24,
+      "duration": 1.12,
+      "startTimestamp": "00:02:17.120",
+      "endTimestamp": "00:02:18.240",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0038",
+    "text": "Let me just simply coming to here first of all let me fix this nice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 38,
+      "start": 138.3,
+      "end": 144.66,
+      "duration": 6.36,
+      "startTimestamp": "00:02:18.300",
+      "endTimestamp": "00:02:24.660",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0039",
+    "text": "So let me close my currently running application and again if you wanted to create the separate",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 39,
+      "start": 145.74,
+      "end": 152.38,
+      "duration": 6.64,
+      "startTimestamp": "00:02:25.740",
+      "endTimestamp": "00:02:32.380",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0040",
+    "text": "build for it you can also do that and then let me again clear everything.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 40,
+      "start": 152.44,
+      "end": 158,
+      "duration": 5.56,
+      "startTimestamp": "00:02:32.440",
+      "endTimestamp": "00:02:38.000",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0041",
+    "text": "Where is that?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 41,
+      "start": 159.98,
+      "end": 161.14,
+      "duration": 1.16,
+      "startTimestamp": "00:02:39.980",
+      "endTimestamp": "00:02:41.140",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0042",
+    "text": "I think this one.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 42,
+      "start": 161.299,
+      "end": 163.579,
+      "duration": 2.28,
+      "startTimestamp": "00:02:41.299",
+      "endTimestamp": "00:02:43.579",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0043",
+    "text": "Now I can simply copy this command and then I can paste it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 43,
+      "start": 164.659,
+      "end": 168.159,
+      "duration": 3.5,
+      "startTimestamp": "00:02:44.659",
+      "endTimestamp": "00:02:48.159",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0044",
+    "text": "So this is basically going to install the clerk slash clerk expo.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 44,
+      "start": 168.4,
+      "end": 173.5,
+      "duration": 5.1,
+      "startTimestamp": "00:02:48.400",
+      "endTimestamp": "00:02:53.500",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0045",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 45,
+      "start": 173.68,
+      "end": 173.98,
+      "duration": 0.3,
+      "startTimestamp": "00:02:53.680",
+      "endTimestamp": "00:02:53.980",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0046",
+    "text": "Okay, so now you can see that in 52 seconds we have installed around 176 packages.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 46,
+      "start": 174.8,
+      "end": 181.68,
+      "duration": 6.88,
+      "startTimestamp": "00:02:54.800",
+      "endTimestamp": "00:03:01.680",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0047",
+    "text": "Okay, and then what I will do second thing is you need to add this publishable key.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 47,
+      "start": 182.64,
+      "end": 188.68,
+      "duration": 6.04,
+      "startTimestamp": "00:03:02.640",
+      "endTimestamp": "00:03:08.680",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0048",
+    "text": "So simply copy this key and then I can simply go inside my.env file and then I will paste",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 48,
+      "start": 189.44,
+      "end": 196.5,
+      "duration": 7.06,
+      "startTimestamp": "00:03:09.440",
+      "endTimestamp": "00:03:16.500",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0049",
+    "text": "it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 49,
+      "start": 196.501,
+      "end": 196.68,
+      "duration": 0.179,
+      "startTimestamp": "00:03:16.501",
+      "endTimestamp": "00:03:16.680",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0050",
+    "text": "So you will see that right now we have this expo public clerk publishable key.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 50,
+      "start": 196.7,
+      "end": 203.57999999999998,
+      "duration": 6.88,
+      "startTimestamp": "00:03:16.700",
+      "endTimestamp": "00:03:23.580",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0051",
+    "text": "Nice, and after that next step is add a clerk provider to your root layout ok.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 51,
+      "start": 204,
+      "end": 212.94,
+      "duration": 8.94,
+      "startTimestamp": "00:03:24.000",
+      "endTimestamp": "00:03:32.940",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0052",
+    "text": "The clerk provider component provides session and user context to clerk hooks and component.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 52,
+      "start": 213.44,
+      "end": 220.16,
+      "duration": 6.72,
+      "startTimestamp": "00:03:33.440",
+      "endTimestamp": "00:03:40.160",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0053",
+    "text": "It is recommended to wrap your entire app at the entry point with clerk provider and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 53,
+      "start": 220.8,
+      "end": 226.36,
+      "duration": 5.56,
+      "startTimestamp": "00:03:40.800",
+      "endTimestamp": "00:03:46.360",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0054",
+    "text": "to make authentication globally accessible.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 54,
+      "start": 226.361,
+      "end": 228.8,
+      "duration": 2.439,
+      "startTimestamp": "00:03:46.361",
+      "endTimestamp": "00:03:48.800",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0055",
+    "text": "Nice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 55,
+      "start": 230.07999999999998,
+      "end": 230.32,
+      "duration": 0.24,
+      "startTimestamp": "00:03:50.080",
+      "endTimestamp": "00:03:50.320",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0056",
+    "text": "So let me try to copy this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 56,
+      "start": 230.98,
+      "end": 234.48,
+      "duration": 3.5,
+      "startTimestamp": "00:03:50.980",
+      "endTimestamp": "00:03:54.480",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0057",
+    "text": "Perfect and they are basically saying us is to.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 57,
+      "start": 235.07999999999998,
+      "end": 238.4,
+      "duration": 3.32,
+      "startTimestamp": "00:03:55.080",
+      "endTimestamp": "00:03:58.400",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0058",
+    "text": "Create this root layout.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 58,
+      "start": 240.42,
+      "end": 242.02,
+      "duration": 1.6,
+      "startTimestamp": "00:04:00.420",
+      "endTimestamp": "00:04:02.020",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0059",
+    "text": "So let me go to my slash this and I think I can paste it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 59,
+      "start": 243.72,
+      "end": 248.72,
+      "duration": 5,
+      "startTimestamp": "00:04:03.720",
+      "endTimestamp": "00:04:08.720",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0060",
+    "text": "And right now you can see that they are using slots.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 60,
+      "start": 249.42,
+      "end": 251.98,
+      "duration": 2.56,
+      "startTimestamp": "00:04:09.420",
+      "endTimestamp": "00:04:11.980",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0061",
+    "text": "Okay.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 61,
+      "start": 252.42,
+      "end": 252.519,
+      "duration": 0.099,
+      "startTimestamp": "00:04:12.420",
+      "endTimestamp": "00:04:12.519",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0062",
+    "text": "So I hope you guys know about slots.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 62,
+      "start": 252.52,
+      "end": 254.18,
+      "duration": 1.66,
+      "startTimestamp": "00:04:12.520",
+      "endTimestamp": "00:04:14.180",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0063",
+    "text": "And then configure the token cache with expo.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 63,
+      "start": 254.8,
+      "end": 258.959,
+      "duration": 4.159,
+      "startTimestamp": "00:04:14.800",
+      "endTimestamp": "00:04:18.959",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0064",
+    "text": "So we already have the secure store need not to install anything and then again copy this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 64,
+      "start": 259.16,
+      "end": 264.38,
+      "duration": 5.22,
+      "startTimestamp": "00:04:19.160",
+      "endTimestamp": "00:04:24.380",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0065",
+    "text": "and again paste it perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 65,
+      "start": 264.72,
+      "end": 266.9,
+      "duration": 2.18,
+      "startTimestamp": "00:04:24.720",
+      "endTimestamp": "00:04:26.900",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0066",
+    "text": "So right now you can see that we have a clerk provider a token cache from clerk, clerk expo",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 66,
+      "start": 266.901,
+      "end": 272.78,
+      "duration": 5.879,
+      "startTimestamp": "00:04:26.901",
+      "endTimestamp": "00:04:32.780",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0067",
+    "text": "token cache and then a slot.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 67,
+      "start": 272.781,
+      "end": 274.98,
+      "duration": 2.199,
+      "startTimestamp": "00:04:32.781",
+      "endTimestamp": "00:04:34.980",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0068",
+    "text": "No problem.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 68,
+      "start": 276.18,
+      "end": 276.84000000000003,
+      "duration": 0.66,
+      "startTimestamp": "00:04:36.180",
+      "endTimestamp": "00:04:36.840",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0069",
+    "text": "And then what I can do, protect your auth route in the layout.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 69,
+      "start": 277.1,
+      "end": 281.82,
+      "duration": 4.72,
+      "startTimestamp": "00:04:37.100",
+      "endTimestamp": "00:04:41.820",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0070",
+    "text": "Okay.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 70,
+      "start": 282.44,
+      "end": 282.64,
+      "duration": 0.2,
+      "startTimestamp": "00:04:42.440",
+      "endTimestamp": "00:04:42.640",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0071",
+    "text": "So, Clark currently only support control component for Expo.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 71,
+      "start": 283.24,
+      "end": 287.92,
+      "duration": 4.68,
+      "startTimestamp": "00:04:43.240",
+      "endTimestamp": "00:04:47.920",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0072",
+    "text": "You can definitely read more about control components kind of things.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 72,
+      "start": 287.96,
+      "end": 293.06,
+      "duration": 5.1,
+      "startTimestamp": "00:04:47.960",
+      "endTimestamp": "00:04:53.060",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0073",
+    "text": "But right now, let's move ahead and for Expo native UI components are only available for",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 73,
+      "start": 293.65999999999997,
+      "end": 297.94,
+      "duration": 4.28,
+      "startTimestamp": "00:04:53.660",
+      "endTimestamp": "00:04:57.940",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0074",
+    "text": "Expo web.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 74,
+      "start": 297.94100000000003,
+      "end": 298.82,
+      "duration": 0.879,
+      "startTimestamp": "00:04:57.941",
+      "endTimestamp": "00:04:58.820",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0075",
+    "text": "Instead, you must build custom flow using Clark API.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 75,
+      "start": 299.3,
+      "end": 303.08,
+      "duration": 3.78,
+      "startTimestamp": "00:04:59.300",
+      "endTimestamp": "00:05:03.080",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0076",
+    "text": "The following section demonstrate how to build custom email password sign up sign in flow",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 76,
+      "start": 303.34,
+      "end": 309.3,
+      "duration": 5.96,
+      "startTimestamp": "00:05:03.340",
+      "endTimestamp": "00:05:09.300",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0077",
+    "text": "if you want to use different authentication methods such as passwordless or see the dedicated",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 77,
+      "start": 309.34,
+      "end": 316.52,
+      "duration": 7.18,
+      "startTimestamp": "00:05:09.340",
+      "endTimestamp": "00:05:16.520",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0078",
+    "text": "custom flow guide.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 78,
+      "start": 316.539,
+      "end": 317.5,
+      "duration": 0.961,
+      "startTimestamp": "00:05:16.539",
+      "endTimestamp": "00:05:17.500",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0079",
+    "text": "So, you can definitely read them and see.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 79,
+      "start": 317.58,
+      "end": 319.259,
+      "duration": 1.679,
+      "startTimestamp": "00:05:17.580",
+      "endTimestamp": "00:05:19.259",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0080",
+    "text": "First, protect your sign up and sign in page, create a new route group with this name and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 80,
+      "start": 320.479,
+      "end": 326.259,
+      "duration": 5.78,
+      "startTimestamp": "00:05:20.479",
+      "endTimestamp": "00:05:26.259",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0081",
+    "text": "with underscore layout file within the following code.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 81,
+      "start": 326.26,
+      "end": 329.32,
+      "duration": 3.06,
+      "startTimestamp": "00:05:26.260",
+      "endTimestamp": "00:05:29.320",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0082",
+    "text": "So why not?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 82,
+      "start": 329.44,
+      "end": 330.5,
+      "duration": 1.06,
+      "startTimestamp": "00:05:29.440",
+      "endTimestamp": "00:05:30.500",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0083",
+    "text": "Let us move ahead and try to create it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 83,
+      "start": 330.53,
+      "end": 333,
+      "duration": 2.47,
+      "startTimestamp": "00:05:30.530",
+      "endTimestamp": "00:05:33.000",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0084",
+    "text": "So inside this I will just simply create this auth.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 84,
+      "start": 333.46,
+      "end": 336.479,
+      "duration": 3.019,
+      "startTimestamp": "00:05:33.460",
+      "endTimestamp": "00:05:36.479",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0085",
+    "text": "All right, and now first of all, what I will do, I will try to make the changes so that",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 85,
+      "start": 336.9,
+      "end": 346.12,
+      "duration": 9.22,
+      "startTimestamp": "00:05:36.900",
+      "endTimestamp": "00:05:46.120",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0086",
+    "text": "you have a track of the GitHub.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 86,
+      "start": 346.121,
+      "end": 347.56,
+      "duration": 1.439,
+      "startTimestamp": "00:05:46.121",
+      "endTimestamp": "00:05:47.560",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0087",
+    "text": "So I can say better auth implemented in last chapter definitely.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 87,
+      "start": 348.259,
+      "end": 352.9,
+      "duration": 4.641,
+      "startTimestamp": "00:05:48.259",
+      "endTimestamp": "00:05:52.900",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0088",
+    "text": "I just forget.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 88,
+      "start": 352.96,
+      "end": 353.84000000000003,
+      "duration": 0.88,
+      "startTimestamp": "00:05:52.960",
+      "endTimestamp": "00:05:53.840",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0089",
+    "text": "to push this up.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 89,
+      "start": 355.2,
+      "end": 356.36,
+      "duration": 1.16,
+      "startTimestamp": "00:05:55.200",
+      "endTimestamp": "00:05:56.360",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0090",
+    "text": "Okay, now I have pushed it up so that you have a track because I'm definitely going",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 90,
+      "start": 356.47,
+      "end": 360.3,
+      "duration": 3.83,
+      "startTimestamp": "00:05:56.470",
+      "endTimestamp": "00:06:00.300",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0091",
+    "text": "to remove them.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 91,
+      "start": 361.02,
+      "end": 362.22,
+      "duration": 1.2,
+      "startTimestamp": "00:06:01.020",
+      "endTimestamp": "00:06:02.220",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0092",
+    "text": "Alright, and what just happened?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 92,
+      "start": 363.2,
+      "end": 365.24,
+      "duration": 2.04,
+      "startTimestamp": "00:06:03.200",
+      "endTimestamp": "00:06:05.240",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0093",
+    "text": "Why I'm pushing my environment variables?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 93,
+      "start": 365.42,
+      "end": 367.28,
+      "duration": 1.86,
+      "startTimestamp": "00:06:05.420",
+      "endTimestamp": "00:06:07.280",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0094",
+    "text": "Alright, so I'll fix them in a while.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 94,
+      "start": 368.06,
+      "end": 369.66,
+      "duration": 1.6,
+      "startTimestamp": "00:06:08.060",
+      "endTimestamp": "00:06:09.660",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0095",
+    "text": "Right now we are good to go.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 95,
+      "start": 370.02,
+      "end": 371.08,
+      "duration": 1.06,
+      "startTimestamp": "00:06:10.020",
+      "endTimestamp": "00:06:11.080",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0096",
+    "text": "Don't worry.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 96,
+      "start": 371.18,
+      "end": 371.6,
+      "duration": 0.42,
+      "startTimestamp": "00:06:11.180",
+      "endTimestamp": "00:06:11.600",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0097",
+    "text": "So, okay, so inside the app auth first thing we need to create underscore layout dot TSX.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 97,
+      "start": 373.479,
+      "end": 383.52,
+      "duration": 10.041,
+      "startTimestamp": "00:06:13.479",
+      "endTimestamp": "00:06:23.520",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0098",
+    "text": "Okay, so let me simply create underscore layout dot TSX and then I will paste it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 98,
+      "start": 383.659,
+      "end": 388.74,
+      "duration": 5.081,
+      "startTimestamp": "00:06:23.659",
+      "endTimestamp": "00:06:28.740",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0099",
+    "text": "So you will see we have a redirect and stack and then a simple use auth hook basically",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 99,
+      "start": 388.819,
+      "end": 395.06,
+      "duration": 6.241,
+      "startTimestamp": "00:06:28.819",
+      "endTimestamp": "00:06:35.060",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0100",
+    "text": "coming from clerk Expo.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 100,
+      "start": 395.22,
+      "end": 397.56,
+      "duration": 2.34,
+      "startTimestamp": "00:06:35.220",
+      "endTimestamp": "00:06:37.560",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0101",
+    "text": "And then you need to add a signup page.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 101,
+      "start": 398.919,
+      "end": 400.759,
+      "duration": 1.84,
+      "startTimestamp": "00:06:38.919",
+      "endTimestamp": "00:06:40.759",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0102",
+    "text": "So, let me simply add that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 102,
+      "start": 402.12,
+      "end": 404.32,
+      "duration": 2.2,
+      "startTimestamp": "00:06:42.120",
+      "endTimestamp": "00:06:44.320",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0103",
+    "text": "I can simply say signup.tsx.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 103,
+      "start": 404.88,
+      "end": 407.65999999999997,
+      "duration": 2.78,
+      "startTimestamp": "00:06:44.880",
+      "endTimestamp": "00:06:47.660",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0104",
+    "text": "Okay.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 104,
+      "start": 408.48,
+      "end": 408.65999999999997,
+      "duration": 0.18,
+      "startTimestamp": "00:06:48.480",
+      "endTimestamp": "00:06:48.660",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0105",
+    "text": "So, this is all of the things.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 105,
+      "start": 408.82,
+      "end": 410.34000000000003,
+      "duration": 1.52,
+      "startTimestamp": "00:06:48.820",
+      "endTimestamp": "00:06:50.340",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0106",
+    "text": "We have a simple use signup hook, some link and router and then bunch of component and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 106,
+      "start": 411.34000000000003,
+      "end": 419.06,
+      "duration": 7.72,
+      "startTimestamp": "00:06:51.340",
+      "endTimestamp": "00:06:59.060",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0107",
+    "text": "I think simple implementation of them if I am not wrong.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 107,
+      "start": 419.12,
+      "end": 422.68,
+      "duration": 3.56,
+      "startTimestamp": "00:06:59.120",
+      "endTimestamp": "00:07:02.680",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0108",
+    "text": "So, yes need not to get too depth.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 108,
+      "start": 422.94,
+      "end": 426.78,
+      "duration": 3.84,
+      "startTimestamp": "00:07:02.940",
+      "endTimestamp": "00:07:06.780",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0109",
+    "text": "into it and then let me move ahead and let me also implement sign in page.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 109,
+      "start": 427.1,
+      "end": 433.12,
+      "duration": 6.02,
+      "startTimestamp": "00:07:07.100",
+      "endTimestamp": "00:07:13.120",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0110",
+    "text": "So along with sign up, I can have a sign in dot t s x and then I'll paste it as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 110,
+      "start": 433.72,
+      "end": 441.34,
+      "duration": 7.62,
+      "startTimestamp": "00:07:13.720",
+      "endTimestamp": "00:07:21.340",
+      "estimatedTokens": 29
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0111",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 111,
+      "start": 441.54,
+      "end": 441.84,
+      "duration": 0.3,
+      "startTimestamp": "00:07:21.540",
+      "endTimestamp": "00:07:21.840",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0112",
+    "text": "Then what I will do, you can even create your own sign out button.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 112,
+      "start": 442.64,
+      "end": 446.2,
+      "duration": 3.56,
+      "startTimestamp": "00:07:22.640",
+      "endTimestamp": "00:07:26.200",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0113",
+    "text": "So why not?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 113,
+      "start": 446.4,
+      "end": 446.96,
+      "duration": 0.56,
+      "startTimestamp": "00:07:26.400",
+      "endTimestamp": "00:07:26.960",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0114",
+    "text": "Let's just copy and paste it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 114,
+      "start": 447.12,
+      "end": 448.44,
+      "duration": 1.32,
+      "startTimestamp": "00:07:27.120",
+      "endTimestamp": "00:07:28.440",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0115",
+    "text": "Let me show you how easy to integrate a clerk inside your application.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 115,
+      "start": 448.78,
+      "end": 453.52,
+      "duration": 4.74,
+      "startTimestamp": "00:07:28.780",
+      "endTimestamp": "00:07:33.520",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0116",
+    "text": "So easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 116,
+      "start": 453.68,
+      "end": 454.22,
+      "duration": 0.54,
+      "startTimestamp": "00:07:33.680",
+      "endTimestamp": "00:07:34.220",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0117",
+    "text": "implementation is so straight forward.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 117,
+      "start": 454.74,
+      "end": 456.4,
+      "duration": 1.66,
+      "startTimestamp": "00:07:34.740",
+      "endTimestamp": "00:07:36.400",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0118",
+    "text": "component and this will be our sign out button dot TSX.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 118,
+      "start": 458.74,
+      "end": 466.08,
+      "duration": 7.34,
+      "startTimestamp": "00:07:38.740",
+      "endTimestamp": "00:07:46.080",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0119",
+    "text": "Then I'll paste it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 119,
+      "start": 466.58,
+      "end": 468.06,
+      "duration": 1.48,
+      "startTimestamp": "00:07:46.580",
+      "endTimestamp": "00:07:48.060",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0120",
+    "text": "Okay.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 120,
+      "start": 468.46,
+      "end": 468.65999999999997,
+      "duration": 0.2,
+      "startTimestamp": "00:07:48.460",
+      "endTimestamp": "00:07:48.660",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0121",
+    "text": "So I think we are good to go.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 121,
+      "start": 468.82,
+      "end": 470.84000000000003,
+      "duration": 2.02,
+      "startTimestamp": "00:07:48.820",
+      "endTimestamp": "00:07:50.840",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0122",
+    "text": "All right.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 122,
+      "start": 471.5,
+      "end": 471.74,
+      "duration": 0.24,
+      "startTimestamp": "00:07:51.500",
+      "endTimestamp": "00:07:51.740",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0123",
+    "text": "And then next is you need to create one home route.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 123,
+      "start": 471.9,
+      "end": 474.92,
+      "duration": 3.02,
+      "startTimestamp": "00:07:51.900",
+      "endTimestamp": "00:07:54.920",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0124",
+    "text": "Nice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 124,
+      "start": 475.6,
+      "end": 476.74,
+      "duration": 1.14,
+      "startTimestamp": "00:07:55.600",
+      "endTimestamp": "00:07:56.740",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0125",
+    "text": "So let me just simply copy this and then I'll create one home inside this home.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 125,
+      "start": 476.88,
+      "end": 484.82,
+      "duration": 7.94,
+      "startTimestamp": "00:07:56.880",
+      "endTimestamp": "00:08:04.820",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0126",
+    "text": "I can have again underscore layout layout dot t six and then I'll paste it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 126,
+      "start": 484.9,
+      "end": 491.88,
+      "duration": 6.98,
+      "startTimestamp": "00:08:04.900",
+      "endTimestamp": "00:08:11.880",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0127",
+    "text": "No problem.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 127,
+      "start": 492.08,
+      "end": 492.74,
+      "duration": 0.66,
+      "startTimestamp": "00:08:12.080",
+      "endTimestamp": "00:08:12.740",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0128",
+    "text": "And then we can have one index dot t s x inside this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 128,
+      "start": 493.1,
+      "end": 497.2,
+      "duration": 4.1,
+      "startTimestamp": "00:08:13.100",
+      "endTimestamp": "00:08:17.200",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0129",
+    "text": "So this is one.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 129,
+      "start": 497.86,
+      "end": 498.86,
+      "duration": 1,
+      "startTimestamp": "00:08:17.860",
+      "endTimestamp": "00:08:18.860",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0130",
+    "text": "So I'll delete this for now because we don't need it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 130,
+      "start": 499.04,
+      "end": 502.38,
+      "duration": 3.34,
+      "startTimestamp": "00:08:19.040",
+      "endTimestamp": "00:08:22.380",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0131",
+    "text": "And inside this, I'll create the another index dot t s x and then I'll paste in this one.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 131,
+      "start": 502.62,
+      "end": 507.7,
+      "duration": 5.08,
+      "startTimestamp": "00:08:22.620",
+      "endTimestamp": "00:08:27.700",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0132",
+    "text": "Okay.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 132,
+      "start": 508.56,
+      "end": 508.88,
+      "duration": 0.32,
+      "startTimestamp": "00:08:28.560",
+      "endTimestamp": "00:08:28.880",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0133",
+    "text": "And, yep, I think we are good to go.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 133,
+      "start": 509.8,
+      "end": 511.94,
+      "duration": 2.14,
+      "startTimestamp": "00:08:29.800",
+      "endTimestamp": "00:08:31.940",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0134",
+    "text": "So let's move ahead and you can definitely continue to expo guide how you can protect",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 134,
+      "start": 512.46,
+      "end": 517.5,
+      "duration": 5.04,
+      "startTimestamp": "00:08:32.460",
+      "endTimestamp": "00:08:37.500",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0135",
+    "text": "your user auth examples, how you can get your user data, lot of things to do.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 135,
+      "start": 517.501,
+      "end": 522.96,
+      "duration": 5.459,
+      "startTimestamp": "00:08:37.501",
+      "endTimestamp": "00:08:42.960",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0136",
+    "text": "So a finger crossed, hopefully without any issue this will work.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 136,
+      "start": 523.12,
+      "end": 526.98,
+      "duration": 3.86,
+      "startTimestamp": "00:08:43.120",
+      "endTimestamp": "00:08:46.980",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0137",
+    "text": "Let me first of all clear this and module 13.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 137,
+      "start": 528.22,
+      "end": 533.12,
+      "duration": 4.9,
+      "startTimestamp": "00:08:48.220",
+      "endTimestamp": "00:08:53.120",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0138",
+    "text": "Let me run burnx expostart, clear all the caches that we have.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 138,
+      "start": 534.319,
+      "end": 539,
+      "duration": 4.681,
+      "startTimestamp": "00:08:54.319",
+      "endTimestamp": "00:08:59.000",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0139",
+    "text": "Okay.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 139,
+      "start": 539.62,
+      "end": 540.18,
+      "duration": 0.56,
+      "startTimestamp": "00:08:59.620",
+      "endTimestamp": "00:09:00.180",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0140",
+    "text": "And nice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 140,
+      "start": 541.92,
+      "end": 542.88,
+      "duration": 0.96,
+      "startTimestamp": "00:09:01.920",
+      "endTimestamp": "00:09:02.880",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0141",
+    "text": "But if I try to open this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 141,
+      "start": 544.12,
+      "end": 546.639,
+      "duration": 2.519,
+      "startTimestamp": "00:09:04.120",
+      "endTimestamp": "00:09:06.639",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0142",
+    "text": "Alright, so we are getting one simple issue, I think, and that is this one.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 142,
+      "start": 547.959,
+      "end": 553.54,
+      "duration": 5.581,
+      "startTimestamp": "00:09:07.959",
+      "endTimestamp": "00:09:13.540",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0143",
+    "text": "Okay, so let me go to my index and definitely this is the wrong path.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 143,
+      "start": 555.32,
+      "end": 560.36,
+      "duration": 5.04,
+      "startTimestamp": "00:09:15.320",
+      "endTimestamp": "00:09:20.360",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0144",
+    "text": "I need to import that from the right place and if I now reload it, hopefully this will",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 144,
+      "start": 560.7,
+      "end": 566.24,
+      "duration": 5.54,
+      "startTimestamp": "00:09:20.700",
+      "endTimestamp": "00:09:26.240",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0145",
+    "text": "work.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 145,
+      "start": 566.241,
+      "end": 567.2,
+      "duration": 0.959,
+      "startTimestamp": "00:09:26.241",
+      "endTimestamp": "00:09:27.200",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0146",
+    "text": "Let me again open that onto my Android.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 146,
+      "start": 568.86,
+      "end": 570.94,
+      "duration": 2.08,
+      "startTimestamp": "00:09:28.860",
+      "endTimestamp": "00:09:30.940",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0147",
+    "text": "Okay, so now you can see that right now I am into my index page and I am getting a sign",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 147,
+      "start": 575.259,
+      "end": 581.72,
+      "duration": 6.461,
+      "startTimestamp": "00:09:35.259",
+      "endTimestamp": "00:09:41.720",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0148",
+    "text": "in and sign up.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 148,
+      "start": 581.721,
+      "end": 582.519,
+      "duration": 0.798,
+      "startTimestamp": "00:09:41.721",
+      "endTimestamp": "00:09:42.519",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0149",
+    "text": "Okay, so what if I just simply press on sign up, I am redirected to my sign up page.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 149,
+      "start": 582.699,
+      "end": 587.639,
+      "duration": 4.94,
+      "startTimestamp": "00:09:42.699",
+      "endTimestamp": "00:09:47.639",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0150",
+    "text": "Okay and definitely I can put some data.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 150,
+      "start": 588.5,
+      "end": 591.899,
+      "duration": 3.399,
+      "startTimestamp": "00:09:48.500",
+      "endTimestamp": "00:09:51.899",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0151",
+    "text": "Gmail.com and password.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 151,
+      "start": 594.72,
+      "end": 597.1,
+      "duration": 2.38,
+      "startTimestamp": "00:09:54.720",
+      "endTimestamp": "00:09:57.100",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0152",
+    "text": "I know the UI is not that good.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 152,
+      "start": 597.4,
+      "end": 599.44,
+      "duration": 2.04,
+      "startTimestamp": "00:09:57.400",
+      "endTimestamp": "00:09:59.440",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0153",
+    "text": "Then I can simply press on continue.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 153,
+      "start": 600.36,
+      "end": 602.04,
+      "duration": 1.68,
+      "startTimestamp": "00:10:00.360",
+      "endTimestamp": "00:10:02.040",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0154",
+    "text": "Okay.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 154,
+      "start": 604.32,
+      "end": 604.62,
+      "duration": 0.3,
+      "startTimestamp": "00:10:04.320",
+      "endTimestamp": "00:10:04.620",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0155",
+    "text": "So I'm doing saying this done.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 155,
+      "start": 604.74,
+      "end": 606.36,
+      "duration": 1.62,
+      "startTimestamp": "00:10:04.740",
+      "endTimestamp": "00:10:06.360",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0156",
+    "text": "Why nothing is happening?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 156,
+      "start": 607.56,
+      "end": 608.86,
+      "duration": 1.3,
+      "startTimestamp": "00:10:07.560",
+      "endTimestamp": "00:10:08.860",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0157",
+    "text": "Because I am getting it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 157,
+      "start": 610.12,
+      "end": 611.88,
+      "duration": 1.76,
+      "startTimestamp": "00:10:10.120",
+      "endTimestamp": "00:10:11.880",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0158",
+    "text": "Clark has been loaded with development key development have a strict usage limit should",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 158,
+      "start": 613.44,
+      "end": 620.1,
+      "duration": 6.66,
+      "startTimestamp": "00:10:13.440",
+      "endTimestamp": "00:10:20.100",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0159",
+    "text": "not used when deploying an application to production.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 159,
+      "start": 620.101,
+      "end": 623.62,
+      "duration": 3.519,
+      "startTimestamp": "00:10:20.101",
+      "endTimestamp": "00:10:23.620",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0160",
+    "text": "Password has been found in an online data breach.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 160,
+      "start": 625.45,
+      "end": 628.3,
+      "duration": 2.85,
+      "startTimestamp": "00:10:25.450",
+      "endTimestamp": "00:10:28.300",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0161",
+    "text": "Okay.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 161,
+      "start": 628.66,
+      "end": 628.88,
+      "duration": 0.22,
+      "startTimestamp": "00:10:28.660",
+      "endTimestamp": "00:10:28.880",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0162",
+    "text": "Oh, nice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 162,
+      "start": 629.02,
+      "end": 629.62,
+      "duration": 0.6,
+      "startTimestamp": "00:10:29.020",
+      "endTimestamp": "00:10:29.620",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0163",
+    "text": "This is actually a good thing.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 163,
+      "start": 629.72,
+      "end": 631.04,
+      "duration": 1.32,
+      "startTimestamp": "00:10:29.720",
+      "endTimestamp": "00:10:31.040",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0164",
+    "text": "Now you can't put this simple password.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 164,
+      "start": 631.45,
+      "end": 633.58,
+      "duration": 2.13,
+      "startTimestamp": "00:10:31.450",
+      "endTimestamp": "00:10:33.580",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0165",
+    "text": "So such a nice practice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 165,
+      "start": 633.64,
+      "end": 634.84,
+      "duration": 1.2,
+      "startTimestamp": "00:10:33.640",
+      "endTimestamp": "00:10:34.840",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0166",
+    "text": "I can simply say add the rate double eight two six five six seven six nine six some some",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 166,
+      "start": 635.2,
+      "end": 642.78,
+      "duration": 7.58,
+      "startTimestamp": "00:10:35.200",
+      "endTimestamp": "00:10:42.780",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0167",
+    "text": "hard password but let me put something that I remember.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 167,
+      "start": 642.781,
+      "end": 646.34,
+      "duration": 3.559,
+      "startTimestamp": "00:10:42.781",
+      "endTimestamp": "00:10:46.340",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0168",
+    "text": "Okay so I have put some nice password if I now try to login and then if I say continue",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 168,
+      "start": 650.1,
+      "end": 657.4,
+      "duration": 7.3,
+      "startTimestamp": "00:10:50.100",
+      "endTimestamp": "00:10:57.400",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0169",
+    "text": "hopefully this will work now and yes look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 169,
+      "start": 657.72,
+      "end": 660.24,
+      "duration": 2.52,
+      "startTimestamp": "00:10:57.720",
+      "endTimestamp": "00:11:00.240",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0170",
+    "text": "If I try to save it, we'll see that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 170,
+      "start": 662,
+      "end": 664.72,
+      "duration": 2.72,
+      "startTimestamp": "00:11:02.000",
+      "endTimestamp": "00:11:04.720",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0171",
+    "text": "Okay, now we are verifying this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 171,
+      "start": 665.38,
+      "end": 666.92,
+      "duration": 1.54,
+      "startTimestamp": "00:11:05.380",
+      "endTimestamp": "00:11:06.920",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0172",
+    "text": "What is this?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 172,
+      "start": 666.96,
+      "end": 667.42,
+      "duration": 0.46,
+      "startTimestamp": "00:11:06.960",
+      "endTimestamp": "00:11:07.420",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0173",
+    "text": "This is actually opening into my phone.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 173,
+      "start": 667.44,
+      "end": 669.08,
+      "duration": 1.64,
+      "startTimestamp": "00:11:07.440",
+      "endTimestamp": "00:11:09.080",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0174",
+    "text": "I don't want that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 174,
+      "start": 669.14,
+      "end": 670.14,
+      "duration": 1,
+      "startTimestamp": "00:11:09.140",
+      "endTimestamp": "00:11:10.140",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0175",
+    "text": "Okay, let me try to reload it once again.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 175,
+      "start": 671.04,
+      "end": 673.5,
+      "duration": 2.46,
+      "startTimestamp": "00:11:11.040",
+      "endTimestamp": "00:11:13.500",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0176",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 176,
+      "start": 673.96,
+      "end": 674.32,
+      "duration": 0.36,
+      "startTimestamp": "00:11:13.960",
+      "endTimestamp": "00:11:14.320",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0177",
+    "text": "And you can see one very interesting thing.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 177,
+      "start": 674.96,
+      "end": 676.84,
+      "duration": 1.88,
+      "startTimestamp": "00:11:14.960",
+      "endTimestamp": "00:11:16.840",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0178",
+    "text": "I don't know you are seeing it or not because I got the email onto the email that I am using.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 178,
+      "start": 677.1,
+      "end": 682.32,
+      "duration": 5.22,
+      "startTimestamp": "00:11:17.100",
+      "endTimestamp": "00:11:22.320",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0179",
+    "text": "So such a powerful thing and I think I can log in with the same information.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 179,
+      "start": 683,
+      "end": 687.26,
+      "duration": 4.26,
+      "startTimestamp": "00:11:23.000",
+      "endTimestamp": "00:11:27.260",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0180",
+    "text": "Let me try to re-login.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 180,
+      "start": 687.62,
+      "end": 689.08,
+      "duration": 1.46,
+      "startTimestamp": "00:11:27.620",
+      "endTimestamp": "00:11:29.080",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0181",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 181,
+      "start": 689.26,
+      "end": 689.62,
+      "duration": 0.36,
+      "startTimestamp": "00:11:29.260",
+      "endTimestamp": "00:11:29.620",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0182",
+    "text": "because I don't know I'm just not getting satisfied with it or maybe I can just enhance my design and then I'll be right back.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 182,
+      "start": 689.7,
+      "end": 697.62,
+      "duration": 7.92,
+      "startTimestamp": "00:11:29.700",
+      "endTimestamp": "00:11:37.620",
+      "estimatedTokens": 33
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0183",
+    "text": "Alright guys so I've just applied some basic styles into my application so hopefully this will look much better right now.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 183,
+      "start": 698.28,
+      "end": 705.56,
+      "duration": 7.28,
+      "startTimestamp": "00:11:38.280",
+      "endTimestamp": "00:11:45.560",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0184",
+    "text": "And again, you will get all the design files, everything onto my GitHub.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 184,
+      "start": 705.7,
+      "end": 709.9,
+      "duration": 4.2,
+      "startTimestamp": "00:11:45.700",
+      "endTimestamp": "00:11:49.900",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0185",
+    "text": "And let's say by any chance you are not be able to find the code exact and writing here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 185,
+      "start": 710.4,
+      "end": 715.14,
+      "duration": 4.74,
+      "startTimestamp": "00:11:50.400",
+      "endTimestamp": "00:11:55.140",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0186",
+    "text": "So there's a high chance that is overwritten by the latest commit.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 186,
+      "start": 715.6,
+      "end": 720.9,
+      "duration": 5.3,
+      "startTimestamp": "00:11:55.600",
+      "endTimestamp": "00:12:00.900",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0187",
+    "text": "So what you can do, you can always go to the repo.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 187,
+      "start": 721.16,
+      "end": 723.92,
+      "duration": 2.76,
+      "startTimestamp": "00:12:01.160",
+      "endTimestamp": "00:12:03.920",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0188",
+    "text": "And yes, you can always just keep track of this commits.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 188,
+      "start": 724.4,
+      "end": 728.34,
+      "duration": 3.94,
+      "startTimestamp": "00:12:04.400",
+      "endTimestamp": "00:12:08.340",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0189",
+    "text": "The moment you press here, you will get all of the commits name.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 189,
+      "start": 728.54,
+      "end": 732.1,
+      "duration": 3.56,
+      "startTimestamp": "00:12:08.540",
+      "endTimestamp": "00:12:12.100",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0190",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 190,
+      "start": 732.56,
+      "end": 732.86,
+      "duration": 0.3,
+      "startTimestamp": "00:12:12.560",
+      "endTimestamp": "00:12:12.860",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0191",
+    "text": "And you will find that that is much easier for you.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 191,
+      "start": 733.26,
+      "end": 736.74,
+      "duration": 3.48,
+      "startTimestamp": "00:12:13.260",
+      "endTimestamp": "00:12:16.740",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0192",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 192,
+      "start": 736.9,
+      "end": 737.34,
+      "duration": 0.44,
+      "startTimestamp": "00:12:16.900",
+      "endTimestamp": "00:12:17.340",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0193",
+    "text": "Nice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 193,
+      "start": 738.06,
+      "end": 738.28,
+      "duration": 0.22,
+      "startTimestamp": "00:12:18.060",
+      "endTimestamp": "00:12:18.280",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0194",
+    "text": "So let me again try to sign up and let me try to put some another data.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 194,
+      "start": 738.54,
+      "end": 744.76,
+      "duration": 6.22,
+      "startTimestamp": "00:12:18.540",
+      "endTimestamp": "00:12:24.760",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0195",
+    "text": "Okay.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 195,
+      "start": 747.36,
+      "end": 747.58,
+      "duration": 0.22,
+      "startTimestamp": "00:12:27.360",
+      "endTimestamp": "00:12:27.580",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0196",
+    "text": "Let me try to login once again.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 196,
+      "start": 747.8,
+      "end": 749.9,
+      "duration": 2.1,
+      "startTimestamp": "00:12:27.800",
+      "endTimestamp": "00:12:29.900",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0197",
+    "text": "Okay, let me press on sign up and nice and yes, I got some verification code.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 197,
+      "start": 754.28,
+      "end": 760.26,
+      "duration": 5.98,
+      "startTimestamp": "00:12:34.280",
+      "endTimestamp": "00:12:40.260",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0198",
+    "text": "So just give me a minute.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 198,
+      "start": 760.7,
+      "end": 761.8,
+      "duration": 1.1,
+      "startTimestamp": "00:12:40.700",
+      "endTimestamp": "00:12:41.800",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0199",
+    "text": "Let me just quickly put that verification code here and then I will show you that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 199,
+      "start": 762.06,
+      "end": 767.4,
+      "duration": 5.34,
+      "startTimestamp": "00:12:42.060",
+      "endTimestamp": "00:12:47.400",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0200",
+    "text": "So that is 366208 and if I try to simply verify.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 200,
+      "start": 767.64,
+      "end": 774.44,
+      "duration": 6.8,
+      "startTimestamp": "00:12:47.640",
+      "endTimestamp": "00:12:54.440",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0201",
+    "text": "And if I try to verify this once again, ok, I think I got some error for it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 201,
+      "start": 779.82,
+      "end": 786.84,
+      "duration": 7.02,
+      "startTimestamp": "00:12:59.820",
+      "endTimestamp": "00:13:06.840",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0202",
+    "text": "And ok, let me try to reload it once again, cancel it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 202,
+      "start": 789.22,
+      "end": 792.7,
+      "duration": 3.48,
+      "startTimestamp": "00:13:09.220",
+      "endTimestamp": "00:13:12.700",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0203",
+    "text": "All right, so let me just retry to sign up once again and hopefully at this time I will",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 203,
+      "start": 795.459,
+      "end": 800.24,
+      "duration": 4.781,
+      "startTimestamp": "00:13:15.459",
+      "endTimestamp": "00:13:20.240",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0204",
+    "text": "put all the credentials correctly.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 204,
+      "start": 800.241,
+      "end": 801.92,
+      "duration": 1.679,
+      "startTimestamp": "00:13:20.241",
+      "endTimestamp": "00:13:21.920",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0205",
+    "text": "So just give me a minute and let me try to re log in.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 205,
+      "start": 802.6,
+      "end": 806.319,
+      "duration": 3.719,
+      "startTimestamp": "00:13:22.600",
+      "endTimestamp": "00:13:26.319",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0206",
+    "text": "And yes, look at that right now you can see this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 206,
+      "start": 806.8389999999999,
+      "end": 809.6,
+      "duration": 2.761,
+      "startTimestamp": "00:13:26.839",
+      "endTimestamp": "00:13:29.600",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0207",
+    "text": "This is the email I am logged in with.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 207,
+      "start": 809.66,
+      "end": 811.319,
+      "duration": 1.659,
+      "startTimestamp": "00:13:29.660",
+      "endTimestamp": "00:13:31.319",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0208",
+    "text": "This is the username I am getting a simple hello and a simple avatar and whole Gmail",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 208,
+      "start": 811.759,
+      "end": 817.22,
+      "duration": 5.461,
+      "startTimestamp": "00:13:31.759",
+      "endTimestamp": "00:13:37.220",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0209",
+    "text": "and I can simply press on sign out.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 209,
+      "start": 817.221,
+      "end": 819.24,
+      "duration": 2.019,
+      "startTimestamp": "00:13:37.221",
+      "endTimestamp": "00:13:39.240",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0210",
+    "text": "Definitely I can implement sign out functionalities as well and you can look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 210,
+      "start": 819.72,
+      "end": 823.3,
+      "duration": 3.58,
+      "startTimestamp": "00:13:39.720",
+      "endTimestamp": "00:13:43.300",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0211",
+    "text": "This is how they all are working, you are sign out.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 211,
+      "start": 824.28,
+      "end": 827.86,
+      "duration": 3.58,
+      "startTimestamp": "00:13:44.280",
+      "endTimestamp": "00:13:47.860",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0212",
+    "text": "I can now again simply sign in with the same information that I have put.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 212,
+      "start": 829.34,
+      "end": 833.84,
+      "duration": 4.5,
+      "startTimestamp": "00:13:49.340",
+      "endTimestamp": "00:13:53.840",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0213",
+    "text": "So let me try to sign in only right now.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 213,
+      "start": 834.16,
+      "end": 837.28,
+      "duration": 3.12,
+      "startTimestamp": "00:13:54.160",
+      "endTimestamp": "00:13:57.280",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0214",
+    "text": "And let me simply say sign in and yep look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 214,
+      "start": 840.02,
+      "end": 844.66,
+      "duration": 4.64,
+      "startTimestamp": "00:14:00.020",
+      "endTimestamp": "00:14:04.660",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0215",
+    "text": "So this is how you can use clerk.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 215,
+      "start": 844.86,
+      "end": 846.9,
+      "duration": 2.04,
+      "startTimestamp": "00:14:04.860",
+      "endTimestamp": "00:14:06.900",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0216",
+    "text": "So clerk is much more easier than all of the others auth provider but definitely they are",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 216,
+      "start": 847.32,
+      "end": 853.62,
+      "duration": 6.3,
+      "startTimestamp": "00:14:07.320",
+      "endTimestamp": "00:14:13.620",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0217",
+    "text": "bit expensive.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 217,
+      "start": 853.621,
+      "end": 854.56,
+      "duration": 0.939,
+      "startTimestamp": "00:14:13.621",
+      "endTimestamp": "00:14:14.560",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0218",
+    "text": "So if you can afford to use clerk you can definitely go with it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 218,
+      "start": 855.36,
+      "end": 858.9,
+      "duration": 3.54,
+      "startTimestamp": "00:14:15.360",
+      "endTimestamp": "00:14:18.900",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0219",
+    "text": "In same way if you wanted to go with some other features as well like you wanted to",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 219,
+      "start": 859.26,
+      "end": 864.32,
+      "duration": 5.06,
+      "startTimestamp": "00:14:19.260",
+      "endTimestamp": "00:14:24.320",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0220",
+    "text": "with Google Auth, with GitHub, with Apple, you can definitely give it a try and try to",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 220,
+      "start": 865.779,
+      "end": 871.56,
+      "duration": 5.781,
+      "startTimestamp": "00:14:25.779",
+      "endTimestamp": "00:14:31.560",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0221",
+    "text": "implement by yourself.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 221,
+      "start": 871.561,
+      "end": 872.5,
+      "duration": 0.939,
+      "startTimestamp": "00:14:31.561",
+      "endTimestamp": "00:14:32.500",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0222",
+    "text": "So with this, this is the end of the entire OAuth and we can say authentication module.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 222,
+      "start": 872.68,
+      "end": 879.519,
+      "duration": 6.839,
+      "startTimestamp": "00:14:32.680",
+      "endTimestamp": "00:14:39.519",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0223",
+    "text": "Hopefully you loved it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 223,
+      "start": 879.66,
+      "end": 880.899,
+      "duration": 1.239,
+      "startTimestamp": "00:14:39.660",
+      "endTimestamp": "00:14:40.899",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0224",
+    "text": "And if yes, then make sure to drop your feedback with this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 224,
+      "start": 881.06,
+      "end": 884.72,
+      "duration": 3.66,
+      "startTimestamp": "00:14:41.060",
+      "endTimestamp": "00:14:44.720",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0225",
+    "text": "Bye bye.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 225,
+      "start": 884.86,
+      "end": 885.12,
+      "duration": 0.26,
+      "startTimestamp": "00:14:44.860",
+      "endTimestamp": "00:14:45.120",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0226",
+    "text": "Take care.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 226,
+      "start": 885.121,
+      "end": 885.58,
+      "duration": 0.459,
+      "startTimestamp": "00:14:45.121",
+      "endTimestamp": "00:14:45.580",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_0227",
+    "text": "See ya and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "fileName": "chapter-6-implementing-clerk-authentication_epm.vtt",
+      "captionIndex": 227,
+      "start": 885.74,
+      "end": 888.18,
+      "duration": 2.44,
+      "startTimestamp": "00:14:45.740",
+      "endTimestamp": "00:14:48.180",
+      "estimatedTokens": 10
+    }
+  }
+]

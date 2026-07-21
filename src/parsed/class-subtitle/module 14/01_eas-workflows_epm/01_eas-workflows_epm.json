@@ -1,0 +1,2168 @@
+[
+  {
+    "id": "01_eas-workflows_epm_0001",
+    "text": "Alright beautiful people, welcome to one more new chapter, in this chapter we will basically",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 1,
+      "start": 0,
+      "end": 4.16,
+      "duration": 4.16,
+      "startTimestamp": "00:00:00.000",
+      "endTimestamp": "00:00:04.160",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0002",
+    "text": "going to get the basic introduction about EAS workflows, alright.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 2,
+      "start": 4.161,
+      "end": 8.58,
+      "duration": 4.419,
+      "startTimestamp": "00:00:04.161",
+      "endTimestamp": "00:00:08.580",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0003",
+    "text": "Now what is this EAS workflows?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 3,
+      "start": 8.94,
+      "end": 10.38,
+      "duration": 1.44,
+      "startTimestamp": "00:00:08.940",
+      "endTimestamp": "00:00:10.380",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0004",
+    "text": "So learn how to use EAS workflows to automate your react-native CI/CD development, continuous",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 4,
+      "start": 10.62,
+      "end": 16.9,
+      "duration": 6.28,
+      "startTimestamp": "00:00:10.620",
+      "endTimestamp": "00:00:16.900",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0005",
+    "text": "integration, continuous development and release processes, perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 5,
+      "start": 16.94,
+      "end": 21.56,
+      "duration": 4.62,
+      "startTimestamp": "00:00:16.940",
+      "endTimestamp": "00:00:21.560",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0006",
+    "text": "So what is the prerequisite?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 6,
+      "start": 21.84,
+      "end": 23.22,
+      "duration": 1.38,
+      "startTimestamp": "00:00:21.840",
+      "endTimestamp": "00:00:23.220",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0007",
+    "text": "First prerequisite is you need a basic expo account, then you need a project and make",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 7,
+      "start": 23.6,
+      "end": 29.88,
+      "duration": 6.28,
+      "startTimestamp": "00:00:23.600",
+      "endTimestamp": "00:00:29.880",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0008",
+    "text": "sure that you have basically sync your project with EAS.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 8,
+      "start": 29.881,
+      "end": 32.58,
+      "duration": 2.699,
+      "startTimestamp": "00:00:29.881",
+      "endTimestamp": "00:00:32.580",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0009",
+    "text": "So we already have this application which matches all the criteria that we have.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 9,
+      "start": 32.92,
+      "end": 38.18,
+      "duration": 5.26,
+      "startTimestamp": "00:00:32.920",
+      "endTimestamp": "00:00:38.180",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0010",
+    "text": "After that what you can do you can basically create one EAS JSON file and simply put all",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 10,
+      "start": 38.86,
+      "end": 43.9,
+      "duration": 5.04,
+      "startTimestamp": "00:00:38.860",
+      "endTimestamp": "00:00:43.900",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0011",
+    "text": "of the things that we need to add.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 11,
+      "start": 43.901,
+      "end": 46,
+      "duration": 2.099,
+      "startTimestamp": "00:00:43.901",
+      "endTimestamp": "00:00:46.000",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0012",
+    "text": "Now what is the first step for working with EAS workflows?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 12,
+      "start": 46.2,
+      "end": 49.7,
+      "duration": 3.5,
+      "startTimestamp": "00:00:46.200",
+      "endTimestamp": "00:00:49.700",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0013",
+    "text": "So for that create a directory name with the name of.eas.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 13,
+      "start": 49.92,
+      "end": 53.6,
+      "duration": 3.68,
+      "startTimestamp": "00:00:49.920",
+      "endTimestamp": "00:00:53.600",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0014",
+    "text": "So I have already created one directory name with the name of let me show you that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 14,
+      "start": 53.76,
+      "end": 58.68,
+      "duration": 4.92,
+      "startTimestamp": "00:00:53.760",
+      "endTimestamp": "00:00:58.680",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0015",
+    "text": "Okay the name is basically.eas.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 15,
+      "start": 58.87,
+      "end": 61.42,
+      "duration": 2.55,
+      "startTimestamp": "00:00:58.870",
+      "endTimestamp": "00:01:01.420",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0016",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 16,
+      "start": 61.7,
+      "end": 62.02,
+      "duration": 0.32,
+      "startTimestamp": "00:01:01.700",
+      "endTimestamp": "00:01:02.020",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0017",
+    "text": "So this is the directory name, inside this directory name you just need to create one",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 17,
+      "start": 62.021,
+      "end": 67.1,
+      "duration": 5.079,
+      "startTimestamp": "00:01:02.021",
+      "endTimestamp": "00:01:07.100",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0018",
+    "text": "workflows and at the root of your project with.yml file inside of it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 18,
+      "start": 67.101,
+      "end": 73.14,
+      "duration": 6.039,
+      "startTimestamp": "00:01:07.101",
+      "endTimestamp": "00:01:13.140",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0019",
+    "text": "So for example.esworkflow create production build.yml anything can be there and this is",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 19,
+      "start": 73.229,
+      "end": 79.3,
+      "duration": 6.071,
+      "startTimestamp": "00:01:13.229",
+      "endTimestamp": "00:01:19.300",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0020",
+    "text": "just a simple example for creating your production build.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 20,
+      "start": 79.301,
+      "end": 82.44,
+      "duration": 3.139,
+      "startTimestamp": "00:01:19.301",
+      "endTimestamp": "00:01:22.440",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0021",
+    "text": "So the moment you make any kind of commits to your github then this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 21,
+      "start": 82.56,
+      "end": 87.88,
+      "duration": 5.32,
+      "startTimestamp": "00:01:22.560",
+      "endTimestamp": "00:01:27.880",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0022",
+    "text": "Jobs will automatically going, the moment you push anything to your EIS, this job will",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 22,
+      "start": 90.2,
+      "end": 94.68,
+      "duration": 4.48,
+      "startTimestamp": "00:01:30.200",
+      "endTimestamp": "00:01:34.680",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0023",
+    "text": "automatically going to trigger for you.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 23,
+      "start": 94.681,
+      "end": 96.6,
+      "duration": 1.919,
+      "startTimestamp": "00:01:34.681",
+      "endTimestamp": "00:01:36.600",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0024",
+    "text": "So what you need to do right now is simply just make sure that you will go to your expo",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 24,
+      "start": 97.66,
+      "end": 102.84,
+      "duration": 5.18,
+      "startTimestamp": "00:01:37.660",
+      "endTimestamp": "00:01:42.840",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0025",
+    "text": "dashboard.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 25,
+      "start": 102.84100000000001,
+      "end": 103.34,
+      "duration": 0.499,
+      "startTimestamp": "00:01:42.841",
+      "endTimestamp": "00:01:43.340",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0026",
+    "text": "After going to dashboard select any of your project or what you can do, yes let me just",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 26,
+      "start": 104.9,
+      "end": 109.9,
+      "duration": 5,
+      "startTimestamp": "00:01:44.900",
+      "endTimestamp": "00:01:49.900",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0027",
+    "text": "select my where is unit flow, ok this one and what after selecting this application just",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 27,
+      "start": 109.979,
+      "end": 116.24000000000001,
+      "duration": 6.261,
+      "startTimestamp": "00:01:49.979",
+      "endTimestamp": "00:01:56.240",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0028",
+    "text": "Move here and search for github.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 28,
+      "start": 116.241,
+      "end": 118.16,
+      "duration": 1.919,
+      "startTimestamp": "00:01:56.241",
+      "endTimestamp": "00:01:58.160",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0029",
+    "text": "And make sure you will basically go and connect your GitHub application.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 29,
+      "start": 118.7,
+      "end": 123.479,
+      "duration": 4.779,
+      "startTimestamp": "00:01:58.700",
+      "endTimestamp": "00:02:03.479",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0030",
+    "text": "Okay, this is very, very, very important.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 30,
+      "start": 123.759,
+      "end": 125.579,
+      "duration": 1.82,
+      "startTimestamp": "00:02:03.759",
+      "endTimestamp": "00:02:05.579",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0031",
+    "text": "The moment you connect your GitHub application, you basically need to configure the EAS build",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 31,
+      "start": 126.46,
+      "end": 131.019,
+      "duration": 4.559,
+      "startTimestamp": "00:02:06.460",
+      "endTimestamp": "00:02:11.019",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0032",
+    "text": "for you.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 32,
+      "start": 131.02,
+      "end": 131.459,
+      "duration": 0.439,
+      "startTimestamp": "00:02:11.020",
+      "endTimestamp": "00:02:11.459",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0033",
+    "text": "Let me show you that with any other example that we have.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 33,
+      "start": 131.78,
+      "end": 134.78,
+      "duration": 3,
+      "startTimestamp": "00:02:11.780",
+      "endTimestamp": "00:02:14.780",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0034",
+    "text": "Maybe I can show you inside this EAS demo.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 34,
+      "start": 135.28,
+      "end": 137.62,
+      "duration": 2.34,
+      "startTimestamp": "00:02:15.280",
+      "endTimestamp": "00:02:17.620",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0035",
+    "text": "I don't know.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 35,
+      "start": 137.709,
+      "end": 138.739,
+      "duration": 1.03,
+      "startTimestamp": "00:02:17.709",
+      "endTimestamp": "00:02:18.739",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0036",
+    "text": "So for that, yes, I can simply press on GitHub and I wanted to connect the specific.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 36,
+      "start": 139.76,
+      "end": 144.9,
+      "duration": 5.14,
+      "startTimestamp": "00:02:19.760",
+      "endTimestamp": "00:02:24.900",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0037",
+    "text": "What is the name of it?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 37,
+      "start": 146.599,
+      "end": 148.28,
+      "duration": 1.681,
+      "startTimestamp": "00:02:26.599",
+      "endTimestamp": "00:02:28.280",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0038",
+    "text": "Let me just search for mobile development, wait a minute, ok.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 38,
+      "start": 148.4,
+      "end": 154.34,
+      "duration": 5.94,
+      "startTimestamp": "00:02:28.400",
+      "endTimestamp": "00:02:34.340",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0039",
+    "text": "So this is the mobile dev that we have or ok, chai or mobile dev 2026, this is the basic",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 39,
+      "start": 154.599,
+      "end": 164.42000000000002,
+      "duration": 9.821,
+      "startTimestamp": "00:02:34.599",
+      "endTimestamp": "00:02:44.420",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0040",
+    "text": "a repo that we have and the name of it is basically let's just say EAS demo.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 40,
+      "start": 168.12,
+      "end": 172.68,
+      "duration": 4.56,
+      "startTimestamp": "00:02:48.120",
+      "endTimestamp": "00:02:52.680",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0041",
+    "text": "And then what I can do, I can simply press on save.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 41,
+      "start": 173.81900000000002,
+      "end": 176.54,
+      "duration": 2.721,
+      "startTimestamp": "00:02:53.819",
+      "endTimestamp": "00:02:56.540",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0042",
+    "text": "So the moment I save, this is the entry point I wanted to have.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 42,
+      "start": 177.019,
+      "end": 180.079,
+      "duration": 3.06,
+      "startTimestamp": "00:02:57.019",
+      "endTimestamp": "00:03:00.079",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0043",
+    "text": "After that, I basically wanted to configure my EAS workflow.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 43,
+      "start": 180.739,
+      "end": 183.9,
+      "duration": 3.161,
+      "startTimestamp": "00:03:00.739",
+      "endTimestamp": "00:03:03.900",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0044",
+    "text": "So I can simply press on get started.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 44,
+      "start": 184,
+      "end": 185.94,
+      "duration": 1.94,
+      "startTimestamp": "00:03:04.000",
+      "endTimestamp": "00:03:05.940",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0045",
+    "text": "The moment I press on get started, what I can do, I can again press on get started.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 45,
+      "start": 186.3,
+      "end": 190.74,
+      "duration": 4.44,
+      "startTimestamp": "00:03:06.300",
+      "endTimestamp": "00:03:10.740",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0046",
+    "text": "I already have all the builds simple then.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 46,
+      "start": 191.18,
+      "end": 194.54,
+      "duration": 3.36,
+      "startTimestamp": "00:03:11.180",
+      "endTimestamp": "00:03:14.540",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0047",
+    "text": "Okay.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 47,
+      "start": 194.74,
+      "end": 194.84,
+      "duration": 0.1,
+      "startTimestamp": "00:03:14.740",
+      "endTimestamp": "00:03:14.840",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0048",
+    "text": "Yes.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 48,
+      "start": 194.9,
+      "end": 195.16,
+      "duration": 0.26,
+      "startTimestamp": "00:03:14.900",
+      "endTimestamp": "00:03:15.160",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0049",
+    "text": "First thing they are asking you to create this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 49,
+      "start": 195.28,
+      "end": 197.78,
+      "duration": 2.5,
+      "startTimestamp": "00:03:15.280",
+      "endTimestamp": "00:03:17.780",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0050",
+    "text": "We already I have already created that inside my currently working application, but you",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 50,
+      "start": 197.88,
+      "end": 203.14,
+      "duration": 5.26,
+      "startTimestamp": "00:03:17.880",
+      "endTimestamp": "00:03:23.140",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0051",
+    "text": "can even create your own and then simply again press on continue.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 51,
+      "start": 203.141,
+      "end": 207.06,
+      "duration": 3.919,
+      "startTimestamp": "00:03:23.141",
+      "endTimestamp": "00:03:27.060",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0052",
+    "text": "Then this is a bunch of command.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 52,
+      "start": 207.66,
+      "end": 209,
+      "duration": 1.34,
+      "startTimestamp": "00:03:27.660",
+      "endTimestamp": "00:03:29.000",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0053",
+    "text": "This is how you can basically run your workflow.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 53,
+      "start": 209.16,
+      "end": 211.3,
+      "duration": 2.14,
+      "startTimestamp": "00:03:29.160",
+      "endTimestamp": "00:03:31.300",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0054",
+    "text": "Okay, and that's it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 54,
+      "start": 211.8,
+      "end": 213.9,
+      "duration": 2.1,
+      "startTimestamp": "00:03:31.800",
+      "endTimestamp": "00:03:33.900",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0055",
+    "text": "So what I can do, let me copy this command and let me show you simple one example and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 55,
+      "start": 214.36,
+      "end": 218.88,
+      "duration": 4.52,
+      "startTimestamp": "00:03:34.360",
+      "endTimestamp": "00:03:38.880",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0056",
+    "text": "that's it because this workflow thing is something that is your DevOps engineering team will more",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 56,
+      "start": 218.881,
+      "end": 224.28,
+      "duration": 5.399,
+      "startTimestamp": "00:03:38.881",
+      "endTimestamp": "00:03:44.280",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0057",
+    "text": "of more often decide.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 57,
+      "start": 224.281,
+      "end": 225.48,
+      "duration": 1.199,
+      "startTimestamp": "00:03:44.281",
+      "endTimestamp": "00:03:45.480",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0058",
+    "text": "So you just need to see that this is how you can basically configure it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 58,
+      "start": 225.92000000000002,
+      "end": 229.46,
+      "duration": 3.54,
+      "startTimestamp": "00:03:45.920",
+      "endTimestamp": "00:03:49.460",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0059",
+    "text": "So, I have already created one simple hello world dot eml application.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 59,
+      "start": 229.5,
+      "end": 233.36,
+      "duration": 3.86,
+      "startTimestamp": "00:03:49.500",
+      "endTimestamp": "00:03:53.360",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0060",
+    "text": "So on push yes whenever I wanted to push something onto my main branch then I wanted to run this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 60,
+      "start": 233.92000000000002,
+      "end": 240.58,
+      "duration": 6.66,
+      "startTimestamp": "00:03:53.920",
+      "endTimestamp": "00:04:00.580",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0061",
+    "text": "hello world job that will going to console hello world and hello Suraj for me.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 61,
+      "start": 240.581,
+      "end": 245.04,
+      "duration": 4.459,
+      "startTimestamp": "00:04:00.581",
+      "endTimestamp": "00:04:05.040",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0062",
+    "text": "So how I can run this very simple.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 62,
+      "start": 245.31,
+      "end": 247.44,
+      "duration": 2.13,
+      "startTimestamp": "00:04:05.310",
+      "endTimestamp": "00:04:07.440",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0063",
+    "text": "Let me simply paste this which is npx, as, cli, at the rate latest workflow run and the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 63,
+      "start": 247.9,
+      "end": 255.04,
+      "duration": 7.14,
+      "startTimestamp": "00:04:07.900",
+      "endTimestamp": "00:04:15.040",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0064",
+    "text": "name of that workflow should be let me show you that that should be hello world and let",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 64,
+      "start": 255.041,
+      "end": 261.66,
+      "duration": 6.619,
+      "startTimestamp": "00:04:15.041",
+      "endTimestamp": "00:04:21.660",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0065",
+    "text": "me just simply press enter.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 65,
+      "start": 261.68,
+      "end": 263.3,
+      "duration": 1.62,
+      "startTimestamp": "00:04:21.680",
+      "endTimestamp": "00:04:23.300",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0066",
+    "text": "So what this will going to do?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 66,
+      "start": 263.4,
+      "end": 265.44,
+      "duration": 2.04,
+      "startTimestamp": "00:04:23.400",
+      "endTimestamp": "00:04:25.440",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0067",
+    "text": "This will going to trigger this specific workflow for me.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 67,
+      "start": 265.82,
+      "end": 268.919,
+      "duration": 3.099,
+      "startTimestamp": "00:04:25.820",
+      "endTimestamp": "00:04:28.919",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0068",
+    "text": "And look at that using workflow file from this specific path and they are basically",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 68,
+      "start": 269,
+      "end": 274.7,
+      "duration": 5.7,
+      "startTimestamp": "00:04:29.000",
+      "endTimestamp": "00:04:34.700",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0069",
+    "text": "compressing my project file and uploading to AAS already uploaded but it's okay.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 69,
+      "start": 274.9,
+      "end": 279.8,
+      "duration": 4.9,
+      "startTimestamp": "00:04:34.900",
+      "endTimestamp": "00:04:39.800",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0070",
+    "text": "So everything will this everything effect will going to show us inside the unit flow",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 70,
+      "start": 280.68,
+      "end": 286.02,
+      "duration": 5.34,
+      "startTimestamp": "00:04:40.680",
+      "endTimestamp": "00:04:46.020",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0071",
+    "text": "because this is just for demonstration purpose I wanted to show you but where is my unit",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 71,
+      "start": 286.021,
+      "end": 290.82,
+      "duration": 4.799,
+      "startTimestamp": "00:04:46.021",
+      "endTimestamp": "00:04:50.820",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0072",
+    "text": "flow this one.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 72,
+      "start": 290.821,
+      "end": 291.94,
+      "duration": 1.119,
+      "startTimestamp": "00:04:50.821",
+      "endTimestamp": "00:04:51.940",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0073",
+    "text": "And the moment I basically come here and let me just show you look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 73,
+      "start": 292.1,
+      "end": 297.34000000000003,
+      "duration": 5.24,
+      "startTimestamp": "00:04:52.100",
+      "endTimestamp": "00:04:57.340",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0074",
+    "text": "These are some basic workflows that I have run previously.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 74,
+      "start": 297.52,
+      "end": 300.22,
+      "duration": 2.7,
+      "startTimestamp": "00:04:57.520",
+      "endTimestamp": "00:05:00.220",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0075",
+    "text": "They're actually uploading the archive to EAS.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 75,
+      "start": 301.8,
+      "end": 304.24,
+      "duration": 2.44,
+      "startTimestamp": "00:05:01.800",
+      "endTimestamp": "00:05:04.240",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0076",
+    "text": "We can wait for it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 76,
+      "start": 304.42,
+      "end": 305.42,
+      "duration": 1,
+      "startTimestamp": "00:05:04.420",
+      "endTimestamp": "00:05:05.420",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0077",
+    "text": "All right guys, amazing.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 77,
+      "start": 305.62,
+      "end": 306.36,
+      "duration": 0.74,
+      "startTimestamp": "00:05:05.620",
+      "endTimestamp": "00:05:06.360",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0078",
+    "text": "And look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 78,
+      "start": 306.5,
+      "end": 307.16,
+      "duration": 0.66,
+      "startTimestamp": "00:05:06.500",
+      "endTimestamp": "00:05:07.160",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0079",
+    "text": "They have basically uploaded EAS JSON uploaded package and this is the workflow which have",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 79,
+      "start": 307.26,
+      "end": 312.96,
+      "duration": 5.7,
+      "startTimestamp": "00:05:07.260",
+      "endTimestamp": "00:05:12.960",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0080",
+    "text": "actually run for us.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 80,
+      "start": 312.961,
+      "end": 314.2,
+      "duration": 1.239,
+      "startTimestamp": "00:05:12.961",
+      "endTimestamp": "00:05:14.200",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0081",
+    "text": "And let me show you that this is the hello world workflow.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 81,
+      "start": 314.201,
+      "end": 317.46,
+      "duration": 3.259,
+      "startTimestamp": "00:05:14.201",
+      "endTimestamp": "00:05:17.460",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0082",
+    "text": "This is the workflow file that we have and they are actually running for us.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 82,
+      "start": 317.76,
+      "end": 321.68,
+      "duration": 3.92,
+      "startTimestamp": "00:05:17.760",
+      "endTimestamp": "00:05:21.680",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0083",
+    "text": "Look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 83,
+      "start": 321.76,
+      "end": 322.38,
+      "duration": 0.62,
+      "startTimestamp": "00:05:21.760",
+      "endTimestamp": "00:05:22.380",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0084",
+    "text": "This is the logs and this is the waiting for start.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 84,
+      "start": 322.82,
+      "end": 326.2,
+      "duration": 3.38,
+      "startTimestamp": "00:05:22.820",
+      "endTimestamp": "00:05:26.200",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0085",
+    "text": "Okay.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 85,
+      "start": 326.84,
+      "end": 327.24,
+      "duration": 0.4,
+      "startTimestamp": "00:05:26.840",
+      "endTimestamp": "00:05:27.240",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0086",
+    "text": "Let just wait for it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 86,
+      "start": 327.3,
+      "end": 328.44,
+      "duration": 1.14,
+      "startTimestamp": "00:05:27.300",
+      "endTimestamp": "00:05:28.440",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0087",
+    "text": "Not only this let me show you something one more very interesting thing is let's just",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 87,
+      "start": 329.7,
+      "end": 335.2,
+      "duration": 5.5,
+      "startTimestamp": "00:05:29.700",
+      "endTimestamp": "00:05:35.200",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0088",
+    "text": "say let me just delete all the other workflows as well and they are actually running maybe",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 88,
+      "start": 335.201,
+      "end": 340.02,
+      "duration": 4.819,
+      "startTimestamp": "00:05:35.201",
+      "endTimestamp": "00:05:40.020",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0089",
+    "text": "they will take some time and let me just make some basic changes and after this let me just",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 89,
+      "start": 340.021,
+      "end": 345.76,
+      "duration": 5.739,
+      "startTimestamp": "00:05:40.021",
+      "endTimestamp": "00:05:45.760",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0090",
+    "text": "commit this and push into my github.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 90,
+      "start": 345.761,
+      "end": 348.5,
+      "duration": 2.739,
+      "startTimestamp": "00:05:45.761",
+      "endTimestamp": "00:05:48.500",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0091",
+    "text": "This is on push.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 91,
+      "start": 348.88,
+      "end": 350.24,
+      "duration": 1.36,
+      "startTimestamp": "00:05:48.880",
+      "endTimestamp": "00:05:50.240",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0092",
+    "text": "And then if I just once again come here look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 92,
+      "start": 351.46,
+      "end": 354.319,
+      "duration": 2.859,
+      "startTimestamp": "00:05:51.460",
+      "endTimestamp": "00:05:54.319",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0093",
+    "text": "Now these are the two jobs which is actually running.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 93,
+      "start": 354.479,
+      "end": 357.02,
+      "duration": 2.541,
+      "startTimestamp": "00:05:54.479",
+      "endTimestamp": "00:05:57.020",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0094",
+    "text": "This is the first job which is completed right now.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 94,
+      "start": 357.24,
+      "end": 360.039,
+      "duration": 2.799,
+      "startTimestamp": "00:05:57.240",
+      "endTimestamp": "00:06:00.039",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0095",
+    "text": "Look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 95,
+      "start": 360.12,
+      "end": 360.72,
+      "duration": 0.6,
+      "startTimestamp": "00:06:00.120",
+      "endTimestamp": "00:06:00.720",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0096",
+    "text": "This is the hello world that I basically got inside my console and this is the second job",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 96,
+      "start": 361.039,
+      "end": 366.02,
+      "duration": 4.981,
+      "startTimestamp": "00:06:01.039",
+      "endTimestamp": "00:06:06.020",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0097",
+    "text": "which is still running and this will again actually this is your manual run actually.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 97,
+      "start": 366.021,
+      "end": 370.159,
+      "duration": 4.138,
+      "startTimestamp": "00:06:06.021",
+      "endTimestamp": "00:06:10.159",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0098",
+    "text": "But this is run on the basis of your git push but not only this you can actually learn more",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 98,
+      "start": 370.2,
+      "end": 376.62,
+      "duration": 6.42,
+      "startTimestamp": "00:06:10.200",
+      "endTimestamp": "00:06:16.620",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0099",
+    "text": "about other I can say that the triggers event about it these are just basic theories you",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 99,
+      "start": 376.621,
+      "end": 383.86,
+      "duration": 7.239,
+      "startTimestamp": "00:06:16.621",
+      "endTimestamp": "00:06:23.860",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0100",
+    "text": "have to do a very basic research like what are all the type of builds I can create.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 100,
+      "start": 383.861,
+      "end": 388.82,
+      "duration": 4.959,
+      "startTimestamp": "00:06:23.861",
+      "endTimestamp": "00:06:28.820",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0101",
+    "text": "Okay let me show you other examples as well like you can actually schedule this actual",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 101,
+      "start": 388.87,
+      "end": 393.48,
+      "duration": 4.61,
+      "startTimestamp": "00:06:28.870",
+      "endTimestamp": "00:06:33.480",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0102",
+    "text": "build on 2 am every day.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 102,
+      "start": 393.5,
+      "end": 395.48,
+      "duration": 1.98,
+      "startTimestamp": "00:06:33.500",
+      "endTimestamp": "00:06:35.480",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0103",
+    "text": "So, this is your on schedule and this is your cron job and this is some basic job you have",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 103,
+      "start": 395.5,
+      "end": 400.32,
+      "duration": 4.82,
+      "startTimestamp": "00:06:35.500",
+      "endTimestamp": "00:06:40.320",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0104",
+    "text": "to run.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 104,
+      "start": 400.321,
+      "end": 400.68,
+      "duration": 0.359,
+      "startTimestamp": "00:06:40.321",
+      "endTimestamp": "00:06:40.680",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0105",
+    "text": "In same way this is the moment you push anything onto the main branch these are basic things",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 105,
+      "start": 401.1,
+      "end": 406.34000000000003,
+      "duration": 5.24,
+      "startTimestamp": "00:06:41.100",
+      "endTimestamp": "00:06:46.340",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0106",
+    "text": "we need to go through.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 106,
+      "start": 406.341,
+      "end": 407.34000000000003,
+      "duration": 0.999,
+      "startTimestamp": "00:06:46.341",
+      "endTimestamp": "00:06:47.340",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0107",
+    "text": "In same way we have the preview build like the moment workflow dispatch like on manual",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 107,
+      "start": 407.5,
+      "end": 412.58,
+      "duration": 5.08,
+      "startTimestamp": "00:06:47.500",
+      "endTimestamp": "00:06:52.580",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0108",
+    "text": "I can say that and then this is the build Android and this is basically what I need",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 108,
+      "start": 412.581,
+      "end": 417.38,
+      "duration": 4.799,
+      "startTimestamp": "00:06:52.581",
+      "endTimestamp": "00:06:57.380",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0109",
+    "text": "to get.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 109,
+      "start": 417.381,
+      "end": 417.9,
+      "duration": 0.519,
+      "startTimestamp": "00:06:57.381",
+      "endTimestamp": "00:06:57.900",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0110",
+    "text": "So, these are some of the basic stuff you can do with the help of expo preview, expo",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 110,
+      "start": 418,
+      "end": 424.52,
+      "duration": 6.52,
+      "startTimestamp": "00:06:58.000",
+      "endTimestamp": "00:07:04.520",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0111",
+    "text": "workflows, this expo workflow is paid initially but right now this is free for most of the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 111,
+      "start": 424.62,
+      "end": 429.88,
+      "duration": 5.26,
+      "startTimestamp": "00:07:04.620",
+      "endTimestamp": "00:07:09.880",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0112",
+    "text": "user, so make sure to use this, do a basic research about it and look at that this is",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 112,
+      "start": 429.881,
+      "end": 434.38,
+      "duration": 4.499,
+      "startTimestamp": "00:07:09.881",
+      "endTimestamp": "00:07:14.380",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0113",
+    "text": "also working for us and there is nothing more to tell you about EIS workflows for now, so",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 113,
+      "start": 434.4,
+      "end": 440.86,
+      "duration": 6.46,
+      "startTimestamp": "00:07:14.400",
+      "endTimestamp": "00:07:20.860",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_0114",
+    "text": "with this I can say that yeah this is pretty much it for it and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "fileName": "01_eas-workflows_epm.vtt",
+      "captionIndex": 114,
+      "start": 440.861,
+      "end": 445.3,
+      "duration": 4.439,
+      "startTimestamp": "00:07:20.861",
+      "endTimestamp": "00:07:25.300",
+      "estimatedTokens": 25
+    }
+  }
+]

@@ -1,0 +1,3840 @@
+[
+  {
+    "id": "04_list-&-data-display-components_epm_0001",
+    "text": "Alright guys and welcome to one more new lecture.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 1,
+      "start": 0.679,
+      "end": 4,
+      "duration": 3.321,
+      "startTimestamp": "00:00:00.679",
+      "endTimestamp": "00:00:04.000",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0002",
+    "text": "In this lecture we are going to talk about list and data display components.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 2,
+      "start": 4.24,
+      "end": 9,
+      "duration": 4.76,
+      "startTimestamp": "00:00:04.240",
+      "endTimestamp": "00:00:09.000",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0003",
+    "text": "Into this we are basically going to cover two powerful components.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 3,
+      "start": 10.14,
+      "end": 13.8,
+      "duration": 3.66,
+      "startTimestamp": "00:00:10.140",
+      "endTimestamp": "00:00:13.800",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0004",
+    "text": "One is flat list and another one is section list.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 4,
+      "start": 14.66,
+      "end": 17.66,
+      "duration": 3,
+      "startTimestamp": "00:00:14.660",
+      "endTimestamp": "00:00:17.660",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0005",
+    "text": "So, now let's move ahead and start understand about, start understanding about it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 5,
+      "start": 18.1,
+      "end": 24.4,
+      "duration": 6.3,
+      "startTimestamp": "00:00:18.100",
+      "endTimestamp": "00:00:24.400",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0006",
+    "text": "But before moving ahead, I just wanted to talk about, let's say when you have lot of",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 6,
+      "start": 24.86,
+      "end": 30.52,
+      "duration": 5.66,
+      "startTimestamp": "00:00:24.860",
+      "endTimestamp": "00:00:30.520",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0007",
+    "text": "data inside an array, perfect, let's take an example of an array.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 7,
+      "start": 30.521,
+      "end": 34.88,
+      "duration": 4.359,
+      "startTimestamp": "00:00:30.521",
+      "endTimestamp": "00:00:34.880",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0008",
+    "text": "This is data 1, data 2, data 3, in a specific structure, we can say the array of object,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 8,
+      "start": 35.36,
+      "end": 42.78,
+      "duration": 7.42,
+      "startTimestamp": "00:00:35.360",
+      "endTimestamp": "00:00:42.780",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0009",
+    "text": "no problem.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 9,
+      "start": 43.26,
+      "end": 43.78,
+      "duration": 0.52,
+      "startTimestamp": "00:00:43.260",
+      "endTimestamp": "00:00:43.780",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0010",
+    "text": "and whenever you are onto the web.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 10,
+      "start": 44.22,
+      "end": 46.239,
+      "duration": 2.019,
+      "startTimestamp": "00:00:44.220",
+      "endTimestamp": "00:00:46.239",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0011",
+    "text": "So, you are using dot map method to render a JSX for it, yes or no?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 11,
+      "start": 46.7,
+      "end": 53.06,
+      "duration": 6.36,
+      "startTimestamp": "00:00:46.700",
+      "endTimestamp": "00:00:53.060",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0012",
+    "text": "Yes and whenever you are going to use it on the basis of that map, we have all the items",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 12,
+      "start": 53.8,
+      "end": 61.14,
+      "duration": 7.34,
+      "startTimestamp": "00:00:53.800",
+      "endTimestamp": "00:01:01.140",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0013",
+    "text": "that you have rendered onto the UI.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 13,
+      "start": 61.36,
+      "end": 63.82,
+      "duration": 2.46,
+      "startTimestamp": "00:01:01.360",
+      "endTimestamp": "00:01:03.820",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0014",
+    "text": "Is that making sense?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 14,
+      "start": 63.9,
+      "end": 64.84,
+      "duration": 0.94,
+      "startTimestamp": "00:01:03.900",
+      "endTimestamp": "00:01:04.840",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0015",
+    "text": "Yes.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 15,
+      "start": 65.62,
+      "end": 66.14,
+      "duration": 0.52,
+      "startTimestamp": "00:01:05.620",
+      "endTimestamp": "00:01:06.140",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0016",
+    "text": "But when it's come to mobile application, this approach is not going to work.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 16,
+      "start": 66.4,
+      "end": 73.5,
+      "duration": 7.1,
+      "startTimestamp": "00:01:06.400",
+      "endTimestamp": "00:01:13.500",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0017",
+    "text": "Yes, this is not recommended.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 17,
+      "start": 73.86,
+      "end": 75.28,
+      "duration": 1.42,
+      "startTimestamp": "00:01:13.860",
+      "endTimestamp": "00:01:15.280",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0018",
+    "text": "I mean you can use if you wanted to, but this is not recommended.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 18,
+      "start": 75.281,
+      "end": 79.66,
+      "duration": 4.379,
+      "startTimestamp": "00:01:15.281",
+      "endTimestamp": "00:01:19.660",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0019",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 19,
+      "start": 80.84,
+      "end": 80.98,
+      "duration": 0.14,
+      "startTimestamp": "00:01:20.840",
+      "endTimestamp": "00:01:20.980",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0020",
+    "text": "Let's say if you wanted to write.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 20,
+      "start": 81.12,
+      "end": 82.56,
+      "duration": 1.44,
+      "startTimestamp": "00:01:21.120",
+      "endTimestamp": "00:01:22.560",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0021",
+    "text": "So, something like this, like this is your data, you have simply used the map and then",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 21,
+      "start": 82.561,
+      "end": 87.86,
+      "duration": 5.299,
+      "startTimestamp": "00:01:22.561",
+      "endTimestamp": "00:01:27.860",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0022",
+    "text": "you have basically used the text.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 22,
+      "start": 87.861,
+      "end": 89.38,
+      "duration": 1.519,
+      "startTimestamp": "00:01:27.861",
+      "endTimestamp": "00:01:29.380",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0023",
+    "text": "So, this is not a recommended method.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 23,
+      "start": 89.74,
+      "end": 91.479,
+      "duration": 1.739,
+      "startTimestamp": "00:01:29.740",
+      "endTimestamp": "00:01:31.479",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0024",
+    "text": "This is going to work fine for small list.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 24,
+      "start": 91.56,
+      "end": 93.96000000000001,
+      "duration": 2.4,
+      "startTimestamp": "00:01:31.560",
+      "endTimestamp": "00:01:33.960",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0025",
+    "text": "Let's say if you have a small list of data, but on mobile.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 25,
+      "start": 94.16,
+      "end": 97.46000000000001,
+      "duration": 3.3,
+      "startTimestamp": "00:01:34.160",
+      "endTimestamp": "00:01:37.460",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0026",
+    "text": "If the list is long, this approach renders all items at once.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 26,
+      "start": 98,
+      "end": 102.94,
+      "duration": 4.94,
+      "startTimestamp": "00:01:38.000",
+      "endTimestamp": "00:01:42.940",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0027",
+    "text": "This means, yes, listen to me carefully, this means they are going to consume a lot of battery",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 27,
+      "start": 103.66,
+      "end": 109.58,
+      "duration": 5.92,
+      "startTimestamp": "00:01:43.660",
+      "endTimestamp": "00:01:49.580",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0028",
+    "text": "of your application.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 28,
+      "start": 109.6,
+      "end": 110.53999999999999,
+      "duration": 0.94,
+      "startTimestamp": "00:01:49.600",
+      "endTimestamp": "00:01:50.540",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0029",
+    "text": "I mean of your entire phone.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 29,
+      "start": 110.69,
+      "end": 112.06,
+      "duration": 1.37,
+      "startTimestamp": "00:01:50.690",
+      "endTimestamp": "00:01:52.060",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0030",
+    "text": "So the first thing is battery and instead we can say high memory usage.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 30,
+      "start": 113.38,
+      "end": 118.46000000000001,
+      "duration": 5.08,
+      "startTimestamp": "00:01:53.380",
+      "endTimestamp": "00:01:58.460",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0031",
+    "text": "If you are going to use this approach, they are going to use a lot of memory.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 31,
+      "start": 118.461,
+      "end": 122.9,
+      "duration": 4.439,
+      "startTimestamp": "00:01:58.461",
+      "endTimestamp": "00:02:02.900",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0032",
+    "text": "slow scrolling because they are going to render all the data at once.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 32,
+      "start": 123,
+      "end": 127.72,
+      "duration": 4.72,
+      "startTimestamp": "00:02:03.000",
+      "endTimestamp": "00:02:07.720",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0033",
+    "text": "Then we have a very very bad user experience and if user is not happy with your application,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 33,
+      "start": 128.47899999999998,
+      "end": 134.04,
+      "duration": 5.561,
+      "startTimestamp": "00:02:08.479",
+      "endTimestamp": "00:02:14.040",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0034",
+    "text": "then you are going to shut it down in a while.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 34,
+      "start": 134.48,
+      "end": 137.3,
+      "duration": 2.82,
+      "startTimestamp": "00:02:14.480",
+      "endTimestamp": "00:02:17.300",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0035",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 35,
+      "start": 138,
+      "end": 138.28,
+      "duration": 0.28,
+      "startTimestamp": "00:02:18.000",
+      "endTimestamp": "00:02:18.280",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0036",
+    "text": "Then.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 36,
+      "start": 139.07999999999998,
+      "end": 139.44,
+      "duration": 0.36,
+      "startTimestamp": "00:02:19.080",
+      "endTimestamp": "00:02:19.440",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0037",
+    "text": "React Native provide you this two OG components.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 37,
+      "start": 139.5,
+      "end": 143.94,
+      "duration": 4.44,
+      "startTimestamp": "00:02:19.500",
+      "endTimestamp": "00:02:23.940",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0038",
+    "text": "First one is flat list and second one is section list, which are optimized for performance",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 38,
+      "start": 144.54,
+      "end": 151.06,
+      "duration": 6.52,
+      "startTimestamp": "00:02:24.540",
+      "endTimestamp": "00:02:31.060",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0039",
+    "text": "and only render items when needed.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 39,
+      "start": 151.74,
+      "end": 154.54,
+      "duration": 2.8,
+      "startTimestamp": "00:02:31.740",
+      "endTimestamp": "00:02:34.540",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0040",
+    "text": "This concept is called virtualization.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 40,
+      "start": 155.28,
+      "end": 157.42000000000002,
+      "duration": 2.14,
+      "startTimestamp": "00:02:35.280",
+      "endTimestamp": "00:02:37.420",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0041",
+    "text": "You can definitely read more about virtualization.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 41,
+      "start": 157.52,
+      "end": 160.42000000000002,
+      "duration": 2.9,
+      "startTimestamp": "00:02:37.520",
+      "endTimestamp": "00:02:40.420",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0042",
+    "text": "Only item currently visible on the screen are rendered kind of that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 42,
+      "start": 161.06,
+      "end": 164.92000000000002,
+      "duration": 3.86,
+      "startTimestamp": "00:02:41.060",
+      "endTimestamp": "00:02:44.920",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0043",
+    "text": "So perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 43,
+      "start": 165.42000000000002,
+      "end": 166.32,
+      "duration": 0.9,
+      "startTimestamp": "00:02:45.420",
+      "endTimestamp": "00:02:46.320",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0044",
+    "text": "So, now let's move ahead and start talking about first component name as flat list.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 44,
+      "start": 167.2,
+      "end": 174.66,
+      "duration": 7.46,
+      "startTimestamp": "00:02:47.200",
+      "endTimestamp": "00:02:54.660",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0045",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 45,
+      "start": 175.36,
+      "end": 175.66,
+      "duration": 0.3,
+      "startTimestamp": "00:02:55.360",
+      "endTimestamp": "00:02:55.660",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0046",
+    "text": "So, what is this flat list is used for?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 46,
+      "start": 176.18,
+      "end": 178.81900000000002,
+      "duration": 2.639,
+      "startTimestamp": "00:02:56.180",
+      "endTimestamp": "00:02:58.819",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0047",
+    "text": "This is basically used for showing all the simple list that you have.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 47,
+      "start": 179.31900000000002,
+      "end": 183.54,
+      "duration": 4.221,
+      "startTimestamp": "00:02:59.319",
+      "endTimestamp": "00:03:03.540",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0048",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 48,
+      "start": 183.8,
+      "end": 184.7,
+      "duration": 0.9,
+      "startTimestamp": "00:03:03.800",
+      "endTimestamp": "00:03:04.700",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0049",
+    "text": "So let me just simply visit here and read more about it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 49,
+      "start": 184.8,
+      "end": 188.54,
+      "duration": 3.74,
+      "startTimestamp": "00:03:04.800",
+      "endTimestamp": "00:03:08.540",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0050",
+    "text": "A performance interface for rendering basic flat lists supporting the most handy features",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 50,
+      "start": 188.7,
+      "end": 196.26,
+      "duration": 7.56,
+      "startTimestamp": "00:03:08.700",
+      "endTimestamp": "00:03:16.260",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0051",
+    "text": "like fully cross-platform, optional horizontal mode, a lot of other things.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 51,
+      "start": 196.3,
+      "end": 201.16,
+      "duration": 4.86,
+      "startTimestamp": "00:03:16.300",
+      "endTimestamp": "00:03:21.160",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0052",
+    "text": "I mean, basically they have, they are basically using for this thing.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 52,
+      "start": 201.161,
+      "end": 205.18,
+      "duration": 4.019,
+      "startTimestamp": "00:03:21.161",
+      "endTimestamp": "00:03:25.180",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0053",
+    "text": "Let's say inside the array you have bunch of data and you wanted to render that data",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 53,
+      "start": 205.6,
+      "end": 212,
+      "duration": 6.4,
+      "startTimestamp": "00:03:25.600",
+      "endTimestamp": "00:03:32.000",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0054",
+    "text": "onto the UI optimistically.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 54,
+      "start": 212.52,
+      "end": 215.22,
+      "duration": 2.7,
+      "startTimestamp": "00:03:32.520",
+      "endTimestamp": "00:03:35.220",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0055",
+    "text": "So that's why you are using it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 55,
+      "start": 215.52,
+      "end": 218.16,
+      "duration": 2.64,
+      "startTimestamp": "00:03:35.520",
+      "endTimestamp": "00:03:38.160",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0056",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 56,
+      "start": 218.32,
+      "end": 218.57999999999998,
+      "duration": 0.26,
+      "startTimestamp": "00:03:38.320",
+      "endTimestamp": "00:03:38.580",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0057",
+    "text": "So now let's move ahead and directly start using it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 57,
+      "start": 218.66,
+      "end": 223.42000000000002,
+      "duration": 4.76,
+      "startTimestamp": "00:03:38.660",
+      "endTimestamp": "00:03:43.420",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0058",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 58,
+      "start": 223.6,
+      "end": 223.82,
+      "duration": 0.22,
+      "startTimestamp": "00:03:43.600",
+      "endTimestamp": "00:03:43.820",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0059",
+    "text": "So let me just simply go to my VS code and open this inside this how you can use it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 59,
+      "start": 223.84,
+      "end": 230.72,
+      "duration": 6.88,
+      "startTimestamp": "00:03:43.840",
+      "endTimestamp": "00:03:50.720",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0060",
+    "text": "So I have a bunch of",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 60,
+      "start": 231.06,
+      "end": 234.07999999999998,
+      "duration": 3.02,
+      "startTimestamp": "00:03:51.060",
+      "endTimestamp": "00:03:54.080",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0061",
+    "text": "So, perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 61,
+      "start": 235.18,
+      "end": 236.099,
+      "duration": 0.919,
+      "startTimestamp": "00:03:55.180",
+      "endTimestamp": "00:03:56.099",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0062",
+    "text": "So, first of all, let me paste that data.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 62,
+      "start": 236.14,
+      "end": 238.599,
+      "duration": 2.459,
+      "startTimestamp": "00:03:56.140",
+      "endTimestamp": "00:03:58.599",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0063",
+    "text": "So, I have a const vegetables id, one name image.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 63,
+      "start": 239.48,
+      "end": 244.9,
+      "duration": 5.42,
+      "startTimestamp": "00:03:59.480",
+      "endTimestamp": "00:04:04.900",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0064",
+    "text": "In same way, I again have id name image and then id name image.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 64,
+      "start": 245.22,
+      "end": 249.78,
+      "duration": 4.56,
+      "startTimestamp": "00:04:05.220",
+      "endTimestamp": "00:04:09.780",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0065",
+    "text": "Easy, no problem and everyone has same image for now.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 65,
+      "start": 250,
+      "end": 253.68,
+      "duration": 3.68,
+      "startTimestamp": "00:04:10.000",
+      "endTimestamp": "00:04:13.680",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0066",
+    "text": "You can definitely change that in future.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 66,
+      "start": 253.681,
+      "end": 256.639,
+      "duration": 2.958,
+      "startTimestamp": "00:04:13.681",
+      "endTimestamp": "00:04:16.639",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0067",
+    "text": "Now, I wanted to render them onto the UI.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 67,
+      "start": 256.899,
+      "end": 260.639,
+      "duration": 3.74,
+      "startTimestamp": "00:04:16.899",
+      "endTimestamp": "00:04:20.639",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0068",
+    "text": "So, how you can basically do that?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 68,
+      "start": 261.68,
+      "end": 263.759,
+      "duration": 2.079,
+      "startTimestamp": "00:04:21.680",
+      "endTimestamp": "00:04:23.759",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0069",
+    "text": "It's very easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 69,
+      "start": 264.44,
+      "end": 265.16,
+      "duration": 0.72,
+      "startTimestamp": "00:04:24.440",
+      "endTimestamp": "00:04:25.160",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0070",
+    "text": "So, for using that instead of using, I mean, let's keep this view, let's remove this text",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 70,
+      "start": 265.36,
+      "end": 272.979,
+      "duration": 7.619,
+      "startTimestamp": "00:04:25.360",
+      "endTimestamp": "00:04:32.979",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0071",
+    "text": "inside this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 71,
+      "start": 273.72,
+      "end": 274.4,
+      "duration": 0.68,
+      "startTimestamp": "00:04:33.720",
+      "endTimestamp": "00:04:34.400",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0072",
+    "text": "Let me just simply import my flat list.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 72,
+      "start": 274.62,
+      "end": 276.94,
+      "duration": 2.32,
+      "startTimestamp": "00:04:34.620",
+      "endTimestamp": "00:04:36.940",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0073",
+    "text": "And, this flat list is going to have bunch of props.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 73,
+      "start": 277.5,
+      "end": 282.54,
+      "duration": 5.04,
+      "startTimestamp": "00:04:37.500",
+      "endTimestamp": "00:04:42.540",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0074",
+    "text": "So, the first prop is going to be the data you wanted to render.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 74,
+      "start": 282.94,
+      "end": 286.9,
+      "duration": 3.96,
+      "startTimestamp": "00:04:42.940",
+      "endTimestamp": "00:04:46.900",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0075",
+    "text": "So, this is your data name as vegetables.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 75,
+      "start": 287.44,
+      "end": 290.46,
+      "duration": 3.02,
+      "startTimestamp": "00:04:47.440",
+      "endTimestamp": "00:04:50.460",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0076",
+    "text": "Let me first of all off my AI.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 76,
+      "start": 292.06,
+      "end": 294.18,
+      "duration": 2.12,
+      "startTimestamp": "00:04:52.060",
+      "endTimestamp": "00:04:54.180",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0077",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 77,
+      "start": 294.34000000000003,
+      "end": 294.48,
+      "duration": 0.14,
+      "startTimestamp": "00:04:54.340",
+      "endTimestamp": "00:04:54.480",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0078",
+    "text": "So, we have these vegetables and then we need to provide them a key extractor just to identify",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 78,
+      "start": 294.65999999999997,
+      "end": 300.64,
+      "duration": 5.98,
+      "startTimestamp": "00:04:54.660",
+      "endTimestamp": "00:05:00.640",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0079",
+    "text": "them uniquely.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 79,
+      "start": 300.641,
+      "end": 301.62,
+      "duration": 0.979,
+      "startTimestamp": "00:05:00.641",
+      "endTimestamp": "00:05:01.620",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0080",
+    "text": "So, this is going to be item and item.id from where this item is coming.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 80,
+      "start": 301.8,
+      "end": 308.56,
+      "duration": 6.76,
+      "startTimestamp": "00:05:01.800",
+      "endTimestamp": "00:05:08.560",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0081",
+    "text": "So, this is your entire data.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 81,
+      "start": 309.199,
+      "end": 310.539,
+      "duration": 1.34,
+      "startTimestamp": "00:05:09.199",
+      "endTimestamp": "00:05:10.539",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0082",
+    "text": "Each data have this item 1, item 2, item 3 and item have different properties like id,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 82,
+      "start": 311.08,
+      "end": 317.36,
+      "duration": 6.28,
+      "startTimestamp": "00:05:11.080",
+      "endTimestamp": "00:05:17.360",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0083",
+    "text": "name and image.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 83,
+      "start": 317.46,
+      "end": 318.139,
+      "duration": 0.679,
+      "startTimestamp": "00:05:17.460",
+      "endTimestamp": "00:05:18.139",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0084",
+    "text": "So, we are using id as a unique identifier.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 84,
+      "start": 318.44,
+      "end": 321.18,
+      "duration": 2.74,
+      "startTimestamp": "00:05:18.440",
+      "endTimestamp": "00:05:21.180",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0085",
+    "text": "I hope so that makes sense.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 85,
+      "start": 321.28,
+      "end": 322.539,
+      "duration": 1.259,
+      "startTimestamp": "00:05:21.280",
+      "endTimestamp": "00:05:22.539",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0086",
+    "text": "And in same way we have here something known as render item.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 86,
+      "start": 322.9,
+      "end": 326.759,
+      "duration": 3.859,
+      "startTimestamp": "00:05:22.900",
+      "endTimestamp": "00:05:26.759",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0087",
+    "text": "This is where you are actually going to render your actual UI.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 87,
+      "start": 327.86,
+      "end": 330.6,
+      "duration": 2.74,
+      "startTimestamp": "00:05:27.860",
+      "endTimestamp": "00:05:30.600",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0088",
+    "text": "Here we are basically going to return a JSX.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 88,
+      "start": 331.74,
+      "end": 335.699,
+      "duration": 3.959,
+      "startTimestamp": "00:05:31.740",
+      "endTimestamp": "00:05:35.699",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0089",
+    "text": "Not yes I mean kind of we can say that this is a kind of JSX and this is JSX not kind",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 89,
+      "start": 336.22,
+      "end": 342.919,
+      "duration": 6.699,
+      "startTimestamp": "00:05:36.220",
+      "endTimestamp": "00:05:42.919",
+      "estimatedTokens": 29
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0090",
+    "text": "of this is exactly JSX.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 90,
+      "start": 342.92,
+      "end": 344.58,
+      "duration": 1.66,
+      "startTimestamp": "00:05:42.920",
+      "endTimestamp": "00:05:44.580",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0091",
+    "text": "Inside this let me just destructure my item.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 91,
+      "start": 344.90999999999997,
+      "end": 347.479,
+      "duration": 2.569,
+      "startTimestamp": "00:05:44.910",
+      "endTimestamp": "00:05:47.479",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0092",
+    "text": "And then inside this I am going to basically render a UI.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 92,
+      "start": 348,
+      "end": 352.56,
+      "duration": 4.56,
+      "startTimestamp": "00:05:48.000",
+      "endTimestamp": "00:05:52.560",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0093",
+    "text": "So let me just simply paste this UI.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 93,
+      "start": 354.1,
+      "end": 356.94,
+      "duration": 2.84,
+      "startTimestamp": "00:05:54.100",
+      "endTimestamp": "00:05:56.940",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0094",
+    "text": "We have this view and let me import my image from react native and then we have a text",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 94,
+      "start": 357.7,
+      "end": 364.42,
+      "duration": 6.72,
+      "startTimestamp": "00:05:57.700",
+      "endTimestamp": "00:06:04.420",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0095",
+    "text": "simple and then we just simply need to add a design for it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 95,
+      "start": 364.58,
+      "end": 368.3,
+      "duration": 3.72,
+      "startTimestamp": "00:06:04.580",
+      "endTimestamp": "00:06:08.300",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0096",
+    "text": "So just give me a minute.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 96,
+      "start": 368.76,
+      "end": 369.88,
+      "duration": 1.12,
+      "startTimestamp": "00:06:08.760",
+      "endTimestamp": "00:06:09.880",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0097",
+    "text": "Let me bring my design.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 97,
+      "start": 370.14,
+      "end": 371.38,
+      "duration": 1.24,
+      "startTimestamp": "00:06:10.140",
+      "endTimestamp": "00:06:11.380",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0098",
+    "text": "So, that I need not to write anything from scratch and paste this and look at that the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 98,
+      "start": 371.8,
+      "end": 378.3,
+      "duration": 6.5,
+      "startTimestamp": "00:06:11.800",
+      "endTimestamp": "00:06:18.300",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0099",
+    "text": "moment I save it and now you can see that this is your data in same way you can have",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 99,
+      "start": 378.301,
+      "end": 384.159,
+      "duration": 5.858,
+      "startTimestamp": "00:06:18.301",
+      "endTimestamp": "00:06:24.159",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0100",
+    "text": "bunch of multiple data as well and then this is a simple flat list first thing is data",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 100,
+      "start": 384.16,
+      "end": 390.28,
+      "duration": 6.12,
+      "startTimestamp": "00:06:24.160",
+      "endTimestamp": "00:06:30.280",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0101",
+    "text": "a unique identifier and then a render item and the UI that you have written here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 101,
+      "start": 390.5,
+      "end": 396.15999999999997,
+      "duration": 5.66,
+      "startTimestamp": "00:06:30.500",
+      "endTimestamp": "00:06:36.160",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0102",
+    "text": "Basically simple and let's say I just simply add a elevation of 10 then we have a basic",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 102,
+      "start": 396.161,
+      "end": 403.15999999999997,
+      "duration": 6.999,
+      "startTimestamp": "00:06:36.161",
+      "endTimestamp": "00:06:43.160",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0103",
+    "text": "shadow here as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 103,
+      "start": 403.42,
+      "end": 405.12,
+      "duration": 1.7,
+      "startTimestamp": "00:06:43.420",
+      "endTimestamp": "00:06:45.120",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0104",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 104,
+      "start": 405.38,
+      "end": 405.65999999999997,
+      "duration": 0.28,
+      "startTimestamp": "00:06:45.380",
+      "endTimestamp": "00:06:45.660",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0105",
+    "text": "Alright guys, so these are the bunch of props that we have, but along with this props, we",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 105,
+      "start": 406,
+      "end": 411.92,
+      "duration": 5.92,
+      "startTimestamp": "00:06:46.000",
+      "endTimestamp": "00:06:51.920",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0106",
+    "text": "have bunch of other props as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 106,
+      "start": 411.921,
+      "end": 413.56,
+      "duration": 1.639,
+      "startTimestamp": "00:06:51.921",
+      "endTimestamp": "00:06:53.560",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0107",
+    "text": "Let's say below this render item, if I just simply add here horizontal and make it true,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 107,
+      "start": 413.76,
+      "end": 420.12,
+      "duration": 6.36,
+      "startTimestamp": "00:06:53.760",
+      "endTimestamp": "00:07:00.120",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0108",
+    "text": "like by default this is going to be something like this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 108,
+      "start": 420.24,
+      "end": 423.38,
+      "duration": 3.14,
+      "startTimestamp": "00:07:00.240",
+      "endTimestamp": "00:07:03.380",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0109",
+    "text": "If you don't add true, this is going to be true, but let me just simply define that explicitly.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 109,
+      "start": 423.44,
+      "end": 429.68,
+      "duration": 6.24,
+      "startTimestamp": "00:07:03.440",
+      "endTimestamp": "00:07:09.680",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0110",
+    "text": "And the moment I write horizontal true, now you will see they now become horizontal.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 110,
+      "start": 430,
+      "end": 435.62,
+      "duration": 5.62,
+      "startTimestamp": "00:07:10.000",
+      "endTimestamp": "00:07:15.620",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0111",
+    "text": "Perfect, you can even decide the number of columns you wanted to show.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 111,
+      "start": 436.8,
+      "end": 440.5,
+      "duration": 3.7,
+      "startTimestamp": "00:07:16.800",
+      "endTimestamp": "00:07:20.500",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0112",
+    "text": "So you can simply say num columns and if I just simply say 2, let me just try to show",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 112,
+      "start": 440.65,
+      "end": 447.1,
+      "duration": 6.45,
+      "startTimestamp": "00:07:20.650",
+      "endTimestamp": "00:07:27.100",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0113",
+    "text": "you.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 113,
+      "start": 447.101,
+      "end": 447.6,
+      "duration": 0.499,
+      "startTimestamp": "00:07:27.101",
+      "endTimestamp": "00:07:27.600",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0114",
+    "text": "Alright, they are reloading.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 114,
+      "start": 448.12,
+      "end": 449.14,
+      "duration": 1.02,
+      "startTimestamp": "00:07:28.120",
+      "endTimestamp": "00:07:29.140",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0115",
+    "text": "Let me simply press R and hope so perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 115,
+      "start": 450,
+      "end": 455.3,
+      "duration": 5.3,
+      "startTimestamp": "00:07:30.000",
+      "endTimestamp": "00:07:35.300",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0116",
+    "text": "So num does not support exactly I mean that makes sense.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 116,
+      "start": 455.44,
+      "end": 458.68,
+      "duration": 3.24,
+      "startTimestamp": "00:07:35.440",
+      "endTimestamp": "00:07:38.680",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0117",
+    "text": "Instead of let me just go with this if you are on vertical then and only you can basically",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 117,
+      "start": 459.42,
+      "end": 465.64,
+      "duration": 6.22,
+      "startTimestamp": "00:07:39.420",
+      "endTimestamp": "00:07:45.640",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0118",
+    "text": "show number of rows you wanted to show which is I mean basic logical thing.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 118,
+      "start": 465.641,
+      "end": 469.98,
+      "duration": 4.339,
+      "startTimestamp": "00:07:45.641",
+      "endTimestamp": "00:07:49.980",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0119",
+    "text": "Perfect in same way we have two other props as well like we have a list.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 119,
+      "start": 470.62,
+      "end": 475.58,
+      "duration": 4.96,
+      "startTimestamp": "00:07:50.620",
+      "endTimestamp": "00:07:55.580",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0120",
+    "text": "header component.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 120,
+      "start": 475.7,
+      "end": 477.18,
+      "duration": 1.48,
+      "startTimestamp": "00:07:55.700",
+      "endTimestamp": "00:07:57.180",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0121",
+    "text": "So this is basically the header of the list you wanted to show.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 121,
+      "start": 477.46,
+      "end": 481.08,
+      "duration": 3.62,
+      "startTimestamp": "00:07:57.460",
+      "endTimestamp": "00:08:01.080",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0122",
+    "text": "Let me just simply try to show you header and if I save it you will, I do not know you",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 122,
+      "start": 481.22,
+      "end": 486.72,
+      "duration": 5.5,
+      "startTimestamp": "00:08:01.220",
+      "endTimestamp": "00:08:06.720",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0123",
+    "text": "are able to see it or not but yeah look at here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 123,
+      "start": 486.721,
+      "end": 489.14,
+      "duration": 2.419,
+      "startTimestamp": "00:08:06.721",
+      "endTimestamp": "00:08:09.140",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0124",
+    "text": "This is your header.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 124,
+      "start": 489.62,
+      "end": 490.5,
+      "duration": 0.88,
+      "startTimestamp": "00:08:09.620",
+      "endTimestamp": "00:08:10.500",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0125",
+    "text": "In same way we have list footer component and this is also going to be a text.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 125,
+      "start": 491.2,
+      "end": 498.5,
+      "duration": 7.3,
+      "startTimestamp": "00:08:11.200",
+      "endTimestamp": "00:08:18.500",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0126",
+    "text": "Let me show you that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 126,
+      "start": 499.8,
+      "end": 500.92,
+      "duration": 1.12,
+      "startTimestamp": "00:08:19.800",
+      "endTimestamp": "00:08:20.920",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0127",
+    "text": "Text and I can simply say this as footer.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 127,
+      "start": 503.1,
+      "end": 505.8,
+      "duration": 2.7,
+      "startTimestamp": "00:08:23.100",
+      "endTimestamp": "00:08:25.800",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0128",
+    "text": "So we have the footer as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 128,
+      "start": 506.22,
+      "end": 508.22,
+      "duration": 2,
+      "startTimestamp": "00:08:26.220",
+      "endTimestamp": "00:08:28.220",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0129",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 129,
+      "start": 509.18,
+      "end": 509.419,
+      "duration": 0.239,
+      "startTimestamp": "00:08:29.180",
+      "endTimestamp": "00:08:29.419",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0130",
+    "text": "You we can even have item separator like first of all let me remove this horizontal true",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 130,
+      "start": 509.6,
+      "end": 515.059,
+      "duration": 5.459,
+      "startTimestamp": "00:08:29.600",
+      "endTimestamp": "00:08:35.059",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0131",
+    "text": "and save it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 131,
+      "start": 515.12,
+      "end": 515.96,
+      "duration": 0.84,
+      "startTimestamp": "00:08:35.120",
+      "endTimestamp": "00:08:35.960",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0132",
+    "text": "This is your header.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 132,
+      "start": 515.961,
+      "end": 516.76,
+      "duration": 0.799,
+      "startTimestamp": "00:08:35.961",
+      "endTimestamp": "00:08:36.760",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0133",
+    "text": "This is your footer and in same way we have a item separator component as well and you",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 133,
+      "start": 517.5,
+      "end": 525.54,
+      "duration": 8.04,
+      "startTimestamp": "00:08:37.500",
+      "endTimestamp": "00:08:45.540",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0134",
+    "text": "what you can do basically here again return a JSX and that is going to be a view and we",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 134,
+      "start": 525.5409999999999,
+      "end": 533,
+      "duration": 7.459,
+      "startTimestamp": "00:08:45.541",
+      "endTimestamp": "00:08:53.000",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0135",
+    "text": "can say this as a self-closing view which have a style.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 135,
+      "start": 533.1,
+      "end": 537.34,
+      "duration": 4.24,
+      "startTimestamp": "00:08:53.100",
+      "endTimestamp": "00:08:57.340",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0136",
+    "text": "And the style is going to be pretty basic, like I can give it a height of one, a basic",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 136,
+      "start": 537.5,
+      "end": 544.06,
+      "duration": 6.56,
+      "startTimestamp": "00:08:57.500",
+      "endTimestamp": "00:09:04.060",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0137",
+    "text": "horizontal line and then background color as hashtags CCC.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 137,
+      "start": 544.061,
+      "end": 550.24,
+      "duration": 6.179,
+      "startTimestamp": "00:09:04.061",
+      "endTimestamp": "00:09:10.240",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0138",
+    "text": "And if I save it, you will see here a basic horizontal line which is coming.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 138,
+      "start": 550.68,
+      "end": 554.9,
+      "duration": 4.22,
+      "startTimestamp": "00:09:10.680",
+      "endTimestamp": "00:09:14.900",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0139",
+    "text": "We also have on refresh and refreshing bunch of on and reached on and threshold extra data",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 139,
+      "start": 555.1,
+      "end": 562.959,
+      "duration": 7.859,
+      "startTimestamp": "00:09:15.100",
+      "endTimestamp": "00:09:22.959",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0140",
+    "text": "get item layout.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 140,
+      "start": 563.259,
+      "end": 564.259,
+      "duration": 1,
+      "startTimestamp": "00:09:23.259",
+      "endTimestamp": "00:09:24.259",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0141",
+    "text": "We have a lot of props, but you need not to understand that for now.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 141,
+      "start": 564.319,
+      "end": 569.1,
+      "duration": 4.781,
+      "startTimestamp": "00:09:24.319",
+      "endTimestamp": "00:09:29.100",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0142",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 142,
+      "start": 569.3,
+      "end": 569.56,
+      "duration": 0.26,
+      "startTimestamp": "00:09:29.300",
+      "endTimestamp": "00:09:29.560",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0143",
+    "text": "So I hope so you guys able to understand that till now how you can use flat list.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 143,
+      "start": 570.779,
+      "end": 575.259,
+      "duration": 4.48,
+      "startTimestamp": "00:09:30.779",
+      "endTimestamp": "00:09:35.259",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0144",
+    "text": "In same way, we also have something known as a section list.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 144,
+      "start": 575.7,
+      "end": 580.94,
+      "duration": 5.24,
+      "startTimestamp": "00:09:35.700",
+      "endTimestamp": "00:09:40.940",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0145",
+    "text": "So how you can basically manage your section list?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 145,
+      "start": 581.56,
+      "end": 584.08,
+      "duration": 2.52,
+      "startTimestamp": "00:09:41.560",
+      "endTimestamp": "00:09:44.080",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0146",
+    "text": "So for managing section list, let me first of all save this and just give me a minute,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 146,
+      "start": 584.58,
+      "end": 591.18,
+      "duration": 6.6,
+      "startTimestamp": "00:09:44.580",
+      "endTimestamp": "00:09:51.180",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0147",
+    "text": "push this to a GitHub so that you have a track of it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 147,
+      "start": 591.86,
+      "end": 596.06,
+      "duration": 4.2,
+      "startTimestamp": "00:09:51.860",
+      "endTimestamp": "00:09:56.060",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0148",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 148,
+      "start": 597.16,
+      "end": 597.72,
+      "duration": 0.56,
+      "startTimestamp": "00:09:57.160",
+      "endTimestamp": "00:09:57.720",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0149",
+    "text": "So just give me a minute.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 149,
+      "start": 598.139,
+      "end": 599.12,
+      "duration": 0.981,
+      "startTimestamp": "00:09:58.139",
+      "endTimestamp": "00:09:59.120",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0150",
+    "text": "Nice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 150,
+      "start": 599.699,
+      "end": 599.899,
+      "duration": 0.2,
+      "startTimestamp": "00:09:59.699",
+      "endTimestamp": "00:09:59.899",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0151",
+    "text": "Now let me remove anything.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 151,
+      "start": 599.98,
+      "end": 601.36,
+      "duration": 1.38,
+      "startTimestamp": "00:09:59.980",
+      "endTimestamp": "00:10:01.360",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0152",
+    "text": "Rn fes and this is your index.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 152,
+      "start": 601.72,
+      "end": 604.5,
+      "duration": 2.78,
+      "startTimestamp": "00:10:01.720",
+      "endTimestamp": "00:10:04.500",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0153",
+    "text": "Let me save it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 153,
+      "start": 604.759,
+      "end": 606.139,
+      "duration": 1.38,
+      "startTimestamp": "00:10:04.759",
+      "endTimestamp": "00:10:06.139",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0154",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 154,
+      "start": 606.899,
+      "end": 607.199,
+      "duration": 0.3,
+      "startTimestamp": "00:10:06.899",
+      "endTimestamp": "00:10:07.199",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0155",
+    "text": "Now I wanted to create here and use here section list.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 155,
+      "start": 607.74,
+      "end": 611.699,
+      "duration": 3.959,
+      "startTimestamp": "00:10:07.740",
+      "endTimestamp": "00:10:11.699",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0156",
+    "text": "So, let me first of all grab my section list data and then we can use it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 156,
+      "start": 611.9,
+      "end": 617.22,
+      "duration": 5.32,
+      "startTimestamp": "00:10:11.900",
+      "endTimestamp": "00:10:17.220",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0157",
+    "text": "Don't worry.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 157,
+      "start": 617.26,
+      "end": 617.7,
+      "duration": 0.44,
+      "startTimestamp": "00:10:17.260",
+      "endTimestamp": "00:10:17.700",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0158",
+    "text": "So, let me copy this and paste this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 158,
+      "start": 618.12,
+      "end": 621.26,
+      "duration": 3.14,
+      "startTimestamp": "00:10:18.120",
+      "endTimestamp": "00:10:21.260",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0159",
+    "text": "We have which section where we have an object with a title.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 159,
+      "start": 621.5,
+      "end": 625.42,
+      "duration": 3.92,
+      "startTimestamp": "00:10:21.500",
+      "endTimestamp": "00:10:25.420",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0160",
+    "text": "Make sure to keep that in mind.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 160,
+      "start": 625.66,
+      "end": 626.82,
+      "duration": 1.16,
+      "startTimestamp": "00:10:25.660",
+      "endTimestamp": "00:10:26.820",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0161",
+    "text": "We have a title.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 161,
+      "start": 626.84,
+      "end": 627.72,
+      "duration": 0.88,
+      "startTimestamp": "00:10:26.840",
+      "endTimestamp": "00:10:27.720",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0162",
+    "text": "Then we have a data and each data have ID, name, image.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 162,
+      "start": 628.4,
+      "end": 632.02,
+      "duration": 3.62,
+      "startTimestamp": "00:10:28.400",
+      "endTimestamp": "00:10:32.020",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0163",
+    "text": "ID, name, image same here as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 163,
+      "start": 632.38,
+      "end": 634.64,
+      "duration": 2.26,
+      "startTimestamp": "00:10:32.380",
+      "endTimestamp": "00:10:34.640",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0164",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 164,
+      "start": 634.94,
+      "end": 635.24,
+      "duration": 0.3,
+      "startTimestamp": "00:10:34.940",
+      "endTimestamp": "00:10:35.240",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0165",
+    "text": "Now, how you can use this now, let me simply remove all of the view and simply write here",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 165,
+      "start": 635.8,
+      "end": 642.899,
+      "duration": 7.099,
+      "startTimestamp": "00:10:35.800",
+      "endTimestamp": "00:10:42.899",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0166",
+    "text": "this import here the section list component from react native and then first thing we",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 166,
+      "start": 642.9,
+      "end": 650.779,
+      "duration": 7.879,
+      "startTimestamp": "00:10:42.900",
+      "endTimestamp": "00:10:50.779",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0167",
+    "text": "are going to have a sections.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 167,
+      "start": 650.78,
+      "end": 652.14,
+      "duration": 1.36,
+      "startTimestamp": "00:10:50.780",
+      "endTimestamp": "00:10:52.140",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0168",
+    "text": "So, sections is going to be wedge section first data they are accepting second is the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 168,
+      "start": 652.62,
+      "end": 658.48,
+      "duration": 5.86,
+      "startTimestamp": "00:10:52.620",
+      "endTimestamp": "00:10:58.480",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0169",
+    "text": "key extractor that we have.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 169,
+      "start": 658.56,
+      "end": 660.14,
+      "duration": 1.58,
+      "startTimestamp": "00:10:58.560",
+      "endTimestamp": "00:11:00.140",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0170",
+    "text": "So, we are going to have a basic item and then item.id no problem same then again same",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 170,
+      "start": 660.3,
+      "end": 669.18,
+      "duration": 8.88,
+      "startTimestamp": "00:11:00.300",
+      "endTimestamp": "00:11:09.180",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0171",
+    "text": "we have a render item and then this render item destructure the items you can name it",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 171,
+      "start": 669.181,
+      "end": 675.48,
+      "duration": 6.299,
+      "startTimestamp": "00:11:09.181",
+      "endTimestamp": "00:11:15.480",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0172",
+    "text": "anything but let me just name this as item.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 172,
+      "start": 675.481,
+      "end": 677.72,
+      "duration": 2.239,
+      "startTimestamp": "00:11:15.481",
+      "endTimestamp": "00:11:17.720",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0173",
+    "text": "And then inside this, let me just return implicit return here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 173,
+      "start": 678.4,
+      "end": 684.32,
+      "duration": 5.92,
+      "startTimestamp": "00:11:18.400",
+      "endTimestamp": "00:11:24.320",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0174",
+    "text": "So let me just simply return a view with view image and text.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 174,
+      "start": 685,
+      "end": 690.94,
+      "duration": 5.94,
+      "startTimestamp": "00:11:25.000",
+      "endTimestamp": "00:11:30.940",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0175",
+    "text": "Let me import the image from react native.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 175,
+      "start": 691.22,
+      "end": 693.9,
+      "duration": 2.68,
+      "startTimestamp": "00:11:31.220",
+      "endTimestamp": "00:11:33.900",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0176",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 176,
+      "start": 695.2,
+      "end": 695.52,
+      "duration": 0.32,
+      "startTimestamp": "00:11:35.200",
+      "endTimestamp": "00:11:35.520",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0177",
+    "text": "And one last thing that we need here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 177,
+      "start": 696,
+      "end": 698.86,
+      "duration": 2.86,
+      "startTimestamp": "00:11:36.000",
+      "endTimestamp": "00:11:38.860",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0178",
+    "text": "is to render section header and we know about that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 178,
+      "start": 699.3,
+      "end": 702.82,
+      "duration": 3.52,
+      "startTimestamp": "00:11:39.300",
+      "endTimestamp": "00:11:42.820",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0179",
+    "text": "So, I can simply say render not footer we know that we have a render section header and what",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 179,
+      "start": 702.88,
+      "end": 710.64,
+      "duration": 7.76,
+      "startTimestamp": "00:11:42.880",
+      "endTimestamp": "00:11:50.640",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0180",
+    "text": "you can do now, now we have access of section here again you can name it anything and inside",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 180,
+      "start": 710.641,
+      "end": 717.94,
+      "duration": 7.299,
+      "startTimestamp": "00:11:50.641",
+      "endTimestamp": "00:11:57.940",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0181",
+    "text": "this we are going to have a text and each text is going to say us something known as",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 181,
+      "start": 717.941,
+      "end": 724.959,
+      "duration": 7.018,
+      "startTimestamp": "00:11:57.941",
+      "endTimestamp": "00:12:04.959",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0182",
+    "text": "We need a title easy and then you can again give it a style of style something like this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 182,
+      "start": 726.1,
+      "end": 733.139,
+      "duration": 7.039,
+      "startTimestamp": "00:12:06.100",
+      "endTimestamp": "00:12:13.139",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0183",
+    "text": "styles dot header.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 183,
+      "start": 733.3,
+      "end": 734.5,
+      "duration": 1.2,
+      "startTimestamp": "00:12:13.300",
+      "endTimestamp": "00:12:14.500",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0184",
+    "text": "Perfect and let me just simply copy my styles and paste that easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 184,
+      "start": 735.5,
+      "end": 741.579,
+      "duration": 6.079,
+      "startTimestamp": "00:12:15.500",
+      "endTimestamp": "00:12:21.579",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0185",
+    "text": "I hope so no problem in it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 185,
+      "start": 741.779,
+      "end": 743.079,
+      "duration": 1.3,
+      "startTimestamp": "00:12:21.779",
+      "endTimestamp": "00:12:23.079",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0186",
+    "text": "I don't want it to write it from scratch.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 186,
+      "start": 743.1,
+      "end": 744.94,
+      "duration": 1.84,
+      "startTimestamp": "00:12:23.100",
+      "endTimestamp": "00:12:24.940",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0187",
+    "text": "That's why I am copy and pasting most of it and boom look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 187,
+      "start": 745.62,
+      "end": 750.68,
+      "duration": 5.06,
+      "startTimestamp": "00:12:25.620",
+      "endTimestamp": "00:12:30.680",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0188",
+    "text": "So now we have basically used here the section list.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 188,
+      "start": 750.94,
+      "end": 753.8389999999999,
+      "duration": 2.899,
+      "startTimestamp": "00:12:30.940",
+      "endTimestamp": "00:12:33.839",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0189",
+    "text": "And this is how you can use it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 189,
+      "start": 754.2,
+      "end": 756.74,
+      "duration": 2.54,
+      "startTimestamp": "00:12:34.200",
+      "endTimestamp": "00:12:36.740",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0190",
+    "text": "So the sections are array where each element has a title and each title has its own data",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 190,
+      "start": 757.52,
+      "end": 767.12,
+      "duration": 9.6,
+      "startTimestamp": "00:12:37.520",
+      "endTimestamp": "00:12:47.120",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0191",
+    "text": "array.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 191,
+      "start": 767.121,
+      "end": 767.42,
+      "duration": 0.299,
+      "startTimestamp": "00:12:47.121",
+      "endTimestamp": "00:12:47.420",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0192",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 192,
+      "start": 768.08,
+      "end": 768.38,
+      "duration": 0.3,
+      "startTimestamp": "00:12:48.080",
+      "endTimestamp": "00:12:48.380",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0193",
+    "text": "In same way we have a section render section header we already talked about that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 193,
+      "start": 768.78,
+      "end": 773.1,
+      "duration": 4.32,
+      "startTimestamp": "00:12:48.780",
+      "endTimestamp": "00:12:53.100",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0194",
+    "text": "We have a render item that will going to show item inside the sections.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 194,
+      "start": 773.12,
+      "end": 777.18,
+      "duration": 4.06,
+      "startTimestamp": "00:12:53.120",
+      "endTimestamp": "00:12:57.180",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0195",
+    "text": "So section list is like a flat list but with group support.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 195,
+      "start": 777.8,
+      "end": 782.64,
+      "duration": 4.84,
+      "startTimestamp": "00:12:57.800",
+      "endTimestamp": "00:13:02.640",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0196",
+    "text": "I hope so that makes sense and now I hope so why you need not to use dot map here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 196,
+      "start": 783.1,
+      "end": 791.019,
+      "duration": 7.919,
+      "startTimestamp": "00:13:03.100",
+      "endTimestamp": "00:13:11.019",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0197",
+    "text": "Perfect so if I just try to give you a basic summary use flat list for flat list where",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 197,
+      "start": 791.72,
+      "end": 798.94,
+      "duration": 7.22,
+      "startTimestamp": "00:13:11.720",
+      "endTimestamp": "00:13:18.940",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0198",
+    "text": "performance optimization use section list when items are grouped and need headers both",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 198,
+      "start": 799,
+      "end": 805.759,
+      "duration": 6.759,
+      "startTimestamp": "00:13:19.000",
+      "endTimestamp": "00:13:25.759",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0199",
+    "text": "are better than simple dot map method with long list because they only render.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 199,
+      "start": 805.76,
+      "end": 810.48,
+      "duration": 4.72,
+      "startTimestamp": "00:13:25.760",
+      "endTimestamp": "00:13:30.480",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0200",
+    "text": "when needed virtualization.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 200,
+      "start": 810.7,
+      "end": 813.06,
+      "duration": 2.36,
+      "startTimestamp": "00:13:30.700",
+      "endTimestamp": "00:13:33.060",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0201",
+    "text": "So I hope so that makes sense.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 201,
+      "start": 813.32,
+      "end": 815.62,
+      "duration": 2.3,
+      "startTimestamp": "00:13:33.320",
+      "endTimestamp": "00:13:35.620",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_0202",
+    "text": "And yeah, that is pretty much it for this chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "fileName": "04_list-&-data-display-components_epm.vtt",
+      "captionIndex": 202,
+      "start": 815.86,
+      "end": 820.04,
+      "duration": 4.18,
+      "startTimestamp": "00:13:35.860",
+      "endTimestamp": "00:13:40.040",
+      "estimatedTokens": 20
+    }
+  }
+]

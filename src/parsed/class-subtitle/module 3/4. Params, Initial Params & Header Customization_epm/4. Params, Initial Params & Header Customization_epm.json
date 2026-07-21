@@ -1,0 +1,3308 @@
+[
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0001",
+    "text": "Hey everyone, in this lecture we will learn how to pass data between screens using navigation",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 1,
+      "start": 0,
+      "end": 6.74,
+      "duration": 6.74,
+      "startTimestamp": "00:00:00.000",
+      "endTimestamp": "00:00:06.740",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0002",
+    "text": "params, how to read those params and how to customize the headers, including adding buttons",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 2,
+      "start": 6.9,
+      "end": 14.62,
+      "duration": 7.72,
+      "startTimestamp": "00:00:06.900",
+      "endTimestamp": "00:00:14.620",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0003",
+    "text": "and styling.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 3,
+      "start": 14.68,
+      "end": 15.62,
+      "duration": 0.94,
+      "startTimestamp": "00:00:14.680",
+      "endTimestamp": "00:00:15.620",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0004",
+    "text": "This is essential for real world app where screen need to communicate and headers need",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 4,
+      "start": 15.8,
+      "end": 23.72,
+      "duration": 7.92,
+      "startTimestamp": "00:00:15.800",
+      "endTimestamp": "00:00:23.720",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0005",
+    "text": "polish kind of that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 5,
+      "start": 23.721,
+      "end": 24.94,
+      "duration": 1.219,
+      "startTimestamp": "00:00:23.721",
+      "endTimestamp": "00:00:24.940",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0006",
+    "text": "So the first thing that I wanted to discuss is passing params between screens.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 6,
+      "start": 25.52,
+      "end": 30.58,
+      "duration": 5.06,
+      "startTimestamp": "00:00:25.520",
+      "endTimestamp": "00:00:30.580",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0007",
+    "text": "So if you wanted to pass params between screen in react navigation you can send data to another",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 7,
+      "start": 30.95,
+      "end": 37.54,
+      "duration": 6.59,
+      "startTimestamp": "00:00:30.950",
+      "endTimestamp": "00:00:37.540",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0008",
+    "text": "screen using the params.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 8,
+      "start": 37.541,
+      "end": 40.22,
+      "duration": 2.679,
+      "startTimestamp": "00:00:37.541",
+      "endTimestamp": "00:00:40.220",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0009",
+    "text": "You can pass them as the second argument.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 9,
+      "start": 41.2,
+      "end": 44.38,
+      "duration": 3.18,
+      "startTimestamp": "00:00:41.200",
+      "endTimestamp": "00:00:44.380",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0010",
+    "text": "So now let's move ahead and we'll see that how you can do so.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 10,
+      "start": 44.76,
+      "end": 48.16,
+      "duration": 3.4,
+      "startTimestamp": "00:00:44.760",
+      "endTimestamp": "00:00:48.160",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0011",
+    "text": "Easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 11,
+      "start": 48.98,
+      "end": 49.2,
+      "duration": 0.22,
+      "startTimestamp": "00:00:48.980",
+      "endTimestamp": "00:00:49.200",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0012",
+    "text": "So, let me go to my apps home screen.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 12,
+      "start": 49.7,
+      "end": 52.34,
+      "duration": 2.64,
+      "startTimestamp": "00:00:49.700",
+      "endTimestamp": "00:00:52.340",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0013",
+    "text": "Now into this home screen you will see we have this navigate method.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 13,
+      "start": 53.84,
+      "end": 57.68,
+      "duration": 3.84,
+      "startTimestamp": "00:00:53.840",
+      "endTimestamp": "00:00:57.680",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0014",
+    "text": "We are moving to details page.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 14,
+      "start": 57.78,
+      "end": 59.52,
+      "duration": 1.74,
+      "startTimestamp": "00:00:57.780",
+      "endTimestamp": "00:00:59.520",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0015",
+    "text": "So, in same way if you wanted to pass some data to details page you can basically do",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 15,
+      "start": 59.8,
+      "end": 66.96,
+      "duration": 7.16,
+      "startTimestamp": "00:00:59.800",
+      "endTimestamp": "00:01:06.960",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0016",
+    "text": "you know what just simply append this another method and just give me a minute.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 16,
+      "start": 67.14,
+      "end": 72.28,
+      "duration": 5.14,
+      "startTimestamp": "00:01:07.140",
+      "endTimestamp": "00:01:12.280",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0017",
+    "text": "All right, because this is going to cry.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 17,
+      "start": 72.39,
+      "end": 74.74,
+      "duration": 2.35,
+      "startTimestamp": "00:01:12.390",
+      "endTimestamp": "00:01:14.740",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0018",
+    "text": "So, let me just simply add any so that we don't have any type script error and you can",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 18,
+      "start": 74.979,
+      "end": 80.14,
+      "duration": 5.161,
+      "startTimestamp": "00:01:14.979",
+      "endTimestamp": "00:01:20.140",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0019",
+    "text": "definitely pass the data.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 19,
+      "start": 80.14099999999999,
+      "end": 81.68,
+      "duration": 1.539,
+      "startTimestamp": "00:01:20.141",
+      "endTimestamp": "00:01:21.680",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0020",
+    "text": "Let's say let me pass the item ID as 40 to anything I mean just random I am just reading",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 20,
+      "start": 81.759,
+      "end": 87.259,
+      "duration": 5.5,
+      "startTimestamp": "00:01:21.759",
+      "endTimestamp": "00:01:27.259",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0021",
+    "text": "from documentation.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 21,
+      "start": 87.28,
+      "end": 88.22,
+      "duration": 0.94,
+      "startTimestamp": "00:01:27.280",
+      "endTimestamp": "00:01:28.220",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0022",
+    "text": "And then we have other params as let's say hello from home easy and then if you just",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 22,
+      "start": 88.3,
+      "end": 97.08,
+      "duration": 8.78,
+      "startTimestamp": "00:01:28.300",
+      "endTimestamp": "00:01:37.080",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0023",
+    "text": "simply press go to details you will see that you have the access of item ID and other params",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 23,
+      "start": 97.34,
+      "end": 103.92,
+      "duration": 6.58,
+      "startTimestamp": "00:01:37.340",
+      "endTimestamp": "00:01:43.920",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0024",
+    "text": "as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 24,
+      "start": 104.14,
+      "end": 104.72,
+      "duration": 0.58,
+      "startTimestamp": "00:01:44.140",
+      "endTimestamp": "00:01:44.720",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0025",
+    "text": "So then in detail screen you can read them how you can read them let me go to my details",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 25,
+      "start": 105.22,
+      "end": 109.97999999999999,
+      "duration": 4.76,
+      "startTimestamp": "00:01:45.220",
+      "endTimestamp": "00:01:49.980",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0026",
+    "text": "screen.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 26,
+      "start": 110.12,
+      "end": 110.68,
+      "duration": 0.56,
+      "startTimestamp": "00:01:50.120",
+      "endTimestamp": "00:01:50.680",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0027",
+    "text": "So, I can simply go to my details and again just make this as an any for now I mean just",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 27,
+      "start": 110.9,
+      "end": 118.06,
+      "duration": 7.16,
+      "startTimestamp": "00:01:50.900",
+      "endTimestamp": "00:01:58.060",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0028",
+    "text": "for now and then here you can simply say route easy and then this route is basically going",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 28,
+      "start": 118.061,
+      "end": 127.08,
+      "duration": 9.019,
+      "startTimestamp": "00:01:58.061",
+      "endTimestamp": "00:02:07.080",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0029",
+    "text": "to have the access of two thing.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 29,
+      "start": 127.081,
+      "end": 128.919,
+      "duration": 1.838,
+      "startTimestamp": "00:02:07.081",
+      "endTimestamp": "00:02:08.919",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0030",
+    "text": "First thing is going to be the item ID another one the name of the object that you have written",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 30,
+      "start": 129.199,
+      "end": 135.52,
+      "duration": 6.321,
+      "startTimestamp": "00:02:09.199",
+      "endTimestamp": "00:02:15.520",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0031",
+    "text": "which is otherparam and you will simply say route.params.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 31,
+      "start": 135.56,
+      "end": 142.16,
+      "duration": 6.6,
+      "startTimestamp": "00:02:15.560",
+      "endTimestamp": "00:02:22.160",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0032",
+    "text": "Easy and let me show you that so what I can do out of this pressable I can simply.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 32,
+      "start": 143.459,
+      "end": 150.78,
+      "duration": 7.321,
+      "startTimestamp": "00:02:23.459",
+      "endTimestamp": "00:02:30.780",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0033",
+    "text": "Add the item ID and other parameters and if I save it and if I just go to details screen,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 33,
+      "start": 150.8,
+      "end": 156.26,
+      "duration": 5.46,
+      "startTimestamp": "00:02:30.800",
+      "endTimestamp": "00:02:36.260",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0034",
+    "text": "look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 34,
+      "start": 156.56,
+      "end": 157.48,
+      "duration": 0.92,
+      "startTimestamp": "00:02:36.560",
+      "endTimestamp": "00:02:37.480",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0035",
+    "text": "We have this 42 and then hello from home.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 35,
+      "start": 157.78,
+      "end": 160.76,
+      "duration": 2.98,
+      "startTimestamp": "00:02:37.780",
+      "endTimestamp": "00:02:40.760",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0036",
+    "text": "Easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 36,
+      "start": 161.8,
+      "end": 162.18,
+      "duration": 0.38,
+      "startTimestamp": "00:02:41.800",
+      "endTimestamp": "00:02:42.180",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0037",
+    "text": "I hope so this is making sense.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 37,
+      "start": 162.6,
+      "end": 164.2,
+      "duration": 1.6,
+      "startTimestamp": "00:02:42.600",
+      "endTimestamp": "00:02:44.200",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0038",
+    "text": "You can definitely change the data as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 38,
+      "start": 164.36,
+      "end": 166.66,
+      "duration": 2.3,
+      "startTimestamp": "00:02:44.360",
+      "endTimestamp": "00:02:46.660",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0039",
+    "text": "So let me go to home page once again and let me say Suraj from this site and if I save",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 39,
+      "start": 166.9,
+      "end": 174.52,
+      "duration": 7.62,
+      "startTimestamp": "00:02:46.900",
+      "endTimestamp": "00:02:54.520",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0040",
+    "text": "it and click on go to details, you will see this is showing me Suraj from this site.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 40,
+      "start": 174.52100000000002,
+      "end": 179.96,
+      "duration": 5.439,
+      "startTimestamp": "00:02:54.521",
+      "endTimestamp": "00:02:59.960",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0041",
+    "text": "And, one more thing parems should be JSON serializable, so they persist properly, so",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 41,
+      "start": 180.1,
+      "end": 186.52,
+      "duration": 6.42,
+      "startTimestamp": "00:03:00.100",
+      "endTimestamp": "00:03:06.520",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0042",
+    "text": "yeah make sure to keep that in mind.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 42,
+      "start": 186.521,
+      "end": 188.2,
+      "duration": 1.679,
+      "startTimestamp": "00:03:06.521",
+      "endTimestamp": "00:03:08.200",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0043",
+    "text": "Now if I move ahead and then take you here you will see that this is how you can get",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 43,
+      "start": 190.18,
+      "end": 195.38,
+      "duration": 5.2,
+      "startTimestamp": "00:03:10.180",
+      "endTimestamp": "00:03:15.380",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0044",
+    "text": "it and you can definitely generate randoms data as well, so what I am talking about.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 44,
+      "start": 195.381,
+      "end": 202.02,
+      "duration": 6.639,
+      "startTimestamp": "00:03:15.381",
+      "endTimestamp": "00:03:22.020",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0045",
+    "text": "Let's say you are on detail page, perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 45,
+      "start": 202.02100000000002,
+      "end": 205.28,
+      "duration": 3.259,
+      "startTimestamp": "00:03:22.021",
+      "endTimestamp": "00:03:25.280",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0046",
+    "text": "Instead of replacing let me just simply say here push, just listen to me carefully and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 46,
+      "start": 205.57999999999998,
+      "end": 211.24,
+      "duration": 5.66,
+      "startTimestamp": "00:03:25.580",
+      "endTimestamp": "00:03:31.240",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0047",
+    "text": "I wanted to push to the same screen but right now with different data.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 47,
+      "start": 211.24099999999999,
+      "end": 216.22,
+      "duration": 4.979,
+      "startTimestamp": "00:03:31.241",
+      "endTimestamp": "00:03:36.220",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0048",
+    "text": "So let me just simply say item ID, perfect and then alright not here, sorry.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 48,
+      "start": 216.4,
+      "end": 223.7,
+      "duration": 7.3,
+      "startTimestamp": "00:03:36.400",
+      "endTimestamp": "00:03:43.700",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0049",
+    "text": "So, I can simply say here the item id and I can simply run the math.random method.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 49,
+      "start": 225.28,
+      "end": 231.599,
+      "duration": 6.319,
+      "startTimestamp": "00:03:45.280",
+      "endTimestamp": "00:03:51.599",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0050",
+    "text": "So, let me copy it easy and then let me just simply paste it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 50,
+      "start": 231.76,
+      "end": 237.879,
+      "duration": 6.119,
+      "startTimestamp": "00:03:51.760",
+      "endTimestamp": "00:03:57.879",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0051",
+    "text": "So, I am just run here math.floor math.random between 100 number because math.random is",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 51,
+      "start": 238.06,
+      "end": 244.599,
+      "duration": 6.539,
+      "startTimestamp": "00:03:58.060",
+      "endTimestamp": "00:04:04.599",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0052",
+    "text": "generating between 0 to 1.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 52,
+      "start": 244.6,
+      "end": 247.28,
+      "duration": 2.68,
+      "startTimestamp": "00:04:04.600",
+      "endTimestamp": "00:04:07.280",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0053",
+    "text": "So, if I am multiplying that with 100, so they are going to generate between 0 to 100,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 53,
+      "start": 248.3,
+      "end": 254.96,
+      "duration": 6.66,
+      "startTimestamp": "00:04:08.300",
+      "endTimestamp": "00:04:14.960",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0054",
+    "text": "easy basic maths.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 54,
+      "start": 255.7,
+      "end": 256.6,
+      "duration": 0.9,
+      "startTimestamp": "00:04:15.700",
+      "endTimestamp": "00:04:16.600",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0055",
+    "text": "So, now if I just simply press on go to details again.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 55,
+      "start": 257.88,
+      "end": 262.48,
+      "duration": 4.6,
+      "startTimestamp": "00:04:17.880",
+      "endTimestamp": "00:04:22.480",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0056",
+    "text": "And if I save it and let me try if I just simply press you will see the random ID if",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 56,
+      "start": 263,
+      "end": 269.5,
+      "duration": 6.5,
+      "startTimestamp": "00:04:23.000",
+      "endTimestamp": "00:04:29.500",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0057",
+    "text": "I once again click here you will see the random ID by once again click you will see the random",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 57,
+      "start": 269.501,
+      "end": 274.44,
+      "duration": 4.939,
+      "startTimestamp": "00:04:29.501",
+      "endTimestamp": "00:04:34.440",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0058",
+    "text": "ID.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 58,
+      "start": 274.46,
+      "end": 274.68,
+      "duration": 0.22,
+      "startTimestamp": "00:04:34.460",
+      "endTimestamp": "00:04:34.680",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0059",
+    "text": "So this is how you can basically pass the data I mean same thing nothing rocket science",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 59,
+      "start": 275.38,
+      "end": 280.96,
+      "duration": 5.58,
+      "startTimestamp": "00:04:35.380",
+      "endTimestamp": "00:04:40.960",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0060",
+    "text": "is going on.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 60,
+      "start": 280.961,
+      "end": 281.78,
+      "duration": 0.819,
+      "startTimestamp": "00:04:40.961",
+      "endTimestamp": "00:04:41.780",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0061",
+    "text": "Now, let's move ahead we have something known as initial params as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 61,
+      "start": 281.9,
+      "end": 287.34000000000003,
+      "duration": 5.44,
+      "startTimestamp": "00:04:41.900",
+      "endTimestamp": "00:04:47.340",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0062",
+    "text": "What is this initial params?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 62,
+      "start": 287.96,
+      "end": 289.52,
+      "duration": 1.56,
+      "startTimestamp": "00:04:47.960",
+      "endTimestamp": "00:04:49.520",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0063",
+    "text": "You can also pass some initial params to a screen if you don't specify any params when",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 63,
+      "start": 289.919,
+      "end": 296.86,
+      "duration": 6.941,
+      "startTimestamp": "00:04:49.919",
+      "endTimestamp": "00:04:56.860",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0064",
+    "text": "navigating to this screen I mean this details screen.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 64,
+      "start": 296.96,
+      "end": 301.16,
+      "duration": 4.2,
+      "startTimestamp": "00:04:56.960",
+      "endTimestamp": "00:05:01.160",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0065",
+    "text": "The initial params will be used.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 65,
+      "start": 301.3,
+      "end": 303.919,
+      "duration": 2.619,
+      "startTimestamp": "00:05:01.300",
+      "endTimestamp": "00:05:03.919",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0066",
+    "text": "They are also shallow merged with any params that you pass.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 66,
+      "start": 304.319,
+      "end": 308.919,
+      "duration": 4.6,
+      "startTimestamp": "00:05:04.319",
+      "endTimestamp": "00:05:08.919",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0067",
+    "text": "Initial params can be specified here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 67,
+      "start": 309.159,
+      "end": 311.74,
+      "duration": 2.581,
+      "startTimestamp": "00:05:09.159",
+      "endTimestamp": "00:05:11.740",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0068",
+    "text": "So we will see that how you can do so.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 68,
+      "start": 311.819,
+      "end": 313.58,
+      "duration": 1.761,
+      "startTimestamp": "00:05:11.819",
+      "endTimestamp": "00:05:13.580",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0069",
+    "text": "So for that you need to go into app.tsx and inside this stack.screen here you can simply",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 69,
+      "start": 314.039,
+      "end": 322.419,
+      "duration": 8.38,
+      "startTimestamp": "00:05:14.039",
+      "endTimestamp": "00:05:22.419",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0070",
+    "text": "initial parameter and you can pass the item ID as let's say 100.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 70,
+      "start": 322.42,
+      "end": 328.22,
+      "duration": 5.8,
+      "startTimestamp": "00:05:22.420",
+      "endTimestamp": "00:05:28.220",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0071",
+    "text": "And, if I save it and let me just try to and look at that how much tag that we have cool",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 71,
+      "start": 328.6,
+      "end": 334.96,
+      "duration": 6.36,
+      "startTimestamp": "00:05:28.600",
+      "endTimestamp": "00:05:34.960",
+      "estimatedTokens": 29
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0072",
+    "text": "and if I go to details nothing is going to change but let's say by any chance you are",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 72,
+      "start": 335.3,
+      "end": 341.68,
+      "duration": 6.38,
+      "startTimestamp": "00:05:35.300",
+      "endTimestamp": "00:05:41.680",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0073",
+    "text": "not passing any data from here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 73,
+      "start": 341.681,
+      "end": 344.08,
+      "duration": 2.399,
+      "startTimestamp": "00:05:41.681",
+      "endTimestamp": "00:05:44.080",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0074",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 74,
+      "start": 344.92,
+      "end": 345.2,
+      "duration": 0.28,
+      "startTimestamp": "00:05:44.920",
+      "endTimestamp": "00:05:45.200",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0075",
+    "text": "Let me just remove it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 75,
+      "start": 345.36,
+      "end": 346.48,
+      "duration": 1.12,
+      "startTimestamp": "00:05:45.360",
+      "endTimestamp": "00:05:46.480",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0076",
+    "text": "Easy, let me go back once again and now if I click on go to details and here as well,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 76,
+      "start": 349.34000000000003,
+      "end": 355.82,
+      "duration": 6.48,
+      "startTimestamp": "00:05:49.340",
+      "endTimestamp": "00:05:55.820",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0077",
+    "text": "let me just remove this as well and now if I save it and if I click on go to details",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 77,
+      "start": 356.62,
+      "end": 364.08,
+      "duration": 7.46,
+      "startTimestamp": "00:05:56.620",
+      "endTimestamp": "00:06:04.080",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0078",
+    "text": "you will see that this is the initial parameter which is passing from here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 78,
+      "start": 364.199,
+      "end": 368.78,
+      "duration": 4.581,
+      "startTimestamp": "00:06:04.199",
+      "endTimestamp": "00:06:08.780",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0079",
+    "text": "Easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 79,
+      "start": 369.34,
+      "end": 369.86,
+      "duration": 0.52,
+      "startTimestamp": "00:06:09.340",
+      "endTimestamp": "00:06:09.860",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0080",
+    "text": "No problem.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 80,
+      "start": 370.2,
+      "end": 371.82,
+      "duration": 1.62,
+      "startTimestamp": "00:06:10.200",
+      "endTimestamp": "00:06:11.820",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0081",
+    "text": "Yep.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 81,
+      "start": 372.48,
+      "end": 372.68,
+      "duration": 0.2,
+      "startTimestamp": "00:06:12.480",
+      "endTimestamp": "00:06:12.680",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0082",
+    "text": "And while moving between screen you can even update your params.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 82,
+      "start": 373.36,
+      "end": 378.42,
+      "duration": 5.06,
+      "startTimestamp": "00:06:13.360",
+      "endTimestamp": "00:06:18.420",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0083",
+    "text": "You can definitely research more about it if you wanted to.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 83,
+      "start": 378.96,
+      "end": 381.98,
+      "duration": 3.02,
+      "startTimestamp": "00:06:18.960",
+      "endTimestamp": "00:06:21.980",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0084",
+    "text": "But yeah, this is how you can basically pass data, pass parameters between screens.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 84,
+      "start": 382.3,
+      "end": 387.52,
+      "duration": 5.22,
+      "startTimestamp": "00:06:22.300",
+      "endTimestamp": "00:06:27.520",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0085",
+    "text": "Now let's move ahead and now close all the screen component and just open this app.tsx.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 85,
+      "start": 388.38,
+      "end": 395.08,
+      "duration": 6.7,
+      "startTimestamp": "00:06:28.380",
+      "endTimestamp": "00:06:35.080",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0086",
+    "text": "Let me show you something interesting.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 86,
+      "start": 395.15999999999997,
+      "end": 396.6,
+      "duration": 1.44,
+      "startTimestamp": "00:06:35.160",
+      "endTimestamp": "00:06:36.600",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0087",
+    "text": "Let's say you wanted to initialize your header, you wanted to configure the header bar.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 87,
+      "start": 398.18,
+      "end": 403.94,
+      "duration": 5.76,
+      "startTimestamp": "00:06:38.180",
+      "endTimestamp": "00:06:43.940",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0088",
+    "text": "So what you can do?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 88,
+      "start": 404,
+      "end": 405.15999999999997,
+      "duration": 1.16,
+      "startTimestamp": "00:06:44.000",
+      "endTimestamp": "00:06:45.160",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0089",
+    "text": "You can let just say for the home screen you wanted to instead of showing the home you",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 89,
+      "start": 405.59000000000003,
+      "end": 411.74,
+      "duration": 6.15,
+      "startTimestamp": "00:06:45.590",
+      "endTimestamp": "00:06:51.740",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0090",
+    "text": "wanted to show my home.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 90,
+      "start": 411.741,
+      "end": 413.04,
+      "duration": 1.299,
+      "startTimestamp": "00:06:51.741",
+      "endTimestamp": "00:06:53.040",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0091",
+    "text": "So what you can do?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 91,
+      "start": 413.041,
+      "end": 413.8,
+      "duration": 0.759,
+      "startTimestamp": "00:06:53.041",
+      "endTimestamp": "00:06:53.800",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0092",
+    "text": "Let me copy this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 92,
+      "start": 413.82,
+      "end": 415.04,
+      "duration": 1.22,
+      "startTimestamp": "00:06:53.820",
+      "endTimestamp": "00:06:55.040",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0093",
+    "text": "Coming to here and we have options and then inside this options what I can do look at",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 93,
+      "start": 415.979,
+      "end": 423.72,
+      "duration": 7.741,
+      "startTimestamp": "00:06:55.979",
+      "endTimestamp": "00:07:03.720",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0094",
+    "text": "that I can simply open one more object and then I can pass the title and let me say this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 94,
+      "start": 423.759,
+      "end": 429.44,
+      "duration": 5.681,
+      "startTimestamp": "00:07:03.759",
+      "endTimestamp": "00:07:09.440",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0095",
+    "text": "as my home perfect and let me see is this going to work or not and if I save it look",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 95,
+      "start": 429.441,
+      "end": 436.36,
+      "duration": 6.919,
+      "startTimestamp": "00:07:09.441",
+      "endTimestamp": "00:07:16.360",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0096",
+    "text": "at that you can even customize your stack screens header as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 96,
+      "start": 436.4,
+      "end": 442.78,
+      "duration": 6.38,
+      "startTimestamp": "00:07:16.400",
+      "endTimestamp": "00:07:22.780",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0097",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 97,
+      "start": 443.86,
+      "end": 444.3,
+      "duration": 0.44,
+      "startTimestamp": "00:07:23.860",
+      "endTimestamp": "00:07:24.300",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0098",
+    "text": "So, you again, I mean, not only this, you can do a bunch of other things as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 98,
+      "start": 445.32,
+      "end": 449.26,
+      "duration": 3.94,
+      "startTimestamp": "00:07:25.320",
+      "endTimestamp": "00:07:29.260",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0099",
+    "text": "Like let me show you, like we have header style prop as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 99,
+      "start": 449.36,
+      "end": 452.42,
+      "duration": 3.06,
+      "startTimestamp": "00:07:29.360",
+      "endTimestamp": "00:07:32.420",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0100",
+    "text": "So, inside this header style, you can change their background color.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 100,
+      "start": 453.26,
+      "end": 457.3,
+      "duration": 4.04,
+      "startTimestamp": "00:07:33.260",
+      "endTimestamp": "00:07:37.300",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0101",
+    "text": "And again, they don't support all the properties, but most of them, let's say, let me change",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 101,
+      "start": 458.28,
+      "end": 462.72,
+      "duration": 4.44,
+      "startTimestamp": "00:07:38.280",
+      "endTimestamp": "00:07:42.720",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0102",
+    "text": "this to #222.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 102,
+      "start": 462.721,
+      "end": 464.34000000000003,
+      "duration": 1.619,
+      "startTimestamp": "00:07:42.721",
+      "endTimestamp": "00:07:44.340",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0103",
+    "text": "And this is your header style.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 103,
+      "start": 465.34000000000003,
+      "end": 466.92,
+      "duration": 1.58,
+      "startTimestamp": "00:07:45.340",
+      "endTimestamp": "00:07:46.920",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0104",
+    "text": "You can change the header title style as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 104,
+      "start": 467.08,
+      "end": 469.6,
+      "duration": 2.52,
+      "startTimestamp": "00:07:47.080",
+      "endTimestamp": "00:07:49.600",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0105",
+    "text": "So, we have header, title, style.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 105,
+      "start": 469.601,
+      "end": 472.4,
+      "duration": 2.799,
+      "startTimestamp": "00:07:49.601",
+      "endTimestamp": "00:07:52.400",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0106",
+    "text": "And this header titles style is only going to have a font related method.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 106,
+      "start": 473.5,
+      "end": 478.72,
+      "duration": 5.22,
+      "startTimestamp": "00:07:53.500",
+      "endTimestamp": "00:07:58.720",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0107",
+    "text": "So first of all, let me change the font weight.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 107,
+      "start": 479.259,
+      "end": 481.4,
+      "duration": 2.141,
+      "startTimestamp": "00:07:59.259",
+      "endTimestamp": "00:08:01.400",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0108",
+    "text": "Let me just call this as bold and then color is going to be hashtag FFF.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 108,
+      "start": 482.02,
+      "end": 487.8,
+      "duration": 5.78,
+      "startTimestamp": "00:08:02.020",
+      "endTimestamp": "00:08:07.800",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0109",
+    "text": "And if I save it, this is how they are going to show to us.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 109,
+      "start": 488.08,
+      "end": 492.62,
+      "duration": 4.54,
+      "startTimestamp": "00:08:08.080",
+      "endTimestamp": "00:08:12.620",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0110",
+    "text": "Easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 110,
+      "start": 492.919,
+      "end": 493.46,
+      "duration": 0.541,
+      "startTimestamp": "00:08:12.919",
+      "endTimestamp": "00:08:13.460",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0111",
+    "text": "You can do a bunch of other things if you wanted to.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 111,
+      "start": 493.979,
+      "end": 496.759,
+      "duration": 2.78,
+      "startTimestamp": "00:08:13.979",
+      "endTimestamp": "00:08:16.759",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0112",
+    "text": "I mean, nothing rocket science.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 112,
+      "start": 497.259,
+      "end": 499.199,
+      "duration": 1.94,
+      "startTimestamp": "00:08:17.259",
+      "endTimestamp": "00:08:19.199",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0113",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 113,
+      "start": 499.72,
+      "end": 499.86,
+      "duration": 0.14,
+      "startTimestamp": "00:08:19.720",
+      "endTimestamp": "00:08:19.860",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0114",
+    "text": "Perfect, if I just go to details page, now you can in same way you can customize here",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 114,
+      "start": 501.08,
+      "end": 506.44,
+      "duration": 5.36,
+      "startTimestamp": "00:08:21.080",
+      "endTimestamp": "00:08:26.440",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0115",
+    "text": "as well, you can customize other pages as well in same way.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 115,
+      "start": 506.441,
+      "end": 511.32,
+      "duration": 4.879,
+      "startTimestamp": "00:08:26.441",
+      "endTimestamp": "00:08:31.320",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0116",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 116,
+      "start": 511.58,
+      "end": 511.84,
+      "duration": 0.26,
+      "startTimestamp": "00:08:31.580",
+      "endTimestamp": "00:08:31.840",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0117",
+    "text": "Let's say you wanted to add here some buttons, so how you can on the right hand side, so",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 117,
+      "start": 512.22,
+      "end": 517.679,
+      "duration": 5.459,
+      "startTimestamp": "00:08:32.220",
+      "endTimestamp": "00:08:37.679",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0118",
+    "text": "what you can do, you can simply like in same way you can simply add here a comma and then",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 118,
+      "start": 517.68,
+      "end": 524.32,
+      "duration": 6.64,
+      "startTimestamp": "00:08:37.680",
+      "endTimestamp": "00:08:44.320",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0119",
+    "text": "Then you can search for something known as header right.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 119,
+      "start": 524.321,
+      "end": 527.62,
+      "duration": 3.299,
+      "startTimestamp": "00:08:44.321",
+      "endTimestamp": "00:08:47.620",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0120",
+    "text": "And on the header right, you can just simply return a JSX.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 120,
+      "start": 528,
+      "end": 532.28,
+      "duration": 4.28,
+      "startTimestamp": "00:08:48.000",
+      "endTimestamp": "00:08:52.280",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0121",
+    "text": "So this is going to be, let's say a self closing button.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 121,
+      "start": 533.94,
+      "end": 537.26,
+      "duration": 3.32,
+      "startTimestamp": "00:08:53.940",
+      "endTimestamp": "00:08:57.260",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0122",
+    "text": "Let me import button from react native and then I can pass the title, title, let me just",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 122,
+      "start": 538.5,
+      "end": 547.82,
+      "duration": 9.32,
+      "startTimestamp": "00:08:58.500",
+      "endTimestamp": "00:09:07.820",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0123",
+    "text": "call this as info.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 123,
+      "start": 547.821,
+      "end": 548.84,
+      "duration": 1.019,
+      "startTimestamp": "00:09:07.821",
+      "endTimestamp": "00:09:08.840",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0124",
+    "text": "And then on press whenever you press on this button, I just simply wanted to show alert.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 124,
+      "start": 549.4,
+      "end": 555.74,
+      "duration": 6.34,
+      "startTimestamp": "00:09:09.400",
+      "endTimestamp": "00:09:15.740",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0125",
+    "text": "This is a native alert.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 125,
+      "start": 556.42,
+      "end": 557.48,
+      "duration": 1.06,
+      "startTimestamp": "00:09:16.420",
+      "endTimestamp": "00:09:17.480",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0126",
+    "text": "And let me call this as this is a header button.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 126,
+      "start": 558.46,
+      "end": 561.5,
+      "duration": 3.04,
+      "startTimestamp": "00:09:18.460",
+      "endTimestamp": "00:09:21.500",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0127",
+    "text": "Easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 127,
+      "start": 561.94,
+      "end": 562.18,
+      "duration": 0.24,
+      "startTimestamp": "00:09:21.940",
+      "endTimestamp": "00:09:22.180",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0128",
+    "text": "And if I save it, look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 128,
+      "start": 562.92,
+      "end": 564.96,
+      "duration": 2.04,
+      "startTimestamp": "00:09:22.920",
+      "endTimestamp": "00:09:24.960",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0129",
+    "text": "And the moment you click it, you will see this is the header button.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 129,
+      "start": 565.1,
+      "end": 569.14,
+      "duration": 4.04,
+      "startTimestamp": "00:09:25.100",
+      "endTimestamp": "00:09:29.140",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0130",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 130,
+      "start": 569.3,
+      "end": 570.12,
+      "duration": 0.82,
+      "startTimestamp": "00:09:29.300",
+      "endTimestamp": "00:09:30.120",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0131",
+    "text": "You can change the color of it as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 131,
+      "start": 570.64,
+      "end": 572.86,
+      "duration": 2.22,
+      "startTimestamp": "00:09:30.640",
+      "endTimestamp": "00:09:32.860",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0132",
+    "text": "Sorry, you can simply say the color of this going to be hashtag FFF.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 132,
+      "start": 572.861,
+      "end": 578.24,
+      "duration": 5.379,
+      "startTimestamp": "00:09:32.861",
+      "endTimestamp": "00:09:38.240",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0133",
+    "text": "And if I save it, alright, color basically means the if I'm not wrong, the text color",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 133,
+      "start": 578.519,
+      "end": 584.6,
+      "duration": 6.081,
+      "startTimestamp": "00:09:38.519",
+      "endTimestamp": "00:09:44.600",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0134",
+    "text": "they are talking about.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 134,
+      "start": 584.64,
+      "end": 585.58,
+      "duration": 0.94,
+      "startTimestamp": "00:09:44.640",
+      "endTimestamp": "00:09:45.580",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0135",
+    "text": "If you wanted to change the color of this button, you can simply add the style tag here",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 135,
+      "start": 586,
+      "end": 592.399,
+      "duration": 6.399,
+      "startTimestamp": "00:09:46.000",
+      "endTimestamp": "00:09:52.399",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0136",
+    "text": "and on the basis of that style, if I'm not wrong, you can change it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 136,
+      "start": 592.779,
+      "end": 596.18,
+      "duration": 3.401,
+      "startTimestamp": "00:09:52.779",
+      "endTimestamp": "00:09:56.180",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0137",
+    "text": "I mean, yes, you can definitely change it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 137,
+      "start": 596.181,
+      "end": 597.8389999999999,
+      "duration": 1.658,
+      "startTimestamp": "00:09:56.181",
+      "endTimestamp": "00:09:57.839",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0138",
+    "text": "Easy, so this button is basically appearing on the right side of the header and can run",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 138,
+      "start": 597.84,
+      "end": 603,
+      "duration": 5.16,
+      "startTimestamp": "00:09:57.840",
+      "endTimestamp": "00:10:03.000",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0139",
+    "text": "any action like navigating to some screen, showing some drawer, popping up something.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 139,
+      "start": 603.001,
+      "end": 608.019,
+      "duration": 5.018,
+      "startTimestamp": "00:10:03.001",
+      "endTimestamp": "00:10:08.019",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0140",
+    "text": "So you can definitely handle them clearly.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 140,
+      "start": 608.2,
+      "end": 611.12,
+      "duration": 2.92,
+      "startTimestamp": "00:10:08.200",
+      "endTimestamp": "00:10:11.120",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0141",
+    "text": "Easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 141,
+      "start": 612.26,
+      "end": 612.56,
+      "duration": 0.3,
+      "startTimestamp": "00:10:12.260",
+      "endTimestamp": "00:10:12.560",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0142",
+    "text": "And one more thing if you wanted to update your headers programmatically we have bunch",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 142,
+      "start": 615.139,
+      "end": 620.779,
+      "duration": 5.64,
+      "startTimestamp": "00:10:15.139",
+      "endTimestamp": "00:10:20.779",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0143",
+    "text": "of other ways of doing it as well but again you need not to jump too much depth into it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 143,
+      "start": 620.78,
+      "end": 627.259,
+      "duration": 6.479,
+      "startTimestamp": "00:10:20.780",
+      "endTimestamp": "00:10:27.259",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0144",
+    "text": "Yes because we are going to understand all of this once again inside our expo router",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 144,
+      "start": 627.92,
+      "end": 632.88,
+      "duration": 4.96,
+      "startTimestamp": "00:10:27.920",
+      "endTimestamp": "00:10:32.880",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0145",
+    "text": "but right now you have a very good understanding that how you can do so this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 145,
+      "start": 633.12,
+      "end": 638.44,
+      "duration": 5.32,
+      "startTimestamp": "00:10:33.120",
+      "endTimestamp": "00:10:38.440",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0146",
+    "text": "Perfect, you can in same way you let's say let me go to my detail page.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 146,
+      "start": 639.36,
+      "end": 643.74,
+      "duration": 4.38,
+      "startTimestamp": "00:10:39.360",
+      "endTimestamp": "00:10:43.740",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0147",
+    "text": "So on this detail page you can again customize this if you wanted to you can change their",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 147,
+      "start": 644.22,
+      "end": 649.24,
+      "duration": 5.02,
+      "startTimestamp": "00:10:44.220",
+      "endTimestamp": "00:10:49.240",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0148",
+    "text": "colors, change their options, do like you can look at that like they are showing you",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 148,
+      "start": 649.84,
+      "end": 655.3,
+      "duration": 5.46,
+      "startTimestamp": "00:10:49.840",
+      "endTimestamp": "00:10:55.300",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0149",
+    "text": "this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 149,
+      "start": 655.301,
+      "end": 655.58,
+      "duration": 0.279,
+      "startTimestamp": "00:10:55.301",
+      "endTimestamp": "00:10:55.580",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0150",
+    "text": "So let me just copy this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 150,
+      "start": 655.92,
+      "end": 657.76,
+      "duration": 1.84,
+      "startTimestamp": "00:10:55.920",
+      "endTimestamp": "00:10:57.760",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0151",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 151,
+      "start": 658.32,
+      "end": 658.7,
+      "duration": 0.38,
+      "startTimestamp": "00:10:58.320",
+      "endTimestamp": "00:10:58.700",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0152",
+    "text": "And let me try to paste that onto my details page.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 152,
+      "start": 659.38,
+      "end": 663.08,
+      "duration": 3.7,
+      "startTimestamp": "00:10:59.380",
+      "endTimestamp": "00:11:03.080",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0153",
+    "text": "Easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 153,
+      "start": 663.92,
+      "end": 664.28,
+      "duration": 0.36,
+      "startTimestamp": "00:11:03.920",
+      "endTimestamp": "00:11:04.280",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0154",
+    "text": "And instead of my home, I'm going to simply share this as details.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 154,
+      "start": 665.96,
+      "end": 671.06,
+      "duration": 5.1,
+      "startTimestamp": "00:11:05.960",
+      "endTimestamp": "00:11:11.060",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0155",
+    "text": "And if I save it, look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 155,
+      "start": 671.26,
+      "end": 673.42,
+      "duration": 2.16,
+      "startTimestamp": "00:11:11.260",
+      "endTimestamp": "00:11:13.420",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0156",
+    "text": "This is how you can change your details page as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 156,
+      "start": 673.9,
+      "end": 676.68,
+      "duration": 2.78,
+      "startTimestamp": "00:11:13.900",
+      "endTimestamp": "00:11:16.680",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0157",
+    "text": "You can modify a bunch of other things if you wanted to.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 157,
+      "start": 677.2,
+      "end": 680.16,
+      "duration": 2.96,
+      "startTimestamp": "00:11:17.200",
+      "endTimestamp": "00:11:20.160",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0158",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 158,
+      "start": 680.5,
+      "end": 681.18,
+      "duration": 0.68,
+      "startTimestamp": "00:11:20.500",
+      "endTimestamp": "00:11:21.180",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0159",
+    "text": "So, again if you wanted to share some common patterns, so you instead of designing a single",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 159,
+      "start": 681.8,
+      "end": 688.18,
+      "duration": 6.38,
+      "startTimestamp": "00:11:21.800",
+      "endTimestamp": "00:11:28.180",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0160",
+    "text": "screen separately, you can design something like this at the top of it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 160,
+      "start": 688.181,
+      "end": 692.6,
+      "duration": 4.419,
+      "startTimestamp": "00:11:28.181",
+      "endTimestamp": "00:11:32.600",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0161",
+    "text": "I mean at this point inside here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 161,
+      "start": 692.7,
+      "end": 695.88,
+      "duration": 3.18,
+      "startTimestamp": "00:11:32.700",
+      "endTimestamp": "00:11:35.880",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0162",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 162,
+      "start": 696.08,
+      "end": 696.32,
+      "duration": 0.24,
+      "startTimestamp": "00:11:36.080",
+      "endTimestamp": "00:11:36.320",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0163",
+    "text": "So, it's easy this is how you can basically do this and if you wanted to you can read",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 163,
+      "start": 696.7,
+      "end": 703.38,
+      "duration": 6.68,
+      "startTimestamp": "00:11:36.700",
+      "endTimestamp": "00:11:43.380",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0164",
+    "text": "this about header right you can even fix your header left you can do bunch of other thing",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 164,
+      "start": 703.381,
+      "end": 708.84,
+      "duration": 5.459,
+      "startTimestamp": "00:11:43.381",
+      "endTimestamp": "00:11:48.840",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0165",
+    "text": "as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 165,
+      "start": 708.841,
+      "end": 709.3,
+      "duration": 0.459,
+      "startTimestamp": "00:11:48.841",
+      "endTimestamp": "00:11:49.300",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0166",
+    "text": "So, I am just suggesting you if you wanted to deep down deep dive in if you wanted to",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 166,
+      "start": 709.38,
+      "end": 714.42,
+      "duration": 5.04,
+      "startTimestamp": "00:11:49.380",
+      "endTimestamp": "00:11:54.420",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0167",
+    "text": "deep dive much more into it and learn something more if you wanted to I am not going to suggest",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 167,
+      "start": 714.421,
+      "end": 719.28,
+      "duration": 4.859,
+      "startTimestamp": "00:11:54.421",
+      "endTimestamp": "00:11:59.280",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0168",
+    "text": "you to do those do so this but still.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 168,
+      "start": 719.281,
+      "end": 721.88,
+      "duration": 2.599,
+      "startTimestamp": "00:11:59.281",
+      "endTimestamp": "00:12:01.880",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0169",
+    "text": "So you can read more about it, but from next chapter we have one more chapter left for",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 169,
+      "start": 722.3,
+      "end": 728.58,
+      "duration": 6.28,
+      "startTimestamp": "00:12:02.300",
+      "endTimestamp": "00:12:08.580",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0170",
+    "text": "it where you will see that how we can create our tabs and how we can open drawer and models.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 170,
+      "start": 728.581,
+      "end": 734.6,
+      "duration": 6.019,
+      "startTimestamp": "00:12:08.581",
+      "endTimestamp": "00:12:14.600",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0171",
+    "text": "So that is very easy, very basic.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 171,
+      "start": 734.74,
+      "end": 736.3,
+      "duration": 1.56,
+      "startTimestamp": "00:12:14.740",
+      "endTimestamp": "00:12:16.300",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0172",
+    "text": "So for this chapter, this is pretty much it and from next chapter we are going to see",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 172,
+      "start": 736.959,
+      "end": 742.2,
+      "duration": 5.241,
+      "startTimestamp": "00:12:16.959",
+      "endTimestamp": "00:12:22.200",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0173",
+    "text": "bunch of other thing as well and then going to create the mini project.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 173,
+      "start": 742.201,
+      "end": 746.04,
+      "duration": 3.839,
+      "startTimestamp": "00:12:22.201",
+      "endTimestamp": "00:12:26.040",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_0174",
+    "text": "So for now, bye-bye, take care, see ya and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "fileName": "4. Params, Initial Params & Header Customization_epm.vtt",
+      "captionIndex": 174,
+      "start": 746.3389999999999,
+      "end": 750.16,
+      "duration": 3.821,
+      "startTimestamp": "00:12:26.339",
+      "endTimestamp": "00:12:30.160",
+      "estimatedTokens": 17
+    }
+  }
+]

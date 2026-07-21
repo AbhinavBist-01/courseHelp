@@ -1,0 +1,1579 @@
+[
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0001",
+    "text": "Alright guys, so welcome to one more new chapter and as you see that like we have a lot of",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 1,
+      "start": 0.7,
+      "end": 6.58,
+      "duration": 5.88,
+      "startTimestamp": "00:00:00.700",
+      "endTimestamp": "00:00:06.580",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0002",
+    "text": "other sensors as well like we have device motion barometer, every one of them have same",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 2,
+      "start": 6.581,
+      "end": 13.46,
+      "duration": 6.879,
+      "startTimestamp": "00:00:06.581",
+      "endTimestamp": "00:00:13.460",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0003",
+    "text": "interface of using it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 3,
+      "start": 13.62,
+      "end": 15.02,
+      "duration": 1.4,
+      "startTimestamp": "00:00:13.620",
+      "endTimestamp": "00:00:15.020",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0004",
+    "text": "Cool, so I hope you understand that barometer is basically used to detect the pressure on",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 4,
+      "start": 15.7,
+      "end": 20.84,
+      "duration": 5.14,
+      "startTimestamp": "00:00:15.700",
+      "endTimestamp": "00:00:20.840",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0005",
+    "text": "your, we can say air pressure around your device, which is basically helpful for measuring",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 5,
+      "start": 20.841,
+      "end": 26.82,
+      "duration": 5.979,
+      "startTimestamp": "00:00:20.841",
+      "endTimestamp": "00:00:26.820",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0006",
+    "text": "altitude or we can say a weather trends.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 6,
+      "start": 26.88,
+      "end": 29.7,
+      "duration": 2.82,
+      "startTimestamp": "00:00:26.880",
+      "endTimestamp": "00:00:29.700",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0007",
+    "text": "Cool, so whenever pressure change your measurement go up or down.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 7,
+      "start": 30.779,
+      "end": 35.58,
+      "duration": 4.801,
+      "startTimestamp": "00:00:30.779",
+      "endTimestamp": "00:00:35.580",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0008",
+    "text": "Perfect and like we can say you are climbing a mountain and you are climbing a stairs at",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 8,
+      "start": 35.84,
+      "end": 41.66,
+      "duration": 5.82,
+      "startTimestamp": "00:00:35.840",
+      "endTimestamp": "00:00:41.660",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0009",
+    "text": "that time this barometer will very helpful.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 9,
+      "start": 41.661,
+      "end": 44,
+      "duration": 2.339,
+      "startTimestamp": "00:00:41.661",
+      "endTimestamp": "00:00:44.000",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0010",
+    "text": "In same way we have a device motion.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 10,
+      "start": 44.3,
+      "end": 47.04,
+      "duration": 2.74,
+      "startTimestamp": "00:00:44.300",
+      "endTimestamp": "00:00:47.040",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0011",
+    "text": "So this sensor give you a combined picture of the device motions like we can say this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 11,
+      "start": 48.04,
+      "end": 53.379,
+      "duration": 5.339,
+      "startTimestamp": "00:00:48.040",
+      "endTimestamp": "00:00:53.379",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0012",
+    "text": "is the mixture of accelerometer and xeroscope kind of cool and on the basis of that this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 12,
+      "start": 53.38,
+      "end": 60.559,
+      "duration": 7.179,
+      "startTimestamp": "00:00:53.380",
+      "endTimestamp": "00:01:00.559",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0013",
+    "text": "view a bunch of...",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 13,
+      "start": 60.56,
+      "end": 61.78,
+      "duration": 1.22,
+      "startTimestamp": "00:01:00.560",
+      "endTimestamp": "00:01:01.780",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0014",
+    "text": "I mean something like that cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 14,
+      "start": 62.7,
+      "end": 65.479,
+      "duration": 2.779,
+      "startTimestamp": "00:01:02.700",
+      "endTimestamp": "00:01:05.479",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0015",
+    "text": "So I hope so that I need not to again explain you this what is this and why do we need to",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 15,
+      "start": 66.18,
+      "end": 70.38,
+      "duration": 4.2,
+      "startTimestamp": "00:01:06.180",
+      "endTimestamp": "00:01:10.380",
+      "estimatedTokens": 29
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0016",
+    "text": "understand let's move ahead and start understanding about light sensors this is very important",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 16,
+      "start": 70.381,
+      "end": 76.24,
+      "duration": 5.859,
+      "startTimestamp": "00:01:10.381",
+      "endTimestamp": "00:01:16.240",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0017",
+    "text": "to understand.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 17,
+      "start": 76.241,
+      "end": 76.88,
+      "duration": 0.639,
+      "startTimestamp": "00:01:16.241",
+      "endTimestamp": "00:01:16.880",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0018",
+    "text": "So right now let me just simply coming to here and create let me open a compass and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 18,
+      "start": 78.38,
+      "end": 83.86,
+      "duration": 5.48,
+      "startTimestamp": "00:01:18.380",
+      "endTimestamp": "00:01:23.860",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0019",
+    "text": "And then I will simply say this as.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 19,
+      "start": 83.861,
+      "end": 86.28,
+      "duration": 2.419,
+      "startTimestamp": "00:01:23.861",
+      "endTimestamp": "00:01:26.280",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0020",
+    "text": "light sensor dot t s x R n f e s and this is going to become your light sensor I will",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 20,
+      "start": 87.3,
+      "end": 95.53999999999999,
+      "duration": 8.24,
+      "startTimestamp": "00:01:27.300",
+      "endTimestamp": "00:01:35.540",
+      "estimatedTokens": 29
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0021",
+    "text": "save this and import my light as e n light sensor let me import it yes I have imported",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 21,
+      "start": 95.66,
+      "end": 105.3,
+      "duration": 9.64,
+      "startTimestamp": "00:01:35.660",
+      "endTimestamp": "00:01:45.300",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0022",
+    "text": "it then why not working check render method of index.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 22,
+      "start": 105.32,
+      "end": 110.56,
+      "duration": 5.24,
+      "startTimestamp": "00:01:45.320",
+      "endTimestamp": "00:01:50.560",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0023",
+    "text": "Light sensor, we don't need this compass.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 23,
+      "start": 114.07900000000001,
+      "end": 117.07900000000001,
+      "duration": 3,
+      "startTimestamp": "00:01:54.079",
+      "endTimestamp": "00:01:57.079",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0024",
+    "text": "All right, just give me a minute.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 24,
+      "start": 119.1,
+      "end": 120.64,
+      "duration": 1.54,
+      "startTimestamp": "00:01:59.100",
+      "endTimestamp": "00:02:00.640",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0025",
+    "text": "We have this light sensor or maybe I think I need to change this light sensors name to",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 25,
+      "start": 121.259,
+      "end": 129.25900000000001,
+      "duration": 8,
+      "startTimestamp": "00:02:01.259",
+      "endTimestamp": "00:02:09.259",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0026",
+    "text": "something else.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 26,
+      "start": 129.26,
+      "end": 130.239,
+      "duration": 0.979,
+      "startTimestamp": "00:02:09.260",
+      "endTimestamp": "00:02:10.239",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0027",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 27,
+      "start": 130.639,
+      "end": 130.919,
+      "duration": 0.28,
+      "startTimestamp": "00:02:10.639",
+      "endTimestamp": "00:02:10.919",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0028",
+    "text": "So, I will say light mode, light mood label.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 28,
+      "start": 131.54,
+      "end": 136.18,
+      "duration": 4.64,
+      "startTimestamp": "00:02:11.540",
+      "endTimestamp": "00:02:16.180",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0029",
+    "text": "The light mood is something like this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 29,
+      "start": 137.78,
+      "end": 140.62,
+      "duration": 2.84,
+      "startTimestamp": "00:02:17.780",
+      "endTimestamp": "00:02:20.620",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0030",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 30,
+      "start": 141.079,
+      "end": 141.299,
+      "duration": 0.22,
+      "startTimestamp": "00:02:21.079",
+      "endTimestamp": "00:02:21.299",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0031",
+    "text": "And then I will say RnFes and this is become your light mood so that on the basis of light",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 31,
+      "start": 141.72,
+      "end": 147.76,
+      "duration": 6.04,
+      "startTimestamp": "00:02:21.720",
+      "endTimestamp": "00:02:27.760",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0032",
+    "text": "we are showing users mood.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 32,
+      "start": 148.2,
+      "end": 150.06,
+      "duration": 1.86,
+      "startTimestamp": "00:02:28.200",
+      "endTimestamp": "00:02:30.060",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0033",
+    "text": "So light mood and I think this will work now.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 33,
+      "start": 150.939,
+      "end": 154.7,
+      "duration": 3.761,
+      "startTimestamp": "00:02:30.939",
+      "endTimestamp": "00:02:34.700",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0034",
+    "text": "Alright, because light sensor is already reserved.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 34,
+      "start": 154.859,
+      "end": 157.12,
+      "duration": 2.261,
+      "startTimestamp": "00:02:34.859",
+      "endTimestamp": "00:02:37.120",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0035",
+    "text": "That's why maybe we can't use it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 35,
+      "start": 157.4,
+      "end": 159.299,
+      "duration": 1.899,
+      "startTimestamp": "00:02:37.400",
+      "endTimestamp": "00:02:39.299",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0036",
+    "text": "So, what is this light sensor is actually.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 36,
+      "start": 159.7,
+      "end": 162.739,
+      "duration": 3.039,
+      "startTimestamp": "00:02:39.700",
+      "endTimestamp": "00:02:42.739",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0037",
+    "text": "So it is basically gives a ambient light level like this is something known as LUX.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 37,
+      "start": 162.959,
+      "end": 168.98,
+      "duration": 6.021,
+      "startTimestamp": "00:02:42.959",
+      "endTimestamp": "00:02:48.980",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0038",
+    "text": "This is work mainly on Android.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 38,
+      "start": 169.81900000000002,
+      "end": 171.9,
+      "duration": 2.081,
+      "startTimestamp": "00:02:49.819",
+      "endTimestamp": "00:02:51.900",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0039",
+    "text": "So why it basically matters like let's say your app can adapt its UI depending on the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 39,
+      "start": 172.239,
+      "end": 180.18,
+      "duration": 7.941,
+      "startTimestamp": "00:02:52.239",
+      "endTimestamp": "00:03:00.180",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0040",
+    "text": "light conditions.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 40,
+      "start": 180.181,
+      "end": 181.06,
+      "duration": 0.879,
+      "startTimestamp": "00:03:00.181",
+      "endTimestamp": "00:03:01.060",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0041",
+    "text": "Like if you are going inside a dim room, you will see that your mobile's brightness will automatically go down.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 41,
+      "start": 181.4,
+      "end": 192.56,
+      "duration": 11.16,
+      "startTimestamp": "00:03:01.400",
+      "endTimestamp": "00:03:12.560",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0042",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 42,
+      "start": 193.319,
+      "end": 193.579,
+      "duration": 0.26,
+      "startTimestamp": "00:03:13.319",
+      "endTimestamp": "00:03:13.579",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0043",
+    "text": "But if you are going into sunlight, then you will see your mobile brightness will automatically increase.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 43,
+      "start": 194.26,
+      "end": 199.42000000000002,
+      "duration": 5.16,
+      "startTimestamp": "00:03:14.260",
+      "endTimestamp": "00:03:19.420",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0044",
+    "text": "So, that is where we are using this light sensor.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 44,
+      "start": 199.8,
+      "end": 205.36,
+      "duration": 5.56,
+      "startTimestamp": "00:03:19.800",
+      "endTimestamp": "00:03:25.360",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0045",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 45,
+      "start": 206.3,
+      "end": 206.57999999999998,
+      "duration": 0.28,
+      "startTimestamp": "00:03:26.300",
+      "endTimestamp": "00:03:26.580",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0046",
+    "text": "So, this is basically we can say whenever you wanted to implement auto dark and light",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 46,
+      "start": 206.8,
+      "end": 211.1,
+      "duration": 4.3,
+      "startTimestamp": "00:03:26.800",
+      "endTimestamp": "00:03:31.100",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0047",
+    "text": "mode feature you can use it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 47,
+      "start": 211.12,
+      "end": 213.44,
+      "duration": 2.32,
+      "startTimestamp": "00:03:31.120",
+      "endTimestamp": "00:03:33.440",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0048",
+    "text": "Brightness aware UI changes then you can also use it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 48,
+      "start": 213.7,
+      "end": 218.28,
+      "duration": 4.58,
+      "startTimestamp": "00:03:33.700",
+      "endTimestamp": "00:03:38.280",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0049",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 49,
+      "start": 218.46,
+      "end": 218.72,
+      "duration": 0.26,
+      "startTimestamp": "00:03:38.460",
+      "endTimestamp": "00:03:38.720",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0050",
+    "text": "So, let me just simply copy this entire component and paste it and try to explain you that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 50,
+      "start": 218.92000000000002,
+      "end": 224.12,
+      "duration": 5.2,
+      "startTimestamp": "00:03:38.920",
+      "endTimestamp": "00:03:44.120",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0051",
+    "text": "Cool, so right now you will see that we have a light sensor importing from expo sensor,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 51,
+      "start": 224.4,
+      "end": 230.12,
+      "duration": 5.72,
+      "startTimestamp": "00:03:44.400",
+      "endTimestamp": "00:03:50.120",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0052",
+    "text": "then same thing, then this is something the measurement unit of it and you will see that",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 52,
+      "start": 231.099,
+      "end": 236.78,
+      "duration": 5.681,
+      "startTimestamp": "00:03:51.099",
+      "endTimestamp": "00:03:56.780",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0053",
+    "text": "this light sensor return as a illuminance and we are just setting the value for it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 53,
+      "start": 236.86,
+      "end": 242.959,
+      "duration": 6.099,
+      "startTimestamp": "00:03:56.860",
+      "endTimestamp": "00:04:02.959",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0054",
+    "text": "Cool, and then if lux is greater than 1000 we will show here bright.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 54,
+      "start": 243.359,
+      "end": 247.78,
+      "duration": 4.421,
+      "startTimestamp": "00:04:03.359",
+      "endTimestamp": "00:04:07.780",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0055",
+    "text": "is greater than 300, we will show normal, otherwise dim.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 55,
+      "start": 248.739,
+      "end": 253.4,
+      "duration": 4.661,
+      "startTimestamp": "00:04:08.739",
+      "endTimestamp": "00:04:13.400",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0056",
+    "text": "And if I try to apply my another phones light here, you will see right now the value is",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 56,
+      "start": 254.16,
+      "end": 260.1,
+      "duration": 5.94,
+      "startTimestamp": "00:04:14.160",
+      "endTimestamp": "00:04:20.100",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0057",
+    "text": "coming as 42, 43 around.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 57,
+      "start": 260.24,
+      "end": 262.079,
+      "duration": 1.839,
+      "startTimestamp": "00:04:20.240",
+      "endTimestamp": "00:04:22.079",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0058",
+    "text": "And if I just put my phone's light here, you will see they're increasing like anything.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 58,
+      "start": 262.58,
+      "end": 266.72,
+      "duration": 4.14,
+      "startTimestamp": "00:04:22.580",
+      "endTimestamp": "00:04:26.720",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0059",
+    "text": "Like you will see we have 300, 400.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 59,
+      "start": 266.96,
+      "end": 269.82,
+      "duration": 2.86,
+      "startTimestamp": "00:04:26.960",
+      "endTimestamp": "00:04:29.820",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0060",
+    "text": "And if I add all, if I on all the lights off my room, you will see something crazy like",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 60,
+      "start": 269.94,
+      "end": 275,
+      "duration": 5.06,
+      "startTimestamp": "00:04:29.940",
+      "endTimestamp": "00:04:35.000",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0061",
+    "text": "this will definitely go towards.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 61,
+      "start": 275.001,
+      "end": 276.84000000000003,
+      "duration": 1.839,
+      "startTimestamp": "00:04:35.001",
+      "endTimestamp": "00:04:36.840",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0062",
+    "text": "1000 perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 62,
+      "start": 278.44,
+      "end": 279.4,
+      "duration": 0.96,
+      "startTimestamp": "00:04:38.440",
+      "endTimestamp": "00:04:39.400",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0063",
+    "text": "So this is how you will basically measure this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 63,
+      "start": 279.5,
+      "end": 281.48,
+      "duration": 1.98,
+      "startTimestamp": "00:04:39.500",
+      "endTimestamp": "00:04:41.480",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0064",
+    "text": "I mean look at that perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 64,
+      "start": 281.56,
+      "end": 284.28,
+      "duration": 2.72,
+      "startTimestamp": "00:04:41.560",
+      "endTimestamp": "00:04:44.280",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0065",
+    "text": "If I how closely I am coming my phone's light and you will see this cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 65,
+      "start": 284.38,
+      "end": 292.08,
+      "duration": 7.7,
+      "startTimestamp": "00:04:44.380",
+      "endTimestamp": "00:04:52.080",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0066",
+    "text": "So this is how you will basically measure it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 66,
+      "start": 292.26,
+      "end": 295.32,
+      "duration": 3.06,
+      "startTimestamp": "00:04:52.260",
+      "endTimestamp": "00:04:55.320",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0067",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 67,
+      "start": 296.08,
+      "end": 296.64,
+      "duration": 0.56,
+      "startTimestamp": "00:04:56.080",
+      "endTimestamp": "00:04:56.640",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0068",
+    "text": "So for understanding bit more, let me just try to copy and paste another example here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 68,
+      "start": 297.74,
+      "end": 302.96,
+      "duration": 5.22,
+      "startTimestamp": "00:04:57.740",
+      "endTimestamp": "00:05:02.960",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0069",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 69,
+      "start": 303.24,
+      "end": 303.5,
+      "duration": 0.26,
+      "startTimestamp": "00:05:03.240",
+      "endTimestamp": "00:05:03.500",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0070",
+    "text": "Nothing.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 70,
+      "start": 303.76,
+      "end": 304.02,
+      "duration": 0.26,
+      "startTimestamp": "00:05:03.760",
+      "endTimestamp": "00:05:04.020",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0071",
+    "text": "We only have a container and on the basis of light we are showing another emojis.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 71,
+      "start": 304.08,
+      "end": 309.86,
+      "duration": 5.78,
+      "startTimestamp": "00:05:04.080",
+      "endTimestamp": "00:05:09.860",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0072",
+    "text": "Then we have mood and lux property.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 72,
+      "start": 310.04,
+      "end": 312.38,
+      "duration": 2.34,
+      "startTimestamp": "00:05:10.040",
+      "endTimestamp": "00:05:12.380",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0073",
+    "text": "Perfect and if you see right now the light is bit dim.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 73,
+      "start": 312.6,
+      "end": 316.48,
+      "duration": 3.88,
+      "startTimestamp": "00:05:12.600",
+      "endTimestamp": "00:05:16.480",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0074",
+    "text": "Perfect same thing nothing changed.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 74,
+      "start": 316.88,
+      "end": 318.48,
+      "duration": 1.6,
+      "startTimestamp": "00:05:16.880",
+      "endTimestamp": "00:05:18.480",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0075",
+    "text": "Basically we are just changing like the mood is dim then emoji will show here and background color will something like this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 75,
+      "start": 319.46,
+      "end": 326.7,
+      "duration": 7.24,
+      "startTimestamp": "00:05:19.460",
+      "endTimestamp": "00:05:26.700",
+      "estimatedTokens": 29
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0076",
+    "text": "Cool and if I just try to put some light here you will see.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 76,
+      "start": 327.24,
+      "end": 331.42,
+      "duration": 4.18,
+      "startTimestamp": "00:05:27.240",
+      "endTimestamp": "00:05:31.420",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0077",
+    "text": "the value will change look at that now it's coming as normal and if I increase my phones",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 77,
+      "start": 331.6,
+      "end": 337.3,
+      "duration": 5.7,
+      "startTimestamp": "00:05:31.600",
+      "endTimestamp": "00:05:37.300",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0078",
+    "text": "and my entire home slide then and if I go in sunlight you will see this will become",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 78,
+      "start": 337.8,
+      "end": 342.86,
+      "duration": 5.06,
+      "startTimestamp": "00:05:37.800",
+      "endTimestamp": "00:05:42.860",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0079",
+    "text": "bright and the background color will change according to that so that is why we basically",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 79,
+      "start": 342.861,
+      "end": 349.42,
+      "duration": 6.559,
+      "startTimestamp": "00:05:42.861",
+      "endTimestamp": "00:05:49.420",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0080",
+    "text": "need this sensor and on the basis of this sensor you can do magic sort of it cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 80,
+      "start": 350.54,
+      "end": 356.12,
+      "duration": 5.58,
+      "startTimestamp": "00:05:50.540",
+      "endTimestamp": "00:05:56.120",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0081",
+    "text": "Perfect, so this is how you can basically use your light sensors and these are just",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 81,
+      "start": 356.5,
+      "end": 362.64,
+      "duration": 6.14,
+      "startTimestamp": "00:05:56.500",
+      "endTimestamp": "00:06:02.640",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0082",
+    "text": "basic if-else and basic UI simulation nothing as rocket science as going on here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 82,
+      "start": 362.74,
+      "end": 367.82,
+      "duration": 5.08,
+      "startTimestamp": "00:06:02.740",
+      "endTimestamp": "00:06:07.820",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_0083",
+    "text": "So yeah this is pretty much it for this chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "fileName": "4. Light Sensors & Ambient Illumination_epm.vtt",
+      "captionIndex": 83,
+      "start": 368.46,
+      "end": 372.64,
+      "duration": 4.18,
+      "startTimestamp": "00:06:08.460",
+      "endTimestamp": "00:06:12.640",
+      "estimatedTokens": 20
+    }
+  }
+]

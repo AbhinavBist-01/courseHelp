@@ -1,0 +1,2795 @@
+[
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0001",
+    "text": "Alright everyone and welcome to one more new chapter.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 1,
+      "start": 0,
+      "end": 3.64,
+      "duration": 3.64,
+      "startTimestamp": "00:00:00.000",
+      "endTimestamp": "00:00:03.640",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0002",
+    "text": "In this chapter we are going to talk about our last X-Pos sensor that is a pedometer.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 2,
+      "start": 3.86,
+      "end": 9.5,
+      "duration": 5.64,
+      "startTimestamp": "00:00:03.860",
+      "endTimestamp": "00:00:09.500",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0003",
+    "text": "So what is this pedometer actually is?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 3,
+      "start": 9.74,
+      "end": 12.12,
+      "duration": 2.38,
+      "startTimestamp": "00:00:09.740",
+      "endTimestamp": "00:00:12.120",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0004",
+    "text": "So this is something that you are using on daily basis.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 4,
+      "start": 12.6,
+      "end": 15.78,
+      "duration": 3.18,
+      "startTimestamp": "00:00:12.600",
+      "endTimestamp": "00:00:15.780",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0005",
+    "text": "And that is we can say this will track your steps.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 5,
+      "start": 16,
+      "end": 20.06,
+      "duration": 4.06,
+      "startTimestamp": "00:00:16.000",
+      "endTimestamp": "00:00:20.060",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0006",
+    "text": "Yes, this is basically used to track your number of steps like you walked 10,000 step,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 6,
+      "start": 20.619,
+      "end": 26.52,
+      "duration": 5.901,
+      "startTimestamp": "00:00:20.619",
+      "endTimestamp": "00:00:26.520",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0007",
+    "text": "20,000 steps whatever is that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 7,
+      "start": 26.86,
+      "end": 28.76,
+      "duration": 1.9,
+      "startTimestamp": "00:00:26.860",
+      "endTimestamp": "00:00:28.760",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0008",
+    "text": "So this is basically used to track your track steps.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 8,
+      "start": 29.05,
+      "end": 34.78,
+      "duration": 5.73,
+      "startTimestamp": "00:00:29.050",
+      "endTimestamp": "00:00:34.780",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0009",
+    "text": "And this is basically used to measure the physical activities like fitness tracker,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 9,
+      "start": 35.3,
+      "end": 41.44,
+      "duration": 6.14,
+      "startTimestamp": "00:00:35.300",
+      "endTimestamp": "00:00:41.440",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0010",
+    "text": "step goal dashboard.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 10,
+      "start": 41.72,
+      "end": 42.68,
+      "duration": 0.96,
+      "startTimestamp": "00:00:41.720",
+      "endTimestamp": "00:00:42.680",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0011",
+    "text": "You can make applications like this very easily.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 11,
+      "start": 43.1,
+      "end": 46.48,
+      "duration": 3.38,
+      "startTimestamp": "00:00:43.100",
+      "endTimestamp": "00:00:46.480",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0012",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 12,
+      "start": 47.3,
+      "end": 47.559,
+      "duration": 0.259,
+      "startTimestamp": "00:00:47.300",
+      "endTimestamp": "00:00:47.559",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0013",
+    "text": "So let's move ahead and start creating this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 13,
+      "start": 47.739,
+      "end": 50.22,
+      "duration": 2.481,
+      "startTimestamp": "00:00:47.739",
+      "endTimestamp": "00:00:50.220",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0014",
+    "text": "So for that, first of all, let me comment this out.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 14,
+      "start": 50.379,
+      "end": 54.34,
+      "duration": 3.961,
+      "startTimestamp": "00:00:50.379",
+      "endTimestamp": "00:00:54.340",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0015",
+    "text": "And, inside this I will name this as stepcounter.tsx, Rn fes and this is going to become your stepcounter.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 15,
+      "start": 54.9,
+      "end": 66.18,
+      "duration": 11.28,
+      "startTimestamp": "00:00:54.900",
+      "endTimestamp": "00:01:06.180",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0016",
+    "text": "Let me import my stepcounter here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 16,
+      "start": 67.44,
+      "end": 71.24,
+      "duration": 3.8,
+      "startTimestamp": "00:01:07.440",
+      "endTimestamp": "00:01:11.240",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0017",
+    "text": "And this is what they are showing to us.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 17,
+      "start": 73.22,
+      "end": 76.24,
+      "duration": 3.02,
+      "startTimestamp": "00:01:13.220",
+      "endTimestamp": "00:01:16.240",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0018",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 18,
+      "start": 76.46000000000001,
+      "end": 76.8,
+      "duration": 0.34,
+      "startTimestamp": "00:01:16.460",
+      "endTimestamp": "00:01:16.800",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0019",
+    "text": "And inside this step counter very easily like first of all let me just have a basic UI design",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 19,
+      "start": 77.56,
+      "end": 86.14,
+      "duration": 8.58,
+      "startTimestamp": "00:01:17.560",
+      "endTimestamp": "00:01:26.140",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0020",
+    "text": "for it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 20,
+      "start": 86.14099999999999,
+      "end": 86.56,
+      "duration": 0.419,
+      "startTimestamp": "00:01:26.141",
+      "endTimestamp": "00:01:26.560",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0021",
+    "text": "So first of all let me grab all my CSS that I have.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 21,
+      "start": 86.82,
+      "end": 90.1,
+      "duration": 3.28,
+      "startTimestamp": "00:01:26.820",
+      "endTimestamp": "00:01:30.100",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0022",
+    "text": "I don't want it to write them line by line.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 22,
+      "start": 90.28,
+      "end": 92.34,
+      "duration": 2.06,
+      "startTimestamp": "00:01:30.280",
+      "endTimestamp": "00:01:32.340",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0023",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 23,
+      "start": 94,
+      "end": 94.6,
+      "duration": 0.6,
+      "startTimestamp": "00:01:34.000",
+      "endTimestamp": "00:01:34.600",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0024",
+    "text": "So I have a basic card, emoji, account, a bar, a fill and a message.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 24,
+      "start": 94.9,
+      "end": 100.03999999999999,
+      "duration": 5.14,
+      "startTimestamp": "00:01:34.900",
+      "endTimestamp": "00:01:40.040",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0025",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 25,
+      "start": 100.92,
+      "end": 101.22,
+      "duration": 0.3,
+      "startTimestamp": "00:01:40.920",
+      "endTimestamp": "00:01:41.220",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0026",
+    "text": "And then let's maintain two state variable.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 26,
+      "start": 102.02000000000001,
+      "end": 105.52000000000001,
+      "duration": 3.5,
+      "startTimestamp": "00:01:42.020",
+      "endTimestamp": "00:01:45.520",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0027",
+    "text": "So the first state variable that we have is steps and second we have set steps.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 27,
+      "start": 107.25,
+      "end": 113.899,
+      "duration": 6.649,
+      "startTimestamp": "00:01:47.250",
+      "endTimestamp": "00:01:53.899",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0028",
+    "text": "And this is equals to use state and let me just initially have the zero value.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 28,
+      "start": 115.119,
+      "end": 120.38,
+      "duration": 5.261,
+      "startTimestamp": "00:01:55.119",
+      "endTimestamp": "00:02:00.380",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0029",
+    "text": "And then let me just simply add here available and maybe this will work on Android or not.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 29,
+      "start": 120.9,
+      "end": 127.46,
+      "duration": 6.56,
+      "startTimestamp": "00:02:00.900",
+      "endTimestamp": "00:02:07.460",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0030",
+    "text": "I'm not 100% sure, but this is working fine on iOS.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 30,
+      "start": 127.58,
+      "end": 131.78,
+      "duration": 4.2,
+      "startTimestamp": "00:02:07.580",
+      "endTimestamp": "00:02:11.780",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0031",
+    "text": "So I will show you the value on iOS.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 31,
+      "start": 132.04,
+      "end": 134.08,
+      "duration": 2.04,
+      "startTimestamp": "00:02:12.040",
+      "endTimestamp": "00:02:14.080",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0032",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 32,
+      "start": 135.16,
+      "end": 135.42,
+      "duration": 0.26,
+      "startTimestamp": "00:02:15.160",
+      "endTimestamp": "00:02:15.420",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0033",
+    "text": "So available is equals to.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 33,
+      "start": 135.54,
+      "end": 138.26,
+      "duration": 2.72,
+      "startTimestamp": "00:02:15.540",
+      "endTimestamp": "00:02:18.260",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0034",
+    "text": "use state and let me just mention this as a true and let's add a threshold of daily",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 34,
+      "start": 139.519,
+      "end": 145.459,
+      "duration": 5.94,
+      "startTimestamp": "00:02:19.519",
+      "endTimestamp": "00:02:25.459",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0035",
+    "text": "goal.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 35,
+      "start": 145.5,
+      "end": 145.66,
+      "duration": 0.16,
+      "startTimestamp": "00:02:25.500",
+      "endTimestamp": "00:02:25.660",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0036",
+    "text": "Let's say your daily goal is 2000 step like this is very less.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 36,
+      "start": 145.819,
+      "end": 149.8,
+      "duration": 3.981,
+      "startTimestamp": "00:02:25.819",
+      "endTimestamp": "00:02:29.800",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0037",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 37,
+      "start": 150.28,
+      "end": 150.48,
+      "duration": 0.2,
+      "startTimestamp": "00:02:30.280",
+      "endTimestamp": "00:02:30.480",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0038",
+    "text": "You at least have to walk a 10,000 steps, but all right, you are starting it out and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 38,
+      "start": 150.78,
+      "end": 155.42000000000002,
+      "duration": 4.64,
+      "startTimestamp": "00:02:30.780",
+      "endTimestamp": "00:02:35.420",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0039",
+    "text": "your daily goal is 2000 steps.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 39,
+      "start": 155.421,
+      "end": 157.68,
+      "duration": 2.259,
+      "startTimestamp": "00:02:35.421",
+      "endTimestamp": "00:02:37.680",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0040",
+    "text": "So how you can measure this?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 40,
+      "start": 158.44,
+      "end": 160.16,
+      "duration": 1.72,
+      "startTimestamp": "00:02:38.440",
+      "endTimestamp": "00:02:40.160",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0041",
+    "text": "So, for that first thing first let me import my padometer sensor and then I can simply",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 41,
+      "start": 160.9,
+      "end": 171.5,
+      "duration": 10.6,
+      "startTimestamp": "00:02:40.900",
+      "endTimestamp": "00:02:51.500",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0042",
+    "text": "say use effect and then let me open it add an empty dependency array.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 42,
+      "start": 171.501,
+      "end": 177.859,
+      "duration": 6.358,
+      "startTimestamp": "00:02:51.501",
+      "endTimestamp": "00:02:57.859",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0043",
+    "text": "Alright, so how you can do like first thing first always while using it you have to check",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 43,
+      "start": 178.84,
+      "end": 184.18,
+      "duration": 5.34,
+      "startTimestamp": "00:02:58.840",
+      "endTimestamp": "00:03:04.180",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0044",
+    "text": "like if is this available then this will return you a promise.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 44,
+      "start": 184.54,
+      "end": 189.26,
+      "duration": 4.72,
+      "startTimestamp": "00:03:04.540",
+      "endTimestamp": "00:03:09.260",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0045",
+    "text": "And this promise inside this we have avail value.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 45,
+      "start": 189.6,
+      "end": 193.94,
+      "duration": 4.34,
+      "startTimestamp": "00:03:09.600",
+      "endTimestamp": "00:03:13.940",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0046",
+    "text": "Alright and then this avail value if we have this sensor available then I will simply show",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 46,
+      "start": 194.62,
+      "end": 202.68,
+      "duration": 8.06,
+      "startTimestamp": "00:03:14.620",
+      "endTimestamp": "00:03:22.680",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0047",
+    "text": "here what I simply show here avail.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 47,
+      "start": 202.681,
+      "end": 204.56,
+      "duration": 1.879,
+      "startTimestamp": "00:03:22.681",
+      "endTimestamp": "00:03:24.560",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0048",
+    "text": "If this sensor is not available then I will simply return it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 48,
+      "start": 205.62,
+      "end": 209.66,
+      "duration": 4.04,
+      "startTimestamp": "00:03:25.620",
+      "endTimestamp": "00:03:29.660",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0049",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 49,
+      "start": 209.8,
+      "end": 209.94,
+      "duration": 0.14,
+      "startTimestamp": "00:03:29.800",
+      "endTimestamp": "00:03:29.940",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0050",
+    "text": "I mean nothing rocket science.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 50,
+      "start": 210.01,
+      "end": 211.34,
+      "duration": 1.33,
+      "startTimestamp": "00:03:30.010",
+      "endTimestamp": "00:03:31.340",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0051",
+    "text": "I will simply say if this is not available then return from here need not to go ahead.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 51,
+      "start": 211.82,
+      "end": 217.96,
+      "duration": 6.14,
+      "startTimestamp": "00:03:31.820",
+      "endTimestamp": "00:03:37.960",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0052",
+    "text": "Alright, and then I will say first of all subscribe this so con sub pedometer and then we have",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 52,
+      "start": 219.9,
+      "end": 227.78,
+      "duration": 7.88,
+      "startTimestamp": "00:03:39.900",
+      "endTimestamp": "00:03:47.780",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0053",
+    "text": "look you can see that we have bunch of method but only method that we need is watch step",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 53,
+      "start": 227.781,
+      "end": 233.18,
+      "duration": 5.399,
+      "startTimestamp": "00:03:47.781",
+      "endTimestamp": "00:03:53.180",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0054",
+    "text": "cant.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 54,
+      "start": 233.18099999999998,
+      "end": 233.599,
+      "duration": 0.418,
+      "startTimestamp": "00:03:53.181",
+      "endTimestamp": "00:03:53.599",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0055",
+    "text": "Alright.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 55,
+      "start": 233.9,
+      "end": 234.239,
+      "duration": 0.339,
+      "startTimestamp": "00:03:53.900",
+      "endTimestamp": "00:03:54.239",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0056",
+    "text": "And you will see that right now I am using watch step count and what is this a callback",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 56,
+      "start": 234.6,
+      "end": 240.7,
+      "duration": 6.1,
+      "startTimestamp": "00:03:54.600",
+      "endTimestamp": "00:04:00.700",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0057",
+    "text": "that invoke when new step count data is available.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 57,
+      "start": 240.82,
+      "end": 243.94,
+      "duration": 3.12,
+      "startTimestamp": "00:04:00.820",
+      "endTimestamp": "00:04:03.940",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0058",
+    "text": "Alright and then inside this we have a simple step.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 58,
+      "start": 244.88,
+      "end": 248.38,
+      "duration": 3.5,
+      "startTimestamp": "00:04:04.880",
+      "endTimestamp": "00:04:08.380",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0059",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 59,
+      "start": 248.78,
+      "end": 249.1,
+      "duration": 0.32,
+      "startTimestamp": "00:04:08.780",
+      "endTimestamp": "00:04:09.100",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0060",
+    "text": "And this step will simply say steps and then we have a simple step here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 60,
+      "start": 250.02,
+      "end": 255.56,
+      "duration": 5.54,
+      "startTimestamp": "00:04:10.020",
+      "endTimestamp": "00:04:15.560",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0061",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 61,
+      "start": 255.72,
+      "end": 255.92,
+      "duration": 0.2,
+      "startTimestamp": "00:04:15.720",
+      "endTimestamp": "00:04:15.920",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0062",
+    "text": "And then what you will do you just unsubscribe to this sub so you can simply say return this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 62,
+      "start": 256.04,
+      "end": 262.54,
+      "duration": 6.5,
+      "startTimestamp": "00:04:16.040",
+      "endTimestamp": "00:04:22.540",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0063",
+    "text": "Alright, then what I will do, why I am getting this, alright my mistake, this is steps, perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 63,
+      "start": 263.6,
+      "end": 270.06,
+      "duration": 6.46,
+      "startTimestamp": "00:04:23.600",
+      "endTimestamp": "00:04:30.060",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0064",
+    "text": "And return here, from return you will see sub dot remove, perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 64,
+      "start": 271.52,
+      "end": 278.12,
+      "duration": 6.6,
+      "startTimestamp": "00:04:31.520",
+      "endTimestamp": "00:04:38.120",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0065",
+    "text": "And let me just simply create here an emoji and a simple progress, just to show that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 65,
+      "start": 278.88,
+      "end": 284.24,
+      "duration": 5.36,
+      "startTimestamp": "00:04:38.880",
+      "endTimestamp": "00:04:44.240",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0066",
+    "text": "here perfect and let me now simply paste the entire UI whatever I wanted to show let me",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 66,
+      "start": 284.8,
+      "end": 291.44,
+      "duration": 6.64,
+      "startTimestamp": "00:04:44.800",
+      "endTimestamp": "00:04:51.440",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0067",
+    "text": "paste it perfect so we have a emoji so emoji will show on the basis of steps if the step",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 67,
+      "start": 291.44100000000003,
+      "end": 298.639,
+      "duration": 7.198,
+      "startTimestamp": "00:04:51.441",
+      "endTimestamp": "00:04:58.639",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0068",
+    "text": "is greater than our daily goal then it will show us a trophy otherwise it will show us",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 68,
+      "start": 298.78,
+      "end": 303.52,
+      "duration": 4.74,
+      "startTimestamp": "00:04:58.780",
+      "endTimestamp": "00:05:03.520",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0069",
+    "text": "this and otherwise this cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 69,
+      "start": 303.62,
+      "end": 305.379,
+      "duration": 1.759,
+      "startTimestamp": "00:05:03.620",
+      "endTimestamp": "00:05:05.379",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0070",
+    "text": "Now, if I save it, you will see right now, I have only walked zero steps.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 70,
+      "start": 306.66,
+      "end": 313.38,
+      "duration": 6.72,
+      "startTimestamp": "00:05:06.660",
+      "endTimestamp": "00:05:13.380",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0071",
+    "text": "Like let me just open that inside my iPhone, then let me just walk few steps and then I",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 71,
+      "start": 313.62,
+      "end": 321.36,
+      "duration": 7.74,
+      "startTimestamp": "00:05:13.620",
+      "endTimestamp": "00:05:21.360",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0072",
+    "text": "will show you how we are basically tracking that out.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 72,
+      "start": 321.361,
+      "end": 325.02,
+      "duration": 3.659,
+      "startTimestamp": "00:05:21.361",
+      "endTimestamp": "00:05:25.020",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0073",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 73,
+      "start": 325.08,
+      "end": 325.3,
+      "duration": 0.22,
+      "startTimestamp": "00:05:25.080",
+      "endTimestamp": "00:05:25.300",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0074",
+    "text": "And you will see what is happening.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 74,
+      "start": 325.7,
+      "end": 328.18,
+      "duration": 2.48,
+      "startTimestamp": "00:05:25.700",
+      "endTimestamp": "00:05:28.180",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0075",
+    "text": "I don't know.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 75,
+      "start": 328.181,
+      "end": 328.6,
+      "duration": 0.419,
+      "startTimestamp": "00:05:28.181",
+      "endTimestamp": "00:05:28.600",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0076",
+    "text": "Let me reload it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 76,
+      "start": 328.639,
+      "end": 330.1,
+      "duration": 1.461,
+      "startTimestamp": "00:05:28.639",
+      "endTimestamp": "00:05:30.100",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0077",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 77,
+      "start": 330.34,
+      "end": 330.66,
+      "duration": 0.32,
+      "startTimestamp": "00:05:30.340",
+      "endTimestamp": "00:05:30.660",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0078",
+    "text": "Let me open the same inside my iPhone as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 78,
+      "start": 331.74,
+      "end": 334.34000000000003,
+      "duration": 2.6,
+      "startTimestamp": "00:05:31.740",
+      "endTimestamp": "00:05:34.340",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0079",
+    "text": "So just give me a minute.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 79,
+      "start": 335.36,
+      "end": 336.46,
+      "duration": 1.1,
+      "startTimestamp": "00:05:35.360",
+      "endTimestamp": "00:05:36.460",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0080",
+    "text": "Alright.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 80,
+      "start": 336.96,
+      "end": 337.28,
+      "duration": 0.32,
+      "startTimestamp": "00:05:36.960",
+      "endTimestamp": "00:05:37.280",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0081",
+    "text": "And then I'll showing you that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 81,
+      "start": 337.639,
+      "end": 339,
+      "duration": 1.361,
+      "startTimestamp": "00:05:37.639",
+      "endTimestamp": "00:05:39.000",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0082",
+    "text": "Alright guys, so we have a small mistake here actually and that is my mistake.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 82,
+      "start": 344.58,
+      "end": 349.06,
+      "duration": 4.48,
+      "startTimestamp": "00:05:44.580",
+      "endTimestamp": "00:05:49.060",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0083",
+    "text": "Just let me just reset that first of all.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 83,
+      "start": 349.24,
+      "end": 351.24,
+      "duration": 2,
+      "startTimestamp": "00:05:49.240",
+      "endTimestamp": "00:05:51.240",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0084",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 84,
+      "start": 351.56,
+      "end": 351.84000000000003,
+      "duration": 0.28,
+      "startTimestamp": "00:05:51.560",
+      "endTimestamp": "00:05:51.840",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0085",
+    "text": "So you will see we are immediately just returning this from here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 85,
+      "start": 352.22,
+      "end": 355.48,
+      "duration": 3.26,
+      "startTimestamp": "00:05:52.220",
+      "endTimestamp": "00:05:55.480",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0086",
+    "text": "So that is our mistake.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 86,
+      "start": 355.74,
+      "end": 356.86,
+      "duration": 1.12,
+      "startTimestamp": "00:05:55.740",
+      "endTimestamp": "00:05:56.860",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0087",
+    "text": "What you need to do out of this, yes at this point.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 87,
+      "start": 357.65999999999997,
+      "end": 361.6,
+      "duration": 3.94,
+      "startTimestamp": "00:05:57.660",
+      "endTimestamp": "00:06:01.600",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0088",
+    "text": "So that is my simple typo and a mistake.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 88,
+      "start": 362.18,
+      "end": 365.26,
+      "duration": 3.08,
+      "startTimestamp": "00:06:02.180",
+      "endTimestamp": "00:06:05.260",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0089",
+    "text": "And let me just quickly fix it for you guys.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 89,
+      "start": 365.7,
+      "end": 369.12,
+      "duration": 3.42,
+      "startTimestamp": "00:06:05.700",
+      "endTimestamp": "00:06:09.120",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0090",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 90,
+      "start": 369.36,
+      "end": 369.5,
+      "duration": 0.14,
+      "startTimestamp": "00:06:09.360",
+      "endTimestamp": "00:06:09.500",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0091",
+    "text": "So how I can basically fix it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 91,
+      "start": 370,
+      "end": 372.28,
+      "duration": 2.28,
+      "startTimestamp": "00:06:10.000",
+      "endTimestamp": "00:06:12.280",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0092",
+    "text": "Let me just show you.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 92,
+      "start": 372.74,
+      "end": 373.88,
+      "duration": 1.14,
+      "startTimestamp": "00:06:12.740",
+      "endTimestamp": "00:06:13.880",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0093",
+    "text": "So what we can do instead of this, I can add the top of it, maintain a sub, which is, let's",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 93,
+      "start": 374,
+      "end": 380.96,
+      "duration": 6.96,
+      "startTimestamp": "00:06:14.000",
+      "endTimestamp": "00:06:20.960",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0094",
+    "text": "say for now type of this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 94,
+      "start": 380.961,
+      "end": 383.84,
+      "duration": 2.879,
+      "startTimestamp": "00:06:20.961",
+      "endTimestamp": "00:06:23.840",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0095",
+    "text": "And then here I will say sub is equals to this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 95,
+      "start": 384.52,
+      "end": 388.02,
+      "duration": 3.5,
+      "startTimestamp": "00:06:24.520",
+      "endTimestamp": "00:06:28.020",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0096",
+    "text": "And let me just format this once.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 96,
+      "start": 388.34,
+      "end": 391.02,
+      "duration": 2.68,
+      "startTimestamp": "00:06:28.340",
+      "endTimestamp": "00:06:31.020",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0097",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 97,
+      "start": 391.32,
+      "end": 391.82,
+      "duration": 0.5,
+      "startTimestamp": "00:06:31.320",
+      "endTimestamp": "00:06:31.820",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0098",
+    "text": "And I think right now we are good to go.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 98,
+      "start": 393.24,
+      "end": 396.15999999999997,
+      "duration": 2.92,
+      "startTimestamp": "00:06:33.240",
+      "endTimestamp": "00:06:36.160",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0099",
+    "text": "So, what is happening?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 99,
+      "start": 396.42,
+      "end": 397.34000000000003,
+      "duration": 0.92,
+      "startTimestamp": "00:06:36.420",
+      "endTimestamp": "00:06:37.340",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0100",
+    "text": "Remove is not available to undefined.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 100,
+      "start": 397.6,
+      "end": 402.8,
+      "duration": 5.2,
+      "startTimestamp": "00:06:37.600",
+      "endTimestamp": "00:06:42.800",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0101",
+    "text": "Alright, so we are updating this value.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 101,
+      "start": 403.88,
+      "end": 406.22,
+      "duration": 2.34,
+      "startTimestamp": "00:06:43.880",
+      "endTimestamp": "00:06:46.220",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0102",
+    "text": "So, we are not able to go there.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 102,
+      "start": 406.54,
+      "end": 408.74,
+      "duration": 2.2,
+      "startTimestamp": "00:06:46.540",
+      "endTimestamp": "00:06:48.740",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0103",
+    "text": "Alright, so just give me a minute.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 103,
+      "start": 409.78,
+      "end": 411.65999999999997,
+      "duration": 1.88,
+      "startTimestamp": "00:06:49.780",
+      "endTimestamp": "00:06:51.660",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0104",
+    "text": "Let me just fix it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 104,
+      "start": 412.08,
+      "end": 412.98,
+      "duration": 0.9,
+      "startTimestamp": "00:06:52.080",
+      "endTimestamp": "00:06:52.980",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0105",
+    "text": "Then I'll be right back.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 105,
+      "start": 413.06,
+      "end": 413.96,
+      "duration": 0.9,
+      "startTimestamp": "00:06:53.060",
+      "endTimestamp": "00:06:53.960",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0106",
+    "text": "Alright, so I just made a basic changes here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 106,
+      "start": 414.6,
+      "end": 417.48,
+      "duration": 2.88,
+      "startTimestamp": "00:06:54.600",
+      "endTimestamp": "00:06:57.480",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0107",
+    "text": "First thing first, I have just maintained here a let subscription as any.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 107,
+      "start": 417.78,
+      "end": 421.42,
+      "duration": 3.64,
+      "startTimestamp": "00:06:57.780",
+      "endTimestamp": "00:07:01.420",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0108",
+    "text": "Then I have just opened this pedometer thing.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 108,
+      "start": 422.38,
+      "end": 424.6,
+      "duration": 2.22,
+      "startTimestamp": "00:07:02.380",
+      "endTimestamp": "00:07:04.600",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0109",
+    "text": "If it is available, then set the value.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 109,
+      "start": 424.9,
+      "end": 426.86,
+      "duration": 1.96,
+      "startTimestamp": "00:07:04.900",
+      "endTimestamp": "00:07:06.860",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0110",
+    "text": "Same thing.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 110,
+      "start": 426.96,
+      "end": 427.58,
+      "duration": 0.62,
+      "startTimestamp": "00:07:06.960",
+      "endTimestamp": "00:07:07.580",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0111",
+    "text": "And otherwise, and then we are grabbing all the values inside this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 111,
+      "start": 427.7,
+      "end": 432.58,
+      "duration": 4.88,
+      "startTimestamp": "00:07:07.700",
+      "endTimestamp": "00:07:12.580",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0112",
+    "text": "And if we have a subscription, then simply return it and remove it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 112,
+      "start": 432.98,
+      "end": 437.62,
+      "duration": 4.64,
+      "startTimestamp": "00:07:12.980",
+      "endTimestamp": "00:07:17.620",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0113",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 113,
+      "start": 437.68,
+      "end": 437.82,
+      "duration": 0.14,
+      "startTimestamp": "00:07:17.680",
+      "endTimestamp": "00:07:17.820",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0114",
+    "text": "And if we don't have available, then we are going to show here pedometer not available",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 114,
+      "start": 437.821,
+      "end": 442.46,
+      "duration": 4.639,
+      "startTimestamp": "00:07:17.821",
+      "endTimestamp": "00:07:22.460",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0115",
+    "text": "on this device.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 115,
+      "start": 443.36,
+      "end": 444.26,
+      "duration": 0.9,
+      "startTimestamp": "00:07:23.360",
+      "endTimestamp": "00:07:24.260",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0116",
+    "text": "And let me just hard reload it and then let me try to show you the value.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 116,
+      "start": 444.42,
+      "end": 449.82,
+      "duration": 5.4,
+      "startTimestamp": "00:07:24.420",
+      "endTimestamp": "00:07:29.820",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0117",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 117,
+      "start": 450.38,
+      "end": 450.62,
+      "duration": 0.24,
+      "startTimestamp": "00:07:30.380",
+      "endTimestamp": "00:07:30.620",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0118",
+    "text": "So.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 118,
+      "start": 457.56,
+      "end": 457.68,
+      "duration": 0.12,
+      "startTimestamp": "00:07:37.560",
+      "endTimestamp": "00:07:37.680",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0119",
+    "text": "Alright guys, so I have made bunch of new changes just to simulate you in that on a",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 119,
+      "start": 457.681,
+      "end": 457.701,
+      "duration": 0.02,
+      "startTimestamp": "00:07:37.681",
+      "endTimestamp": "00:07:37.701",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0120",
+    "text": "better way.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 120,
+      "start": 457.702,
+      "end": 457.722,
+      "duration": 0.02,
+      "startTimestamp": "00:07:37.702",
+      "endTimestamp": "00:07:37.722",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0121",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 121,
+      "start": 457.723,
+      "end": 457.86,
+      "duration": 0.137,
+      "startTimestamp": "00:07:37.723",
+      "endTimestamp": "00:07:37.860",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0122",
+    "text": "So, you will see everything is same just made bunch of changes here like available we are",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 122,
+      "start": 458.56,
+      "end": 463.54,
+      "duration": 4.98,
+      "startTimestamp": "00:07:38.560",
+      "endTimestamp": "00:07:43.540",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0123",
+    "text": "checking the availability then on the basis of operating system.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 123,
+      "start": 463.541,
+      "end": 467.8,
+      "duration": 4.259,
+      "startTimestamp": "00:07:43.541",
+      "endTimestamp": "00:07:47.800",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0124",
+    "text": "Like we are getting the starting date like we wanted to get like in whole like 12 hours",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 124,
+      "start": 468.1,
+      "end": 476.15999999999997,
+      "duration": 8.06,
+      "startTimestamp": "00:07:48.100",
+      "endTimestamp": "00:07:56.160",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0125",
+    "text": "like basically from 12 a.m. to right now it's 1 p.m. around so the number of steps you have",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 125,
+      "start": 476.3,
+      "end": 484.24,
+      "duration": 7.94,
+      "startTimestamp": "00:07:56.300",
+      "endTimestamp": "00:08:04.240",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0126",
+    "text": "did so your device keep track of each of them then we are basically getting the past step",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 126,
+      "start": 484.241,
+      "end": 491.2,
+      "duration": 6.959,
+      "startTimestamp": "00:08:04.241",
+      "endTimestamp": "00:08:11.200",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0127",
+    "text": "And we are setting that value and every time when you steps and when you walk newly then",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 127,
+      "start": 491.7,
+      "end": 498.42,
+      "duration": 6.72,
+      "startTimestamp": "00:08:11.700",
+      "endTimestamp": "00:08:18.420",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0128",
+    "text": "you will get a new value.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 128,
+      "start": 498.421,
+      "end": 500.26,
+      "duration": 1.839,
+      "startTimestamp": "00:08:18.421",
+      "endTimestamp": "00:08:20.260",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0129",
+    "text": "Perfect and otherwise like for Android this feature is not supported for now that's why",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 129,
+      "start": 500.7,
+      "end": 509.12,
+      "duration": 8.42,
+      "startTimestamp": "00:08:20.700",
+      "endTimestamp": "00:08:29.120",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0130",
+    "text": "we are just only getting this value.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 130,
+      "start": 509.121,
+      "end": 511.06,
+      "duration": 1.939,
+      "startTimestamp": "00:08:29.121",
+      "endTimestamp": "00:08:31.060",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0131",
+    "text": "Perfect and everything is very very very same.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 131,
+      "start": 511.36,
+      "end": 514.559,
+      "duration": 3.199,
+      "startTimestamp": "00:08:31.360",
+      "endTimestamp": "00:08:34.559",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0132",
+    "text": "So, let me just simply show you the value of my iOS.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 132,
+      "start": 514.799,
+      "end": 521.38,
+      "duration": 6.581,
+      "startTimestamp": "00:08:34.799",
+      "endTimestamp": "00:08:41.380",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0133",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 133,
+      "start": 522.38,
+      "end": 522.7,
+      "duration": 0.32,
+      "startTimestamp": "00:08:42.380",
+      "endTimestamp": "00:08:42.700",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0134",
+    "text": "So, just give me a minute.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 134,
+      "start": 523.3389999999999,
+      "end": 524.179,
+      "duration": 0.84,
+      "startTimestamp": "00:08:43.339",
+      "endTimestamp": "00:08:44.179",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0135",
+    "text": "Let me open my camera and you will see this is the value which is coming.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 135,
+      "start": 524.26,
+      "end": 528.12,
+      "duration": 3.86,
+      "startTimestamp": "00:08:44.260",
+      "endTimestamp": "00:08:48.120",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0136",
+    "text": "And right now I have walked for few steps and let me just update this value and then",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 136,
+      "start": 528.74,
+      "end": 534.58,
+      "duration": 5.84,
+      "startTimestamp": "00:08:48.740",
+      "endTimestamp": "00:08:54.580",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0137",
+    "text": "I will show you once again.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 137,
+      "start": 534.581,
+      "end": 535.64,
+      "duration": 1.059,
+      "startTimestamp": "00:08:54.581",
+      "endTimestamp": "00:08:55.640",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0138",
+    "text": "And yes, now you will see that previously we are only able to show here some other value,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 138,
+      "start": 535.7,
+      "end": 541.36,
+      "duration": 5.66,
+      "startTimestamp": "00:08:55.700",
+      "endTimestamp": "00:09:01.360",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0139",
+    "text": "but right now you will see the value is coming as 438.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 139,
+      "start": 541.4,
+      "end": 545.68,
+      "duration": 4.28,
+      "startTimestamp": "00:09:01.400",
+      "endTimestamp": "00:09:05.680",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0140",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 140,
+      "start": 546.02,
+      "end": 546.36,
+      "duration": 0.34,
+      "startTimestamp": "00:09:06.020",
+      "endTimestamp": "00:09:06.360",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0141",
+    "text": "So this is how basically you can track your steps and build an application around this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 141,
+      "start": 546.54,
+      "end": 553.68,
+      "duration": 7.14,
+      "startTimestamp": "00:09:06.540",
+      "endTimestamp": "00:09:13.680",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0142",
+    "text": "So amazing, amazing job.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 142,
+      "start": 554.2,
+      "end": 556.02,
+      "duration": 1.82,
+      "startTimestamp": "00:09:14.200",
+      "endTimestamp": "00:09:16.020",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0143",
+    "text": "And this is the end of our entire module where we have talked about a lot of",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 143,
+      "start": 556.46,
+      "end": 562.6,
+      "duration": 6.14,
+      "startTimestamp": "00:09:16.460",
+      "endTimestamp": "00:09:22.600",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0144",
+    "text": "We can say sensors which is available inside the expo.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 144,
+      "start": 562.601,
+      "end": 568.88,
+      "duration": 6.279,
+      "startTimestamp": "00:09:22.601",
+      "endTimestamp": "00:09:28.880",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0145",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 145,
+      "start": 569.019,
+      "end": 569.279,
+      "duration": 0.26,
+      "startTimestamp": "00:09:29.019",
+      "endTimestamp": "00:09:29.279",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0146",
+    "text": "I hope you are loving it and if yes then make sure to drop your feedback.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 146,
+      "start": 569.44,
+      "end": 573.9590000000001,
+      "duration": 4.519,
+      "startTimestamp": "00:09:29.440",
+      "endTimestamp": "00:09:33.959",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_0147",
+    "text": "So this is pretty much it and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "fileName": "5. Pedometer & Step Tracking_epm.vtt",
+      "captionIndex": 147,
+      "start": 574.42,
+      "end": 577.079,
+      "duration": 2.659,
+      "startTimestamp": "00:09:34.420",
+      "endTimestamp": "00:09:37.079",
+      "estimatedTokens": 15
+    }
+  }
+]

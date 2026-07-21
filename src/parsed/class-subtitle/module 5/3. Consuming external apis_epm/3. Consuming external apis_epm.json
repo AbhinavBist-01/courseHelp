@@ -1,0 +1,1522 @@
+[
+  {
+    "id": "3. Consuming external apis_epm_0001",
+    "text": "Hello everyone, in this lecture we are going to learn how to talk to external APIs from",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 1,
+      "start": 0.76,
+      "end": 6.56,
+      "duration": 5.8,
+      "startTimestamp": "00:00:00.760",
+      "endTimestamp": "00:00:06.560",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0002",
+    "text": "your expo app.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 2,
+      "start": 6.74,
+      "end": 7.74,
+      "duration": 1,
+      "startTimestamp": "00:00:06.740",
+      "endTimestamp": "00:00:07.740",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0003",
+    "text": "External APIs are services you don't control like we can say public rest services, whether",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 3,
+      "start": 8.9,
+      "end": 16.12,
+      "duration": 7.22,
+      "startTimestamp": "00:00:08.900",
+      "endTimestamp": "00:00:16.120",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0004",
+    "text": "APIs or any backend you did not write.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 4,
+      "start": 16.239,
+      "end": 19.38,
+      "duration": 3.141,
+      "startTimestamp": "00:00:16.239",
+      "endTimestamp": "00:00:19.380",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0005",
+    "text": "So, we will see how to fetch data from those services using fetch and you can even use",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 5,
+      "start": 20.58,
+      "end": 27.66,
+      "duration": 7.08,
+      "startTimestamp": "00:00:20.580",
+      "endTimestamp": "00:00:27.660",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0006",
+    "text": "a library known as Xeos.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 6,
+      "start": 27.86,
+      "end": 29.24,
+      "duration": 1.38,
+      "startTimestamp": "00:00:27.860",
+      "endTimestamp": "00:00:29.240",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0007",
+    "text": "So, it's up to you, but I'm going to be as native as possible.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 7,
+      "start": 29.46,
+      "end": 33.44,
+      "duration": 3.98,
+      "startTimestamp": "00:00:29.460",
+      "endTimestamp": "00:00:33.440",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0008",
+    "text": "So, I wanted to use fetch here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 8,
+      "start": 33.56,
+      "end": 35.16,
+      "duration": 1.6,
+      "startTimestamp": "00:00:33.560",
+      "endTimestamp": "00:00:35.160",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0009",
+    "text": "So, why do we even need to consume external APIs?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 9,
+      "start": 36.46,
+      "end": 39.26,
+      "duration": 2.8,
+      "startTimestamp": "00:00:36.460",
+      "endTimestamp": "00:00:39.260",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0010",
+    "text": "I mean, it's straightforward.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 10,
+      "start": 39.38,
+      "end": 40.34,
+      "duration": 0.96,
+      "startTimestamp": "00:00:39.380",
+      "endTimestamp": "00:00:40.340",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0011",
+    "text": "sometime.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 11,
+      "start": 40.78,
+      "end": 41.38,
+      "duration": 0.6,
+      "startTimestamp": "00:00:40.780",
+      "endTimestamp": "00:00:41.380",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0012",
+    "text": "External APIs are everywhere.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 12,
+      "start": 43.2,
+      "end": 45.66,
+      "duration": 2.46,
+      "startTimestamp": "00:00:43.200",
+      "endTimestamp": "00:00:45.660",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0013",
+    "text": "They powers you lot of features out of the box.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 13,
+      "start": 46.88,
+      "end": 49.52,
+      "duration": 2.64,
+      "startTimestamp": "00:00:46.880",
+      "endTimestamp": "00:00:49.520",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0014",
+    "text": "Like sometimes you wanted to fetch some real data like weather, stock price, mapping, getting",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 14,
+      "start": 49.68,
+      "end": 56.38,
+      "duration": 6.7,
+      "startTimestamp": "00:00:49.680",
+      "endTimestamp": "00:00:56.380",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0015",
+    "text": "information we can say from third parties services.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 15,
+      "start": 56.48,
+      "end": 59.46,
+      "duration": 2.98,
+      "startTimestamp": "00:00:56.480",
+      "endTimestamp": "00:00:59.460",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0016",
+    "text": "Like let's say you wanted to integrate Stripe, Firebase, Superbase, Convex, then you need",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 16,
+      "start": 60.14,
+      "end": 65.48,
+      "duration": 5.34,
+      "startTimestamp": "00:01:00.140",
+      "endTimestamp": "00:01:05.480",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0017",
+    "text": "external API calling.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 17,
+      "start": 65.72,
+      "end": 66.74,
+      "duration": 1.02,
+      "startTimestamp": "00:01:05.720",
+      "endTimestamp": "00:01:06.740",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0018",
+    "text": "So that's why we are doing it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 18,
+      "start": 67.38,
+      "end": 68.56,
+      "duration": 1.18,
+      "startTimestamp": "00:01:07.380",
+      "endTimestamp": "00:01:08.560",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0019",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 19,
+      "start": 69.2,
+      "end": 69.86,
+      "duration": 0.66,
+      "startTimestamp": "00:01:09.200",
+      "endTimestamp": "00:01:09.860",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0020",
+    "text": "So let's move ahead and let me keep it very short and simple.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 20,
+      "start": 70.759,
+      "end": 73.86,
+      "duration": 3.101,
+      "startTimestamp": "00:01:10.759",
+      "endTimestamp": "00:01:13.860",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0021",
+    "text": "Let me create one more new here something known as post.tsx, rn, fes and this is going",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 21,
+      "start": 74.68,
+      "end": 81.439,
+      "duration": 6.759,
+      "startTimestamp": "00:01:14.680",
+      "endTimestamp": "00:01:21.439",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0022",
+    "text": "to be post.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 22,
+      "start": 81.56,
+      "end": 82.14,
+      "duration": 0.58,
+      "startTimestamp": "00:01:21.560",
+      "endTimestamp": "00:01:22.140",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0023",
+    "text": "Perfect and let me take myself towards the post page.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 23,
+      "start": 83.72,
+      "end": 87.5,
+      "duration": 3.78,
+      "startTimestamp": "00:01:23.720",
+      "endTimestamp": "00:01:27.500",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0024",
+    "text": "So below this, let me simply use the link href2.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 24,
+      "start": 87.82,
+      "end": 93.36,
+      "duration": 5.54,
+      "startTimestamp": "00:01:27.820",
+      "endTimestamp": "00:01:33.360",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0025",
+    "text": "Yes, this one and then I can simply say this as post.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 25,
+      "start": 94.1,
+      "end": 98.64,
+      "duration": 4.54,
+      "startTimestamp": "00:01:34.100",
+      "endTimestamp": "00:01:38.640",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0026",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 26,
+      "start": 99.6,
+      "end": 99.68,
+      "duration": 0.08,
+      "startTimestamp": "00:01:39.600",
+      "endTimestamp": "00:01:39.680",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0027",
+    "text": "And if I press on post, I am on to my post page.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 27,
+      "start": 99.78999999999999,
+      "end": 102.28,
+      "duration": 2.49,
+      "startTimestamp": "00:01:39.790",
+      "endTimestamp": "00:01:42.280",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0028",
+    "text": "Now inside this post page, there is a very interesting API name is Jason placeholder.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 28,
+      "start": 102.97,
+      "end": 109.5,
+      "duration": 6.53,
+      "startTimestamp": "00:01:42.970",
+      "endTimestamp": "00:01:49.500",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0029",
+    "text": "Perfect, if I just simply hit the URL as sttps json placeholder.type icode.com/post and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 29,
+      "start": 110,
+      "end": 121.2,
+      "duration": 11.2,
+      "startTimestamp": "00:01:50.000",
+      "endTimestamp": "00:02:01.200",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0030",
+    "text": "you will get bunch of posts.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 30,
+      "start": 121.26,
+      "end": 123.14,
+      "duration": 1.88,
+      "startTimestamp": "00:02:01.260",
+      "endTimestamp": "00:02:03.140",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0031",
+    "text": "Perfect, so on the basis of that you can render them on UI but we'll see how we can do that",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 31,
+      "start": 124.36,
+      "end": 129.58,
+      "duration": 5.22,
+      "startTimestamp": "00:02:04.360",
+      "endTimestamp": "00:02:09.580",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0032",
+    "text": "inside our expo app.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 32,
+      "start": 129.699,
+      "end": 130.82,
+      "duration": 1.121,
+      "startTimestamp": "00:02:09.699",
+      "endTimestamp": "00:02:10.820",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0033",
+    "text": "So, for that, let's say whenever I redirect myself towards this page, I wanted to see",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 33,
+      "start": 131.84,
+      "end": 138.7,
+      "duration": 6.86,
+      "startTimestamp": "00:02:11.840",
+      "endTimestamp": "00:02:18.700",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0034",
+    "text": "that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 34,
+      "start": 138.739,
+      "end": 138.92000000000002,
+      "duration": 0.181,
+      "startTimestamp": "00:02:18.739",
+      "endTimestamp": "00:02:18.920",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0035",
+    "text": "So, I can use use effect and use state simple.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 35,
+      "start": 139.12,
+      "end": 141.44,
+      "duration": 2.32,
+      "startTimestamp": "00:02:19.120",
+      "endTimestamp": "00:02:21.440",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0036",
+    "text": "So, let me simply say here the const posts and then set posts is equals to use state",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 36,
+      "start": 142.29,
+      "end": 149.739,
+      "duration": 7.449,
+      "startTimestamp": "00:02:22.290",
+      "endTimestamp": "00:02:29.739",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0037",
+    "text": "Alright, and then let me just inside this use state let me add here the array like definitely",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 37,
+      "start": 150.4,
+      "end": 158.72,
+      "duration": 8.32,
+      "startTimestamp": "00:02:30.400",
+      "endTimestamp": "00:02:38.720",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0038",
+    "text": "this post can be the array like you can see this array of object and then I can simply",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 38,
+      "start": 159.439,
+      "end": 168.019,
+      "duration": 8.58,
+      "startTimestamp": "00:02:39.439",
+      "endTimestamp": "00:02:48.019",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0039",
+    "text": "use the loading.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 39,
+      "start": 168.14,
+      "end": 169.079,
+      "duration": 0.939,
+      "startTimestamp": "00:02:48.140",
+      "endTimestamp": "00:02:49.079",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0040",
+    "text": "And this is going to be as a set loading, LOADNG loading is equals to a view state and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 40,
+      "start": 169.9,
+      "end": 178.92000000000002,
+      "duration": 9.02,
+      "startTimestamp": "00:02:49.900",
+      "endTimestamp": "00:02:58.920",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0041",
+    "text": "let me initialize as true, easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 41,
+      "start": 179.079,
+      "end": 180.92,
+      "duration": 1.841,
+      "startTimestamp": "00:02:59.079",
+      "endTimestamp": "00:03:00.920",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0042",
+    "text": "And then I can simply use a method.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 42,
+      "start": 181.86,
+      "end": 185.68,
+      "duration": 3.82,
+      "startTimestamp": "00:03:01.860",
+      "endTimestamp": "00:03:05.680",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0043",
+    "text": "Let me name the method as const fetchPosts is equals to async.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 43,
+      "start": 186.84,
+      "end": 192.7,
+      "duration": 5.86,
+      "startTimestamp": "00:03:06.840",
+      "endTimestamp": "00:03:12.700",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0044",
+    "text": "And let me wrap them up wrap them up inside a try and catch finally block.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 44,
+      "start": 194.46,
+      "end": 200.72,
+      "duration": 6.26,
+      "startTimestamp": "00:03:14.460",
+      "endTimestamp": "00:03:20.720",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0045",
+    "text": "It's a good practice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 45,
+      "start": 201.78,
+      "end": 202.56,
+      "duration": 0.78,
+      "startTimestamp": "00:03:21.780",
+      "endTimestamp": "00:03:22.560",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0046",
+    "text": "Then let me set loading as false every time when this request complete or not.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 46,
+      "start": 203.54,
+      "end": 208.68,
+      "duration": 5.14,
+      "startTimestamp": "00:03:23.540",
+      "endTimestamp": "00:03:28.680",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0047",
+    "text": "And by any chance if we have any error so console.error and error is basically going",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 47,
+      "start": 209.84,
+      "end": 216.1,
+      "duration": 6.26,
+      "startTimestamp": "00:03:29.840",
+      "endTimestamp": "00:03:36.100",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0048",
+    "text": "to be something went wrong or we can say error fetching post.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 48,
+      "start": 216.26,
+      "end": 221.02,
+      "duration": 4.76,
+      "startTimestamp": "00:03:36.260",
+      "endTimestamp": "00:03:41.020",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0049",
+    "text": "Alright, so this is going to be error fetching posts and then I can simply say an inside",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 49,
+      "start": 223.24,
+      "end": 231.57999999999998,
+      "duration": 8.34,
+      "startTimestamp": "00:03:43.240",
+      "endTimestamp": "00:03:51.580",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0050",
+    "text": "my try I can simply say cons response is equals to await fetch not fetch post this fetch you",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 50,
+      "start": 231.72,
+      "end": 239.9,
+      "duration": 8.18,
+      "startTimestamp": "00:03:51.720",
+      "endTimestamp": "00:03:59.900",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0051",
+    "text": "can even use a axios here as well and inside this let me use this URL perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 51,
+      "start": 239.901,
+      "end": 246.08,
+      "duration": 6.179,
+      "startTimestamp": "00:03:59.901",
+      "endTimestamp": "00:04:06.080",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0052",
+    "text": "So, I can simply paste this URL and yep, we are good to go.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 52,
+      "start": 246.7,
+      "end": 252.099,
+      "duration": 5.399,
+      "startTimestamp": "00:04:06.700",
+      "endTimestamp": "00:04:12.099",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0053",
+    "text": "Now let me simply say data, this data is equals to await and response dot json.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 53,
+      "start": 252.319,
+      "end": 260.5,
+      "duration": 8.181,
+      "startTimestamp": "00:04:12.319",
+      "endTimestamp": "00:04:20.500",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0054",
+    "text": "And then I can do what I can simply say set posts as data.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 54,
+      "start": 262.12,
+      "end": 267.62,
+      "duration": 5.5,
+      "startTimestamp": "00:04:22.120",
+      "endTimestamp": "00:04:27.620",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0055",
+    "text": "Yep.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 55,
+      "start": 268.54,
+      "end": 268.74,
+      "duration": 0.2,
+      "startTimestamp": "00:04:28.540",
+      "endTimestamp": "00:04:28.740",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0056",
+    "text": "Nice, now but this is not going to work, we definitely need to wrap this up inside a",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 56,
+      "start": 269.5,
+      "end": 275.8,
+      "duration": 6.3,
+      "startTimestamp": "00:04:29.500",
+      "endTimestamp": "00:04:35.800",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0057",
+    "text": "use effect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 57,
+      "start": 275.86,
+      "end": 276.34000000000003,
+      "duration": 0.48,
+      "startTimestamp": "00:04:35.860",
+      "endTimestamp": "00:04:36.340",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0058",
+    "text": "So this use effect is going to be here and inside this I can simply call my fetch posts",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 58,
+      "start": 277.26,
+      "end": 284.68,
+      "duration": 7.42,
+      "startTimestamp": "00:04:37.260",
+      "endTimestamp": "00:04:44.680",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0059",
+    "text": "and I can simply call my fetch posts.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 59,
+      "start": 285.12,
+      "end": 299.36,
+      "duration": 14.24,
+      "startTimestamp": "00:04:45.120",
+      "endTimestamp": "00:04:59.360",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0060",
+    "text": "And then I can add a dependency of empty dependency and if I save it still nothing to show because",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 60,
+      "start": 299.361,
+      "end": 299.381,
+      "duration": 0.02,
+      "startTimestamp": "00:04:59.361",
+      "endTimestamp": "00:04:59.381",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0061",
+    "text": "definitely we haven't added anything.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 61,
+      "start": 299.382,
+      "end": 299.402,
+      "duration": 0.02,
+      "startTimestamp": "00:04:59.382",
+      "endTimestamp": "00:04:59.402",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0062",
+    "text": "Now if we are into loading state, yes, if we are into loading state, then I wanted to",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 62,
+      "start": 299.403,
+      "end": 302.2,
+      "duration": 2.797,
+      "startTimestamp": "00:04:59.403",
+      "endTimestamp": "00:05:02.200",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0063",
+    "text": "return here a component inbuilt component as activity indicator and add a size as large.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 63,
+      "start": 302.26,
+      "end": 310.42,
+      "duration": 8.16,
+      "startTimestamp": "00:05:02.260",
+      "endTimestamp": "00:05:10.420",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0064",
+    "text": "Alright and for the UI I can simply use the flat list and show them.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 64,
+      "start": 312.139,
+      "end": 317.22,
+      "duration": 5.081,
+      "startTimestamp": "00:05:12.139",
+      "endTimestamp": "00:05:17.220",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0065",
+    "text": "So let me paste the UI, let me import my flat list.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 65,
+      "start": 317.63,
+      "end": 321,
+      "duration": 3.37,
+      "startTimestamp": "00:05:17.630",
+      "endTimestamp": "00:05:21.000",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0066",
+    "text": "So now you will see we have a data, a simple key extractor and I wanted to render this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 66,
+      "start": 321.729,
+      "end": 326.86,
+      "duration": 5.131,
+      "startTimestamp": "00:05:21.729",
+      "endTimestamp": "00:05:26.860",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0067",
+    "text": "And now if I save it, look at that, we are rendering all the random posts and all this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 67,
+      "start": 327.2,
+      "end": 333.58,
+      "duration": 6.38,
+      "startTimestamp": "00:05:27.200",
+      "endTimestamp": "00:05:33.580",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0068",
+    "text": "is just simple simulation, I can enhance this as much as I want, but I just don't want",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 68,
+      "start": 333.65999999999997,
+      "end": 338.46,
+      "duration": 4.8,
+      "startTimestamp": "00:05:33.660",
+      "endTimestamp": "00:05:38.460",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0069",
+    "text": "it to get into it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 69,
+      "start": 338.461,
+      "end": 339.38,
+      "duration": 0.919,
+      "startTimestamp": "00:05:38.461",
+      "endTimestamp": "00:05:39.380",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0070",
+    "text": "But yes, like look at that, now if I go to post and if I go to here, you will see we",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 70,
+      "start": 339.9,
+      "end": 345,
+      "duration": 5.1,
+      "startTimestamp": "00:05:39.900",
+      "endTimestamp": "00:05:45.000",
+      "estimatedTokens": 29
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0071",
+    "text": "have rendered all the data which is coming from this external API.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 71,
+      "start": 345.08,
+      "end": 349.4,
+      "duration": 4.32,
+      "startTimestamp": "00:05:45.080",
+      "endTimestamp": "00:05:49.400",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0072",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 72,
+      "start": 350.3,
+      "end": 350.6,
+      "duration": 0.3,
+      "startTimestamp": "00:05:50.300",
+      "endTimestamp": "00:05:50.600",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0073",
+    "text": "So, yes.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 73,
+      "start": 351.02,
+      "end": 352.02,
+      "duration": 1,
+      "startTimestamp": "00:05:51.020",
+      "endTimestamp": "00:05:52.020",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0074",
+    "text": "This is how you can basically use it in same way if you wanted to send data now I am not",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 74,
+      "start": 352.6,
+      "end": 358.6,
+      "duration": 6,
+      "startTimestamp": "00:05:52.600",
+      "endTimestamp": "00:05:58.600",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0075",
+    "text": "going to teach you how to use fetch API you know that very well so yep alright.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 75,
+      "start": 358.65999999999997,
+      "end": 365.14,
+      "duration": 6.48,
+      "startTimestamp": "00:05:58.660",
+      "endTimestamp": "00:06:05.140",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0076",
+    "text": "So this is pretty much it for this shifter we are going to create a very crazy mini project",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 76,
+      "start": 366.48,
+      "end": 371.22,
+      "duration": 4.74,
+      "startTimestamp": "00:06:06.480",
+      "endTimestamp": "00:06:11.220",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0077",
+    "text": "For that mini project, we are going to create a news app like we are going to use the external",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 77,
+      "start": 371.5,
+      "end": 376.58,
+      "duration": 5.08,
+      "startTimestamp": "00:06:11.500",
+      "endTimestamp": "00:06:16.580",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0078",
+    "text": "news API and consume that and show them on to the UI.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 78,
+      "start": 376.86,
+      "end": 382.16,
+      "duration": 5.3,
+      "startTimestamp": "00:06:16.860",
+      "endTimestamp": "00:06:22.160",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0079",
+    "text": "So we will see.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 79,
+      "start": 382.35,
+      "end": 382.86,
+      "duration": 0.51,
+      "startTimestamp": "00:06:22.350",
+      "endTimestamp": "00:06:22.860",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_0080",
+    "text": "So yeah, this is pretty much it for this chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "fileName": "3. Consuming external apis_epm.vtt",
+      "captionIndex": 80,
+      "start": 383.49,
+      "end": 387.46,
+      "duration": 3.97,
+      "startTimestamp": "00:06:23.490",
+      "endTimestamp": "00:06:27.460",
+      "estimatedTokens": 20
+    }
+  }
+]

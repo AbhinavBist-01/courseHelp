@@ -1,0 +1,2890 @@
+[
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0001",
+    "text": "Alright everyone and welcome back in this section which name is intermediate project.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 1,
+      "start": 0.32,
+      "end": 8,
+      "duration": 7.68,
+      "startTimestamp": "00:00:00.320",
+      "endTimestamp": "00:00:08.000",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0002",
+    "text": "So we are not just building small demos, we are actually going to build some real world",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 2,
+      "start": 8.39,
+      "end": 13.42,
+      "duration": 5.03,
+      "startTimestamp": "00:00:08.390",
+      "endTimestamp": "00:00:13.420",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0003",
+    "text": "project like properly in step by step format.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 3,
+      "start": 13.52,
+      "end": 17.78,
+      "duration": 4.26,
+      "startTimestamp": "00:00:13.520",
+      "endTimestamp": "00:00:17.780",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0004",
+    "text": "The same way you do it in actual development workflow.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 4,
+      "start": 18.51,
+      "end": 21.88,
+      "duration": 3.37,
+      "startTimestamp": "00:00:18.510",
+      "endTimestamp": "00:00:21.880",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0005",
+    "text": "And this is the first project in this section with the name of intermediate project in same",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 5,
+      "start": 22.5,
+      "end": 27.92,
+      "duration": 5.42,
+      "startTimestamp": "00:00:22.500",
+      "endTimestamp": "00:00:27.920",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0006",
+    "text": "way we have lot more other projects as well you will definitely love all of them don't",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 6,
+      "start": 28.02,
+      "end": 32.7,
+      "duration": 4.68,
+      "startTimestamp": "00:00:28.020",
+      "endTimestamp": "00:00:32.700",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0007",
+    "text": "worry.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 7,
+      "start": 32.701,
+      "end": 32.9,
+      "duration": 0.199,
+      "startTimestamp": "00:00:32.701",
+      "endTimestamp": "00:00:32.900",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0008",
+    "text": "So what is this chapter is all about because this is the chapter number one.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 8,
+      "start": 33.58,
+      "end": 37.86,
+      "duration": 4.28,
+      "startTimestamp": "00:00:33.580",
+      "endTimestamp": "00:00:37.860",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0009",
+    "text": "So in this chapter we will focus on just two thing.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 9,
+      "start": 38.36,
+      "end": 40.92,
+      "duration": 2.56,
+      "startTimestamp": "00:00:38.360",
+      "endTimestamp": "00:00:40.920",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0010",
+    "text": "First thing is the project initialization.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 10,
+      "start": 41.32,
+      "end": 43.5,
+      "duration": 2.18,
+      "startTimestamp": "00:00:41.320",
+      "endTimestamp": "00:00:43.500",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0011",
+    "text": "and second thing is just to set up your weather API. Got it? So we can say that no UI, no fancy",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 11,
+      "start": 43.501,
+      "end": 50.82,
+      "duration": 7.319,
+      "startTimestamp": "00:00:43.501",
+      "endTimestamp": "00:00:50.820",
+      "estimatedTokens": 29
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0012",
+    "text": "stuff. We'll just start with the clean and step by step we can raise the bar like anything. So",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 12,
+      "start": 51.05,
+      "end": 57.54,
+      "duration": 6.49,
+      "startTimestamp": "00:00:51.050",
+      "endTimestamp": "00:00:57.540",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0013",
+    "text": "alright, let's move ahead and start building this. First step is make sure that you have already",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 13,
+      "start": 58.9,
+      "end": 64.16,
+      "duration": 5.26,
+      "startTimestamp": "00:00:58.900",
+      "endTimestamp": "00:01:04.160",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0014",
+    "text": "initialized one empty folder.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 14,
+      "start": 64.26,
+      "end": 65.74,
+      "duration": 1.48,
+      "startTimestamp": "00:01:04.260",
+      "endTimestamp": "00:01:05.740",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0015",
+    "text": "And after this, what you need to do, you simply need to go inside your documentation and you",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 15,
+      "start": 66.779,
+      "end": 73.24,
+      "duration": 6.461,
+      "startTimestamp": "00:01:06.779",
+      "endTimestamp": "00:01:13.240",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0016",
+    "text": "can search for it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 16,
+      "start": 73.26,
+      "end": 73.96000000000001,
+      "duration": 0.7,
+      "startTimestamp": "00:01:13.260",
+      "endTimestamp": "00:01:13.960",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0017",
+    "text": "But now I exactly remember what is the command, 1x create expo app at the rate latest.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 17,
+      "start": 74.06,
+      "end": 83.82,
+      "duration": 9.76,
+      "startTimestamp": "00:01:14.060",
+      "endTimestamp": "00:01:23.820",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0018",
+    "text": "So this is going to create the latest expo application and then dot slash.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 18,
+      "start": 84.02,
+      "end": 87.96000000000001,
+      "duration": 3.94,
+      "startTimestamp": "00:01:24.020",
+      "endTimestamp": "00:01:27.960",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0019",
+    "text": "And then definitely we can wait for it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 19,
+      "start": 89.7,
+      "end": 92.08,
+      "duration": 2.38,
+      "startTimestamp": "00:01:29.700",
+      "endTimestamp": "00:01:32.080",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0020",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 20,
+      "start": 93.25999999999999,
+      "end": 93.34,
+      "duration": 0.08,
+      "startTimestamp": "00:01:33.260",
+      "endTimestamp": "00:01:33.340",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0021",
+    "text": "And then what is the next step?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 21,
+      "start": 93.5,
+      "end": 94.82,
+      "duration": 1.32,
+      "startTimestamp": "00:01:33.500",
+      "endTimestamp": "00:01:34.820",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0022",
+    "text": "Next step is simple to reset this project.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 22,
+      "start": 94.92,
+      "end": 98.28,
+      "duration": 3.36,
+      "startTimestamp": "00:01:34.920",
+      "endTimestamp": "00:01:38.280",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0023",
+    "text": "So bund run reset project and then simply say no and perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 23,
+      "start": 98.53999999999999,
+      "end": 105.02000000000001,
+      "duration": 6.48,
+      "startTimestamp": "00:01:38.540",
+      "endTimestamp": "00:01:45.020",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0024",
+    "text": "And then I can simply run bundx export start.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 24,
+      "start": 105.28,
+      "end": 109.46000000000001,
+      "duration": 4.18,
+      "startTimestamp": "00:01:45.280",
+      "endTimestamp": "00:01:49.460",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0025",
+    "text": "then I can simply run it. Nice. Let's just wait for few seconds just to start this and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 25,
+      "start": 111,
+      "end": 118.03999999999999,
+      "duration": 7.04,
+      "startTimestamp": "00:01:51.000",
+      "endTimestamp": "00:01:58.040",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0026",
+    "text": "then I can simply press on A the moment I press on A automatically just happened. Okay,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 26,
+      "start": 118.1,
+      "end": 125.46,
+      "duration": 7.36,
+      "startTimestamp": "00:01:58.100",
+      "endTimestamp": "00:02:05.460",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0027",
+    "text": "let me go to home. Let me carry our previous loaded app and then let's again I'm going",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 27,
+      "start": 125.66,
+      "end": 130.62,
+      "duration": 4.96,
+      "startTimestamp": "00:02:05.660",
+      "endTimestamp": "00:02:10.620",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0028",
+    "text": "to press on A and hopefully you should learn at this point.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 28,
+      "start": 130.699,
+      "end": 133.72,
+      "duration": 3.021,
+      "startTimestamp": "00:02:10.699",
+      "endTimestamp": "00:02:13.720",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0029",
+    "text": "time try to reload the project okay what if I close everything go to my expo app close",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 29,
+      "start": 133.721,
+      "end": 142.56,
+      "duration": 8.839,
+      "startTimestamp": "00:02:13.721",
+      "endTimestamp": "00:02:22.560",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0030",
+    "text": "my current running application alright I can close this once again and let me open it perfect",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 30,
+      "start": 142.66,
+      "end": 149.7,
+      "duration": 7.04,
+      "startTimestamp": "00:02:22.660",
+      "endTimestamp": "00:02:29.700",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0031",
+    "text": "and just wait for it alright so now we got this and what I can do actually let me try",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 31,
+      "start": 149.959,
+      "end": 155.07999999999998,
+      "duration": 5.121,
+      "startTimestamp": "00:02:29.959",
+      "endTimestamp": "00:02:35.080",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0032",
+    "text": "to scan this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 32,
+      "start": 155.28,
+      "end": 163.48,
+      "duration": 8.2,
+      "startTimestamp": "00:02:35.280",
+      "endTimestamp": "00:02:43.480",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0033",
+    "text": "with my camera and hopefully at this time this will work perfect so I have just okay",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 33,
+      "start": 163.481,
+      "end": 164.32,
+      "duration": 0.839,
+      "startTimestamp": "00:02:43.481",
+      "endTimestamp": "00:02:44.320",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0034",
+    "text": "is my internet is connected yes internet is connected then what is happening I don't know",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 34,
+      "start": 164.7,
+      "end": 171.64,
+      "duration": 6.94,
+      "startTimestamp": "00:02:44.700",
+      "endTimestamp": "00:02:51.640",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0035",
+    "text": "what if I press reload if I press on A1",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 35,
+      "start": 172.38,
+      "end": 185.98,
+      "duration": 13.6,
+      "startTimestamp": "00:02:52.380",
+      "endTimestamp": "00:03:05.980",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0036",
+    "text": "again. Alright guys so after just reconnecting my physical device this is working perfectly",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 36,
+      "start": 185.981,
+      "end": 186.001,
+      "duration": 0.02,
+      "startTimestamp": "00:03:05.981",
+      "endTimestamp": "00:03:06.001",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0037",
+    "text": "fine. It's fine. Nice. So right now you can see that we have successfully initialized our",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 37,
+      "start": 186.002,
+      "end": 189.14,
+      "duration": 3.138,
+      "startTimestamp": "00:03:06.002",
+      "endTimestamp": "00:03:09.140",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0038",
+    "text": "project. What is the second step? Second step is to set up the weather API. For using the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 38,
+      "start": 189.239,
+      "end": 196.579,
+      "duration": 7.34,
+      "startTimestamp": "00:03:09.239",
+      "endTimestamp": "00:03:16.579",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0039",
+    "text": "weather API. We are going to use something known as Open",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 39,
+      "start": 196.57999999999998,
+      "end": 200.859,
+      "duration": 4.279,
+      "startTimestamp": "00:03:16.580",
+      "endTimestamp": "00:03:20.859",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0040",
+    "text": "weather map. Perfect. So you can definitely search for that open weather map API. And",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 40,
+      "start": 200.9,
+      "end": 209.28,
+      "duration": 8.38,
+      "startTimestamp": "00:03:20.900",
+      "endTimestamp": "00:03:29.280",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0041",
+    "text": "after searching for this, you can simply open this one. And after opening this, you can",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 41,
+      "start": 209.36,
+      "end": 215.5,
+      "duration": 6.14,
+      "startTimestamp": "00:03:29.360",
+      "endTimestamp": "00:03:35.500",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0042",
+    "text": "simply accept it. And definitely if you wanted to log in, you can. So just give me a minute.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 42,
+      "start": 215.56,
+      "end": 222.019,
+      "duration": 6.459,
+      "startTimestamp": "00:03:35.560",
+      "endTimestamp": "00:03:42.019",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0043",
+    "text": "Let me log in.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 43,
+      "start": 222.26,
+      "end": 223.2,
+      "duration": 0.94,
+      "startTimestamp": "00:03:42.260",
+      "endTimestamp": "00:03:43.200",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0044",
+    "text": "Alright, so you can see that now I am successfully sign it and then what you need to do simply",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 44,
+      "start": 224.299,
+      "end": 229.54,
+      "duration": 5.241,
+      "startTimestamp": "00:03:44.299",
+      "endTimestamp": "00:03:49.540",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0045",
+    "text": "press on API keys and after pressing on API key you can definitely give it a name like",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 45,
+      "start": 229.62,
+      "end": 235.54,
+      "duration": 5.92,
+      "startTimestamp": "00:03:49.620",
+      "endTimestamp": "00:03:55.540",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0046",
+    "text": "you can see that I already have one generated so I can simply gonna copy this otherwise",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 46,
+      "start": 235.62,
+      "end": 240.159,
+      "duration": 4.539,
+      "startTimestamp": "00:03:55.620",
+      "endTimestamp": "00:04:00.159",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0047",
+    "text": "you can coming to here and you can again say whether app 2 or not.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 47,
+      "start": 240.379,
+      "end": 244.68,
+      "duration": 4.301,
+      "startTimestamp": "00:04:00.379",
+      "endTimestamp": "00:04:04.680",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0048",
+    "text": "or whatever you wanted to give the name to your application and then simply press on generate",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 48,
+      "start": 244.681,
+      "end": 248.46,
+      "duration": 3.779,
+      "startTimestamp": "00:04:04.681",
+      "endTimestamp": "00:04:08.460",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0049",
+    "text": "the moment you press on generate you will get this API key so make sure to keep this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 49,
+      "start": 249.27,
+      "end": 254.02,
+      "duration": 4.75,
+      "startTimestamp": "00:04:09.270",
+      "endTimestamp": "00:04:14.020",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0050",
+    "text": "API key to you got it nice and after this let me tell you one nice practice at the top",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 50,
+      "start": 254.14,
+      "end": 264.24,
+      "duration": 10.1,
+      "startTimestamp": "00:04:14.140",
+      "endTimestamp": "00:04:24.240",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0051",
+    "text": "of it create one source folder.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 51,
+      "start": 264.36,
+      "end": 266.02,
+      "duration": 1.66,
+      "startTimestamp": "00:04:24.360",
+      "endTimestamp": "00:04:26.020",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0052",
+    "text": "nice and inside this source folder create one utils folder and into this utils folder",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 52,
+      "start": 266.5,
+      "end": 277.12,
+      "duration": 10.62,
+      "startTimestamp": "00:04:26.500",
+      "endTimestamp": "00:04:37.120",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0053",
+    "text": "right now only just create one thing simply say whether utils dot ts and first thing for",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 53,
+      "start": 277.58,
+      "end": 285.54,
+      "duration": 7.96,
+      "startTimestamp": "00:04:37.580",
+      "endTimestamp": "00:04:45.540",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0054",
+    "text": "now you can simply say.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 54,
+      "start": 285.68,
+      "end": 287.44,
+      "duration": 1.76,
+      "startTimestamp": "00:04:45.680",
+      "endTimestamp": "00:04:47.440",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0055",
+    "text": "weather underscore api underscore api underscore key let me off my AI first and then for now",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 55,
+      "start": 289,
+      "end": 299.94,
+      "duration": 10.94,
+      "startTimestamp": "00:04:49.000",
+      "endTimestamp": "00:04:59.940",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0056",
+    "text": "okay definitely we will want to add all of them into the expo environment variables but",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 56,
+      "start": 300.1,
+      "end": 307.2,
+      "duration": 7.1,
+      "startTimestamp": "00:05:00.100",
+      "endTimestamp": "00:05:07.200",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0057",
+    "text": "for now first of all let me off my AI nice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 57,
+      "start": 307.26,
+      "end": 310.9,
+      "duration": 3.64,
+      "startTimestamp": "00:05:07.260",
+      "endTimestamp": "00:05:10.900",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0058",
+    "text": "And second thing just simply add let me tell you what simply add the base URL.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 58,
+      "start": 311.5,
+      "end": 317.7,
+      "duration": 6.2,
+      "startTimestamp": "00:05:11.500",
+      "endTimestamp": "00:05:17.700",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0059",
+    "text": "So this is the base URL of your weather API which is htps/api.openweathermap.org/data/2.5",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 59,
+      "start": 318.42,
+      "end": 331.06,
+      "duration": 12.64,
+      "startTimestamp": "00:05:18.420",
+      "endTimestamp": "00:05:31.060",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0060",
+    "text": "for now just add like this nice perfect and then you can simply save it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 60,
+      "start": 331.3,
+      "end": 338.039,
+      "duration": 6.739,
+      "startTimestamp": "00:05:31.300",
+      "endTimestamp": "00:05:38.039",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0061",
+    "text": "So now you can see that we already have the weather API.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 61,
+      "start": 338.5,
+      "end": 344.22,
+      "duration": 5.72,
+      "startTimestamp": "00:05:38.500",
+      "endTimestamp": "00:05:44.220",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0062",
+    "text": "What is the next step?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 62,
+      "start": 344.919,
+      "end": 345.78,
+      "duration": 0.861,
+      "startTimestamp": "00:05:44.919",
+      "endTimestamp": "00:05:45.780",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0063",
+    "text": "Let's add two endpoints.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 63,
+      "start": 346.46,
+      "end": 348.08,
+      "duration": 1.62,
+      "startTimestamp": "00:05:46.460",
+      "endTimestamp": "00:05:48.080",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0064",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 64,
+      "start": 348.819,
+      "end": 348.919,
+      "duration": 0.1,
+      "startTimestamp": "00:05:48.819",
+      "endTimestamp": "00:05:48.919",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0065",
+    "text": "We can say that even the weather API.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 65,
+      "start": 349.06,
+      "end": 351.74,
+      "duration": 2.68,
+      "startTimestamp": "00:05:49.060",
+      "endTimestamp": "00:05:51.740",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0066",
+    "text": "API. So, for that let me create one simple API folder. Definitely we are not using here",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 66,
+      "start": 351.741,
+      "end": 359.2,
+      "duration": 7.459,
+      "startTimestamp": "00:05:51.741",
+      "endTimestamp": "00:05:59.200",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0067",
+    "text": "the expo API routes. We are just creating one convention and you can simply say weather",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 67,
+      "start": 359.201,
+      "end": 365.7,
+      "duration": 6.499,
+      "startTimestamp": "00:05:59.201",
+      "endTimestamp": "00:06:05.700",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0068",
+    "text": "API dot ts is the nice. And after this what you can do you can simply install",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 68,
+      "start": 365.86,
+      "end": 381.18,
+      "duration": 15.32,
+      "startTimestamp": "00:06:05.860",
+      "endTimestamp": "00:06:21.180",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0069",
+    "text": "one very interesting package and the name of it burn add exios all right you need to",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 69,
+      "start": 381.181,
+      "end": 381.201,
+      "duration": 0.02,
+      "startTimestamp": "00:06:21.181",
+      "endTimestamp": "00:06:21.201",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0070",
+    "text": "add the exios package perfect let's just wait for a few seconds ok so now you can see that",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 70,
+      "start": 381.4,
+      "end": 389.44,
+      "duration": 8.04,
+      "startTimestamp": "00:06:21.400",
+      "endTimestamp": "00:06:29.440",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0071",
+    "text": "in 8 second we have successfully installed it nice now",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 71,
+      "start": 389.66,
+      "end": 393.64,
+      "duration": 3.98,
+      "startTimestamp": "00:06:29.660",
+      "endTimestamp": "00:06:33.640",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0072",
+    "text": "But next, next is we simply wanted to initialize a simple two methods.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 72,
+      "start": 395.2,
+      "end": 402.9,
+      "duration": 7.7,
+      "startTimestamp": "00:06:35.200",
+      "endTimestamp": "00:06:42.900",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0073",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 73,
+      "start": 403.3,
+      "end": 403.58,
+      "duration": 0.28,
+      "startTimestamp": "00:06:43.300",
+      "endTimestamp": "00:06:43.580",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0074",
+    "text": "So the first method is first method is basically a fetch weather by coordinates.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 74,
+      "start": 403.7,
+      "end": 410.22,
+      "duration": 6.52,
+      "startTimestamp": "00:06:43.700",
+      "endTimestamp": "00:06:50.220",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0075",
+    "text": "So we are actually getting the user's latitude and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 75,
+      "start": 410.4,
+      "end": 425.18,
+      "duration": 14.78,
+      "startTimestamp": "00:06:50.400",
+      "endTimestamp": "00:07:05.180",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0076",
+    "text": "definitely we are going to request the location with the help of expo location and on the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 76,
+      "start": 425.181,
+      "end": 425.201,
+      "duration": 0.02,
+      "startTimestamp": "00:07:05.181",
+      "endTimestamp": "00:07:05.201",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0077",
+    "text": "basis of that we are going to get the weather by the coordinates.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 77,
+      "start": 425.202,
+      "end": 426.48,
+      "duration": 1.278,
+      "startTimestamp": "00:07:05.202",
+      "endTimestamp": "00:07:06.480",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0078",
+    "text": "So first thing is I can simply say import a xios from xios nice and what I am going",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 78,
+      "start": 427.39,
+      "end": 444.68,
+      "duration": 17.29,
+      "startTimestamp": "00:07:07.390",
+      "endTimestamp": "00:07:24.680",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0079",
+    "text": "What next?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 79,
+      "start": 444.681,
+      "end": 444.701,
+      "duration": 0.02,
+      "startTimestamp": "00:07:24.681",
+      "endTimestamp": "00:07:24.701",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0080",
+    "text": "Next is I wanted to get two things.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 80,
+      "start": 444.702,
+      "end": 444.722,
+      "duration": 0.02,
+      "startTimestamp": "00:07:24.702",
+      "endTimestamp": "00:07:24.722",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0081",
+    "text": "First is the base underscore URL and second is the weather API key.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 81,
+      "start": 444.723,
+      "end": 448.6,
+      "duration": 3.877,
+      "startTimestamp": "00:07:24.723",
+      "endTimestamp": "00:07:28.600",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0082",
+    "text": "Nice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 82,
+      "start": 449.52,
+      "end": 450,
+      "duration": 0.48,
+      "startTimestamp": "00:07:29.520",
+      "endTimestamp": "00:07:30.000",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0083",
+    "text": "And let's simply create one function name as export const fetch weather by const.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 83,
+      "start": 450.09,
+      "end": 458.68,
+      "duration": 8.59,
+      "startTimestamp": "00:07:30.090",
+      "endTimestamp": "00:07:38.680",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0084",
+    "text": "and this is simply equal to a sync and then I can say latitude which can be of number yes it is",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 84,
+      "start": 459.7,
+      "end": 466.62,
+      "duration": 6.92,
+      "startTimestamp": "00:07:39.700",
+      "endTimestamp": "00:07:46.620",
+      "estimatedTokens": 29
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0085",
+    "text": "number and then longitude and this is also of number and then what I will do I will try",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 85,
+      "start": 466.68,
+      "end": 475,
+      "duration": 8.32,
+      "startTimestamp": "00:07:46.680",
+      "endTimestamp": "00:07:55.000",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0086",
+    "text": "to get the weather the forecast and the air pollution three simultaneous API call using",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 86,
+      "start": 476.58,
+      "end": 482.44,
+      "duration": 5.86,
+      "startTimestamp": "00:07:56.580",
+      "endTimestamp": "00:08:02.440",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0087",
+    "text": "simple.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 87,
+      "start": 482.441,
+      "end": 484.16,
+      "duration": 1.719,
+      "startTimestamp": "00:08:02.441",
+      "endTimestamp": "00:08:04.160",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0088",
+    "text": "I will first thing I will get as weather response, second thing I will get as forecast response",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 88,
+      "start": 485,
+      "end": 493.68,
+      "duration": 8.68,
+      "startTimestamp": "00:08:05.000",
+      "endTimestamp": "00:08:13.680",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0089",
+    "text": "and third thing I will get as aqiaqi response perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 89,
+      "start": 494.62,
+      "end": 499.04,
+      "duration": 4.42,
+      "startTimestamp": "00:08:14.620",
+      "endTimestamp": "00:08:19.040",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0090",
+    "text": "And then I can simply say await promise.all and then inside this I will open one array",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 90,
+      "start": 500.18,
+      "end": 508.16,
+      "duration": 7.98,
+      "startTimestamp": "00:08:20.180",
+      "endTimestamp": "00:08:28.160",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0091",
+    "text": "and just simply want to make the call.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 91,
+      "start": 508.38,
+      "end": 510.44,
+      "duration": 2.06,
+      "startTimestamp": "00:08:28.380",
+      "endTimestamp": "00:08:30.440",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0092",
+    "text": "So, xyors.get a backticks first thing is going to be as base underscore url and slash weather.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 92,
+      "start": 510.7,
+      "end": 521.179,
+      "duration": 10.479,
+      "startTimestamp": "00:08:30.700",
+      "endTimestamp": "00:08:41.179",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0093",
+    "text": "This is the first endpoint in same way we can have the another endpoint just give me",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 93,
+      "start": 522.2,
+      "end": 530.08,
+      "duration": 7.88,
+      "startTimestamp": "00:08:42.200",
+      "endTimestamp": "00:08:50.080",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0094",
+    "text": "a minute okay definitely we need to add this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 94,
+      "start": 530.081,
+      "end": 533.2,
+      "duration": 3.119,
+      "startTimestamp": "00:08:50.081",
+      "endTimestamp": "00:08:53.200",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0095",
+    "text": "the second endpoint is going to be the forecast and the third endpoint that is going to be",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 95,
+      "start": 533.201,
+      "end": 542.5,
+      "duration": 9.299,
+      "startTimestamp": "00:08:53.201",
+      "endTimestamp": "00:09:02.500",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0096",
+    "text": "a air pollution.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 96,
+      "start": 542.52,
+      "end": 543.44,
+      "duration": 0.92,
+      "startTimestamp": "00:09:02.520",
+      "endTimestamp": "00:09:03.440",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0097",
+    "text": "So, okay not rocket science at all.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 97,
+      "start": 543.62,
+      "end": 546.1,
+      "duration": 2.48,
+      "startTimestamp": "00:09:03.620",
+      "endTimestamp": "00:09:06.100",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0098",
+    "text": "This is going to be air underscore pollution.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 98,
+      "start": 547.52,
+      "end": 550.28,
+      "duration": 2.76,
+      "startTimestamp": "00:09:07.520",
+      "endTimestamp": "00:09:10.280",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0099",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 99,
+      "start": 550.74,
+      "end": 550.94,
+      "duration": 0.2,
+      "startTimestamp": "00:09:10.740",
+      "endTimestamp": "00:09:10.940",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0100",
+    "text": "Definitely we need to pass bunch of options.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 100,
+      "start": 551.68,
+      "end": 555.04,
+      "duration": 3.36,
+      "startTimestamp": "00:09:11.680",
+      "endTimestamp": "00:09:15.040",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0101",
+    "text": "So this will going to accept the parameters and inside the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 101,
+      "start": 555.92,
+      "end": 563.18,
+      "duration": 7.26,
+      "startTimestamp": "00:09:15.920",
+      "endTimestamp": "00:09:23.180",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0102",
+    "text": "parameters first thing is latitude then longitude not lock and then we can have the units units",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 102,
+      "start": 563.181,
+      "end": 570.84,
+      "duration": 7.659,
+      "startTimestamp": "00:09:23.181",
+      "endTimestamp": "00:09:30.840",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0103",
+    "text": "will be type of matrix and one last thing which is your API ID so I mean the app ID",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 103,
+      "start": 571.06,
+      "end": 578.38,
+      "duration": 7.32,
+      "startTimestamp": "00:09:31.060",
+      "endTimestamp": "00:09:38.380",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0104",
+    "text": "So app ID is going to be",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 104,
+      "start": 579.24,
+      "end": 581.38,
+      "duration": 2.14,
+      "startTimestamp": "00:09:39.240",
+      "endTimestamp": "00:09:41.380",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0105",
+    "text": "the weather API. So this is going to be the weather API key. Perfect. And simply copy this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 105,
+      "start": 582.5,
+      "end": 591.08,
+      "duration": 8.58,
+      "startTimestamp": "00:09:42.500",
+      "endTimestamp": "00:09:51.080",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0106",
+    "text": "coming to here and then also paste this here in same way, copy this and paste it here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 106,
+      "start": 591.34,
+      "end": 598.66,
+      "duration": 7.32,
+      "startTimestamp": "00:09:51.340",
+      "endTimestamp": "00:09:58.660",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0107",
+    "text": "And only thing that you know no need here it's cunits simply longitude.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 107,
+      "start": 598.71,
+      "end": 603.5,
+      "duration": 4.79,
+      "startTimestamp": "00:09:58.710",
+      "endTimestamp": "00:10:03.500",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0108",
+    "text": "latitude, longitude and app ID and at the bottom of it, we can simply return from this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 108,
+      "start": 603.7,
+      "end": 611.06,
+      "duration": 7.36,
+      "startTimestamp": "00:10:03.700",
+      "endTimestamp": "00:10:11.060",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0109",
+    "text": "function.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 109,
+      "start": 611.64,
+      "end": 611.94,
+      "duration": 0.3,
+      "startTimestamp": "00:10:11.640",
+      "endTimestamp": "00:10:11.940",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0110",
+    "text": "But first thing is the weather.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 110,
+      "start": 612.24,
+      "end": 614.48,
+      "duration": 2.24,
+      "startTimestamp": "00:10:12.240",
+      "endTimestamp": "00:10:14.480",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0111",
+    "text": "Weather will basically come from weather response easy and this weather response will contain",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 111,
+      "start": 616.22,
+      "end": 622.46,
+      "duration": 6.24,
+      "startTimestamp": "00:10:16.220",
+      "endTimestamp": "00:10:22.460",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0112",
+    "text": "something known as data.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 112,
+      "start": 622.68,
+      "end": 623.68,
+      "duration": 1,
+      "startTimestamp": "00:10:22.680",
+      "endTimestamp": "00:10:23.680",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0113",
+    "text": "We can even add the types for it in a while.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 113,
+      "start": 623.75,
+      "end": 625.86,
+      "duration": 2.11,
+      "startTimestamp": "00:10:23.750",
+      "endTimestamp": "00:10:25.860",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0114",
+    "text": "Second thing we can have the forecast and this is again coming from the forecast dot response",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 114,
+      "start": 627.24,
+      "end": 634.22,
+      "duration": 6.98,
+      "startTimestamp": "00:10:27.240",
+      "endTimestamp": "00:10:34.220",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0115",
+    "text": "dot data dot list.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 115,
+      "start": 636.02,
+      "end": 638.66,
+      "duration": 2.64,
+      "startTimestamp": "00:10:36.020",
+      "endTimestamp": "00:10:38.660",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0116",
+    "text": "Yep.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 116,
+      "start": 639.08,
+      "end": 639.16,
+      "duration": 0.08,
+      "startTimestamp": "00:10:39.080",
+      "endTimestamp": "00:10:39.160",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0117",
+    "text": "And last thing is also going to be for the AQI list.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 117,
+      "start": 640.36,
+      "end": 643.82,
+      "duration": 3.46,
+      "startTimestamp": "00:10:40.360",
+      "endTimestamp": "00:10:43.820",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0118",
+    "text": "So let me just add it and this will we are accessing from the first index.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 118,
+      "start": 644.24,
+      "end": 648.14,
+      "duration": 3.9,
+      "startTimestamp": "00:10:44.240",
+      "endTimestamp": "00:10:48.140",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0119",
+    "text": "is this is how the structure of the data. So I'm just making things easy for you. You",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 119,
+      "start": 648.7,
+      "end": 652.96,
+      "duration": 4.26,
+      "startTimestamp": "00:10:48.700",
+      "endTimestamp": "00:10:52.960",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0120",
+    "text": "need not to do so much of research. Just write with me. All right. Nice. Perfect. What next?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 120,
+      "start": 653.02,
+      "end": 660.86,
+      "duration": 7.84,
+      "startTimestamp": "00:10:53.020",
+      "endTimestamp": "00:11:00.860",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0121",
+    "text": "Next we need the fetch by the city name. So this is your coordinates, your current location.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 121,
+      "start": 661.48,
+      "end": 666.98,
+      "duration": 5.5,
+      "startTimestamp": "00:11:01.480",
+      "endTimestamp": "00:11:06.980",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0122",
+    "text": "But let's say you wanted to fetch the location by entering the city name. Be it",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 122,
+      "start": 667.72,
+      "end": 678.68,
+      "duration": 10.96,
+      "startTimestamp": "00:11:07.720",
+      "endTimestamp": "00:11:18.680",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0123",
+    "text": "Noida be it Gujarat, Jaipur, Bangalore, Mumbai, Hyderabad, Pune kind of that got it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 123,
+      "start": 678.681,
+      "end": 680.22,
+      "duration": 1.539,
+      "startTimestamp": "00:11:18.681",
+      "endTimestamp": "00:11:20.220",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0124",
+    "text": "So I can simply say export const fetch cuts by city okay and this is simply going to",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 124,
+      "start": 681.009,
+      "end": 691.459,
+      "duration": 10.45,
+      "startTimestamp": "00:11:21.009",
+      "endTimestamp": "00:11:31.459",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0125",
+    "text": "accept the city name.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 125,
+      "start": 691.519,
+      "end": 692.44,
+      "duration": 0.921,
+      "startTimestamp": "00:11:31.519",
+      "endTimestamp": "00:11:32.440",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0126",
+    "text": "Okay.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 126,
+      "start": 702.009,
+      "end": 702.199,
+      "duration": 0.19,
+      "startTimestamp": "00:11:42.009",
+      "endTimestamp": "00:11:42.199",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0127",
+    "text": "and this is your string up next and then I can again say const response is equals to",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 127,
+      "start": 702.2,
+      "end": 702.22,
+      "duration": 0.02,
+      "startTimestamp": "00:11:42.200",
+      "endTimestamp": "00:11:42.220",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0128",
+    "text": "await exios.get and then we are simply going to have a backticks and a simple end point",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 128,
+      "start": 702.221,
+      "end": 709.82,
+      "duration": 7.599,
+      "startTimestamp": "00:11:42.221",
+      "endTimestamp": "00:11:49.820",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0129",
+    "text": "here which is HTTPS / API over open weather map",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 129,
+      "start": 709.98,
+      "end": 714.98,
+      "duration": 5,
+      "startTimestamp": "00:11:49.980",
+      "endTimestamp": "00:11:54.980",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0130",
+    "text": "or then geo 1.0 slash direct.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 130,
+      "start": 715,
+      "end": 720.88,
+      "duration": 5.88,
+      "startTimestamp": "00:11:55.000",
+      "endTimestamp": "00:12:00.880",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0131",
+    "text": "All right.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 131,
+      "start": 721.82,
+      "end": 722.1,
+      "duration": 0.28,
+      "startTimestamp": "00:12:01.820",
+      "endTimestamp": "00:12:02.100",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0132",
+    "text": "And as the options, they are actually going to accept what the params params is going",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 132,
+      "start": 723.38,
+      "end": 730.5,
+      "duration": 7.12,
+      "startTimestamp": "00:12:03.380",
+      "endTimestamp": "00:12:10.500",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0133",
+    "text": "to have first of all the query and inside the query, they have something known as city.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 133,
+      "start": 730.58,
+      "end": 735.32,
+      "duration": 4.74,
+      "startTimestamp": "00:12:10.580",
+      "endTimestamp": "00:12:15.320",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0134",
+    "text": "We can even have the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 134,
+      "start": 735.92,
+      "end": 744.98,
+      "duration": 9.06,
+      "startTimestamp": "00:12:15.920",
+      "endTimestamp": "00:12:24.980",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0135",
+    "text": "limit of one and then simple app ID, which is type of weather API key.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 135,
+      "start": 744.981,
+      "end": 745.001,
+      "duration": 0.02,
+      "startTimestamp": "00:12:24.981",
+      "endTimestamp": "00:12:25.001",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0136",
+    "text": "And what we can do if the response dot data dot length is equals to equals to zero, then",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 136,
+      "start": 745.002,
+      "end": 756.3,
+      "duration": 11.298,
+      "startTimestamp": "00:12:25.002",
+      "endTimestamp": "00:12:36.300",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0137",
+    "text": "I simply wanted to throw a new error by saying city not far.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 137,
+      "start": 756.42,
+      "end": 760.26,
+      "duration": 3.84,
+      "startTimestamp": "00:12:36.420",
+      "endTimestamp": "00:12:40.260",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0138",
+    "text": "Otherwise I wanted to return the latitude and longitude and on the basis of that longitude",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 138,
+      "start": 762,
+      "end": 767.52,
+      "duration": 5.52,
+      "startTimestamp": "00:12:42.000",
+      "endTimestamp": "00:12:47.520",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0139",
+    "text": "and latitude I am going to hit this endpoint.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 139,
+      "start": 767.76,
+      "end": 769.9,
+      "duration": 2.14,
+      "startTimestamp": "00:12:47.760",
+      "endTimestamp": "00:12:49.900",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0140",
+    "text": "Got it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 140,
+      "start": 770.64,
+      "end": 770.98,
+      "duration": 0.34,
+      "startTimestamp": "00:12:50.640",
+      "endTimestamp": "00:12:50.980",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0141",
+    "text": "So, this is the smart approach.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 141,
+      "start": 771.32,
+      "end": 772.78,
+      "duration": 1.46,
+      "startTimestamp": "00:12:51.320",
+      "endTimestamp": "00:12:52.780",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0142",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 142,
+      "start": 774.02,
+      "end": 774.22,
+      "duration": 0.2,
+      "startTimestamp": "00:12:54.020",
+      "endTimestamp": "00:12:54.220",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0143",
+    "text": "So, now we have a fetch weather by coordinates fetch coordinates by city and then all the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 143,
+      "start": 774.5,
+      "end": 780.98,
+      "duration": 6.48,
+      "startTimestamp": "00:12:54.500",
+      "endTimestamp": "00:13:00.980",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0144",
+    "text": "weather related utilities.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 144,
+      "start": 781.48,
+      "end": 782.6,
+      "duration": 1.12,
+      "startTimestamp": "00:13:01.480",
+      "endTimestamp": "00:13:02.600",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0145",
+    "text": "Definitely we need bunch of them but no problem for this chapter we are done.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 145,
+      "start": 782.9,
+      "end": 787.02,
+      "duration": 4.12,
+      "startTimestamp": "00:13:02.900",
+      "endTimestamp": "00:13:07.020",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0146",
+    "text": "So I can simply say we have successfully initialize the project and weather API setup.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 146,
+      "start": 788.44,
+      "end": 796.08,
+      "duration": 7.64,
+      "startTimestamp": "00:13:08.440",
+      "endTimestamp": "00:13:16.080",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0147",
+    "text": "So in next chapter we are going to see that definitely we need to add lot of images, lot",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 147,
+      "start": 796.12,
+      "end": 802.22,
+      "duration": 6.1,
+      "startTimestamp": "00:13:16.120",
+      "endTimestamp": "00:13:22.220",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0148",
+    "text": "of sdgs.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 148,
+      "start": 802.28,
+      "end": 802.94,
+      "duration": 0.66,
+      "startTimestamp": "00:13:22.280",
+      "endTimestamp": "00:13:22.940",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0149",
+    "text": "SVGs actually they all are images and then we are going to create one use weather hook",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 149,
+      "start": 803.6,
+      "end": 808.5,
+      "duration": 4.9,
+      "startTimestamp": "00:13:23.600",
+      "endTimestamp": "00:13:28.500",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0150",
+    "text": "and then weather utility.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 150,
+      "start": 809.259,
+      "end": 810.3,
+      "duration": 1.041,
+      "startTimestamp": "00:13:29.259",
+      "endTimestamp": "00:13:30.300",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0151",
+    "text": "So this is definitely going to be a big chapter but it's fine this is pretty much it for",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 151,
+      "start": 810.43,
+      "end": 814.759,
+      "duration": 4.329,
+      "startTimestamp": "00:13:30.430",
+      "endTimestamp": "00:13:34.759",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_0152",
+    "text": "this chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "fileName": "chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "captionIndex": 152,
+      "start": 814.86,
+      "end": 816.98,
+      "duration": 2.12,
+      "startTimestamp": "00:13:34.860",
+      "endTimestamp": "00:13:36.980",
+      "estimatedTokens": 10
+    }
+  }
+]

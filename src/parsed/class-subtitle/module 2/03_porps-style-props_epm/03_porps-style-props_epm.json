@@ -1,0 +1,4600 @@
+[
+  {
+    "id": "03_porps-style-props_epm_0001",
+    "text": "Hey everyone and welcome to brand new lecture. In this lecture we are going to talk about",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 1,
+      "start": 0,
+      "end": 6.42,
+      "duration": 6.42,
+      "startTimestamp": "00:00:00.000",
+      "endTimestamp": "00:00:06.420",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0002",
+    "text": "props and style props inside React Native. So, in this lecture we will write code together",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 2,
+      "start": 6.421,
+      "end": 12.84,
+      "duration": 6.419,
+      "startTimestamp": "00:00:06.421",
+      "endTimestamp": "00:00:12.840",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0003",
+    "text": "and understand the most important styling properties in React Native.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 3,
+      "start": 13.04,
+      "end": 18.08,
+      "duration": 5.04,
+      "startTimestamp": "00:00:13.040",
+      "endTimestamp": "00:00:18.080",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0004",
+    "text": "And listen to me carefully, don't try to memorize everything, focus on understanding how layout",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 4,
+      "start": 18.3,
+      "end": 25.96,
+      "duration": 7.66,
+      "startTimestamp": "00:00:18.300",
+      "endTimestamp": "00:00:25.960",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0005",
+    "text": "and styling works actually.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 5,
+      "start": 26.34,
+      "end": 27.88,
+      "duration": 1.54,
+      "startTimestamp": "00:00:26.340",
+      "endTimestamp": "00:00:27.880",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0006",
+    "text": "And but before moving ahead, I just wanted you to keep a bunch of rules inside your mind.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 6,
+      "start": 28.759,
+      "end": 34.82,
+      "duration": 6.061,
+      "startTimestamp": "00:00:28.759",
+      "endTimestamp": "00:00:34.820",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0007",
+    "text": "So just listen to me carefully.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 7,
+      "start": 35.379,
+      "end": 37,
+      "duration": 1.621,
+      "startTimestamp": "00:00:35.379",
+      "endTimestamp": "00:00:37.000",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0008",
+    "text": "This is what your important rule.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 8,
+      "start": 37.4,
+      "end": 39.199,
+      "duration": 1.799,
+      "startTimestamp": "00:00:37.400",
+      "endTimestamp": "00:00:39.199",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0009",
+    "text": "First, react native styling is inspired by CSS.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 9,
+      "start": 39.519,
+      "end": 44.019,
+      "duration": 4.5,
+      "startTimestamp": "00:00:39.519",
+      "endTimestamp": "00:00:44.019",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0010",
+    "text": "This is not your actual CSS.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 10,
+      "start": 44.4,
+      "end": 46.12,
+      "duration": 1.72,
+      "startTimestamp": "00:00:44.400",
+      "endTimestamp": "00:00:46.120",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0011",
+    "text": "Inspired, INS, inspired by CSS.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 11,
+      "start": 48.86,
+      "end": 52.86,
+      "duration": 4,
+      "startTimestamp": "00:00:48.860",
+      "endTimestamp": "00:00:52.860",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0012",
+    "text": "This is not CSS.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 12,
+      "start": 53.62,
+      "end": 55.739,
+      "duration": 2.119,
+      "startTimestamp": "00:00:53.620",
+      "endTimestamp": "00:00:55.739",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0013",
+    "text": "Make sure to keep that in mind.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 13,
+      "start": 56.04,
+      "end": 57.5,
+      "duration": 1.46,
+      "startTimestamp": "00:00:56.040",
+      "endTimestamp": "00:00:57.500",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0014",
+    "text": "Second, for layouting purpose, for now, on the latest version that we are using of React",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 14,
+      "start": 57.68,
+      "end": 66.76,
+      "duration": 9.08,
+      "startTimestamp": "00:00:57.680",
+      "endTimestamp": "00:01:06.760",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0015",
+    "text": "They only support flexbox, but in future if you're watching this, maybe they are also",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 15,
+      "start": 67.7,
+      "end": 74.56,
+      "duration": 6.86,
+      "startTimestamp": "00:01:07.700",
+      "endTimestamp": "00:01:14.560",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0016",
+    "text": "going to support grid, but for layouting for now, they only support flexbox only.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 16,
+      "start": 74.561,
+      "end": 81.24,
+      "duration": 6.679,
+      "startTimestamp": "00:01:14.561",
+      "endTimestamp": "00:01:21.240",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0017",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 17,
+      "start": 81.6,
+      "end": 81.979,
+      "duration": 0.379,
+      "startTimestamp": "00:01:21.600",
+      "endTimestamp": "00:01:21.979",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0018",
+    "text": "No grid CSS support yet, but they have a PR raised about it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 18,
+      "start": 83.399,
+      "end": 88.679,
+      "duration": 5.28,
+      "startTimestamp": "00:01:23.399",
+      "endTimestamp": "00:01:28.679",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0019",
+    "text": "and they are actively working on it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 19,
+      "start": 88.7,
+      "end": 90.74,
+      "duration": 2.04,
+      "startTimestamp": "00:01:28.700",
+      "endTimestamp": "00:01:30.740",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0020",
+    "text": "So maybe in future they are also going to support grid for us.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 20,
+      "start": 90.92,
+      "end": 95.1,
+      "duration": 4.18,
+      "startTimestamp": "00:01:30.920",
+      "endTimestamp": "00:01:35.100",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0021",
+    "text": "But for now make sure to keep only these three points into your mind.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 21,
+      "start": 95.259,
+      "end": 101.039,
+      "duration": 5.78,
+      "startTimestamp": "00:01:35.259",
+      "endTimestamp": "00:01:41.039",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0022",
+    "text": "First this is inspired by CSS.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 22,
+      "start": 101.36,
+      "end": 103.119,
+      "duration": 1.759,
+      "startTimestamp": "00:01:41.360",
+      "endTimestamp": "00:01:43.119",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0023",
+    "text": "This is not your actual CSS.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 23,
+      "start": 103.299,
+      "end": 104.679,
+      "duration": 1.38,
+      "startTimestamp": "00:01:43.299",
+      "endTimestamp": "00:01:44.679",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0024",
+    "text": "Then they use your flexbox only for layouting.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 24,
+      "start": 105.759,
+      "end": 109.72,
+      "duration": 3.961,
+      "startTimestamp": "00:01:45.759",
+      "endTimestamp": "00:01:49.720",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0025",
+    "text": "They don't support grid for now.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 25,
+      "start": 110.06,
+      "end": 111.899,
+      "duration": 1.839,
+      "startTimestamp": "00:01:50.060",
+      "endTimestamp": "00:01:51.899",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0026",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 26,
+      "start": 112.2,
+      "end": 113.24000000000001,
+      "duration": 1.04,
+      "startTimestamp": "00:01:52.200",
+      "endTimestamp": "00:01:53.240",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0027",
+    "text": "And so now let's move ahead and start understanding bunch of style properties that we have so",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 27,
+      "start": 114.18,
+      "end": 120.5,
+      "duration": 6.32,
+      "startTimestamp": "00:01:54.180",
+      "endTimestamp": "00:02:00.500",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0028",
+    "text": "that in future whenever I am going to write any kind of react native CSS any kind of style",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 28,
+      "start": 120.501,
+      "end": 126.22,
+      "duration": 5.719,
+      "startTimestamp": "00:02:00.501",
+      "endTimestamp": "00:02:06.220",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0029",
+    "text": "props you can easily follow along with me.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 29,
+      "start": 126.221,
+      "end": 129.66,
+      "duration": 3.439,
+      "startTimestamp": "00:02:06.221",
+      "endTimestamp": "00:02:09.660",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0030",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 30,
+      "start": 130,
+      "end": 131.28,
+      "duration": 1.28,
+      "startTimestamp": "00:02:10.000",
+      "endTimestamp": "00:02:11.280",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0031",
+    "text": "So right now I have just basically imported this and created a basic index.tsx file, a",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 31,
+      "start": 131.46,
+      "end": 138.36,
+      "duration": 6.9,
+      "startTimestamp": "00:02:11.460",
+      "endTimestamp": "00:02:18.360",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0032",
+    "text": "basic react native component file with a view and a basic text.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 32,
+      "start": 138.361,
+      "end": 142.6,
+      "duration": 4.239,
+      "startTimestamp": "00:02:18.361",
+      "endTimestamp": "00:02:22.600",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0033",
+    "text": "Easy?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 33,
+      "start": 143.22,
+      "end": 143.62,
+      "duration": 0.4,
+      "startTimestamp": "00:02:23.220",
+      "endTimestamp": "00:02:23.620",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0034",
+    "text": "Nice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 34,
+      "start": 143.94,
+      "end": 144.22,
+      "duration": 0.28,
+      "startTimestamp": "00:02:23.940",
+      "endTimestamp": "00:02:24.220",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0035",
+    "text": "Now let me just simply add a basic design for it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 35,
+      "start": 144.8,
+      "end": 148.18,
+      "duration": 3.38,
+      "startTimestamp": "00:02:24.800",
+      "endTimestamp": "00:02:28.180",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0036",
+    "text": "So, let me just copy this and paste it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 36,
+      "start": 148.2,
+      "end": 151.459,
+      "duration": 3.259,
+      "startTimestamp": "00:02:28.200",
+      "endTimestamp": "00:02:31.459",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0037",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 37,
+      "start": 151.64,
+      "end": 151.9,
+      "duration": 0.26,
+      "startTimestamp": "00:02:31.640",
+      "endTimestamp": "00:02:31.900",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0038",
+    "text": "I'm stopping myself.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 38,
+      "start": 152.02,
+      "end": 152.98,
+      "duration": 0.96,
+      "startTimestamp": "00:02:32.020",
+      "endTimestamp": "00:02:32.980",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0039",
+    "text": "You can basically stop this video and start writing this and I'm also copy pasting the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 39,
+      "start": 153.12,
+      "end": 158.9,
+      "duration": 5.78,
+      "startTimestamp": "00:02:33.120",
+      "endTimestamp": "00:02:38.900",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0040",
+    "text": "styles for it because I don't want to waste too much of time on writing this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 40,
+      "start": 158.901,
+      "end": 164.86,
+      "duration": 5.959,
+      "startTimestamp": "00:02:38.901",
+      "endTimestamp": "00:02:44.860",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0041",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 41,
+      "start": 165,
+      "end": 165.31900000000002,
+      "duration": 0.319,
+      "startTimestamp": "00:02:45.000",
+      "endTimestamp": "00:02:45.319",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0042",
+    "text": "So, this is your style.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 42,
+      "start": 165.739,
+      "end": 166.78,
+      "duration": 1.041,
+      "startTimestamp": "00:02:45.739",
+      "endTimestamp": "00:02:46.780",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0043",
+    "text": "And this is your view and we are just basically using styles dot containers, styles dot title,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 43,
+      "start": 167.5,
+      "end": 173.9,
+      "duration": 6.4,
+      "startTimestamp": "00:02:47.500",
+      "endTimestamp": "00:02:53.900",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0044",
+    "text": "style dot card and style dot text and all the properties are here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 44,
+      "start": 174.56,
+      "end": 178.54,
+      "duration": 3.98,
+      "startTimestamp": "00:02:54.560",
+      "endTimestamp": "00:02:58.540",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0045",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 45,
+      "start": 178.78,
+      "end": 179.04,
+      "duration": 0.26,
+      "startTimestamp": "00:02:58.780",
+      "endTimestamp": "00:02:59.040",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0046",
+    "text": "No problem.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 46,
+      "start": 179.88,
+      "end": 180.48,
+      "duration": 0.6,
+      "startTimestamp": "00:02:59.880",
+      "endTimestamp": "00:03:00.480",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0047",
+    "text": "So this is how they basically look.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 47,
+      "start": 180.88,
+      "end": 183,
+      "duration": 2.12,
+      "startTimestamp": "00:03:00.880",
+      "endTimestamp": "00:03:03.000",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0048",
+    "text": "But before moving ahead, one thing that I wanted to do, I wanted to change the color",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 48,
+      "start": 183.84,
+      "end": 189.18,
+      "duration": 5.34,
+      "startTimestamp": "00:03:03.840",
+      "endTimestamp": "00:03:09.180",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0049",
+    "text": "of my this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 49,
+      "start": 189.181,
+      "end": 191.38,
+      "duration": 2.199,
+      "startTimestamp": "00:03:09.181",
+      "endTimestamp": "00:03:11.380",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0050",
+    "text": "So let me change this to here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 50,
+      "start": 191.62,
+      "end": 194.38,
+      "duration": 2.76,
+      "startTimestamp": "00:03:11.620",
+      "endTimestamp": "00:03:14.380",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0051",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 51,
+      "start": 194.8,
+      "end": 195.14,
+      "duration": 0.34,
+      "startTimestamp": "00:03:14.800",
+      "endTimestamp": "00:03:15.140",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0052",
+    "text": "Nice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 52,
+      "start": 195.6,
+      "end": 195.92,
+      "duration": 0.32,
+      "startTimestamp": "00:03:15.600",
+      "endTimestamp": "00:03:15.920",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0053",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 53,
+      "start": 197.1,
+      "end": 197.44,
+      "duration": 0.34,
+      "startTimestamp": "00:03:17.100",
+      "endTimestamp": "00:03:17.440",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0054",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 54,
+      "start": 198.96,
+      "end": 199.2,
+      "duration": 0.24,
+      "startTimestamp": "00:03:18.960",
+      "endTimestamp": "00:03:19.200",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0055",
+    "text": "I hope you guys just copied and pasted this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 55,
+      "start": 199.32,
+      "end": 201.96,
+      "duration": 2.64,
+      "startTimestamp": "00:03:19.320",
+      "endTimestamp": "00:03:21.960",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0056",
+    "text": "Now let's move ahead and first of all start talking about the layout props that we have.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 56,
+      "start": 202.88,
+      "end": 209.62,
+      "duration": 6.74,
+      "startTimestamp": "00:03:22.880",
+      "endTimestamp": "00:03:29.620",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0057",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 57,
+      "start": 209.8,
+      "end": 210.16,
+      "duration": 0.36,
+      "startTimestamp": "00:03:29.800",
+      "endTimestamp": "00:03:30.160",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0058",
+    "text": "The layout props that we have, which is known as Flexbox.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 58,
+      "start": 210.161,
+      "end": 214.32,
+      "duration": 4.159,
+      "startTimestamp": "00:03:30.161",
+      "endTimestamp": "00:03:34.320",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0059",
+    "text": "So React Native uses Flexbox by default, like Vue by default support Flexbox into it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 59,
+      "start": 215.38,
+      "end": 223.07999999999998,
+      "duration": 7.7,
+      "startTimestamp": "00:03:35.380",
+      "endTimestamp": "00:03:43.080",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0060",
+    "text": "And make sure to keep in mind this is different from web like inside the web by default direction",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 60,
+      "start": 223.4,
+      "end": 231.86,
+      "duration": 8.46,
+      "startTimestamp": "00:03:43.400",
+      "endTimestamp": "00:03:51.860",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0061",
+    "text": "of our flex is always row but inside your react native we have column.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 61,
+      "start": 232.34,
+      "end": 238.04,
+      "duration": 5.7,
+      "startTimestamp": "00:03:52.340",
+      "endTimestamp": "00:03:58.040",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0062",
+    "text": "Perfect, nice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 62,
+      "start": 239.72,
+      "end": 240.64,
+      "duration": 0.92,
+      "startTimestamp": "00:03:59.720",
+      "endTimestamp": "00:04:00.640",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0063",
+    "text": "Now, if I just simply move ahead and focus on my card, you will see I have bunch of other",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 63,
+      "start": 241.2,
+      "end": 248.319,
+      "duration": 7.119,
+      "startTimestamp": "00:04:01.200",
+      "endTimestamp": "00:04:08.319",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0064",
+    "text": "properties as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 64,
+      "start": 248.32,
+      "end": 249.28,
+      "duration": 0.96,
+      "startTimestamp": "00:04:08.320",
+      "endTimestamp": "00:04:09.280",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0065",
+    "text": "I will come to it, but for now, let me just simply coming to here and try to center this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 65,
+      "start": 249.76,
+      "end": 255.86,
+      "duration": 6.1,
+      "startTimestamp": "00:04:09.760",
+      "endTimestamp": "00:04:15.860",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0066",
+    "text": "content.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 66,
+      "start": 255.861,
+      "end": 256.339,
+      "duration": 0.478,
+      "startTimestamp": "00:04:15.861",
+      "endTimestamp": "00:04:16.339",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0067",
+    "text": "So, how you can do that?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 67,
+      "start": 256.76,
+      "end": 258.279,
+      "duration": 1.519,
+      "startTimestamp": "00:04:16.760",
+      "endTimestamp": "00:04:18.279",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0068",
+    "text": "You need not to run write any display property.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 68,
+      "start": 258.31,
+      "end": 261.019,
+      "duration": 2.709,
+      "startTimestamp": "00:04:18.310",
+      "endTimestamp": "00:04:21.019",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0069",
+    "text": "Let's say if I just simply coming to here and try to write display content flags null",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 69,
+      "start": 261.3,
+      "end": 267.639,
+      "duration": 6.339,
+      "startTimestamp": "00:04:21.300",
+      "endTimestamp": "00:04:27.639",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0070",
+    "text": "but by default all the display are flex itself.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 70,
+      "start": 267.8,
+      "end": 271.24,
+      "duration": 3.44,
+      "startTimestamp": "00:04:27.800",
+      "endTimestamp": "00:04:31.240",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0071",
+    "text": "So you can just simply cut this out.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 71,
+      "start": 271.4,
+      "end": 274.099,
+      "duration": 2.699,
+      "startTimestamp": "00:04:31.400",
+      "endTimestamp": "00:04:34.099",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0072",
+    "text": "Now let's move ahead and I wanted to make it center.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 72,
+      "start": 274.58,
+      "end": 278.06,
+      "duration": 3.48,
+      "startTimestamp": "00:04:34.580",
+      "endTimestamp": "00:04:38.060",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0073",
+    "text": "So for that I am going to use here the align item as center.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 73,
+      "start": 278.229,
+      "end": 283.96,
+      "duration": 5.731,
+      "startTimestamp": "00:04:38.229",
+      "endTimestamp": "00:04:43.960",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0074",
+    "text": "Easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 74,
+      "start": 284.319,
+      "end": 284.84000000000003,
+      "duration": 0.521,
+      "startTimestamp": "00:04:44.319",
+      "endTimestamp": "00:04:44.840",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0075",
+    "text": "Justify content as center and the moment I save it, you will see the content is in center",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 75,
+      "start": 287.159,
+      "end": 294.86,
+      "duration": 7.701,
+      "startTimestamp": "00:04:47.159",
+      "endTimestamp": "00:04:54.860",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0076",
+    "text": "now.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 76,
+      "start": 294.861,
+      "end": 295.28,
+      "duration": 0.419,
+      "startTimestamp": "00:04:54.861",
+      "endTimestamp": "00:04:55.280",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0077",
+    "text": "So, the first thing I hope you guys understand like how you can center the content.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 77,
+      "start": 296.18,
+      "end": 301.56,
+      "duration": 5.38,
+      "startTimestamp": "00:04:56.180",
+      "endTimestamp": "00:05:01.560",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0078",
+    "text": "horizontal alignment perfect a l i g n I hope so I am right all right I need to remove it",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 78,
+      "start": 307.72,
+      "end": 318.58,
+      "duration": 10.86,
+      "startTimestamp": "00:05:07.720",
+      "endTimestamp": "00:05:18.580",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0079",
+    "text": "perfect. So, this is for horizontal alignment and this is for vertical alignment.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 79,
+      "start": 318.581,
+      "end": 323.84,
+      "duration": 5.259,
+      "startTimestamp": "00:05:18.581",
+      "endTimestamp": "00:05:23.840",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0080",
+    "text": "Perfect. Now, in same way, we also have a flex property like this flex. I hope so you",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 80,
+      "start": 326.98,
+      "end": 334.02,
+      "duration": 7.04,
+      "startTimestamp": "00:05:26.980",
+      "endTimestamp": "00:05:34.020",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0081",
+    "text": "guys understand this. This is basically to fill up all the available spaces that we have",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 81,
+      "start": 334.021,
+      "end": 338.8,
+      "duration": 4.779,
+      "startTimestamp": "00:05:34.021",
+      "endTimestamp": "00:05:38.800",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0082",
+    "text": "a basic CSS, nothing rocket science.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 82,
+      "start": 339.26,
+      "end": 341.82,
+      "duration": 2.56,
+      "startTimestamp": "00:05:39.260",
+      "endTimestamp": "00:05:41.820",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0083",
+    "text": "Let us say I also wanted to center it perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 83,
+      "start": 342,
+      "end": 346.36,
+      "duration": 4.36,
+      "startTimestamp": "00:05:42.000",
+      "endTimestamp": "00:05:46.360",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0084",
+    "text": "So, this is your main container like I am talking about this and I wanted to center",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 84,
+      "start": 346.42,
+      "end": 351.64,
+      "duration": 5.22,
+      "startTimestamp": "00:05:46.420",
+      "endTimestamp": "00:05:51.640",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0085",
+    "text": "this and I mean everything I wanted to center.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 85,
+      "start": 351.84000000000003,
+      "end": 354.22,
+      "duration": 2.38,
+      "startTimestamp": "00:05:51.840",
+      "endTimestamp": "00:05:54.220",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0086",
+    "text": "So, how you can do so?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 86,
+      "start": 354.221,
+      "end": 355.54,
+      "duration": 1.319,
+      "startTimestamp": "00:05:54.221",
+      "endTimestamp": "00:05:55.540",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0087",
+    "text": "Easy same.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 87,
+      "start": 356.52,
+      "end": 357.56,
+      "duration": 1.04,
+      "startTimestamp": "00:05:56.520",
+      "endTimestamp": "00:05:57.560",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0088",
+    "text": "Justify content is going to be center and align item is also going to be center.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 88,
+      "start": 358.8,
+      "end": 364.479,
+      "duration": 5.679,
+      "startTimestamp": "00:05:58.800",
+      "endTimestamp": "00:06:04.479",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0089",
+    "text": "Let me save it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 89,
+      "start": 364.74,
+      "end": 365.58,
+      "duration": 0.84,
+      "startTimestamp": "00:06:04.740",
+      "endTimestamp": "00:06:05.580",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0090",
+    "text": "Boom!",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 90,
+      "start": 365.74,
+      "end": 365.9,
+      "duration": 0.16,
+      "startTimestamp": "00:06:05.740",
+      "endTimestamp": "00:06:05.900",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0091",
+    "text": "Look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 91,
+      "start": 366.6,
+      "end": 367.54,
+      "duration": 0.94,
+      "startTimestamp": "00:06:06.600",
+      "endTimestamp": "00:06:07.540",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0092",
+    "text": "How beautifully you have done this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 92,
+      "start": 367.68,
+      "end": 369.82,
+      "duration": 2.14,
+      "startTimestamp": "00:06:07.680",
+      "endTimestamp": "00:06:09.820",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0093",
+    "text": "Easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 93,
+      "start": 370.5,
+      "end": 370.9,
+      "duration": 0.4,
+      "startTimestamp": "00:06:10.500",
+      "endTimestamp": "00:06:10.900",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0094",
+    "text": "No problem.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 94,
+      "start": 371.28,
+      "end": 372.04,
+      "duration": 0.76,
+      "startTimestamp": "00:06:11.280",
+      "endTimestamp": "00:06:12.040",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0095",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 95,
+      "start": 372.9,
+      "end": 373.18,
+      "duration": 0.28,
+      "startTimestamp": "00:06:12.900",
+      "endTimestamp": "00:06:13.180",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0096",
+    "text": "Now, let's move ahead and start talking about some margin and padding.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 96,
+      "start": 373.58,
+      "end": 377.5,
+      "duration": 3.92,
+      "startTimestamp": "00:06:13.580",
+      "endTimestamp": "00:06:17.500",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0097",
+    "text": "So, for understanding margin and padding let me just simply go to my cards property and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 97,
+      "start": 377.8,
+      "end": 383.599,
+      "duration": 5.799,
+      "startTimestamp": "00:06:17.800",
+      "endTimestamp": "00:06:23.599",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0098",
+    "text": "you will see we have padding of 16, but if I just change the value to 20 you will see",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 98,
+      "start": 383.6,
+      "end": 389.68,
+      "duration": 6.08,
+      "startTimestamp": "00:06:23.600",
+      "endTimestamp": "00:06:29.680",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0099",
+    "text": "this is how they look.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 99,
+      "start": 389.819,
+      "end": 390.919,
+      "duration": 1.1,
+      "startTimestamp": "00:06:29.819",
+      "endTimestamp": "00:06:30.919",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0100",
+    "text": "In same way I also have a margin again like if you have padding so you have all the directions",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 100,
+      "start": 391.4,
+      "end": 398.52,
+      "duration": 7.12,
+      "startTimestamp": "00:06:31.400",
+      "endTimestamp": "00:06:38.520",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0101",
+    "text": "you have padding top you have padding bottom, padding left, padding right you got the point.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 101,
+      "start": 399.099,
+      "end": 404.24,
+      "duration": 5.141,
+      "startTimestamp": "00:06:39.099",
+      "endTimestamp": "00:06:44.240",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0102",
+    "text": "In the same way we have margin, let's say if I just add a margin of 20 and save it,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 102,
+      "start": 404.5,
+      "end": 410.64,
+      "duration": 6.14,
+      "startTimestamp": "00:06:44.500",
+      "endTimestamp": "00:06:50.640",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0103",
+    "text": "so you have definitely seen the shift towards up, no problem.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 103,
+      "start": 410.96,
+      "end": 416.14,
+      "duration": 5.18,
+      "startTimestamp": "00:06:50.960",
+      "endTimestamp": "00:06:56.140",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0104",
+    "text": "Margin is basically for outside space.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 104,
+      "start": 416.74,
+      "end": 419.28,
+      "duration": 2.54,
+      "startTimestamp": "00:06:56.740",
+      "endTimestamp": "00:06:59.280",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0105",
+    "text": "and padding is for inside space.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 105,
+      "start": 419.7,
+      "end": 422.1,
+      "duration": 2.4,
+      "startTimestamp": "00:06:59.700",
+      "endTimestamp": "00:07:02.100",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0106",
+    "text": "This is just a basic CSS property.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 106,
+      "start": 422.64,
+      "end": 425.06,
+      "duration": 2.42,
+      "startTimestamp": "00:07:02.640",
+      "endTimestamp": "00:07:05.060",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0107",
+    "text": "I am just again giving you a basic overview how you can write it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 107,
+      "start": 425.32,
+      "end": 431.02,
+      "duration": 5.7,
+      "startTimestamp": "00:07:05.320",
+      "endTimestamp": "00:07:11.020",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0108",
+    "text": "Perfect. Again, this is not a detailed CSS course.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 108,
+      "start": 431.2,
+      "end": 434.06,
+      "duration": 2.86,
+      "startTimestamp": "00:07:11.200",
+      "endTimestamp": "00:07:14.060",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0109",
+    "text": "I am just giving you an overview.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 109,
+      "start": 434.68,
+      "end": 436.08,
+      "duration": 1.4,
+      "startTimestamp": "00:07:14.680",
+      "endTimestamp": "00:07:16.080",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0110",
+    "text": "You can take this as a bonus.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 110,
+      "start": 437.02,
+      "end": 438.68,
+      "duration": 1.66,
+      "startTimestamp": "00:07:17.020",
+      "endTimestamp": "00:07:18.680",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0111",
+    "text": "Now, let's move ahead and how you can basically style your text.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 111,
+      "start": 440.16,
+      "end": 443.92,
+      "duration": 3.76,
+      "startTimestamp": "00:07:20.160",
+      "endTimestamp": "00:07:23.920",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0112",
+    "text": "So this is your text.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 112,
+      "start": 444.18,
+      "end": 445.04,
+      "duration": 0.86,
+      "startTimestamp": "00:07:24.180",
+      "endTimestamp": "00:07:25.040",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0113",
+    "text": "Now, let's see how you can basically style your text.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 113,
+      "start": 445.36,
+      "end": 448.18,
+      "duration": 2.82,
+      "startTimestamp": "00:07:25.360",
+      "endTimestamp": "00:07:28.180",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0114",
+    "text": "First property we already know font size, like if I just make it 26, so the font size",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 114,
+      "start": 448.74,
+      "end": 453.68,
+      "duration": 4.94,
+      "startTimestamp": "00:07:28.740",
+      "endTimestamp": "00:07:33.680",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0115",
+    "text": "become large.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 115,
+      "start": 453.681,
+      "end": 454.38,
+      "duration": 0.699,
+      "startTimestamp": "00:07:33.681",
+      "endTimestamp": "00:07:34.380",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0116",
+    "text": "In the same way, we have font weight and inside the font weight, you will see we have 100",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 116,
+      "start": 455.7,
+      "end": 461.4,
+      "duration": 5.7,
+      "startTimestamp": "00:07:35.700",
+      "endTimestamp": "00:07:41.400",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0117",
+    "text": "to 900, then black, bold and condensed.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 117,
+      "start": 461.56,
+      "end": 464.06,
+      "duration": 2.5,
+      "startTimestamp": "00:07:41.560",
+      "endTimestamp": "00:07:44.060",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0118",
+    "text": "If I just simply write condensed, this is how they look.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 118,
+      "start": 464.18,
+      "end": 467.38,
+      "duration": 3.2,
+      "startTimestamp": "00:07:44.180",
+      "endTimestamp": "00:07:47.380",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0119",
+    "text": "If I write bold, this is how they look.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 119,
+      "start": 467.7,
+      "end": 469.82,
+      "duration": 2.12,
+      "startTimestamp": "00:07:47.700",
+      "endTimestamp": "00:07:49.820",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0120",
+    "text": "And in the same way, we have 900 to 900.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 120,
+      "start": 470.58,
+      "end": 478.28,
+      "duration": 7.7,
+      "startTimestamp": "00:07:50.580",
+      "endTimestamp": "00:07:58.280",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0121",
+    "text": "We have 800, 500, 700, the weight of your font.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 121,
+      "start": 478.281,
+      "end": 479.759,
+      "duration": 1.478,
+      "startTimestamp": "00:07:58.281",
+      "endTimestamp": "00:07:59.759",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0122",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 122,
+      "start": 480.199,
+      "end": 480.5,
+      "duration": 0.301,
+      "startTimestamp": "00:08:00.199",
+      "endTimestamp": "00:08:00.500",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0123",
+    "text": "In same way, we also have a color.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 123,
+      "start": 481.58,
+      "end": 483.58,
+      "duration": 2,
+      "startTimestamp": "00:08:01.580",
+      "endTimestamp": "00:08:03.580",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0124",
+    "text": "This is how you can basically control the color of your properties.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 124,
+      "start": 484.199,
+      "end": 487.4,
+      "duration": 3.201,
+      "startTimestamp": "00:08:04.199",
+      "endTimestamp": "00:08:07.400",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0125",
+    "text": "So if I just simply write #333, so you will see the change of the color.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 125,
+      "start": 487.81,
+      "end": 492.94,
+      "duration": 5.13,
+      "startTimestamp": "00:08:07.810",
+      "endTimestamp": "00:08:12.940",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0126",
+    "text": "Let me just shift it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 126,
+      "start": 493.62,
+      "end": 494.8,
+      "duration": 1.18,
+      "startTimestamp": "00:08:13.620",
+      "endTimestamp": "00:08:14.800",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0127",
+    "text": "Let me just try to write this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 127,
+      "start": 494.801,
+      "end": 497.44,
+      "duration": 2.639,
+      "startTimestamp": "00:08:14.801",
+      "endTimestamp": "00:08:17.440",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0128",
+    "text": "I don't know how it looks, but if I save it, yes, let me change it to white.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 128,
+      "start": 497.62,
+      "end": 502.62,
+      "duration": 5,
+      "startTimestamp": "00:08:17.620",
+      "endTimestamp": "00:08:22.620",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0129",
+    "text": "And if I save it, this is how they look.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 129,
+      "start": 503.34,
+      "end": 505.9,
+      "duration": 2.56,
+      "startTimestamp": "00:08:23.340",
+      "endTimestamp": "00:08:25.900",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0130",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 130,
+      "start": 506.74,
+      "end": 507.06,
+      "duration": 0.32,
+      "startTimestamp": "00:08:26.740",
+      "endTimestamp": "00:08:27.060",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0131",
+    "text": "In same way, we also have a line height.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 131,
+      "start": 507.56,
+      "end": 510.819,
+      "duration": 3.259,
+      "startTimestamp": "00:08:27.560",
+      "endTimestamp": "00:08:30.819",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0132",
+    "text": "Let's see if I just added a line height of 22.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 132,
+      "start": 511.139,
+      "end": 513.399,
+      "duration": 2.26,
+      "startTimestamp": "00:08:31.139",
+      "endTimestamp": "00:08:33.399",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0133",
+    "text": "So the height of all the characters that you have between them kind of perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 133,
+      "start": 514.019,
+      "end": 518.899,
+      "duration": 4.88,
+      "startTimestamp": "00:08:34.019",
+      "endTimestamp": "00:08:38.899",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0134",
+    "text": "So, text style only work inside the text component.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 134,
+      "start": 520.9,
+      "end": 524.46,
+      "duration": 3.56,
+      "startTimestamp": "00:08:40.900",
+      "endTimestamp": "00:08:44.460",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0135",
+    "text": "So, make sure to keep that in mind like we have text height in same way we have text",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 135,
+      "start": 524.461,
+      "end": 531.08,
+      "duration": 6.619,
+      "startTimestamp": "00:08:44.461",
+      "endTimestamp": "00:08:51.080",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0136",
+    "text": "align as well like if I just added the left here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 136,
+      "start": 531.26,
+      "end": 534.6,
+      "duration": 3.34,
+      "startTimestamp": "00:08:51.260",
+      "endTimestamp": "00:08:54.600",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0137",
+    "text": "So, text will align in left if they have space if we have multiple text here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 137,
+      "start": 534.66,
+      "end": 539.84,
+      "duration": 5.18,
+      "startTimestamp": "00:08:54.660",
+      "endTimestamp": "00:08:59.840",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0138",
+    "text": "Let me see if I just added here lorem30 and added this so you will see all your text is",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 138,
+      "start": 541.48,
+      "end": 547.76,
+      "duration": 6.28,
+      "startTimestamp": "00:09:01.480",
+      "endTimestamp": "00:09:07.760",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0139",
+    "text": "aligned towards left for now.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 139,
+      "start": 547.8,
+      "end": 550.2,
+      "duration": 2.4,
+      "startTimestamp": "00:09:07.800",
+      "endTimestamp": "00:09:10.200",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0140",
+    "text": "And if I just make this in center you will see we are in center now.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 140,
+      "start": 551.54,
+      "end": 557.62,
+      "duration": 6.08,
+      "startTimestamp": "00:09:11.540",
+      "endTimestamp": "00:09:17.620",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0141",
+    "text": "In same way if I change this to right we are aligned towards right.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 141,
+      "start": 557.9,
+      "end": 563.52,
+      "duration": 5.62,
+      "startTimestamp": "00:09:17.900",
+      "endTimestamp": "00:09:23.520",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0142",
+    "text": "So I hope so I am making sense.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 142,
+      "start": 563.86,
+      "end": 565.6,
+      "duration": 1.74,
+      "startTimestamp": "00:09:23.860",
+      "endTimestamp": "00:09:25.600",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0143",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 143,
+      "start": 566.66,
+      "end": 567.22,
+      "duration": 0.56,
+      "startTimestamp": "00:09:26.660",
+      "endTimestamp": "00:09:27.220",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0144",
+    "text": "Line height, if I just add a 10, so this is how they look if I add just a 100.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 144,
+      "start": 568.16,
+      "end": 573.22,
+      "duration": 5.06,
+      "startTimestamp": "00:09:28.160",
+      "endTimestamp": "00:09:33.220",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0145",
+    "text": "So this is how much spacing that we have.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 145,
+      "start": 573.519,
+      "end": 576.3,
+      "duration": 2.781,
+      "startTimestamp": "00:09:33.519",
+      "endTimestamp": "00:09:36.300",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0146",
+    "text": "34 is a sweet spot.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 146,
+      "start": 576.86,
+      "end": 578.72,
+      "duration": 1.86,
+      "startTimestamp": "00:09:36.860",
+      "endTimestamp": "00:09:38.720",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0147",
+    "text": "I think yes, I can definitely change the size of my text and boom, this is how they look.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 147,
+      "start": 579.18,
+      "end": 585.819,
+      "duration": 6.639,
+      "startTimestamp": "00:09:39.180",
+      "endTimestamp": "00:09:45.819",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0148",
+    "text": "And let me just shift towards left.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 148,
+      "start": 586.56,
+      "end": 588.759,
+      "duration": 2.199,
+      "startTimestamp": "00:09:46.560",
+      "endTimestamp": "00:09:48.759",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0149",
+    "text": "Perfect and we can go with 24.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 149,
+      "start": 590.1,
+      "end": 592.38,
+      "duration": 2.28,
+      "startTimestamp": "00:09:50.100",
+      "endTimestamp": "00:09:52.380",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0150",
+    "text": "Yeah, this is pretty much it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 150,
+      "start": 592.94,
+      "end": 594.66,
+      "duration": 1.72,
+      "startTimestamp": "00:09:52.940",
+      "endTimestamp": "00:09:54.660",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0151",
+    "text": "So how you can basically handle your text properties in same way, we also have some",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 151,
+      "start": 595.18,
+      "end": 601.96,
+      "duration": 6.78,
+      "startTimestamp": "00:09:55.180",
+      "endTimestamp": "00:10:01.960",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0152",
+    "text": "properties related to views.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 152,
+      "start": 602.12,
+      "end": 603.8,
+      "duration": 1.68,
+      "startTimestamp": "00:10:02.120",
+      "endTimestamp": "00:10:03.800",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0153",
+    "text": "Let's say this is your container.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 153,
+      "start": 604.92,
+      "end": 606.18,
+      "duration": 1.26,
+      "startTimestamp": "00:10:04.920",
+      "endTimestamp": "00:10:06.180",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0154",
+    "text": "So inside the container, I mean card is also a container.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 154,
+      "start": 606.88,
+      "end": 610.4,
+      "duration": 3.52,
+      "startTimestamp": "00:10:06.880",
+      "endTimestamp": "00:10:10.400",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0155",
+    "text": "You can definitely manage that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 155,
+      "start": 610.62,
+      "end": 612.16,
+      "duration": 1.54,
+      "startTimestamp": "00:10:10.620",
+      "endTimestamp": "00:10:12.160",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0156",
+    "text": "So this is how you can change background color.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 156,
+      "start": 612.161,
+      "end": 614.3,
+      "duration": 2.139,
+      "startTimestamp": "00:10:12.161",
+      "endTimestamp": "00:10:14.300",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0157",
+    "text": "This is how you can add paddings.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 157,
+      "start": 614.6,
+      "end": 616.779,
+      "duration": 2.179,
+      "startTimestamp": "00:10:14.600",
+      "endTimestamp": "00:10:16.779",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0158",
+    "text": "This is how you can add margins.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 158,
+      "start": 617.38,
+      "end": 619.079,
+      "duration": 1.699,
+      "startTimestamp": "00:10:17.380",
+      "endTimestamp": "00:10:19.079",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0159",
+    "text": "This is how you can add border radius.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 159,
+      "start": 619.319,
+      "end": 621,
+      "duration": 1.681,
+      "startTimestamp": "00:10:19.319",
+      "endTimestamp": "00:10:21.000",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0160",
+    "text": "So if I just change this to 20, this is how they look.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 160,
+      "start": 621.779,
+      "end": 626.1,
+      "duration": 4.321,
+      "startTimestamp": "00:10:21.779",
+      "endTimestamp": "00:10:26.100",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0161",
+    "text": "10 is fine.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 161,
+      "start": 626.62,
+      "end": 627.6,
+      "duration": 0.98,
+      "startTimestamp": "00:10:26.620",
+      "endTimestamp": "00:10:27.600",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0162",
+    "text": "In same way, we also have border color.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 162,
+      "start": 628.68,
+      "end": 632.42,
+      "duration": 3.74,
+      "startTimestamp": "00:10:28.680",
+      "endTimestamp": "00:10:32.420",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0163",
+    "text": "And let me change this color to #DDDD.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 163,
+      "start": 632.9,
+      "end": 636.86,
+      "duration": 3.96,
+      "startTimestamp": "00:10:32.900",
+      "endTimestamp": "00:10:36.860",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0164",
+    "text": "This will not show to us.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 164,
+      "start": 637.46,
+      "end": 638.76,
+      "duration": 1.3,
+      "startTimestamp": "00:10:37.460",
+      "endTimestamp": "00:10:38.760",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0165",
+    "text": "Let me change this color to red.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 165,
+      "start": 639.38,
+      "end": 641.14,
+      "duration": 1.76,
+      "startTimestamp": "00:10:39.380",
+      "endTimestamp": "00:10:41.140",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0166",
+    "text": "Maybe we'll see that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 166,
+      "start": 641.92,
+      "end": 643,
+      "duration": 1.08,
+      "startTimestamp": "00:10:41.920",
+      "endTimestamp": "00:10:43.000",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0167",
+    "text": "All right.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 167,
+      "start": 643.12,
+      "end": 643.34,
+      "duration": 0.22,
+      "startTimestamp": "00:10:43.120",
+      "endTimestamp": "00:10:43.340",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0168",
+    "text": "We need to add definitely the border width.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 168,
+      "start": 643.36,
+      "end": 645.76,
+      "duration": 2.4,
+      "startTimestamp": "00:10:43.360",
+      "endTimestamp": "00:10:45.760",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0169",
+    "text": "So this is how you can add border width.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 169,
+      "start": 646.06,
+      "end": 649.62,
+      "duration": 3.56,
+      "startTimestamp": "00:10:46.060",
+      "endTimestamp": "00:10:49.620",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0170",
+    "text": "And if I save it, yes, now I hope you guys are able to see that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 170,
+      "start": 650.22,
+      "end": 654.34,
+      "duration": 4.12,
+      "startTimestamp": "00:10:50.220",
+      "endTimestamp": "00:10:54.340",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0171",
+    "text": "And this is how they look.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 171,
+      "start": 654.58,
+      "end": 655.78,
+      "duration": 1.2,
+      "startTimestamp": "00:10:54.580",
+      "endTimestamp": "00:10:55.780",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0172",
+    "text": "Perfect, no problem, easy, very easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 172,
+      "start": 657.4590000000001,
+      "end": 661.459,
+      "duration": 4,
+      "startTimestamp": "00:10:57.459",
+      "endTimestamp": "00:11:01.459",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0173",
+    "text": "You have border width, you have border color, you have border radius, background color and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 173,
+      "start": 662,
+      "end": 666.62,
+      "duration": 4.62,
+      "startTimestamp": "00:11:02.000",
+      "endTimestamp": "00:11:06.620",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0174",
+    "text": "yeah, this is how you can basically handle them.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 174,
+      "start": 666.8,
+      "end": 669.74,
+      "duration": 2.94,
+      "startTimestamp": "00:11:06.800",
+      "endTimestamp": "00:11:09.740",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0175",
+    "text": "In same way for images, let's say you are using image, let me just import it below this,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 175,
+      "start": 670.3,
+      "end": 677.5,
+      "duration": 7.2,
+      "startTimestamp": "00:11:10.300",
+      "endTimestamp": "00:11:17.500",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0176",
+    "text": "let me paste it, let me import image.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 176,
+      "start": 677.68,
+      "end": 680.279,
+      "duration": 2.599,
+      "startTimestamp": "00:11:17.680",
+      "endTimestamp": "00:11:20.279",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0177",
+    "text": "And let me add a design for image.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 177,
+      "start": 682.22,
+      "end": 685.52,
+      "duration": 3.3,
+      "startTimestamp": "00:11:22.220",
+      "endTimestamp": "00:11:25.520",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0178",
+    "text": "So below this, let me use image property.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 178,
+      "start": 685.9,
+      "end": 689.46,
+      "duration": 3.56,
+      "startTimestamp": "00:11:25.900",
+      "endTimestamp": "00:11:29.460",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0179",
+    "text": "How I am using this image, you will see inside the styles dot image.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 179,
+      "start": 690.96,
+      "end": 695.42,
+      "duration": 4.46,
+      "startTimestamp": "00:11:30.960",
+      "endTimestamp": "00:11:35.420",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0180",
+    "text": "We have this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 180,
+      "start": 695.54,
+      "end": 696.82,
+      "duration": 1.28,
+      "startTimestamp": "00:11:35.540",
+      "endTimestamp": "00:11:36.820",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0181",
+    "text": "So I can definitely add the width.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 181,
+      "start": 697.78,
+      "end": 699.48,
+      "duration": 1.7,
+      "startTimestamp": "00:11:37.780",
+      "endTimestamp": "00:11:39.480",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0182",
+    "text": "Let's say let me make it 100.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 182,
+      "start": 699.9,
+      "end": 702.32,
+      "duration": 2.42,
+      "startTimestamp": "00:11:39.900",
+      "endTimestamp": "00:11:42.320",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0183",
+    "text": "Height is also 100.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 183,
+      "start": 703.06,
+      "end": 704.66,
+      "duration": 1.6,
+      "startTimestamp": "00:11:43.060",
+      "endTimestamp": "00:11:44.660",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0184",
+    "text": "And I can even add margin bottom, not margin block.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 184,
+      "start": 705.66,
+      "end": 708.84,
+      "duration": 3.18,
+      "startTimestamp": "00:11:45.660",
+      "endTimestamp": "00:11:48.840",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0185",
+    "text": "10, margin bottom of 10 and if I save it, this is how they are going to look.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 185,
+      "start": 709.6,
+      "end": 715.74,
+      "duration": 6.14,
+      "startTimestamp": "00:11:49.600",
+      "endTimestamp": "00:11:55.740",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0186",
+    "text": "I hope so it's very easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 186,
+      "start": 717.62,
+      "end": 719.3389999999999,
+      "duration": 1.719,
+      "startTimestamp": "00:11:57.620",
+      "endTimestamp": "00:11:59.339",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0187",
+    "text": "In same way, we have a bunch of resize mode like you will see that we have a resize mode",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 187,
+      "start": 720.019,
+      "end": 726.6,
+      "duration": 6.581,
+      "startTimestamp": "00:12:00.019",
+      "endTimestamp": "00:12:06.600",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0188",
+    "text": "We have the cover and we have repeat, we have stretch, a lot of other properties as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 188,
+      "start": 727.7,
+      "end": 734.48,
+      "duration": 6.78,
+      "startTimestamp": "00:12:07.700",
+      "endTimestamp": "00:12:14.480",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0189",
+    "text": "You can definitely play around them and see the different behavior of different resize",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 189,
+      "start": 734.6,
+      "end": 740.24,
+      "duration": 5.64,
+      "startTimestamp": "00:12:14.600",
+      "endTimestamp": "00:12:20.240",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0190",
+    "text": "mode.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 190,
+      "start": 740.28,
+      "end": 740.58,
+      "duration": 0.3,
+      "startTimestamp": "00:12:20.280",
+      "endTimestamp": "00:12:20.580",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0191",
+    "text": "Now take that as an assignment and do it by yourself.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 191,
+      "start": 741.02,
+      "end": 743.66,
+      "duration": 2.64,
+      "startTimestamp": "00:12:21.020",
+      "endTimestamp": "00:12:23.660",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0192",
+    "text": "Easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 192,
+      "start": 744.699,
+      "end": 745.259,
+      "duration": 0.56,
+      "startTimestamp": "00:12:24.699",
+      "endTimestamp": "00:12:25.259",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0193",
+    "text": "In same way, we also have something related to shadows and elevation.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 193,
+      "start": 745.88,
+      "end": 750.22,
+      "duration": 4.34,
+      "startTimestamp": "00:12:25.880",
+      "endTimestamp": "00:12:30.220",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0194",
+    "text": "So shadow work differently on different platform.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 194,
+      "start": 750.38,
+      "end": 752.819,
+      "duration": 2.439,
+      "startTimestamp": "00:12:30.380",
+      "endTimestamp": "00:12:32.819",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0195",
+    "text": "Like how you can add a shadow like whenever you cross platform you are working.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 195,
+      "start": 754.139,
+      "end": 758.199,
+      "duration": 4.06,
+      "startTimestamp": "00:12:34.139",
+      "endTimestamp": "00:12:38.199",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0196",
+    "text": "Let's say this is your card.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 196,
+      "start": 758.44,
+      "end": 759.36,
+      "duration": 0.92,
+      "startTimestamp": "00:12:38.440",
+      "endTimestamp": "00:12:39.360",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0197",
+    "text": "Let me change this to white or maybe this color.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 197,
+      "start": 760.259,
+      "end": 764.12,
+      "duration": 3.861,
+      "startTimestamp": "00:12:40.259",
+      "endTimestamp": "00:12:44.120",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0198",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 198,
+      "start": 764.86,
+      "end": 765.12,
+      "duration": 0.26,
+      "startTimestamp": "00:12:44.860",
+      "endTimestamp": "00:12:45.120",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0199",
+    "text": "And let me change my text color as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 199,
+      "start": 765.74,
+      "end": 768.36,
+      "duration": 2.62,
+      "startTimestamp": "00:12:45.740",
+      "endTimestamp": "00:12:48.360",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0200",
+    "text": "Let me make this no problem easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 200,
+      "start": 769.84,
+      "end": 773,
+      "duration": 3.16,
+      "startTimestamp": "00:12:49.840",
+      "endTimestamp": "00:12:53.000",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0201",
+    "text": "Let me remove my border and border color.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 201,
+      "start": 773.86,
+      "end": 776.04,
+      "duration": 2.18,
+      "startTimestamp": "00:12:53.860",
+      "endTimestamp": "00:12:56.040",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0202",
+    "text": "This is what I am looking for.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 202,
+      "start": 776.54,
+      "end": 778.88,
+      "duration": 2.34,
+      "startTimestamp": "00:12:56.540",
+      "endTimestamp": "00:12:58.880",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0203",
+    "text": "Let me make it full FFF so that I can see it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 203,
+      "start": 778.98,
+      "end": 785.02,
+      "duration": 6.04,
+      "startTimestamp": "00:12:58.980",
+      "endTimestamp": "00:13:05.020",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0204",
+    "text": "Yes, now I hope so this is visible.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 204,
+      "start": 785.22,
+      "end": 786.86,
+      "duration": 1.64,
+      "startTimestamp": "00:13:05.220",
+      "endTimestamp": "00:13:06.860",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0205",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 205,
+      "start": 788.16,
+      "end": 788.48,
+      "duration": 0.32,
+      "startTimestamp": "00:13:08.160",
+      "endTimestamp": "00:13:08.480",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0206",
+    "text": "No problem.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 206,
+      "start": 789.1,
+      "end": 789.7,
+      "duration": 0.6,
+      "startTimestamp": "00:13:09.100",
+      "endTimestamp": "00:13:09.700",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0207",
+    "text": "Now, let me show you how you can add a shadow into your Android.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 207,
+      "start": 789.9,
+      "end": 794.5,
+      "duration": 4.6,
+      "startTimestamp": "00:13:09.900",
+      "endTimestamp": "00:13:14.500",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0208",
+    "text": "So, inside adding Android like I cannot spin iOS into it, but do not worry.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 208,
+      "start": 794.78,
+      "end": 801.88,
+      "duration": 7.1,
+      "startTimestamp": "00:13:14.780",
+      "endTimestamp": "00:13:21.880",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0209",
+    "text": "We have an Android shadow.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 209,
+      "start": 802.62,
+      "end": 804.06,
+      "duration": 1.44,
+      "startTimestamp": "00:13:22.620",
+      "endTimestamp": "00:13:24.060",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0210",
+    "text": "Let us say elevation and then elevation is going to be 5.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 210,
+      "start": 804.36,
+      "end": 808.62,
+      "duration": 4.26,
+      "startTimestamp": "00:13:24.360",
+      "endTimestamp": "00:13:28.620",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0211",
+    "text": "And, if I save it, look at that how beautifully I am able to add shadow here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 211,
+      "start": 808.8,
+      "end": 815.56,
+      "duration": 6.76,
+      "startTimestamp": "00:13:28.800",
+      "endTimestamp": "00:13:35.560",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0212",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 212,
+      "start": 816,
+      "end": 816.3,
+      "duration": 0.3,
+      "startTimestamp": "00:13:36.000",
+      "endTimestamp": "00:13:36.300",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0213",
+    "text": "In same way, let's say you are working on iOS device.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 213,
+      "start": 817.04,
+      "end": 819.92,
+      "duration": 2.88,
+      "startTimestamp": "00:13:37.040",
+      "endTimestamp": "00:13:39.920",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0214",
+    "text": "So, for adding a shadow into iOS device.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 214,
+      "start": 820.0889999999999,
+      "end": 823.32,
+      "duration": 3.231,
+      "startTimestamp": "00:13:40.089",
+      "endTimestamp": "00:13:43.320",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0215",
+    "text": "You simply need to write this much of code.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 215,
+      "start": 824.3,
+      "end": 827.519,
+      "duration": 3.219,
+      "startTimestamp": "00:13:44.300",
+      "endTimestamp": "00:13:47.519",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0216",
+    "text": "This is not simple like shadow color, the name, the color of the shadow you want, the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 216,
+      "start": 828.16,
+      "end": 834.16,
+      "duration": 6,
+      "startTimestamp": "00:13:48.160",
+      "endTimestamp": "00:13:54.160",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0217",
+    "text": "shadow offset like the position basically how much you wanted to show that, the opacity,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 217,
+      "start": 834.22,
+      "end": 840.54,
+      "duration": 6.32,
+      "startTimestamp": "00:13:54.220",
+      "endTimestamp": "00:14:00.540",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0218",
+    "text": "the radius, but whenever you are working with Android, this is what you need to write.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 218,
+      "start": 841.16,
+      "end": 846.06,
+      "duration": 4.9,
+      "startTimestamp": "00:14:01.160",
+      "endTimestamp": "00:14:06.060",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0219",
+    "text": "Easy, so basically for adding shadow inside your iOS, you need to write this and adding",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 219,
+      "start": 846.4,
+      "end": 853.9,
+      "duration": 7.5,
+      "startTimestamp": "00:14:06.400",
+      "endTimestamp": "00:14:13.900",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0220",
+    "text": "shadow inside Android, you need to write only this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 220,
+      "start": 853.94,
+      "end": 857.3,
+      "duration": 3.36,
+      "startTimestamp": "00:14:13.940",
+      "endTimestamp": "00:14:17.300",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0221",
+    "text": "And again, one very important point to mention once again, React Native for now does not",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 221,
+      "start": 858.08,
+      "end": 863.92,
+      "duration": 5.84,
+      "startTimestamp": "00:14:18.080",
+      "endTimestamp": "00:14:23.920",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0222",
+    "text": "support CSS grid, they only use Flexbox.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 222,
+      "start": 864,
+      "end": 867.06,
+      "duration": 3.06,
+      "startTimestamp": "00:14:24.000",
+      "endTimestamp": "00:14:27.060",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0223",
+    "text": "Perfect, so the if I just simply tell you the key takeaway of this class like we have",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 223,
+      "start": 867.1,
+      "end": 873.699,
+      "duration": 6.599,
+      "startTimestamp": "00:14:27.100",
+      "endTimestamp": "00:14:33.699",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0224",
+    "text": "seen that how you can styling or you can style with the help of JS, so styling JS based.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 224,
+      "start": 873.7,
+      "end": 881.759,
+      "duration": 8.059,
+      "startTimestamp": "00:14:33.700",
+      "endTimestamp": "00:14:41.759",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0225",
+    "text": "And second is flex.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 225,
+      "start": 882.8,
+      "end": 884.4590000000001,
+      "duration": 1.659,
+      "startTimestamp": "00:14:42.800",
+      "endTimestamp": "00:14:44.459",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0226",
+    "text": "Box is the only layout system, no problem.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 226,
+      "start": 885.1,
+      "end": 889.98,
+      "duration": 4.88,
+      "startTimestamp": "00:14:45.100",
+      "endTimestamp": "00:14:49.980",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0227",
+    "text": "Third, we have seen text, view, image have different style props as I shown you there.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 227,
+      "start": 890.399,
+      "end": 896.18,
+      "duration": 5.781,
+      "startTimestamp": "00:14:50.399",
+      "endTimestamp": "00:14:56.180",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0228",
+    "text": "Like we have text, we have view, we have image, they all have different style props.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 228,
+      "start": 896.62,
+      "end": 901.74,
+      "duration": 5.12,
+      "startTimestamp": "00:14:56.620",
+      "endTimestamp": "00:15:01.740",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0229",
+    "text": "No grid support.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 229,
+      "start": 902.959,
+      "end": 904,
+      "duration": 1.041,
+      "startTimestamp": "00:15:02.959",
+      "endTimestamp": "00:15:04.000",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0230",
+    "text": "And then practice is more important than memorizing.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 230,
+      "start": 904.9,
+      "end": 909.52,
+      "duration": 4.62,
+      "startTimestamp": "00:15:04.900",
+      "endTimestamp": "00:15:09.520",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0231",
+    "text": "So yes, make sure to keep in mind you need not to memorize any of this property, any",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 231,
+      "start": 909.72,
+      "end": 915.7,
+      "duration": 5.98,
+      "startTimestamp": "00:15:09.720",
+      "endTimestamp": "00:15:15.700",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0232",
+    "text": "of the syntax of it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 232,
+      "start": 915.701,
+      "end": 916.9,
+      "duration": 1.199,
+      "startTimestamp": "00:15:15.701",
+      "endTimestamp": "00:15:16.900",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0233",
+    "text": "You just write as much code as you can.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 233,
+      "start": 917.34,
+      "end": 920.28,
+      "duration": 2.94,
+      "startTimestamp": "00:15:17.340",
+      "endTimestamp": "00:15:20.280",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0234",
+    "text": "And ultimately you will see that yes, now I'm able to write and I'm able to build my",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 234,
+      "start": 920.6,
+      "end": 925.52,
+      "duration": 4.92,
+      "startTimestamp": "00:15:20.600",
+      "endTimestamp": "00:15:25.520",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0235",
+    "text": "application.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 235,
+      "start": 925.521,
+      "end": 925.96,
+      "duration": 0.439,
+      "startTimestamp": "00:15:25.521",
+      "endTimestamp": "00:15:25.960",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0236",
+    "text": "So, in next chapter, we are basically going to create a mini project.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 236,
+      "start": 926,
+      "end": 929.74,
+      "duration": 3.74,
+      "startTimestamp": "00:15:26.000",
+      "endTimestamp": "00:15:29.740",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0237",
+    "text": "Yes, this is time for mini project.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 237,
+      "start": 930.26,
+      "end": 931.94,
+      "duration": 1.68,
+      "startTimestamp": "00:15:30.260",
+      "endTimestamp": "00:15:31.940",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0238",
+    "text": "Inside that mini project, we are going to make a photo gallery where you can basically",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 238,
+      "start": 932.42,
+      "end": 938.54,
+      "duration": 6.12,
+      "startTimestamp": "00:15:32.420",
+      "endTimestamp": "00:15:38.540",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0239",
+    "text": "show all your galleries into it properly.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 239,
+      "start": 938.64,
+      "end": 940.84,
+      "duration": 2.2,
+      "startTimestamp": "00:15:38.640",
+      "endTimestamp": "00:15:40.840",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0240",
+    "text": "We will see that how much creativity I can add into it and give you a very, very, very",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 240,
+      "start": 941.26,
+      "end": 946.8,
+      "duration": 5.54,
+      "startTimestamp": "00:15:41.260",
+      "endTimestamp": "00:15:46.800",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0241",
+    "text": "beautiful mini project.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 241,
+      "start": 947,
+      "end": 948.5,
+      "duration": 1.5,
+      "startTimestamp": "00:15:47.000",
+      "endTimestamp": "00:15:48.500",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_0242",
+    "text": "So, yeah, this is pretty much it for this chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "fileName": "03_porps-style-props_epm.vtt",
+      "captionIndex": 242,
+      "start": 948.88,
+      "end": 953.16,
+      "duration": 4.28,
+      "startTimestamp": "00:15:48.880",
+      "endTimestamp": "00:15:53.160",
+      "estimatedTokens": 20
+    }
+  }
+]

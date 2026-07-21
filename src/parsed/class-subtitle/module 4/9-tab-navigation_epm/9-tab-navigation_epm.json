@@ -1,0 +1,1959 @@
+[
+  {
+    "id": "9-tab-navigation_epm_0001",
+    "text": "Alright everyone and welcome to one more new lecture.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 1,
+      "start": 0.12,
+      "end": 3.7,
+      "duration": 3.58,
+      "startTimestamp": "00:00:00.120",
+      "endTimestamp": "00:00:03.700",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0002",
+    "text": "In this lecture, we are going to talk about tab navigation inside export outer.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 2,
+      "start": 3.88,
+      "end": 8.56,
+      "duration": 4.68,
+      "startTimestamp": "00:00:03.880",
+      "endTimestamp": "00:00:08.560",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0003",
+    "text": "So much like stack, you can implement tab navigator in your layout file and all the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 3,
+      "start": 9.32,
+      "end": 14.88,
+      "duration": 5.56,
+      "startTimestamp": "00:00:09.320",
+      "endTimestamp": "00:00:14.880",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0004",
+    "text": "routes directly inside that directory will be treated as a tab.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 4,
+      "start": 14.92,
+      "end": 19.48,
+      "duration": 4.56,
+      "startTimestamp": "00:00:14.920",
+      "endTimestamp": "00:00:19.480",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0005",
+    "text": "Simple as that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 5,
+      "start": 19.78,
+      "end": 20.36,
+      "duration": 0.58,
+      "startTimestamp": "00:00:19.780",
+      "endTimestamp": "00:00:20.360",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0006",
+    "text": "Consider the following structure.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 6,
+      "start": 21.16,
+      "end": 22.42,
+      "duration": 1.26,
+      "startTimestamp": "00:00:21.160",
+      "endTimestamp": "00:00:22.420",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0007",
+    "text": "So let's start with this structure.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 7,
+      "start": 22.78,
+      "end": 24.48,
+      "duration": 1.7,
+      "startTimestamp": "00:00:22.780",
+      "endTimestamp": "00:00:24.480",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0008",
+    "text": "So, for that I have already created one more new folder with the name of tab navigation",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 8,
+      "start": 25,
+      "end": 30.24,
+      "duration": 5.24,
+      "startTimestamp": "00:00:25.000",
+      "endTimestamp": "00:00:30.240",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0009",
+    "text": "and initialize a expo project with resetted project, cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 9,
+      "start": 30.9,
+      "end": 35.34,
+      "duration": 4.44,
+      "startTimestamp": "00:00:30.900",
+      "endTimestamp": "00:00:35.340",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0010",
+    "text": "So, we only have this and a basic layout as well, perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 10,
+      "start": 36,
+      "end": 40.44,
+      "duration": 4.44,
+      "startTimestamp": "00:00:36.000",
+      "endTimestamp": "00:00:40.440",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0011",
+    "text": "So, for implementing tabs, you need to, I mean, this is a good practice and this is",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 11,
+      "start": 40.7,
+      "end": 45.88,
+      "duration": 5.18,
+      "startTimestamp": "00:00:40.700",
+      "endTimestamp": "00:00:45.880",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0012",
+    "text": "how you should always create it, you need to create a route group named as tabs and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 12,
+      "start": 45.92,
+      "end": 50.48,
+      "duration": 4.56,
+      "startTimestamp": "00:00:45.920",
+      "endTimestamp": "00:00:50.480",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0013",
+    "text": "inside this, let us try to copy this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 13,
+      "start": 50.6,
+      "end": 54.14,
+      "duration": 3.54,
+      "startTimestamp": "00:00:50.600",
+      "endTimestamp": "00:00:54.140",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0014",
+    "text": "So we have index, feed and profile, all right.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 14,
+      "start": 54.18,
+      "end": 56.78,
+      "duration": 2.6,
+      "startTimestamp": "00:00:54.180",
+      "endTimestamp": "00:00:56.780",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0015",
+    "text": "So let me simply create index.tsx, feed.tsx and profile.tsx.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 15,
+      "start": 57.9,
+      "end": 64.099,
+      "duration": 6.199,
+      "startTimestamp": "00:00:57.900",
+      "endTimestamp": "00:01:04.099",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0016",
+    "text": "TSX, alright.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 16,
+      "start": 65.7,
+      "end": 66.54,
+      "duration": 0.84,
+      "startTimestamp": "00:01:05.700",
+      "endTimestamp": "00:01:06.540",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0017",
+    "text": "And then let me try to copy this page.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 17,
+      "start": 67.95,
+      "end": 70.28,
+      "duration": 2.33,
+      "startTimestamp": "00:01:07.950",
+      "endTimestamp": "00:01:10.280",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0018",
+    "text": "And first of all, let me paste an index, same in feed and same in profile.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 18,
+      "start": 71.06,
+      "end": 76.62,
+      "duration": 5.56,
+      "startTimestamp": "00:01:11.060",
+      "endTimestamp": "00:01:16.620",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0019",
+    "text": "Let me change all of their name.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 19,
+      "start": 77,
+      "end": 78.52,
+      "duration": 1.52,
+      "startTimestamp": "00:01:17.000",
+      "endTimestamp": "00:01:18.520",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0020",
+    "text": "So for the tabs, index.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 20,
+      "start": 79.34,
+      "end": 80.78,
+      "duration": 1.44,
+      "startTimestamp": "00:01:19.340",
+      "endTimestamp": "00:01:20.780",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0021",
+    "text": "Let me just simply going to call this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 21,
+      "start": 81.53999999999999,
+      "end": 83.6,
+      "duration": 2.06,
+      "startTimestamp": "00:01:21.540",
+      "endTimestamp": "00:01:23.600",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0022",
+    "text": "Let me call it a home, perfect, copy this, change this to home.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 22,
+      "start": 84.1,
+      "end": 89.4,
+      "duration": 5.3,
+      "startTimestamp": "00:01:24.100",
+      "endTimestamp": "00:01:29.400",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0023",
+    "text": "For the feed, let me also going to change this to feed and let me call this a feed as",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 23,
+      "start": 90.2,
+      "end": 95.799,
+      "duration": 5.599,
+      "startTimestamp": "00:01:30.200",
+      "endTimestamp": "00:01:35.799",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0024",
+    "text": "well and same for profile.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 24,
+      "start": 95.88,
+      "end": 97.86,
+      "duration": 1.98,
+      "startTimestamp": "00:01:35.880",
+      "endTimestamp": "00:01:37.860",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0025",
+    "text": "So let me call this as a profile and change this index to profile.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 25,
+      "start": 98.299,
+      "end": 103.6,
+      "duration": 5.301,
+      "startTimestamp": "00:01:38.299",
+      "endTimestamp": "00:01:43.600",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0026",
+    "text": "So, this is the step number one and the step number two is going to be inside your root",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 26,
+      "start": 104.66,
+      "end": 109.97999999999999,
+      "duration": 5.32,
+      "startTimestamp": "00:01:44.660",
+      "endTimestamp": "00:01:49.980",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0027",
+    "text": "layout what you need to do, you simply need to first of all do something like this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 27,
+      "start": 110.08,
+      "end": 117.44,
+      "duration": 7.36,
+      "startTimestamp": "00:01:50.080",
+      "endTimestamp": "00:01:57.440",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0028",
+    "text": "Let me just simply say this as stack and inside this get your stack then let me call this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 28,
+      "start": 117.72,
+      "end": 125.56,
+      "duration": 7.84,
+      "startTimestamp": "00:01:57.720",
+      "endTimestamp": "00:02:05.560",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0029",
+    "text": "a screen and then just happened.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 29,
+      "start": 125.61,
+      "end": 128.959,
+      "duration": 3.349,
+      "startTimestamp": "00:02:05.610",
+      "endTimestamp": "00:02:08.959",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0030",
+    "text": "me fix it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 30,
+      "start": 130.78,
+      "end": 131.62,
+      "duration": 0.84,
+      "startTimestamp": "00:02:10.780",
+      "endTimestamp": "00:02:11.620",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0031",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 31,
+      "start": 132.58,
+      "end": 133.06,
+      "duration": 0.48,
+      "startTimestamp": "00:02:12.580",
+      "endTimestamp": "00:02:13.060",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0032",
+    "text": "So, just give me a minute, let me quickly fix it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 32,
+      "start": 134.96,
+      "end": 137.38,
+      "duration": 2.42,
+      "startTimestamp": "00:02:14.960",
+      "endTimestamp": "00:02:17.380",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0033",
+    "text": "All right, then basically instead of this for the name of the screen, I am basically",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 33,
+      "start": 138.24,
+      "end": 143.76,
+      "duration": 5.52,
+      "startTimestamp": "00:02:18.240",
+      "endTimestamp": "00:02:23.760",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0034",
+    "text": "going to call it a tabs, something like this, perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 34,
+      "start": 143.88,
+      "end": 149.04,
+      "duration": 5.16,
+      "startTimestamp": "00:02:23.880",
+      "endTimestamp": "00:02:29.040",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0035",
+    "text": "And after this, what do you need to do or the options, you just need to change a header",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 35,
+      "start": 149.88,
+      "end": 155.459,
+      "duration": 5.579,
+      "startTimestamp": "00:02:29.880",
+      "endTimestamp": "00:02:35.459",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0036",
+    "text": "shown variable to false because tab navigation have their own headers.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 36,
+      "start": 155.6,
+      "end": 159.42000000000002,
+      "duration": 3.82,
+      "startTimestamp": "00:02:35.600",
+      "endTimestamp": "00:02:39.420",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0037",
+    "text": "And then if I save it cool and then you can inside your tabs but you can do for now you",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 37,
+      "start": 160.68,
+      "end": 168.38,
+      "duration": 7.7,
+      "startTimestamp": "00:02:40.680",
+      "endTimestamp": "00:02:48.380",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0038",
+    "text": "can definitely delete this because we do not need it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 38,
+      "start": 168.48,
+      "end": 171.14,
+      "duration": 2.66,
+      "startTimestamp": "00:02:48.480",
+      "endTimestamp": "00:02:51.140",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0039",
+    "text": "So let me delete this and let me try to reload everything but you will not going to see anything",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 39,
+      "start": 172.12,
+      "end": 177.959,
+      "duration": 5.839,
+      "startTimestamp": "00:02:52.120",
+      "endTimestamp": "00:02:57.959",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0040",
+    "text": "the way we wanted to see but let me just reload it and let me be on this screen.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 40,
+      "start": 178.26,
+      "end": 182.78,
+      "duration": 4.52,
+      "startTimestamp": "00:02:58.260",
+      "endTimestamp": "00:03:02.780",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0041",
+    "text": "So you will only see the tab slash fade for now.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 41,
+      "start": 183.319,
+      "end": 187.44,
+      "duration": 4.121,
+      "startTimestamp": "00:03:03.319",
+      "endTimestamp": "00:03:07.440",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0042",
+    "text": "And then what is the next step you need to do for the next step you basically need to",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 42,
+      "start": 188.3,
+      "end": 193.22,
+      "duration": 4.92,
+      "startTimestamp": "00:03:08.300",
+      "endTimestamp": "00:03:13.220",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0043",
+    "text": "go inside your feed like here and then inside this you need to also create a new layout dot",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 43,
+      "start": 193.28,
+      "end": 202.07999999999998,
+      "duration": 8.8,
+      "startTimestamp": "00:03:13.280",
+      "endTimestamp": "00:03:22.080",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0044",
+    "text": "TSX and then for this layout dot TSX what you can do you can simply going to import",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 44,
+      "start": 202.26,
+      "end": 211.07999999999998,
+      "duration": 8.82,
+      "startTimestamp": "00:03:22.260",
+      "endTimestamp": "00:03:31.080",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0045",
+    "text": "a tab here perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 45,
+      "start": 211.18,
+      "end": 212.36,
+      "duration": 1.18,
+      "startTimestamp": "00:03:31.180",
+      "endTimestamp": "00:03:32.360",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0046",
+    "text": "So you can simply going to say import.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 46,
+      "start": 212.7,
+      "end": 214.82,
+      "duration": 2.12,
+      "startTimestamp": "00:03:32.700",
+      "endTimestamp": "00:03:34.820",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0047",
+    "text": "tabs, not alright import tab from export out and then you can simply say export default",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 47,
+      "start": 215.5,
+      "end": 223.44,
+      "duration": 7.94,
+      "startTimestamp": "00:03:35.500",
+      "endTimestamp": "00:03:43.440",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0048",
+    "text": "and instead of root I can say this as tab layout and let me off my AI and look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 48,
+      "start": 224.34,
+      "end": 233.9,
+      "duration": 9.56,
+      "startTimestamp": "00:03:44.340",
+      "endTimestamp": "00:03:53.900",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0049",
+    "text": "You have successfully initialize our tab, you will see index, you will see feed and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 49,
+      "start": 234.34,
+      "end": 240.1,
+      "duration": 5.76,
+      "startTimestamp": "00:03:54.340",
+      "endTimestamp": "00:04:00.100",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0050",
+    "text": "you will also see profile something like this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 50,
+      "start": 240.18,
+      "end": 242.76,
+      "duration": 2.58,
+      "startTimestamp": "00:04:00.180",
+      "endTimestamp": "00:04:02.760",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0051",
+    "text": "So, now let's move ahead and we'll see how you can basically modify this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 51,
+      "start": 244.439,
+      "end": 249.7,
+      "duration": 5.261,
+      "startTimestamp": "00:04:04.439",
+      "endTimestamp": "00:04:09.700",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0052",
+    "text": "So for modification again, you need to something like this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 52,
+      "start": 249.87,
+      "end": 254.86,
+      "duration": 4.99,
+      "startTimestamp": "00:04:09.870",
+      "endTimestamp": "00:04:14.860",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0053",
+    "text": "Let me just coming to here and use this as tabs.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 53,
+      "start": 255.04,
+      "end": 259.86,
+      "duration": 4.82,
+      "startTimestamp": "00:04:15.040",
+      "endTimestamp": "00:04:19.860",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0054",
+    "text": "And then inside this, let's say for the first index screen, let me say this as tab screen",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 54,
+      "start": 260.5,
+      "end": 267.08,
+      "duration": 6.58,
+      "startTimestamp": "00:04:20.500",
+      "endTimestamp": "00:04:27.080",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0055",
+    "text": "self closing name, name is definitely we have index, but I can change it, I can simply say",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 55,
+      "start": 267.34,
+      "end": 274.15999999999997,
+      "duration": 6.82,
+      "startTimestamp": "00:04:27.340",
+      "endTimestamp": "00:04:34.160",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0056",
+    "text": "options.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 56,
+      "start": 274.2,
+      "end": 274.58,
+      "duration": 0.38,
+      "startTimestamp": "00:04:34.200",
+      "endTimestamp": "00:04:34.580",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0057",
+    "text": "And this options is going to have a tab bar label and this label, I can say this as home.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 57,
+      "start": 275.54,
+      "end": 281.8,
+      "duration": 6.26,
+      "startTimestamp": "00:04:35.540",
+      "endTimestamp": "00:04:41.800",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0058",
+    "text": "So now you will see form index, this is changed to label.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 58,
+      "start": 282.31,
+      "end": 285.7,
+      "duration": 3.39,
+      "startTimestamp": "00:04:42.310",
+      "endTimestamp": "00:04:45.700",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0059",
+    "text": "Let me copy this, paste this and paste this as well and although we already have this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 59,
+      "start": 286.1,
+      "end": 292.18,
+      "duration": 6.08,
+      "startTimestamp": "00:04:46.100",
+      "endTimestamp": "00:04:52.180",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0060",
+    "text": "correctly, but let me just simply move ahead and after that what I can do, I can simply",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 60,
+      "start": 292.4,
+      "end": 300.8,
+      "duration": 8.4,
+      "startTimestamp": "00:04:52.400",
+      "endTimestamp": "00:05:00.800",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0061",
+    "text": "use here something known as explore.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 61,
+      "start": 300.96,
+      "end": 302.62,
+      "duration": 1.66,
+      "startTimestamp": "00:05:00.960",
+      "endTimestamp": "00:05:02.620",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0062",
+    "text": "And inside this explore, I will call this as this explore, cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 62,
+      "start": 304.04,
+      "end": 309.04,
+      "duration": 5,
+      "startTimestamp": "00:05:04.040",
+      "endTimestamp": "00:05:09.040",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0063",
+    "text": "And let me also create here profile.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 63,
+      "start": 310.18,
+      "end": 312.2,
+      "duration": 2.02,
+      "startTimestamp": "00:05:10.180",
+      "endTimestamp": "00:05:12.200",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0064",
+    "text": "And I will call this as my profile perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 64,
+      "start": 314.34,
+      "end": 319.18,
+      "duration": 4.84,
+      "startTimestamp": "00:05:14.340",
+      "endTimestamp": "00:05:19.180",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0065",
+    "text": "And if I save it, you will see I have home, I have my profile and we all already although",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 65,
+      "start": 319.54,
+      "end": 326.06,
+      "duration": 6.52,
+      "startTimestamp": "00:05:19.540",
+      "endTimestamp": "00:05:26.060",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0066",
+    "text": "have now this is not profile, sorry, my mistake.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 66,
+      "start": 326.14,
+      "end": 329.02,
+      "duration": 2.88,
+      "startTimestamp": "00:05:26.140",
+      "endTimestamp": "00:05:29.020",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0067",
+    "text": "This is Feed.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 67,
+      "start": 329.78,
+      "end": 330.22,
+      "duration": 0.44,
+      "startTimestamp": "00:05:29.780",
+      "endTimestamp": "00:05:30.220",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0068",
+    "text": "And I will say this as my feed, perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 68,
+      "start": 331.1,
+      "end": 334.4,
+      "duration": 3.3,
+      "startTimestamp": "00:05:31.100",
+      "endTimestamp": "00:05:34.400",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0069",
+    "text": "Now if I save it, this is how they basically going to look because first is the home and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 69,
+      "start": 335.26,
+      "end": 341.04,
+      "duration": 5.78,
+      "startTimestamp": "00:05:35.260",
+      "endTimestamp": "00:05:41.040",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0070",
+    "text": "second is going to be our profile.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 70,
+      "start": 341.22,
+      "end": 343.18,
+      "duration": 1.96,
+      "startTimestamp": "00:05:41.220",
+      "endTimestamp": "00:05:43.180",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0071",
+    "text": "So let me change this to profile and now if I save it, now everything is saved.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 71,
+      "start": 343.68,
+      "end": 349.42,
+      "duration": 5.74,
+      "startTimestamp": "00:05:43.680",
+      "endTimestamp": "00:05:49.420",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0072",
+    "text": "perfectly fine but let's say right now I wanted to change my local icon.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 72,
+      "start": 349.421,
+      "end": 355.2,
+      "duration": 5.779,
+      "startTimestamp": "00:05:49.421",
+      "endTimestamp": "00:05:55.200",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0073",
+    "text": "So how you can change it?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 73,
+      "start": 356.03,
+      "end": 357.04,
+      "duration": 1.01,
+      "startTimestamp": "00:05:56.030",
+      "endTimestamp": "00:05:57.040",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0074",
+    "text": "So for that you can basically import a font awesome icon library from a very nice I can",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 74,
+      "start": 357.38,
+      "end": 365.16,
+      "duration": 7.78,
+      "startTimestamp": "00:05:57.380",
+      "endTimestamp": "00:06:05.160",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0075",
+    "text": "say vector icons slash a font awesome.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 75,
+      "start": 365.22,
+      "end": 368.6,
+      "duration": 3.38,
+      "startTimestamp": "00:06:05.220",
+      "endTimestamp": "00:06:08.600",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0076",
+    "text": "Perfect and if you wanted to be and if you basically wanted to use it so you can use",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 76,
+      "start": 369.1,
+      "end": 375.34,
+      "duration": 6.24,
+      "startTimestamp": "00:06:09.100",
+      "endTimestamp": "00:06:15.340",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0077",
+    "text": "it very easily.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 77,
+      "start": 375.48,
+      "end": 376.44,
+      "duration": 0.96,
+      "startTimestamp": "00:06:15.480",
+      "endTimestamp": "00:06:16.440",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0078",
+    "text": "So let me show you how you can basically use it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 78,
+      "start": 376.66,
+      "end": 379.8,
+      "duration": 3.14,
+      "startTimestamp": "00:06:16.660",
+      "endTimestamp": "00:06:19.800",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0079",
+    "text": "So for that you can just basically coming to here and use the tab bar icon.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 79,
+      "start": 380,
+      "end": 384.66,
+      "duration": 4.66,
+      "startTimestamp": "00:06:20.000",
+      "endTimestamp": "00:06:24.660",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0080",
+    "text": "easy. And inside this tab bar icon you can return a jsx. So, how you can basically do",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 80,
+      "start": 385.1,
+      "end": 392.96,
+      "duration": 7.86,
+      "startTimestamp": "00:06:25.100",
+      "endTimestamp": "00:06:32.960",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0081",
+    "text": "so this simply coming to here. And let me just simply coming to here and say this as",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 81,
+      "start": 393,
+      "end": 399,
+      "duration": 6,
+      "startTimestamp": "00:06:33.000",
+      "endTimestamp": "00:06:39.000",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0082",
+    "text": "font awesome.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 82,
+      "start": 399.12,
+      "end": 399.78,
+      "duration": 0.66,
+      "startTimestamp": "00:06:39.120",
+      "endTimestamp": "00:06:39.780",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0083",
+    "text": "Where is my font awesome import?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 83,
+      "start": 401.72,
+      "end": 403.68,
+      "duration": 1.96,
+      "startTimestamp": "00:06:41.720",
+      "endTimestamp": "00:06:43.680",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0084",
+    "text": "Just give me a minute.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 84,
+      "start": 404.12,
+      "end": 404.76,
+      "duration": 0.64,
+      "startTimestamp": "00:06:44.120",
+      "endTimestamp": "00:06:44.760",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0085",
+    "text": "Let me re import it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 85,
+      "start": 405.93,
+      "end": 407,
+      "duration": 1.07,
+      "startTimestamp": "00:06:45.930",
+      "endTimestamp": "00:06:47.000",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0086",
+    "text": "So just a minute.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 86,
+      "start": 407.48,
+      "end": 409.15999999999997,
+      "duration": 1.68,
+      "startTimestamp": "00:06:47.480",
+      "endTimestamp": "00:06:49.160",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0087",
+    "text": "All right.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 87,
+      "start": 410.13,
+      "end": 410.4,
+      "duration": 0.27,
+      "startTimestamp": "00:06:50.130",
+      "endTimestamp": "00:06:50.400",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0088",
+    "text": "So now you guys can basically see that we have this font awesome and I can definitely change",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 88,
+      "start": 410.76,
+      "end": 416.15999999999997,
+      "duration": 5.4,
+      "startTimestamp": "00:06:50.760",
+      "endTimestamp": "00:06:56.160",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0089",
+    "text": "this name to the home and you can also give it a size.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 89,
+      "start": 416.3,
+      "end": 419.3,
+      "duration": 3,
+      "startTimestamp": "00:06:56.300",
+      "endTimestamp": "00:06:59.300",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0090",
+    "text": "So let me give the size of 24.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 90,
+      "start": 419.7,
+      "end": 421.44,
+      "duration": 1.74,
+      "startTimestamp": "00:06:59.700",
+      "endTimestamp": "00:07:01.440",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0091",
+    "text": "And if I save it, look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 91,
+      "start": 421.9,
+      "end": 424.24,
+      "duration": 2.34,
+      "startTimestamp": "00:07:01.900",
+      "endTimestamp": "00:07:04.240",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0092",
+    "text": "In same way, you can do this for profile, you can also do this for my feed and you can",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 92,
+      "start": 425.19,
+      "end": 431.16,
+      "duration": 5.97,
+      "startTimestamp": "00:07:05.190",
+      "endTimestamp": "00:07:11.160",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0093",
+    "text": "also do this for your profile my feed home everyone like instead of home if we have something",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 93,
+      "start": 431.259,
+      "end": 439.419,
+      "duration": 8.16,
+      "startTimestamp": "00:07:11.259",
+      "endTimestamp": "00:07:19.419",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0094",
+    "text": "related to profile, alright we do not have maybe we have parser and maybe we definitely",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 94,
+      "start": 439.539,
+      "end": 445.8,
+      "duration": 6.261,
+      "startTimestamp": "00:07:19.539",
+      "endTimestamp": "00:07:25.800",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0095",
+    "text": "have user.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 95,
+      "start": 445.94,
+      "end": 446.36,
+      "duration": 0.42,
+      "startTimestamp": "00:07:25.940",
+      "endTimestamp": "00:07:26.360",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0096",
+    "text": "So, for user this is going to be this and for",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 96,
+      "start": 446.94,
+      "end": 450.26,
+      "duration": 3.32,
+      "startTimestamp": "00:07:26.940",
+      "endTimestamp": "00:07:30.260",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0097",
+    "text": "So, now we have this list perfect, you can also change the color of this let's say you",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 97,
+      "start": 451.42,
+      "end": 456.78,
+      "duration": 5.36,
+      "startTimestamp": "00:07:31.420",
+      "endTimestamp": "00:07:36.780",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0098",
+    "text": "wanted to set the active state depends I mean how you basically wanted to do so this cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 98,
+      "start": 456.82,
+      "end": 464.5,
+      "duration": 7.68,
+      "startTimestamp": "00:07:36.820",
+      "endTimestamp": "00:07:44.500",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0099",
+    "text": "So I hope you are loving this like how you can basically change it how you can modify",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 99,
+      "start": 465.42,
+      "end": 469.32,
+      "duration": 3.9,
+      "startTimestamp": "00:07:45.420",
+      "endTimestamp": "00:07:49.320",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0100",
+    "text": "this now it's completely up to you you know all the hair and their of this stack navigation",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 100,
+      "start": 469.48,
+      "end": 475.38,
+      "duration": 5.9,
+      "startTimestamp": "00:07:49.480",
+      "endTimestamp": "00:07:55.380",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0101",
+    "text": "tab navigation and same thing is going to be for",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 101,
+      "start": 475.381,
+      "end": 478.3,
+      "duration": 2.919,
+      "startTimestamp": "00:07:55.381",
+      "endTimestamp": "00:07:58.300",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0102",
+    "text": "draw navigation as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 102,
+      "start": 478.9,
+      "end": 480.74,
+      "duration": 1.84,
+      "startTimestamp": "00:07:58.900",
+      "endTimestamp": "00:08:00.740",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_0103",
+    "text": "So yeah, see you in next chapter for this chapter, this is pretty much it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "fileName": "9-tab-navigation_epm.vtt",
+      "captionIndex": 103,
+      "start": 481.34,
+      "end": 485.139,
+      "duration": 3.799,
+      "startTimestamp": "00:08:01.340",
+      "endTimestamp": "00:08:05.139",
+      "estimatedTokens": 20
+    }
+  }
+]

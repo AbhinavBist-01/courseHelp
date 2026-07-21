@@ -1,0 +1,4467 @@
+[
+  {
+    "id": "3. Navigation Between Screens_epm_0001",
+    "text": "In real apps, users just don't stay on just one screen as you guys all know.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 1,
+      "start": 0,
+      "end": 6.54,
+      "duration": 6.54,
+      "startTimestamp": "00:00:00.000",
+      "endTimestamp": "00:00:06.540",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0002",
+    "text": "They move between screens.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 2,
+      "start": 7.04,
+      "end": 8.48,
+      "duration": 1.44,
+      "startTimestamp": "00:00:07.040",
+      "endTimestamp": "00:00:08.480",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0003",
+    "text": "In this lecture, we will learn how to navigate between screens imperatively using React Navigation's",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 3,
+      "start": 8.87,
+      "end": 16.82,
+      "duration": 7.95,
+      "startTimestamp": "00:00:08.870",
+      "endTimestamp": "00:00:16.820",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0004",
+    "text": "Navigation Object.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 4,
+      "start": 16.821,
+      "end": 17.9,
+      "duration": 1.079,
+      "startTimestamp": "00:00:16.821",
+      "endTimestamp": "00:00:17.900",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0005",
+    "text": "You will see how to go forward, go back, replace any screen and control the navigation stack.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 5,
+      "start": 17.901,
+      "end": 25.14,
+      "duration": 7.239,
+      "startTimestamp": "00:00:17.901",
+      "endTimestamp": "00:00:25.140",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0006",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 6,
+      "start": 25.599,
+      "end": 25.88,
+      "duration": 0.281,
+      "startTimestamp": "00:00:25.599",
+      "endTimestamp": "00:00:25.880",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0007",
+    "text": "So, now let's move ahead and start talking about it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 7,
+      "start": 26.4,
+      "end": 29.46,
+      "duration": 3.06,
+      "startTimestamp": "00:00:26.400",
+      "endTimestamp": "00:00:29.460",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0008",
+    "text": "So the first thing that I wanted you to simply visit to this page and using the navigation",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 8,
+      "start": 30.02,
+      "end": 36.54,
+      "duration": 6.52,
+      "startTimestamp": "00:00:30.020",
+      "endTimestamp": "00:00:36.540",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0009",
+    "text": "button, using the navigation object because we have already talked about this link or",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 9,
+      "start": 36.559,
+      "end": 41.52,
+      "duration": 4.961,
+      "startTimestamp": "00:00:36.559",
+      "endTimestamp": "00:00:41.520",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0010",
+    "text": "button.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 10,
+      "start": 41.521,
+      "end": 41.9,
+      "duration": 0.379,
+      "startTimestamp": "00:00:41.521",
+      "endTimestamp": "00:00:41.900",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0011",
+    "text": "So, into this you will see.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 11,
+      "start": 42.34,
+      "end": 43.939,
+      "duration": 1.599,
+      "startTimestamp": "00:00:42.340",
+      "endTimestamp": "00:00:43.939",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0012",
+    "text": "Another way to navigate is by using the navigation object.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 12,
+      "start": 44.5,
+      "end": 48.86,
+      "duration": 4.36,
+      "startTimestamp": "00:00:44.500",
+      "endTimestamp": "00:00:48.860",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0013",
+    "text": "This method gives you more control over when and how navigation happens.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 13,
+      "start": 49.58,
+      "end": 56.12,
+      "duration": 6.54,
+      "startTimestamp": "00:00:49.580",
+      "endTimestamp": "00:00:56.120",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0014",
+    "text": "So the navigation object is available in your screen components through the use navigation",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 14,
+      "start": 56.58,
+      "end": 62.62,
+      "duration": 6.04,
+      "startTimestamp": "00:00:56.580",
+      "endTimestamp": "00:01:02.620",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0015",
+    "text": "hook.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 15,
+      "start": 62.78,
+      "end": 62.92,
+      "duration": 0.14,
+      "startTimestamp": "00:01:02.780",
+      "endTimestamp": "00:01:02.920",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0016",
+    "text": "Easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 16,
+      "start": 63.2,
+      "end": 64.04,
+      "duration": 0.84,
+      "startTimestamp": "00:01:03.200",
+      "endTimestamp": "00:01:04.040",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0017",
+    "text": "So, now let's move ahead and start talking about this use navigation hook.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 17,
+      "start": 64.62,
+      "end": 68.74,
+      "duration": 4.12,
+      "startTimestamp": "00:01:04.620",
+      "endTimestamp": "00:01:08.740",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0018",
+    "text": "So, use navigation is a hook that give access to navigation object.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 18,
+      "start": 69.42,
+      "end": 73.6,
+      "duration": 4.18,
+      "startTimestamp": "00:01:09.420",
+      "endTimestamp": "00:01:13.600",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0019",
+    "text": "It's useful when you can't pass the navigation object as a prop to the component directly",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 19,
+      "start": 74.28,
+      "end": 81.3,
+      "duration": 7.02,
+      "startTimestamp": "00:01:14.280",
+      "endTimestamp": "00:01:21.300",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0020",
+    "text": "or don't want to pass it in case of deeply nested child.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 20,
+      "start": 81.58,
+      "end": 86.02,
+      "duration": 4.44,
+      "startTimestamp": "00:01:21.580",
+      "endTimestamp": "00:01:26.020",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0021",
+    "text": "So, basically you always have two ways of handling this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 21,
+      "start": 86.021,
+      "end": 89.96000000000001,
+      "duration": 3.939,
+      "startTimestamp": "00:01:26.021",
+      "endTimestamp": "00:01:29.960",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0022",
+    "text": "One way is you have this navigation objects access with the help of props, but that is",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 22,
+      "start": 90.44,
+      "end": 96.75999999999999,
+      "duration": 6.32,
+      "startTimestamp": "00:01:30.440",
+      "endTimestamp": "00:01:36.760",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0023",
+    "text": "not recommended way don't use it I mean in most of the cases.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 23,
+      "start": 96.761,
+      "end": 99.979,
+      "duration": 3.218,
+      "startTimestamp": "00:01:36.761",
+      "endTimestamp": "00:01:39.979",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0024",
+    "text": "So, this is how we are going to see how you can do so that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 24,
+      "start": 100.34,
+      "end": 103.08,
+      "duration": 2.74,
+      "startTimestamp": "00:01:40.340",
+      "endTimestamp": "00:01:43.080",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0025",
+    "text": "Perfect, so make sure that you are on your VS code and after coming to VS code first",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 25,
+      "start": 103.2,
+      "end": 109.15899999999999,
+      "duration": 5.959,
+      "startTimestamp": "00:01:43.200",
+      "endTimestamp": "00:01:49.159",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0026",
+    "text": "of all just simply move ahead and then let me run bunx expose start.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 26,
+      "start": 109.18,
+      "end": 115.02000000000001,
+      "duration": 5.84,
+      "startTimestamp": "00:01:49.180",
+      "endTimestamp": "00:01:55.020",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0027",
+    "text": "So this is going to make up and running my application.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 27,
+      "start": 115.86,
+      "end": 119.259,
+      "duration": 3.399,
+      "startTimestamp": "00:01:55.860",
+      "endTimestamp": "00:01:59.259",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0028",
+    "text": "So, let me wait for it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 28,
+      "start": 119.9,
+      "end": 122.38,
+      "duration": 2.48,
+      "startTimestamp": "00:01:59.900",
+      "endTimestamp": "00:02:02.380",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0029",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 29,
+      "start": 122.72,
+      "end": 123.02,
+      "duration": 0.3,
+      "startTimestamp": "00:02:02.720",
+      "endTimestamp": "00:02:03.020",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0030",
+    "text": "Now, let me just simply press A. So, this is going to start into my Android.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 30,
+      "start": 123.28,
+      "end": 128.08,
+      "duration": 4.8,
+      "startTimestamp": "00:02:03.280",
+      "endTimestamp": "00:02:08.080",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0031",
+    "text": "You can go back to expo and try to reload the project.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 31,
+      "start": 128.84,
+      "end": 132.62,
+      "duration": 3.78,
+      "startTimestamp": "00:02:08.840",
+      "endTimestamp": "00:02:12.620",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0032",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 32,
+      "start": 134.42,
+      "end": 134.6,
+      "duration": 0.18,
+      "startTimestamp": "00:02:14.420",
+      "endTimestamp": "00:02:14.600",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0033",
+    "text": "I think I need to click here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 33,
+      "start": 134.72,
+      "end": 136.38,
+      "duration": 1.66,
+      "startTimestamp": "00:02:14.720",
+      "endTimestamp": "00:02:16.380",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0034",
+    "text": "Alright, no problem.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 34,
+      "start": 136.82,
+      "end": 137.48,
+      "duration": 0.66,
+      "startTimestamp": "00:02:16.820",
+      "endTimestamp": "00:02:17.480",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0035",
+    "text": "Let me just scan my QR code and then we can start.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 35,
+      "start": 137.64,
+      "end": 141.14,
+      "duration": 3.5,
+      "startTimestamp": "00:02:17.640",
+      "endTimestamp": "00:02:21.140",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0036",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 36,
+      "start": 141.141,
+      "end": 141.62,
+      "duration": 0.479,
+      "startTimestamp": "00:02:21.141",
+      "endTimestamp": "00:02:21.620",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0037",
+    "text": "So, just give me a minute.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 37,
+      "start": 142.26,
+      "end": 143.54,
+      "duration": 1.28,
+      "startTimestamp": "00:02:22.260",
+      "endTimestamp": "00:02:23.540",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0038",
+    "text": "Let me simply press on my QR code.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 38,
+      "start": 143.82,
+      "end": 146.57999999999998,
+      "duration": 2.76,
+      "startTimestamp": "00:02:23.820",
+      "endTimestamp": "00:02:26.580",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0039",
+    "text": "Let me scan it and hope so.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 39,
+      "start": 146.82,
+      "end": 149.07999999999998,
+      "duration": 2.26,
+      "startTimestamp": "00:02:26.820",
+      "endTimestamp": "00:02:29.080",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0040",
+    "text": "This will start working right now.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 40,
+      "start": 149.18,
+      "end": 151.96,
+      "duration": 2.78,
+      "startTimestamp": "00:02:29.180",
+      "endTimestamp": "00:02:31.960",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0041",
+    "text": "Let me press no app sending reload to react native app.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 41,
+      "start": 152.84,
+      "end": 156,
+      "duration": 3.16,
+      "startTimestamp": "00:02:32.840",
+      "endTimestamp": "00:02:36.000",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0042",
+    "text": "Just give me a minute.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 42,
+      "start": 156.2,
+      "end": 156.98,
+      "duration": 0.78,
+      "startTimestamp": "00:02:36.200",
+      "endTimestamp": "00:02:36.980",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0043",
+    "text": "All right.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 43,
+      "start": 157.77,
+      "end": 158.07999999999998,
+      "duration": 0.31,
+      "startTimestamp": "00:02:37.770",
+      "endTimestamp": "00:02:38.080",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0044",
+    "text": "Actually, my phone's Wi-Fi is not connected.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 44,
+      "start": 158.16,
+      "end": 160.18,
+      "duration": 2.02,
+      "startTimestamp": "00:02:38.160",
+      "endTimestamp": "00:02:40.180",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0045",
+    "text": "That's why it is not working.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 45,
+      "start": 160.42000000000002,
+      "end": 161.38,
+      "duration": 0.96,
+      "startTimestamp": "00:02:40.420",
+      "endTimestamp": "00:02:41.380",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0046",
+    "text": "So, now if I just simply press A, then this is definitely going to open that into it and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 46,
+      "start": 161.68,
+      "end": 167.459,
+      "duration": 5.779,
+      "startTimestamp": "00:02:41.680",
+      "endTimestamp": "00:02:47.459",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0047",
+    "text": "boom, look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 47,
+      "start": 167.46,
+      "end": 168.38,
+      "duration": 0.92,
+      "startTimestamp": "00:02:47.460",
+      "endTimestamp": "00:02:48.380",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0048",
+    "text": "They are bundling.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 48,
+      "start": 168.82,
+      "end": 169.7,
+      "duration": 0.88,
+      "startTimestamp": "00:02:48.820",
+      "endTimestamp": "00:02:49.700",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0049",
+    "text": "And now we are good to go.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 49,
+      "start": 169.8,
+      "end": 172.28,
+      "duration": 2.48,
+      "startTimestamp": "00:02:49.800",
+      "endTimestamp": "00:02:52.280",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0050",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 50,
+      "start": 172.281,
+      "end": 172.48,
+      "duration": 0.199,
+      "startTimestamp": "00:02:52.281",
+      "endTimestamp": "00:02:52.480",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0051",
+    "text": "So, no problem.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 51,
+      "start": 172.8,
+      "end": 173.52,
+      "duration": 0.72,
+      "startTimestamp": "00:02:52.800",
+      "endTimestamp": "00:02:53.520",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0052",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 52,
+      "start": 173.88,
+      "end": 174.14,
+      "duration": 0.26,
+      "startTimestamp": "00:02:53.880",
+      "endTimestamp": "00:02:54.140",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0053",
+    "text": "Now let me go to my file explorer and just give me a minute.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 53,
+      "start": 174.88,
+      "end": 179,
+      "duration": 4.12,
+      "startTimestamp": "00:02:54.880",
+      "endTimestamp": "00:02:59.000",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0054",
+    "text": "And inside this file explorer, I can simply go to my app and let's say let's go to our",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 54,
+      "start": 181.04,
+      "end": 188.04,
+      "duration": 7,
+      "startTimestamp": "00:03:01.040",
+      "endTimestamp": "00:03:08.040",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0055",
+    "text": "home page.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 55,
+      "start": 188.041,
+      "end": 188.56,
+      "duration": 0.519,
+      "startTimestamp": "00:03:08.041",
+      "endTimestamp": "00:03:08.560",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0056",
+    "text": "Right now if I wanted to go to my details page this is how I am able to do so that cool",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 56,
+      "start": 189.1,
+      "end": 197.6,
+      "duration": 8.5,
+      "startTimestamp": "00:03:09.100",
+      "endTimestamp": "00:03:17.600",
+      "estimatedTokens": 29
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0057",
+    "text": "but we have another way of doing it as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 57,
+      "start": 198.02,
+      "end": 200.7,
+      "duration": 2.68,
+      "startTimestamp": "00:03:18.020",
+      "endTimestamp": "00:03:20.700",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0058",
+    "text": "How like first step is like you can always get from here this something known as navigation",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 58,
+      "start": 201.02,
+      "end": 207.66,
+      "duration": 6.64,
+      "startTimestamp": "00:03:21.020",
+      "endTimestamp": "00:03:27.660",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0059",
+    "text": "object.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 59,
+      "start": 207.661,
+      "end": 208.1,
+      "duration": 0.439,
+      "startTimestamp": "00:03:27.661",
+      "endTimestamp": "00:03:28.100",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0060",
+    "text": "Perfect and for now I am just making this as kind of this just for now I mean definitely",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 60,
+      "start": 208.101,
+      "end": 216.32,
+      "duration": 8.219,
+      "startTimestamp": "00:03:28.101",
+      "endTimestamp": "00:03:36.320",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0061",
+    "text": "we have navigation types properly and let's say instead of using this link component like",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 61,
+      "start": 216.321,
+      "end": 223.16,
+      "duration": 6.839,
+      "startTimestamp": "00:03:36.321",
+      "endTimestamp": "00:03:43.160",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0062",
+    "text": "if I just save it everything is fine.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 62,
+      "start": 223.18,
+      "end": 225.6,
+      "duration": 2.42,
+      "startTimestamp": "00:03:43.180",
+      "endTimestamp": "00:03:45.600",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0063",
+    "text": "Let me just get a pressable.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 63,
+      "start": 226.07999999999998,
+      "end": 228.84,
+      "duration": 2.76,
+      "startTimestamp": "00:03:46.080",
+      "endTimestamp": "00:03:48.840",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0064",
+    "text": "Perfect, and this pressable is going to show me a text and this text is going to show me",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 64,
+      "start": 229.88,
+      "end": 237.14,
+      "duration": 7.26,
+      "startTimestamp": "00:03:49.880",
+      "endTimestamp": "00:03:57.140",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0065",
+    "text": "go to details and if I save it this is how they are going to just a minute let me off",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 65,
+      "start": 237.32,
+      "end": 242.44,
+      "duration": 5.12,
+      "startTimestamp": "00:03:57.320",
+      "endTimestamp": "00:04:02.440",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0066",
+    "text": "my AI.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 66,
+      "start": 242.54,
+      "end": 243.32,
+      "duration": 0.78,
+      "startTimestamp": "00:04:02.540",
+      "endTimestamp": "00:04:03.320",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0067",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 67,
+      "start": 243.82,
+      "end": 244.18,
+      "duration": 0.36,
+      "startTimestamp": "00:04:03.820",
+      "endTimestamp": "00:04:04.180",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0068",
+    "text": "And what I wanted to do on press on this pressable easy, I just wanted to call a callback method",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 68,
+      "start": 244.3,
+      "end": 251.6,
+      "duration": 7.3,
+      "startTimestamp": "00:04:04.300",
+      "endTimestamp": "00:04:11.600",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0069",
+    "text": "that is going to do what navigation dot and then you will see that we have a method known",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 69,
+      "start": 251.94,
+      "end": 258.12,
+      "duration": 6.18,
+      "startTimestamp": "00:04:11.940",
+      "endTimestamp": "00:04:18.120",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0070",
+    "text": "as navigate and the page name that you wanted to go.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 70,
+      "start": 258.121,
+      "end": 262.32,
+      "duration": 4.199,
+      "startTimestamp": "00:04:18.121",
+      "endTimestamp": "00:04:22.320",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0071",
+    "text": "So I just simply add here make sure to copy this and paste this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 71,
+      "start": 262.8,
+      "end": 266.6,
+      "duration": 3.8,
+      "startTimestamp": "00:04:22.800",
+      "endTimestamp": "00:04:26.600",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0072",
+    "text": "Cool and if I save it and if I just try to press on go to details and boom look at that",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 72,
+      "start": 266.601,
+      "end": 273.039,
+      "duration": 6.438,
+      "startTimestamp": "00:04:26.601",
+      "endTimestamp": "00:04:33.039",
+      "estimatedTokens": 29
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0073",
+    "text": "this is how you can basically move to it but instead of using this approach what I wanted",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 73,
+      "start": 273.08,
+      "end": 280.8,
+      "duration": 7.72,
+      "startTimestamp": "00:04:33.080",
+      "endTimestamp": "00:04:40.800",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0074",
+    "text": "you to do is to remove this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 74,
+      "start": 280.801,
+      "end": 282.259,
+      "duration": 1.458,
+      "startTimestamp": "00:04:40.801",
+      "endTimestamp": "00:04:42.259",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0075",
+    "text": "Easy and then import navigation from from where look at that they are importing this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 75,
+      "start": 282.5,
+      "end": 290.1,
+      "duration": 7.6,
+      "startTimestamp": "00:04:42.500",
+      "endTimestamp": "00:04:50.100",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0076",
+    "text": "use navigation hook from here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 76,
+      "start": 290.12,
+      "end": 292.1,
+      "duration": 1.98,
+      "startTimestamp": "00:04:50.120",
+      "endTimestamp": "00:04:52.100",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0077",
+    "text": "So, let me just simply copy that let me just paste that and here I can simply say const",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 77,
+      "start": 292.4,
+      "end": 299.74,
+      "duration": 7.34,
+      "startTimestamp": "00:04:52.400",
+      "endTimestamp": "00:04:59.740",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0078",
+    "text": "navigation is equals to use navigation.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 78,
+      "start": 300.1,
+      "end": 303.1,
+      "duration": 3,
+      "startTimestamp": "00:05:00.100",
+      "endTimestamp": "00:05:03.100",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0079",
+    "text": "And then now if I save it and if I just go back and again click here look at that this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 79,
+      "start": 304.38,
+      "end": 310.9,
+      "duration": 6.52,
+      "startTimestamp": "00:05:04.380",
+      "endTimestamp": "00:05:10.900",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0080",
+    "text": "is how they are going to work and one beautiful thing about this is now we have bunch of methods",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 80,
+      "start": 310.901,
+      "end": 317.5,
+      "duration": 6.599,
+      "startTimestamp": "00:05:10.901",
+      "endTimestamp": "00:05:17.500",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0081",
+    "text": "need not to understand about every method each and every method you can skip bunch of",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 81,
+      "start": 317.68,
+      "end": 323.34,
+      "duration": 5.66,
+      "startTimestamp": "00:05:17.680",
+      "endTimestamp": "00:05:23.340",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0082",
+    "text": "them and I will tell you but for now the first method that we have is navigate.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 82,
+      "start": 323.341,
+      "end": 328.08,
+      "duration": 4.739,
+      "startTimestamp": "00:05:23.341",
+      "endTimestamp": "00:05:28.080",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0083",
+    "text": "Navigate is always accepting what navigate to a screen in current parent navigate.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 83,
+      "start": 329.18,
+      "end": 334.18,
+      "duration": 5,
+      "startTimestamp": "00:05:29.180",
+      "endTimestamp": "00:05:34.180",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0084",
+    "text": "So alright, I just wanted to move towards details page.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 84,
+      "start": 334.32,
+      "end": 338.94,
+      "duration": 4.62,
+      "startTimestamp": "00:05:34.320",
+      "endTimestamp": "00:05:38.940",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0085",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 85,
+      "start": 339.6,
+      "end": 339.88,
+      "duration": 0.28,
+      "startTimestamp": "00:05:39.600",
+      "endTimestamp": "00:05:39.880",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0086",
+    "text": "And then if I just simply press over it, this is how I can move again.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 86,
+      "start": 340.18,
+      "end": 344.44,
+      "duration": 4.26,
+      "startTimestamp": "00:05:40.180",
+      "endTimestamp": "00:05:44.440",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0087",
+    "text": "You can style it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 87,
+      "start": 344.56,
+      "end": 345.52,
+      "duration": 0.96,
+      "startTimestamp": "00:05:44.560",
+      "endTimestamp": "00:05:45.520",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0088",
+    "text": "You can give it a very good style.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 88,
+      "start": 345.84000000000003,
+      "end": 347.78,
+      "duration": 1.94,
+      "startTimestamp": "00:05:45.840",
+      "endTimestamp": "00:05:47.780",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0089",
+    "text": "You can centralise everything.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 89,
+      "start": 347.919,
+      "end": 349.86,
+      "duration": 1.941,
+      "startTimestamp": "00:05:47.919",
+      "endTimestamp": "00:05:49.860",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0090",
+    "text": "And I mean, this is not about UI.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 90,
+      "start": 350.199,
+      "end": 351.919,
+      "duration": 1.72,
+      "startTimestamp": "00:05:50.199",
+      "endTimestamp": "00:05:51.919",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0091",
+    "text": "You can definitely style it as much as you want.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 91,
+      "start": 352.44,
+      "end": 355.06,
+      "duration": 2.62,
+      "startTimestamp": "00:05:52.440",
+      "endTimestamp": "00:05:55.060",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0092",
+    "text": "Perfect, now let's move ahead and this navigation object have bunch of other methods as well",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 92,
+      "start": 355.4,
+      "end": 363,
+      "duration": 7.6,
+      "startTimestamp": "00:05:55.400",
+      "endTimestamp": "00:06:03.000",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0093",
+    "text": "like first method is navigation.navigate no problem.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 93,
+      "start": 363.24,
+      "end": 367.18,
+      "duration": 3.94,
+      "startTimestamp": "00:06:03.240",
+      "endTimestamp": "00:06:07.180",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0094",
+    "text": "Perfect, and let me show you one very interesting thing if I copy this and if I go to details",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 94,
+      "start": 368.18,
+      "end": 375.5,
+      "duration": 7.32,
+      "startTimestamp": "00:06:08.180",
+      "endTimestamp": "00:06:15.500",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0095",
+    "text": "page and if I just paste this here no problem easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 95,
+      "start": 375.6,
+      "end": 380.979,
+      "duration": 5.379,
+      "startTimestamp": "00:06:15.600",
+      "endTimestamp": "00:06:20.979",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0096",
+    "text": "First of all let me import my pressable.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 96,
+      "start": 381.56,
+      "end": 383.84,
+      "duration": 2.28,
+      "startTimestamp": "00:06:21.560",
+      "endTimestamp": "00:06:23.840",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0097",
+    "text": "And let me just initialize this navigation here as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 97,
+      "start": 384.3,
+      "end": 391.159,
+      "duration": 6.859,
+      "startTimestamp": "00:06:24.300",
+      "endTimestamp": "00:06:31.159",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0098",
+    "text": "And then let me just not export, make sure you are not importing this from export out",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 98,
+      "start": 392.819,
+      "end": 397.68,
+      "duration": 4.861,
+      "startTimestamp": "00:06:32.819",
+      "endTimestamp": "00:06:37.680",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0099",
+    "text": "because we are right now using.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 99,
+      "start": 398.28,
+      "end": 400.259,
+      "duration": 1.979,
+      "startTimestamp": "00:06:38.280",
+      "endTimestamp": "00:06:40.259",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0100",
+    "text": "the react navigation now if you are on to the details page already and if you just once",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 100,
+      "start": 400.6,
+      "end": 408.22,
+      "duration": 7.62,
+      "startTimestamp": "00:06:40.600",
+      "endTimestamp": "00:06:48.220",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0101",
+    "text": "again press this go to details nothing is going to happen isn't seems very common I",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 101,
+      "start": 408.221,
+      "end": 413.3,
+      "duration": 5.079,
+      "startTimestamp": "00:06:48.221",
+      "endTimestamp": "00:06:53.300",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0102",
+    "text": "mean yes this is how they are going to behave like if you are already on this screen then",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 102,
+      "start": 413.301,
+      "end": 418.74,
+      "duration": 5.439,
+      "startTimestamp": "00:06:53.301",
+      "endTimestamp": "00:06:58.740",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0103",
+    "text": "how you can navigate again to this screen getting my point but if I just move ahead",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 103,
+      "start": 418.8,
+      "end": 425.72,
+      "duration": 6.92,
+      "startTimestamp": "00:06:58.800",
+      "endTimestamp": "00:07:05.720",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0104",
+    "text": "and tell you something like you can see that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 104,
+      "start": 425.721,
+      "end": 428.72,
+      "duration": 2.999,
+      "startTimestamp": "00:07:05.721",
+      "endTimestamp": "00:07:08.720",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0105",
+    "text": "What is that about this push like right now we are using this navigate method but instead",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 105,
+      "start": 429.3,
+      "end": 437.9,
+      "duration": 8.6,
+      "startTimestamp": "00:07:09.300",
+      "endTimestamp": "00:07:17.900",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0106",
+    "text": "of using navigate if I now use navigate dot push perfect and then if I save it and once",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 106,
+      "start": 437.901,
+      "end": 446.02,
+      "duration": 8.119,
+      "startTimestamp": "00:07:17.901",
+      "endTimestamp": "00:07:26.020",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0107",
+    "text": "again if I press over it so look at that we are adding.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 107,
+      "start": 446.06,
+      "end": 450.28,
+      "duration": 4.22,
+      "startTimestamp": "00:07:26.060",
+      "endTimestamp": "00:07:30.280",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0108",
+    "text": "same screen multiple times into the same stack.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 108,
+      "start": 450.5,
+      "end": 454.58,
+      "duration": 4.08,
+      "startTimestamp": "00:07:30.500",
+      "endTimestamp": "00:07:34.580",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0109",
+    "text": "Look at that and if I just again press back you will see I am going to be back again on",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 109,
+      "start": 455,
+      "end": 460.65999999999997,
+      "duration": 5.66,
+      "startTimestamp": "00:07:35.000",
+      "endTimestamp": "00:07:40.660",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0110",
+    "text": "details page, details page, details page.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 110,
+      "start": 460.98,
+      "end": 463.62,
+      "duration": 2.64,
+      "startTimestamp": "00:07:40.980",
+      "endTimestamp": "00:07:43.620",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0111",
+    "text": "So yes they have bunch of use cases about this as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 111,
+      "start": 463.98,
+      "end": 467.92,
+      "duration": 3.94,
+      "startTimestamp": "00:07:43.980",
+      "endTimestamp": "00:07:47.920",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0112",
+    "text": "Like if you just coming to here and let's look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 112,
+      "start": 468.1,
+      "end": 472.64,
+      "duration": 4.54,
+      "startTimestamp": "00:07:48.100",
+      "endTimestamp": "00:07:52.640",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0113",
+    "text": "So we now have the stack with two routes the home route and detailed route.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 113,
+      "start": 472.98,
+      "end": 476.8,
+      "duration": 3.82,
+      "startTimestamp": "00:07:52.980",
+      "endTimestamp": "00:07:56.800",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0114",
+    "text": "What would happen if you navigate it to the details route again from the details screen.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 114,
+      "start": 477.3,
+      "end": 481.82,
+      "duration": 4.52,
+      "startTimestamp": "00:07:57.300",
+      "endTimestamp": "00:08:01.820",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0115",
+    "text": "If you are using this method, if you run this code, you will notice that when you tap go",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 115,
+      "start": 481.9,
+      "end": 487.42,
+      "duration": 5.52,
+      "startTimestamp": "00:08:01.900",
+      "endTimestamp": "00:08:07.420",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0116",
+    "text": "to details, it doesn't do anything.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 116,
+      "start": 487.421,
+      "end": 489.44,
+      "duration": 2.019,
+      "startTimestamp": "00:08:07.421",
+      "endTimestamp": "00:08:09.440",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0117",
+    "text": "I mean, yes.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 117,
+      "start": 489.5,
+      "end": 490.14,
+      "duration": 0.64,
+      "startTimestamp": "00:08:09.500",
+      "endTimestamp": "00:08:10.140",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0118",
+    "text": "This is because you are already on the details route.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 118,
+      "start": 490.5,
+      "end": 494.2,
+      "duration": 3.7,
+      "startTimestamp": "00:08:10.500",
+      "endTimestamp": "00:08:14.200",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0119",
+    "text": "So the navigate function, listen to me carefully, navigate function roughly means go to this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 119,
+      "start": 495.04,
+      "end": 502.26,
+      "duration": 7.22,
+      "startTimestamp": "00:08:15.040",
+      "endTimestamp": "00:08:22.260",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0120",
+    "text": "screen got it, but when it's come to push.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 120,
+      "start": 502.28,
+      "end": 505.6,
+      "duration": 3.32,
+      "startTimestamp": "00:08:22.280",
+      "endTimestamp": "00:08:25.600",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0121",
+    "text": "Push means each time you call push we add a new route to the navigation stack.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 121,
+      "start": 506,
+      "end": 513.22,
+      "duration": 7.22,
+      "startTimestamp": "00:08:26.000",
+      "endTimestamp": "00:08:33.220",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0122",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 122,
+      "start": 514.14,
+      "end": 514.44,
+      "duration": 0.3,
+      "startTimestamp": "00:08:34.140",
+      "endTimestamp": "00:08:34.440",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0123",
+    "text": "And when you call navigate it only pushes to a new route if you are not already on that",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 123,
+      "start": 514.57,
+      "end": 521.799,
+      "duration": 7.229,
+      "startTimestamp": "00:08:34.570",
+      "endTimestamp": "00:08:41.799",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0124",
+    "text": "specific route.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 124,
+      "start": 522.02,
+      "end": 523.02,
+      "duration": 1,
+      "startTimestamp": "00:08:42.020",
+      "endTimestamp": "00:08:43.020",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0125",
+    "text": "So, I hope so that this is making sense right now.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 125,
+      "start": 523.299,
+      "end": 527.1,
+      "duration": 3.801,
+      "startTimestamp": "00:08:43.299",
+      "endTimestamp": "00:08:47.100",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0126",
+    "text": "Now let's move ahead and start talking about other method as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 126,
+      "start": 527.76,
+      "end": 532.36,
+      "duration": 4.6,
+      "startTimestamp": "00:08:47.760",
+      "endTimestamp": "00:08:52.360",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0127",
+    "text": "Let's say instead of going to the details page once again, let go to profile page, but",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 127,
+      "start": 533.019,
+      "end": 538.62,
+      "duration": 5.601,
+      "startTimestamp": "00:08:53.019",
+      "endTimestamp": "00:08:58.620",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0128",
+    "text": "for now let me go to details and from detail I wanted to go profile page.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 128,
+      "start": 538.621,
+      "end": 544.18,
+      "duration": 5.559,
+      "startTimestamp": "00:08:58.621",
+      "endTimestamp": "00:09:04.180",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0129",
+    "text": "Easy and now if I click on profile I am on profile page.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 129,
+      "start": 544.279,
+      "end": 547.58,
+      "duration": 3.301,
+      "startTimestamp": "00:09:04.279",
+      "endTimestamp": "00:09:07.580",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0130",
+    "text": "Now you can create your custom going back method as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 130,
+      "start": 547.581,
+      "end": 551.88,
+      "duration": 4.299,
+      "startTimestamp": "00:09:07.581",
+      "endTimestamp": "00:09:11.880",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0131",
+    "text": "How you can do so that?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 131,
+      "start": 552.02,
+      "end": 553.16,
+      "duration": 1.14,
+      "startTimestamp": "00:09:12.020",
+      "endTimestamp": "00:09:13.160",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0132",
+    "text": "So let me go to my profile and let me just copy this once again.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 132,
+      "start": 553.66,
+      "end": 558.84,
+      "duration": 5.18,
+      "startTimestamp": "00:09:13.660",
+      "endTimestamp": "00:09:18.840",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0133",
+    "text": "Let me just paste it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 133,
+      "start": 559.12,
+      "end": 561.16,
+      "duration": 2.04,
+      "startTimestamp": "00:09:19.120",
+      "endTimestamp": "00:09:21.160",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0134",
+    "text": "Let me grab my pressable and let me just initialize this as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 134,
+      "start": 562.34,
+      "end": 568.18,
+      "duration": 5.84,
+      "startTimestamp": "00:09:22.340",
+      "endTimestamp": "00:09:28.180",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0135",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 135,
+      "start": 570.44,
+      "end": 570.96,
+      "duration": 0.52,
+      "startTimestamp": "00:09:30.440",
+      "endTimestamp": "00:09:30.960",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0136",
+    "text": "And then let me not from expo router.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 136,
+      "start": 571.68,
+      "end": 574.24,
+      "duration": 2.56,
+      "startTimestamp": "00:09:31.680",
+      "endTimestamp": "00:09:34.240",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0137",
+    "text": "I just wanted to get it from react navigation.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 137,
+      "start": 576.3,
+      "end": 579,
+      "duration": 2.7,
+      "startTimestamp": "00:09:36.300",
+      "endTimestamp": "00:09:39.000",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0138",
+    "text": "Easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 138,
+      "start": 579.28,
+      "end": 579.92,
+      "duration": 0.64,
+      "startTimestamp": "00:09:39.280",
+      "endTimestamp": "00:09:39.920",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0139",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 139,
+      "start": 580.7,
+      "end": 580.84,
+      "duration": 0.14,
+      "startTimestamp": "00:09:40.700",
+      "endTimestamp": "00:09:40.840",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0140",
+    "text": "But right now I don't want it to go to again profile page.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 140,
+      "start": 580.98,
+      "end": 584.04,
+      "duration": 3.06,
+      "startTimestamp": "00:09:40.980",
+      "endTimestamp": "00:09:44.040",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0141",
+    "text": "Now I wanted to use the go back method.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 141,
+      "start": 584.34,
+      "end": 586.52,
+      "duration": 2.18,
+      "startTimestamp": "00:09:44.340",
+      "endTimestamp": "00:09:46.520",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0142",
+    "text": "So if you just simply call here the go back.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 142,
+      "start": 587.12,
+      "end": 590.22,
+      "duration": 3.1,
+      "startTimestamp": "00:09:47.120",
+      "endTimestamp": "00:09:50.220",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0143",
+    "text": "And instead of this you can simply say what go back and let me save it and now if I press",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 143,
+      "start": 591.56,
+      "end": 599.44,
+      "duration": 7.88,
+      "startTimestamp": "00:09:51.560",
+      "endTimestamp": "00:09:59.440",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0144",
+    "text": "on go back you will see I am on to this page but if you wanted to go back to the first",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 144,
+      "start": 599.441,
+      "end": 605,
+      "duration": 5.559,
+      "startTimestamp": "00:09:59.441",
+      "endTimestamp": "00:10:05.000",
+      "estimatedTokens": 29
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0145",
+    "text": "page listen to me carefully if you wanted to go towards the first page so for that you",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 145,
+      "start": 605.001,
+      "end": 611.959,
+      "duration": 6.958,
+      "startTimestamp": "00:10:05.001",
+      "endTimestamp": "00:10:11.959",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0146",
+    "text": "need to understand about something known as pop method.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 146,
+      "start": 611.96,
+      "end": 615.26,
+      "duration": 3.3,
+      "startTimestamp": "00:10:11.960",
+      "endTimestamp": "00:10:15.260",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0147",
+    "text": "Right now this is how go back is going to work exactly like this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 147,
+      "start": 615.3,
+      "end": 618.899,
+      "duration": 3.599,
+      "startTimestamp": "00:10:15.300",
+      "endTimestamp": "00:10:18.899",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0148",
+    "text": "If you just simply press on go back you are on to the back screen.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 148,
+      "start": 619.519,
+      "end": 624.04,
+      "duration": 4.521,
+      "startTimestamp": "00:10:19.519",
+      "endTimestamp": "00:10:24.040",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0149",
+    "text": "Perfect you are come one step back into the stack.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 149,
+      "start": 624.44,
+      "end": 627.459,
+      "duration": 3.019,
+      "startTimestamp": "00:10:24.440",
+      "endTimestamp": "00:10:27.459",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0150",
+    "text": "Making sense I mean it's pretty very very easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 150,
+      "start": 628.12,
+      "end": 630.36,
+      "duration": 2.24,
+      "startTimestamp": "00:10:28.120",
+      "endTimestamp": "00:10:30.360",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0151",
+    "text": "So, now let's talking about the popping screens method.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 151,
+      "start": 630.8,
+      "end": 635.16,
+      "duration": 4.36,
+      "startTimestamp": "00:10:30.800",
+      "endTimestamp": "00:10:35.160",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0152",
+    "text": "What is that?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 152,
+      "start": 636.14,
+      "end": 636.68,
+      "duration": 0.54,
+      "startTimestamp": "00:10:36.140",
+      "endTimestamp": "00:10:36.680",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0153",
+    "text": "We have basically two main method for that like going back this is how they are going",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 153,
+      "start": 637.16,
+      "end": 641.36,
+      "duration": 4.2,
+      "startTimestamp": "00:10:37.160",
+      "endTimestamp": "00:10:41.360",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0154",
+    "text": "to work.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 154,
+      "start": 641.361,
+      "end": 641.74,
+      "duration": 0.379,
+      "startTimestamp": "00:10:41.361",
+      "endTimestamp": "00:10:41.740",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0155",
+    "text": "We also have pop to method, pop to top method and pop method.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 155,
+      "start": 642.18,
+      "end": 646.86,
+      "duration": 4.68,
+      "startTimestamp": "00:10:42.180",
+      "endTimestamp": "00:10:46.860",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0156",
+    "text": "We have three method around this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 156,
+      "start": 647,
+      "end": 648.76,
+      "duration": 1.76,
+      "startTimestamp": "00:10:47.000",
+      "endTimestamp": "00:10:48.760",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0157",
+    "text": "So, how this is going to work?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 157,
+      "start": 649.519,
+      "end": 650.9590000000001,
+      "duration": 1.44,
+      "startTimestamp": "00:10:49.519",
+      "endTimestamp": "00:10:50.959",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0158",
+    "text": "First of all let me talk about pop to method.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 158,
+      "start": 651.14,
+      "end": 653.62,
+      "duration": 2.48,
+      "startTimestamp": "00:10:51.140",
+      "endTimestamp": "00:10:53.620",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0159",
+    "text": "to and the screen that you wanted to go.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 159,
+      "start": 657.24,
+      "end": 660.04,
+      "duration": 2.8,
+      "startTimestamp": "00:10:57.240",
+      "endTimestamp": "00:11:00.040",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0160",
+    "text": "Let's say I wanted to go home and if I save it let me just try if I just simply press and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 160,
+      "start": 660.42,
+      "end": 665.68,
+      "duration": 5.26,
+      "startTimestamp": "00:11:00.420",
+      "endTimestamp": "00:11:05.680",
+      "estimatedTokens": 29
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0161",
+    "text": "I am on my home page in same way let's say I wanted to go to the details page.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 161,
+      "start": 665.681,
+      "end": 673.04,
+      "duration": 7.359,
+      "startTimestamp": "00:11:05.681",
+      "endTimestamp": "00:11:13.040",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0162",
+    "text": "OPT details page, so now you are on to the details page.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 162,
+      "start": 673.041,
+      "end": 677.86,
+      "duration": 4.819,
+      "startTimestamp": "00:11:13.041",
+      "endTimestamp": "00:11:17.860",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0163",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 163,
+      "start": 678.3389999999999,
+      "end": 678.6,
+      "duration": 0.261,
+      "startTimestamp": "00:11:18.339",
+      "endTimestamp": "00:11:18.600",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0164",
+    "text": "Now, let us move ahead and by popping it this means you are just removing the stacks from",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 164,
+      "start": 679.3,
+      "end": 686.18,
+      "duration": 6.88,
+      "startTimestamp": "00:11:19.300",
+      "endTimestamp": "00:11:26.180",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0165",
+    "text": "removing the stacks I mean making sense and we have another one as well pop.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 165,
+      "start": 686.36,
+      "end": 690.779,
+      "duration": 4.419,
+      "startTimestamp": "00:11:26.360",
+      "endTimestamp": "00:11:30.779",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0166",
+    "text": "So, pop is going to do so one very very easy thing this is going to go back to one screen",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 166,
+      "start": 691.36,
+      "end": 697.32,
+      "duration": 5.96,
+      "startTimestamp": "00:11:31.360",
+      "endTimestamp": "00:11:37.320",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0167",
+    "text": "perfect this is going back to one screen perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 167,
+      "start": 697.66,
+      "end": 702.26,
+      "duration": 4.6,
+      "startTimestamp": "00:11:37.660",
+      "endTimestamp": "00:11:42.260",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0168",
+    "text": "So, go back to one screen.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 168,
+      "start": 702.261,
+      "end": 705.8,
+      "duration": 3.539,
+      "startTimestamp": "00:11:42.261",
+      "endTimestamp": "00:11:45.800",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0169",
+    "text": "So, now if I go to my profile page and simply press go back so I am on details page once",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 169,
+      "start": 708,
+      "end": 714.14,
+      "duration": 6.14,
+      "startTimestamp": "00:11:48.000",
+      "endTimestamp": "00:11:54.140",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0170",
+    "text": "again.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 170,
+      "start": 714.141,
+      "end": 714.6,
+      "duration": 0.459,
+      "startTimestamp": "00:11:54.141",
+      "endTimestamp": "00:11:54.600",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0171",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 171,
+      "start": 715.04,
+      "end": 715.3,
+      "duration": 0.26,
+      "startTimestamp": "00:11:55.040",
+      "endTimestamp": "00:11:55.300",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0172",
+    "text": "In same way you can definitely enter the numbers like how many screens you wanted to go back",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 172,
+      "start": 715.42,
+      "end": 721.32,
+      "duration": 5.9,
+      "startTimestamp": "00:11:55.420",
+      "endTimestamp": "00:12:01.320",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0173",
+    "text": "to.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 173,
+      "start": 721.321,
+      "end": 721.6,
+      "duration": 0.279,
+      "startTimestamp": "00:12:01.321",
+      "endTimestamp": "00:12:01.600",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0174",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 174,
+      "start": 722.06,
+      "end": 722.28,
+      "duration": 0.22,
+      "startTimestamp": "00:12:02.060",
+      "endTimestamp": "00:12:02.280",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0175",
+    "text": "Let's say if I just go to details and if I go to profile and the moment I press on go",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 175,
+      "start": 722.46,
+      "end": 727.44,
+      "duration": 4.98,
+      "startTimestamp": "00:12:02.460",
+      "endTimestamp": "00:12:07.440",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0176",
+    "text": "back.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 176,
+      "start": 727.441,
+      "end": 727.98,
+      "duration": 0.539,
+      "startTimestamp": "00:12:07.441",
+      "endTimestamp": "00:12:07.980",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0177",
+    "text": "So, profile to details, details to home.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 177,
+      "start": 728.36,
+      "end": 731.44,
+      "duration": 3.08,
+      "startTimestamp": "00:12:08.360",
+      "endTimestamp": "00:12:11.440",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0178",
+    "text": "So, I am just directly if I am not wrong I am going to be here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 178,
+      "start": 731.53,
+      "end": 734.72,
+      "duration": 3.19,
+      "startTimestamp": "00:12:11.530",
+      "endTimestamp": "00:12:14.720",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0179",
+    "text": "So, if I just simply press and boom look at that I am on my home page.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 179,
+      "start": 734.9,
+      "end": 739.16,
+      "duration": 4.26,
+      "startTimestamp": "00:12:14.900",
+      "endTimestamp": "00:12:19.160",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0180",
+    "text": "We have one more which is known as pop to.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 180,
+      "start": 740.22,
+      "end": 742.72,
+      "duration": 2.5,
+      "startTimestamp": "00:12:20.220",
+      "endTimestamp": "00:12:22.720",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0181",
+    "text": "Pop to top.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 181,
+      "start": 744.68,
+      "end": 745.52,
+      "duration": 0.84,
+      "startTimestamp": "00:12:24.680",
+      "endTimestamp": "00:12:25.520",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0182",
+    "text": "So, this pop to top means this is going to be go back to the first root screen.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 182,
+      "start": 746,
+      "end": 752.14,
+      "duration": 6.14,
+      "startTimestamp": "00:12:26.000",
+      "endTimestamp": "00:12:32.140",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0183",
+    "text": "whichever your root screen you are going back to that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 183,
+      "start": 752.2,
+      "end": 755.34,
+      "duration": 3.14,
+      "startTimestamp": "00:12:32.200",
+      "endTimestamp": "00:12:35.340",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0184",
+    "text": "Let's say in future you have bunch of other screens as well but you wanted to go back",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 184,
+      "start": 755.84,
+      "end": 760.68,
+      "duration": 4.84,
+      "startTimestamp": "00:12:35.840",
+      "endTimestamp": "00:12:40.680",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0185",
+    "text": "at the root screen so how you can do so that this is how you can basically use this method",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 185,
+      "start": 760.681,
+      "end": 766.8,
+      "duration": 6.119,
+      "startTimestamp": "00:12:40.681",
+      "endTimestamp": "00:12:46.800",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0186",
+    "text": "for it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 186,
+      "start": 766.82,
+      "end": 767.58,
+      "duration": 0.76,
+      "startTimestamp": "00:12:46.820",
+      "endTimestamp": "00:12:47.580",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0187",
+    "text": "Easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 187,
+      "start": 767.88,
+      "end": 768.14,
+      "duration": 0.26,
+      "startTimestamp": "00:12:47.880",
+      "endTimestamp": "00:12:48.140",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0188",
+    "text": "I hope so.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 188,
+      "start": 768.8,
+      "end": 770.6,
+      "duration": 1.8,
+      "startTimestamp": "00:12:48.800",
+      "endTimestamp": "00:12:50.600",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0189",
+    "text": "Yes.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 189,
+      "start": 770.98,
+      "end": 771.42,
+      "duration": 0.44,
+      "startTimestamp": "00:12:50.980",
+      "endTimestamp": "00:12:51.420",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0190",
+    "text": "And before moving ahead one more thing like you are seeing here the swiveling lines here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 190,
+      "start": 772.7,
+      "end": 777.4590000000001,
+      "duration": 4.759,
+      "startTimestamp": "00:12:52.700",
+      "endTimestamp": "00:12:57.459",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0191",
+    "text": "So this is nothing.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 191,
+      "start": 777.46,
+      "end": 778.48,
+      "duration": 1.02,
+      "startTimestamp": "00:12:57.460",
+      "endTimestamp": "00:12:58.480",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0192",
+    "text": "While initializing this here if you just pass the we can say we have bunch of types which",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 192,
+      "start": 779.16,
+      "end": 785.98,
+      "duration": 6.82,
+      "startTimestamp": "00:12:59.160",
+      "endTimestamp": "00:13:05.980",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0193",
+    "text": "is provided by that like let's say for this we have native navigation props.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 193,
+      "start": 785.981,
+      "end": 790.48,
+      "duration": 4.499,
+      "startTimestamp": "00:13:05.981",
+      "endTimestamp": "00:13:10.480",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0194",
+    "text": "And, then we have bunch of root, stack, parameter list, you will define all the other routes",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 194,
+      "start": 790.6,
+      "end": 797.36,
+      "duration": 6.76,
+      "startTimestamp": "00:13:10.600",
+      "endTimestamp": "00:13:17.360",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0195",
+    "text": "there, then this will not going to throw any error, you will see that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 195,
+      "start": 797.399,
+      "end": 801.22,
+      "duration": 3.821,
+      "startTimestamp": "00:13:17.399",
+      "endTimestamp": "00:13:21.220",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0196",
+    "text": "But for now I am just adding here any, but this is not a good practice at all, but just",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 196,
+      "start": 801.8389999999999,
+      "end": 806.62,
+      "duration": 4.781,
+      "startTimestamp": "00:13:21.839",
+      "endTimestamp": "00:13:26.620",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0197",
+    "text": "this is not showing me that red lines here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 197,
+      "start": 806.74,
+      "end": 810.6,
+      "duration": 3.86,
+      "startTimestamp": "00:13:26.740",
+      "endTimestamp": "00:13:30.600",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0198",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 198,
+      "start": 811.06,
+      "end": 811.399,
+      "duration": 0.339,
+      "startTimestamp": "00:13:31.060",
+      "endTimestamp": "00:13:31.399",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0199",
+    "text": "So, you can fix it if you wanted to, otherwise for now you can definitely bear it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 199,
+      "start": 811.56,
+      "end": 817.24,
+      "duration": 5.68,
+      "startTimestamp": "00:13:31.560",
+      "endTimestamp": "00:13:37.240",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0200",
+    "text": "Now, let us move ahead and start talking about other functions as well, but right now this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 200,
+      "start": 818.139,
+      "end": 824.759,
+      "duration": 6.62,
+      "startTimestamp": "00:13:38.139",
+      "endTimestamp": "00:13:44.759",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0201",
+    "text": "is very much in that you are going to use, you are going to use navigate in 90% of the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 201,
+      "start": 824.76,
+      "end": 830.12,
+      "duration": 5.36,
+      "startTimestamp": "00:13:44.760",
+      "endTimestamp": "00:13:50.120",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0202",
+    "text": "case, push and pop, pop number of screen that you wanted to do and one last method that",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 202,
+      "start": 830.121,
+      "end": 836.8,
+      "duration": 6.679,
+      "startTimestamp": "00:13:50.121",
+      "endTimestamp": "00:13:56.800",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0203",
+    "text": "we have.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 203,
+      "start": 836.801,
+      "end": 837.319,
+      "duration": 0.518,
+      "startTimestamp": "00:13:56.801",
+      "endTimestamp": "00:13:57.319",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0204",
+    "text": "is known as replace method. So, replace is basically going to be let's say if you are",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 204,
+      "start": 837.6,
+      "end": 843.699,
+      "duration": 6.099,
+      "startTimestamp": "00:13:57.600",
+      "endTimestamp": "00:14:03.699",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0205",
+    "text": "on the profile page let's say let me go to my profile and the moment I press alright.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 205,
+      "start": 843.7,
+      "end": 849.66,
+      "duration": 5.96,
+      "startTimestamp": "00:14:03.700",
+      "endTimestamp": "00:14:09.660",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0206",
+    "text": "So let me find the moment I coming to here and simply press and look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 206,
+      "start": 849.8,
+      "end": 853.819,
+      "duration": 4.019,
+      "startTimestamp": "00:14:09.800",
+      "endTimestamp": "00:14:13.819",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0207",
+    "text": "So, every time when I am going to details page and then I click on go to profile, I",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 207,
+      "start": 853.9,
+      "end": 859.32,
+      "duration": 5.42,
+      "startTimestamp": "00:14:13.900",
+      "endTimestamp": "00:14:19.320",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0208",
+    "text": "am replacing the stack with the profile stack perfect and if I just press go back I am on",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 208,
+      "start": 859.321,
+      "end": 865.2,
+      "duration": 5.879,
+      "startTimestamp": "00:14:19.321",
+      "endTimestamp": "00:14:25.200",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0209",
+    "text": "my home page.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 209,
+      "start": 865.201,
+      "end": 865.88,
+      "duration": 0.679,
+      "startTimestamp": "00:14:25.201",
+      "endTimestamp": "00:14:25.880",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0210",
+    "text": "Home page I mean look at the behavior by default if you are on home page and from home page",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 210,
+      "start": 865.9,
+      "end": 872.5,
+      "duration": 6.6,
+      "startTimestamp": "00:14:25.900",
+      "endTimestamp": "00:14:32.500",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0211",
+    "text": "if you are going to details space they both are into stack making sense and from detail",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 211,
+      "start": 872.501,
+      "end": 878.02,
+      "duration": 5.519,
+      "startTimestamp": "00:14:32.501",
+      "endTimestamp": "00:14:38.020",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0212",
+    "text": "if you are going to profile page.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 212,
+      "start": 878.021,
+      "end": 879.64,
+      "duration": 1.619,
+      "startTimestamp": "00:14:38.021",
+      "endTimestamp": "00:14:39.640",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0213",
+    "text": "You are onto this profile page and if you are going back, so ideally you should on details",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 213,
+      "start": 880.1,
+      "end": 888.54,
+      "duration": 8.44,
+      "startTimestamp": "00:14:40.100",
+      "endTimestamp": "00:14:48.540",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0214",
+    "text": "page, but you will see that you are directly going to home page.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 214,
+      "start": 888.5409999999999,
+      "end": 891.66,
+      "duration": 3.119,
+      "startTimestamp": "00:14:48.541",
+      "endTimestamp": "00:14:51.660",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0215",
+    "text": "Let me show you.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 215,
+      "start": 891.6610000000001,
+      "end": 892.62,
+      "duration": 0.959,
+      "startTimestamp": "00:14:51.661",
+      "endTimestamp": "00:14:52.620",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0216",
+    "text": "Let me go to my detail page.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 216,
+      "start": 892.68,
+      "end": 893.92,
+      "duration": 1.24,
+      "startTimestamp": "00:14:52.680",
+      "endTimestamp": "00:14:53.920",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0217",
+    "text": "No problem.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 217,
+      "start": 894.139,
+      "end": 894.6,
+      "duration": 0.461,
+      "startTimestamp": "00:14:54.139",
+      "endTimestamp": "00:14:54.600",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0218",
+    "text": "Let me go to my profile page.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 218,
+      "start": 894.8389999999999,
+      "end": 896.24,
+      "duration": 1.401,
+      "startTimestamp": "00:14:54.839",
+      "endTimestamp": "00:14:56.240",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0219",
+    "text": "No problem.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 219,
+      "start": 896.3389999999999,
+      "end": 896.8,
+      "duration": 0.461,
+      "startTimestamp": "00:14:56.339",
+      "endTimestamp": "00:14:56.800",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0220",
+    "text": "by using this replace method.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 220,
+      "start": 897.3,
+      "end": 900.16,
+      "duration": 2.86,
+      "startTimestamp": "00:14:57.300",
+      "endTimestamp": "00:15:00.160",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0221",
+    "text": "You will see the moment I click on go back, I'm directly going back to homepage.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 221,
+      "start": 900.5,
+      "end": 905.6,
+      "duration": 5.1,
+      "startTimestamp": "00:15:00.500",
+      "endTimestamp": "00:15:05.600",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0222",
+    "text": "Why?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 222,
+      "start": 905.94,
+      "end": 906.08,
+      "duration": 0.14,
+      "startTimestamp": "00:15:05.940",
+      "endTimestamp": "00:15:06.080",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0223",
+    "text": "Because this details is replacing itself with profile.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 223,
+      "start": 906.2,
+      "end": 909.84,
+      "duration": 3.64,
+      "startTimestamp": "00:15:06.200",
+      "endTimestamp": "00:15:09.840",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0224",
+    "text": "So that is how they are working.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 224,
+      "start": 909.98,
+      "end": 912.04,
+      "duration": 2.06,
+      "startTimestamp": "00:15:09.980",
+      "endTimestamp": "00:15:12.040",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0225",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 225,
+      "start": 912.56,
+      "end": 912.88,
+      "duration": 0.32,
+      "startTimestamp": "00:15:12.560",
+      "endTimestamp": "00:15:12.880",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0226",
+    "text": "So let's not complicate it much.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 226,
+      "start": 913.08,
+      "end": 915.22,
+      "duration": 2.14,
+      "startTimestamp": "00:15:13.080",
+      "endTimestamp": "00:15:15.220",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0227",
+    "text": "And yes, this is how they are basically and we have other methods as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 227,
+      "start": 915.98,
+      "end": 919.78,
+      "duration": 3.8,
+      "startTimestamp": "00:15:15.980",
+      "endTimestamp": "00:15:19.780",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0228",
+    "text": "If you wanted to explore them, take this as an assignment and try to do more research over",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 228,
+      "start": 919.84,
+      "end": 925.68,
+      "duration": 5.84,
+      "startTimestamp": "00:15:19.840",
+      "endTimestamp": "00:15:25.680",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0229",
+    "text": "it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 229,
+      "start": 925.681,
+      "end": 925.82,
+      "duration": 0.139,
+      "startTimestamp": "00:15:25.681",
+      "endTimestamp": "00:15:25.820",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0230",
+    "text": "But you do not need anything right now.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 230,
+      "start": 925.821,
+      "end": 928.1,
+      "duration": 2.279,
+      "startTimestamp": "00:15:25.821",
+      "endTimestamp": "00:15:28.100",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0231",
+    "text": "I mean we are good to go.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 231,
+      "start": 928.101,
+      "end": 929.58,
+      "duration": 1.479,
+      "startTimestamp": "00:15:28.101",
+      "endTimestamp": "00:15:29.580",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0232",
+    "text": "So cool yeah this is pretty much it for this chapter and from next chapter we are going",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 232,
+      "start": 929.959,
+      "end": 934.92,
+      "duration": 4.961,
+      "startTimestamp": "00:15:29.959",
+      "endTimestamp": "00:15:34.920",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0233",
+    "text": "to see bunch of other things as well and then going to create a very nice Pokemon app mini",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 233,
+      "start": 934.921,
+      "end": 940.22,
+      "duration": 5.299,
+      "startTimestamp": "00:15:34.921",
+      "endTimestamp": "00:15:40.220",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0234",
+    "text": "project you will learn everything from there as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 234,
+      "start": 940.221,
+      "end": 943.1,
+      "duration": 2.879,
+      "startTimestamp": "00:15:40.221",
+      "endTimestamp": "00:15:43.100",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_0235",
+    "text": "So yeah see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "fileName": "3. Navigation Between Screens_epm.vtt",
+      "captionIndex": 235,
+      "start": 943.42,
+      "end": 944.9590000000001,
+      "duration": 1.539,
+      "startTimestamp": "00:15:43.420",
+      "endTimestamp": "00:15:44.959",
+      "estimatedTokens": 8
+    }
+  }
+]

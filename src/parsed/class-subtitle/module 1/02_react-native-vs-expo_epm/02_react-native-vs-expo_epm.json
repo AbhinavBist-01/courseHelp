@@ -1,0 +1,3270 @@
+[
+  {
+    "id": "02_react-native-vs-expo_epm_0001",
+    "text": "All right everyone and welcome to chapter number two of our module number one.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 1,
+      "start": 0,
+      "end": 5.64,
+      "duration": 5.64,
+      "startTimestamp": "00:00:00.000",
+      "endTimestamp": "00:00:05.640",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0002",
+    "text": "In this chapter we are going to understand React Native and we are also going to understand",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 2,
+      "start": 6.24,
+      "end": 11.6,
+      "duration": 5.36,
+      "startTimestamp": "00:00:06.240",
+      "endTimestamp": "00:00:11.600",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0003",
+    "text": "what is Expo and then we are going to have a very good comparison between React Native",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 3,
+      "start": 11.601,
+      "end": 16.74,
+      "duration": 5.139,
+      "startTimestamp": "00:00:11.601",
+      "endTimestamp": "00:00:16.740",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0004",
+    "text": "and Expo.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 4,
+      "start": 17.28,
+      "end": 17.88,
+      "duration": 0.6,
+      "startTimestamp": "00:00:17.280",
+      "endTimestamp": "00:00:17.880",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0005",
+    "text": "Perfect, this is definitely going to be a theoretical chapter but don't worry every",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 5,
+      "start": 17.9,
+      "end": 23.06,
+      "duration": 5.16,
+      "startTimestamp": "00:00:17.900",
+      "endTimestamp": "00:00:23.060",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0006",
+    "text": "bit of it is going to be worth it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 6,
+      "start": 23.061,
+      "end": 24.92,
+      "duration": 1.859,
+      "startTimestamp": "00:00:23.061",
+      "endTimestamp": "00:00:24.920",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0007",
+    "text": "Now before moving ahead first of all I just wanted to talk about what is React Native.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 7,
+      "start": 24.98,
+      "end": 30.24,
+      "duration": 5.26,
+      "startTimestamp": "00:00:24.980",
+      "endTimestamp": "00:00:30.240",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0008",
+    "text": "If I just simply coming to here and write what is RN?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 8,
+      "start": 30.34,
+      "end": 34.32,
+      "duration": 3.98,
+      "startTimestamp": "00:00:30.340",
+      "endTimestamp": "00:00:34.320",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0009",
+    "text": "RN means React Native.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 9,
+      "start": 34.43,
+      "end": 36.16,
+      "duration": 1.73,
+      "startTimestamp": "00:00:34.430",
+      "endTimestamp": "00:00:36.160",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0010",
+    "text": "Perfect, but also before this if I just simply ask you one question.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 10,
+      "start": 37.78,
+      "end": 43.18,
+      "duration": 5.4,
+      "startTimestamp": "00:00:37.780",
+      "endTimestamp": "00:00:43.180",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0011",
+    "text": "If you want to build an app like Instagram perfect if I just simply coming to here and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 11,
+      "start": 43.6,
+      "end": 50.42,
+      "duration": 6.82,
+      "startTimestamp": "00:00:43.600",
+      "endTimestamp": "00:00:50.420",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0012",
+    "text": "then I write drop here the Instagram let's say if you wanted to build a app like Instagram",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 12,
+      "start": 50.421,
+      "end": 56,
+      "duration": 5.579,
+      "startTimestamp": "00:00:50.421",
+      "endTimestamp": "00:00:56.000",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0013",
+    "text": "so do you really wanted to write two separate code base just listen to me carefully let's",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 13,
+      "start": 56.86,
+      "end": 62.96,
+      "duration": 6.1,
+      "startTimestamp": "00:00:56.860",
+      "endTimestamp": "00:01:02.960",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0014",
+    "text": "Instagram clone, do you really want it to write a two separate app, one for iOS and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 14,
+      "start": 64.599,
+      "end": 72.2,
+      "duration": 7.601,
+      "startTimestamp": "00:01:04.599",
+      "endTimestamp": "00:01:12.200",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0015",
+    "text": "then another one is for Android?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 15,
+      "start": 72.24,
+      "end": 74.22,
+      "duration": 1.98,
+      "startTimestamp": "00:01:12.240",
+      "endTimestamp": "00:01:14.220",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0016",
+    "text": "I don't think so, like most developers don't and that's exactly why React Native exists.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 16,
+      "start": 77.1,
+      "end": 84.8,
+      "duration": 7.7,
+      "startTimestamp": "00:01:17.100",
+      "endTimestamp": "00:01:24.800",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0017",
+    "text": "So, what is react native?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 17,
+      "start": 85.2,
+      "end": 87.34,
+      "duration": 2.14,
+      "startTimestamp": "00:01:25.200",
+      "endTimestamp": "00:01:27.340",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0018",
+    "text": "If I just simply come into here and say react native is a framework, yes, react native is",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 18,
+      "start": 87.75,
+      "end": 95.84,
+      "duration": 8.09,
+      "startTimestamp": "00:01:27.750",
+      "endTimestamp": "00:01:35.840",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0019",
+    "text": "a framework that lets you build that lets you build.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 19,
+      "start": 95.84100000000001,
+      "end": 101.96000000000001,
+      "duration": 6.119,
+      "startTimestamp": "00:01:35.841",
+      "endTimestamp": "00:01:41.960",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0020",
+    "text": "Real mobile app using JS and react like if you are a web developer and switching to mobile",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 20,
+      "start": 102.88,
+      "end": 114.119,
+      "duration": 11.239,
+      "startTimestamp": "00:01:42.880",
+      "endTimestamp": "00:01:54.119",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0021",
+    "text": "development you just need to know about JavaScript and react which is you know very well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 21,
+      "start": 114.24000000000001,
+      "end": 120.799,
+      "duration": 6.559,
+      "startTimestamp": "00:01:54.240",
+      "endTimestamp": "00:02:00.799",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0022",
+    "text": "So, with one code base like if I just simply come into here and then say with one code",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 22,
+      "start": 121.1,
+      "end": 127.6,
+      "duration": 6.5,
+      "startTimestamp": "00:02:01.100",
+      "endTimestamp": "00:02:07.600",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0023",
+    "text": "base like this is your one code base you can write your app for Android and you can even",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 23,
+      "start": 127.601,
+      "end": 135.18,
+      "duration": 7.579,
+      "startTimestamp": "00:02:07.601",
+      "endTimestamp": "00:02:15.180",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0024",
+    "text": "write your app for iOS.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 24,
+      "start": 135.181,
+      "end": 137.739,
+      "duration": 2.558,
+      "startTimestamp": "00:02:15.181",
+      "endTimestamp": "00:02:17.739",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0025",
+    "text": "So, this is the beauty of React Native.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 25,
+      "start": 137.94,
+      "end": 141.04,
+      "duration": 3.1,
+      "startTimestamp": "00:02:17.940",
+      "endTimestamp": "00:02:21.040",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0026",
+    "text": "Now, very important thing, listen to me carefully.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 26,
+      "start": 141.3,
+      "end": 145.04,
+      "duration": 3.74,
+      "startTimestamp": "00:02:21.300",
+      "endTimestamp": "00:02:25.040",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0027",
+    "text": "React Native apps are not website.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 27,
+      "start": 145.56,
+      "end": 148.12,
+      "duration": 2.56,
+      "startTimestamp": "00:02:25.560",
+      "endTimestamp": "00:02:28.120",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0028",
+    "text": "Yes.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 28,
+      "start": 148.78,
+      "end": 148.96,
+      "duration": 0.18,
+      "startTimestamp": "00:02:28.780",
+      "endTimestamp": "00:02:28.960",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0029",
+    "text": "So keep this in mind.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 29,
+      "start": 149.12,
+      "end": 151.06,
+      "duration": 1.94,
+      "startTimestamp": "00:02:29.120",
+      "endTimestamp": "00:02:31.060",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0030",
+    "text": "I'm just marking here a star.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 30,
+      "start": 151.18,
+      "end": 153.28,
+      "duration": 2.1,
+      "startTimestamp": "00:02:31.180",
+      "endTimestamp": "00:02:33.280",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0031",
+    "text": "React Native apps are not website.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 31,
+      "start": 153.96,
+      "end": 159.22,
+      "duration": 5.26,
+      "startTimestamp": "00:02:33.960",
+      "endTimestamp": "00:02:39.220",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0032",
+    "text": "Like most of developer are confusing this, but make sure to keep that in mind.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 32,
+      "start": 159.66,
+      "end": 164.2,
+      "duration": 4.54,
+      "startTimestamp": "00:02:39.660",
+      "endTimestamp": "00:02:44.200",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0033",
+    "text": "React Native apps is the actual mobile app.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 33,
+      "start": 164.72,
+      "end": 167.66,
+      "duration": 2.94,
+      "startTimestamp": "00:02:44.720",
+      "endTimestamp": "00:02:47.660",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0034",
+    "text": "Be it iOS or Android doesn't matter.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 34,
+      "start": 167.8,
+      "end": 170.96,
+      "duration": 3.16,
+      "startTimestamp": "00:02:47.800",
+      "endTimestamp": "00:02:50.960",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0035",
+    "text": "They don't run inside a browser.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 35,
+      "start": 171.5,
+      "end": 174.06,
+      "duration": 2.56,
+      "startTimestamp": "00:02:51.500",
+      "endTimestamp": "00:02:54.060",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0036",
+    "text": "When you write react native code, you are going to see something very different.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 36,
+      "start": 175.66,
+      "end": 179.7,
+      "duration": 4.04,
+      "startTimestamp": "00:02:55.660",
+      "endTimestamp": "00:02:59.700",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0037",
+    "text": "Like instead of writing div, I'll show you the entire code of it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 37,
+      "start": 180.22,
+      "end": 183.64,
+      "duration": 3.42,
+      "startTimestamp": "00:03:00.220",
+      "endTimestamp": "00:03:03.640",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0038",
+    "text": "Don't worry.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 38,
+      "start": 183.66,
+      "end": 183.94,
+      "duration": 0.28,
+      "startTimestamp": "00:03:03.660",
+      "endTimestamp": "00:03:03.940",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0039",
+    "text": "Instead of writing div, you are going to write here the view.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 39,
+      "start": 183.941,
+      "end": 187.36,
+      "duration": 3.419,
+      "startTimestamp": "00:03:03.941",
+      "endTimestamp": "00:03:07.360",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0040",
+    "text": "instead of writing paragraph, h1, span, you are going to write here the text or for button",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 40,
+      "start": 187.9,
+      "end": 197,
+      "duration": 9.1,
+      "startTimestamp": "00:03:07.900",
+      "endTimestamp": "00:03:17.000",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0041",
+    "text": "I mean this is same you are going to write here the button.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 41,
+      "start": 197.04,
+      "end": 199.98,
+      "duration": 2.94,
+      "startTimestamp": "00:03:17.040",
+      "endTimestamp": "00:03:19.980",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0042",
+    "text": "So what is this means?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 42,
+      "start": 200.72,
+      "end": 202.54,
+      "duration": 1.82,
+      "startTimestamp": "00:03:20.720",
+      "endTimestamp": "00:03:22.540",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0043",
+    "text": "This means...",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 43,
+      "start": 203.299,
+      "end": 203.939,
+      "duration": 0.64,
+      "startTimestamp": "00:03:23.299",
+      "endTimestamp": "00:03:23.939",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0044",
+    "text": "React Native converts it into actual native components. You need not to go too much depth",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 44,
+      "start": 204.5,
+      "end": 212.24,
+      "duration": 7.74,
+      "startTimestamp": "00:03:24.500",
+      "endTimestamp": "00:03:32.240",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0045",
+    "text": "into it, but just listen to me carefully. React Native converts it into actual native",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 45,
+      "start": 212.28,
+      "end": 221.98,
+      "duration": 9.7,
+      "startTimestamp": "00:03:32.280",
+      "endTimestamp": "00:03:41.980",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0046",
+    "text": "native component. Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 46,
+      "start": 223.94,
+      "end": 225.84,
+      "duration": 1.9,
+      "startTimestamp": "00:03:43.940",
+      "endTimestamp": "00:03:45.840",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0047",
+    "text": "Actual native component. Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 47,
+      "start": 226.18,
+      "end": 229.16,
+      "duration": 2.98,
+      "startTimestamp": "00:03:46.180",
+      "endTimestamp": "00:03:49.160",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0048",
+    "text": "So that's why app build with react native,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 48,
+      "start": 229.68,
+      "end": 233.32,
+      "duration": 3.64,
+      "startTimestamp": "00:03:49.680",
+      "endTimestamp": "00:03:53.320",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0049",
+    "text": "like whenever you build any app with react native, first of all,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 49,
+      "start": 233.57999999999998,
+      "end": 237.4,
+      "duration": 3.82,
+      "startTimestamp": "00:03:53.580",
+      "endTimestamp": "00:03:57.400",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0050",
+    "text": "they are going to feel you very fast.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 50,
+      "start": 237.46,
+      "end": 239.68,
+      "duration": 2.22,
+      "startTimestamp": "00:03:57.460",
+      "endTimestamp": "00:03:59.680",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0051",
+    "text": "Then they are going to look very native.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 51,
+      "start": 239.7,
+      "end": 242.5,
+      "duration": 2.8,
+      "startTimestamp": "00:03:59.700",
+      "endTimestamp": "00:04:02.500",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0052",
+    "text": "Native means if you build for iOS, you will see like every UI is resembling with the iOS",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 52,
+      "start": 242.84,
+      "end": 249.22,
+      "duration": 6.38,
+      "startTimestamp": "00:04:02.840",
+      "endTimestamp": "00:04:09.220",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0053",
+    "text": "UI.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 53,
+      "start": 249.319,
+      "end": 249.519,
+      "duration": 0.2,
+      "startTimestamp": "00:04:09.319",
+      "endTimestamp": "00:04:09.519",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0054",
+    "text": "But whenever you are building for Android, you are going to see all your UIs, all your",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 54,
+      "start": 250.06,
+      "end": 255.26,
+      "duration": 5.2,
+      "startTimestamp": "00:04:10.060",
+      "endTimestamp": "00:04:15.260",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0055",
+    "text": "buttons, all your selects are resembling with an Android native UI.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 55,
+      "start": 255.261,
+      "end": 260.36,
+      "duration": 5.099,
+      "startTimestamp": "00:04:15.261",
+      "endTimestamp": "00:04:20.360",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0056",
+    "text": "Perfect. They work offline. Yes, they work very well offline. They can access. Yes, one",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 56,
+      "start": 260.7,
+      "end": 267.12,
+      "duration": 6.42,
+      "startTimestamp": "00:04:20.700",
+      "endTimestamp": "00:04:27.120",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0057",
+    "text": "of the best thing about React Native, they can access your camera. They can access your",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 57,
+      "start": 267.121,
+      "end": 273.06,
+      "duration": 5.939,
+      "startTimestamp": "00:04:27.121",
+      "endTimestamp": "00:04:33.060",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0058",
+    "text": "GPS. They can help you to create a notification system. They can even access your gallery.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 58,
+      "start": 273.061,
+      "end": 279.54,
+      "duration": 6.479,
+      "startTimestamp": "00:04:33.061",
+      "endTimestamp": "00:04:39.540",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0059",
+    "text": "They can even access a xero scope. I mean, there are a lot of things to do and don't",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 59,
+      "start": 280.1,
+      "end": 284.54,
+      "duration": 4.44,
+      "startTimestamp": "00:04:40.100",
+      "endTimestamp": "00:04:44.540",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0060",
+    "text": "worry. We are going to discuss each and every topic out of it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 60,
+      "start": 284.64,
+      "end": 288.24,
+      "duration": 3.6,
+      "startTimestamp": "00:04:44.640",
+      "endTimestamp": "00:04:48.240",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0061",
+    "text": "So, if I just tell you a simple comparison between web apps, first of all let me change",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 61,
+      "start": 289.56,
+      "end": 296.96,
+      "duration": 7.4,
+      "startTimestamp": "00:04:49.560",
+      "endTimestamp": "00:04:56.960",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0062",
+    "text": "my color this one.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 62,
+      "start": 296.961,
+      "end": 298.86,
+      "duration": 1.899,
+      "startTimestamp": "00:04:56.961",
+      "endTimestamp": "00:04:58.860",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0063",
+    "text": "If I just try to give you a basic comparison this is your web apps.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 63,
+      "start": 299.139,
+      "end": 302.6,
+      "duration": 3.461,
+      "startTimestamp": "00:04:59.139",
+      "endTimestamp": "00:05:02.600",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0064",
+    "text": "So web apps always runs in browser we know that then they uses HTML and CSS and JavaScript",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 64,
+      "start": 303.24,
+      "end": 312.139,
+      "duration": 8.899,
+      "startTimestamp": "00:05:03.240",
+      "endTimestamp": "00:05:12.139",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0065",
+    "text": "They have limited access to device features.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 65,
+      "start": 312.5,
+      "end": 316.44,
+      "duration": 3.94,
+      "startTimestamp": "00:05:12.500",
+      "endTimestamp": "00:05:16.440",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0066",
+    "text": "Yes, like whenever you are building a web apps, they don't have even the direct access",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 66,
+      "start": 316.84,
+      "end": 323.22,
+      "duration": 6.38,
+      "startTimestamp": "00:05:16.840",
+      "endTimestamp": "00:05:23.220",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0067",
+    "text": "of your actual device features.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 67,
+      "start": 323.221,
+      "end": 325.38,
+      "duration": 2.159,
+      "startTimestamp": "00:05:23.221",
+      "endTimestamp": "00:05:25.380",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0068",
+    "text": "But whenever you build a react native app, whenever you build.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 68,
+      "start": 326.44,
+      "end": 331.58,
+      "duration": 5.14,
+      "startTimestamp": "00:05:26.440",
+      "endTimestamp": "00:05:31.580",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0069",
+    "text": "If I just try to copy this and write down that here, whenever you wanted to build a",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 69,
+      "start": 331.6,
+      "end": 339.62,
+      "duration": 8.02,
+      "startTimestamp": "00:05:31.600",
+      "endTimestamp": "00:05:39.620",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0070",
+    "text": "react native app.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 70,
+      "start": 339.621,
+      "end": 340.54,
+      "duration": 0.919,
+      "startTimestamp": "00:05:39.621",
+      "endTimestamp": "00:05:40.540",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0071",
+    "text": "So this is going to be built like first of all, they are going to build using JS.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 71,
+      "start": 341.06,
+      "end": 346.24,
+      "duration": 5.18,
+      "startTimestamp": "00:05:41.060",
+      "endTimestamp": "00:05:46.240",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0072",
+    "text": "So everything is going to be look known to you.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 72,
+      "start": 346.56,
+      "end": 349.7,
+      "duration": 3.14,
+      "startTimestamp": "00:05:46.560",
+      "endTimestamp": "00:05:49.700",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0073",
+    "text": "You have a one code base for iOS for Android.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 73,
+      "start": 350.1,
+      "end": 353.7,
+      "duration": 3.6,
+      "startTimestamp": "00:05:50.100",
+      "endTimestamp": "00:05:53.700",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0074",
+    "text": "Then they give you a near native performance.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 74,
+      "start": 354,
+      "end": 357.34000000000003,
+      "duration": 3.34,
+      "startTimestamp": "00:05:54.000",
+      "endTimestamp": "00:05:57.340",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0075",
+    "text": "What is this native mean?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 75,
+      "start": 357.44,
+      "end": 358.72,
+      "duration": 1.28,
+      "startTimestamp": "00:05:57.440",
+      "endTimestamp": "00:05:58.720",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0076",
+    "text": "Native mean for which platform you are developing like is you are developing for Android or iOS.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 76,
+      "start": 358.92,
+      "end": 364.92,
+      "duration": 6,
+      "startTimestamp": "00:05:58.920",
+      "endTimestamp": "00:06:04.920",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0077",
+    "text": "So native means Android or iOS depends on your mobile device.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 77,
+      "start": 365,
+      "end": 368.9,
+      "duration": 3.9,
+      "startTimestamp": "00:06:05.000",
+      "endTimestamp": "00:06:08.900",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0078",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 78,
+      "start": 369.96,
+      "end": 370.18,
+      "duration": 0.22,
+      "startTimestamp": "00:06:09.960",
+      "endTimestamp": "00:06:10.180",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0079",
+    "text": "So this is going to be near native performance and faster development.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 79,
+      "start": 370.74,
+      "end": 375.62,
+      "duration": 4.88,
+      "startTimestamp": "00:06:10.740",
+      "endTimestamp": "00:06:15.620",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0080",
+    "text": "Why faster development?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 80,
+      "start": 375.78,
+      "end": 376.88,
+      "duration": 1.1,
+      "startTimestamp": "00:06:15.780",
+      "endTimestamp": "00:06:16.880",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0081",
+    "text": "You have one code base for two different apps.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 81,
+      "start": 377.02,
+      "end": 379.38,
+      "duration": 2.36,
+      "startTimestamp": "00:06:17.020",
+      "endTimestamp": "00:06:19.380",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0082",
+    "text": "for two different OS. So for 90% of real world app, React Native is more than enough. So",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 82,
+      "start": 379.7,
+      "end": 388.58,
+      "duration": 8.88,
+      "startTimestamp": "00:06:19.700",
+      "endTimestamp": "00:06:28.580",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0083",
+    "text": "that's why like companies, yep, that's why companies like Insta, companies like Shopify,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 83,
+      "start": 388.84,
+      "end": 396.72,
+      "duration": 7.88,
+      "startTimestamp": "00:06:28.840",
+      "endTimestamp": "00:06:36.720",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0084",
+    "text": "companies like Discord, companies like Uber, they all are using, yes, they all are using",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 84,
+      "start": 397.56,
+      "end": 405.74,
+      "duration": 8.18,
+      "startTimestamp": "00:06:37.560",
+      "endTimestamp": "00:06:45.740",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0085",
+    "text": "React natives to build their apps.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 85,
+      "start": 405.741,
+      "end": 408.6,
+      "duration": 2.859,
+      "startTimestamp": "00:06:45.741",
+      "endTimestamp": "00:06:48.600",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0086",
+    "text": "Perfect, but it is a limitation.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 86,
+      "start": 409.68,
+      "end": 412.639,
+      "duration": 2.959,
+      "startTimestamp": "00:06:49.680",
+      "endTimestamp": "00:06:52.639",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0087",
+    "text": "What is the limitation?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 87,
+      "start": 412.86,
+      "end": 413.86,
+      "duration": 1,
+      "startTimestamp": "00:06:52.860",
+      "endTimestamp": "00:06:53.860",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0088",
+    "text": "Let me take you to the documentation of react native dot def.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 88,
+      "start": 414.199,
+      "end": 417.639,
+      "duration": 3.44,
+      "startTimestamp": "00:06:54.199",
+      "endTimestamp": "00:06:57.639",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0089",
+    "text": "So make sure you visit here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 89,
+      "start": 417.8,
+      "end": 419.08,
+      "duration": 1.28,
+      "startTimestamp": "00:06:57.800",
+      "endTimestamp": "00:06:59.080",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0090",
+    "text": "This is how the landing page looks.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 90,
+      "start": 419.56,
+      "end": 421.22,
+      "duration": 1.66,
+      "startTimestamp": "00:06:59.560",
+      "endTimestamp": "00:07:01.220",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0091",
+    "text": "You can definitely scroll and skim it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 91,
+      "start": 421.74,
+      "end": 425.139,
+      "duration": 3.399,
+      "startTimestamp": "00:07:01.740",
+      "endTimestamp": "00:07:05.139",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0092",
+    "text": "But I just simply wanted to click on get started and the moment you click on get started just",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 92,
+      "start": 425.9,
+      "end": 433.44,
+      "duration": 7.54,
+      "startTimestamp": "00:07:05.900",
+      "endTimestamp": "00:07:13.440",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0093",
+    "text": "try to read this react native allow developers who know react to create native apps at the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 93,
+      "start": 433.5,
+      "end": 441.96,
+      "duration": 8.46,
+      "startTimestamp": "00:07:13.500",
+      "endTimestamp": "00:07:21.960",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0094",
+    "text": "same time native developers can use react native to gain a parity.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 94,
+      "start": 442,
+      "end": 447.639,
+      "duration": 5.639,
+      "startTimestamp": "00:07:22.000",
+      "endTimestamp": "00:07:27.639",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0095",
+    "text": "I hope I'm pronouncing it right if not excuse me for that between a native platforms by",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 95,
+      "start": 448.199,
+      "end": 453.919,
+      "duration": 5.72,
+      "startTimestamp": "00:07:28.199",
+      "endTimestamp": "00:07:33.919",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0096",
+    "text": "Common features once.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 96,
+      "start": 455.2,
+      "end": 457.3,
+      "duration": 2.1,
+      "startTimestamp": "00:07:35.200",
+      "endTimestamp": "00:07:37.300",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0097",
+    "text": "What is native developers?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 97,
+      "start": 458.62,
+      "end": 460.28,
+      "duration": 1.66,
+      "startTimestamp": "00:07:38.620",
+      "endTimestamp": "00:07:40.280",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0098",
+    "text": "Native developers means like",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 98,
+      "start": 460.78,
+      "end": 463.2,
+      "duration": 2.42,
+      "startTimestamp": "00:07:40.780",
+      "endTimestamp": "00:07:43.200",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0099",
+    "text": "if you are only developing for iOS",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 99,
+      "start": 464.26,
+      "end": 466.12,
+      "duration": 1.86,
+      "startTimestamp": "00:07:44.260",
+      "endTimestamp": "00:07:46.120",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0100",
+    "text": "or only developing for Android",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 100,
+      "start": 466.3,
+      "end": 468.08,
+      "duration": 1.78,
+      "startTimestamp": "00:07:46.300",
+      "endTimestamp": "00:07:48.080",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0101",
+    "text": "like if you are only using Flutter or SIFT.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 101,
+      "start": 468.24,
+      "end": 470.9,
+      "duration": 2.66,
+      "startTimestamp": "00:07:48.240",
+      "endTimestamp": "00:07:50.900",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0102",
+    "text": "I hope so I make sense.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 102,
+      "start": 471.1,
+      "end": 472.12,
+      "duration": 1.02,
+      "startTimestamp": "00:07:51.100",
+      "endTimestamp": "00:07:52.120",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0103",
+    "text": "We believe yes, we believe that the best way to experience react native is through a framework.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 103,
+      "start": 472.2,
+      "end": 480.2,
+      "duration": 8,
+      "startTimestamp": "00:07:52.200",
+      "endTimestamp": "00:08:00.200",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0104",
+    "text": "Yes, we have react natives framework as well a toolbox with all the necessary APIs to let",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 104,
+      "start": 481.04,
+      "end": 489.04,
+      "duration": 8,
+      "startTimestamp": "00:08:01.040",
+      "endTimestamp": "00:08:09.040",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0105",
+    "text": "you build production ready apps.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 105,
+      "start": 489.041,
+      "end": 491.06,
+      "duration": 2.019,
+      "startTimestamp": "00:08:09.041",
+      "endTimestamp": "00:08:11.060",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0106",
+    "text": "You can also use react native without a framework.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 106,
+      "start": 491.4,
+      "end": 494.979,
+      "duration": 3.579,
+      "startTimestamp": "00:08:11.400",
+      "endTimestamp": "00:08:14.979",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0107",
+    "text": "Don't worry like if you don't want it to go with any framework, you can simply use it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 107,
+      "start": 495.46,
+      "end": 500.56,
+      "duration": 5.1,
+      "startTimestamp": "00:08:15.460",
+      "endTimestamp": "00:08:20.560",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0108",
+    "text": "But react native officially recommending you to use a framework.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 108,
+      "start": 500.699,
+      "end": 505.259,
+      "duration": 4.56,
+      "startTimestamp": "00:08:20.699",
+      "endTimestamp": "00:08:25.259",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0109",
+    "text": "So the name of that framework is expo.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 109,
+      "start": 506.5,
+      "end": 509.46,
+      "duration": 2.96,
+      "startTimestamp": "00:08:26.500",
+      "endTimestamp": "00:08:29.460",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0110",
+    "text": "So you can simply visit to this site known as Expo and let me just simply go to my documentation",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 110,
+      "start": 509.5,
+      "end": 516.5,
+      "duration": 7,
+      "startTimestamp": "00:08:29.500",
+      "endTimestamp": "00:08:36.500",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0111",
+    "text": "and this is what Expo means and let me go to my introduction.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 111,
+      "start": 516.659,
+      "end": 520.12,
+      "duration": 3.461,
+      "startTimestamp": "00:08:36.659",
+      "endTimestamp": "00:08:40.120",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0112",
+    "text": "What is this Expo means?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 112,
+      "start": 520.94,
+      "end": 522.559,
+      "duration": 1.619,
+      "startTimestamp": "00:08:40.940",
+      "endTimestamp": "00:08:42.559",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0113",
+    "text": "So Expo is a framework, React natives framework that makes developing Android and iOS app",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 113,
+      "start": 523.12,
+      "end": 531.54,
+      "duration": 8.42,
+      "startTimestamp": "00:08:43.120",
+      "endTimestamp": "00:08:51.540",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0114",
+    "text": "easier.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 114,
+      "start": 531.5409999999999,
+      "end": 532.04,
+      "duration": 0.499,
+      "startTimestamp": "00:08:51.541",
+      "endTimestamp": "00:08:52.040",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0115",
+    "text": "Our framework provide file based routing.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 115,
+      "start": 532.94,
+      "end": 535.38,
+      "duration": 2.44,
+      "startTimestamp": "00:08:52.940",
+      "endTimestamp": "00:08:55.380",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0116",
+    "text": "Familiar with Next.js like if you don't it's fine but if you are familiar with Next.js",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 116,
+      "start": 537.6,
+      "end": 543.639,
+      "duration": 6.039,
+      "startTimestamp": "00:08:57.600",
+      "endTimestamp": "00:09:03.639",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0117",
+    "text": "so they also support file-based routing.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 117,
+      "start": 544.22,
+      "end": 546.259,
+      "duration": 2.039,
+      "startTimestamp": "00:09:04.220",
+      "endTimestamp": "00:09:06.259",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0118",
+    "text": "A standard library for native modules and much more.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 118,
+      "start": 546.759,
+      "end": 551.6,
+      "duration": 4.841,
+      "startTimestamp": "00:09:06.759",
+      "endTimestamp": "00:09:11.600",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0119",
+    "text": "Expo is a open source like this is free to use.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 119,
+      "start": 551.92,
+      "end": 554.819,
+      "duration": 2.899,
+      "startTimestamp": "00:09:11.920",
+      "endTimestamp": "00:09:14.819",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0120",
+    "text": "So this is what Expo is and now we are going to talk about Expo.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 120,
+      "start": 556,
+      "end": 560.139,
+      "duration": 4.139,
+      "startTimestamp": "00:09:16.000",
+      "endTimestamp": "00:09:20.139",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0121",
+    "text": "So, where expo comes in, now react native is a powerful we know that react native is",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 121,
+      "start": 560.8,
+      "end": 568.08,
+      "duration": 7.28,
+      "startTimestamp": "00:09:20.800",
+      "endTimestamp": "00:09:28.080",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0122",
+    "text": "very powerful like this is let's say this is your react native very powerful, but setup",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 122,
+      "start": 568.081,
+      "end": 575.8,
+      "duration": 7.719,
+      "startTimestamp": "00:09:28.081",
+      "endTimestamp": "00:09:35.800",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0123",
+    "text": "can sometime feels heavy like if you wanted to setup a react native you are going to feel",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 123,
+      "start": 575.899,
+      "end": 581.98,
+      "duration": 6.081,
+      "startTimestamp": "00:09:35.899",
+      "endTimestamp": "00:09:41.980",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0124",
+    "text": "very heavy for that like you need to run this command that command ejected do lot of bunch",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 124,
+      "start": 581.981,
+      "end": 588.14,
+      "duration": 6.159,
+      "startTimestamp": "00:09:41.981",
+      "endTimestamp": "00:09:48.140",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0125",
+    "text": "of things.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 125,
+      "start": 588.141,
+      "end": 588.62,
+      "duration": 0.479,
+      "startTimestamp": "00:09:48.141",
+      "endTimestamp": "00:09:48.620",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0126",
+    "text": "But this is where Expo comes.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 126,
+      "start": 589,
+      "end": 592.08,
+      "duration": 3.08,
+      "startTimestamp": "00:09:49.000",
+      "endTimestamp": "00:09:52.080",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0127",
+    "text": "So think of it like React Native is there, we can say that the engine, but Expo is a",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 127,
+      "start": 592.36,
+      "end": 597.92,
+      "duration": 5.56,
+      "startTimestamp": "00:09:52.360",
+      "endTimestamp": "00:09:57.920",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0128",
+    "text": "smooth driving experience.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 128,
+      "start": 597.921,
+      "end": 599.42,
+      "duration": 1.499,
+      "startTimestamp": "00:09:57.921",
+      "endTimestamp": "00:09:59.420",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0129",
+    "text": "So now let's move ahead and talk about what is Expo.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 129,
+      "start": 600.09,
+      "end": 605.32,
+      "duration": 5.23,
+      "startTimestamp": "00:10:00.090",
+      "endTimestamp": "00:10:05.320",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0130",
+    "text": "And, and again Expo is not a replacement for React Native.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 130,
+      "start": 605.4,
+      "end": 609.66,
+      "duration": 4.26,
+      "startTimestamp": "00:10:05.400",
+      "endTimestamp": "00:10:09.660",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0131",
+    "text": "React Native is the core framework and Expo is a tool built on top of React Native.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 131,
+      "start": 610.12,
+      "end": 615.28,
+      "duration": 5.16,
+      "startTimestamp": "00:10:10.120",
+      "endTimestamp": "00:10:15.280",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0132",
+    "text": "So first thing is if I just write the definition about Expo let me search if we have the logo",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 132,
+      "start": 615.42,
+      "end": 621.8,
+      "duration": 6.38,
+      "startTimestamp": "00:10:15.420",
+      "endTimestamp": "00:10:21.800",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0133",
+    "text": "for it yes.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 133,
+      "start": 621.801,
+      "end": 622.52,
+      "duration": 0.719,
+      "startTimestamp": "00:10:21.801",
+      "endTimestamp": "00:10:22.520",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0134",
+    "text": "So what is this Expo?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 134,
+      "start": 622.8,
+      "end": 624.1,
+      "duration": 1.3,
+      "startTimestamp": "00:10:22.800",
+      "endTimestamp": "00:10:24.100",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0135",
+    "text": "Expo means Expo is a framework or tool we can say built on top of a",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 135,
+      "start": 625,
+      "end": 649.98,
+      "duration": 24.98,
+      "startTimestamp": "00:10:25.000",
+      "endTimestamp": "00:10:49.980",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0136",
+    "text": "React Native. Perfect. So, Expo sit on top of React Native and make things easier for",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 136,
+      "start": 649.981,
+      "end": 650.001,
+      "duration": 0.02,
+      "startTimestamp": "00:10:49.981",
+      "endTimestamp": "00:10:50.001",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0137",
+    "text": "you. Like they give you minimal setup, ready to use APIs. APIs means they give you camera",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 137,
+      "start": 650.002,
+      "end": 650.022,
+      "duration": 0.02,
+      "startTimestamp": "00:10:50.002",
+      "endTimestamp": "00:10:50.022",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0138",
+    "text": "API, they give you media API, they give you location API out of the box.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 138,
+      "start": 650.023,
+      "end": 653,
+      "duration": 2.977,
+      "startTimestamp": "00:10:50.023",
+      "endTimestamp": "00:10:53.000",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0139",
+    "text": "And, they even provide you for a better development experience like whenever we are going to set",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 139,
+      "start": 653.2,
+      "end": 658.9,
+      "duration": 5.7,
+      "startTimestamp": "00:10:53.200",
+      "endTimestamp": "00:10:58.900",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0140",
+    "text": "up our expo in upcoming lectures, you will going to learn about expogo.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 140,
+      "start": 658.901,
+      "end": 663.92,
+      "duration": 5.019,
+      "startTimestamp": "00:10:58.901",
+      "endTimestamp": "00:11:03.920",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0141",
+    "text": "So expogo is for your application testing, you can just simply install that and see all",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 141,
+      "start": 665.48,
+      "end": 671.56,
+      "duration": 6.08,
+      "startTimestamp": "00:11:05.480",
+      "endTimestamp": "00:11:11.560",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0142",
+    "text": "the outputs inside your app or emulator, whatever you are using simulator, emulator whatever",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 142,
+      "start": 671.58,
+      "end": 676.92,
+      "duration": 5.34,
+      "startTimestamp": "00:11:11.580",
+      "endTimestamp": "00:11:16.920",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0143",
+    "text": "is that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 143,
+      "start": 676.921,
+      "end": 677.58,
+      "duration": 0.659,
+      "startTimestamp": "00:11:16.921",
+      "endTimestamp": "00:11:17.580",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0144",
+    "text": "Perfect, so Expo is faster to start, they have less configuration, they are very beginner",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 144,
+      "start": 679.72,
+      "end": 684.8389999999999,
+      "duration": 5.119,
+      "startTimestamp": "00:11:19.720",
+      "endTimestamp": "00:11:24.839",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0145",
+    "text": "friendly and still production ready, like you can directly ship your products into the production.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 145,
+      "start": 684.84,
+      "end": 690.199,
+      "duration": 5.359,
+      "startTimestamp": "00:11:24.840",
+      "endTimestamp": "00:11:30.199",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0146",
+    "text": "Like if I just simply go to chai code website.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 146,
+      "start": 690.98,
+      "end": 693.44,
+      "duration": 2.46,
+      "startTimestamp": "00:11:30.980",
+      "endTimestamp": "00:11:33.440",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0147",
+    "text": "Perfect, if I just simply go to chai code website and if you go at the very bottom of",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 147,
+      "start": 694.5,
+      "end": 699.16,
+      "duration": 4.66,
+      "startTimestamp": "00:11:34.500",
+      "endTimestamp": "00:11:39.160",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0148",
+    "text": "it, we have bunch of app like chai code, we have masters G, we have a lot of other app",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 148,
+      "start": 699.1610000000001,
+      "end": 704.82,
+      "duration": 5.659,
+      "startTimestamp": "00:11:39.161",
+      "endTimestamp": "00:11:44.820",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0149",
+    "text": "as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 149,
+      "start": 705,
+      "end": 705.3,
+      "duration": 0.3,
+      "startTimestamp": "00:11:45.000",
+      "endTimestamp": "00:11:45.300",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0150",
+    "text": "So they all are built with expo itself.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 150,
+      "start": 705.52,
+      "end": 708.76,
+      "duration": 3.24,
+      "startTimestamp": "00:11:45.520",
+      "endTimestamp": "00:11:48.760",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0151",
+    "text": "If I just simply press on Master G.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 151,
+      "start": 708.761,
+      "end": 711.24,
+      "duration": 2.479,
+      "startTimestamp": "00:11:48.761",
+      "endTimestamp": "00:11:51.240",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0152",
+    "text": "This app, yes, we have also the MasterG app as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 152,
+      "start": 712.14,
+      "end": 715.54,
+      "duration": 3.4,
+      "startTimestamp": "00:11:52.140",
+      "endTimestamp": "00:11:55.540",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0153",
+    "text": "So whenever you are going to check that, you will going to see that they built on top of",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 153,
+      "start": 715.86,
+      "end": 719.54,
+      "duration": 3.68,
+      "startTimestamp": "00:11:55.860",
+      "endTimestamp": "00:11:59.540",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0154",
+    "text": "expo itself and we are handling a huge user database.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 154,
+      "start": 719.84,
+      "end": 725.36,
+      "duration": 5.52,
+      "startTimestamp": "00:11:59.840",
+      "endTimestamp": "00:12:05.360",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0155",
+    "text": "Perfect, huge user base.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 155,
+      "start": 725.56,
+      "end": 726.84,
+      "duration": 1.28,
+      "startTimestamp": "00:12:05.560",
+      "endTimestamp": "00:12:06.840",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0156",
+    "text": "So, now the one of the question arise which one you choose, so which one you choose which",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 156,
+      "start": 727.6,
+      "end": 736.24,
+      "duration": 8.64,
+      "startTimestamp": "00:12:07.600",
+      "endTimestamp": "00:12:16.240",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0157",
+    "text": "is recommended by official documentation of React Native.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 157,
+      "start": 736.241,
+      "end": 740.06,
+      "duration": 3.819,
+      "startTimestamp": "00:12:16.241",
+      "endTimestamp": "00:12:20.060",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0158",
+    "text": "If you want a best way to experience React Native is through a framework and the name",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 158,
+      "start": 740.88,
+      "end": 746.139,
+      "duration": 5.259,
+      "startTimestamp": "00:12:20.880",
+      "endTimestamp": "00:12:26.139",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0159",
+    "text": "of that framework for now is Expo.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 159,
+      "start": 746.14,
+      "end": 748.74,
+      "duration": 2.6,
+      "startTimestamp": "00:12:26.140",
+      "endTimestamp": "00:12:28.740",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0160",
+    "text": "With the help of Expo, you can create Android, iOS, TV and yes, you can even create web apps,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 160,
+      "start": 749,
+      "end": 754.86,
+      "duration": 5.86,
+      "startTimestamp": "00:12:29.000",
+      "endTimestamp": "00:12:34.860",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0161",
+    "text": "but let's not go web is let's leave aside web because we have Next.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 161,
+      "start": 755.16,
+      "end": 760.28,
+      "duration": 5.12,
+      "startTimestamp": "00:12:35.160",
+      "endTimestamp": "00:12:40.280",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0162",
+    "text": "Yes, we have angular.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 162,
+      "start": 760.281,
+      "end": 761.42,
+      "duration": 1.139,
+      "startTimestamp": "00:12:40.281",
+      "endTimestamp": "00:12:41.420",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0163",
+    "text": "We have react.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 163,
+      "start": 761.56,
+      "end": 762.14,
+      "duration": 0.58,
+      "startTimestamp": "00:12:41.560",
+      "endTimestamp": "00:12:42.140",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0164",
+    "text": "We can use that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 164,
+      "start": 762.141,
+      "end": 763.14,
+      "duration": 0.999,
+      "startTimestamp": "00:12:42.141",
+      "endTimestamp": "00:12:43.140",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0165",
+    "text": "But for now, we are only focusing on iOS Android apps.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 165,
+      "start": 763.38,
+      "end": 767.04,
+      "duration": 3.66,
+      "startTimestamp": "00:12:43.380",
+      "endTimestamp": "00:12:47.040",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0166",
+    "text": "So Expo is the best way to start with your.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 166,
+      "start": 767.62,
+      "end": 771,
+      "duration": 3.38,
+      "startTimestamp": "00:12:47.620",
+      "endTimestamp": "00:12:51.000",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0167",
+    "text": "mobile development journey best framework need not to jump to flutter jump to Kotlin",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 167,
+      "start": 771.88,
+      "end": 778.42,
+      "duration": 6.54,
+      "startTimestamp": "00:12:51.880",
+      "endTimestamp": "00:12:58.420",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0168",
+    "text": "expo is one of the best if you are coming from web developer web development background",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 168,
+      "start": 778.8,
+      "end": 784.78,
+      "duration": 5.98,
+      "startTimestamp": "00:12:58.800",
+      "endTimestamp": "00:13:04.780",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0169",
+    "text": "if not it's completely fine you can start from here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 169,
+      "start": 784.88,
+      "end": 787.6,
+      "duration": 2.72,
+      "startTimestamp": "00:13:04.880",
+      "endTimestamp": "00:13:07.600",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0170",
+    "text": "So, now tell me like if this video clear your confusion so make sure to drop the 5 star",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 170,
+      "start": 787.9,
+      "end": 795.28,
+      "duration": 7.38,
+      "startTimestamp": "00:13:07.900",
+      "endTimestamp": "00:13:15.280",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0171",
+    "text": "rating and now it's completely up to you.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 171,
+      "start": 795.34,
+      "end": 797.94,
+      "duration": 2.6,
+      "startTimestamp": "00:13:15.340",
+      "endTimestamp": "00:13:17.940",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_0172",
+    "text": "So, yeah this is pretty much it for this chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "fileName": "02_react-native-vs-expo_epm.vtt",
+      "captionIndex": 172,
+      "start": 798.36,
+      "end": 802.72,
+      "duration": 4.36,
+      "startTimestamp": "00:13:18.360",
+      "endTimestamp": "00:13:22.720",
+      "estimatedTokens": 20
+    }
+  }
+]

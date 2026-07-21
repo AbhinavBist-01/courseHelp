@@ -1,0 +1,1788 @@
+[
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0001",
+    "text": "Alright guys, welcome to one more new chapter.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 1,
+      "start": 0,
+      "end": 2.86,
+      "duration": 2.86,
+      "startTimestamp": "00:00:00.000",
+      "endTimestamp": "00:00:02.860",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0002",
+    "text": "In this chapter, we are basically going to talk about, we can say map controls.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 2,
+      "start": 3.12,
+      "end": 8.46,
+      "duration": 5.34,
+      "startTimestamp": "00:00:03.120",
+      "endTimestamp": "00:00:08.460",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0003",
+    "text": "So with the help of map controls, we can basically control the map of basically if you wanted",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 3,
+      "start": 8.82,
+      "end": 15.26,
+      "duration": 6.44,
+      "startTimestamp": "00:00:08.820",
+      "endTimestamp": "00:00:15.260",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0004",
+    "text": "to go previous, go next, change locations, a lot of things.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 4,
+      "start": 15.42,
+      "end": 19.7,
+      "duration": 4.28,
+      "startTimestamp": "00:00:15.420",
+      "endTimestamp": "00:00:19.700",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0005",
+    "text": "So, in this chapter, we are going to see how to set and update camera positions.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 5,
+      "start": 20,
+      "end": 24.84,
+      "duration": 4.84,
+      "startTimestamp": "00:00:20.000",
+      "endTimestamp": "00:00:24.840",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0006",
+    "text": "We already have that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 6,
+      "start": 25,
+      "end": 25.92,
+      "duration": 0.92,
+      "startTimestamp": "00:00:25.000",
+      "endTimestamp": "00:00:25.920",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0007",
+    "text": "How to toggle map UI.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 7,
+      "start": 26.38,
+      "end": 27.9,
+      "duration": 1.52,
+      "startTimestamp": "00:00:26.380",
+      "endTimestamp": "00:00:27.900",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0008",
+    "text": "Like you wanted to see compass, zoom buttons, gestures, lot of things and how combine camera",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 8,
+      "start": 28.74,
+      "end": 33.82,
+      "duration": 5.08,
+      "startTimestamp": "00:00:28.740",
+      "endTimestamp": "00:00:33.820",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0009",
+    "text": "UI settings into the single page.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 9,
+      "start": 34.06,
+      "end": 36.559,
+      "duration": 2.499,
+      "startTimestamp": "00:00:34.060",
+      "endTimestamp": "00:00:36.559",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0010",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 10,
+      "start": 37.26,
+      "end": 37.46,
+      "duration": 0.2,
+      "startTimestamp": "00:00:37.260",
+      "endTimestamp": "00:00:37.460",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0011",
+    "text": "So, let's again build an interactive map controls, a simple mini project.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 11,
+      "start": 38.12,
+      "end": 42.6,
+      "duration": 4.48,
+      "startTimestamp": "00:00:38.120",
+      "endTimestamp": "00:00:42.600",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0012",
+    "text": "So, first thing make sure we have a expo map installed, everything is already here, perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 12,
+      "start": 43.2,
+      "end": 49.38,
+      "duration": 6.18,
+      "startTimestamp": "00:00:43.200",
+      "endTimestamp": "00:00:49.380",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0013",
+    "text": "So, now we already have this camera thing, nice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 13,
+      "start": 49.41,
+      "end": 52.46,
+      "duration": 3.05,
+      "startTimestamp": "00:00:49.410",
+      "endTimestamp": "00:00:52.460",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0014",
+    "text": "Let's create bunch more state variables.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 14,
+      "start": 53.34,
+      "end": 57.24,
+      "duration": 3.9,
+      "startTimestamp": "00:00:53.340",
+      "endTimestamp": "00:00:57.240",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0015",
+    "text": "First state variable that we have compass, then we have zoom control, then we have scroll",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 15,
+      "start": 58.18,
+      "end": 63.82,
+      "duration": 5.64,
+      "startTimestamp": "00:00:58.180",
+      "endTimestamp": "00:01:03.820",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0016",
+    "text": "gesture and zoom gesture.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 16,
+      "start": 64.18,
+      "end": 66.18,
+      "duration": 2,
+      "startTimestamp": "00:01:04.180",
+      "endTimestamp": "00:01:06.180",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0017",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 17,
+      "start": 66.7,
+      "end": 67.299,
+      "duration": 0.599,
+      "startTimestamp": "00:01:06.700",
+      "endTimestamp": "00:01:07.299",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0018",
+    "text": "And again, if you are developing this inside the Apple and if you are developing this inside",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 18,
+      "start": 68.32,
+      "end": 73.119,
+      "duration": 4.799,
+      "startTimestamp": "00:01:08.320",
+      "endTimestamp": "00:01:13.119",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0019",
+    "text": "the Google map depends.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 19,
+      "start": 73.299,
+      "end": 74.299,
+      "duration": 1,
+      "startTimestamp": "00:01:13.299",
+      "endTimestamp": "00:01:14.299",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0020",
+    "text": "So we already have a camera position.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 20,
+      "start": 76.07900000000001,
+      "end": 77.72,
+      "duration": 1.641,
+      "startTimestamp": "00:01:16.079",
+      "endTimestamp": "00:01:17.720",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0021",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 21,
+      "start": 78.1,
+      "end": 78.28,
+      "duration": 0.18,
+      "startTimestamp": "00:01:18.100",
+      "endTimestamp": "00:01:18.280",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0022",
+    "text": "Let me take this down.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 22,
+      "start": 78.5,
+      "end": 79.399,
+      "duration": 0.899,
+      "startTimestamp": "00:01:18.500",
+      "endTimestamp": "00:01:19.399",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0023",
+    "text": "Nice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 23,
+      "start": 80.899,
+      "end": 80.979,
+      "duration": 0.08,
+      "startTimestamp": "00:01:20.899",
+      "endTimestamp": "00:01:20.979",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0024",
+    "text": "And below this, what I can do, we can have something known as UI settings and inside",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 24,
+      "start": 81.74,
+      "end": 87.119,
+      "duration": 5.379,
+      "startTimestamp": "00:01:21.740",
+      "endTimestamp": "00:01:27.119",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0025",
+    "text": "this UI settings, first thing that we have is Compass enabled is up to the Compass, not",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 25,
+      "start": 87.259,
+      "end": 94,
+      "duration": 6.741,
+      "startTimestamp": "00:01:27.259",
+      "endTimestamp": "00:01:34.000",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0026",
+    "text": "Alright and in same way we can have a zoom controlled enabled yes and then pass the value",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 26,
+      "start": 97.15899999999999,
+      "end": 104.259,
+      "duration": 7.1,
+      "startTimestamp": "00:01:37.159",
+      "endTimestamp": "00:01:44.259",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0027",
+    "text": "of zoom controls in same way we wanted to have a scroll gesture enabled.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 27,
+      "start": 104.4,
+      "end": 109.7,
+      "duration": 5.3,
+      "startTimestamp": "00:01:44.400",
+      "endTimestamp": "00:01:49.700",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0028",
+    "text": "scroll gesture, nice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 28,
+      "start": 111.2,
+      "end": 114.52000000000001,
+      "duration": 3.32,
+      "startTimestamp": "00:01:51.200",
+      "endTimestamp": "00:01:54.520",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0029",
+    "text": "And then we can have a zoom gesture enable and I can again say this as zoom gesture,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 29,
+      "start": 115.35,
+      "end": 121.1,
+      "duration": 5.75,
+      "startTimestamp": "00:01:55.350",
+      "endTimestamp": "00:02:01.100",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0030",
+    "text": "easy, nice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 30,
+      "start": 121.74,
+      "end": 123.6,
+      "duration": 1.86,
+      "startTimestamp": "00:02:01.740",
+      "endTimestamp": "00:02:03.600",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0031",
+    "text": "Let me save it for now, perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 31,
+      "start": 124.789,
+      "end": 127.02,
+      "duration": 2.231,
+      "startTimestamp": "00:02:04.789",
+      "endTimestamp": "00:02:07.020",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0032",
+    "text": "Nothing has changed here right now, cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 32,
+      "start": 127.399,
+      "end": 129.66,
+      "duration": 2.261,
+      "startTimestamp": "00:02:07.399",
+      "endTimestamp": "00:02:09.660",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0033",
+    "text": "But next, next is let's move ahead and same thing you can pass all of them inside",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 33,
+      "start": 129.97,
+      "end": 141.18,
+      "duration": 11.21,
+      "startTimestamp": "00:02:09.970",
+      "endTimestamp": "00:02:21.180",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0034",
+    "text": "the Apple as well, perfect and I think they do not have this, what we have then?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 34,
+      "start": 141.181,
+      "end": 145.88,
+      "duration": 4.699,
+      "startTimestamp": "00:02:21.181",
+      "endTimestamp": "00:02:25.880",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0035",
+    "text": "Then I do not know, does we have anything related to zoom?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 35,
+      "start": 146.209,
+      "end": 149.66,
+      "duration": 3.451,
+      "startTimestamp": "00:02:26.209",
+      "endTimestamp": "00:02:29.660",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0036",
+    "text": "No, so there is definitely some another way of implementing that for Apple for now we are",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 36,
+      "start": 151.019,
+      "end": 156.42000000000002,
+      "duration": 5.401,
+      "startTimestamp": "00:02:31.019",
+      "endTimestamp": "00:02:36.420",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0037",
+    "text": "only focusing on Google Maps, perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 37,
+      "start": 156.5,
+      "end": 159.42000000000002,
+      "duration": 2.92,
+      "startTimestamp": "00:02:36.500",
+      "endTimestamp": "00:02:39.420",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0038",
+    "text": "So inside this Google Maps, let us move ahead.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 38,
+      "start": 160.18,
+      "end": 162.76,
+      "duration": 2.58,
+      "startTimestamp": "00:02:40.180",
+      "endTimestamp": "00:02:42.760",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0039",
+    "text": "And below this what I wanted to do, we definitely don't, all right, this is good.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 39,
+      "start": 163.3,
+      "end": 168.52,
+      "duration": 5.22,
+      "startTimestamp": "00:02:43.300",
+      "endTimestamp": "00:02:48.520",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0040",
+    "text": "We have this buttons, this is for, so let's create here one design, like we have buttons",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 40,
+      "start": 169.41,
+      "end": 177.9,
+      "duration": 8.49,
+      "startTimestamp": "00:02:49.410",
+      "endTimestamp": "00:02:57.900",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0041",
+    "text": "map below this, let me paste here a control.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 41,
+      "start": 178.14,
+      "end": 181.1,
+      "duration": 2.96,
+      "startTimestamp": "00:02:58.140",
+      "endTimestamp": "00:03:01.100",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0042",
+    "text": "Perfect inside this controls we have padding and then we have background color.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 42,
+      "start": 182.12,
+      "end": 186.04,
+      "duration": 3.92,
+      "startTimestamp": "00:03:02.120",
+      "endTimestamp": "00:03:06.040",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0043",
+    "text": "Alright, and let me add one more thing.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 43,
+      "start": 186.7,
+      "end": 190.26,
+      "duration": 3.56,
+      "startTimestamp": "00:03:06.700",
+      "endTimestamp": "00:03:10.260",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0044",
+    "text": "Name is, let me just quickly show you, which is toggle row.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 44,
+      "start": 191.04,
+      "end": 195.78,
+      "duration": 4.74,
+      "startTimestamp": "00:03:11.040",
+      "endTimestamp": "00:03:15.780",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0045",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 45,
+      "start": 197.8,
+      "end": 198.22,
+      "duration": 0.42,
+      "startTimestamp": "00:03:17.800",
+      "endTimestamp": "00:03:18.220",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0046",
+    "text": "This is the toggle row, flex direction, justify content, align item and margin vertical.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 46,
+      "start": 198.319,
+      "end": 203.36,
+      "duration": 5.041,
+      "startTimestamp": "00:03:18.319",
+      "endTimestamp": "00:03:23.360",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0047",
+    "text": "No problem.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 47,
+      "start": 204.069,
+      "end": 204.57999999999998,
+      "duration": 0.511,
+      "startTimestamp": "00:03:24.069",
+      "endTimestamp": "00:03:24.580",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0048",
+    "text": "And I don't think so that we need buttons now.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 48,
+      "start": 205.34,
+      "end": 207.42000000000002,
+      "duration": 2.08,
+      "startTimestamp": "00:03:25.340",
+      "endTimestamp": "00:03:27.420",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0049",
+    "text": "And then let me try to paste that out.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 49,
+      "start": 207.63,
+      "end": 209.7,
+      "duration": 2.07,
+      "startTimestamp": "00:03:27.630",
+      "endTimestamp": "00:03:29.700",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0050",
+    "text": "Let me just quickly grab all the UIs and try to paste that out so that you guys can see",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 50,
+      "start": 210,
+      "end": 216.68,
+      "duration": 6.68,
+      "startTimestamp": "00:03:30.000",
+      "endTimestamp": "00:03:36.680",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0051",
+    "text": "what is basically happening here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 51,
+      "start": 216.9,
+      "end": 218.38,
+      "duration": 1.48,
+      "startTimestamp": "00:03:36.900",
+      "endTimestamp": "00:03:38.380",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0052",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 52,
+      "start": 219.67000000000002,
+      "end": 219.84,
+      "duration": 0.17,
+      "startTimestamp": "00:03:39.670",
+      "endTimestamp": "00:03:39.840",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0053",
+    "text": "So now, definitely we do not need here buttons, we need here controls.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 53,
+      "start": 220.56,
+      "end": 225.48,
+      "duration": 4.92,
+      "startTimestamp": "00:03:40.560",
+      "endTimestamp": "00:03:45.480",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0054",
+    "text": "Okay, so this is the first thing and yes look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 54,
+      "start": 226.47,
+      "end": 229.04,
+      "duration": 2.57,
+      "startTimestamp": "00:03:46.470",
+      "endTimestamp": "00:03:49.040",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0055",
+    "text": "After control everything is fine need not to change this Mumbai and Bangalore.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 55,
+      "start": 229.709,
+      "end": 233.78,
+      "duration": 4.071,
+      "startTimestamp": "00:03:49.709",
+      "endTimestamp": "00:03:53.780",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0056",
+    "text": "Out of this button, yes, below this I wanted you to create here some UI toggles.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 56,
+      "start": 234.3,
+      "end": 240.62,
+      "duration": 6.32,
+      "startTimestamp": "00:03:54.300",
+      "endTimestamp": "00:04:00.620",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0057",
+    "text": "So the first toggle, first of all definitely let me import the text from React Native and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 57,
+      "start": 240.99,
+      "end": 247.18,
+      "duration": 6.19,
+      "startTimestamp": "00:04:00.990",
+      "endTimestamp": "00:04:07.180",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0058",
+    "text": "also switch from React Native and if I save it, okay, nice, we need to change it, but",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 58,
+      "start": 247.5,
+      "end": 255.18,
+      "duration": 7.68,
+      "startTimestamp": "00:04:07.500",
+      "endTimestamp": "00:04:15.180",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0059",
+    "text": "no problem.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 59,
+      "start": 255.46,
+      "end": 255.9,
+      "duration": 0.44,
+      "startTimestamp": "00:04:15.460",
+      "endTimestamp": "00:04:15.900",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0060",
+    "text": "Let me just copy all of them and then let me paste all of them.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 60,
+      "start": 257.56,
+      "end": 262.639,
+      "duration": 5.079,
+      "startTimestamp": "00:04:17.560",
+      "endTimestamp": "00:04:22.639",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0061",
+    "text": "So now we have a compass, we have zoom control, we have gesture control and this is how I",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 61,
+      "start": 263,
+      "end": 269.139,
+      "duration": 6.139,
+      "startTimestamp": "00:04:23.000",
+      "endTimestamp": "00:04:29.139",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0062",
+    "text": "can with the help of my fingers you can see at the top we have this directions, yes look",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 62,
+      "start": 269.18,
+      "end": 274.419,
+      "duration": 5.239,
+      "startTimestamp": "00:04:29.180",
+      "endTimestamp": "00:04:34.419",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0063",
+    "text": "at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 63,
+      "start": 274.52,
+      "end": 274.8,
+      "duration": 0.28,
+      "startTimestamp": "00:04:34.520",
+      "endTimestamp": "00:04:34.800",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0064",
+    "text": "We have zoom gesture, we have scroll gesture, I can definitely scroll all of them with the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 64,
+      "start": 275.1,
+      "end": 280.2,
+      "duration": 5.1,
+      "startTimestamp": "00:04:35.100",
+      "endTimestamp": "00:04:40.200",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0065",
+    "text": "help of my fingers.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 65,
+      "start": 280.24,
+      "end": 281.15999999999997,
+      "duration": 0.92,
+      "startTimestamp": "00:04:40.240",
+      "endTimestamp": "00:04:41.160",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0066",
+    "text": "Hopefully, you guys are able to see that and yes, I can change it their 3D view as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 66,
+      "start": 281.98,
+      "end": 287.1,
+      "duration": 5.12,
+      "startTimestamp": "00:04:41.980",
+      "endTimestamp": "00:04:47.100",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0067",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 67,
+      "start": 287.8,
+      "end": 288,
+      "duration": 0.2,
+      "startTimestamp": "00:04:47.800",
+      "endTimestamp": "00:04:48.000",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0068",
+    "text": "So, look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 68,
+      "start": 288.34000000000003,
+      "end": 289.38,
+      "duration": 1.04,
+      "startTimestamp": "00:04:48.340",
+      "endTimestamp": "00:04:49.380",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0069",
+    "text": "This is how we can basically change it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 69,
+      "start": 290.18,
+      "end": 292.48,
+      "duration": 2.3,
+      "startTimestamp": "00:04:50.180",
+      "endTimestamp": "00:04:52.480",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0070",
+    "text": "Yes, look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 70,
+      "start": 292.84000000000003,
+      "end": 293.76,
+      "duration": 0.92,
+      "startTimestamp": "00:04:52.840",
+      "endTimestamp": "00:04:53.760",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0071",
+    "text": "This is your location.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 71,
+      "start": 294.1,
+      "end": 295,
+      "duration": 0.9,
+      "startTimestamp": "00:04:54.100",
+      "endTimestamp": "00:04:55.000",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0072",
+    "text": "You can plus it, minus it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 72,
+      "start": 295.15999999999997,
+      "end": 296.7,
+      "duration": 1.54,
+      "startTimestamp": "00:04:55.160",
+      "endTimestamp": "00:04:56.700",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0073",
+    "text": "Close this, let's say you don't want it to show the compass and now if I press on to",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 73,
+      "start": 297.2,
+      "end": 301.38,
+      "duration": 4.18,
+      "startTimestamp": "00:04:57.200",
+      "endTimestamp": "00:05:01.380",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0074",
+    "text": "my screen, I am not be able to see anything.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 74,
+      "start": 301.4,
+      "end": 303.32,
+      "duration": 1.92,
+      "startTimestamp": "00:05:01.400",
+      "endTimestamp": "00:05:03.320",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0075",
+    "text": "The moment I open this and try to definitely open this once again, maybe I need to reload",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 75,
+      "start": 303.99,
+      "end": 311.54,
+      "duration": 7.55,
+      "startTimestamp": "00:05:03.990",
+      "endTimestamp": "00:05:11.540",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0076",
+    "text": "it or something else.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 76,
+      "start": 311.7,
+      "end": 312.54,
+      "duration": 0.84,
+      "startTimestamp": "00:05:11.700",
+      "endTimestamp": "00:05:12.540",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0077",
+    "text": "So you can see that this is a zoom control.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 77,
+      "start": 313.1,
+      "end": 314.94,
+      "duration": 1.84,
+      "startTimestamp": "00:05:13.100",
+      "endTimestamp": "00:05:14.940",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0078",
+    "text": "Yes, look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 78,
+      "start": 315.07,
+      "end": 315.74,
+      "duration": 0.67,
+      "startTimestamp": "00:05:15.070",
+      "endTimestamp": "00:05:15.740",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0079",
+    "text": "The moment I open it, I can zoom it, zoom out.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 79,
+      "start": 316.21,
+      "end": 319.3,
+      "duration": 3.09,
+      "startTimestamp": "00:05:16.210",
+      "endTimestamp": "00:05:19.300",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0080",
+    "text": "I don't know for some reason I am not be able to see my compass.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 80,
+      "start": 319.98,
+      "end": 322.7,
+      "duration": 2.72,
+      "startTimestamp": "00:05:19.980",
+      "endTimestamp": "00:05:22.700",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0081",
+    "text": "if I reloaded once then I will see will see.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 81,
+      "start": 323.52,
+      "end": 326.26,
+      "duration": 2.74,
+      "startTimestamp": "00:05:23.520",
+      "endTimestamp": "00:05:26.260",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0082",
+    "text": "Hopefully, this will work and if I go somewhere else, where is my compass?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 82,
+      "start": 327.4,
+      "end": 331.72,
+      "duration": 4.32,
+      "startTimestamp": "00:05:27.400",
+      "endTimestamp": "00:05:31.720",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0083",
+    "text": "No idea.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 83,
+      "start": 332.15,
+      "end": 332.5,
+      "duration": 0.35,
+      "startTimestamp": "00:05:32.150",
+      "endTimestamp": "00:05:32.500",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0084",
+    "text": "Yes, look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 84,
+      "start": 332.87,
+      "end": 333.54,
+      "duration": 0.67,
+      "startTimestamp": "00:05:32.870",
+      "endTimestamp": "00:05:33.540",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0085",
+    "text": "This is how we can basically see the compass.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 85,
+      "start": 333.8,
+      "end": 336.36,
+      "duration": 2.56,
+      "startTimestamp": "00:05:33.800",
+      "endTimestamp": "00:05:36.360",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0086",
+    "text": "In same way, we have this zoom gesture.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 86,
+      "start": 336.58,
+      "end": 338.88,
+      "duration": 2.3,
+      "startTimestamp": "00:05:36.580",
+      "endTimestamp": "00:05:38.880",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0087",
+    "text": "I can control this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 87,
+      "start": 339.1,
+      "end": 340.02,
+      "duration": 0.92,
+      "startTimestamp": "00:05:39.100",
+      "endTimestamp": "00:05:40.020",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0088",
+    "text": "Yes, look at that the position, the moment you hold one finger and with the help of another",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 88,
+      "start": 340.2,
+      "end": 345.14,
+      "duration": 4.94,
+      "startTimestamp": "00:05:40.200",
+      "endTimestamp": "00:05:45.140",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0089",
+    "text": "finger, you can rotate it, you can do a lot of things.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 89,
+      "start": 345.26,
+      "end": 349.2,
+      "duration": 3.94,
+      "startTimestamp": "00:05:45.260",
+      "endTimestamp": "00:05:49.200",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0090",
+    "text": "I mean, it is up to you however you want it to do.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 90,
+      "start": 349.35,
+      "end": 351.28,
+      "duration": 1.93,
+      "startTimestamp": "00:05:49.350",
+      "endTimestamp": "00:05:51.280",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0091",
+    "text": "So, this is how you can create a bunch of map controls.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 91,
+      "start": 351.7,
+      "end": 356.24,
+      "duration": 4.54,
+      "startTimestamp": "00:05:51.700",
+      "endTimestamp": "00:05:56.240",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0092",
+    "text": "Again, you can enhance the UI, you can add bunch of icons here instead of using this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 92,
+      "start": 356.58,
+      "end": 361.94,
+      "duration": 5.36,
+      "startTimestamp": "00:05:56.580",
+      "endTimestamp": "00:06:01.940",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0093",
+    "text": "This will look much, much better.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 93,
+      "start": 362.14,
+      "end": 364.22,
+      "duration": 2.08,
+      "startTimestamp": "00:06:02.140",
+      "endTimestamp": "00:06:04.220",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_0094",
+    "text": "So, yes, this is pretty much it for this chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "fileName": "chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "captionIndex": 94,
+      "start": 365.3,
+      "end": 369.5,
+      "duration": 4.2,
+      "startTimestamp": "00:06:05.300",
+      "endTimestamp": "00:06:09.500",
+      "estimatedTokens": 20
+    }
+  }
+]

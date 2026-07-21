@@ -1,0 +1,3650 @@
+[
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0001",
+    "text": "Hey everyone and welcome to one more new module.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 1,
+      "start": 0.68,
+      "end": 3.44,
+      "duration": 2.76,
+      "startTimestamp": "00:00:00.680",
+      "endTimestamp": "00:00:03.440",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0002",
+    "text": "In this module we are basically going to talk about Expo sensors and what is this?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 2,
+      "start": 3.6,
+      "end": 9.36,
+      "duration": 5.76,
+      "startTimestamp": "00:00:03.600",
+      "endTimestamp": "00:00:09.360",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0003",
+    "text": "This is one of the powerful feature which is provided by Expo.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 3,
+      "start": 10.04,
+      "end": 15.86,
+      "duration": 5.82,
+      "startTimestamp": "00:00:10.040",
+      "endTimestamp": "00:00:15.860",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0004",
+    "text": "So, Expo sensors, a library that provides access to a device, accelerometer, barometer,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 4,
+      "start": 16,
+      "end": 24.4,
+      "duration": 8.4,
+      "startTimestamp": "00:00:16.000",
+      "endTimestamp": "00:00:24.400",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0005",
+    "text": "motion, xeroscope, light, magnetometer and barometer.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 5,
+      "start": 24.82,
+      "end": 29.14,
+      "duration": 4.32,
+      "startTimestamp": "00:00:24.820",
+      "endTimestamp": "00:00:29.140",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0006",
+    "text": "What is this and what?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 6,
+      "start": 29.34,
+      "end": 30.38,
+      "duration": 1.04,
+      "startTimestamp": "00:00:29.340",
+      "endTimestamp": "00:00:30.380",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0007",
+    "text": "There are so many types of meter, so many types of xeroscope, lightning.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 7,
+      "start": 30.5,
+      "end": 35.08,
+      "duration": 4.58,
+      "startTimestamp": "00:00:30.500",
+      "endTimestamp": "00:00:35.080",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0008",
+    "text": "What is this?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 8,
+      "start": 35.22,
+      "end": 35.86,
+      "duration": 0.64,
+      "startTimestamp": "00:00:35.220",
+      "endTimestamp": "00:00:35.860",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0009",
+    "text": "So, in this module, we are definitely going to understand each and every, like what is",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 9,
+      "start": 35.9,
+      "end": 43.06,
+      "duration": 7.16,
+      "startTimestamp": "00:00:35.900",
+      "endTimestamp": "00:00:43.060",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0010",
+    "text": "this accelerometer, what is barometer, how we can basically get the magnetism and magnetic",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 10,
+      "start": 43.12,
+      "end": 50.06,
+      "duration": 6.94,
+      "startTimestamp": "00:00:43.120",
+      "endTimestamp": "00:00:50.060",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0011",
+    "text": "field around your phone.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 11,
+      "start": 50.061,
+      "end": 51.36,
+      "duration": 1.299,
+      "startTimestamp": "00:00:50.061",
+      "endTimestamp": "00:00:51.360",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0012",
+    "text": "I mean, this is very interesting.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 12,
+      "start": 51.361,
+      "end": 53.1,
+      "duration": 1.739,
+      "startTimestamp": "00:00:51.361",
+      "endTimestamp": "00:00:53.100",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0013",
+    "text": "This is a revolution in itself.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 13,
+      "start": 53.42,
+      "end": 55.26,
+      "duration": 1.84,
+      "startTimestamp": "00:00:53.420",
+      "endTimestamp": "00:00:55.260",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0014",
+    "text": "So now let's move ahead.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 14,
+      "start": 55.92,
+      "end": 57.16,
+      "duration": 1.24,
+      "startTimestamp": "00:00:55.920",
+      "endTimestamp": "00:00:57.160",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0015",
+    "text": "And try to understand this perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 15,
+      "start": 58.34,
+      "end": 61.82,
+      "duration": 3.48,
+      "startTimestamp": "00:00:58.340",
+      "endTimestamp": "00:01:01.820",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0016",
+    "text": "So the first thing is what is sensors?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 16,
+      "start": 62.12,
+      "end": 65.099,
+      "duration": 2.979,
+      "startTimestamp": "00:01:02.120",
+      "endTimestamp": "00:01:05.099",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0017",
+    "text": "Sensors are bit or we can say that something which is provided they are provided you a",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 17,
+      "start": 65.44,
+      "end": 72.92,
+      "duration": 7.48,
+      "startTimestamp": "00:01:05.440",
+      "endTimestamp": "00:01:12.920",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0018",
+    "text": "software layer something like if I just try to explain you first of all what is sensors.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 18,
+      "start": 72.92099999999999,
+      "end": 78.24,
+      "duration": 5.319,
+      "startTimestamp": "00:01:12.921",
+      "endTimestamp": "00:01:18.240",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0019",
+    "text": "Sensors are hardware, yes they are hardware component in device like smartphones, tablets,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 19,
+      "start": 80.5,
+      "end": 91.02,
+      "duration": 10.52,
+      "startTimestamp": "00:01:20.500",
+      "endTimestamp": "00:01:31.020",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0020",
+    "text": "smart watches that detect and measure physical properties.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 20,
+      "start": 91.6,
+      "end": 96.25999999999999,
+      "duration": 4.66,
+      "startTimestamp": "00:01:31.600",
+      "endTimestamp": "00:01:36.260",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0021",
+    "text": "So, what is sensors? Sensors are hardware component in device that detects and measure",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 21,
+      "start": 96.6,
+      "end": 106.06,
+      "duration": 9.46,
+      "startTimestamp": "00:01:36.600",
+      "endTimestamp": "00:01:46.060",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0022",
+    "text": "yes very important point they detect and measure that and measure of physical property from",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 22,
+      "start": 106.15899999999999,
+      "end": 114.74000000000001,
+      "duration": 8.581,
+      "startTimestamp": "00:01:46.159",
+      "endTimestamp": "00:01:54.740",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0023",
+    "text": "environment, perfect, measure the physical.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 23,
+      "start": 114.741,
+      "end": 120.399,
+      "duration": 5.658,
+      "startTimestamp": "00:01:54.741",
+      "endTimestamp": "00:02:00.399",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0024",
+    "text": "properties from the environment.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 24,
+      "start": 121.96,
+      "end": 124.52,
+      "duration": 2.56,
+      "startTimestamp": "00:02:01.960",
+      "endTimestamp": "00:02:04.520",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0025",
+    "text": "So this is kind of an definition we can say for it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 25,
+      "start": 124.58,
+      "end": 128.06,
+      "duration": 3.48,
+      "startTimestamp": "00:02:04.580",
+      "endTimestamp": "00:02:08.060",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0026",
+    "text": "So they collect data that app can use to interactive experiences.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 26,
+      "start": 128.24,
+      "end": 134.22,
+      "duration": 5.98,
+      "startTimestamp": "00:02:08.240",
+      "endTimestamp": "00:02:14.220",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0027",
+    "text": "So we can say that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 27,
+      "start": 134.36,
+      "end": 135.82,
+      "duration": 1.46,
+      "startTimestamp": "00:02:14.360",
+      "endTimestamp": "00:02:15.820",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0028",
+    "text": "So we have a bunch of sensors.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 28,
+      "start": 136.36,
+      "end": 138.86,
+      "duration": 2.5,
+      "startTimestamp": "00:02:16.360",
+      "endTimestamp": "00:02:18.860",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0029",
+    "text": "So these are bunch of common sensors which is provided by any smartphone and tablets",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 29,
+      "start": 139.06,
+      "end": 145.4,
+      "duration": 6.34,
+      "startTimestamp": "00:02:19.060",
+      "endTimestamp": "00:02:25.400",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0030",
+    "text": "and anything.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 30,
+      "start": 145.57999999999998,
+      "end": 146.24,
+      "duration": 0.66,
+      "startTimestamp": "00:02:25.580",
+      "endTimestamp": "00:02:26.240",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0031",
+    "text": "Like first one we have accelerometer.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 31,
+      "start": 146.52,
+      "end": 148.28,
+      "duration": 1.76,
+      "startTimestamp": "00:02:26.520",
+      "endTimestamp": "00:02:28.280",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0032",
+    "text": "Magnetometer, device motion, barometer, light sensor and pedometer.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 32,
+      "start": 150.7,
+      "end": 155.099,
+      "duration": 4.399,
+      "startTimestamp": "00:02:30.700",
+      "endTimestamp": "00:02:35.099",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0033",
+    "text": "So we are going to understand each and every step by step.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 33,
+      "start": 155.5,
+      "end": 159.48,
+      "duration": 3.98,
+      "startTimestamp": "00:02:35.500",
+      "endTimestamp": "00:02:39.480",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0034",
+    "text": "So the first thing that we have is accelerometer.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 34,
+      "start": 160.31900000000002,
+      "end": 162.7,
+      "duration": 2.381,
+      "startTimestamp": "00:02:40.319",
+      "endTimestamp": "00:02:42.700",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0035",
+    "text": "So let's move ahead and start talking about this accelerometer.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 35,
+      "start": 162.701,
+      "end": 166.48,
+      "duration": 3.779,
+      "startTimestamp": "00:02:42.701",
+      "endTimestamp": "00:02:46.480",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0036",
+    "text": "So what is this?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 36,
+      "start": 166.9,
+      "end": 167.76,
+      "duration": 0.86,
+      "startTimestamp": "00:02:46.900",
+      "endTimestamp": "00:02:47.760",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0037",
+    "text": "So this sensors we can say tell you how the phone is moving.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 37,
+      "start": 168.12,
+      "end": 173.04,
+      "duration": 4.92,
+      "startTimestamp": "00:02:48.120",
+      "endTimestamp": "00:02:53.040",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0038",
+    "text": "Yes.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 38,
+      "start": 173.359,
+      "end": 173.68,
+      "duration": 0.321,
+      "startTimestamp": "00:02:53.359",
+      "endTimestamp": "00:02:53.680",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0039",
+    "text": "So, how the phone is moving or we can say tilting, whatever you wanted to say.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 39,
+      "start": 173.7,
+      "end": 179.8,
+      "duration": 6.1,
+      "startTimestamp": "00:02:53.700",
+      "endTimestamp": "00:02:59.800",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0040",
+    "text": "So, this sensors works is only this like how your phone is moving or tilting in your physical",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 40,
+      "start": 180.64,
+      "end": 187.88,
+      "duration": 7.24,
+      "startTimestamp": "00:03:00.640",
+      "endTimestamp": "00:03:07.880",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0041",
+    "text": "space.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 41,
+      "start": 187.881,
+      "end": 188.36,
+      "duration": 0.479,
+      "startTimestamp": "00:03:07.881",
+      "endTimestamp": "00:03:08.360",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0042",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 42,
+      "start": 189.28,
+      "end": 189.78,
+      "duration": 0.5,
+      "startTimestamp": "00:03:09.280",
+      "endTimestamp": "00:03:09.780",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0043",
+    "text": "So, and how they measures thing?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 43,
+      "start": 190.26,
+      "end": 192.58,
+      "duration": 2.32,
+      "startTimestamp": "00:03:10.260",
+      "endTimestamp": "00:03:12.580",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0044",
+    "text": "They measures your this moving and tilting property in three dimensions.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 44,
+      "start": 193.04,
+      "end": 199.86,
+      "duration": 6.82,
+      "startTimestamp": "00:03:13.040",
+      "endTimestamp": "00:03:19.860",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0045",
+    "text": "Perfect. They measure things in three dimensions. So, what are that three dimensions are? Like",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 45,
+      "start": 200,
+      "end": 207.5,
+      "duration": 7.5,
+      "startTimestamp": "00:03:20.000",
+      "endTimestamp": "00:03:27.500",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0046",
+    "text": "first dimension are forward and back. Second is going to be left and down and third is",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 46,
+      "start": 207.501,
+      "end": 214.76,
+      "duration": 7.259,
+      "startTimestamp": "00:03:27.501",
+      "endTimestamp": "00:03:34.760",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0047",
+    "text": "going to be up and down.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 47,
+      "start": 214.761,
+      "end": 216.02,
+      "duration": 1.259,
+      "startTimestamp": "00:03:34.761",
+      "endTimestamp": "00:03:36.020",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0048",
+    "text": "Perfect, not left and down, this is going to be left and right.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 48,
+      "start": 216.5,
+      "end": 221.82,
+      "duration": 5.32,
+      "startTimestamp": "00:03:36.500",
+      "endTimestamp": "00:03:41.820",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0049",
+    "text": "So these are the three dimensions which is measured by this accelerometer, accelerometer",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 49,
+      "start": 222.48,
+      "end": 229.38,
+      "duration": 6.9,
+      "startTimestamp": "00:03:42.480",
+      "endTimestamp": "00:03:49.380",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0050",
+    "text": "whatever that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 50,
+      "start": 229.46,
+      "end": 230.1,
+      "duration": 0.64,
+      "startTimestamp": "00:03:49.460",
+      "endTimestamp": "00:03:50.100",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0051",
+    "text": "So why do we even, we care about it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 51,
+      "start": 230.5,
+      "end": 234.12,
+      "duration": 3.62,
+      "startTimestamp": "00:03:50.500",
+      "endTimestamp": "00:03:54.120",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0052",
+    "text": "So, you can use this to make your app respond to device movement whenever you wanted to",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 52,
+      "start": 234.2,
+      "end": 240.86,
+      "duration": 6.66,
+      "startTimestamp": "00:03:54.200",
+      "endTimestamp": "00:04:00.860",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0053",
+    "text": "make an app that respond on device movement.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 53,
+      "start": 240.9,
+      "end": 244.68,
+      "duration": 3.78,
+      "startTimestamp": "00:04:00.900",
+      "endTimestamp": "00:04:04.680",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0054",
+    "text": "Yes, whenever move your physical device.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 54,
+      "start": 245.44,
+      "end": 248.04,
+      "duration": 2.6,
+      "startTimestamp": "00:04:05.440",
+      "endTimestamp": "00:04:08.040",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0055",
+    "text": "So, this is going to be if I just simply write here device movement.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 55,
+      "start": 248.44,
+      "end": 252.819,
+      "duration": 4.379,
+      "startTimestamp": "00:04:08.440",
+      "endTimestamp": "00:04:12.819",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0056",
+    "text": "not just tab or a tabs and swipes like something you're really just picking up your phone and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 56,
+      "start": 252.9,
+      "end": 259.959,
+      "duration": 7.059,
+      "startTimestamp": "00:04:12.900",
+      "endTimestamp": "00:04:19.959",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0057",
+    "text": "Let's say you are playing a game. So in that case you are physically moving your device and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 57,
+      "start": 260.32,
+      "end": 266.18,
+      "duration": 5.86,
+      "startTimestamp": "00:04:20.320",
+      "endTimestamp": "00:04:26.180",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0058",
+    "text": "with the help of sensors",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 58,
+      "start": 267.22,
+      "end": 268.9,
+      "duration": 1.68,
+      "startTimestamp": "00:04:27.220",
+      "endTimestamp": "00:04:28.900",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0059",
+    "text": "We are responding to that movement with the help of these accelerometers, gyroscope, whatever is that?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 59,
+      "start": 269.539,
+      "end": 275.979,
+      "duration": 6.44,
+      "startTimestamp": "00:04:29.539",
+      "endTimestamp": "00:04:35.979",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0060",
+    "text": "But right now we are talking about accelerometer. Perfect?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 60,
+      "start": 276.039,
+      "end": 280.12,
+      "duration": 4.081,
+      "startTimestamp": "00:04:36.039",
+      "endTimestamp": "00:04:40.120",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0061",
+    "text": "Perfect",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 61,
+      "start": 282.199,
+      "end": 282.88,
+      "duration": 0.681,
+      "startTimestamp": "00:04:42.199",
+      "endTimestamp": "00:04:42.880",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0062",
+    "text": "So, now what is the real world use of it?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 62,
+      "start": 282.881,
+      "end": 284.7,
+      "duration": 1.819,
+      "startTimestamp": "00:04:42.881",
+      "endTimestamp": "00:04:44.700",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0063",
+    "text": "So, the first thing is whenever you wanted to say a tilt to move a character in game.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 63,
+      "start": 284.8,
+      "end": 290.68,
+      "duration": 5.88,
+      "startTimestamp": "00:04:44.800",
+      "endTimestamp": "00:04:50.680",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0064",
+    "text": "Let's say if you are making something that whenever you tilt your phone, tilt to move",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 64,
+      "start": 291.28,
+      "end": 297.02,
+      "duration": 5.74,
+      "startTimestamp": "00:04:51.280",
+      "endTimestamp": "00:04:57.020",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0065",
+    "text": "character in a game.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 65,
+      "start": 298.54,
+      "end": 300.1,
+      "duration": 1.56,
+      "startTimestamp": "00:04:58.540",
+      "endTimestamp": "00:05:00.100",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0066",
+    "text": "So at that time you can use it and then we can say there is a lot of like if I just shake this phone",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 66,
+      "start": 301.16,
+      "end": 307.98,
+      "duration": 6.82,
+      "startTimestamp": "00:05:01.160",
+      "endTimestamp": "00:05:07.980",
+      "estimatedTokens": 33
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0067",
+    "text": "and if I just opened any development server, you will see you are going to open an inspect mode inside the phone.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 67,
+      "start": 309.1,
+      "end": 315.08,
+      "duration": 5.98,
+      "startTimestamp": "00:05:09.100",
+      "endTimestamp": "00:05:15.080",
+      "estimatedTokens": 29
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0068",
+    "text": "So that is also the feature which is built using these kind of meters.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 68,
+      "start": 315.081,
+      "end": 319.3,
+      "duration": 4.219,
+      "startTimestamp": "00:05:15.081",
+      "endTimestamp": "00:05:19.300",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0069",
+    "text": "Perfect. Second is shake to refresh we can say and also detect a sudden drop.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 69,
+      "start": 319.58,
+      "end": 325.68,
+      "duration": 6.1,
+      "startTimestamp": "00:05:19.580",
+      "endTimestamp": "00:05:25.680",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0070",
+    "text": "or a motion. So, in that case you can use it, but let us move ahead and try to understand",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 70,
+      "start": 325.9,
+      "end": 333.68,
+      "duration": 7.78,
+      "startTimestamp": "00:05:25.900",
+      "endTimestamp": "00:05:33.680",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0071",
+    "text": "that in an example. So, for that let me simply run a bunX perfect bunX.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 71,
+      "start": 333.681,
+      "end": 342.86,
+      "duration": 9.179,
+      "startTimestamp": "00:05:33.681",
+      "endTimestamp": "00:05:42.860",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0072",
+    "text": "Create, just give me a minute, burnx, create, expo app, add the latest and then dot slash.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 72,
+      "start": 345.78,
+      "end": 358.02,
+      "duration": 12.24,
+      "startTimestamp": "00:05:45.780",
+      "endTimestamp": "00:05:58.020",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0073",
+    "text": "Let me just wait for it and then I'll be right back.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 73,
+      "start": 358.28,
+      "end": 360.84,
+      "duration": 2.56,
+      "startTimestamp": "00:05:58.280",
+      "endTimestamp": "00:06:00.840",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0074",
+    "text": "Alright so now we have installed it successfully.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 74,
+      "start": 361.58,
+      "end": 364.5,
+      "duration": 2.92,
+      "startTimestamp": "00:06:01.580",
+      "endTimestamp": "00:06:04.500",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0075",
+    "text": "Now let me just simply reset it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 75,
+      "start": 364.74,
+      "end": 367.36,
+      "duration": 2.62,
+      "startTimestamp": "00:06:04.740",
+      "endTimestamp": "00:06:07.360",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0076",
+    "text": "reset project. Perfect. So this is going to reset my project and back to normal. Alright.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 76,
+      "start": 369.74,
+      "end": 376.6,
+      "duration": 6.86,
+      "startTimestamp": "00:06:09.740",
+      "endTimestamp": "00:06:16.600",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0077",
+    "text": "Now how you can install it and which library you have to install. So you simply need to",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 77,
+      "start": 377.02,
+      "end": 383.52,
+      "duration": 6.5,
+      "startTimestamp": "00:06:17.020",
+      "endTimestamp": "00:06:23.520",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0078",
+    "text": "copy this much and coming to here open your terminal and then simply paste bunnex and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 78,
+      "start": 383.521,
+      "end": 390.72,
+      "duration": 7.199,
+      "startTimestamp": "00:06:23.521",
+      "endTimestamp": "00:06:30.720",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0079",
+    "text": "then the code we have copied.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 79,
+      "start": 390.721,
+      "end": 392.32,
+      "duration": 1.599,
+      "startTimestamp": "00:06:30.721",
+      "endTimestamp": "00:06:32.320",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0080",
+    "text": "So, this is going to install expo sensor inside your project and then simply run bunx expo",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 80,
+      "start": 392.5,
+      "end": 400.02,
+      "duration": 7.52,
+      "startTimestamp": "00:06:32.500",
+      "endTimestamp": "00:06:40.020",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0081",
+    "text": "start.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 81,
+      "start": 400.76,
+      "end": 401.04,
+      "duration": 0.28,
+      "startTimestamp": "00:06:40.760",
+      "endTimestamp": "00:06:41.040",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0082",
+    "text": "So, this is going to start my development server.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 82,
+      "start": 402.18,
+      "end": 405.62,
+      "duration": 3.44,
+      "startTimestamp": "00:06:42.180",
+      "endTimestamp": "00:06:45.620",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0083",
+    "text": "Alright.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 83,
+      "start": 408.02,
+      "end": 408.24,
+      "duration": 0.22,
+      "startTimestamp": "00:06:48.020",
+      "endTimestamp": "00:06:48.240",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0084",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 84,
+      "start": 408.26,
+      "end": 408.5,
+      "duration": 0.24,
+      "startTimestamp": "00:06:48.260",
+      "endTimestamp": "00:06:48.500",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0085",
+    "text": "And then you can simply press A. So, by pressing A this is going to open.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 85,
+      "start": 408.68,
+      "end": 415.2,
+      "duration": 6.52,
+      "startTimestamp": "00:06:48.680",
+      "endTimestamp": "00:06:55.200",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0086",
+    "text": "into my expogo app. Perfect. Let me just wait for it. And yes, now let's move ahead and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 86,
+      "start": 415.4,
+      "end": 423.22,
+      "duration": 7.82,
+      "startTimestamp": "00:06:55.400",
+      "endTimestamp": "00:07:03.220",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0087",
+    "text": "let's see understand about accelerometer, how you can use it. Perfect. So let me just",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 87,
+      "start": 423.58,
+      "end": 429.38,
+      "duration": 5.8,
+      "startTimestamp": "00:07:03.580",
+      "endTimestamp": "00:07:09.380",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0088",
+    "text": "simply go to my app and index dot t s x.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 88,
+      "start": 429.381,
+      "end": 432.94,
+      "duration": 3.559,
+      "startTimestamp": "00:07:09.381",
+      "endTimestamp": "00:07:12.940",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0089",
+    "text": "And inside this what I can do or instead I will create a component here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 89,
+      "start": 433.1,
+      "end": 439.62,
+      "duration": 6.52,
+      "startTimestamp": "00:07:13.100",
+      "endTimestamp": "00:07:19.620",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0090",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 90,
+      "start": 439.8,
+      "end": 440.08,
+      "duration": 0.28,
+      "startTimestamp": "00:07:19.800",
+      "endTimestamp": "00:07:20.080",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0091",
+    "text": "So this is going to be a components and then I will simply going to name this as tiltcounter.tsx",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 91,
+      "start": 440.94,
+      "end": 449.54,
+      "duration": 8.6,
+      "startTimestamp": "00:07:20.940",
+      "endTimestamp": "00:07:29.540",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0092",
+    "text": "and rafce.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 92,
+      "start": 449.64,
+      "end": 450.58,
+      "duration": 0.94,
+      "startTimestamp": "00:07:29.640",
+      "endTimestamp": "00:07:30.580",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0093",
+    "text": "And this is going to be my tilt counter app, not RAFC, sorry for that, RNFES, because this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 93,
+      "start": 451.1,
+      "end": 458.12,
+      "duration": 7.02,
+      "startTimestamp": "00:07:31.100",
+      "endTimestamp": "00:07:38.120",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0094",
+    "text": "is a react native app, tilt counter.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 94,
+      "start": 458.121,
+      "end": 460.74,
+      "duration": 2.619,
+      "startTimestamp": "00:07:38.121",
+      "endTimestamp": "00:07:40.740",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0095",
+    "text": "Alright, and then let me just simply import that for now.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 95,
+      "start": 461.1,
+      "end": 465.54,
+      "duration": 4.44,
+      "startTimestamp": "00:07:41.100",
+      "endTimestamp": "00:07:45.540",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0096",
+    "text": "So I will simply say tilt counter.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 96,
+      "start": 466.26,
+      "end": 468.78,
+      "duration": 2.52,
+      "startTimestamp": "00:07:46.260",
+      "endTimestamp": "00:07:48.780",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0097",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 97,
+      "start": 469.3,
+      "end": 469.46,
+      "duration": 0.16,
+      "startTimestamp": "00:07:49.300",
+      "endTimestamp": "00:07:49.460",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0098",
+    "text": "So what we are making basically, whenever I move my application, I just wanted to show",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 98,
+      "start": 469.54,
+      "end": 475.08,
+      "duration": 5.54,
+      "startTimestamp": "00:07:49.540",
+      "endTimestamp": "00:07:55.080",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0099",
+    "text": "a text you moved left, you moved right, something like that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 99,
+      "start": 475.081,
+      "end": 478.86,
+      "duration": 3.779,
+      "startTimestamp": "00:07:55.081",
+      "endTimestamp": "00:07:58.860",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0100",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 100,
+      "start": 478.9,
+      "end": 479.54,
+      "duration": 0.64,
+      "startTimestamp": "00:07:58.900",
+      "endTimestamp": "00:07:59.540",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0101",
+    "text": "So first thing you need to import accelerometer from your expo sensor.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 101,
+      "start": 480.34,
+      "end": 487.24,
+      "duration": 6.9,
+      "startTimestamp": "00:08:00.340",
+      "endTimestamp": "00:08:07.240",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0102",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 102,
+      "start": 487.479,
+      "end": 487.68,
+      "duration": 0.201,
+      "startTimestamp": "00:08:07.479",
+      "endTimestamp": "00:08:07.680",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0103",
+    "text": "First of all let me simply add this and then make sure you don't misspell it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 103,
+      "start": 487.759,
+      "end": 493.139,
+      "duration": 5.38,
+      "startTimestamp": "00:08:07.759",
+      "endTimestamp": "00:08:13.139",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0104",
+    "text": "So we have accelerometer here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 104,
+      "start": 493.24,
+      "end": 495.28,
+      "duration": 2.04,
+      "startTimestamp": "00:08:13.240",
+      "endTimestamp": "00:08:15.280",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0105",
+    "text": "here. Perfect. Nice. And I just wanted to show here if I tilt my phone towards right, then",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 105,
+      "start": 495.281,
+      "end": 503.86,
+      "duration": 8.579,
+      "startTimestamp": "00:08:15.281",
+      "endTimestamp": "00:08:23.860",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0106",
+    "text": "I wanted to show right and if I tilt my phone towards up, then I wanted to show up. Otherwise,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 106,
+      "start": 503.88,
+      "end": 509.24,
+      "duration": 5.36,
+      "startTimestamp": "00:08:23.880",
+      "endTimestamp": "00:08:29.240",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0107",
+    "text": "I wanted to show stable. Easy requirement. Let's see how we can achieve that using this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 107,
+      "start": 509.4,
+      "end": 515.64,
+      "duration": 6.24,
+      "startTimestamp": "00:08:29.400",
+      "endTimestamp": "00:08:35.640",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0108",
+    "text": "So, I can first of all maintain a state variable tiLTTilt and then set tiLTTilt alright and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 108,
+      "start": 516.7,
+      "end": 525.68,
+      "duration": 8.98,
+      "startTimestamp": "00:08:36.700",
+      "endTimestamp": "00:08:45.680",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0109",
+    "text": "then this is equals to use state and initially let me just maintain here a stable alright.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 109,
+      "start": 525.681,
+      "end": 534.54,
+      "duration": 8.859,
+      "startTimestamp": "00:08:45.681",
+      "endTimestamp": "00:08:54.540",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0110",
+    "text": "And then for a view, first of all, let me just simply create here a style.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 110,
+      "start": 536.38,
+      "end": 543.18,
+      "duration": 6.8,
+      "startTimestamp": "00:08:56.380",
+      "endTimestamp": "00:09:03.180",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0111",
+    "text": "So we have a container and a text.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 111,
+      "start": 543.96,
+      "end": 546,
+      "duration": 2.04,
+      "startTimestamp": "00:09:03.960",
+      "endTimestamp": "00:09:06.000",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0112",
+    "text": "Easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 112,
+      "start": 546.28,
+      "end": 546.76,
+      "duration": 0.48,
+      "startTimestamp": "00:09:06.280",
+      "endTimestamp": "00:09:06.760",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0113",
+    "text": "And then what is this basically going to show whatever the device's position we have.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 113,
+      "start": 547.38,
+      "end": 552.92,
+      "duration": 5.54,
+      "startTimestamp": "00:09:07.380",
+      "endTimestamp": "00:09:12.920",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0114",
+    "text": "So right now you will see we are only able to see here stable.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 114,
+      "start": 553.68,
+      "end": 556.98,
+      "duration": 3.3,
+      "startTimestamp": "00:09:13.680",
+      "endTimestamp": "00:09:16.980",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0115",
+    "text": "All right.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 115,
+      "start": 557.46,
+      "end": 557.98,
+      "duration": 0.52,
+      "startTimestamp": "00:09:17.460",
+      "endTimestamp": "00:09:17.980",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0116",
+    "text": "Now all the game is inside use effect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 116,
+      "start": 558.18,
+      "end": 560.8,
+      "duration": 2.62,
+      "startTimestamp": "00:09:18.180",
+      "endTimestamp": "00:09:20.800",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0117",
+    "text": "So, I can simply create here a use effect and then no dependency needed to add for now.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 117,
+      "start": 562.46,
+      "end": 570,
+      "duration": 7.54,
+      "startTimestamp": "00:09:22.460",
+      "endTimestamp": "00:09:30.000",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0118",
+    "text": "So, let me just simply create it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 118,
+      "start": 570.12,
+      "end": 571.98,
+      "duration": 1.86,
+      "startTimestamp": "00:09:30.120",
+      "endTimestamp": "00:09:31.980",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0119",
+    "text": "Now what do you need to do?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 119,
+      "start": 572.08,
+      "end": 573.46,
+      "duration": 1.38,
+      "startTimestamp": "00:09:32.080",
+      "endTimestamp": "00:09:33.460",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0120",
+    "text": "Simply first of all for always using this accelerometer where is that?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 120,
+      "start": 574.24,
+      "end": 579.38,
+      "duration": 5.14,
+      "startTimestamp": "00:09:34.240",
+      "endTimestamp": "00:09:39.380",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0121",
+    "text": "Let me just import it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 121,
+      "start": 580.98,
+      "end": 583.18,
+      "duration": 2.2,
+      "startTimestamp": "00:09:40.980",
+      "endTimestamp": "00:09:43.180",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0122",
+    "text": "Just give me a minute.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 122,
+      "start": 583.34,
+      "end": 584.22,
+      "duration": 0.88,
+      "startTimestamp": "00:09:43.340",
+      "endTimestamp": "00:09:44.220",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0123",
+    "text": "All right.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 123,
+      "start": 584.46,
+      "end": 584.94,
+      "duration": 0.48,
+      "startTimestamp": "00:09:44.460",
+      "endTimestamp": "00:09:44.940",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0124",
+    "text": "So, for using it, first of all, you will create here a sub.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 124,
+      "start": 585.4,
+      "end": 588.92,
+      "duration": 3.52,
+      "startTimestamp": "00:09:45.400",
+      "endTimestamp": "00:09:48.920",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0125",
+    "text": "We are subscribing to an event listener and then this is going to be accelerometer and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 125,
+      "start": 589.44,
+      "end": 594.5,
+      "duration": 5.06,
+      "startTimestamp": "00:09:49.440",
+      "endTimestamp": "00:09:54.500",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0126",
+    "text": "then we have an add listener.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 126,
+      "start": 594.501,
+      "end": 595.82,
+      "duration": 1.319,
+      "startTimestamp": "00:09:54.501",
+      "endTimestamp": "00:09:55.820",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0127",
+    "text": "All right.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 127,
+      "start": 597.06,
+      "end": 597.48,
+      "duration": 0.42,
+      "startTimestamp": "00:09:57.060",
+      "endTimestamp": "00:09:57.480",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0128",
+    "text": "And inside this, we have a callback and this callback give you access of x-axis and y-axis.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 128,
+      "start": 597.94,
+      "end": 605.42,
+      "duration": 7.48,
+      "startTimestamp": "00:09:57.940",
+      "endTimestamp": "00:10:05.420",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0129",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 129,
+      "start": 605.7,
+      "end": 606.26,
+      "duration": 0.56,
+      "startTimestamp": "00:10:05.700",
+      "endTimestamp": "00:10:06.260",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0130",
+    "text": "And, then inside this what I will do let me just simply do a basic calculation alright.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 130,
+      "start": 606.7,
+      "end": 614.18,
+      "duration": 7.48,
+      "startTimestamp": "00:10:06.700",
+      "endTimestamp": "00:10:14.180",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0131",
+    "text": "So, for absolute values I can simply use math dot absolute and then I will just go for x.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 131,
+      "start": 614.2,
+      "end": 621.44,
+      "duration": 7.24,
+      "startTimestamp": "00:10:14.200",
+      "endTimestamp": "00:10:21.440",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0132",
+    "text": "So, if the value is greater than 0.4.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 132,
+      "start": 621.84,
+      "end": 624.62,
+      "duration": 2.78,
+      "startTimestamp": "00:10:21.840",
+      "endTimestamp": "00:10:24.620",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0133",
+    "text": "On the x axis basically, so I am going to use here the set tilt value and then I simply",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 133,
+      "start": 625.5,
+      "end": 633.12,
+      "duration": 7.62,
+      "startTimestamp": "00:10:25.500",
+      "endTimestamp": "00:10:33.120",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0134",
+    "text": "do a comparison.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 134,
+      "start": 633.121,
+      "end": 633.96,
+      "duration": 0.839,
+      "startTimestamp": "00:10:33.121",
+      "endTimestamp": "00:10:33.960",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0135",
+    "text": "So if the x is greater than zero, this means we are tilting our phone towards right.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 135,
+      "start": 634.1,
+      "end": 640.2,
+      "duration": 6.1,
+      "startTimestamp": "00:10:34.100",
+      "endTimestamp": "00:10:40.200",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0136",
+    "text": "Tilt right.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 136,
+      "start": 640.38,
+      "end": 641.86,
+      "duration": 1.48,
+      "startTimestamp": "00:10:40.380",
+      "endTimestamp": "00:10:41.860",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0137",
+    "text": "Otherwise, I will show I mean this means we are less than zero.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 137,
+      "start": 643.44,
+      "end": 648.38,
+      "duration": 4.94,
+      "startTimestamp": "00:10:43.440",
+      "endTimestamp": "00:10:48.380",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0138",
+    "text": "So I will simply going to show here t I will get tilt left.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 138,
+      "start": 648.7,
+      "end": 653.52,
+      "duration": 4.82,
+      "startTimestamp": "00:10:48.700",
+      "endTimestamp": "00:10:53.520",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0139",
+    "text": "All right.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 139,
+      "start": 654.14,
+      "end": 655.02,
+      "duration": 0.88,
+      "startTimestamp": "00:10:54.140",
+      "endTimestamp": "00:10:55.020",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0140",
+    "text": "And in same way, let me add else if here and let's do for up and down.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 140,
+      "start": 655.72,
+      "end": 661.4,
+      "duration": 5.68,
+      "startTimestamp": "00:10:55.720",
+      "endTimestamp": "00:11:01.400",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0141",
+    "text": "So now we have to look this is for x-axis like this horizontally.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 141,
+      "start": 661.9,
+      "end": 666.22,
+      "duration": 4.32,
+      "startTimestamp": "00:11:01.900",
+      "endTimestamp": "00:11:06.220",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0142",
+    "text": "Now let's do vertically.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 142,
+      "start": 666.78,
+      "end": 667.96,
+      "duration": 1.18,
+      "startTimestamp": "00:11:06.780",
+      "endTimestamp": "00:11:07.960",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0143",
+    "text": "I will simply say.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 143,
+      "start": 668.42,
+      "end": 669.74,
+      "duration": 1.32,
+      "startTimestamp": "00:11:08.420",
+      "endTimestamp": "00:11:09.740",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0144",
+    "text": "math dot absolute value for y and let's go with same threshold 0.4 and then let me simply",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 144,
+      "start": 669.8,
+      "end": 678.22,
+      "duration": 8.42,
+      "startTimestamp": "00:11:09.800",
+      "endTimestamp": "00:11:18.220",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0145",
+    "text": "say set tilt and what is that if x value is greater than zero isn't it? Just give me a",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 145,
+      "start": 678.221,
+      "end": 686.66,
+      "duration": 8.439,
+      "startTimestamp": "00:11:18.221",
+      "endTimestamp": "00:11:26.660",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0146",
+    "text": "minute I hope I'm doing right.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 146,
+      "start": 686.6610000000001,
+      "end": 688.98,
+      "duration": 2.319,
+      "startTimestamp": "00:11:26.661",
+      "endTimestamp": "00:11:28.980",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0147",
+    "text": "Why this is crying?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 147,
+      "start": 690.62,
+      "end": 691.899,
+      "duration": 1.279,
+      "startTimestamp": "00:11:30.620",
+      "endTimestamp": "00:11:31.899",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0148",
+    "text": "Okay, first of all we have add yes I need to get out of it and then simply set date.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 148,
+      "start": 692.98,
+      "end": 699.5,
+      "duration": 6.52,
+      "startTimestamp": "00:11:32.980",
+      "endTimestamp": "00:11:39.500",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0149",
+    "text": "So same thing just copy this perfect just paste it but instead of x we have to go for",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 149,
+      "start": 699.8,
+      "end": 706.24,
+      "duration": 6.44,
+      "startTimestamp": "00:11:39.800",
+      "endTimestamp": "00:11:46.240",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0150",
+    "text": "white y and instead of right we have to go for up and instead of left we have to go for",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 150,
+      "start": 706.241,
+      "end": 713.1,
+      "duration": 6.859,
+      "startTimestamp": "00:11:46.241",
+      "endTimestamp": "00:11:53.100",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0151",
+    "text": "down.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 151,
+      "start": 713.101,
+      "end": 713.56,
+      "duration": 0.459,
+      "startTimestamp": "00:11:53.101",
+      "endTimestamp": "00:11:53.560",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0152",
+    "text": "Otherwise, we are into stable mode.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 152,
+      "start": 713.6,
+      "end": 716.56,
+      "duration": 2.96,
+      "startTimestamp": "00:11:53.600",
+      "endTimestamp": "00:11:56.560",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0153",
+    "text": "So I can simply say setTiltValue as stable, s, t, a, b, l is stable.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 153,
+      "start": 716.639,
+      "end": 722.779,
+      "duration": 6.14,
+      "startTimestamp": "00:11:56.639",
+      "endTimestamp": "00:12:02.779",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0154",
+    "text": "And when we are not using it, then I just wanted to unmount it and simply remove the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 154,
+      "start": 724.18,
+      "end": 731.339,
+      "duration": 7.159,
+      "startTimestamp": "00:12:04.180",
+      "endTimestamp": "00:12:11.339",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0155",
+    "text": "this eventlessness.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 155,
+      "start": 731.34,
+      "end": 732.36,
+      "duration": 1.02,
+      "startTimestamp": "00:12:11.340",
+      "endTimestamp": "00:12:12.360",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0156",
+    "text": "So, sub.remove.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 156,
+      "start": 732.44,
+      "end": 733.12,
+      "duration": 0.68,
+      "startTimestamp": "00:12:12.440",
+      "endTimestamp": "00:12:13.120",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0157",
+    "text": "the move.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 157,
+      "start": 733.121,
+      "end": 733.8,
+      "duration": 0.679,
+      "startTimestamp": "00:12:13.121",
+      "endTimestamp": "00:12:13.800",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0158",
+    "text": "All right, now let's try to implement this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 158,
+      "start": 735.64,
+      "end": 739.12,
+      "duration": 3.48,
+      "startTimestamp": "00:12:15.640",
+      "endTimestamp": "00:12:19.120",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0159",
+    "text": "For now you will see that my value of setTilt is showing me a stable, but if I move it towards",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 159,
+      "start": 739.54,
+      "end": 746.24,
+      "duration": 6.7,
+      "startTimestamp": "00:12:19.540",
+      "endTimestamp": "00:12:26.240",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0160",
+    "text": "right, look at that I have tilted it towards right and if I move to left and you will see",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 160,
+      "start": 746.66,
+      "end": 752.34,
+      "duration": 5.68,
+      "startTimestamp": "00:12:26.660",
+      "endTimestamp": "00:12:32.340",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0161",
+    "text": "that I have tilted towards left.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 161,
+      "start": 752.44,
+      "end": 753.94,
+      "duration": 1.5,
+      "startTimestamp": "00:12:32.440",
+      "endTimestamp": "00:12:33.940",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0162",
+    "text": "basically from where your.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 162,
+      "start": 754.22,
+      "end": 756.14,
+      "duration": 1.92,
+      "startTimestamp": "00:12:34.220",
+      "endTimestamp": "00:12:36.140",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0163",
+    "text": "Phone is upside down. Got it?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 163,
+      "start": 756.7,
+      "end": 759.68,
+      "duration": 2.98,
+      "startTimestamp": "00:12:36.700",
+      "endTimestamp": "00:12:39.680",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0164",
+    "text": "So, if I am going towards right, this means I have tilt towards left.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 164,
+      "start": 760,
+      "end": 763.36,
+      "duration": 3.36,
+      "startTimestamp": "00:12:40.000",
+      "endTimestamp": "00:12:43.360",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0165",
+    "text": "And if I am going towards left, it tilts towards right.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 165,
+      "start": 763.45,
+      "end": 766.92,
+      "duration": 3.47,
+      "startTimestamp": "00:12:43.450",
+      "endTimestamp": "00:12:46.920",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0166",
+    "text": "And if I go down, so you will see something like this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 166,
+      "start": 766.99,
+      "end": 769.76,
+      "duration": 2.77,
+      "startTimestamp": "00:12:46.990",
+      "endTimestamp": "00:12:49.760",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0167",
+    "text": "And if I go up, something like this. So, how I can show you that?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 167,
+      "start": 770.1,
+      "end": 773.46,
+      "duration": 3.36,
+      "startTimestamp": "00:12:50.100",
+      "endTimestamp": "00:12:53.460",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0168",
+    "text": "like if you are not trusting me so let me just open that inside another phone then I",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 168,
+      "start": 774.36,
+      "end": 779.42,
+      "duration": 5.06,
+      "startTimestamp": "00:12:54.360",
+      "endTimestamp": "00:12:59.420",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0169",
+    "text": "will show you inside my video.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 169,
+      "start": 779.421,
+      "end": 781.199,
+      "duration": 1.778,
+      "startTimestamp": "00:12:59.421",
+      "endTimestamp": "00:13:01.199",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0170",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 170,
+      "start": 781.66,
+      "end": 782,
+      "duration": 0.34,
+      "startTimestamp": "00:13:01.660",
+      "endTimestamp": "00:13:02.000",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0171",
+    "text": "So just give me a minute and let me just quickly open it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 171,
+      "start": 782.48,
+      "end": 787.06,
+      "duration": 4.58,
+      "startTimestamp": "00:13:02.480",
+      "endTimestamp": "00:13:07.060",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0172",
+    "text": "Alright, so I am just basically showing you this look at that like my device is now in",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 172,
+      "start": 788.1,
+      "end": 792.38,
+      "duration": 4.28,
+      "startTimestamp": "00:13:08.100",
+      "endTimestamp": "00:13:12.380",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0173",
+    "text": "stable position.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 173,
+      "start": 792.381,
+      "end": 793.16,
+      "duration": 0.779,
+      "startTimestamp": "00:13:12.381",
+      "endTimestamp": "00:13:13.160",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0174",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 174,
+      "start": 793.44,
+      "end": 793.74,
+      "duration": 0.3,
+      "startTimestamp": "00:13:13.440",
+      "endTimestamp": "00:13:13.740",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0175",
+    "text": "right, look at that. So the position you're showing me is tilt left, easy. And in the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 175,
+      "start": 795.7,
+      "end": 801.1,
+      "duration": 5.4,
+      "startTimestamp": "00:13:15.700",
+      "endTimestamp": "00:13:21.100",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0176",
+    "text": "same way, if I go towards, look at that, this is showing me a right. And if I go up, look",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 176,
+      "start": 801.101,
+      "end": 807.2,
+      "duration": 6.099,
+      "startTimestamp": "00:13:21.101",
+      "endTimestamp": "00:13:27.200",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0177",
+    "text": "at that, my tilt position at up. And if I go towards down, look at that, I am towards",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 177,
+      "start": 807.201,
+      "end": 811.82,
+      "duration": 4.619,
+      "startTimestamp": "00:13:27.201",
+      "endTimestamp": "00:13:31.820",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0178",
+    "text": "down. So this is how we are basically grabbing it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 178,
+      "start": 811.84,
+      "end": 815.54,
+      "duration": 3.7,
+      "startTimestamp": "00:13:31.840",
+      "endTimestamp": "00:13:35.540",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0179",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 179,
+      "start": 815.7,
+      "end": 816.62,
+      "duration": 0.92,
+      "startTimestamp": "00:13:35.700",
+      "endTimestamp": "00:13:36.620",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0180",
+    "text": "I hope so.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 180,
+      "start": 817.38,
+      "end": 818.18,
+      "duration": 0.8,
+      "startTimestamp": "00:13:37.380",
+      "endTimestamp": "00:13:38.180",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0181",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 181,
+      "start": 818.46,
+      "end": 818.72,
+      "duration": 0.26,
+      "startTimestamp": "00:13:38.460",
+      "endTimestamp": "00:13:38.720",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0182",
+    "text": "Nice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 182,
+      "start": 819.9,
+      "end": 820.16,
+      "duration": 0.26,
+      "startTimestamp": "00:13:39.900",
+      "endTimestamp": "00:13:40.160",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0183",
+    "text": "So, this is how we see and look at that I shake my application and this opened up.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 183,
+      "start": 820.36,
+      "end": 824.9,
+      "duration": 4.54,
+      "startTimestamp": "00:13:40.360",
+      "endTimestamp": "00:13:44.900",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0184",
+    "text": "So, you can also implement this feature.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 184,
+      "start": 824.901,
+      "end": 827.1,
+      "duration": 2.199,
+      "startTimestamp": "00:13:44.901",
+      "endTimestamp": "00:13:47.100",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0185",
+    "text": "So, this feature is implemented definitely with the help of accelerometer.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 185,
+      "start": 827.22,
+      "end": 831.58,
+      "duration": 4.36,
+      "startTimestamp": "00:13:47.220",
+      "endTimestamp": "00:13:51.580",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0186",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 186,
+      "start": 832,
+      "end": 832.88,
+      "duration": 0.88,
+      "startTimestamp": "00:13:52.000",
+      "endTimestamp": "00:13:52.880",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0187",
+    "text": "So I hope so you are loving it and this is how you can basically take use of accelerometer",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 187,
+      "start": 833.12,
+      "end": 838.96,
+      "duration": 5.84,
+      "startTimestamp": "00:13:53.120",
+      "endTimestamp": "00:13:58.960",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0188",
+    "text": "again if you wanted to deep dive into it you can simply go to documentation open this and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 188,
+      "start": 839.28,
+      "end": 845.48,
+      "duration": 6.2,
+      "startTimestamp": "00:13:59.280",
+      "endTimestamp": "00:14:05.480",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0189",
+    "text": "read more about it if you wanted to.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 189,
+      "start": 845.481,
+      "end": 847.98,
+      "duration": 2.499,
+      "startTimestamp": "00:14:05.481",
+      "endTimestamp": "00:14:07.980",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0190",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 190,
+      "start": 847.981,
+      "end": 848.24,
+      "duration": 0.259,
+      "startTimestamp": "00:14:07.981",
+      "endTimestamp": "00:14:08.240",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0191",
+    "text": "So yes this is pretty much it for our accelerometer thing and in next chapter we are going to",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 191,
+      "start": 849.42,
+      "end": 854.96,
+      "duration": 5.54,
+      "startTimestamp": "00:14:09.420",
+      "endTimestamp": "00:14:14.960",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_0192",
+    "text": "talk about bunch of other sensors as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "fileName": "01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "captionIndex": 192,
+      "start": 855.02,
+      "end": 857.74,
+      "duration": 2.72,
+      "startTimestamp": "00:14:15.020",
+      "endTimestamp": "00:14:17.740",
+      "estimatedTokens": 11
+    }
+  }
+]

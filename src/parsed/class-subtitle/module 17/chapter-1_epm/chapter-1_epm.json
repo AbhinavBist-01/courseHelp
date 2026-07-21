@@ -1,0 +1,2605 @@
+[
+  {
+    "id": "chapter-1_epm_0001",
+    "text": "All right, everyone, and welcome to one more new module.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 1,
+      "start": 0.719,
+      "end": 4.9,
+      "duration": 4.181,
+      "startTimestamp": "00:00:00.719",
+      "endTimestamp": "00:00:04.900",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "chapter-1_epm_0002",
+    "text": "In this module, we are going to talk about one more new project.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 2,
+      "start": 5.08,
+      "end": 9.14,
+      "duration": 4.06,
+      "startTimestamp": "00:00:05.080",
+      "endTimestamp": "00:00:09.140",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "chapter-1_epm_0003",
+    "text": "The name is AI Story Generator.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 3,
+      "start": 9.34,
+      "end": 12.44,
+      "duration": 3.1,
+      "startTimestamp": "00:00:09.340",
+      "endTimestamp": "00:00:12.440",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "chapter-1_epm_0004",
+    "text": "And this is one of the amazing project that you can directly add into your resume.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 4,
+      "start": 12.96,
+      "end": 18.1,
+      "duration": 5.14,
+      "startTimestamp": "00:00:12.960",
+      "endTimestamp": "00:00:18.100",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-1_epm_0005",
+    "text": "This is the project we are.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 5,
+      "start": 18.8,
+      "end": 19.88,
+      "duration": 1.08,
+      "startTimestamp": "00:00:18.800",
+      "endTimestamp": "00:00:19.880",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "chapter-1_epm_0006",
+    "text": "Actually, let me if I just try to explain you the flow of this application, let's say",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 6,
+      "start": 20.3,
+      "end": 24.9,
+      "duration": 4.6,
+      "startTimestamp": "00:00:20.300",
+      "endTimestamp": "00:00:24.900",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1_epm_0007",
+    "text": "this is a mobile phone and then at the top of it you are going to get a text area and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 7,
+      "start": 24.901,
+      "end": 30.86,
+      "duration": 5.959,
+      "startTimestamp": "00:00:24.901",
+      "endTimestamp": "00:00:30.860",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "chapter-1_epm_0008",
+    "text": "you will enter your prompt.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 8,
+      "start": 30.861,
+      "end": 32.32,
+      "duration": 1.459,
+      "startTimestamp": "00:00:30.861",
+      "endTimestamp": "00:00:32.320",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "chapter-1_epm_0009",
+    "text": "On the basis of this prompt, we are going to hit a.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 9,
+      "start": 33.059,
+      "end": 37.059,
+      "duration": 4,
+      "startTimestamp": "00:00:33.059",
+      "endTimestamp": "00:00:37.059",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "chapter-1_epm_0010",
+    "text": "your expo API route, basically the backend of it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 10,
+      "start": 38.719,
+      "end": 42.78,
+      "duration": 4.061,
+      "startTimestamp": "00:00:38.719",
+      "endTimestamp": "00:00:42.780",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "chapter-1_epm_0011",
+    "text": "This backend is using some AI related stuff, something known as AISDK.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 11,
+      "start": 43.039,
+      "end": 48.399,
+      "duration": 5.36,
+      "startTimestamp": "00:00:43.039",
+      "endTimestamp": "00:00:48.399",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "chapter-1_epm_0012",
+    "text": "I'll explain you everything.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 12,
+      "start": 48.42,
+      "end": 49.559,
+      "duration": 1.139,
+      "startTimestamp": "00:00:48.420",
+      "endTimestamp": "00:00:49.559",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "chapter-1_epm_0013",
+    "text": "Don't worry.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 13,
+      "start": 49.739,
+      "end": 50.18,
+      "duration": 0.441,
+      "startTimestamp": "00:00:49.739",
+      "endTimestamp": "00:00:50.180",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "chapter-1_epm_0014",
+    "text": "So, this AISDK and everything is free to use.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 14,
+      "start": 51.62,
+      "end": 54.6,
+      "duration": 2.98,
+      "startTimestamp": "00:00:51.620",
+      "endTimestamp": "00:00:54.600",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "chapter-1_epm_0015",
+    "text": "So, don't worry about it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 15,
+      "start": 54.68,
+      "end": 55.739,
+      "duration": 1.059,
+      "startTimestamp": "00:00:54.680",
+      "endTimestamp": "00:00:55.739",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "chapter-1_epm_0016",
+    "text": "Then this AISDK is going to give us some response and then on the basis of this response we",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 16,
+      "start": 55.9,
+      "end": 62.56,
+      "duration": 6.66,
+      "startTimestamp": "00:00:55.900",
+      "endTimestamp": "00:01:02.560",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "chapter-1_epm_0017",
+    "text": "are going to use some third party library that will generate a text to image for us",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 17,
+      "start": 62.62,
+      "end": 68.64,
+      "duration": 6.02,
+      "startTimestamp": "00:01:02.620",
+      "endTimestamp": "00:01:08.640",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1_epm_0018",
+    "text": "alright and on the basis of that image we are going to create one story page and into",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 18,
+      "start": 69.14,
+      "end": 75.18,
+      "duration": 6.04,
+      "startTimestamp": "00:01:09.140",
+      "endTimestamp": "00:01:15.180",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-1_epm_0019",
+    "text": "Let's say at least of 10 images and stories.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 19,
+      "start": 78.259,
+      "end": 82.68,
+      "duration": 4.421,
+      "startTimestamp": "00:01:18.259",
+      "endTimestamp": "00:01:22.680",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "chapter-1_epm_0020",
+    "text": "So this is our image 1, then we have paragraph related to this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 20,
+      "start": 82.86,
+      "end": 86.58,
+      "duration": 3.72,
+      "startTimestamp": "00:01:22.860",
+      "endTimestamp": "00:01:26.580",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "chapter-1_epm_0021",
+    "text": "In same way, this is our image 2, then the paragraph and scrolling towards the top and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 21,
+      "start": 87.259,
+      "end": 93,
+      "duration": 5.741,
+      "startTimestamp": "00:01:27.259",
+      "endTimestamp": "00:01:33.000",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1_epm_0022",
+    "text": "you can even download the images and read the story.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 22,
+      "start": 93.001,
+      "end": 96.5,
+      "duration": 3.499,
+      "startTimestamp": "00:01:33.001",
+      "endTimestamp": "00:01:36.500",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "chapter-1_epm_0023",
+    "text": "So this looks very simple, but you will learn a lot of things into it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 23,
+      "start": 96.78,
+      "end": 101.399,
+      "duration": 4.619,
+      "startTimestamp": "00:01:36.780",
+      "endTimestamp": "00:01:41.399",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "chapter-1_epm_0024",
+    "text": "So, the first step is simply move ahead and initialize a project and some bunch of foundational",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 24,
+      "start": 101.4,
+      "end": 108.34,
+      "duration": 6.94,
+      "startTimestamp": "00:01:41.400",
+      "endTimestamp": "00:01:48.340",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1_epm_0025",
+    "text": "related things we are going to implement into this chapter number one.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 25,
+      "start": 108.44,
+      "end": 112.25999999999999,
+      "duration": 3.82,
+      "startTimestamp": "00:01:48.440",
+      "endTimestamp": "00:01:52.260",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "chapter-1_epm_0026",
+    "text": "So, I have already created one folder name is ai-story-generator then simply run burnx",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 26,
+      "start": 112.88,
+      "end": 119.62,
+      "duration": 6.74,
+      "startTimestamp": "00:01:52.880",
+      "endTimestamp": "00:01:59.620",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "chapter-1_epm_0027",
+    "text": "create expo app at the latest.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 27,
+      "start": 120.38,
+      "end": 122.88,
+      "duration": 2.5,
+      "startTimestamp": "00:02:00.380",
+      "endTimestamp": "00:02:02.880",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "chapter-1_epm_0028",
+    "text": "So, this is going to create a new application for me then dot slash alright.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 28,
+      "start": 123.34,
+      "end": 128.84,
+      "duration": 5.5,
+      "startTimestamp": "00:02:03.340",
+      "endTimestamp": "00:02:08.840",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "chapter-1_epm_0029",
+    "text": "So, we can definitely wait for few seconds and then I will be right back.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 29,
+      "start": 129.4,
+      "end": 134.079,
+      "duration": 4.679,
+      "startTimestamp": "00:02:09.400",
+      "endTimestamp": "00:02:14.079",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "chapter-1_epm_0030",
+    "text": "Alright and after this what we will do we can simply reset our project.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 30,
+      "start": 134.9,
+      "end": 139.14,
+      "duration": 4.24,
+      "startTimestamp": "00:02:14.900",
+      "endTimestamp": "00:02:19.140",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "chapter-1_epm_0031",
+    "text": "So, I can simply say burn run reset project ok and then I can simply say no or maybe not",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 31,
+      "start": 139.141,
+      "end": 147.459,
+      "duration": 8.318,
+      "startTimestamp": "00:02:19.141",
+      "endTimestamp": "00:02:27.459",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "chapter-1_epm_0032",
+    "text": "you can reset that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 32,
+      "start": 147.46,
+      "end": 149.579,
+      "duration": 2.119,
+      "startTimestamp": "00:02:27.460",
+      "endTimestamp": "00:02:29.579",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "chapter-1_epm_0033",
+    "text": "Alright, then if I simply run bunx expostart, so this is going to run my development server.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 33,
+      "start": 151.12,
+      "end": 159.62,
+      "duration": 8.5,
+      "startTimestamp": "00:02:31.120",
+      "endTimestamp": "00:02:39.620",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1_epm_0034",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 34,
+      "start": 160.04,
+      "end": 160.32,
+      "duration": 0.28,
+      "startTimestamp": "00:02:40.040",
+      "endTimestamp": "00:02:40.320",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1_epm_0035",
+    "text": "So, let's just wait for it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 35,
+      "start": 160.38,
+      "end": 161.56,
+      "duration": 1.18,
+      "startTimestamp": "00:02:40.380",
+      "endTimestamp": "00:02:41.560",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "chapter-1_epm_0036",
+    "text": "Simply press on A. So, this is going to build the bundle of Android and then going to open",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 36,
+      "start": 161.86,
+      "end": 168.48,
+      "duration": 6.62,
+      "startTimestamp": "00:02:41.860",
+      "endTimestamp": "00:02:48.480",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "chapter-1_epm_0037",
+    "text": "for us.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 37,
+      "start": 168.481,
+      "end": 169.1,
+      "duration": 0.619,
+      "startTimestamp": "00:02:48.481",
+      "endTimestamp": "00:02:49.100",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "chapter-1_epm_0038",
+    "text": "Alright.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 38,
+      "start": 169.2,
+      "end": 169.64,
+      "duration": 0.44,
+      "startTimestamp": "00:02:49.200",
+      "endTimestamp": "00:02:49.640",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1_epm_0039",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 39,
+      "start": 170.48,
+      "end": 170.68,
+      "duration": 0.2,
+      "startTimestamp": "00:02:50.480",
+      "endTimestamp": "00:02:50.680",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1_epm_0040",
+    "text": "So, this is how our application actually looks.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 40,
+      "start": 170.72,
+      "end": 174,
+      "duration": 3.28,
+      "startTimestamp": "00:02:50.720",
+      "endTimestamp": "00:02:54.000",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "chapter-1_epm_0041",
+    "text": "Now, let's move ahead.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 41,
+      "start": 175.16,
+      "end": 176.2,
+      "duration": 1.04,
+      "startTimestamp": "00:02:55.160",
+      "endTimestamp": "00:02:56.200",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "chapter-1_epm_0042",
+    "text": "And, first thing is I wanted to set up my all the constants that I am going to use in",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 42,
+      "start": 176.8,
+      "end": 184.86,
+      "duration": 8.06,
+      "startTimestamp": "00:02:56.800",
+      "endTimestamp": "00:03:04.860",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "chapter-1_epm_0043",
+    "text": "upcoming chapters.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 43,
+      "start": 184.9,
+      "end": 185.9,
+      "duration": 1,
+      "startTimestamp": "00:03:04.900",
+      "endTimestamp": "00:03:05.900",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "chapter-1_epm_0044",
+    "text": "So, for that at the root of it I am going to create one constant.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 44,
+      "start": 186.39,
+      "end": 191.12,
+      "duration": 4.73,
+      "startTimestamp": "00:03:06.390",
+      "endTimestamp": "00:03:11.120",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "chapter-1_epm_0045",
+    "text": "And then the name of this constant is going to be the theme.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 45,
+      "start": 193.26,
+      "end": 198.34,
+      "duration": 5.08,
+      "startTimestamp": "00:03:13.260",
+      "endTimestamp": "00:03:18.340",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "chapter-1_epm_0046",
+    "text": "theme.ts, perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 46,
+      "start": 199.84,
+      "end": 201.54,
+      "duration": 1.7,
+      "startTimestamp": "00:03:19.840",
+      "endTimestamp": "00:03:21.540",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "chapter-1_epm_0047",
+    "text": "And then let me simply copy and paste all the themes that I'm going to use.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 47,
+      "start": 203.06,
+      "end": 207.46,
+      "duration": 4.4,
+      "startTimestamp": "00:03:23.060",
+      "endTimestamp": "00:03:27.460",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-1_epm_0048",
+    "text": "So this is the colors like some bunch of shades related to zinc.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 48,
+      "start": 207.52,
+      "end": 211.57999999999998,
+      "duration": 4.06,
+      "startTimestamp": "00:03:27.520",
+      "endTimestamp": "00:03:31.580",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "chapter-1_epm_0049",
+    "text": "Just trying to match with Tailwind's design strategy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 49,
+      "start": 212.44,
+      "end": 216.16,
+      "duration": 3.72,
+      "startTimestamp": "00:03:32.440",
+      "endTimestamp": "00:03:36.160",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "chapter-1_epm_0050",
+    "text": "And then this is related to yellow.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 50,
+      "start": 216.62,
+      "end": 218.12,
+      "duration": 1.5,
+      "startTimestamp": "00:03:36.620",
+      "endTimestamp": "00:03:38.120",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "chapter-1_epm_0051",
+    "text": "Yes.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 51,
+      "start": 218.38,
+      "end": 218.62,
+      "duration": 0.24,
+      "startTimestamp": "00:03:38.380",
+      "endTimestamp": "00:03:38.620",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1_epm_0052",
+    "text": "So the theme of our application is zinc or yellow.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 52,
+      "start": 218.621,
+      "end": 221.9,
+      "duration": 3.279,
+      "startTimestamp": "00:03:38.621",
+      "endTimestamp": "00:03:41.900",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "chapter-1_epm_0053",
+    "text": "This is the accent color and this is the background colors that we have.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 53,
+      "start": 222.1,
+      "end": 225.54,
+      "duration": 3.44,
+      "startTimestamp": "00:03:42.100",
+      "endTimestamp": "00:03:45.540",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "chapter-1_epm_0054",
+    "text": "And this is all the themes like this is your background.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 54,
+      "start": 225.7,
+      "end": 228.76,
+      "duration": 3.06,
+      "startTimestamp": "00:03:45.700",
+      "endTimestamp": "00:03:48.760",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "chapter-1_epm_0055",
+    "text": "This is your card.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 55,
+      "start": 228.94,
+      "end": 229.959,
+      "duration": 1.019,
+      "startTimestamp": "00:03:48.940",
+      "endTimestamp": "00:03:49.959",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "chapter-1_epm_0056",
+    "text": "This is your borders text, text, secondary, primary and primary dark.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 56,
+      "start": 230.239,
+      "end": 234.3,
+      "duration": 4.061,
+      "startTimestamp": "00:03:50.239",
+      "endTimestamp": "00:03:54.300",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "chapter-1_epm_0057",
+    "text": "This is always a good practice to define all of your themes and color related thing.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 57,
+      "start": 234.78,
+      "end": 241.22,
+      "duration": 6.44,
+      "startTimestamp": "00:03:54.780",
+      "endTimestamp": "00:04:01.220",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-1_epm_0058",
+    "text": "And we can say branding related thing into a separate file.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 58,
+      "start": 241.34,
+      "end": 244.86,
+      "duration": 3.52,
+      "startTimestamp": "00:04:01.340",
+      "endTimestamp": "00:04:04.860",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "chapter-1_epm_0059",
+    "text": "So, that in future let's say you wanted to change your branding, so you can just directly",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 59,
+      "start": 244.9,
+      "end": 249.939,
+      "duration": 5.039,
+      "startTimestamp": "00:04:04.900",
+      "endTimestamp": "00:04:09.939",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1_epm_0060",
+    "text": "change that at one place and it will reflect into your entire application.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 60,
+      "start": 249.94,
+      "end": 254.579,
+      "duration": 4.639,
+      "startTimestamp": "00:04:09.940",
+      "endTimestamp": "00:04:14.579",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "chapter-1_epm_0061",
+    "text": "So, that is the main point of doing this easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 61,
+      "start": 254.599,
+      "end": 258.38,
+      "duration": 3.781,
+      "startTimestamp": "00:04:14.599",
+      "endTimestamp": "00:04:18.380",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "chapter-1_epm_0062",
+    "text": "So, I hope so this makes sense now perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 62,
+      "start": 259.479,
+      "end": 261.959,
+      "duration": 2.48,
+      "startTimestamp": "00:04:19.479",
+      "endTimestamp": "00:04:21.959",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "chapter-1_epm_0063",
+    "text": "Now let's move ahead and simply go inside the root layout as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 63,
+      "start": 262.34,
+      "end": 267.88,
+      "duration": 5.54,
+      "startTimestamp": "00:04:22.340",
+      "endTimestamp": "00:04:27.880",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "chapter-1_epm_0064",
+    "text": "And inside this root layout, okay, so this is the root layout that we have.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 64,
+      "start": 268.94,
+      "end": 273.9,
+      "duration": 4.96,
+      "startTimestamp": "00:04:28.940",
+      "endTimestamp": "00:04:33.900",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "chapter-1_epm_0065",
+    "text": "For now, they are only showing us what?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 65,
+      "start": 274.24,
+      "end": 276.9,
+      "duration": 2.66,
+      "startTimestamp": "00:04:34.240",
+      "endTimestamp": "00:04:36.900",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "chapter-1_epm_0066",
+    "text": "A stack.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 66,
+      "start": 277.68,
+      "end": 278.44,
+      "duration": 0.76,
+      "startTimestamp": "00:04:37.680",
+      "endTimestamp": "00:04:38.440",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "chapter-1_epm_0067",
+    "text": "But I wanted to have my application into the dark theme.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 67,
+      "start": 279.02,
+      "end": 282.979,
+      "duration": 3.959,
+      "startTimestamp": "00:04:39.020",
+      "endTimestamp": "00:04:42.979",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "chapter-1_epm_0068",
+    "text": "So, for that, we are going to use here, I can simply say import, then simply say dark theme.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 68,
+      "start": 283.919,
+      "end": 290.86,
+      "duration": 6.941,
+      "startTimestamp": "00:04:43.919",
+      "endTimestamp": "00:04:50.860",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "chapter-1_epm_0069",
+    "text": "Yes, dark theme from React navigation and also the theme provider.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 69,
+      "start": 291.02,
+      "end": 295.8,
+      "duration": 4.78,
+      "startTimestamp": "00:04:51.020",
+      "endTimestamp": "00:04:55.800",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "chapter-1_epm_0070",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 70,
+      "start": 296.56,
+      "end": 296.879,
+      "duration": 0.319,
+      "startTimestamp": "00:04:56.560",
+      "endTimestamp": "00:04:56.879",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1_epm_0071",
+    "text": "And let me off my AI as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 71,
+      "start": 298.58,
+      "end": 301.76,
+      "duration": 3.18,
+      "startTimestamp": "00:04:58.580",
+      "endTimestamp": "00:05:01.760",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "chapter-1_epm_0072",
+    "text": "Nice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 72,
+      "start": 301.86,
+      "end": 302.1,
+      "duration": 0.24,
+      "startTimestamp": "00:05:01.860",
+      "endTimestamp": "00:05:02.100",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1_epm_0073",
+    "text": "And then instead of this, I'm simply going to return the stack.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 73,
+      "start": 302.36,
+      "end": 306.26,
+      "duration": 3.9,
+      "startTimestamp": "00:05:02.360",
+      "endTimestamp": "00:05:06.260",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "chapter-1_epm_0074",
+    "text": "But this stack is wrapped inside something known as theme provider.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 74,
+      "start": 307.26,
+      "end": 312.02,
+      "duration": 4.76,
+      "startTimestamp": "00:05:07.260",
+      "endTimestamp": "00:05:12.020",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "chapter-1_epm_0075",
+    "text": "Let me cut this down and let me paste it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 75,
+      "start": 313.9,
+      "end": 317.72,
+      "duration": 3.82,
+      "startTimestamp": "00:05:13.900",
+      "endTimestamp": "00:05:17.720",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "chapter-1_epm_0076",
+    "text": "And then this theme provider is going to have a value.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 76,
+      "start": 318.02,
+      "end": 321.02,
+      "duration": 3,
+      "startTimestamp": "00:05:18.020",
+      "endTimestamp": "00:05:21.020",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "chapter-1_epm_0077",
+    "text": "The value is going to be dark theme.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 77,
+      "start": 321.56,
+      "end": 324.24,
+      "duration": 2.68,
+      "startTimestamp": "00:05:21.560",
+      "endTimestamp": "00:05:24.240",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "chapter-1_epm_0078",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 78,
+      "start": 324.5,
+      "end": 324.699,
+      "duration": 0.199,
+      "startTimestamp": "00:05:24.500",
+      "endTimestamp": "00:05:24.699",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1_epm_0079",
+    "text": "Now look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 79,
+      "start": 324.8,
+      "end": 325.72,
+      "duration": 0.92,
+      "startTimestamp": "00:05:24.800",
+      "endTimestamp": "00:05:25.720",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "chapter-1_epm_0080",
+    "text": "We are into dark mode.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 80,
+      "start": 325.8,
+      "end": 327.099,
+      "duration": 1.299,
+      "startTimestamp": "00:05:25.800",
+      "endTimestamp": "00:05:27.099",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "chapter-1_epm_0081",
+    "text": "Nice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 81,
+      "start": 327.46,
+      "end": 327.819,
+      "duration": 0.359,
+      "startTimestamp": "00:05:27.460",
+      "endTimestamp": "00:05:27.819",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1_epm_0082",
+    "text": "And easily you can implement the dark and light mode toggle with the help of this theme",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 82,
+      "start": 329.02,
+      "end": 333.24,
+      "duration": 4.22,
+      "startTimestamp": "00:05:29.020",
+      "endTimestamp": "00:05:33.240",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1_epm_0083",
+    "text": "provider.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 83,
+      "start": 333.4,
+      "end": 333.659,
+      "duration": 0.259,
+      "startTimestamp": "00:05:33.400",
+      "endTimestamp": "00:05:33.659",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1_epm_0084",
+    "text": "Such amazing thing.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 84,
+      "start": 333.72,
+      "end": 334.819,
+      "duration": 1.099,
+      "startTimestamp": "00:05:33.720",
+      "endTimestamp": "00:05:34.819",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "chapter-1_epm_0085",
+    "text": "After this, what I wanted you to do is to simply go to a stack and inside the stack",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 85,
+      "start": 336.4,
+      "end": 341.84000000000003,
+      "duration": 5.44,
+      "startTimestamp": "00:05:36.400",
+      "endTimestamp": "00:05:41.840",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "chapter-1_epm_0086",
+    "text": "you can pass all the screen options that we have.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 86,
+      "start": 341.841,
+      "end": 344.74,
+      "duration": 2.899,
+      "startTimestamp": "00:05:41.841",
+      "endTimestamp": "00:05:44.740",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "chapter-1_epm_0087",
+    "text": "So the first screen option is header shown as false and then a lot of things.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 87,
+      "start": 345.539,
+      "end": 350.3,
+      "duration": 4.761,
+      "startTimestamp": "00:05:45.539",
+      "endTimestamp": "00:05:50.300",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-1_epm_0088",
+    "text": "Let me show you all of them.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 88,
+      "start": 350.4,
+      "end": 351.5,
+      "duration": 1.1,
+      "startTimestamp": "00:05:50.400",
+      "endTimestamp": "00:05:51.500",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "chapter-1_epm_0089",
+    "text": "Okay, let me paste it and then let me import my theme from constant theme.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 89,
+      "start": 353.02,
+      "end": 358.15999999999997,
+      "duration": 5.14,
+      "startTimestamp": "00:05:53.020",
+      "endTimestamp": "00:05:58.160",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "chapter-1_epm_0090",
+    "text": "So now you guys can see that we are not anymore able to see the headers.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 90,
+      "start": 359.02,
+      "end": 364.5,
+      "duration": 5.48,
+      "startTimestamp": "00:05:59.020",
+      "endTimestamp": "00:06:04.500",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-1_epm_0091",
+    "text": "Why?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 91,
+      "start": 364.76,
+      "end": 364.88,
+      "duration": 0.12,
+      "startTimestamp": "00:06:04.760",
+      "endTimestamp": "00:06:04.880",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1_epm_0092",
+    "text": "Because header shown is false.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 92,
+      "start": 364.98,
+      "end": 366.64,
+      "duration": 1.66,
+      "startTimestamp": "00:06:04.980",
+      "endTimestamp": "00:06:06.640",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "chapter-1_epm_0093",
+    "text": "Then we have a content style.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 93,
+      "start": 367.26,
+      "end": 369.64,
+      "duration": 2.38,
+      "startTimestamp": "00:06:07.260",
+      "endTimestamp": "00:06:09.640",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "chapter-1_epm_0094",
+    "text": "Then we have header style and header tint color.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 94,
+      "start": 370.22,
+      "end": 373.22,
+      "duration": 3,
+      "startTimestamp": "00:06:10.220",
+      "endTimestamp": "00:06:13.220",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "chapter-1_epm_0095",
+    "text": "Okay, very good.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 95,
+      "start": 373.72,
+      "end": 374.64,
+      "duration": 0.92,
+      "startTimestamp": "00:06:13.720",
+      "endTimestamp": "00:06:14.640",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "chapter-1_epm_0096",
+    "text": "Now we are going to have two main screen.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 96,
+      "start": 375.3,
+      "end": 379.46,
+      "duration": 4.16,
+      "startTimestamp": "00:06:15.300",
+      "endTimestamp": "00:06:19.460",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "chapter-1_epm_0097",
+    "text": "One is your index screen and another one is your story screen.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 97,
+      "start": 379.6,
+      "end": 384.22,
+      "duration": 4.62,
+      "startTimestamp": "00:06:19.600",
+      "endTimestamp": "00:06:24.220",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "chapter-1_epm_0098",
+    "text": "So we already have an index screen, no problem.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 98,
+      "start": 384.36,
+      "end": 386.96,
+      "duration": 2.6,
+      "startTimestamp": "00:06:24.360",
+      "endTimestamp": "00:06:26.960",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "chapter-1_epm_0099",
+    "text": "In the same way I can have one story screen.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 99,
+      "start": 387.96,
+      "end": 390.42,
+      "duration": 2.46,
+      "startTimestamp": "00:06:27.960",
+      "endTimestamp": "00:06:30.420",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "chapter-1_epm_0100",
+    "text": "So R and FES and I can simply say this is story.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 100,
+      "start": 390.48,
+      "end": 393.64,
+      "duration": 3.16,
+      "startTimestamp": "00:06:30.480",
+      "endTimestamp": "00:06:33.640",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "chapter-1_epm_0101",
+    "text": "Okay, close this and now coming to here and let's modify them as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 101,
+      "start": 394.74,
+      "end": 399.54,
+      "duration": 4.8,
+      "startTimestamp": "00:06:34.740",
+      "endTimestamp": "00:06:39.540",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "chapter-1_epm_0102",
+    "text": "So, first thing that we have the stack screen and the name of this screen is index, no problem.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 102,
+      "start": 400,
+      "end": 407.44,
+      "duration": 7.44,
+      "startTimestamp": "00:06:40.000",
+      "endTimestamp": "00:06:47.440",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "chapter-1_epm_0103",
+    "text": "In same way, I can have another screen, stack screen and the name is going to be, guess",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 103,
+      "start": 408.1,
+      "end": 414.6,
+      "duration": 6.5,
+      "startTimestamp": "00:06:48.100",
+      "endTimestamp": "00:06:54.600",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-1_epm_0104",
+    "text": "that story exactly.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 104,
+      "start": 414.601,
+      "end": 416.1,
+      "duration": 1.499,
+      "startTimestamp": "00:06:54.601",
+      "endTimestamp": "00:06:56.100",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "chapter-1_epm_0105",
+    "text": "So, this is your story and then what I will do, I will simply add the options and for",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 105,
+      "start": 416.96,
+      "end": 422.86,
+      "duration": 5.9,
+      "startTimestamp": "00:06:56.960",
+      "endTimestamp": "00:07:02.860",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "chapter-1_epm_0106",
+    "text": "the story, okay, I can simply say.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 106,
+      "start": 422.94,
+      "end": 426.26,
+      "duration": 3.32,
+      "startTimestamp": "00:07:02.940",
+      "endTimestamp": "00:07:06.260",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "chapter-1_epm_0107",
+    "text": "header shown as false and then title is going to be we can say your story whatever is that",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 107,
+      "start": 428.6,
+      "end": 439.44,
+      "duration": 10.84,
+      "startTimestamp": "00:07:08.600",
+      "endTimestamp": "00:07:19.440",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "chapter-1_epm_0108",
+    "text": "you wanted to add it's up to you.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 108,
+      "start": 439.441,
+      "end": 442.7,
+      "duration": 3.259,
+      "startTimestamp": "00:07:19.441",
+      "endTimestamp": "00:07:22.700",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "chapter-1_epm_0109",
+    "text": "After this, I wanted to show header back title is back itself.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 109,
+      "start": 444,
+      "end": 449.32,
+      "duration": 5.32,
+      "startTimestamp": "00:07:24.000",
+      "endTimestamp": "00:07:29.320",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "chapter-1_epm_0110",
+    "text": "So perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 110,
+      "start": 449.7,
+      "end": 450.48,
+      "duration": 0.78,
+      "startTimestamp": "00:07:29.700",
+      "endTimestamp": "00:07:30.480",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "chapter-1_epm_0111",
+    "text": "And then I will self close this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 111,
+      "start": 451.76,
+      "end": 454.68,
+      "duration": 2.92,
+      "startTimestamp": "00:07:31.760",
+      "endTimestamp": "00:07:34.680",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "chapter-1_epm_0112",
+    "text": "Very good.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 112,
+      "start": 455.1,
+      "end": 455.48,
+      "duration": 0.38,
+      "startTimestamp": "00:07:35.100",
+      "endTimestamp": "00:07:35.480",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "chapter-1_epm_0113",
+    "text": "And last thing is the status bar because although we need not to but it's fine.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 113,
+      "start": 455.76,
+      "end": 460.88,
+      "duration": 5.12,
+      "startTimestamp": "00:07:35.760",
+      "endTimestamp": "00:07:40.880",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-1_epm_0114",
+    "text": "Let me just simply add the status bar and this status bar will come from expose status",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 114,
+      "start": 461.04,
+      "end": 466.96,
+      "duration": 5.92,
+      "startTimestamp": "00:07:41.040",
+      "endTimestamp": "00:07:46.960",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1_epm_0115",
+    "text": "bar.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 115,
+      "start": 466.961,
+      "end": 467.36,
+      "duration": 0.399,
+      "startTimestamp": "00:07:46.961",
+      "endTimestamp": "00:07:47.360",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1_epm_0116",
+    "text": "No problem.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 116,
+      "start": 467.64,
+      "end": 468.26,
+      "duration": 0.62,
+      "startTimestamp": "00:07:47.640",
+      "endTimestamp": "00:07:48.260",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "chapter-1_epm_0117",
+    "text": "And then simply format it once.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 117,
+      "start": 469.24,
+      "end": 471.4,
+      "duration": 2.16,
+      "startTimestamp": "00:07:49.240",
+      "endTimestamp": "00:07:51.400",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "chapter-1_epm_0118",
+    "text": "Amazing.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 118,
+      "start": 473.06,
+      "end": 473.65999999999997,
+      "duration": 0.6,
+      "startTimestamp": "00:07:53.060",
+      "endTimestamp": "00:07:53.660",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1_epm_0119",
+    "text": "Now this is what we are done with.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 119,
+      "start": 474.18,
+      "end": 476,
+      "duration": 1.82,
+      "startTimestamp": "00:07:54.180",
+      "endTimestamp": "00:07:56.000",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "chapter-1_epm_0120",
+    "text": "Now we have successfully organized it and in same way if you wanted to use the link",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 120,
+      "start": 476.28,
+      "end": 482.22,
+      "duration": 5.94,
+      "startTimestamp": "00:07:56.280",
+      "endTimestamp": "00:08:02.220",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "chapter-1_epm_0121",
+    "text": "and let's say you wanted to go into story and let me just simply render here the text.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 121,
+      "start": 482.36,
+      "end": 490.5,
+      "duration": 8.14,
+      "startTimestamp": "00:08:02.360",
+      "endTimestamp": "00:08:10.500",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "chapter-1_epm_0122",
+    "text": "The text is going to say me go to story.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 122,
+      "start": 492.8,
+      "end": 495.42,
+      "duration": 2.62,
+      "startTimestamp": "00:08:12.800",
+      "endTimestamp": "00:08:15.420",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "chapter-1_epm_0123",
+    "text": "Okay.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 123,
+      "start": 496.52,
+      "end": 496.72,
+      "duration": 0.2,
+      "startTimestamp": "00:08:16.520",
+      "endTimestamp": "00:08:16.720",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1_epm_0124",
+    "text": "And definitely this is in black color.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 124,
+      "start": 496.8,
+      "end": 498.88,
+      "duration": 2.08,
+      "startTimestamp": "00:08:16.800",
+      "endTimestamp": "00:08:18.880",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "chapter-1_epm_0125",
+    "text": "We'll fix it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 125,
+      "start": 499.02,
+      "end": 500.02,
+      "duration": 1,
+      "startTimestamp": "00:08:19.020",
+      "endTimestamp": "00:08:20.020",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "chapter-1_epm_0126",
+    "text": "Don't worry.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 126,
+      "start": 500.46,
+      "end": 500.84,
+      "duration": 0.38,
+      "startTimestamp": "00:08:20.460",
+      "endTimestamp": "00:08:20.840",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "chapter-1_epm_0127",
+    "text": "And the moment I press, I'm definitely in story.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 127,
+      "start": 501.32,
+      "end": 504.22,
+      "duration": 2.9,
+      "startTimestamp": "00:08:21.320",
+      "endTimestamp": "00:08:24.220",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "chapter-1_epm_0128",
+    "text": "Hopefully when I'm not be able to see anything here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 128,
+      "start": 504.34,
+      "end": 507.54,
+      "duration": 3.2,
+      "startTimestamp": "00:08:24.340",
+      "endTimestamp": "00:08:27.540",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "chapter-1_epm_0129",
+    "text": "Okay.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 129,
+      "start": 508.68,
+      "end": 509.16,
+      "duration": 0.48,
+      "startTimestamp": "00:08:28.680",
+      "endTimestamp": "00:08:29.160",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1_epm_0130",
+    "text": "It's fine.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 130,
+      "start": 509.24,
+      "end": 509.94,
+      "duration": 0.7,
+      "startTimestamp": "00:08:29.240",
+      "endTimestamp": "00:08:29.940",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "chapter-1_epm_0131",
+    "text": "Maybe.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 131,
+      "start": 510.16,
+      "end": 510.34,
+      "duration": 0.18,
+      "startTimestamp": "00:08:30.160",
+      "endTimestamp": "00:08:30.340",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1_epm_0132",
+    "text": "Yes.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 132,
+      "start": 510.48,
+      "end": 510.82,
+      "duration": 0.34,
+      "startTimestamp": "00:08:30.480",
+      "endTimestamp": "00:08:30.820",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "chapter-1_epm_0133",
+    "text": "I don't know you are able to see this or not, but this is the story text that we have.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 133,
+      "start": 511.12,
+      "end": 515.28,
+      "duration": 4.16,
+      "startTimestamp": "00:08:31.120",
+      "endTimestamp": "00:08:35.280",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "chapter-1_epm_0134",
+    "text": "I will fix it later, no worries.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 134,
+      "start": 515.6,
+      "end": 517.819,
+      "duration": 2.219,
+      "startTimestamp": "00:08:35.600",
+      "endTimestamp": "00:08:37.819",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "chapter-1_epm_0135",
+    "text": "But for now, we have successfully set up this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 135,
+      "start": 518.4590000000001,
+      "end": 522.44,
+      "duration": 3.981,
+      "startTimestamp": "00:08:38.459",
+      "endTimestamp": "00:08:42.440",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "chapter-1_epm_0136",
+    "text": "From the next shifter we are going to work on to our UI screens and navigation.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 136,
+      "start": 522.759,
+      "end": 528.98,
+      "duration": 6.221,
+      "startTimestamp": "00:08:42.759",
+      "endTimestamp": "00:08:48.980",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "chapter-1_epm_0137",
+    "text": "So yes, this is pretty much it for this shifter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "fileName": "chapter-1_epm.vtt",
+      "captionIndex": 137,
+      "start": 529.3389999999999,
+      "end": 534.12,
+      "duration": 4.781,
+      "startTimestamp": "00:08:49.339",
+      "endTimestamp": "00:08:54.120",
+      "estimatedTokens": 20
+    }
+  }
+]

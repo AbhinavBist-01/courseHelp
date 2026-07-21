@@ -1,0 +1,2415 @@
+[
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0001",
+    "text": "Hey everyone and welcome to one more new chapter.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 1,
+      "start": 0.44,
+      "end": 3.32,
+      "duration": 2.88,
+      "startTimestamp": "00:00:00.440",
+      "endTimestamp": "00:00:03.320",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0002",
+    "text": "Now that you know what API routes are, so let's build some in an expo router project",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 2,
+      "start": 4.28,
+      "end": 9.24,
+      "duration": 4.96,
+      "startTimestamp": "00:00:04.280",
+      "endTimestamp": "00:00:09.240",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0003",
+    "text": "and then we will see them in action.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 3,
+      "start": 10.05,
+      "end": 11.92,
+      "duration": 1.87,
+      "startTimestamp": "00:00:10.050",
+      "endTimestamp": "00:00:11.920",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0004",
+    "text": "So in this lecture, we will create some endpoints and then handle different HTTP methods and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 4,
+      "start": 12.17,
+      "end": 18.02,
+      "duration": 5.85,
+      "startTimestamp": "00:00:12.170",
+      "endTimestamp": "00:00:18.020",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0005",
+    "text": "understand how this routes are executed on server side.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 5,
+      "start": 18.1,
+      "end": 22.06,
+      "duration": 3.96,
+      "startTimestamp": "00:00:18.100",
+      "endTimestamp": "00:00:22.060",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0006",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 6,
+      "start": 22.5,
+      "end": 23.26,
+      "duration": 0.76,
+      "startTimestamp": "00:00:22.500",
+      "endTimestamp": "00:00:23.260",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0007",
+    "text": "So let's move ahead.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 7,
+      "start": 24.04,
+      "end": 24.74,
+      "duration": 0.7,
+      "startTimestamp": "00:00:24.040",
+      "endTimestamp": "00:00:24.740",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0008",
+    "text": "We already have one a simple API endpoint which is named as hello and this hello is",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 8,
+      "start": 24.94,
+      "end": 30.4,
+      "duration": 5.46,
+      "startTimestamp": "00:00:24.940",
+      "endTimestamp": "00:00:30.400",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0009",
+    "text": "basically returning you up.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 9,
+      "start": 30.48,
+      "end": 32.46,
+      "duration": 1.98,
+      "startTimestamp": "00:00:30.480",
+      "endTimestamp": "00:00:32.460",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0010",
+    "text": "Let me remove this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 10,
+      "start": 33.08,
+      "end": 33.84,
+      "duration": 0.76,
+      "startTimestamp": "00:00:33.080",
+      "endTimestamp": "00:00:33.840",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0011",
+    "text": "We don't need it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 11,
+      "start": 33.88,
+      "end": 34.64,
+      "duration": 0.76,
+      "startTimestamp": "00:00:33.880",
+      "endTimestamp": "00:00:34.640",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0012",
+    "text": "This hello is basically returning you a message.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 12,
+      "start": 34.84,
+      "end": 36.98,
+      "duration": 2.14,
+      "startTimestamp": "00:00:34.840",
+      "endTimestamp": "00:00:36.980",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0013",
+    "text": "Hello world.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 13,
+      "start": 37.62,
+      "end": 38.06,
+      "duration": 0.44,
+      "startTimestamp": "00:00:37.620",
+      "endTimestamp": "00:00:38.060",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0014",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 14,
+      "start": 38.5,
+      "end": 38.58,
+      "duration": 0.08,
+      "startTimestamp": "00:00:38.500",
+      "endTimestamp": "00:00:38.580",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0015",
+    "text": "So instead of this, let me just simply say as message and I can also say hello from API.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 15,
+      "start": 38.68,
+      "end": 44.3,
+      "duration": 5.62,
+      "startTimestamp": "00:00:38.680",
+      "endTimestamp": "00:00:44.300",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0016",
+    "text": "Alright, so this function runs when someone make a get request on API slash hello make",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 16,
+      "start": 45.9,
+      "end": 52.9,
+      "duration": 7,
+      "startTimestamp": "00:00:45.900",
+      "endTimestamp": "00:00:52.900",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0017",
+    "text": "sense and then it's going to return us a JSON using the standard response object.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 17,
+      "start": 52.96,
+      "end": 58.06,
+      "duration": 5.1,
+      "startTimestamp": "00:00:52.960",
+      "endTimestamp": "00:00:58.060",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0018",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 18,
+      "start": 59.48,
+      "end": 59.56,
+      "duration": 0.08,
+      "startTimestamp": "00:00:59.480",
+      "endTimestamp": "00:00:59.560",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0019",
+    "text": "Now let's see how you can create a post endpoint.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 19,
+      "start": 60.2,
+      "end": 63.04,
+      "duration": 2.84,
+      "startTimestamp": "00:01:00.200",
+      "endTimestamp": "00:01:03.040",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0020",
+    "text": "So let me create a echo like for this is how you do it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 20,
+      "start": 63.56,
+      "end": 66.76,
+      "duration": 3.2,
+      "startTimestamp": "00:01:03.560",
+      "endTimestamp": "00:01:06.760",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0021",
+    "text": "You can name it whatever you want.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 21,
+      "start": 67.04,
+      "end": 68.3,
+      "duration": 1.26,
+      "startTimestamp": "00:01:07.040",
+      "endTimestamp": "00:01:08.300",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0022",
+    "text": "So echo plus api.ts and then I can simply say export.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 22,
+      "start": 68.92,
+      "end": 73,
+      "duration": 4.08,
+      "startTimestamp": "00:01:08.920",
+      "endTimestamp": "00:01:13.000",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0023",
+    "text": "Async function and the name of this function is going to be post, yes, this is important.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 23,
+      "start": 75.1,
+      "end": 79.88,
+      "duration": 4.78,
+      "startTimestamp": "00:01:15.100",
+      "endTimestamp": "00:01:19.880",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0024",
+    "text": "And then this is going to be request and I can simply say this as request.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 24,
+      "start": 80.96000000000001,
+      "end": 85.7,
+      "duration": 4.74,
+      "startTimestamp": "00:01:20.960",
+      "endTimestamp": "00:01:25.700",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0025",
+    "text": "Now let's say in post you always going to get some sort of data.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 25,
+      "start": 86.94,
+      "end": 90.92,
+      "duration": 3.98,
+      "startTimestamp": "00:01:26.940",
+      "endTimestamp": "00:01:30.920",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0026",
+    "text": "So how you can receive that you can simply say const data, even you can destructure",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 26,
+      "start": 91.36,
+      "end": 95.88,
+      "duration": 4.52,
+      "startTimestamp": "00:01:31.360",
+      "endTimestamp": "00:01:35.880",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0027",
+    "text": "it, it's up to you is equals to await and I can simply say request dot json.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 27,
+      "start": 95.94,
+      "end": 101.8,
+      "duration": 5.86,
+      "startTimestamp": "00:01:35.940",
+      "endTimestamp": "00:01:41.800",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0028",
+    "text": "And then let's say I can simply say return response.json and then let me say this you",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 28,
+      "start": 103.4,
+      "end": 113.32,
+      "duration": 9.92,
+      "startTimestamp": "00:01:43.400",
+      "endTimestamp": "00:01:53.320",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0029",
+    "text": "send the data whatever you wanted to send.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 29,
+      "start": 113.4,
+      "end": 116.2,
+      "duration": 2.8,
+      "startTimestamp": "00:01:53.400",
+      "endTimestamp": "00:01:56.200",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0030",
+    "text": "So let me try to test this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 30,
+      "start": 116.94,
+      "end": 118.7,
+      "duration": 1.76,
+      "startTimestamp": "00:01:56.940",
+      "endTimestamp": "00:01:58.700",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0031",
+    "text": "So for that, let me go to my postman and inside this postman, let me pencil and let me add",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 31,
+      "start": 118.92,
+      "end": 127.54,
+      "duration": 8.62,
+      "startTimestamp": "00:01:58.920",
+      "endTimestamp": "00:02:07.540",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0032",
+    "text": "one more endpoint.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 32,
+      "start": 127.58,
+      "end": 128.66,
+      "duration": 1.08,
+      "startTimestamp": "00:02:07.580",
+      "endTimestamp": "00:02:08.660",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0033",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 33,
+      "start": 129.22,
+      "end": 129.419,
+      "duration": 0.199,
+      "startTimestamp": "00:02:09.220",
+      "endTimestamp": "00:02:09.419",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0034",
+    "text": "and at this time this is going to be this so let me copy this endpoint let me paste it",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 34,
+      "start": 131.06,
+      "end": 136.5,
+      "duration": 5.44,
+      "startTimestamp": "00:02:11.060",
+      "endTimestamp": "00:02:16.500",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0035",
+    "text": "so if I send this you will see we are getting a data as hello world no problem I think I",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 35,
+      "start": 136.599,
+      "end": 142.92000000000002,
+      "duration": 6.321,
+      "startTimestamp": "00:02:16.599",
+      "endTimestamp": "00:02:22.920",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0036",
+    "text": "need to reload it maybe I am wrong alright so now if I reload it and then if I go to",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 36,
+      "start": 142.959,
+      "end": 149.299,
+      "duration": 6.34,
+      "startTimestamp": "00:02:22.959",
+      "endTimestamp": "00:02:29.299",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0037",
+    "text": "my here and if I now it alright so I am getting a data as hello world",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 37,
+      "start": 149.359,
+      "end": 154.079,
+      "duration": 4.72,
+      "startTimestamp": "00:02:29.359",
+      "endTimestamp": "00:02:34.079",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0038",
+    "text": "cool and then let me add another endpoint because I have changed the data but no idea",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 38,
+      "start": 156.57999999999998,
+      "end": 162.07999999999998,
+      "duration": 5.5,
+      "startTimestamp": "00:02:36.580",
+      "endTimestamp": "00:02:42.080",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0039",
+    "text": "cool no worries now let me copy this let me come into here and this is going to be echo",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 39,
+      "start": 162.4,
+      "end": 168.34,
+      "duration": 5.94,
+      "startTimestamp": "00:02:42.400",
+      "endTimestamp": "00:02:48.340",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0040",
+    "text": "and inside body pretty straight forward nothing rocket science",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 40,
+      "start": 168.92000000000002,
+      "end": 172.86,
+      "duration": 3.94,
+      "startTimestamp": "00:02:48.920",
+      "endTimestamp": "00:02:52.860",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0041",
+    "text": "Let me send the data as let me going to say this as let me yeah, we say search perfect",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 41,
+      "start": 173.8,
+      "end": 184.74,
+      "duration": 10.94,
+      "startTimestamp": "00:02:53.800",
+      "endTimestamp": "00:03:04.740",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0042",
+    "text": "and now if I send this I am getting echo 8081 slash API.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 42,
+      "start": 185.5,
+      "end": 192.66,
+      "duration": 7.16,
+      "startTimestamp": "00:03:05.500",
+      "endTimestamp": "00:03:12.660",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0043",
+    "text": "I guess, slash api",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 43,
+      "start": 194.3,
+      "end": 195.68,
+      "duration": 1.38,
+      "startTimestamp": "00:03:14.300",
+      "endTimestamp": "00:03:15.680",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0044",
+    "text": "So, why I am not able to hit this, let me try to close my server, let me rerun it, maybe",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 44,
+      "start": 198.94,
+      "end": 205.16,
+      "duration": 6.22,
+      "startTimestamp": "00:03:18.940",
+      "endTimestamp": "00:03:25.160",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0045",
+    "text": "now this will work.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 45,
+      "start": 205.4,
+      "end": 206.12,
+      "duration": 0.72,
+      "startTimestamp": "00:03:25.400",
+      "endTimestamp": "00:03:26.120",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0046",
+    "text": "Perfect and let me just simply hit reload, so by reloading it, I am able to see this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 46,
+      "start": 211.04,
+      "end": 216.9,
+      "duration": 5.86,
+      "startTimestamp": "00:03:31.040",
+      "endTimestamp": "00:03:36.900",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0047",
+    "text": "Perfect, nice and then if I localhost 8081/api/echo and now if I hit this, yes look at that,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 47,
+      "start": 220.62,
+      "end": 233.22,
+      "duration": 12.6,
+      "startTimestamp": "00:03:40.620",
+      "endTimestamp": "00:03:53.220",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0048",
+    "text": "now we are getting 200 okay and you send this data and the data and the value.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 48,
+      "start": 233.31,
+      "end": 238.299,
+      "duration": 4.989,
+      "startTimestamp": "00:03:53.310",
+      "endTimestamp": "00:03:58.299",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0049",
+    "text": "you see this key value thing is getting from here and if I retry to hit this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 49,
+      "start": 238.659,
+      "end": 243.56,
+      "duration": 4.901,
+      "startTimestamp": "00:03:58.659",
+      "endTimestamp": "00:04:03.560",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0050",
+    "text": "You will see that now you are getting the latest data.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 50,
+      "start": 244,
+      "end": 246.94,
+      "duration": 2.94,
+      "startTimestamp": "00:04:04.000",
+      "endTimestamp": "00:04:06.940",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0051",
+    "text": "So this is how you can basically same thing goes for port, same thing goes for patch.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 51,
+      "start": 247.1,
+      "end": 253.6,
+      "duration": 6.5,
+      "startTimestamp": "00:04:07.100",
+      "endTimestamp": "00:04:13.600",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0052",
+    "text": "So I hope you got the point.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 52,
+      "start": 254.22,
+      "end": 255.64,
+      "duration": 1.42,
+      "startTimestamp": "00:04:14.220",
+      "endTimestamp": "00:04:15.640",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0053",
+    "text": "Let's see how you can handle query parameters.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 53,
+      "start": 256.48,
+      "end": 258.62,
+      "duration": 2.14,
+      "startTimestamp": "00:04:16.480",
+      "endTimestamp": "00:04:18.620",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0054",
+    "text": "Let's say you are searching something and you are passing queries into that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 54,
+      "start": 258.94,
+      "end": 262.64,
+      "duration": 3.7,
+      "startTimestamp": "00:04:18.940",
+      "endTimestamp": "00:04:22.640",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0055",
+    "text": "So how you can handle that?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 55,
+      "start": 263.06,
+      "end": 264.16,
+      "duration": 1.1,
+      "startTimestamp": "00:04:23.060",
+      "endTimestamp": "00:04:24.160",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0056",
+    "text": "Let me just simply create a search.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 56,
+      "start": 264.88,
+      "end": 267.34,
+      "duration": 2.46,
+      "startTimestamp": "00:04:24.880",
+      "endTimestamp": "00:04:27.340",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0057",
+    "text": "plus api.ts easy and then let me copy my get endpoint let me paste it easy and right now",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 57,
+      "start": 268.1,
+      "end": 277.44,
+      "duration": 9.34,
+      "startTimestamp": "00:04:28.100",
+      "endTimestamp": "00:04:37.440",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0058",
+    "text": "I wanted to handle the queries thing like what I am talking like this like we have hello",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 58,
+      "start": 277.58,
+      "end": 284.46,
+      "duration": 6.88,
+      "startTimestamp": "00:04:37.580",
+      "endTimestamp": "00:04:44.460",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0059",
+    "text": "and I have passed some data here perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 59,
+      "start": 285,
+      "end": 287.92,
+      "duration": 2.92,
+      "startTimestamp": "00:04:45.000",
+      "endTimestamp": "00:04:47.920",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0060",
+    "text": "this a question mark and let's say this question mark is basically going to have a query is",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 60,
+      "start": 288.5,
+      "end": 294.6,
+      "duration": 6.1,
+      "startTimestamp": "00:04:48.500",
+      "endTimestamp": "00:04:54.600",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0061",
+    "text": "equals to expo something like this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 61,
+      "start": 294.65999999999997,
+      "end": 296.28,
+      "duration": 1.62,
+      "startTimestamp": "00:04:54.660",
+      "endTimestamp": "00:04:56.280",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0062",
+    "text": "So now you will see that we are getting a query value not not always Q you can simple",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 62,
+      "start": 296.281,
+      "end": 302.08,
+      "duration": 5.799,
+      "startTimestamp": "00:04:56.281",
+      "endTimestamp": "00:05:02.080",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0063",
+    "text": "say this name you can whatever you wanted to say this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 63,
+      "start": 302.2,
+      "end": 305.22,
+      "duration": 3.02,
+      "startTimestamp": "00:05:02.200",
+      "endTimestamp": "00:05:05.220",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0064",
+    "text": "Perfect, so how you can handle this very straightforward.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 64,
+      "start": 305.8,
+      "end": 309.5,
+      "duration": 3.7,
+      "startTimestamp": "00:05:05.800",
+      "endTimestamp": "00:05:09.500",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0065",
+    "text": "I can simply say, \"conce URL = new URL\" yes.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 65,
+      "start": 310.55,
+      "end": 315.479,
+      "duration": 4.929,
+      "startTimestamp": "00:05:10.550",
+      "endTimestamp": "00:05:15.479",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0066",
+    "text": "And then this request have access to our URL and then you can basically extract them by",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 66,
+      "start": 316.46,
+      "end": 323.4,
+      "duration": 6.94,
+      "startTimestamp": "00:05:16.460",
+      "endTimestamp": "00:05:23.400",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0067",
+    "text": "simple using the methods.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 67,
+      "start": 323.62,
+      "end": 325.159,
+      "duration": 1.539,
+      "startTimestamp": "00:05:23.620",
+      "endTimestamp": "00:05:25.159",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0068",
+    "text": "So you can simply say query is equals to URL.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 68,
+      "start": 325.58,
+      "end": 329.02,
+      "duration": 3.44,
+      "startTimestamp": "00:05:25.580",
+      "endTimestamp": "00:05:29.020",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0069",
+    "text": "Dot search params, yes, search params is important and then this search params have bunch of",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 69,
+      "start": 329.7,
+      "end": 336.46,
+      "duration": 6.76,
+      "startTimestamp": "00:05:29.700",
+      "endTimestamp": "00:05:36.460",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0070",
+    "text": "method one of them is get, where is that here and then you have to know about your name",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 70,
+      "start": 336.58,
+      "end": 343.6,
+      "duration": 7.02,
+      "startTimestamp": "00:05:36.580",
+      "endTimestamp": "00:05:43.600",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0071",
+    "text": "of this, the key of this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 71,
+      "start": 343.8,
+      "end": 345.82,
+      "duration": 2.02,
+      "startTimestamp": "00:05:43.800",
+      "endTimestamp": "00:05:45.820",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0072",
+    "text": "So let's say let me add one endpoint, let me copy this, let me paste it, easy and instead",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 72,
+      "start": 346.1,
+      "end": 352.54,
+      "duration": 6.44,
+      "startTimestamp": "00:05:46.100",
+      "endTimestamp": "00:05:52.540",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0073",
+    "text": "of hello let me say this as search and let me add here queue, easy, keep it simple.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 73,
+      "start": 352.68,
+      "end": 357.5,
+      "duration": 4.82,
+      "startTimestamp": "00:05:52.680",
+      "endTimestamp": "00:05:57.500",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0074",
+    "text": "And then what is going to be the name of the query key which is Q and then I can return",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 74,
+      "start": 358.6,
+      "end": 367.26,
+      "duration": 8.66,
+      "startTimestamp": "00:05:58.600",
+      "endTimestamp": "00:06:07.260",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0075",
+    "text": "the response I can simply say const response dot json and this json is going to be a query.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 75,
+      "start": 367.38,
+      "end": 377.04,
+      "duration": 9.66,
+      "startTimestamp": "00:06:07.380",
+      "endTimestamp": "00:06:17.040",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0076",
+    "text": "All right.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 76,
+      "start": 378.22,
+      "end": 378.6,
+      "duration": 0.38,
+      "startTimestamp": "00:06:18.220",
+      "endTimestamp": "00:06:18.600",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0077",
+    "text": "And now if I try to hit this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 77,
+      "start": 380,
+      "end": 383.14,
+      "duration": 3.14,
+      "startTimestamp": "00:06:20.000",
+      "endTimestamp": "00:06:23.140",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0078",
+    "text": "Why I am getting 404 not found?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 78,
+      "start": 385.16,
+      "end": 387.56,
+      "duration": 2.4,
+      "startTimestamp": "00:06:25.160",
+      "endTimestamp": "00:06:27.560",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0079",
+    "text": "What is the preview I am getting?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 79,
+      "start": 389.3,
+      "end": 391.06,
+      "duration": 1.76,
+      "startTimestamp": "00:06:29.300",
+      "endTimestamp": "00:06:31.060",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0080",
+    "text": "No preview.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 80,
+      "start": 391.67,
+      "end": 392.24,
+      "duration": 0.57,
+      "startTimestamp": "00:06:31.670",
+      "endTimestamp": "00:06:32.240",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0081",
+    "text": "I have passed it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 81,
+      "start": 394.2,
+      "end": 394.96,
+      "duration": 0.76,
+      "startTimestamp": "00:06:34.200",
+      "endTimestamp": "00:06:34.960",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0082",
+    "text": "Same thing I think.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 82,
+      "start": 395.31,
+      "end": 395.96,
+      "duration": 0.65,
+      "startTimestamp": "00:06:35.310",
+      "endTimestamp": "00:06:35.960",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0083",
+    "text": "Maybe I have to reload it and then this will work.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 83,
+      "start": 396.14,
+      "end": 398.74,
+      "duration": 2.6,
+      "startTimestamp": "00:06:36.140",
+      "endTimestamp": "00:06:38.740",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0084",
+    "text": "Like this is going to bundled every time you had this, so that's why.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 84,
+      "start": 399.9,
+      "end": 403.96,
+      "duration": 4.06,
+      "startTimestamp": "00:06:39.900",
+      "endTimestamp": "00:06:43.960",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0085",
+    "text": "API/search, yes I am hitting that only.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 85,
+      "start": 405.34000000000003,
+      "end": 409.22,
+      "duration": 3.88,
+      "startTimestamp": "00:06:45.340",
+      "endTimestamp": "00:06:49.220",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0086",
+    "text": "So let me try to close this once again, let me try to run this once again.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 86,
+      "start": 410.38,
+      "end": 414.65999999999997,
+      "duration": 4.28,
+      "startTimestamp": "00:06:50.380",
+      "endTimestamp": "00:06:54.660",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0087",
+    "text": "Let me try to reload it once again, alright and then we have this search and then search",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 87,
+      "start": 418.76,
+      "end": 427.34,
+      "duration": 8.58,
+      "startTimestamp": "00:06:58.760",
+      "endTimestamp": "00:07:07.340",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0088",
+    "text": "is going to have a question mark Q is equals to x4 and now if I hit this, look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 88,
+      "start": 427.479,
+      "end": 432.74,
+      "duration": 5.261,
+      "startTimestamp": "00:07:07.479",
+      "endTimestamp": "00:07:12.740",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0089",
+    "text": "Now we are getting the query, whatever I have passed here, let's say let me change the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 89,
+      "start": 432.8,
+      "end": 437.319,
+      "duration": 4.519,
+      "startTimestamp": "00:07:12.800",
+      "endTimestamp": "00:07:17.319",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0090",
+    "text": "value to Suraj and then if I pass it, you will see that I am getting Suraj.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 90,
+      "start": 437.36,
+      "end": 443.24,
+      "duration": 5.88,
+      "startTimestamp": "00:07:17.360",
+      "endTimestamp": "00:07:23.240",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0091",
+    "text": "So I hope so, this is how you can handle your queries as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 91,
+      "start": 443.599,
+      "end": 447.419,
+      "duration": 3.82,
+      "startTimestamp": "00:07:23.599",
+      "endTimestamp": "00:07:27.419",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0092",
+    "text": "And same we have same error status code, you can read more about that if you wanted to.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 92,
+      "start": 448.5,
+      "end": 454.44,
+      "duration": 5.94,
+      "startTimestamp": "00:07:28.500",
+      "endTimestamp": "00:07:34.440",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0093",
+    "text": "So why this is basically matters, why we are even reading this, why we are even understanding",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 93,
+      "start": 455.159,
+      "end": 459.44,
+      "duration": 4.281,
+      "startTimestamp": "00:07:35.159",
+      "endTimestamp": "00:07:39.440",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0094",
+    "text": "it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 94,
+      "start": 459.639,
+      "end": 459.72,
+      "duration": 0.081,
+      "startTimestamp": "00:07:39.639",
+      "endTimestamp": "00:07:39.720",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0095",
+    "text": "So, we are understanding this to write server side logic right inside your expo project.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 95,
+      "start": 460.1,
+      "end": 465.42,
+      "duration": 5.32,
+      "startTimestamp": "00:07:40.100",
+      "endTimestamp": "00:07:45.420",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0096",
+    "text": "So, this is the beauty.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 96,
+      "start": 465.53,
+      "end": 466.4,
+      "duration": 0.87,
+      "startTimestamp": "00:07:45.530",
+      "endTimestamp": "00:07:46.400",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0097",
+    "text": "We don't want it to be depend on some external server initially let's say in future you wanted",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 97,
+      "start": 467.92,
+      "end": 473.15999999999997,
+      "duration": 5.24,
+      "startTimestamp": "00:07:47.920",
+      "endTimestamp": "00:07:53.160",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0098",
+    "text": "to shift it, it's fine, but initially let's say you don't want it to depend on some external",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 98,
+      "start": 473.19,
+      "end": 478.36,
+      "duration": 5.17,
+      "startTimestamp": "00:07:53.190",
+      "endTimestamp": "00:07:58.360",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0099",
+    "text": "server and let's say you can handle bunch of secret keys sensitive logic onto the server",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 99,
+      "start": 478.52,
+      "end": 484.66,
+      "duration": 6.14,
+      "startTimestamp": "00:07:58.520",
+      "endTimestamp": "00:08:04.660",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0100",
+    "text": "side itself.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 100,
+      "start": 484.661,
+      "end": 485.36,
+      "duration": 0.699,
+      "startTimestamp": "00:08:04.661",
+      "endTimestamp": "00:08:05.360",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0101",
+    "text": "And you can call this endpoint from your client screen using fetch.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 101,
+      "start": 486,
+      "end": 491.2,
+      "duration": 5.2,
+      "startTimestamp": "00:08:06.000",
+      "endTimestamp": "00:08:11.200",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0102",
+    "text": "Yes, let's say if you wanted to use them from this to how so basically how you can do so,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 102,
+      "start": 492.23,
+      "end": 498.04,
+      "duration": 5.81,
+      "startTimestamp": "00:08:12.230",
+      "endTimestamp": "00:08:18.040",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0103",
+    "text": "you can simply coming to here and let's say let me create a const.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 103,
+      "start": 498.41,
+      "end": 502.98,
+      "duration": 4.57,
+      "startTimestamp": "00:08:18.410",
+      "endTimestamp": "00:08:22.980",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0104",
+    "text": "handle fetch data easy this is going to be a sync data and then I can simply do what",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 104,
+      "start": 503.4,
+      "end": 512.62,
+      "duration": 9.22,
+      "startTimestamp": "00:08:23.400",
+      "endTimestamp": "00:08:32.620",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0105",
+    "text": "I can simply say cons response is equals to await a fetch no problem and then I can hit",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 105,
+      "start": 512.679,
+      "end": 519.86,
+      "duration": 7.181,
+      "startTimestamp": "00:08:32.679",
+      "endTimestamp": "00:08:39.860",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0106",
+    "text": "my API slash let's say I am hitting hello.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 106,
+      "start": 519.98,
+      "end": 523.58,
+      "duration": 3.6,
+      "startTimestamp": "00:08:39.980",
+      "endTimestamp": "00:08:43.580",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0107",
+    "text": "easy and then I'm going to get my data as await response dot json and then let's say",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 107,
+      "start": 525.3,
+      "end": 536.279,
+      "duration": 10.979,
+      "startTimestamp": "00:08:45.300",
+      "endTimestamp": "00:08:56.279",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0108",
+    "text": "for now let me console this console my data and I can even alert my data just to see the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 108,
+      "start": 536.28,
+      "end": 543,
+      "duration": 6.72,
+      "startTimestamp": "00:08:56.280",
+      "endTimestamp": "00:09:03.000",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0109",
+    "text": "data perfect and below this text let me add here a pressable",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 109,
+      "start": 543.04,
+      "end": 550.48,
+      "duration": 7.44,
+      "startTimestamp": "00:09:03.040",
+      "endTimestamp": "00:09:10.480",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0110",
+    "text": "And this pressable is going to save me get data and now if I save it, exactly, you must",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 110,
+      "start": 551.3,
+      "end": 560.44,
+      "duration": 9.14,
+      "startTimestamp": "00:09:11.300",
+      "endTimestamp": "00:09:20.440",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0111",
+    "text": "be inside a text.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 111,
+      "start": 560.68,
+      "end": 561.519,
+      "duration": 0.839,
+      "startTimestamp": "00:09:20.680",
+      "endTimestamp": "00:09:21.519",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0112",
+    "text": "So let me paste it and let me change this to get data and here on press, yes on press",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 112,
+      "start": 561.899,
+      "end": 570.98,
+      "duration": 9.081,
+      "startTimestamp": "00:09:21.899",
+      "endTimestamp": "00:09:30.980",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0113",
+    "text": "I can simply say handle fetch data.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 113,
+      "start": 571.14,
+      "end": 573.899,
+      "duration": 2.759,
+      "startTimestamp": "00:09:31.140",
+      "endTimestamp": "00:09:33.899",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0114",
+    "text": "All right.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 114,
+      "start": 574.88,
+      "end": 575.16,
+      "duration": 0.28,
+      "startTimestamp": "00:09:34.880",
+      "endTimestamp": "00:09:35.160",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0115",
+    "text": "Let's try.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 115,
+      "start": 575.38,
+      "end": 575.8,
+      "duration": 0.42,
+      "startTimestamp": "00:09:35.380",
+      "endTimestamp": "00:09:35.800",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0116",
+    "text": "Let me reload it once.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 116,
+      "start": 576.54,
+      "end": 577.48,
+      "duration": 0.94,
+      "startTimestamp": "00:09:36.540",
+      "endTimestamp": "00:09:37.480",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0117",
+    "text": "Let me wait for it and now if I press on get data you will see object, object, alright",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 117,
+      "start": 583.26,
+      "end": 591.56,
+      "duration": 8.3,
+      "startTimestamp": "00:09:43.260",
+      "endTimestamp": "00:09:51.560",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0118",
+    "text": "it's fine like we are at least getting something just to fix this you can simply say json.stringify",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 118,
+      "start": 591.74,
+      "end": 597.62,
+      "duration": 5.88,
+      "startTimestamp": "00:09:51.740",
+      "endTimestamp": "00:09:57.620",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0119",
+    "text": "and then you will get your data nothing rocket science in it cool and now if I press on get",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 119,
+      "start": 598.2,
+      "end": 603.76,
+      "duration": 5.56,
+      "startTimestamp": "00:09:58.200",
+      "endTimestamp": "00:10:03.760",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0120",
+    "text": "data message and hello from API so this is how you can even call your internal APIs so",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 120,
+      "start": 603.84,
+      "end": 612.92,
+      "duration": 9.08,
+      "startTimestamp": "00:10:03.840",
+      "endTimestamp": "00:10:12.920",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0121",
+    "text": "yes this is pretty much it for this chapter and I hope you guys loved it now in from next",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 121,
+      "start": 613.06,
+      "end": 619.24,
+      "duration": 6.18,
+      "startTimestamp": "00:10:13.060",
+      "endTimestamp": "00:10:19.240",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0122",
+    "text": "chapter we are basically going to see that how you can",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 122,
+      "start": 619.28,
+      "end": 623.3,
+      "duration": 4.02,
+      "startTimestamp": "00:10:19.280",
+      "endTimestamp": "00:10:23.300",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0123",
+    "text": "call external API's like this is our internal API's but in same way we wanted to call our",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 123,
+      "start": 623.8,
+      "end": 630.08,
+      "duration": 6.28,
+      "startTimestamp": "00:10:23.800",
+      "endTimestamp": "00:10:30.080",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0124",
+    "text": "some external API's although we have already talked about it inside our Pokemon application",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 124,
+      "start": 630.18,
+      "end": 636.3389999999999,
+      "duration": 6.159,
+      "startTimestamp": "00:10:30.180",
+      "endTimestamp": "00:10:36.339",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0125",
+    "text": "like we have used they are the API's of Pokemon but still just for revision purpose I am also",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 125,
+      "start": 636.66,
+      "end": 643.26,
+      "duration": 6.6,
+      "startTimestamp": "00:10:36.660",
+      "endTimestamp": "00:10:43.260",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0126",
+    "text": "going to talk about how you can call external API's.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 126,
+      "start": 643.3389999999999,
+      "end": 647.04,
+      "duration": 3.701,
+      "startTimestamp": "00:10:43.339",
+      "endTimestamp": "00:10:47.040",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_0127",
+    "text": "So yes this is pretty much it for this chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "fileName": "2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "captionIndex": 127,
+      "start": 647.42,
+      "end": 652.019,
+      "duration": 4.599,
+      "startTimestamp": "00:10:47.420",
+      "endTimestamp": "00:10:52.019",
+      "estimatedTokens": 20
+    }
+  }
+]

@@ -1,0 +1,1579 @@
+[
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0001",
+    "text": "Alright everyone and welcome to one more new lecture.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 1,
+      "start": 0.46,
+      "end": 3.54,
+      "duration": 3.08,
+      "startTimestamp": "00:00:00.460",
+      "endTimestamp": "00:00:03.540",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0002",
+    "text": "In this lecture we are going to talk about haptics.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 2,
+      "start": 3.75,
+      "end": 6.32,
+      "duration": 2.57,
+      "startTimestamp": "00:00:03.750",
+      "endTimestamp": "00:00:06.320",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0003",
+    "text": "So what is this haptics actually means?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 3,
+      "start": 6.63,
+      "end": 8.7,
+      "duration": 2.07,
+      "startTimestamp": "00:00:06.630",
+      "endTimestamp": "00:00:08.700",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0004",
+    "text": "So a library that provide access to a system's vibration effect on Android, the haptics engine",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 4,
+      "start": 10.08,
+      "end": 15.86,
+      "duration": 5.78,
+      "startTimestamp": "00:00:10.080",
+      "endTimestamp": "00:00:15.860",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0005",
+    "text": "on iOS and web, a web vibration API on web.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 5,
+      "start": 15.96,
+      "end": 19.84,
+      "duration": 3.88,
+      "startTimestamp": "00:00:15.960",
+      "endTimestamp": "00:00:19.840",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0006",
+    "text": "So basically let's see that this is the direct use case.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 6,
+      "start": 20.27,
+      "end": 24.12,
+      "duration": 3.85,
+      "startTimestamp": "00:00:20.270",
+      "endTimestamp": "00:00:24.120",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0007",
+    "text": "So let me just simply copy this and we'll see how you can use it and how you can see",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 7,
+      "start": 24.19,
+      "end": 28.599,
+      "duration": 4.409,
+      "startTimestamp": "00:00:24.190",
+      "endTimestamp": "00:00:28.599",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0008",
+    "text": "So, let me just simply say 1x expo install expo haptics, alright, installed in 100 milliseconds.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 8,
+      "start": 29.4,
+      "end": 36.54,
+      "duration": 7.14,
+      "startTimestamp": "00:00:29.400",
+      "endTimestamp": "00:00:36.540",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0009",
+    "text": "So, basically in 1 seconds and let us see that how you can implement this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 9,
+      "start": 36.67,
+      "end": 42,
+      "duration": 5.33,
+      "startTimestamp": "00:00:36.670",
+      "endTimestamp": "00:00:42.000",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0010",
+    "text": "So, in components, let me create a haptics.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 10,
+      "start": 42.34,
+      "end": 46.22,
+      "duration": 3.88,
+      "startTimestamp": "00:00:42.340",
+      "endTimestamp": "00:00:46.220",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0011",
+    "text": "inside this what I will say, I will simply say press haptics dot tsx rnfs press haptics",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 11,
+      "start": 46.9,
+      "end": 56.24,
+      "duration": 9.34,
+      "startTimestamp": "00:00:46.900",
+      "endTimestamp": "00:00:56.240",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0012",
+    "text": "easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 12,
+      "start": 56.74,
+      "end": 56.92,
+      "duration": 0.18,
+      "startTimestamp": "00:00:56.740",
+      "endTimestamp": "00:00:56.920",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0013",
+    "text": "Let me save it, let me go to my index and below this let me simply say press haptics.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 13,
+      "start": 57.38,
+      "end": 64.52,
+      "duration": 7.14,
+      "startTimestamp": "00:00:57.380",
+      "endTimestamp": "00:01:04.520",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0014",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 14,
+      "start": 65.68,
+      "end": 66.119,
+      "duration": 0.439,
+      "startTimestamp": "00:01:05.680",
+      "endTimestamp": "00:01:06.119",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0015",
+    "text": "And let me save this and inside this first of all let me import haptics from haptics",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 15,
+      "start": 66.88,
+      "end": 73.36,
+      "duration": 6.48,
+      "startTimestamp": "00:01:06.880",
+      "endTimestamp": "00:01:13.360",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0016",
+    "text": "easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 16,
+      "start": 73.72,
+      "end": 74.28,
+      "duration": 0.56,
+      "startTimestamp": "00:01:13.720",
+      "endTimestamp": "00:01:14.280",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0017",
+    "text": "And then let me create three functions.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 17,
+      "start": 75.56,
+      "end": 77.7,
+      "duration": 2.14,
+      "startTimestamp": "00:01:15.560",
+      "endTimestamp": "00:01:17.700",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0018",
+    "text": "Just see that how I'm creating it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 18,
+      "start": 78.03999999999999,
+      "end": 79.479,
+      "duration": 1.439,
+      "startTimestamp": "00:01:18.040",
+      "endTimestamp": "00:01:19.479",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0019",
+    "text": "So the first function is handle press where just listen to me carefully.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 19,
+      "start": 80.34,
+      "end": 84.92,
+      "duration": 4.58,
+      "startTimestamp": "00:01:20.340",
+      "endTimestamp": "00:01:24.920",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0020",
+    "text": "I have used haptics impact a sync and then inside this haptics I have added light then",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 20,
+      "start": 85.15899999999999,
+      "end": 91.68,
+      "duration": 6.521,
+      "startTimestamp": "00:01:25.159",
+      "endTimestamp": "00:01:31.680",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0021",
+    "text": "medium and then heavy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 21,
+      "start": 91.78,
+      "end": 92.96000000000001,
+      "duration": 1.18,
+      "startTimestamp": "00:01:31.780",
+      "endTimestamp": "00:01:32.960",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0022",
+    "text": "All right.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 22,
+      "start": 93.22,
+      "end": 93.52000000000001,
+      "duration": 0.3,
+      "startTimestamp": "00:01:33.220",
+      "endTimestamp": "00:01:33.520",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0023",
+    "text": "Let's see that and let me import and let use that on to the UI as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 23,
+      "start": 94.1,
+      "end": 100,
+      "duration": 5.9,
+      "startTimestamp": "00:01:34.100",
+      "endTimestamp": "00:01:40.000",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0024",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 24,
+      "start": 100.64,
+      "end": 100.799,
+      "duration": 0.159,
+      "startTimestamp": "00:01:40.640",
+      "endTimestamp": "00:01:40.799",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0025",
+    "text": "And let me just paste it easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 25,
+      "start": 102.53999999999999,
+      "end": 104.5,
+      "duration": 1.96,
+      "startTimestamp": "00:01:42.540",
+      "endTimestamp": "00:01:44.500",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0026",
+    "text": "Let me import my touchable opacity and then let me paste the design that I wanted to use",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 26,
+      "start": 104.96000000000001,
+      "end": 111.72,
+      "duration": 6.76,
+      "startTimestamp": "00:01:44.960",
+      "endTimestamp": "00:01:51.720",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0027",
+    "text": "here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 27,
+      "start": 111.899,
+      "end": 112,
+      "duration": 0.101,
+      "startTimestamp": "00:01:51.899",
+      "endTimestamp": "00:01:52.000",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0028",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 28,
+      "start": 112.399,
+      "end": 112.53999999999999,
+      "duration": 0.141,
+      "startTimestamp": "00:01:52.399",
+      "endTimestamp": "00:01:52.540",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0029",
+    "text": "And if I just simply paste it and save it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 29,
+      "start": 114.399,
+      "end": 117.68,
+      "duration": 3.281,
+      "startTimestamp": "00:01:54.399",
+      "endTimestamp": "00:01:57.680",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0030",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 30,
+      "start": 117.94,
+      "end": 118.02000000000001,
+      "duration": 0.08,
+      "startTimestamp": "00:01:57.940",
+      "endTimestamp": "00:01:58.020",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0031",
+    "text": "So let's try to first of all, but press that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 31,
+      "start": 118.74000000000001,
+      "end": 121.42,
+      "duration": 2.68,
+      "startTimestamp": "00:01:58.740",
+      "endTimestamp": "00:02:01.420",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0032",
+    "text": "So, you will see that your, if I am not wrong, your app has just vibrated a bit.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 32,
+      "start": 123.299,
+      "end": 128.84,
+      "duration": 5.541,
+      "startTimestamp": "00:02:03.299",
+      "endTimestamp": "00:02:08.840",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0033",
+    "text": "If you just press a long, perfect, then second option that we have is a press in, if you",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 33,
+      "start": 129.44,
+      "end": 136.22,
+      "duration": 6.78,
+      "startTimestamp": "00:02:09.440",
+      "endTimestamp": "00:02:16.220",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0034",
+    "text": "just keep press and if you just press long, precious, look at that, your app has vibrated",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 34,
+      "start": 136.24,
+      "end": 140.94,
+      "duration": 4.7,
+      "startTimestamp": "00:02:16.240",
+      "endTimestamp": "00:02:20.940",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0035",
+    "text": "Look at that, cool, yes, this is your long press, look at that, got it and press in,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 35,
+      "start": 141.6,
+      "end": 148.9,
+      "duration": 7.3,
+      "startTimestamp": "00:02:21.600",
+      "endTimestamp": "00:02:28.900",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0036",
+    "text": "this is showing us a pressed, perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 36,
+      "start": 149.12,
+      "end": 151.1,
+      "duration": 1.98,
+      "startTimestamp": "00:02:29.120",
+      "endTimestamp": "00:02:31.100",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0037",
+    "text": "So what is this basically?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 37,
+      "start": 151.57999999999998,
+      "end": 152.8,
+      "duration": 1.22,
+      "startTimestamp": "00:02:31.580",
+      "endTimestamp": "00:02:32.800",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0038",
+    "text": "This is actually for controlling the intensity of the vibration you wanted to have into your",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 38,
+      "start": 153.6,
+      "end": 162.04,
+      "duration": 8.44,
+      "startTimestamp": "00:02:33.600",
+      "endTimestamp": "00:02:42.040",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0039",
+    "text": "So, this is basically giving you the access of your, you can even see that a library that",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 39,
+      "start": 163.64,
+      "end": 169.74,
+      "duration": 6.1,
+      "startTimestamp": "00:02:43.640",
+      "endTimestamp": "00:02:49.740",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0040",
+    "text": "provide access to the system's vibration effect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 40,
+      "start": 169.82,
+      "end": 172.4,
+      "duration": 2.58,
+      "startTimestamp": "00:02:49.820",
+      "endTimestamp": "00:02:52.400",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0041",
+    "text": "This is literally a game changing thing.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 41,
+      "start": 172.86,
+      "end": 175.34,
+      "duration": 2.48,
+      "startTimestamp": "00:02:52.860",
+      "endTimestamp": "00:02:55.340",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0042",
+    "text": "Got it and you can definitely read more about it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 42,
+      "start": 175.96,
+      "end": 178.98,
+      "duration": 3.02,
+      "startTimestamp": "00:02:55.960",
+      "endTimestamp": "00:02:58.980",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0043",
+    "text": "You can see notification async, yes we also have a notification async.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 43,
+      "start": 179.85,
+      "end": 184.22,
+      "duration": 4.37,
+      "startTimestamp": "00:02:59.850",
+      "endTimestamp": "00:03:04.220",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0044",
+    "text": "So, let me try to show you that, cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 44,
+      "start": 184.709,
+      "end": 187.18,
+      "duration": 2.471,
+      "startTimestamp": "00:03:04.709",
+      "endTimestamp": "00:03:07.180",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0045",
+    "text": "So, let me try to show you that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 45,
+      "start": 187.47,
+      "end": 192.48,
+      "duration": 5.01,
+      "startTimestamp": "00:03:07.470",
+      "endTimestamp": "00:03:12.480",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0046",
+    "text": "So, what I will do I can completely copy this file, perfect and what I will do inside this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 46,
+      "start": 192.481,
+      "end": 197.42000000000002,
+      "duration": 4.939,
+      "startTimestamp": "00:03:12.481",
+      "endTimestamp": "00:03:17.420",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0047",
+    "text": "I can simply say example 2.tsx easy and let me save it, no problem and inside this example",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 47,
+      "start": 197.579,
+      "end": 208.459,
+      "duration": 10.88,
+      "startTimestamp": "00:03:17.579",
+      "endTimestamp": "00:03:28.459",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0048",
+    "text": "2. We have some bunch of styles. Don't we have that here right now?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 48,
+      "start": 208.7,
+      "end": 214.379,
+      "duration": 5.679,
+      "startTimestamp": "00:03:28.700",
+      "endTimestamp": "00:03:34.379",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0049",
+    "text": "We should have but it's fine but I can do I can simply coming to here and get a design",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 49,
+      "start": 216.14,
+      "end": 222.599,
+      "duration": 6.459,
+      "startTimestamp": "00:03:36.140",
+      "endTimestamp": "00:03:42.599",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0050",
+    "text": "for my text as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 50,
+      "start": 222.879,
+      "end": 224.2,
+      "duration": 1.321,
+      "startTimestamp": "00:03:42.879",
+      "endTimestamp": "00:03:44.200",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0051",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 51,
+      "start": 225.72,
+      "end": 225.81900000000002,
+      "duration": 0.099,
+      "startTimestamp": "00:03:45.720",
+      "endTimestamp": "00:03:45.819",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0052",
+    "text": "So font of 18, medium.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 52,
+      "start": 227.06,
+      "end": 229.04,
+      "duration": 1.98,
+      "startTimestamp": "00:03:47.060",
+      "endTimestamp": "00:03:49.040",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0053",
+    "text": "Alright.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 53,
+      "start": 229.28,
+      "end": 229.48,
+      "duration": 0.2,
+      "startTimestamp": "00:03:49.280",
+      "endTimestamp": "00:03:49.480",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0054",
+    "text": "Now let me save it and let me go to my index.tsx.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 54,
+      "start": 230.239,
+      "end": 234,
+      "duration": 3.761,
+      "startTimestamp": "00:03:50.239",
+      "endTimestamp": "00:03:54.000",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0055",
+    "text": "We don't need this press haptics.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 55,
+      "start": 234.519,
+      "end": 236.26,
+      "duration": 1.741,
+      "startTimestamp": "00:03:54.519",
+      "endTimestamp": "00:03:56.260",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0056",
+    "text": "Let me try to render here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 56,
+      "start": 236.66,
+      "end": 238.459,
+      "duration": 1.799,
+      "startTimestamp": "00:03:56.660",
+      "endTimestamp": "00:03:58.459",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0057",
+    "text": "I think the name of that is app.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 57,
+      "start": 239.36,
+      "end": 241.56,
+      "duration": 2.2,
+      "startTimestamp": "00:03:59.360",
+      "endTimestamp": "00:04:01.560",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0058",
+    "text": "Maybe I'm wrong.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 58,
+      "start": 242.38,
+      "end": 242.98,
+      "duration": 0.6,
+      "startTimestamp": "00:04:02.380",
+      "endTimestamp": "00:04:02.980",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0059",
+    "text": "But now if I save it, alright, so you will see a lot of examples, perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 59,
+      "start": 243.4,
+      "end": 249.379,
+      "duration": 5.979,
+      "startTimestamp": "00:04:03.400",
+      "endTimestamp": "00:04:09.379",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0060",
+    "text": "So the first example that we have here is the moment you simply press selection.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 60,
+      "start": 249.86,
+      "end": 256.6,
+      "duration": 6.74,
+      "startTimestamp": "00:04:09.860",
+      "endTimestamp": "00:04:16.600",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0061",
+    "text": "Cool?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 61,
+      "start": 257.66,
+      "end": 257.86,
+      "duration": 0.2,
+      "startTimestamp": "00:04:17.660",
+      "endTimestamp": "00:04:17.860",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0062",
+    "text": "Look at this is just for selecting it, nothing is happening, no problem.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 62,
+      "start": 258.199,
+      "end": 261.88,
+      "duration": 3.681,
+      "startTimestamp": "00:04:18.199",
+      "endTimestamp": "00:04:21.880",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0063",
+    "text": "Let's move ahead and you will see that we have a button which is showing us a notification",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 63,
+      "start": 262.72,
+      "end": 266.24,
+      "duration": 3.52,
+      "startTimestamp": "00:04:22.720",
+      "endTimestamp": "00:04:26.240",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0064",
+    "text": "async and success.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 64,
+      "start": 266.58,
+      "end": 267.88,
+      "duration": 1.3,
+      "startTimestamp": "00:04:26.580",
+      "endTimestamp": "00:04:27.880",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0065",
+    "text": "If I just simply press over it in same way we have error and warning.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 65,
+      "start": 268.28,
+      "end": 271.66,
+      "duration": 3.38,
+      "startTimestamp": "00:04:28.280",
+      "endTimestamp": "00:04:31.660",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0066",
+    "text": "Why this is not working as my application is up and yes, let me try to reload it once.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 66,
+      "start": 272.4,
+      "end": 280.08,
+      "duration": 7.68,
+      "startTimestamp": "00:04:32.400",
+      "endTimestamp": "00:04:40.080",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0067",
+    "text": "All right, I don't know, due to some reason they are not showing us the kind of notification",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 67,
+      "start": 281.96,
+      "end": 286.22,
+      "duration": 4.26,
+      "startTimestamp": "00:04:41.960",
+      "endTimestamp": "00:04:46.220",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0068",
+    "text": "we want, but it's completely fine because we have already seen that inside our press",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 68,
+      "start": 286.36,
+      "end": 291.65999999999997,
+      "duration": 5.3,
+      "startTimestamp": "00:04:46.360",
+      "endTimestamp": "00:04:51.660",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0069",
+    "text": "septic's example.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 69,
+      "start": 291.68,
+      "end": 292.78,
+      "duration": 1.1,
+      "startTimestamp": "00:04:51.680",
+      "endTimestamp": "00:04:52.780",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0070",
+    "text": "And if I just import my press haptics from here and yes jump the moment I press yes my",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 70,
+      "start": 293.1,
+      "end": 299.12,
+      "duration": 6.02,
+      "startTimestamp": "00:04:53.100",
+      "endTimestamp": "00:04:59.120",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0071",
+    "text": "application is vibrating if I press long pressed and yes that is how they are also working.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 71,
+      "start": 299.2,
+      "end": 303.78,
+      "duration": 4.58,
+      "startTimestamp": "00:04:59.200",
+      "endTimestamp": "00:05:03.780",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0072",
+    "text": "So the main thing and the main motive behind this expo haptics library is basically provide",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 72,
+      "start": 304.13,
+      "end": 312.5,
+      "duration": 8.37,
+      "startTimestamp": "00:05:04.130",
+      "endTimestamp": "00:05:12.500",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0073",
+    "text": "you the touch feedback.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 73,
+      "start": 312.88,
+      "end": 314.02,
+      "duration": 1.14,
+      "startTimestamp": "00:05:12.880",
+      "endTimestamp": "00:05:14.020",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0074",
+    "text": "Alright, like Android device using vibrator system iOS 10 and plus basically device use",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 74,
+      "start": 314.2,
+      "end": 321.82,
+      "duration": 7.62,
+      "startTimestamp": "00:05:14.200",
+      "endTimestamp": "00:05:21.820",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0075",
+    "text": "Taptic Engine they have their own implementation of it cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 75,
+      "start": 322.08,
+      "end": 326.22,
+      "duration": 4.14,
+      "startTimestamp": "00:05:22.080",
+      "endTimestamp": "00:05:26.220",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0076",
+    "text": "So they have given you a bunch of examples, you can definitely give it a try but trust",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 76,
+      "start": 327.28,
+      "end": 332.04,
+      "duration": 4.76,
+      "startTimestamp": "00:05:27.280",
+      "endTimestamp": "00:05:32.040",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0077",
+    "text": "me you never going to use it as much as you think.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 77,
+      "start": 332.14,
+      "end": 334.42,
+      "duration": 2.28,
+      "startTimestamp": "00:05:32.140",
+      "endTimestamp": "00:05:34.420",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0078",
+    "text": "So, these are all the miscellaneous modules that we are doing, but I hope you are enjoying",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 78,
+      "start": 334.7,
+      "end": 340.65999999999997,
+      "duration": 5.96,
+      "startTimestamp": "00:05:34.700",
+      "endTimestamp": "00:05:40.660",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0079",
+    "text": "it and if yes, so this is the end of our chapter number three and with this we can end this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 79,
+      "start": 340.78,
+      "end": 347.54,
+      "duration": 6.76,
+      "startTimestamp": "00:05:40.780",
+      "endTimestamp": "00:05:47.540",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0080",
+    "text": "device and system APIs.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 80,
+      "start": 347.62,
+      "end": 349.06,
+      "duration": 1.44,
+      "startTimestamp": "00:05:47.620",
+      "endTimestamp": "00:05:49.060",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0081",
+    "text": "Initially, we have seen how you can work with network same how you can work with links and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 81,
+      "start": 349.52,
+      "end": 354.64,
+      "duration": 5.12,
+      "startTimestamp": "00:05:49.520",
+      "endTimestamp": "00:05:54.640",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0082",
+    "text": "then how you can work with haptics.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 82,
+      "start": 354.86,
+      "end": 356.65999999999997,
+      "duration": 1.8,
+      "startTimestamp": "00:05:54.860",
+      "endTimestamp": "00:05:56.660",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_0083",
+    "text": "So, this is the end of the chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "fileName": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "captionIndex": 83,
+      "start": 357.15,
+      "end": 360.56,
+      "duration": 3.41,
+      "startTimestamp": "00:05:57.150",
+      "endTimestamp": "00:06:00.560",
+      "estimatedTokens": 17
+    }
+  }
+]

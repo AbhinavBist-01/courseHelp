@@ -1,0 +1,1617 @@
+[
+  {
+    "id": "01_what-is-mobile-development_epm_0001",
+    "text": "Hello everyone and welcome to chapter number 1.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 1,
+      "start": 0,
+      "end": 3.54,
+      "duration": 3.54,
+      "startTimestamp": "00:00:00.000",
+      "endTimestamp": "00:00:03.540",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0002",
+    "text": "In this chapter we are going to talk about what is mobile development.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 2,
+      "start": 4.26,
+      "end": 7.74,
+      "duration": 3.48,
+      "startTimestamp": "00:00:04.260",
+      "endTimestamp": "00:00:07.740",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0003",
+    "text": "Before we start coding, let's first understand what is the actual meaning of mobile development",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 3,
+      "start": 8.66,
+      "end": 14.4,
+      "duration": 5.74,
+      "startTimestamp": "00:00:08.660",
+      "endTimestamp": "00:00:14.400",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0004",
+    "text": "and why it is very important.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 4,
+      "start": 14.44,
+      "end": 17.06,
+      "duration": 2.62,
+      "startTimestamp": "00:00:14.440",
+      "endTimestamp": "00:00:17.060",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0005",
+    "text": "So if I try to just simply write some while development.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 5,
+      "start": 17.76,
+      "end": 21.5,
+      "duration": 3.74,
+      "startTimestamp": "00:00:17.760",
+      "endTimestamp": "00:00:21.500",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0006",
+    "text": "means building apps or mobile devices. Got it? Whenever you wanted to build apps for",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 6,
+      "start": 21.9,
+      "end": 31.34,
+      "duration": 9.44,
+      "startTimestamp": "00:00:21.900",
+      "endTimestamp": "00:00:31.340",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0007",
+    "text": "your mobile devices, like what are the name of mobile devices? It can be your smartphones.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 7,
+      "start": 31.36,
+      "end": 36.78,
+      "duration": 5.42,
+      "startTimestamp": "00:00:31.360",
+      "endTimestamp": "00:00:36.780",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0008",
+    "text": "It can be your tablets. You can even build apps for your IoT devices. But let's keep",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 8,
+      "start": 37.739,
+      "end": 45.239,
+      "duration": 7.5,
+      "startTimestamp": "00:00:37.739",
+      "endTimestamp": "00:00:45.239",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0009",
+    "text": "that aside and only focus on these two. Perfect. Mobile development means,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 9,
+      "start": 45.24,
+      "end": 50.5,
+      "duration": 5.26,
+      "startTimestamp": "00:00:45.240",
+      "endTimestamp": "00:00:50.500",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0010",
+    "text": "building apps for mobile devices like your smartphones, your tablet, and these app.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 10,
+      "start": 50.6,
+      "end": 58.66,
+      "duration": 8.06,
+      "startTimestamp": "00:00:50.600",
+      "endTimestamp": "00:00:58.660",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0011",
+    "text": "Yes, these apps run on Android and iOS.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 11,
+      "start": 59.12,
+      "end": 64.759,
+      "duration": 5.639,
+      "startTimestamp": "00:00:59.120",
+      "endTimestamp": "00:01:04.759",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0012",
+    "text": "What are they?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 12,
+      "start": 65.08,
+      "end": 65.78,
+      "duration": 0.7,
+      "startTimestamp": "00:01:05.080",
+      "endTimestamp": "00:01:05.780",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0013",
+    "text": "They are just operating systems.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 13,
+      "start": 65.781,
+      "end": 67.74,
+      "duration": 1.959,
+      "startTimestamp": "00:01:05.781",
+      "endTimestamp": "00:01:07.740",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0014",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 14,
+      "start": 68.34,
+      "end": 68.5,
+      "duration": 0.16,
+      "startTimestamp": "00:01:08.340",
+      "endTimestamp": "00:01:08.500",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0015",
+    "text": "We are going to talk about it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 15,
+      "start": 68.501,
+      "end": 70.06,
+      "duration": 1.559,
+      "startTimestamp": "00:01:08.501",
+      "endTimestamp": "00:01:10.060",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0016",
+    "text": "Don't worry.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 16,
+      "start": 70.119,
+      "end": 70.58,
+      "duration": 0.461,
+      "startTimestamp": "00:01:10.119",
+      "endTimestamp": "00:01:10.580",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0017",
+    "text": "And like if I just try to give you a bunch of examples of mobile apps that we have.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 17,
+      "start": 71.44,
+      "end": 76.72,
+      "duration": 5.28,
+      "startTimestamp": "00:01:11.440",
+      "endTimestamp": "00:01:16.720",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0018",
+    "text": "So, apps like we have a WhatsApp, we have Insta, we have YouTube, we also have Google",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 18,
+      "start": 76.9,
+      "end": 88.52,
+      "duration": 11.62,
+      "startTimestamp": "00:01:16.900",
+      "endTimestamp": "00:01:28.520",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0019",
+    "text": "Maps, all of them are created.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 19,
+      "start": 88.56,
+      "end": 91.18,
+      "duration": 2.62,
+      "startTimestamp": "00:01:28.560",
+      "endTimestamp": "00:01:31.180",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0020",
+    "text": "Yes, all of them are created.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 20,
+      "start": 91.66,
+      "end": 95.32,
+      "duration": 3.66,
+      "startTimestamp": "00:01:31.660",
+      "endTimestamp": "00:01:35.320",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0021",
+    "text": "created using mobile development.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 21,
+      "start": 97.46000000000001,
+      "end": 100.36,
+      "duration": 2.9,
+      "startTimestamp": "00:01:37.460",
+      "endTimestamp": "00:01:40.360",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0022",
+    "text": "Yes, so yeah, same like you can even create your WhatsApp, Insta, YouTube, Google Maps,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 22,
+      "start": 101.6,
+      "end": 106.62,
+      "duration": 5.02,
+      "startTimestamp": "00:01:41.600",
+      "endTimestamp": "00:01:46.620",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0023",
+    "text": "all of them with the help of mobile development.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 23,
+      "start": 107.16,
+      "end": 110.36,
+      "duration": 3.2,
+      "startTimestamp": "00:01:47.160",
+      "endTimestamp": "00:01:50.360",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0024",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 24,
+      "start": 110.979,
+      "end": 111.14,
+      "duration": 0.161,
+      "startTimestamp": "00:01:50.979",
+      "endTimestamp": "00:01:51.140",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0025",
+    "text": "Now we understand what is mobile development, but why even mobile development matters?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 25,
+      "start": 111.22,
+      "end": 116.6,
+      "duration": 5.38,
+      "startTimestamp": "00:01:51.220",
+      "endTimestamp": "00:01:56.600",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0026",
+    "text": "So, today most time spent yes like today your 24 hour and out of your 24 hour you spend",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 26,
+      "start": 116.7,
+      "end": 126.42,
+      "duration": 9.72,
+      "startTimestamp": "00:01:56.700",
+      "endTimestamp": "00:02:06.420",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0027",
+    "text": "more than 16 to 15 hours on your mobile phone perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 27,
+      "start": 126.6,
+      "end": 131.68,
+      "duration": 5.08,
+      "startTimestamp": "00:02:06.600",
+      "endTimestamp": "00:02:11.680",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0028",
+    "text": "So, most people spend more time on their phones than on laptops.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 28,
+      "start": 131.681,
+      "end": 143.78,
+      "duration": 12.099,
+      "startTimestamp": "00:02:11.681",
+      "endTimestamp": "00:02:23.780",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0029",
+    "text": "Like we use mobile phones for if I just simply try to write here the purpose we are using",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 29,
+      "start": 144.2,
+      "end": 150.8,
+      "duration": 6.6,
+      "startTimestamp": "00:02:24.200",
+      "endTimestamp": "00:02:30.800",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0030",
+    "text": "it for, for chattings, perfect, for shopping we can even use for payments, yes, we use",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 30,
+      "start": 150.84,
+      "end": 159.459,
+      "duration": 8.619,
+      "startTimestamp": "00:02:30.840",
+      "endTimestamp": "00:02:39.459",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0031",
+    "text": "for learning like watching YouTube, watching Udemy courses and lot of other things as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 31,
+      "start": 159.46,
+      "end": 164.84,
+      "duration": 5.38,
+      "startTimestamp": "00:02:39.460",
+      "endTimestamp": "00:02:44.840",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0032",
+    "text": "You can even use your phone for watching.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 32,
+      "start": 165.16,
+      "end": 167.57999999999998,
+      "duration": 2.42,
+      "startTimestamp": "00:02:45.160",
+      "endTimestamp": "00:02:47.580",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0033",
+    "text": "your web series and just for anime and entertainment purpose got it so spend",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 33,
+      "start": 168.3,
+      "end": 174.9,
+      "duration": 6.6,
+      "startTimestamp": "00:02:48.300",
+      "endTimestamp": "00:02:54.900",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0034",
+    "text": "more time on their phone rather than on laptops so these are the purpose you are",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 34,
+      "start": 174.92000000000002,
+      "end": 179.66,
+      "duration": 4.74,
+      "startTimestamp": "00:02:54.920",
+      "endTimestamp": "00:02:59.660",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0035",
+    "text": "choosing for you can use for chatting shopping payment learning entertainment",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 35,
+      "start": 179.661,
+      "end": 184.26,
+      "duration": 4.599,
+      "startTimestamp": "00:02:59.661",
+      "endTimestamp": "00:03:04.260",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0036",
+    "text": "and like anything",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 36,
+      "start": 184.32,
+      "end": 185.8,
+      "duration": 1.48,
+      "startTimestamp": "00:03:04.320",
+      "endTimestamp": "00:03:05.800",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0037",
+    "text": "So, that's why companies need mobile app and they need mobile developer.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 37,
+      "start": 186,
+      "end": 191.7,
+      "duration": 5.7,
+      "startTimestamp": "00:03:06.000",
+      "endTimestamp": "00:03:11.700",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0038",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 38,
+      "start": 192.54,
+      "end": 192.86,
+      "duration": 0.32,
+      "startTimestamp": "00:03:12.540",
+      "endTimestamp": "00:03:12.860",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0039",
+    "text": "So, mobile development, if I just simply write here mobile development is untapped market",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 39,
+      "start": 193.2,
+      "end": 199.66,
+      "duration": 6.46,
+      "startTimestamp": "00:03:13.200",
+      "endTimestamp": "00:03:19.660",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0040",
+    "text": "like no one is focusing on the mobile development as compared to web development like we have",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 40,
+      "start": 199.92000000000002,
+      "end": 207.459,
+      "duration": 7.539,
+      "startTimestamp": "00:03:19.920",
+      "endTimestamp": "00:03:27.459",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0041",
+    "text": "a lot of web developers.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 41,
+      "start": 207.52,
+      "end": 209.12,
+      "duration": 1.6,
+      "startTimestamp": "00:03:27.520",
+      "endTimestamp": "00:03:29.120",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0042",
+    "text": "We don't have much mobile developers.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 42,
+      "start": 209.32,
+      "end": 212.22,
+      "duration": 2.9,
+      "startTimestamp": "00:03:29.320",
+      "endTimestamp": "00:03:32.220",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0043",
+    "text": "Perfect. So the first thing is in high demand.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 43,
+      "start": 212.5,
+      "end": 216.3,
+      "duration": 3.8,
+      "startTimestamp": "00:03:32.500",
+      "endTimestamp": "00:03:36.300",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0044",
+    "text": "Yep. Mobile development is in very high demand.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 44,
+      "start": 217,
+      "end": 220.1,
+      "duration": 3.1,
+      "startTimestamp": "00:03:37.000",
+      "endTimestamp": "00:03:40.100",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0045",
+    "text": "This is a valuable skill. Like if you know how to develop an app,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 45,
+      "start": 220.54,
+      "end": 225.02,
+      "duration": 4.48,
+      "startTimestamp": "00:03:40.540",
+      "endTimestamp": "00:03:45.020",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0046",
+    "text": "you can even ship your own apps and start earning out of it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 46,
+      "start": 225.28,
+      "end": 228.64,
+      "duration": 3.36,
+      "startTimestamp": "00:03:45.280",
+      "endTimestamp": "00:03:48.640",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0047",
+    "text": "A strong career option. Like if you wanted to start your career,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 47,
+      "start": 229.07999999999998,
+      "end": 232.56,
+      "duration": 3.48,
+      "startTimestamp": "00:03:49.080",
+      "endTimestamp": "00:03:52.560",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0048",
+    "text": "you can definitely go with mobile development.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 48,
+      "start": 233,
+      "end": 235.959,
+      "duration": 2.959,
+      "startTimestamp": "00:03:53.000",
+      "endTimestamp": "00:03:55.959",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0049",
+    "text": "Perfect, so this is what mobile development and why even need it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 49,
+      "start": 236.3,
+      "end": 242.16,
+      "duration": 5.86,
+      "startTimestamp": "00:03:56.300",
+      "endTimestamp": "00:04:02.160",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0050",
+    "text": "Now before moving ahead I just wanted to talk about types of mobile apps that we have.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 50,
+      "start": 242.56,
+      "end": 249.32,
+      "duration": 6.76,
+      "startTimestamp": "00:04:02.560",
+      "endTimestamp": "00:04:09.320",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0051",
+    "text": "Perfect, so there are always three main type of mobile apps like if I just simply try to",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 51,
+      "start": 249.64,
+      "end": 256.98,
+      "duration": 7.34,
+      "startTimestamp": "00:04:09.640",
+      "endTimestamp": "00:04:16.980",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0052",
+    "text": "write here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 52,
+      "start": 256.981,
+      "end": 257.5,
+      "duration": 0.519,
+      "startTimestamp": "00:04:16.981",
+      "endTimestamp": "00:04:17.500",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0053",
+    "text": "three types of mobile apps. Perfect. So the first type of mobile app is known as native",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 53,
+      "start": 259.1,
+      "end": 266.76,
+      "duration": 7.66,
+      "startTimestamp": "00:04:19.100",
+      "endTimestamp": "00:04:26.760",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0054",
+    "text": "apps. Perfect. What is native app? Native apps means built for only one platform. Now another",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 54,
+      "start": 266.761,
+      "end": 276.7,
+      "duration": 9.939,
+      "startTimestamp": "00:04:26.761",
+      "endTimestamp": "00:04:36.700",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0055",
+    "text": "type for our mobile apps that we have is cross platform.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 55,
+      "start": 276.701,
+      "end": 281.88,
+      "duration": 5.179,
+      "startTimestamp": "00:04:36.701",
+      "endTimestamp": "00:04:41.880",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0056",
+    "text": "Let me simply write here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 56,
+      "start": 282.3,
+      "end": 284.259,
+      "duration": 1.959,
+      "startTimestamp": "00:04:42.300",
+      "endTimestamp": "00:04:44.259",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0057",
+    "text": "This is your cross platform app and third one is known as hybrid app.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 57,
+      "start": 284.56,
+      "end": 290.639,
+      "duration": 6.079,
+      "startTimestamp": "00:04:44.560",
+      "endTimestamp": "00:04:50.639",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0058",
+    "text": "What is hybrid app?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 58,
+      "start": 291.099,
+      "end": 292.44,
+      "duration": 1.341,
+      "startTimestamp": "00:04:51.099",
+      "endTimestamp": "00:04:52.440",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0059",
+    "text": "Hybrid app means mostly web apps inside a web mobile app kind of.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 59,
+      "start": 292.759,
+      "end": 297.94,
+      "duration": 5.181,
+      "startTimestamp": "00:04:52.759",
+      "endTimestamp": "00:04:57.940",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0060",
+    "text": "So we can simply say this as hybrid app.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 60,
+      "start": 298.22,
+      "end": 301.479,
+      "duration": 3.259,
+      "startTimestamp": "00:04:58.220",
+      "endTimestamp": "00:05:01.479",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0061",
+    "text": "Perfect native apps that only run on one platform cross platform app means they like you have",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 61,
+      "start": 301.6,
+      "end": 310.38,
+      "duration": 8.78,
+      "startTimestamp": "00:05:01.600",
+      "endTimestamp": "00:05:10.380",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0062",
+    "text": "one code base that work on both Android and iOS in the same way we have hybrid app like",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 62,
+      "start": 310.381,
+      "end": 317.78,
+      "duration": 7.399,
+      "startTimestamp": "00:05:10.381",
+      "endTimestamp": "00:05:17.780",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0063",
+    "text": "this is easy to build but like they usually slower and they can even run in web they can",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 63,
+      "start": 318.28,
+      "end": 323.8,
+      "duration": 5.52,
+      "startTimestamp": "00:05:18.280",
+      "endTimestamp": "00:05:23.800",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0064",
+    "text": "even run mobile.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 64,
+      "start": 323.801,
+      "end": 324.64,
+      "duration": 0.839,
+      "startTimestamp": "00:05:23.801",
+      "endTimestamp": "00:05:24.640",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0065",
+    "text": "We can say that kind of a.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 65,
+      "start": 324.68,
+      "end": 326.84,
+      "duration": 2.16,
+      "startTimestamp": "00:05:24.680",
+      "endTimestamp": "00:05:26.840",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0066",
+    "text": "progressive web apps but let's not focus there perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 66,
+      "start": 328.479,
+      "end": 332.1,
+      "duration": 3.621,
+      "startTimestamp": "00:05:28.479",
+      "endTimestamp": "00:05:32.100",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0067",
+    "text": "So this is what mobile development is why do you need it and types of mobile apps we",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 67,
+      "start": 332.86,
+      "end": 339.15999999999997,
+      "duration": 6.3,
+      "startTimestamp": "00:05:32.860",
+      "endTimestamp": "00:05:39.160",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0068",
+    "text": "have.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 68,
+      "start": 339.22,
+      "end": 339.5,
+      "duration": 0.28,
+      "startTimestamp": "00:05:39.220",
+      "endTimestamp": "00:05:39.500",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0069",
+    "text": "So what will you learn in this course?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 69,
+      "start": 340.22,
+      "end": 342.4,
+      "duration": 2.18,
+      "startTimestamp": "00:05:40.220",
+      "endTimestamp": "00:05:42.400",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0070",
+    "text": "You are going to learn the real world mobile apps like how you can create your own real",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 70,
+      "start": 342.88,
+      "end": 348.24,
+      "duration": 5.36,
+      "startTimestamp": "00:05:42.880",
+      "endTimestamp": "00:05:48.240",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0071",
+    "text": "world mobile apps.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 71,
+      "start": 348.241,
+      "end": 349.06,
+      "duration": 0.819,
+      "startTimestamp": "00:05:48.241",
+      "endTimestamp": "00:05:49.060",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0072",
+    "text": "how you can talk to the APIs that we have, how you can basically implement authentication,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 72,
+      "start": 349.1,
+      "end": 355.62,
+      "duration": 6.52,
+      "startTimestamp": "00:05:49.100",
+      "endTimestamp": "00:05:55.620",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0073",
+    "text": "how you can implement the mapping feature using camera using notifications like you",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 73,
+      "start": 355.74,
+      "end": 362,
+      "duration": 6.26,
+      "startTimestamp": "00:05:55.740",
+      "endTimestamp": "00:06:02.000",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0074",
+    "text": "just name the topic and we are going to cover all of that inside this course.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 74,
+      "start": 362.001,
+      "end": 366.66,
+      "duration": 4.659,
+      "startTimestamp": "00:06:02.001",
+      "endTimestamp": "00:06:06.660",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0075",
+    "text": "Now one of the biggest questions that arise who is this course is for?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 75,
+      "start": 367.7,
+      "end": 373.78,
+      "duration": 6.08,
+      "startTimestamp": "00:06:07.700",
+      "endTimestamp": "00:06:13.780",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0076",
+    "text": "So, this course is for the complete beginners.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 76,
+      "start": 374.2,
+      "end": 378.3,
+      "duration": 4.1,
+      "startTimestamp": "00:06:14.200",
+      "endTimestamp": "00:06:18.300",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0077",
+    "text": "Like if you have the basic knowledge of JavaScript and React, like this is course, this course",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 77,
+      "start": 378.48,
+      "end": 384.8,
+      "duration": 6.32,
+      "startTimestamp": "00:06:18.480",
+      "endTimestamp": "00:06:24.800",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0078",
+    "text": "is for you.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 78,
+      "start": 384.801,
+      "end": 385.72,
+      "duration": 0.919,
+      "startTimestamp": "00:06:24.801",
+      "endTimestamp": "00:06:25.720",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0079",
+    "text": "Then we have, if you are a web developer, you can definitely start with it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 79,
+      "start": 386.16,
+      "end": 390.1,
+      "duration": 3.94,
+      "startTimestamp": "00:06:26.160",
+      "endTimestamp": "00:06:30.100",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0080",
+    "text": "If you are a student or working professional, you can definitely go with it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 80,
+      "start": 390.14,
+      "end": 394.78,
+      "duration": 4.64,
+      "startTimestamp": "00:06:30.140",
+      "endTimestamp": "00:06:34.780",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0081",
+    "text": "So anyone who wants to build real mobile app, this course is for you.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 81,
+      "start": 394.88,
+      "end": 399.4,
+      "duration": 4.52,
+      "startTimestamp": "00:06:34.880",
+      "endTimestamp": "00:06:39.400",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0082",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 82,
+      "start": 399.6,
+      "end": 400.52,
+      "duration": 0.92,
+      "startTimestamp": "00:06:39.600",
+      "endTimestamp": "00:06:40.520",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0083",
+    "text": "So, yeah, this is pretty much it for the introduction of what is mobile development from next chapter.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 83,
+      "start": 401.12,
+      "end": 406.94,
+      "duration": 5.82,
+      "startTimestamp": "00:06:41.120",
+      "endTimestamp": "00:06:46.940",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0084",
+    "text": "We are going to talk about a bunch of other topics as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 84,
+      "start": 406.96,
+      "end": 410.28,
+      "duration": 3.32,
+      "startTimestamp": "00:06:46.960",
+      "endTimestamp": "00:06:50.280",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "01_what-is-mobile-development_epm_0085",
+    "text": "So, yeah, this is pretty much it and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "01_what-is-mobile-development_epm",
+      "lessonFile": "01_what-is-mobile-development_epm",
+      "source": "class-subtitle/module 1/01_what-is-mobile-development_epm/01_what-is-mobile-development_epm.vtt",
+      "fileName": "01_what-is-mobile-development_epm.vtt",
+      "captionIndex": 85,
+      "start": 410.4,
+      "end": 413.7,
+      "duration": 3.3,
+      "startTimestamp": "00:06:50.400",
+      "endTimestamp": "00:06:53.700",
+      "estimatedTokens": 16
+    }
+  }
+]

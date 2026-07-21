@@ -1,0 +1,2719 @@
+[
+  {
+    "id": "7-route-groups_epm_0001",
+    "text": "Hey everyone, in this lecture we will explore route groups in explore order that let you",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 1,
+      "start": 0.44,
+      "end": 7.32,
+      "duration": 6.88,
+      "startTimestamp": "00:00:00.440",
+      "endTimestamp": "00:00:07.320",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0002",
+    "text": "organize your file based routes without affecting the actual URL structure.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 2,
+      "start": 7.4,
+      "end": 13.12,
+      "duration": 5.72,
+      "startTimestamp": "00:00:07.400",
+      "endTimestamp": "00:00:13.120",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0003",
+    "text": "So this is a powerful tool we can say for keeping your",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 3,
+      "start": 13.6,
+      "end": 16.3,
+      "duration": 2.7,
+      "startTimestamp": "00:00:13.600",
+      "endTimestamp": "00:00:16.300",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0004",
+    "text": "project is structured and scalable.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 4,
+      "start": 17.82,
+      "end": 20.5,
+      "duration": 2.68,
+      "startTimestamp": "00:00:17.820",
+      "endTimestamp": "00:00:20.500",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0005",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 5,
+      "start": 21.49,
+      "end": 21.66,
+      "duration": 0.17,
+      "startTimestamp": "00:00:21.490",
+      "endTimestamp": "00:00:21.660",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0006",
+    "text": "So, what is this actually?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 6,
+      "start": 21.75,
+      "end": 22.8,
+      "duration": 1.05,
+      "startTimestamp": "00:00:21.750",
+      "endTimestamp": "00:00:22.800",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0007",
+    "text": "So, you can see the syntax of creating a route group is this parenthesis.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 7,
+      "start": 23.32,
+      "end": 27.9,
+      "duration": 4.58,
+      "startTimestamp": "00:00:23.320",
+      "endTimestamp": "00:00:27.900",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0008",
+    "text": "A directory with its name surrounded in parenthesis indicates",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 8,
+      "start": 28.77,
+      "end": 33.64,
+      "duration": 4.87,
+      "startTimestamp": "00:00:28.770",
+      "endTimestamp": "00:00:33.640",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0009",
+    "text": "a route group. These directories are useful for grouping routes together without affecting",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 9,
+      "start": 34.92,
+      "end": 41.38,
+      "duration": 6.46,
+      "startTimestamp": "00:00:34.920",
+      "endTimestamp": "00:00:41.380",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0010",
+    "text": "the URL. For example, a file name app and then parenthesis closed tabs slash settings will",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 10,
+      "start": 41.56,
+      "end": 49.78,
+      "duration": 8.22,
+      "startTimestamp": "00:00:41.560",
+      "endTimestamp": "00:00:49.780",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0011",
+    "text": "have only slash settings. So, this is the beauty of this parenthesis for its URL. Even",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 11,
+      "start": 49.92,
+      "end": 56.26,
+      "duration": 6.34,
+      "startTimestamp": "00:00:49.920",
+      "endTimestamp": "00:00:56.260",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0012",
+    "text": "though it is not directly in the app directory. Let's see that basically how you can create",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 12,
+      "start": 56.34,
+      "end": 61.22,
+      "duration": 4.88,
+      "startTimestamp": "00:00:56.340",
+      "endTimestamp": "00:01:01.220",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0013",
+    "text": "then you have much understanding of it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 13,
+      "start": 61.5,
+      "end": 64.16,
+      "duration": 2.66,
+      "startTimestamp": "00:01:01.500",
+      "endTimestamp": "00:01:04.160",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0014",
+    "text": "But first of all, why do we even need this route group?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 14,
+      "start": 64.161,
+      "end": 67.22,
+      "duration": 3.059,
+      "startTimestamp": "00:01:04.161",
+      "endTimestamp": "00:01:07.220",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0015",
+    "text": "So basically we need a route group just to organize our screens and layout.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 15,
+      "start": 67.97,
+      "end": 72.84,
+      "duration": 4.87,
+      "startTimestamp": "00:01:07.970",
+      "endTimestamp": "00:01:12.840",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0016",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 16,
+      "start": 73.63,
+      "end": 73.8,
+      "duration": 0.17,
+      "startTimestamp": "00:01:13.630",
+      "endTimestamp": "00:01:13.800",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0017",
+    "text": "Just to organize our screens and layouts.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 17,
+      "start": 74.479,
+      "end": 80.12,
+      "duration": 5.641,
+      "startTimestamp": "00:01:14.479",
+      "endTimestamp": "00:01:20.120",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0018",
+    "text": "without changing the route URL.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 18,
+      "start": 80.8,
+      "end": 83.52,
+      "duration": 2.72,
+      "startTimestamp": "00:01:20.800",
+      "endTimestamp": "00:01:23.520",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0019",
+    "text": "So let's say in traditional file based routing system that we know every file is treated",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 19,
+      "start": 84.07,
+      "end": 90.44,
+      "duration": 6.37,
+      "startTimestamp": "00:01:24.070",
+      "endTimestamp": "00:01:30.440",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0020",
+    "text": "as a route segment.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 20,
+      "start": 90.53999999999999,
+      "end": 91.24,
+      "duration": 0.7,
+      "startTimestamp": "00:01:30.540",
+      "endTimestamp": "00:01:31.240",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0021",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 21,
+      "start": 92.03,
+      "end": 92.24000000000001,
+      "duration": 0.21,
+      "startTimestamp": "00:01:32.030",
+      "endTimestamp": "00:01:32.240",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0022",
+    "text": "But let's say with the help of route group, you can create folder for organizational purpose",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 22,
+      "start": 92.83,
+      "end": 98.44,
+      "duration": 5.61,
+      "startTimestamp": "00:01:32.830",
+      "endTimestamp": "00:01:38.440",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0023",
+    "text": "only.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 23,
+      "start": 98.74000000000001,
+      "end": 99.02000000000001,
+      "duration": 0.28,
+      "startTimestamp": "00:01:38.740",
+      "endTimestamp": "00:01:39.020",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0024",
+    "text": "They wouldn't affect your actual route path.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 24,
+      "start": 99.49000000000001,
+      "end": 101.6,
+      "duration": 2.11,
+      "startTimestamp": "00:01:39.490",
+      "endTimestamp": "00:01:41.600",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0025",
+    "text": "So, let's say for now we have this post and for visiting towards post ID we need to pass",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 25,
+      "start": 101.8,
+      "end": 109.4,
+      "duration": 7.6,
+      "startTimestamp": "00:01:41.800",
+      "endTimestamp": "00:01:49.400",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0026",
+    "text": "slash post slash post ID making sense let's say I am creating a login system.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 26,
+      "start": 109.53999999999999,
+      "end": 115.4,
+      "duration": 5.86,
+      "startTimestamp": "00:01:49.540",
+      "endTimestamp": "00:01:55.400",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0027",
+    "text": "So for that I am going to create login dot let's say let me create RNF SCS whatever is",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 27,
+      "start": 115.63,
+      "end": 121.96,
+      "duration": 6.33,
+      "startTimestamp": "00:01:55.630",
+      "endTimestamp": "00:02:01.960",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0028",
+    "text": "that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 28,
+      "start": 122.02,
+      "end": 122.18,
+      "duration": 0.16,
+      "startTimestamp": "00:02:02.020",
+      "endTimestamp": "00:02:02.180",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0029",
+    "text": "same way let me create one more file signup.tsx",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 29,
+      "start": 123.12,
+      "end": 129.74,
+      "duration": 6.62,
+      "startTimestamp": "00:02:03.120",
+      "endTimestamp": "00:02:09.740",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0030",
+    "text": "And then let me create one more file.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 30,
+      "start": 131.68,
+      "end": 133.36,
+      "duration": 1.68,
+      "startTimestamp": "00:02:11.680",
+      "endTimestamp": "00:02:13.360",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0031",
+    "text": "We can say that as forget password.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 31,
+      "start": 134.26,
+      "end": 136.1,
+      "duration": 1.84,
+      "startTimestamp": "00:02:14.260",
+      "endTimestamp": "00:02:16.100",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0032",
+    "text": "Alright, so now you can see that all my authentication related screens are scattered inside my app",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 32,
+      "start": 139.04,
+      "end": 147.26,
+      "duration": 8.22,
+      "startTimestamp": "00:02:19.040",
+      "endTimestamp": "00:02:27.260",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0033",
+    "text": "directory, which is not organized.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 33,
+      "start": 147.34,
+      "end": 149.7,
+      "duration": 2.36,
+      "startTimestamp": "00:02:27.340",
+      "endTimestamp": "00:02:29.700",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0034",
+    "text": "Let's say in future, 10 developers are going to work on different features.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 34,
+      "start": 150.12,
+      "end": 154.06,
+      "duration": 3.94,
+      "startTimestamp": "00:02:30.120",
+      "endTimestamp": "00:02:34.060",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0035",
+    "text": "group is working on authentication.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 35,
+      "start": 154.7,
+      "end": 156.28,
+      "duration": 1.58,
+      "startTimestamp": "00:02:34.700",
+      "endTimestamp": "00:02:36.280",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0036",
+    "text": "one group is working on post section, one group is working on profile, then things are",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 36,
+      "start": 156.7,
+      "end": 162.959,
+      "duration": 6.259,
+      "startTimestamp": "00:02:36.700",
+      "endTimestamp": "00:02:42.959",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0037",
+    "text": "not organized as they used to be.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 37,
+      "start": 163.04,
+      "end": 165.099,
+      "duration": 2.059,
+      "startTimestamp": "00:02:43.040",
+      "endTimestamp": "00:02:45.099",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0038",
+    "text": "So for that, what we are going to do, we are simply going to create one here, auth folder,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 38,
+      "start": 165.65,
+      "end": 170.739,
+      "duration": 5.089,
+      "startTimestamp": "00:02:45.650",
+      "endTimestamp": "00:02:50.739",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0039",
+    "text": "making sense and then all the login, let me remove them all the sign up.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 39,
+      "start": 171.239,
+      "end": 178.28,
+      "duration": 7.041,
+      "startTimestamp": "00:02:51.239",
+      "endTimestamp": "00:02:58.280",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0040",
+    "text": "All the forget password related, all the authentication related logic are inside this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 40,
+      "start": 179.2,
+      "end": 185.08,
+      "duration": 5.88,
+      "startTimestamp": "00:02:59.200",
+      "endTimestamp": "00:03:05.080",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0041",
+    "text": "auth.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 41,
+      "start": 185.18,
+      "end": 185.42,
+      "duration": 0.24,
+      "startTimestamp": "00:03:05.180",
+      "endTimestamp": "00:03:05.420",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0042",
+    "text": "Alright, now this is much more organized, making sense, forget, password, no problem.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 42,
+      "start": 186.14,
+      "end": 192.98,
+      "duration": 6.84,
+      "startTimestamp": "00:03:06.140",
+      "endTimestamp": "00:03:12.980",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0043",
+    "text": "But let's say,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 43,
+      "start": 194.14,
+      "end": 194.86,
+      "duration": 0.72,
+      "startTimestamp": "00:03:14.140",
+      "endTimestamp": "00:03:14.860",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0044",
+    "text": "This is good for authentication, but in future you are going to create something for marketing something for analytics",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 44,
+      "start": 195.2,
+      "end": 202.56,
+      "duration": 7.36,
+      "startTimestamp": "00:03:15.200",
+      "endTimestamp": "00:03:22.560",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0045",
+    "text": "So showing analytics slash",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 45,
+      "start": 203.5,
+      "end": 205.28,
+      "duration": 1.78,
+      "startTimestamp": "00:03:23.500",
+      "endTimestamp": "00:03:25.280",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0046",
+    "text": "Dashboard analytics slash overview is not a good. We can say URL's naming standard",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 46,
+      "start": 206.38,
+      "end": 212.44,
+      "duration": 6.06,
+      "startTimestamp": "00:03:26.380",
+      "endTimestamp": "00:03:32.440",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0047",
+    "text": "so for that let's say if I just simply go to my",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 47,
+      "start": 213.31900000000002,
+      "end": 216.06,
+      "duration": 2.741,
+      "startTimestamp": "00:03:33.319",
+      "endTimestamp": "00:03:36.060",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0048",
+    "text": "index.file and at the bottom of this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 48,
+      "start": 217.099,
+      "end": 219.56,
+      "duration": 2.461,
+      "startTimestamp": "00:03:37.099",
+      "endTimestamp": "00:03:39.560",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0049",
+    "text": "Perfect, if I just save it and now if I wanted to go to my login, so you can't go with this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 49,
+      "start": 220.3,
+      "end": 226.34,
+      "duration": 6.04,
+      "startTimestamp": "00:03:40.300",
+      "endTimestamp": "00:03:46.340",
+      "estimatedTokens": 29
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0050",
+    "text": "as you know you have to pass where is my auth, let's say like this easy and now if I press",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 50,
+      "start": 226.64,
+      "end": 233.04,
+      "duration": 6.4,
+      "startTimestamp": "00:03:46.640",
+      "endTimestamp": "00:03:53.040",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0051",
+    "text": "over this I can redirect myself towards login page, easy no problem but I don't want it",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 51,
+      "start": 233.18,
+      "end": 240.06,
+      "duration": 6.88,
+      "startTimestamp": "00:03:53.180",
+      "endTimestamp": "00:04:00.060",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0052",
+    "text": "to write this auth like I don't want.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 52,
+      "start": 240.16,
+      "end": 242.5,
+      "duration": 2.34,
+      "startTimestamp": "00:04:00.160",
+      "endTimestamp": "00:04:02.500",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0053",
+    "text": "So what you can do now?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 53,
+      "start": 242.64,
+      "end": 243.8,
+      "duration": 1.16,
+      "startTimestamp": "00:04:02.640",
+      "endTimestamp": "00:04:03.800",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0054",
+    "text": "You can just simply wrap them inside this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 54,
+      "start": 244.4,
+      "end": 250.28,
+      "duration": 5.88,
+      "startTimestamp": "00:04:04.400",
+      "endTimestamp": "00:04:10.280",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0055",
+    "text": "Now you will going to see something very interesting.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 55,
+      "start": 251,
+      "end": 253.98,
+      "duration": 2.98,
+      "startTimestamp": "00:04:11.000",
+      "endTimestamp": "00:04:13.980",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0056",
+    "text": "If I reload my page, now you will see this is your organizational route syntax.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 56,
+      "start": 254.34,
+      "end": 260.419,
+      "duration": 6.079,
+      "startTimestamp": "00:04:14.340",
+      "endTimestamp": "00:04:20.419",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0057",
+    "text": "This is your route groups.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 57,
+      "start": 260.8,
+      "end": 261.919,
+      "duration": 1.119,
+      "startTimestamp": "00:04:20.800",
+      "endTimestamp": "00:04:21.919",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0058",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 58,
+      "start": 262.3,
+      "end": 263.06,
+      "duration": 0.76,
+      "startTimestamp": "00:04:22.300",
+      "endTimestamp": "00:04:23.060",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0059",
+    "text": "So, now if I press on login, you will see I am going to get right now I am getting something",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 59,
+      "start": 263.759,
+      "end": 268.86,
+      "duration": 5.101,
+      "startTimestamp": "00:04:23.759",
+      "endTimestamp": "00:04:28.860",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0060",
+    "text": "known as alright.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 60,
+      "start": 268.94,
+      "end": 271,
+      "duration": 2.06,
+      "startTimestamp": "00:04:28.940",
+      "endTimestamp": "00:04:31.000",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0061",
+    "text": "So, this is basically we can say automatically solving it, but this is not a feasible approach",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 61,
+      "start": 271.139,
+      "end": 277.659,
+      "duration": 6.52,
+      "startTimestamp": "00:04:31.139",
+      "endTimestamp": "00:04:37.659",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0062",
+    "text": "like you can see that they are showing us this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 62,
+      "start": 277.8,
+      "end": 279.56,
+      "duration": 1.76,
+      "startTimestamp": "00:04:37.800",
+      "endTimestamp": "00:04:39.560",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0063",
+    "text": "Now, I am creating this just for organizational purpose and if I open this inside web, you",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 63,
+      "start": 279.9,
+      "end": 285.759,
+      "duration": 5.859,
+      "startTimestamp": "00:04:39.900",
+      "endTimestamp": "00:04:45.759",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0064",
+    "text": "will see this is not going to work like let me show you, yes, you can even open this inside",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 64,
+      "start": 285.84000000000003,
+      "end": 291.08,
+      "duration": 5.24,
+      "startTimestamp": "00:04:45.840",
+      "endTimestamp": "00:04:51.080",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0065",
+    "text": "the web.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 65,
+      "start": 291.84000000000003,
+      "end": 292.6,
+      "duration": 0.76,
+      "startTimestamp": "00:04:51.840",
+      "endTimestamp": "00:04:52.600",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0066",
+    "text": "So, let me show you that, give me a minute, easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 66,
+      "start": 292.84000000000003,
+      "end": 296.039,
+      "duration": 3.199,
+      "startTimestamp": "00:04:52.840",
+      "endTimestamp": "00:04:56.039",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0067",
+    "text": "So let me try to go localhost, where is that?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 67,
+      "start": 297.06,
+      "end": 300.44,
+      "duration": 3.38,
+      "startTimestamp": "00:04:57.060",
+      "endTimestamp": "00:05:00.440",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0068",
+    "text": "8081.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 68,
+      "start": 301.919,
+      "end": 302.36,
+      "duration": 0.441,
+      "startTimestamp": "00:05:01.919",
+      "endTimestamp": "00:05:02.360",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0069",
+    "text": "Perfect and look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 69,
+      "start": 302.8,
+      "end": 305.699,
+      "duration": 2.899,
+      "startTimestamp": "00:05:02.800",
+      "endTimestamp": "00:05:05.699",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0070",
+    "text": "Where is that?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 70,
+      "start": 306.139,
+      "end": 306.979,
+      "duration": 0.84,
+      "startTimestamp": "00:05:06.139",
+      "endTimestamp": "00:05:06.979",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0071",
+    "text": "This one.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 71,
+      "start": 307.28,
+      "end": 307.68,
+      "duration": 0.4,
+      "startTimestamp": "00:05:07.280",
+      "endTimestamp": "00:05:07.680",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0072",
+    "text": "Now you will see app slash auth slash login dot tsx no such file or directory open.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 72,
+      "start": 308,
+      "end": 314.819,
+      "duration": 6.819,
+      "startTimestamp": "00:05:08.000",
+      "endTimestamp": "00:05:14.819",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0073",
+    "text": "Now let me try to go to my login.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 73,
+      "start": 315.919,
+      "end": 317.879,
+      "duration": 1.96,
+      "startTimestamp": "00:05:15.919",
+      "endTimestamp": "00:05:17.879",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0074",
+    "text": "You will see no such file is available here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 74,
+      "start": 318.56,
+      "end": 320.979,
+      "duration": 2.419,
+      "startTimestamp": "00:05:18.560",
+      "endTimestamp": "00:05:20.979",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0075",
+    "text": "Now not linked in, I don't want it to open my linked in 8081 and I'm still getting this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 75,
+      "start": 321.5,
+      "end": 328.16,
+      "duration": 6.66,
+      "startTimestamp": "00:05:21.500",
+      "endTimestamp": "00:05:28.160",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0076",
+    "text": "error they are saying me auth/login.tsx don't exist like this one because now we have this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 76,
+      "start": 328.24,
+      "end": 338.04,
+      "duration": 9.8,
+      "startTimestamp": "00:05:28.240",
+      "endTimestamp": "00:05:38.040",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0077",
+    "text": "thing.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 77,
+      "start": 338.15999999999997,
+      "end": 338.36,
+      "duration": 0.2,
+      "startTimestamp": "00:05:38.160",
+      "endTimestamp": "00:05:38.360",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0078",
+    "text": "So for that you need to pass or you even need not to pass it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 78,
+      "start": 338.62,
+      "end": 343.12,
+      "duration": 4.5,
+      "startTimestamp": "00:05:38.620",
+      "endTimestamp": "00:05:43.120",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0079",
+    "text": "So, now if I go to my here let me just try to maybe I need to reload it and then reopen",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 79,
+      "start": 343.3,
+      "end": 350.5,
+      "duration": 7.2,
+      "startTimestamp": "00:05:43.300",
+      "endTimestamp": "00:05:50.500",
+      "estimatedTokens": 29
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0080",
+    "text": "it then maybe this will work let me try to reload cool we will see.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 80,
+      "start": 350.659,
+      "end": 357.36,
+      "duration": 6.701,
+      "startTimestamp": "00:05:50.659",
+      "endTimestamp": "00:05:57.360",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0081",
+    "text": "And yes, now you can see that I have just closed my server and restarted.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 81,
+      "start": 359,
+      "end": 364.4,
+      "duration": 5.4,
+      "startTimestamp": "00:05:59.000",
+      "endTimestamp": "00:06:04.400",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0082",
+    "text": "You will see this is showing to us and if I visit to login, you will see now by only",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 82,
+      "start": 364.55,
+      "end": 370.58,
+      "duration": 6.03,
+      "startTimestamp": "00:06:04.550",
+      "endTimestamp": "00:06:10.580",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0083",
+    "text": "visiting slash login, I am able to open this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 83,
+      "start": 370.7,
+      "end": 374.12,
+      "duration": 3.42,
+      "startTimestamp": "00:06:10.700",
+      "endTimestamp": "00:06:14.120",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0084",
+    "text": "Why?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 84,
+      "start": 375.18,
+      "end": 375.3,
+      "duration": 0.12,
+      "startTimestamp": "00:06:15.180",
+      "endTimestamp": "00:06:15.300",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0085",
+    "text": "Because I have arranged that inside my auth route group.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 85,
+      "start": 375.56,
+      "end": 379.64,
+      "duration": 4.08,
+      "startTimestamp": "00:06:15.560",
+      "endTimestamp": "00:06:19.640",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0086",
+    "text": "But instead of passing this, if I just simply pass this, you will see custom not found.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 86,
+      "start": 379.77,
+      "end": 385.16,
+      "duration": 5.39,
+      "startTimestamp": "00:06:19.770",
+      "endTimestamp": "00:06:25.160",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0087",
+    "text": "Perfect, but definitely we are not creating this for webs.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 87,
+      "start": 385.8,
+      "end": 389.139,
+      "duration": 3.339,
+      "startTimestamp": "00:06:25.800",
+      "endTimestamp": "00:06:29.139",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0088",
+    "text": "So you can close it and just keep that in mind for organizational purpose for a better",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 88,
+      "start": 389.53,
+      "end": 396.56,
+      "duration": 7.03,
+      "startTimestamp": "00:06:29.530",
+      "endTimestamp": "00:06:36.560",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0089",
+    "text": "folder structure, we are using it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 89,
+      "start": 396.68,
+      "end": 398.9,
+      "duration": 2.22,
+      "startTimestamp": "00:06:36.680",
+      "endTimestamp": "00:06:38.900",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0090",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 90,
+      "start": 399.72,
+      "end": 399.9,
+      "duration": 0.18,
+      "startTimestamp": "00:06:39.720",
+      "endTimestamp": "00:06:39.900",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0091",
+    "text": "So I hope so as your app grows.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 91,
+      "start": 400.78,
+      "end": 402.84000000000003,
+      "duration": 2.06,
+      "startTimestamp": "00:06:40.780",
+      "endTimestamp": "00:06:42.840",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0092",
+    "text": "Often we have many screens and without grouping them, you might end up with deep or messy",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 92,
+      "start": 403.72,
+      "end": 410.08,
+      "duration": 6.36,
+      "startTimestamp": "00:06:43.720",
+      "endTimestamp": "00:06:50.080",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0093",
+    "text": "folders.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 93,
+      "start": 410.18,
+      "end": 410.5,
+      "duration": 0.32,
+      "startTimestamp": "00:06:50.180",
+      "endTimestamp": "00:06:50.500",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0094",
+    "text": "So let's say this is only for authentication purpose.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 94,
+      "start": 410.96,
+      "end": 413.4,
+      "duration": 2.44,
+      "startTimestamp": "00:06:50.960",
+      "endTimestamp": "00:06:53.400",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0095",
+    "text": "In same way, you can have one for marketing purpose.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 95,
+      "start": 414.04,
+      "end": 417.15999999999997,
+      "duration": 3.12,
+      "startTimestamp": "00:06:54.040",
+      "endTimestamp": "00:06:57.160",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0096",
+    "text": "Then all the marketing related thing are into it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 96,
+      "start": 417.84000000000003,
+      "end": 420.72,
+      "duration": 2.88,
+      "startTimestamp": "00:06:57.840",
+      "endTimestamp": "00:07:00.720",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0097",
+    "text": "Let's say like we have all lot of root thing like we have index, we have feed, we have",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 97,
+      "start": 420.78,
+      "end": 425.76,
+      "duration": 4.98,
+      "startTimestamp": "00:07:00.780",
+      "endTimestamp": "00:07:05.760",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0098",
+    "text": "explore.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 98,
+      "start": 425.8,
+      "end": 426.26,
+      "duration": 0.46,
+      "startTimestamp": "00:07:05.800",
+      "endTimestamp": "00:07:06.260",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0099",
+    "text": "organized all of them inside this route.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 99,
+      "start": 427.06,
+      "end": 429.24,
+      "duration": 2.18,
+      "startTimestamp": "00:07:07.060",
+      "endTimestamp": "00:07:09.240",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0100",
+    "text": "Like you can cut all of them and simply inside auth you can paste it and you can use them",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 100,
+      "start": 430.24,
+      "end": 437.9,
+      "duration": 7.66,
+      "startTimestamp": "00:07:10.240",
+      "endTimestamp": "00:07:17.900",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0101",
+    "text": "as you want.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 101,
+      "start": 437.979,
+      "end": 438.5,
+      "duration": 0.521,
+      "startTimestamp": "00:07:17.979",
+      "endTimestamp": "00:07:18.500",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0102",
+    "text": "Cool?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 102,
+      "start": 439.28,
+      "end": 439.379,
+      "duration": 0.099,
+      "startTimestamp": "00:07:19.280",
+      "endTimestamp": "00:07:19.379",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0103",
+    "text": "So, yeah, this is how you can basically not here just give me a minute you can cut all",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 103,
+      "start": 440.02,
+      "end": 444.68,
+      "duration": 4.66,
+      "startTimestamp": "00:07:20.020",
+      "endTimestamp": "00:07:24.680",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0104",
+    "text": "of them.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 104,
+      "start": 444.759,
+      "end": 445,
+      "duration": 0.241,
+      "startTimestamp": "00:07:24.759",
+      "endTimestamp": "00:07:25.000",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0105",
+    "text": "and paste them inside this route.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 105,
+      "start": 445.3,
+      "end": 447.259,
+      "duration": 1.959,
+      "startTimestamp": "00:07:25.300",
+      "endTimestamp": "00:07:27.259",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0106",
+    "text": "So this is also a right purpose.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 106,
+      "start": 447.44,
+      "end": 449.319,
+      "duration": 1.879,
+      "startTimestamp": "00:07:27.440",
+      "endTimestamp": "00:07:29.319",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0107",
+    "text": "Now you will see all our files are now organized.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 107,
+      "start": 449.46,
+      "end": 452.759,
+      "duration": 3.299,
+      "startTimestamp": "00:07:29.460",
+      "endTimestamp": "00:07:32.759",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0108",
+    "text": "Now all the authentication related routes and screens inside this auth route group,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 108,
+      "start": 453.34000000000003,
+      "end": 458.699,
+      "duration": 5.359,
+      "startTimestamp": "00:07:33.340",
+      "endTimestamp": "00:07:38.699",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0109",
+    "text": "all the marketing related will come here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 109,
+      "start": 458.74,
+      "end": 460.68,
+      "duration": 1.94,
+      "startTimestamp": "00:07:38.740",
+      "endTimestamp": "00:07:40.680",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0110",
+    "text": "All the root file are inside this root route group and same you can do for admin, but let's",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 110,
+      "start": 461,
+      "end": 467.02,
+      "duration": 6.02,
+      "startTimestamp": "00:07:41.000",
+      "endTimestamp": "00:07:47.020",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0111",
+    "text": "say let's keep it same for post same for profile you can add all of them into miscellaneous",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 111,
+      "start": 467.1,
+      "end": 472.8,
+      "duration": 5.7,
+      "startTimestamp": "00:07:47.100",
+      "endTimestamp": "00:07:52.800",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0112",
+    "text": "but it's up to you that how you wanted to do it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 112,
+      "start": 473.04,
+      "end": 475.32,
+      "duration": 2.28,
+      "startTimestamp": "00:07:53.040",
+      "endTimestamp": "00:07:55.320",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0113",
+    "text": "So the main job of this syntax of this route group is to organize your many screens that's",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 113,
+      "start": 475.96,
+      "end": 483.5,
+      "duration": 7.54,
+      "startTimestamp": "00:07:55.960",
+      "endTimestamp": "00:08:03.500",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0114",
+    "text": "all you need to do for it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 114,
+      "start": 483.58,
+      "end": 484.92,
+      "duration": 1.34,
+      "startTimestamp": "00:08:03.580",
+      "endTimestamp": "00:08:04.920",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0115",
+    "text": "Cool?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 115,
+      "start": 485.46,
+      "end": 485.58,
+      "duration": 0.12,
+      "startTimestamp": "00:08:05.460",
+      "endTimestamp": "00:08:05.580",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0116",
+    "text": "So, this is Matters in Real App because you are you, we can say that your URL structure",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 116,
+      "start": 486.4,
+      "end": 492.78,
+      "duration": 6.38,
+      "startTimestamp": "00:08:06.400",
+      "endTimestamp": "00:08:12.780",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0117",
+    "text": "stay clean and this is much more user friendly.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 117,
+      "start": 493.02,
+      "end": 496.479,
+      "duration": 3.459,
+      "startTimestamp": "00:08:13.020",
+      "endTimestamp": "00:08:16.479",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0118",
+    "text": "Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 118,
+      "start": 497.68,
+      "end": 497.84,
+      "duration": 0.16,
+      "startTimestamp": "00:08:17.680",
+      "endTimestamp": "00:08:17.840",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0119",
+    "text": "So, I hope so.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 119,
+      "start": 498.44,
+      "end": 499.18,
+      "duration": 0.74,
+      "startTimestamp": "00:08:18.440",
+      "endTimestamp": "00:08:19.180",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0120",
+    "text": "This is making sense and in same way you can create nested groups and layouts as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 120,
+      "start": 499.639,
+      "end": 504.52,
+      "duration": 4.881,
+      "startTimestamp": "00:08:19.639",
+      "endTimestamp": "00:08:24.520",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0121",
+    "text": "file. Like this is the first use case of organizing your file. Second use case is let's say you",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 121,
+      "start": 504.521,
+      "end": 510.6,
+      "duration": 6.079,
+      "startTimestamp": "00:08:24.521",
+      "endTimestamp": "00:08:30.600",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0122",
+    "text": "wanted to share the common layout between all of them. So then how you can basically",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 122,
+      "start": 510.64,
+      "end": 515.62,
+      "duration": 4.98,
+      "startTimestamp": "00:08:30.640",
+      "endTimestamp": "00:08:35.620",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0123",
+    "text": "do it? You can simply add layout easy and then let me go to my root and copy this layout.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 123,
+      "start": 515.86,
+      "end": 523.72,
+      "duration": 7.86,
+      "startTimestamp": "00:08:35.860",
+      "endTimestamp": "00:08:43.720",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0124",
+    "text": "Let me paste.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 124,
+      "start": 524.42,
+      "end": 525.08,
+      "duration": 0.66,
+      "startTimestamp": "00:08:44.420",
+      "endTimestamp": "00:08:45.080",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0125",
+    "text": "and instead of calling this root layout let me call this as auth layout",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 125,
+      "start": 525.5,
+      "end": 529.6,
+      "duration": 4.1,
+      "startTimestamp": "00:08:45.500",
+      "endTimestamp": "00:08:49.600",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0126",
+    "text": "perfect and I don't need any footer I can simply say",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 126,
+      "start": 530.52,
+      "end": 533.76,
+      "duration": 3.24,
+      "startTimestamp": "00:08:50.520",
+      "endTimestamp": "00:08:53.760",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0127",
+    "text": "my auth layout and if I save it",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 127,
+      "start": 535.56,
+      "end": 537.66,
+      "duration": 2.1,
+      "startTimestamp": "00:08:55.560",
+      "endTimestamp": "00:08:57.660",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0128",
+    "text": "and look at that I am able to see my auth layout here",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 128,
+      "start": 538.28,
+      "end": 542,
+      "duration": 3.72,
+      "startTimestamp": "00:08:58.280",
+      "endTimestamp": "00:09:02.000",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0129",
+    "text": "easy and you will see we are only sharing our auth layout here, we don't see this layout",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 129,
+      "start": 542.4,
+      "end": 549.96,
+      "duration": 7.56,
+      "startTimestamp": "00:09:02.400",
+      "endTimestamp": "00:09:09.960",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0130",
+    "text": "why?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 130,
+      "start": 550.08,
+      "end": 550.24,
+      "duration": 0.16,
+      "startTimestamp": "00:09:10.080",
+      "endTimestamp": "00:09:10.240",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0131",
+    "text": "Because this is now organized inside our root.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 131,
+      "start": 550.84,
+      "end": 553.6,
+      "duration": 2.76,
+      "startTimestamp": "00:09:10.840",
+      "endTimestamp": "00:09:13.600",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0132",
+    "text": "So for all the root folders, we are going to show this root layout, but for all the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 132,
+      "start": 553.79,
+      "end": 558.94,
+      "duration": 5.15,
+      "startTimestamp": "00:09:13.790",
+      "endTimestamp": "00:09:18.940",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0133",
+    "text": "auth, we are going to show this my auth layout.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 133,
+      "start": 559.06,
+      "end": 563.08,
+      "duration": 4.02,
+      "startTimestamp": "00:09:19.060",
+      "endTimestamp": "00:09:23.080",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0134",
+    "text": "So this is the power and this is the beauty of this, we can say.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 134,
+      "start": 563.17,
+      "end": 567.24,
+      "duration": 4.07,
+      "startTimestamp": "00:09:23.170",
+      "endTimestamp": "00:09:27.240",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0135",
+    "text": "So, yeah, this is pretty much it and we will see that more use case of it in upcoming chapters,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 135,
+      "start": 568.6,
+      "end": 574.5,
+      "duration": 5.9,
+      "startTimestamp": "00:09:28.600",
+      "endTimestamp": "00:09:34.500",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0136",
+    "text": "in upcoming lectures, when we are going to create some projects, you will learn more",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 136,
+      "start": 575.139,
+      "end": 579.079,
+      "duration": 3.94,
+      "startTimestamp": "00:09:35.139",
+      "endTimestamp": "00:09:39.079",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0137",
+    "text": "about it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 137,
+      "start": 579.16,
+      "end": 579.519,
+      "duration": 0.359,
+      "startTimestamp": "00:09:39.160",
+      "endTimestamp": "00:09:39.519",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0138",
+    "text": "So, don't worry, you will definitely going to love this series and if you are loving",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 138,
+      "start": 579.6,
+      "end": 583.36,
+      "duration": 3.76,
+      "startTimestamp": "00:09:39.600",
+      "endTimestamp": "00:09:43.360",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0139",
+    "text": "it, then make sure to drop your feedback and whatever is that, I am not asking for",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 139,
+      "start": 583.5,
+      "end": 588.92,
+      "duration": 5.42,
+      "startTimestamp": "00:09:43.500",
+      "endTimestamp": "00:09:48.920",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0140",
+    "text": "only 5 star, if you love it, then drop, if you don't love it, then also drop.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 140,
+      "start": 588.98,
+      "end": 592.44,
+      "duration": 3.46,
+      "startTimestamp": "00:09:48.980",
+      "endTimestamp": "00:09:52.440",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0141",
+    "text": "So that we have our proper track that we are doing good or bad and where we can improve",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 141,
+      "start": 592.6,
+      "end": 597.819,
+      "duration": 5.219,
+      "startTimestamp": "00:09:52.600",
+      "endTimestamp": "00:09:57.819",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0142",
+    "text": "it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 142,
+      "start": 597.94,
+      "end": 598.079,
+      "duration": 0.139,
+      "startTimestamp": "00:09:57.940",
+      "endTimestamp": "00:09:58.079",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "7-route-groups_epm_0143",
+    "text": "So yeah, this is pretty much it for this chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "fileName": "7-route-groups_epm.vtt",
+      "captionIndex": 143,
+      "start": 598.54,
+      "end": 602.06,
+      "duration": 3.52,
+      "startTimestamp": "00:09:58.540",
+      "endTimestamp": "00:10:02.060",
+      "estimatedTokens": 20
+    }
+  }
+]

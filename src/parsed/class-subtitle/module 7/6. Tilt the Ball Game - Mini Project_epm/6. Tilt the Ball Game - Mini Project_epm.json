@@ -1,0 +1,1598 @@
+[
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0001",
+    "text": "Alright everyone and welcome to a mini project video.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 1,
+      "start": 0.739,
+      "end": 4.019,
+      "duration": 3.28,
+      "startTimestamp": "00:00:00.739",
+      "endTimestamp": "00:00:04.019",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0002",
+    "text": "In this video with the help of our expo sensors we are going to create a tilt game mini project",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 2,
+      "start": 4.24,
+      "end": 10.52,
+      "duration": 6.28,
+      "startTimestamp": "00:00:04.240",
+      "endTimestamp": "00:00:10.520",
+      "estimatedTokens": 26
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0003",
+    "text": "like we are into the same project that you can see this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 3,
+      "start": 10.521,
+      "end": 13.36,
+      "duration": 2.839,
+      "startTimestamp": "00:00:10.521",
+      "endTimestamp": "00:00:13.360",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0004",
+    "text": "But with the help of accelerometer we are going to create a tilt game.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 4,
+      "start": 14.01,
+      "end": 18.78,
+      "duration": 4.77,
+      "startTimestamp": "00:00:14.010",
+      "endTimestamp": "00:00:18.780",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0005",
+    "text": "project. Perfect. So for that, let's move ahead and reset this towards the perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 5,
+      "start": 19.98,
+      "end": 27.72,
+      "duration": 7.74,
+      "startTimestamp": "00:00:19.980",
+      "endTimestamp": "00:00:27.720",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0006",
+    "text": "So now let's move ahead and first thing first, whatever the things that I need to build this,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 6,
+      "start": 27.84,
+      "end": 33.44,
+      "duration": 5.6,
+      "startTimestamp": "00:00:27.840",
+      "endTimestamp": "00:00:33.440",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0007",
+    "text": "Let me import that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 7,
+      "start": 34.58,
+      "end": 35.9,
+      "duration": 1.32,
+      "startTimestamp": "00:00:34.580",
+      "endTimestamp": "00:00:35.900",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0008",
+    "text": "So, I need accelerometer, status bar and then use effect, use state, dimensions, style sheet,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 8,
+      "start": 36.4,
+      "end": 44.54,
+      "duration": 8.14,
+      "startTimestamp": "00:00:36.400",
+      "endTimestamp": "00:00:44.540",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0009",
+    "text": "text and view.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 9,
+      "start": 44.74,
+      "end": 46.08,
+      "duration": 1.34,
+      "startTimestamp": "00:00:44.740",
+      "endTimestamp": "00:00:46.080",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0010",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 10,
+      "start": 47.5,
+      "end": 47.78,
+      "duration": 0.28,
+      "startTimestamp": "00:00:47.500",
+      "endTimestamp": "00:00:47.780",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0011",
+    "text": "And then initially first of all I wanted to get the width of my screen.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 11,
+      "start": 48.1,
+      "end": 52.26,
+      "duration": 4.16,
+      "startTimestamp": "00:00:48.100",
+      "endTimestamp": "00:00:52.260",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0012",
+    "text": "So for that I wanted to use dimensions.get and I need for window.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 12,
+      "start": 52.46,
+      "end": 60.02,
+      "duration": 7.56,
+      "startTimestamp": "00:00:52.460",
+      "endTimestamp": "00:01:00.020",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0013",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 13,
+      "start": 60.68,
+      "end": 61,
+      "duration": 0.32,
+      "startTimestamp": "00:01:00.680",
+      "endTimestamp": "00:01:01.000",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0014",
+    "text": "I can simply say box_size is equal to with -40.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 14,
+      "start": 62.6,
+      "end": 71.24,
+      "duration": 8.64,
+      "startTimestamp": "00:01:02.600",
+      "endTimestamp": "00:01:11.240",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0015",
+    "text": "And then let me create a ball_size is equal to 30.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 15,
+      "start": 73.619,
+      "end": 78.8,
+      "duration": 5.181,
+      "startTimestamp": "00:01:13.619",
+      "endTimestamp": "00:01:18.800",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0016",
+    "text": "And, inside this I wanted you to set a position. So, position and then this is going to be",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 16,
+      "start": 80.68,
+      "end": 90.64,
+      "duration": 9.96,
+      "startTimestamp": "00:01:20.680",
+      "endTimestamp": "00:01:30.640",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0017",
+    "text": "set position and then use state for it and for x-axis.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 17,
+      "start": 90.64099999999999,
+      "end": 96.28,
+      "duration": 5.639,
+      "startTimestamp": "00:01:30.641",
+      "endTimestamp": "00:01:36.280",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0018",
+    "text": "Whatever, whatever the box size minus the ball size and then divided by 2, so that we",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 18,
+      "start": 97.1,
+      "end": 106.32,
+      "duration": 9.22,
+      "startTimestamp": "00:01:37.100",
+      "endTimestamp": "00:01:46.320",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0019",
+    "text": "keep that in centre kind of cool, is not as constant.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 19,
+      "start": 106.33,
+      "end": 115.34,
+      "duration": 9.01,
+      "startTimestamp": "00:01:46.330",
+      "endTimestamp": "00:01:55.340",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0020",
+    "text": "But we have that and same thing we have for this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 20,
+      "start": 116,
+      "end": 121.7,
+      "duration": 5.7,
+      "startTimestamp": "00:01:56.000",
+      "endTimestamp": "00:02:01.700",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0021",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 21,
+      "start": 122.5,
+      "end": 122.9,
+      "duration": 0.4,
+      "startTimestamp": "00:02:02.500",
+      "endTimestamp": "00:02:02.900",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0022",
+    "text": "What is happening?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 22,
+      "start": 124.34,
+      "end": 125.78,
+      "duration": 1.44,
+      "startTimestamp": "00:02:04.340",
+      "endTimestamp": "00:02:05.780",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0023",
+    "text": "Alright, so we don't equal to this is going to become minus.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 23,
+      "start": 125.979,
+      "end": 129.06,
+      "duration": 3.081,
+      "startTimestamp": "00:02:05.979",
+      "endTimestamp": "00:02:09.060",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0024",
+    "text": "And from accelerometer we can have the x and y axis values.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 24,
+      "start": 130.44,
+      "end": 134.64,
+      "duration": 4.2,
+      "startTimestamp": "00:02:10.440",
+      "endTimestamp": "00:02:14.640",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0025",
+    "text": "So let's get a sensor values and set sensor values.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 25,
+      "start": 135,
+      "end": 139.76,
+      "duration": 4.76,
+      "startTimestamp": "00:02:15.000",
+      "endTimestamp": "00:02:19.760",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0026",
+    "text": "And this is equals to U state and then I can have x-axis as 0 and y-axis as 0.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 26,
+      "start": 140.2,
+      "end": 149.98,
+      "duration": 9.78,
+      "startTimestamp": "00:02:20.200",
+      "endTimestamp": "00:02:29.980",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0027",
+    "text": "All right.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 27,
+      "start": 150.11,
+      "end": 150.64,
+      "duration": 0.53,
+      "startTimestamp": "00:02:30.110",
+      "endTimestamp": "00:02:30.640",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0028",
+    "text": "And then what we can do basically right now.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 28,
+      "start": 151.18,
+      "end": 154.34,
+      "duration": 3.16,
+      "startTimestamp": "00:02:31.180",
+      "endTimestamp": "00:02:34.340",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0029",
+    "text": "Let's move ahead.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 29,
+      "start": 154.81900000000002,
+      "end": 155.54,
+      "duration": 0.721,
+      "startTimestamp": "00:02:34.819",
+      "endTimestamp": "00:02:35.540",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0030",
+    "text": "And first of all, let me initialize my design.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 30,
+      "start": 156.2,
+      "end": 159.86,
+      "duration": 3.66,
+      "startTimestamp": "00:02:36.200",
+      "endTimestamp": "00:02:39.860",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0031",
+    "text": "So we have entire style.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 31,
+      "start": 160,
+      "end": 161.78,
+      "duration": 1.78,
+      "startTimestamp": "00:02:40.000",
+      "endTimestamp": "00:02:41.780",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0032",
+    "text": "Let me simply paste it here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 32,
+      "start": 162.76,
+      "end": 164.459,
+      "duration": 1.699,
+      "startTimestamp": "00:02:42.760",
+      "endTimestamp": "00:02:44.459",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0033",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 33,
+      "start": 164.66,
+      "end": 164.92000000000002,
+      "duration": 0.26,
+      "startTimestamp": "00:02:44.660",
+      "endTimestamp": "00:02:44.920",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0034",
+    "text": "So all the styles, container, title, game box, ball, info container, info text and instructions.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 34,
+      "start": 165.07999999999998,
+      "end": 173.64,
+      "duration": 8.56,
+      "startTimestamp": "00:02:45.080",
+      "endTimestamp": "00:02:53.640",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0035",
+    "text": "And then let me paste my entire view for it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 35,
+      "start": 174.94,
+      "end": 177.81900000000002,
+      "duration": 2.879,
+      "startTimestamp": "00:02:54.940",
+      "endTimestamp": "00:02:57.819",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0036",
+    "text": "So let me copy the entire view and let me paste it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 36,
+      "start": 178.12,
+      "end": 183.06,
+      "duration": 4.94,
+      "startTimestamp": "00:02:58.120",
+      "endTimestamp": "00:03:03.060",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0037",
+    "text": "All right, and if I save it right now and try to close this and bunnx expose start once",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 37,
+      "start": 184.24,
+      "end": 191.3,
+      "duration": 7.06,
+      "startTimestamp": "00:03:04.240",
+      "endTimestamp": "00:03:11.300",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0038",
+    "text": "again and then let me simply press A. So this is going to open this onto Android and let",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 38,
+      "start": 191.301,
+      "end": 199.9,
+      "duration": 8.599,
+      "startTimestamp": "00:03:11.301",
+      "endTimestamp": "00:03:19.900",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0039",
+    "text": "me reload it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 39,
+      "start": 199.901,
+      "end": 201.14,
+      "duration": 1.239,
+      "startTimestamp": "00:03:19.901",
+      "endTimestamp": "00:03:21.140",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0040",
+    "text": "All right.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 40,
+      "start": 201.16,
+      "end": 201.86,
+      "duration": 0.7,
+      "startTimestamp": "00:03:21.160",
+      "endTimestamp": "00:03:21.860",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0041",
+    "text": "And you will see UI something like this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 41,
+      "start": 204.04,
+      "end": 208.02,
+      "duration": 3.98,
+      "startTimestamp": "00:03:24.040",
+      "endTimestamp": "00:03:28.020",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0042",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 42,
+      "start": 208.44,
+      "end": 208.7,
+      "duration": 0.26,
+      "startTimestamp": "00:03:28.440",
+      "endTimestamp": "00:03:28.700",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0043",
+    "text": "So, what like you can see that right now my ball is in center.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 43,
+      "start": 209.4,
+      "end": 212.8,
+      "duration": 3.4,
+      "startTimestamp": "00:03:29.400",
+      "endTimestamp": "00:03:32.800",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0044",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 44,
+      "start": 213.5,
+      "end": 213.72,
+      "duration": 0.22,
+      "startTimestamp": "00:03:33.500",
+      "endTimestamp": "00:03:33.720",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0045",
+    "text": "Every time when I move my screen, I wanted to see the position of my ball where it is",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 45,
+      "start": 213.9,
+      "end": 220.12,
+      "duration": 6.22,
+      "startTimestamp": "00:03:33.900",
+      "endTimestamp": "00:03:40.120",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0046",
+    "text": "actually going.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 46,
+      "start": 220.121,
+      "end": 220.82,
+      "duration": 0.699,
+      "startTimestamp": "00:03:40.121",
+      "endTimestamp": "00:03:40.820",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0047",
+    "text": "So for that I can simply use my use effect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 47,
+      "start": 222.36,
+      "end": 225.84,
+      "duration": 3.48,
+      "startTimestamp": "00:03:42.360",
+      "endTimestamp": "00:03:45.840",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0048",
+    "text": "And this use effect is basically something like this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 48,
+      "start": 226.6,
+      "end": 232.44,
+      "duration": 5.84,
+      "startTimestamp": "00:03:46.600",
+      "endTimestamp": "00:03:52.440",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0049",
+    "text": "Like we have here an empty dependency.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 49,
+      "start": 232.49,
+      "end": 235.1,
+      "duration": 2.61,
+      "startTimestamp": "00:03:52.490",
+      "endTimestamp": "00:03:55.100",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0050",
+    "text": "And what I can do every 2 milliseconds, 20 milliseconds, I wanted to add a update interval",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 50,
+      "start": 236.96,
+      "end": 245.26,
+      "duration": 8.3,
+      "startTimestamp": "00:03:56.960",
+      "endTimestamp": "00:04:05.260",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0051",
+    "text": "to set update interval is going to be 20.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 51,
+      "start": 245.46,
+      "end": 249.16,
+      "duration": 3.7,
+      "startTimestamp": "00:04:05.460",
+      "endTimestamp": "00:04:09.160",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0052",
+    "text": "And then we have const subs.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 52,
+      "start": 250,
+      "end": 252.92,
+      "duration": 2.92,
+      "startTimestamp": "00:04:10.000",
+      "endTimestamp": "00:04:12.920",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0053",
+    "text": "encryption is equals to accelerometer dot add listener then we have a basic data and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 53,
+      "start": 253.84,
+      "end": 263.1,
+      "duration": 9.26,
+      "startTimestamp": "00:04:13.840",
+      "endTimestamp": "00:04:23.100",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0054",
+    "text": "let first of all set sensor values as x is going to be data dot x and for y data dot",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 54,
+      "start": 263.139,
+      "end": 273.139,
+      "duration": 10,
+      "startTimestamp": "00:04:23.139",
+      "endTimestamp": "00:04:33.139",
+      "estimatedTokens": 28
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0055",
+    "text": "y all right and for positioning set position whatever the previous position is coming and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 55,
+      "start": 273.38,
+      "end": 281.479,
+      "duration": 8.099,
+      "startTimestamp": "00:04:33.380",
+      "endTimestamp": "00:04:41.479",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0056",
+    "text": "And inside this first of all I need a sensitivity and then we are calculating the new position",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 56,
+      "start": 281.5,
+      "end": 289.88,
+      "duration": 8.38,
+      "startTimestamp": "00:04:41.500",
+      "endTimestamp": "00:04:49.880",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0057",
+    "text": "by multiplying this whatever the sensitivity is and then we are changing the position for",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 57,
+      "start": 289.9,
+      "end": 296.4,
+      "duration": 6.5,
+      "startTimestamp": "00:04:49.900",
+      "endTimestamp": "00:04:56.400",
+      "estimatedTokens": 20
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0058",
+    "text": "it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 58,
+      "start": 296.401,
+      "end": 296.68,
+      "duration": 0.279,
+      "startTimestamp": "00:04:56.401",
+      "endTimestamp": "00:04:56.680",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0059",
+    "text": "So, for x-axis ball size minus box size and new position will come and then we are returning",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 59,
+      "start": 296.72,
+      "end": 304.38,
+      "duration": 7.66,
+      "startTimestamp": "00:04:56.720",
+      "endTimestamp": "00:05:04.380",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0060",
+    "text": "the new value of my ball.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 60,
+      "start": 304.381,
+      "end": 306.22,
+      "duration": 1.839,
+      "startTimestamp": "00:05:04.381",
+      "endTimestamp": "00:05:06.220",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0061",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 61,
+      "start": 307.18,
+      "end": 307.58,
+      "duration": 0.4,
+      "startTimestamp": "00:05:07.180",
+      "endTimestamp": "00:05:07.580",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0062",
+    "text": "And if I save it, look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 62,
+      "start": 307.72,
+      "end": 309.92,
+      "duration": 2.2,
+      "startTimestamp": "00:05:07.720",
+      "endTimestamp": "00:05:09.920",
+      "estimatedTokens": 11
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0063",
+    "text": "And I can also unsubscribe to this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 63,
+      "start": 310.48,
+      "end": 313.8,
+      "duration": 3.32,
+      "startTimestamp": "00:05:10.480",
+      "endTimestamp": "00:05:13.800",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0064",
+    "text": "So this is going to be return.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 64,
+      "start": 314.02,
+      "end": 315.56,
+      "duration": 1.54,
+      "startTimestamp": "00:05:14.020",
+      "endTimestamp": "00:05:15.560",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0065",
+    "text": "Call this value and subscription dot remove.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 65,
+      "start": 317.08,
+      "end": 321.52,
+      "duration": 4.44,
+      "startTimestamp": "00:05:17.080",
+      "endTimestamp": "00:05:21.520",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0066",
+    "text": "All right.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 66,
+      "start": 322.16,
+      "end": 322.36,
+      "duration": 0.2,
+      "startTimestamp": "00:05:22.160",
+      "endTimestamp": "00:05:22.360",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0067",
+    "text": "And you will see right now my phone is here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 67,
+      "start": 322.48,
+      "end": 324.6,
+      "duration": 2.12,
+      "startTimestamp": "00:05:22.480",
+      "endTimestamp": "00:05:24.600",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0068",
+    "text": "And as I keep moving my phone, you will see, look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 68,
+      "start": 324.8,
+      "end": 329.419,
+      "duration": 4.619,
+      "startTimestamp": "00:05:24.800",
+      "endTimestamp": "00:05:29.419",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0069",
+    "text": "Look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 69,
+      "start": 329.9,
+      "end": 330.46,
+      "duration": 0.56,
+      "startTimestamp": "00:05:29.900",
+      "endTimestamp": "00:05:30.460",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0070",
+    "text": "How beautifully I can tilt my this phone in different directions.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 70,
+      "start": 330.52,
+      "end": 336.36,
+      "duration": 5.84,
+      "startTimestamp": "00:05:30.520",
+      "endTimestamp": "00:05:36.360",
+      "estimatedTokens": 15
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0071",
+    "text": "And this is how they are working.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 71,
+      "start": 337.5,
+      "end": 338.819,
+      "duration": 1.319,
+      "startTimestamp": "00:05:37.500",
+      "endTimestamp": "00:05:38.819",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0072",
+    "text": "Amazing, isn't it?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 72,
+      "start": 339.819,
+      "end": 340.819,
+      "duration": 1,
+      "startTimestamp": "00:05:39.819",
+      "endTimestamp": "00:05:40.819",
+      "estimatedTokens": 4
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0073",
+    "text": "And you will also see the value of this at the bottom of it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 73,
+      "start": 340.96,
+      "end": 345.419,
+      "duration": 4.459,
+      "startTimestamp": "00:05:40.960",
+      "endTimestamp": "00:05:45.419",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0074",
+    "text": "So, yep, this is pretty much amazing for it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 74,
+      "start": 345.5,
+      "end": 349.22,
+      "duration": 3.72,
+      "startTimestamp": "00:05:45.500",
+      "endTimestamp": "00:05:49.220",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0075",
+    "text": "And if I just try to explain you, this is your sensitivity.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 75,
+      "start": 349.34000000000003,
+      "end": 351.9,
+      "duration": 2.56,
+      "startTimestamp": "00:05:49.340",
+      "endTimestamp": "00:05:51.900",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0076",
+    "text": "Like you will see the new x-axis is whatever the previous value of x and whatever the data",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 76,
+      "start": 352.06,
+      "end": 357.36,
+      "duration": 5.3,
+      "startTimestamp": "00:05:52.060",
+      "endTimestamp": "00:05:57.360",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0077",
+    "text": "is coming from here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 77,
+      "start": 357.56,
+      "end": 358.82,
+      "duration": 1.26,
+      "startTimestamp": "00:05:57.560",
+      "endTimestamp": "00:05:58.820",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0078",
+    "text": "Add it and then add a basic sensitivity to it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 78,
+      "start": 359.44,
+      "end": 362.2,
+      "duration": 2.76,
+      "startTimestamp": "00:05:59.440",
+      "endTimestamp": "00:06:02.200",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0079",
+    "text": "Easy and same thing same and we are just updating it something like that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 79,
+      "start": 362.5,
+      "end": 367.14,
+      "duration": 4.64,
+      "startTimestamp": "00:06:02.500",
+      "endTimestamp": "00:06:07.140",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0080",
+    "text": "this. I know it's bit confusing but it's fine. This is how you can use this. Look at",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 80,
+      "start": 367.141,
+      "end": 373.24,
+      "duration": 6.099,
+      "startTimestamp": "00:06:07.141",
+      "endTimestamp": "00:06:13.240",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0081",
+    "text": "that and take that as an assignment and try to build same applications with the help of",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 81,
+      "start": 373.241,
+      "end": 379.52,
+      "duration": 6.279,
+      "startTimestamp": "00:06:13.241",
+      "endTimestamp": "00:06:19.520",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0082",
+    "text": "other sensors and tag me on Twitter and tag Ateesha on Twitter and we'll see where we",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 82,
+      "start": 379.521,
+      "end": 384.88,
+      "duration": 5.359,
+      "startTimestamp": "00:06:19.521",
+      "endTimestamp": "00:06:24.880",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0083",
+    "text": "can take this to. Alright, so this is the end of our entire module and see you next",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 83,
+      "start": 384.9,
+      "end": 393.48,
+      "duration": 8.58,
+      "startTimestamp": "00:06:24.900",
+      "endTimestamp": "00:06:33.480",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_0084",
+    "text": "time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "fileName": "6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "captionIndex": 84,
+      "start": 393.481,
+      "end": 393.88,
+      "duration": 0.399,
+      "startTimestamp": "00:06:33.481",
+      "endTimestamp": "00:06:33.880",
+      "estimatedTokens": 2
+    }
+  }
+]

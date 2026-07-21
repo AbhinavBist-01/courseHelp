@@ -1,0 +1,553 @@
+[
+  {
+    "id": "mini-project-6-changin-splash-screens-and-icons_epm_0001",
+    "text": "Alright guys and welcome to one more new chapter.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "lessonFile": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "source": "class-subtitle/module 3/mini-project-6-changin-splash-screens-and-icons_epm/mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "fileName": "mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "captionIndex": 1,
+      "start": 0.9,
+      "end": 3.94,
+      "duration": 3.04,
+      "startTimestamp": "00:00:00.900",
+      "endTimestamp": "00:00:03.940",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "mini-project-6-changin-splash-screens-and-icons_epm_0002",
+    "text": "In this chapter we are going to change this icon and the moment you press this and reload",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "lessonFile": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "source": "class-subtitle/module 3/mini-project-6-changin-splash-screens-and-icons_epm/mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "fileName": "mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "captionIndex": 2,
+      "start": 4.1,
+      "end": 10.02,
+      "duration": 5.92,
+      "startTimestamp": "00:00:04.100",
+      "endTimestamp": "00:00:10.020",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "mini-project-6-changin-splash-screens-and-icons_epm_0003",
+    "text": "your application and do anything with it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "lessonFile": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "source": "class-subtitle/module 3/mini-project-6-changin-splash-screens-and-icons_epm/mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "fileName": "mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "captionIndex": 3,
+      "start": 10.021,
+      "end": 12.12,
+      "duration": 2.099,
+      "startTimestamp": "00:00:10.021",
+      "endTimestamp": "00:00:12.120",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "mini-project-6-changin-splash-screens-and-icons_epm_0004",
+    "text": "So instead of showing that by default expo splash screen we are going to talk about it",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "lessonFile": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "source": "class-subtitle/module 3/mini-project-6-changin-splash-screens-and-icons_epm/mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "fileName": "mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "captionIndex": 4,
+      "start": 12.22,
+      "end": 17.54,
+      "duration": 5.32,
+      "startTimestamp": "00:00:12.220",
+      "endTimestamp": "00:00:17.540",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "mini-project-6-changin-splash-screens-and-icons_epm_0005",
+    "text": "more.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "lessonFile": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "source": "class-subtitle/module 3/mini-project-6-changin-splash-screens-and-icons_epm/mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "fileName": "mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "captionIndex": 5,
+      "start": 17.541,
+      "end": 17.78,
+      "duration": 0.239,
+      "startTimestamp": "00:00:17.541",
+      "endTimestamp": "00:00:17.780",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "mini-project-6-changin-splash-screens-and-icons_epm_0006",
+    "text": "So I wanted to show my icon.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "lessonFile": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "source": "class-subtitle/module 3/mini-project-6-changin-splash-screens-and-icons_epm/mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "fileName": "mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "captionIndex": 6,
+      "start": 18.3,
+      "end": 20,
+      "duration": 1.7,
+      "startTimestamp": "00:00:18.300",
+      "endTimestamp": "00:00:20.000",
+      "estimatedTokens": 10
+    }
+  },
+  {
+    "id": "mini-project-6-changin-splash-screens-and-icons_epm_0007",
+    "text": "So how you can fix it?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "lessonFile": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "source": "class-subtitle/module 3/mini-project-6-changin-splash-screens-and-icons_epm/mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "fileName": "mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "captionIndex": 7,
+      "start": 20.22,
+      "end": 21.46,
+      "duration": 1.24,
+      "startTimestamp": "00:00:20.220",
+      "endTimestamp": "00:00:21.460",
+      "estimatedTokens": 8
+    }
+  },
+  {
+    "id": "mini-project-6-changin-splash-screens-and-icons_epm_0008",
+    "text": "Very easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "lessonFile": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "source": "class-subtitle/module 3/mini-project-6-changin-splash-screens-and-icons_epm/mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "fileName": "mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "captionIndex": 8,
+      "start": 21.52,
+      "end": 22.06,
+      "duration": 0.54,
+      "startTimestamp": "00:00:21.520",
+      "endTimestamp": "00:00:22.060",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "mini-project-6-changin-splash-screens-and-icons_epm_0009",
+    "text": "You can simply search for a file name as app.json.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "lessonFile": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "source": "class-subtitle/module 3/mini-project-6-changin-splash-screens-and-icons_epm/mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "fileName": "mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "captionIndex": 9,
+      "start": 22.9,
+      "end": 27,
+      "duration": 4.1,
+      "startTimestamp": "00:00:22.900",
+      "endTimestamp": "00:00:27.000",
+      "estimatedTokens": 13
+    }
+  },
+  {
+    "id": "mini-project-6-changin-splash-screens-and-icons_epm_0010",
+    "text": "Jason.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "lessonFile": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "source": "class-subtitle/module 3/mini-project-6-changin-splash-screens-and-icons_epm/mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "fileName": "mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "captionIndex": 10,
+      "start": 27.001,
+      "end": 27.68,
+      "duration": 0.679,
+      "startTimestamp": "00:00:27.001",
+      "endTimestamp": "00:00:27.680",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "mini-project-6-changin-splash-screens-and-icons_epm_0011",
+    "text": "And this app dot json you can see that we have option as icon.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "lessonFile": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "source": "class-subtitle/module 3/mini-project-6-changin-splash-screens-and-icons_epm/mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "fileName": "mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "captionIndex": 11,
+      "start": 28.6,
+      "end": 34.26,
+      "duration": 5.66,
+      "startTimestamp": "00:00:28.600",
+      "endTimestamp": "00:00:34.260",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "mini-project-6-changin-splash-screens-and-icons_epm_0012",
+    "text": "Instead of showing this icon dot png I wanted you to simply say this as logo dot png.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "lessonFile": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "source": "class-subtitle/module 3/mini-project-6-changin-splash-screens-and-icons_epm/mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "fileName": "mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "captionIndex": 12,
+      "start": 35.02,
+      "end": 41.62,
+      "duration": 6.6,
+      "startTimestamp": "00:00:35.020",
+      "endTimestamp": "00:00:41.620",
+      "estimatedTokens": 24
+    }
+  },
+  {
+    "id": "mini-project-6-changin-splash-screens-and-icons_epm_0013",
+    "text": "And if you just redirect towards this page you will start sharing this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "lessonFile": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "source": "class-subtitle/module 3/mini-project-6-changin-splash-screens-and-icons_epm/mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "fileName": "mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "captionIndex": 13,
+      "start": 42.32,
+      "end": 46.84,
+      "duration": 4.52,
+      "startTimestamp": "00:00:42.320",
+      "endTimestamp": "00:00:46.840",
+      "estimatedTokens": 17
+    }
+  },
+  {
+    "id": "mini-project-6-changin-splash-screens-and-icons_epm_0014",
+    "text": "Cool and definitely you can change the name of this application whatever you want it to",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "lessonFile": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "source": "class-subtitle/module 3/mini-project-6-changin-splash-screens-and-icons_epm/mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "fileName": "mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "captionIndex": 14,
+      "start": 47,
+      "end": 52.6,
+      "duration": 5.6,
+      "startTimestamp": "00:00:47.000",
+      "endTimestamp": "00:00:52.600",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "mini-project-6-changin-splash-screens-and-icons_epm_0015",
+    "text": "and then you can definitely change the background color.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "lessonFile": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "source": "class-subtitle/module 3/mini-project-6-changin-splash-screens-and-icons_epm/mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "fileName": "mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "captionIndex": 15,
+      "start": 52.96,
+      "end": 55.38,
+      "duration": 2.42,
+      "startTimestamp": "00:00:52.960",
+      "endTimestamp": "00:00:55.380",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "mini-project-6-changin-splash-screens-and-icons_epm_0016",
+    "text": "Let me just add 18181B.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "lessonFile": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "source": "class-subtitle/module 3/mini-project-6-changin-splash-screens-and-icons_epm/mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "fileName": "mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "captionIndex": 16,
+      "start": 55.52,
+      "end": 59.44,
+      "duration": 3.92,
+      "startTimestamp": "00:00:55.520",
+      "endTimestamp": "00:00:59.440",
+      "estimatedTokens": 7
+    }
+  },
+  {
+    "id": "mini-project-6-changin-splash-screens-and-icons_epm_0017",
+    "text": "Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "lessonFile": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "source": "class-subtitle/module 3/mini-project-6-changin-splash-screens-and-icons_epm/mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "fileName": "mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "captionIndex": 17,
+      "start": 61.18,
+      "end": 61.46,
+      "duration": 0.28,
+      "startTimestamp": "00:01:01.180",
+      "endTimestamp": "00:01:01.460",
+      "estimatedTokens": 2
+    }
+  },
+  {
+    "id": "mini-project-6-changin-splash-screens-and-icons_epm_0018",
+    "text": "And in same way if you wanted to change other things so you can like let's say just for",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "lessonFile": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "source": "class-subtitle/module 3/mini-project-6-changin-splash-screens-and-icons_epm/mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "fileName": "mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "captionIndex": 18,
+      "start": 61.92,
+      "end": 66.96,
+      "duration": 5.04,
+      "startTimestamp": "00:01:01.920",
+      "endTimestamp": "00:01:06.960",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "mini-project-6-changin-splash-screens-and-icons_epm_0019",
+    "text": "web instead of showing fav icon you can simply write here logo.png.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "lessonFile": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "source": "class-subtitle/module 3/mini-project-6-changin-splash-screens-and-icons_epm/mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "fileName": "mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "captionIndex": 19,
+      "start": 66.961,
+      "end": 71.34,
+      "duration": 4.379,
+      "startTimestamp": "00:01:06.961",
+      "endTimestamp": "00:01:11.340",
+      "estimatedTokens": 16
+    }
+  },
+  {
+    "id": "mini-project-6-changin-splash-screens-and-icons_epm_0020",
+    "text": "In same way you can instead of showing splash icon you can simply show logo.png easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "lessonFile": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "source": "class-subtitle/module 3/mini-project-6-changin-splash-screens-and-icons_epm/mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "fileName": "mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "captionIndex": 20,
+      "start": 71.5,
+      "end": 78.82,
+      "duration": 7.32,
+      "startTimestamp": "00:01:11.500",
+      "endTimestamp": "00:01:18.820",
+      "estimatedTokens": 21
+    }
+  },
+  {
+    "id": "mini-project-6-changin-splash-screens-and-icons_epm_0021",
+    "text": "So let's try to see this look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "lessonFile": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "source": "class-subtitle/module 3/mini-project-6-changin-splash-screens-and-icons_epm/mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "fileName": "mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "captionIndex": 21,
+      "start": 79.56,
+      "end": 82.66,
+      "duration": 3.1,
+      "startTimestamp": "00:01:19.560",
+      "endTimestamp": "00:01:22.660",
+      "estimatedTokens": 12
+    }
+  },
+  {
+    "id": "mini-project-6-changin-splash-screens-and-icons_epm_0022",
+    "text": "So the moment I reload it you by doing by changing this you are able to see that and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "lessonFile": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "source": "class-subtitle/module 3/mini-project-6-changin-splash-screens-and-icons_epm/mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "fileName": "mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "captionIndex": 22,
+      "start": 82.78,
+      "end": 89.84,
+      "duration": 7.06,
+      "startTimestamp": "00:01:22.780",
+      "endTimestamp": "00:01:29.840",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "mini-project-6-changin-splash-screens-and-icons_epm_0023",
+    "text": "if I go to complete home page and look at that now we have successfully changed the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "lessonFile": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "source": "class-subtitle/module 3/mini-project-6-changin-splash-screens-and-icons_epm/mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "fileName": "mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "captionIndex": 23,
+      "start": 89.84100000000001,
+      "end": 95.64,
+      "duration": 5.799,
+      "startTimestamp": "00:01:29.841",
+      "endTimestamp": "00:01:35.640",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "mini-project-6-changin-splash-screens-and-icons_epm_0024",
+    "text": "logo of our application.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "lessonFile": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "source": "class-subtitle/module 3/mini-project-6-changin-splash-screens-and-icons_epm/mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "fileName": "mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "captionIndex": 24,
+      "start": 95.64099999999999,
+      "end": 97.46000000000001,
+      "duration": 1.819,
+      "startTimestamp": "00:01:35.641",
+      "endTimestamp": "00:01:37.460",
+      "estimatedTokens": 6
+    }
+  },
+  {
+    "id": "mini-project-6-changin-splash-screens-and-icons_epm_0025",
+    "text": "With this the end of our entire mini project I hope so you have learned a much much more",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "lessonFile": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "source": "class-subtitle/module 3/mini-project-6-changin-splash-screens-and-icons_epm/mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "fileName": "mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "captionIndex": 25,
+      "start": 97.9,
+      "end": 104.42,
+      "duration": 6.52,
+      "startTimestamp": "00:01:37.900",
+      "endTimestamp": "00:01:44.420",
+      "estimatedTokens": 25
+    }
+  },
+  {
+    "id": "mini-project-6-changin-splash-screens-and-icons_epm_0026",
+    "text": "about react navigation and this is going to be the last time we are talking about react",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "lessonFile": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "source": "class-subtitle/module 3/mini-project-6-changin-splash-screens-and-icons_epm/mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "fileName": "mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "captionIndex": 26,
+      "start": 105.14,
+      "end": 110.12,
+      "duration": 4.98,
+      "startTimestamp": "00:01:45.140",
+      "endTimestamp": "00:01:50.120",
+      "estimatedTokens": 23
+    }
+  },
+  {
+    "id": "mini-project-6-changin-splash-screens-and-icons_epm_0027",
+    "text": "navigation because from next module we are going to start learning about and exploring",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "lessonFile": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "source": "class-subtitle/module 3/mini-project-6-changin-splash-screens-and-icons_epm/mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "fileName": "mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "captionIndex": 27,
+      "start": 110.12100000000001,
+      "end": 115.75999999999999,
+      "duration": 5.639,
+      "startTimestamp": "00:01:50.121",
+      "endTimestamp": "00:01:55.760",
+      "estimatedTokens": 19
+    }
+  },
+  {
+    "id": "mini-project-6-changin-splash-screens-and-icons_epm_0028",
+    "text": "about X-PORouter.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "lessonFile": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "source": "class-subtitle/module 3/mini-project-6-changin-splash-screens-and-icons_epm/mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "fileName": "mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "captionIndex": 28,
+      "start": 115.761,
+      "end": 117.02000000000001,
+      "duration": 1.259,
+      "startTimestamp": "00:01:55.761",
+      "endTimestamp": "00:01:57.020",
+      "estimatedTokens": 3
+    }
+  },
+  {
+    "id": "mini-project-6-changin-splash-screens-and-icons_epm_0029",
+    "text": "So yes this is pretty much it for this entire module and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "lessonFile": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "source": "class-subtitle/module 3/mini-project-6-changin-splash-screens-and-icons_epm/mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "fileName": "mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "captionIndex": 29,
+      "start": 117.78,
+      "end": 123.16,
+      "duration": 5.38,
+      "startTimestamp": "00:01:57.780",
+      "endTimestamp": "00:02:03.160",
+      "estimatedTokens": 21
+    }
+  }
+]
