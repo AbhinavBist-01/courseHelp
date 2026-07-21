@@ -1,0 +1,86 @@
+[
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_chunk_0001",
+    "text": "Hey everyone and welcome to one more new lecture. In this lecture we are going to learn that how you can basically set up navigation inside your Expo application. In today's lecture definitely going to see that how you can manage multiple screens. and set up navigation from scratch. Perfect, but before moving ahead, I just wanted to set up a device. But before we begin installing navigation libraries and do anything, you don't need any Android Studio or Xcode to test your app. And I'm assuming you guys know that. We will use ExpoGo. And app, you basically just going to install on your phone. to run your project instantly. You just run the export of server and scan the QR code and everything is going to work. Cool. So don't worry. But for just simulating and just show you guys, I'm just connecting my physical phone to my system and opening that here. Perfect. So just give me a minute. Let me quickly open that. Cool. So I hope so that this is now up and visible to you. Like this is my physical connected device. I'm just to show you the screen. That's why I'm doing this. Perfect. And I'm using a screen copy for that. You can just definitely go and search for screen copy. And this is again completely optional. You need not to do so. You just simply open your phone and scan the QR code in your ExpoGo app. And that is going to work perfectly. Cool, nice. Now let's move ahead and start talking about this. So for doing so you just simply need to go inside your VS code and inside your VS code make sure that I am on module 3, I mean it depends. Now, let me just clear everything and first thing that I am going to do is to install my expo. So, for installing my expo application, I am going to copy this command and this is going to be burnx create expo app at the latest and what is your app name? So let me install in current directory. Perfect. So, this is going to install my expo app. Let me wait for it. All right, guys. So, now my application is installed successfully. Now what is the next step? Next step is basically going to reset my project. So, for that you can simply say 1x run reset project. So, this is basically going to reset my project. All right, no problem. I can just simply run scripts slash reset and then I can simply say project. Now I don't want it to move any existing file in any folder. Let me just simply say no and clear this out. Perfect, so now you will see that we are reset to properly normal and if I now simply hit 1x Expo Start. So this is going to make up and running my application and now you can simply open your camera and start running it. Let me just simply my expo go app. Then for opening this in Android, I'm simply going to say A. So, after pressing on A, you will see they are doing so this and edit app/index.tss to edit this screen. So, all right, everything is working perfectly. Now what next? Next, I just simply wanted to move ahead and first of all, first step is always going to delete this file. Yes, because we don't need it. After deleting it, yes, you will see something like this, but we are going to fix it in a while and let's move ahead. And after moving ahead, I just wanted to do so what I just wanted to install this much of things. So they are basically prompting us to install react navigation native stack. So simply copy this. No problem. And after this close your currently running application and paste this command. So this is going to install a react navigation library. And if I'm not wrong, they are by default supported it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0,
+      "end": 264.46,
+      "duration": 264.46,
+      "startTimestamp": "00:00:00.000",
+      "endTimestamp": "00:04:24.460",
+      "captionStart": 1,
+      "captionEnd": 74,
+      "tokenCount": 796,
+      "captions": 74
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_chunk_0002",
+    "text": "while and let's move ahead. And after moving ahead, I just wanted to do so what I just wanted to install this much of things. So they are basically prompting us to install react navigation native stack. So simply copy this. No problem. And after this close your currently running application and paste this command. So this is going to install a react navigation library. And if I'm not wrong, they are by default supported it. Yes, I mean, they only took four seconds. So I think they already have it. Now, if you also wanted to install this React Navigation elements, so let's install that as well and they already have to us and we are good to go. Perfect. No problem. Now, what is the first step to start using your this React Navigation library? To create a navigation stack and initially we are understanding about stack this like we have multiple patterns. So we are now understanding about stack patterns. So how you can basically create that and set up that because that is a base for it. So, this is basically going to import this and again need not to go inside static for now just simply press on dynamic and just focus for a few minutes here and then we will see how you can set up that. So, the step number one is done. No problem. Now, let us move ahead and start implementing it. Alright, so for that you again need to create an app folder, easy, no problem. And then step number one is to create a root stack navigator. So for that you can simply create app.tsx. Easy. And then import bunch of things with me. So the first thing is going to be like let me increase the size of it so that this is visible properly. Yes. So simply say import. Create. native stack navigator from react navigation native stack first step and then second step is going to simply say const stack is equals to first of all let me see and smooth my AI perfect and then simply going to say create native stack navigation step 2 is also done. Perfect. Now, what next we need? Next we need to create a root stack. What is the root stack? Basically a system where we are going to tell that look at that. We have home screen, we have detail screen like that we are doing in like what is the name of the library that we are using for it react router DOM. Perfect. So, I hope so you guys know about it react router DOM. Here, react router you will understanding and you are implementing all of that in kind of same way. So, I can simply going to say this as function root stack easy this is just a simple kind of an component and this is going to return very easy thing what is that. This is some bunch of boilerplate code that you need to write. .navigator easy and this navigator is going to accept all the screens that you have. So, how they are going to work simply stack. Navigator, not navigator, sorry, stack dot screen. Yes. And then inside this screen and make sure that this screen is self-closing. And this screen is going to accept two things for now. First thing is the name of screen. So let me call that a home. And then second thing is going to be component. I mean very much resembling with the react router. And then inside this you can simply create a folder and name that as a screens not rocket signs at all. And then I'm simply going to say this as home dot TSX. And this is just a short form for this is just a snippet. So R-N-F-E-S. So this is going to create me a react native component with just a simple text of home. Perfect. And if you wanted to center it, you can definitely center it. So we'll do that. Don't worry. And then simply import this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "chunkNumber": 2,
+      "start": 233.901,
+      "end": 512.32,
+      "duration": 278.42,
+      "startTimestamp": "00:03:53.901",
+      "endTimestamp": "00:08:32.320",
+      "captionStart": 66,
+      "captionEnd": 139,
+      "tokenCount": 784,
+      "captions": 74
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_chunk_0003",
+    "text": "signs at all. And then I'm simply going to say this as home dot TSX. And this is just a short form for this is just a snippet. So R-N-F-E-S. So this is going to create me a react native component with just a simple text of home. Perfect. And if you wanted to center it, you can definitely center it. So we'll do that. Don't worry. And then simply import this. Easy, step 2 is also done, I don't think so that any rocket science is going on here. Easy, let me save it and then what you can do you can simply say export default function name of the file which is app and then I wanted to return this root stack. Easy. Now, let me just simply return my root stack and save it and then you are just simply going to run it. Perfect, but let me create one more screen for now. Let me call this as details.tsx and rn.tsx. Cool, and this is going to be details and you will simply copy this, simply paste this and make sure to remember the name you are giving them. So again this is going to be details and here I wanted to use details. Easy. Cool. Now, let me clear everything and simply run 1x expo start and the moment I hit this and just wait for it. So let me just wait for it and no problem. Let's again press A. So this is going to open that up into it. What if I need to reload it? Yes, I need to reload it and the moment I reload it, look at that. Now, you can basically see that they are basically showing us a home here. And yes, now you are able to see this home page, but we're still thinking that I wanted to move to my details page. How I can move there? It's also very easy like React Navigation provide you a link component. Yes, make sure to import from React Navigation because right now we are not using XporOptr and this link is basically going to tell you that where you wanted to move. So from home, I basically wanted to go to my detail page. So let me just give it a screen prop. And this screen is going to accept a details then now these details is make sure to match with this name if this is not going to match error will throw here nice and then inside this screen you can simply say go to details no problem and if I save it. Look, you can ignore this for now. Perfect. But if I just simply press on go to details and boom, look at that. I am redirected to details page and you will see that they are in properly stacked behavior because they are also showing me a back button and the moment I press on back, I'm redirected to home once again. Easy. So, this is how you can basically, this is very basic simulation. Perfect. So, this is how you can basically implement this and see everything in action. In same way, if you wanted to create another screen, let us say I wanted to create a profile screen. So, I will simply going to say this as profile.tsx, rnfes and this will become profile. Perfect. What next? First of all, let me go to home page easy. Now next is going to be I need to go my app.tsx in same way let me oops okay let me just simply copy this and paste this now give the name so let me just call that call that a profile and you will say this profile. and save it. Now let's say from detail I wanted to go to profile page. Now it's up to you how you wanted to manage them. Now link is going to accept the screen then make sure to give the correct name. So, this is going to be profile and I'm simply say this is go to profile. Easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "chunkNumber": 3,
+      "start": 485.121,
+      "end": 749.819,
+      "duration": 264.7,
+      "startTimestamp": "00:08:05.121",
+      "endTimestamp": "00:12:29.819",
+      "captionStart": 130,
+      "captionEnd": 190,
+      "tokenCount": 799,
+      "captions": 61
+    }
+  },
+  {
+    "id": "2. Setting Up React Navigation in Expo_epm_chunk_0004",
+    "text": "copy this and paste this now give the name so let me just call that call that a profile and you will say this profile. and save it. Now let's say from detail I wanted to go to profile page. Now it's up to you how you wanted to manage them. Now link is going to accept the screen then make sure to give the correct name. So, this is going to be profile and I'm simply say this is go to profile. Easy. And now first of all, let me go to details and inside details I have go to profile and if I click on go to profile, I am on profile. I can go back. But now if I press on back, I am navigated to details page. But if I now press on details patch. I am back push back to basically home page easy. So I hope so that makes sense how you can basically implement this very very very basic navigation easy from next chapter we are going to understand about. more understand about something known as navigation hook like we have bunch of methods into that going to understand bunch of them line by line and have a very great implementation for it. So yeah this is pretty much it for this chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "2. Setting Up React Navigation in Expo_epm",
+      "lessonFile": "2. Setting Up React Navigation in Expo_epm",
+      "source": "class-subtitle/module 3/2. Setting Up React Navigation in Expo_epm/2. Setting Up React Navigation in Expo_epm.vtt",
+      "chunkNumber": 4,
+      "start": 718.281,
+      "end": 803.18,
+      "duration": 84.9,
+      "startTimestamp": "00:11:58.281",
+      "endTimestamp": "00:13:23.180",
+      "captionStart": 184,
+      "captionEnd": 202,
+      "tokenCount": 248,
+      "captions": 19
+    }
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "4-catch-all-route-segments_epm_chunk_0001",
+    "text": "Hey everyone and welcome to one more new lecture. In this lecture, we will learn about catch all route segments in X4 router. And this is a powerful way to we can say match any path under a directory. So let's say you are making a blog application, you are making any documentation related application. So for that, you need this cache all route segment. So, the first question arises here, why do we need even the cache all route segment and how they basically look. So, the syntax of cache all route segment is something like this dot dot dot and we can say this as slug dot tsx. inside the square bracket. So this is the syntax we can say of cache all route a segment. Alright let me fix it cool. So this is the syntax of cache all route segment. Now why do we even basically need it? So, in file-based routing, you define dynamic routes, let's say you are following the file-based routing and if you wanted to define a dynamic routes with parameter, so how you can do so that? So, it's going to be pretty easy, you can simply going to use this square notation and then you can simply add here TSX and by that now this dot ID is going to behave as a dynamic route. Like if I just show you here if I just simply go post ID page Now you can see the post ID is coming as well But the moment I change data to 2, 3, 4, 5 or whatever is that Then on the basis of that we are going to show That different data makes sense That work when you know exactly, but why then, but we have the limitation for this. What is that limitation? Limitation is this will only work. Works we can say works when you know, when we know that exactly how many segments. You expect in a path. All right, this is very important point. You expect in a path because into this we expect that we only have one route segment. One is post slash another one is our dynamic data. It can be ID like this is the post ID. So we know that we only have one dynamic route segment. But what if your route structure can have multiple level or we can say unknown segments, you don't know what is going to be here in upcoming lecture. I mean, sorry, not in upcoming lecture, you don't know what's going to be, let's say post slash post ID slash username, and we can say feed, we can say anything like, like let me take the example of this documentation, try to just focus over it. You will see that right now they are showing us router basics notation. Alright, but what if I change this to layout? Now you will see we are on router basics and layout, but we are still into the guides. Just see here, we are still into the guides route segment. Inside this guides route segment, we still have multiple nested route segments. So in that case, we need this cache all route segment because let's say, This is your route segments you wanted to create. You wanted to create admin, we can say admin slash users slash role. Perfect. In same way, you also wanted to create admin slash reports slash logs slash date. So if you are going to create all of them separately, then you are going to see a lot of lot of files into your, we can say, folder structure. So, this is where cache all route segment help. They let a single route file match all unmatched segment at that level. So, what I am basically talking about. So, let's see how you can basically create it. So, let me take the example of. Let me try to paste it here. Perfect. So this is the example. Now you will see we are inside our app directory inside admin and then we have created here cash or route segment. So",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0.7,
+      "end": 278,
+      "duration": 277.3,
+      "startTimestamp": "00:00:00.700",
+      "endTimestamp": "00:04:38.000",
+      "captionStart": 1,
+      "captionEnd": 59,
+      "tokenCount": 792,
+      "captions": 59
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_chunk_0002",
+    "text": "So, this is where cache all route segment help. They let a single route file match all unmatched segment at that level. So, what I am basically talking about. So, let's see how you can basically create it. So, let me take the example of. Let me try to paste it here. Perfect. So this is the example. Now you will see we are inside our app directory inside admin and then we have created here cash or route segment. So the moment by using this syntax, I can create admin slash roles. I can create admin slash reports slash logs slash date. I can even redirect myself towards admin slash settings So, this is the power of a cache or route segment. So, let's see and how we can basically create it. So, it's very easy. Let's say let me close everything. Inside this app, I am going to create a simple admin. Perfect. And inside this admin, if I wanted to have a multiple admin, I would have to create a route segment, but I don't know the name of the route segment is going to be in future like I don't know it's going to be user or it's going to be reports is going to be settings I know nothing. So in that case and you wanted to be more smart and more cleaner. Then you are going to do simply create a new file and we can say make name this file something like this dot dot dot and give a unique value here. So let me just call it as segments, you can call it slug, you can call it ID, you can call it route, whatever you want, segments and then dot tsx. Easy. Now, then simple R and FES perfect, let me call this as admin cache all no problem. And first of all, let me off my AI perfect, then very easy, then I'm basically going to use the same hook. So, now this is going to be as use local search params, but now what is going to be the name of this? So, what is the name here segments, I am going to de-structure my segments here. Now, you can add the type of it as well. So, let us say let me going to add the type of it as an object, because this is an object and then objects. segments, this is going to be the type of string of array, easy nothing but just a basic, we can say type script. Now what you can do now, you can just simply coming to here, let me just try to design it little bit, it's completely optional but let me try to design. Now I have a basic container, some title and path text easy and then let me just try to add it here. Now you will see that we have a new variable with which is path display because I wanted to show my path as an UI. So that's why I'm basically going to say this as path display is going to simple segments and we are going to use here the join method and I'm going to join all my segments by forward slash easy. Now let's try to use it. So let me go to my index file. not feed index file and inside this index file let me copy the same and let me try to paste and this is going to be as admin easy and then this admin is we can say What we can say we can let's say I wanted to go inside users inside logs easy and let me just simply say go to admin and go to logs and now if I save it and now if I press here look at that now I am inside my user logs in same way for the same route segment I can create another one as well let's say I am going to call this as reports and for the report Let me just simply say this on the basis of monthly. easy go and monthly reports easy and now if I save it and if I go back and now if I click",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "chunkNumber": 2,
+      "start": 247.1,
+      "end": 509.04,
+      "duration": 261.94,
+      "startTimestamp": "00:04:07.100",
+      "endTimestamp": "00:08:29.040",
+      "captionStart": 53,
+      "captionEnd": 107,
+      "tokenCount": 799,
+      "captions": 55
+    }
+  },
+  {
+    "id": "4-catch-all-route-segments_epm_chunk_0003",
+    "text": "me just simply say go to admin and go to logs and now if I save it and now if I press here look at that now I am inside my user logs in same way for the same route segment I can create another one as well let's say I am going to call this as reports and for the report Let me just simply say this on the basis of monthly. easy go and monthly reports easy and now if I save it and if I go back and now if I click on go monthly reports you will see I am on to the same segment but I am rendering here different data so on the basis of different data you can definitely decide what you wanted to render so this is the beauty of this cache all route segment so what is happening here This route tellExpoRouter cacheAllPath that are start with /edmint and then hook is basically like the hook we are basically using here is local search params return an array yes this is your array. name as segments, you can call it whatever you want, but let's go with segment that contain each part after like this is this segment is going to contain each part after admin like we have users slash roles, we can have reports slash logs slash date, we can have settings slash security, you can like this segment variable, this segment property contain each part after admin. So, I hope so that makes sense. Like now the biggest question arise here when you would use a cache or route segment. So, whenever you wanted to create a documentation but in mobile phones you definitely going to avoid creating documentation but let's just say. You wanted to create a documentation of your cool and let's say you wanted to create something on as admin panel because admin panel can have multiple routes, multiple nested routes, multiple unknown routes. You can say paginated generated from a CMS, pages which is generated from CMS. Anywhere you want one component and we can say anywhere you want one component to handle varied nested URLs without manually writing each route file. So, we can see that cool. So yeah, this is pretty much it and I can say this approach is much clean and scalable and this is perfect for deep routing because you can see that this is very deep and you can add as much as a route segments you want. So this is definitely perfect for deep routing and we can say without any boilerplate of code. So yeah. This is pretty much it for this chapter. I hope you loved it and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "4-catch-all-route-segments_epm",
+      "lessonFile": "4-catch-all-route-segments_epm",
+      "source": "class-subtitle/module 4/4-catch-all-route-segments_epm/4-catch-all-route-segments_epm.vtt",
+      "chunkNumber": 3,
+      "start": 484.202,
+      "end": 656.46,
+      "duration": 172.26,
+      "startTimestamp": "00:08:04.202",
+      "endTimestamp": "00:10:56.460",
+      "captionStart": 103,
+      "captionEnd": 137,
+      "tokenCount": 499,
+      "captions": 35
+    }
+  }
+]

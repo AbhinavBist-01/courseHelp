@@ -1,0 +1,65 @@
+[
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_chunk_0001",
+    "text": "Alright everyone and welcome to one more new chapter and we can say one more new project video in this project in this video basically we are going to build something known as wallpaper app. Alright you guys just thinking this is just a simple wallpaper but let me tell you in this app we are going to follow the Pinterest kind of we can say like I am assuming that you guys have used Pinterest. Pinterest has such a nice layouting. So we are definitely going to use the Pinterest layout and then search functionality and lot of filters functionality on the basis of category and on the basis of colors. Yes. So there's a lot of very interesting. project, you can even download that images inside your local phone as well. So we will see that local directory basically. So let's move ahead and start implementing this. So this is the chapter number one for this wallpaper app, which is again a simple project initialization and we are definitely going to set up the pixabay APIs. So first step first let me just. Coming to here and then run Bunnx create expo app at the latest. So this is going to create me the latest expo application. Alright and definitely we can wait for it. Alright, so now we have installed it successfully and then what next? Next I can simply say, \"Bun run a reset project\". So this is going to reset my project and yep, perfect. What next? Next you need to visit a website named as pixabay.com. and make sure you are going to logged in here and the moment you come you will see that we have lot of images. Yes, we are definitely going to use all of this images to on our website on our application and then we can filter them. We can search bunch of another images and on the basis of that images we can select them see them in a proper preview mode. We can even download them. So we'll see and how we can improve it. But the moment you click on explore you will find at the right bottom name as API simply press here and the moment you coming to here simply press on view documentation and at the very bottom you will find your API endpoint and your API key. So make sure to copy this API key. Yes, this is your API key that will coming to here and after this what you can do. You can again simply close everything. Alright and at the top of it let's create one new folder name as services inside this I can simply say pixabay.ts and what I can do. I can first of all paste the API key that we have. Okay, I'll fix it in a while and then this is the image endpoint that we need. Okay, so this is your image endpoint. So first of all, what I will do here, I will simply say const base_url and then this base URL is going to have this URL. Okay. And this is your API key. So for getting this API key, what you will do, let me close everything, simply create constants and inside this constant, I can create one file config dot ts. And at this point, I can have a API underscore key is equals to the key we have. So, let me just cut it out and paste it here. Okay, nice. Then what next? Next is simply let me have the Pixabay image interface. You will see there are lot of things. Let me show you that. This is all the image types that we have. We have ID, we have page URL, we have type. tags, preview URL, preview width, height, web format, web format, web format height, large image, full HDR, lot of things, I mean you can just see and from where I am getting all of this, if you just simply come into here, you will see all of them, yes, something like this, look at that. Got it from here I am getting all of this. Nice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0.619,
+      "end": 270.38,
+      "duration": 269.76,
+      "startTimestamp": "00:00:00.619",
+      "endTimestamp": "00:04:30.380",
+      "captionStart": 1,
+      "captionEnd": 65,
+      "tokenCount": 796,
+      "captions": 65
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_chunk_0002",
+    "text": "We have ID, we have page URL, we have type. tags, preview URL, preview width, height, web format, web format, web format height, large image, full HDR, lot of things, I mean you can just see and from where I am getting all of this, if you just simply come into here, you will see all of them, yes, something like this, look at that. Got it from here I am getting all of this. Nice. So these are all the pixabay image types that we will get inside the hits. Okay. Nice. And in same way we can have the response. So now we know the response contain total hits and hits. Okay. And yes this is the response that we have. So, what I will do in same way I can create the pixabay response interface that contain total which is type of number total hits again type of number and the hits this hits contain this images which is the array. So, yes this is the array of pixabay image look at that easy perfect now I can simply create one function which is export const. fetch wallpapers is equals to async and then I can simply copy it. Let me off my AI. Alright, and this async is going to accept bunch of information like query, category, colors and then page. Okay, let me paste all of them. Perfect. All right, and after this what I can do, I can simply open one try and catch and then I can say params is equals to new URL search params. And then they are going to contain first thing as the key. So key is equals to API underscore key that will come from constant. Okay, second thing that we wanted to pass here is the query. So query is equals to whatever the query is coming. Then we have image_type and yes, this is the photo. Then we have save search. Safe search is true for now, then we have editors choice, yes that is also true for now, then we can have per page, so per page is equals to 20 and then page, page dot, page dot. I can simply say page.toString and let me just simply format this. And then what I will do if we like if we have a category then I also wanted to append the category inside my search params. This is your category and if we have colors as well in future then I am also wanted to Append. And the colors is equals to colors. Nice. And then what I will have? I can simply say cons response is equals to await fetch and then this fetch is first of all we are going to have the base underscore URL. Very good. and then I can have the another. params.toString, nice, so this is your response, perfect, this is your base URL and all the parameters after appending if we have them something like this, then what I will do if not of response.ok, if the response is not ok then I wanted to first of all console the error so that we can debug them and whatever the text message will come. error and then I can also console it and then I can throw a new error ok perfect. So, console error we are getting the text again consoling them and throwing the error, but if we have a data which is going to be the type of PIXABE response is equals to await response dot JSON. Okay, and then what I will do, I can simply return data.heads because we only need the heads. Okay, what is the heads here? This one, we only need this thing. Okay, nice. So, this is your hits and then what I will do by any chance if we have any error. So, what I will do, I will try to fall back to some data, something like that. So, that we will at least show some data and some demo user, but for now, I think it's fine.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "chunkNumber": 2,
+      "start": 243.741,
+      "end": 543.64,
+      "duration": 299.9,
+      "startTimestamp": "00:04:03.741",
+      "endTimestamp": "00:09:03.640",
+      "captionStart": 59,
+      "captionEnd": 122,
+      "tokenCount": 793,
+      "captions": 64
+    }
+  },
+  {
+    "id": "chapter-1-project-init-and-setup-the-pixabay api_epm_chunk_0003",
+    "text": "heads. Okay, what is the heads here? This one, we only need this thing. Okay, nice. So, this is your hits and then what I will do by any chance if we have any error. So, what I will do, I will try to fall back to some data, something like that. So, that we will at least show some data and some demo user, but for now, I think it's fine. This is all the categories we have and by any chance if we have any error, then I can simply coming to here and then I will say console.log the error perfect and instead I will show console.error no problem nice perfect then this we are done with this pixabay.ts so now we are done with configuration and this one last thing if I go to my config.ts You will see right now we only have API key. But as we know we are going to have bunch of filters based on category and based on colours. So, let me first of all add bunch of categories here. So, this is all the categories we have, backgrounds, fashion, nature, science to music got it. In same way we can have the colours constant as well. Grey scale, transparent, red, orange, yellow, green, lot of other colours, ok. So nice, this is just a basic configuration related to the chapter number one of our weather app. So with this we are done with this chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "lessonFile": "chapter-1-project-init-and-setup-the-pixabay api_epm",
+      "source": "class-subtitle/module 16/chapter-1-project-init-and-setup-the-pixabay api_epm/chapter-1-project-init-and-setup-the-pixabay api_epm.vtt",
+      "chunkNumber": 3,
+      "start": 515.48,
+      "end": 624.96,
+      "duration": 109.48,
+      "startTimestamp": "00:08:35.480",
+      "endTimestamp": "00:10:24.960",
+      "captionStart": 115,
+      "captionEnd": 136,
+      "tokenCount": 297,
+      "captions": 22
+    }
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_chunk_0001",
+    "text": "Alright guys, welcome to one more new chapter. In this chapter, we are basically going to talk about, we can say map controls. So with the help of map controls, we can basically control the map of basically if you wanted to go previous, go next, change locations, a lot of things. So, in this chapter, we are going to see how to set and update camera positions. We already have that. How to toggle map UI. Like you wanted to see compass, zoom buttons, gestures, lot of things and how combine camera UI settings into the single page. Perfect. So, let's again build an interactive map controls, a simple mini project. So, first thing make sure we have a expo map installed, everything is already here, perfect. So, now we already have this camera thing, nice. Let's create bunch more state variables. First state variable that we have compass, then we have zoom control, then we have scroll gesture and zoom gesture. Perfect. And again, if you are developing this inside the Apple and if you are developing this inside the Google map depends. So we already have a camera position. Perfect. Let me take this down. Nice. And below this, what I can do, we can have something known as UI settings and inside this UI settings, first thing that we have is Compass enabled is up to the Compass, not Alright and in same way we can have a zoom controlled enabled yes and then pass the value of zoom controls in same way we wanted to have a scroll gesture enabled. scroll gesture, nice. And then we can have a zoom gesture enable and I can again say this as zoom gesture, easy, nice. Let me save it for now, perfect. Nothing has changed here right now, cool. But next, next is let's move ahead and same thing you can pass all of them inside the Apple as well, perfect and I think they do not have this, what we have then? Then I do not know, does we have anything related to zoom? No, so there is definitely some another way of implementing that for Apple for now we are only focusing on Google Maps, perfect. So inside this Google Maps, let us move ahead. And below this what I wanted to do, we definitely don't, all right, this is good. We have this buttons, this is for, so let's create here one design, like we have buttons map below this, let me paste here a control. Perfect inside this controls we have padding and then we have background color. Alright, and let me add one more thing. Name is, let me just quickly show you, which is toggle row. Perfect. This is the toggle row, flex direction, justify content, align item and margin vertical. No problem. And I don't think so that we need buttons now. And then let me try to paste that out. Let me just quickly grab all the UIs and try to paste that out so that you guys can see what is basically happening here. Perfect. So now, definitely we do not need here buttons, we need here controls. Okay, so this is the first thing and yes look at that. After control everything is fine need not to change this Mumbai and Bangalore. Out of this button, yes, below this I wanted you to create here some UI toggles. So the first toggle, first of all definitely let me import the text from React Native and also switch from React Native and if I save it, okay, nice, we need to change it, but no problem. Let me just copy all of them and then let me paste all of them. So now we have a compass, we have zoom control, we have gesture control and this is how I can with the help of my fingers you can see at the top we have this directions, yes look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0,
+      "end": 274.8,
+      "duration": 274.8,
+      "startTimestamp": "00:00:00.000",
+      "endTimestamp": "00:04:34.800",
+      "captionStart": 1,
+      "captionEnd": 63,
+      "tokenCount": 782,
+      "captions": 63
+    }
+  },
+  {
+    "id": "chapter-3 Markers, Routes & Interactions - Map Features_epm_chunk_0002",
+    "text": "also switch from React Native and if I save it, okay, nice, we need to change it, but no problem. Let me just copy all of them and then let me paste all of them. So now we have a compass, we have zoom control, we have gesture control and this is how I can with the help of my fingers you can see at the top we have this directions, yes look at that. We have zoom gesture, we have scroll gesture, I can definitely scroll all of them with the help of my fingers. Hopefully, you guys are able to see that and yes, I can change it their 3D view as well. Cool. So, look at that. This is how we can basically change it. Yes, look at that. This is your location. You can plus it, minus it. Close this, let's say you don't want it to show the compass and now if I press on to my screen, I am not be able to see anything. The moment I open this and try to definitely open this once again, maybe I need to reload it or something else. So you can see that this is a zoom control. Yes, look at that. The moment I open it, I can zoom it, zoom out. I don't know for some reason I am not be able to see my compass. if I reloaded once then I will see will see. Hopefully, this will work and if I go somewhere else, where is my compass? No idea. Yes, look at that. This is how we can basically see the compass. In same way, we have this zoom gesture. I can control this. Yes, look at that the position, the moment you hold one finger and with the help of another finger, you can rotate it, you can do a lot of things. I mean, it is up to you however you want it to do. So, this is how you can create a bunch of map controls. Again, you can enhance the UI, you can add bunch of icons here instead of using this. This will look much, much better. So, yes, this is pretty much it for this chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "lessonFile": "chapter-3 Markers, Routes & Interactions - Map Features_epm",
+      "source": "class-subtitle/module 11/chapter-3 Markers, Routes & Interactions - Map Features_epm/chapter-3 Markers, Routes & Interactions - Map Features_epm.vtt",
+      "chunkNumber": 2,
+      "start": 247.5,
+      "end": 369.5,
+      "duration": 122,
+      "startTimestamp": "00:04:07.500",
+      "endTimestamp": "00:06:09.500",
+      "captionStart": 58,
+      "captionEnd": 94,
+      "tokenCount": 448,
+      "captions": 37
+    }
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_chunk_0001",
+    "text": "Alright everyone and in this lecture we are going to talk about layouts and slots in expo router. So in expo router layout help you to wrap we can say the common UI around your screen and slot component lets you render the current route inside the layout. So what I am talking about let's try to read it and try to understand. Each directory with the app within the app directory including app itself can define a layout in the form of a slash underscore, underscore layout dot TSX file inside the directory. So, this file define how all the pages within that directory are arranged. So, this is where you would define a stack navigator, we will going to talk, although we have already talked about this stack navigator, tab navigator, drawer navigator, all in our react navigation, but we are also going to understand that in this module as well. So, do not worry. So, this is where you would define a stack navigator, tab navigator, draw navigator, any other layout. So, any other layout is a slot that we are going to see what is that that you want to use for the pages and screen in that directory. So, so the layout file export a default component that is rendered before whatever page you are navigating to within that directory. So, we are definitely like first we have this root layout. From where from here our application is a start rendering. So virtually every app will have underscore layout.tsx file directory inside the app. Cool. So this is the main thing that you have. And from here you can define stack, you can define tabs, you can define slots. So in this chapter, we are going to talk about layout and slots. So let's see how we can basically implement that. I just don't want it to complicate much. So that's why now let's move ahead and we'll see how you can basically do so that. So right now you will see that we are able to see the index and then all the files that we have. But layouts mean you wanted to share some common UI. So, let's say inside this app, where is my layout? This one. So, yeah. Now, right now, I don't want it to use stack because I wanted to talk about a stack in separate section. So, right now, my main motive is to make you understand about layout, like what is the actual role of this layout. So, for understanding that we are going to use here something on a slot. And yes, let me change the slot here as well. Now, the moment I save it, you will see all the stacks, all the back button, front button, everything just gone away from here. Now what you can do, you can let's say just first of all do so this and let me just wrap all of them inside a view and we can say a safe area view. So, let me get my safe area. view. Perfect. And then let me wrap my slot inside this safe area view. And here let me call this a view. Let me import it. And I can call this as header, not inside this. Yep, here. I will call this header. Easy. Let me import my text. And in same way I can copy this and below my slot I can call this footer and if I save it you will interestingly see we are able to see this header and we are also able to see this footer. So how you can basically see the actual output? So, for that now you can see that we have header, we have photo and let's say you wanted to render your index dot file. Alright, so right now let me just try to decorate this. So for that, let me get my style sheet. Cool. So let me import this style sheet via basic container, a header and a photo. Easy. And then let me copy and paste that. So. from here till here, easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0,
+      "end": 257.64,
+      "duration": 257.64,
+      "startTimestamp": "00:00:00.000",
+      "endTimestamp": "00:04:17.640",
+      "captionStart": 1,
+      "captionEnd": 63,
+      "tokenCount": 799,
+      "captions": 63
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_chunk_0002",
+    "text": "So, for that now you can see that we have header, we have photo and let's say you wanted to render your index dot file. Alright, so right now let me just try to decorate this. So for that, let me get my style sheet. Cool. So let me import this style sheet via basic container, a header and a photo. Easy. And then let me copy and paste that. So. from here till here, easy. So now you will see that we have this slot which is styles.container and instead of this we can define this here. So just give me a minute, let me call this a style and this style is going to become now my container and I can remove this view. Perfect and now if I save it, so look at that. Now you guys able to see this is my app header, this one and below is my app footer and all the content of my index.tsx file is rendering here. And let's say if I now go to my feed, perfect, let me fix this design, cool. So now let me go to my feed. So the moment I press on feed, you will see my feed is changing, the content. In place of slot we are rendering feed so at the top of it we can see my app header bottom my f footer Same layout sharing between all of them and interestingly you will see now. We don't have any back button So for that yes, you can reload it and then you can again be on your home page and you can test it out. So we are just right now understanding about layouts. Layouts is about sharing some common properties along with the, we can say, directories, files that we have. I hope so making sense. So, yeah, now let's see how you can create a separate like this is your root layout, but I wanted to create a scope layout. So how you can create a scope layout scope layout is going to be pretty easy. We can say even that nested layout. So let's say inside profile and inside this, let me create this layout.tsx. perfect and let me copy this, let me paste it cool and instead of root layout, let me call this a profile layout easy and let me replace this and we already have this my app header my app order so I don't want it to show this instead at the top of it. I wanted to render a text and this text is going to show me profile easy, simple just to identify this. So now if I save it and let me go to my homepage once again. And if I try to go to my profile page, let's say cool, so if I just press on profile user, you will see something interesting. So for all the files inside this profile, you are going to see this profile tag. But this is your root layouts, this is your nested layout. So, this is how you can define and this is how you can control the layouting of your files. For now, we are using slots, but definitely you are not going to use slots that much. So, you can read more about slots. So, in some cases, you may want a layout with without a navigator. In that case, you can use it. So, this is helpful for adding a header or footer around the current route or for displaying a model over any route inside a directory. So, in this case you can use the slot component which serves as a placeholder for the current child route. Yes, this is the nice definition for slot. This is serve as a placeholder for the current child route. So, yeah, I hope so I am making sense and from next chapter we are going to talk about some route groups, how you can create route groups, then we are going to create some stacks, tabs, draw all of that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "chunkNumber": 2,
+      "start": 228.2,
+      "end": 487.6,
+      "duration": 259.4,
+      "startTimestamp": "00:03:48.200",
+      "endTimestamp": "00:08:07.600",
+      "captionStart": 54,
+      "captionEnd": 112,
+      "tokenCount": 781,
+      "captions": 59
+    }
+  },
+  {
+    "id": "6-Layouts-&-Slot-Components_epm_chunk_0003",
+    "text": "So, in this case you can use the slot component which serves as a placeholder for the current child route. Yes, this is the nice definition for slot. This is serve as a placeholder for the current child route. So, yeah, I hope so I am making sense and from next chapter we are going to talk about some route groups, how you can create route groups, then we are going to create some stacks, tabs, draw all of that. So don't worry about it, but for now this is pretty much it and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "6-Layouts-&-Slot-Components_epm",
+      "lessonFile": "6-Layouts-&-Slot-Components_epm",
+      "source": "class-subtitle/module 4/6-Layouts-&-Slot-Components_epm/6-Layouts-&-Slot-Components_epm.vtt",
+      "chunkNumber": 3,
+      "start": 458.9,
+      "end": 492.64,
+      "duration": 33.74,
+      "startTimestamp": "00:07:38.900",
+      "endTimestamp": "00:08:12.640",
+      "captionStart": 106,
+      "captionEnd": 113,
+      "tokenCount": 113,
+      "captions": 8
+    }
+  }
+]

@@ -1,0 +1,191 @@
+[
+  {
+    "id": "mini-project-3-implementing-homescreen-add-other-components_epm_chunk_0001",
+    "text": "Alright guys and welcome to chapter number three. In this chapter we are going to implement our one of the biggest part of this entire mini project which is the home screen because home screen itself is going to have a lot of features. So this will take us some time to implement but it's fine we are here to implementing it so don't worry. So, first of all, let me just clear everything. Let's go inside app, screen, home screen. Easy. So the first thing that I wanted to tell you before start developing it, all the design, all the styles related object will be copy and pasted. object and you also need not to write anything from by yourself because eventually this is going to take so much of time. So that's why I just prepared this we have container object, we have content, we have bunch of other thing. Now let me just simply import this. Colors.background. So this color have other objects, other properties. We are just simply using it. Perfect. In same way, I have content, search content, filter, list content and center. Easy. nothing rocket science perfect cool. Now let us move ahead and start implementing this. So for implementation first thing that I wanted to do is to first of all let us go inside the types dot. TS in navigation and now instead of saying this any yes now I wanted to call this Pokemon detail. So, let me just call this a Pokemon detail now we have successfully fixed it perfect. Now you can close it let us go to home screen. And, first thing first, let's import our navigation. This is going to be use navigation which is coming from react navigation. Perfect. And this is going to be the type of home screen navigation prop. This have this root stack pram and the home. Easy. Perfect. Let's add bunch of state variables that we need. So, let me add all of that. So, first state variable is loading. So, then another one is going to be the master list, all the list that we have. Then we have search text because definitely I am going to add here searching feature, then we have select type like in chips format, in chip format you will going to see all the types that we have like B8 fire, B8 ice, electric, etc. that we have. So, first of all let's implement the fetch data method. So, the fetch data method is going to work on the basis of pagination. So, for that we need one more state variable name as page and setPage. This is going to be useState and useState of 1. Initially we are on page 1. So, on one page we are showing the 20 we can say data. So, I can definitely say the page size is going to be 20, easy. So, on the one page we are showing the 20 data that is all. Perfect, now implement the fetch data method, so that is going to be const fetch data is equals to async and this async is going to be simple set loading as true. Then set page initially by default we have one but let's set this as one as well and after that what going to be here is simple try and catch. And now inside this try I will say if selected type if we have selected type then we are going to fetch on the basis of type. So, this will going to become cons list is equals to await get Pokemon by type and then I will pass the selected type. Otherwise, I am simply going to add here the else. So, this else is going to be just give me a minute. Cool. So this else is going to be simple const data is equals to await get Pokemon, Pokemon list and then let me show the data I want and then Pokemon list is accepting the limit.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-3-implementing-homescreen-add-other-components_epm",
+      "lessonFile": "mini-project-3-implementing-homescreen-add-other-components_epm",
+      "source": "class-subtitle/module 3/mini-project-3-implementing-homescreen-add-other-components_epm/mini-project-3-implementing-homescreen-add-other-components_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0.719,
+      "end": 296,
+      "duration": 295.28,
+      "startTimestamp": "00:00:00.719",
+      "endTimestamp": "00:04:56.000",
+      "captionStart": 1,
+      "captionEnd": 64,
+      "tokenCount": 777,
+      "captions": 64
+    }
+  },
+  {
+    "id": "mini-project-3-implementing-homescreen-add-other-components_epm_chunk_0002",
+    "text": "going to fetch on the basis of type. So, this will going to become cons list is equals to await get Pokemon by type and then I will pass the selected type. Otherwise, I am simply going to add here the else. So, this else is going to be just give me a minute. Cool. So this else is going to be simple const data is equals to await get Pokemon, Pokemon list and then let me show the data I want and then Pokemon list is accepting the limit. Like by default this is 20 but I am passing 1000 like I want 1000 and we are fetching that. But then we are going to show only 2020 in batches of 20 kind of, then simply say const master list. And this is going to be data.results. Perfect. Nice. And by any chance, if we have any error, then I'm. Basically, we're going to show the console error. You can even alert it. And then we have a finally. Finally is also going to show us set loading as false. Perfect. So, this is a fetch data method. This fetch data is going to be called inside this use effect. This use effect is simply going to call this fetch data by a simple dependency as selected type. So if we have selected any type, then we are going to recall this easy. Perfect. Now let add the filtration logic as well. So I will simply say const filt filtered list is going to be used memo. important to use. And this use memo is basically going to have if we don't have any search text, then we directly going to return the master list. But if we have any kind of search text, then we are going to filter that very easy to implement simple. So, this is going to be master list filter. Let me just simply say if p.name dot includes whatever the search text you have to lowercase. So then we are going to return this and we have the dependency as master list and then another thing is going to be search text. In same way I am going to create for display list the simple thing. Let me show you what I am talking about. I will say const display list is equals to use memo. This will going to simply say return filtered list slice them from starting to page into page size. This means if you are on page number 1. So, from page number one into 20, so I wanted to show only, I just wanted to display 20 data, but if you are in page two, then into two, basically multiply 20 once again, so this will become 40, so then I now wanted to show the previous 20 plus now 20, so 20 20 batches kind of like that. Now, this is going to be filtered text list basically and then we have this page. Perfect. And one simple method which is going to be const handle card. Press is equals to going to accept the Pokemon and this is going to be the type of Pokemon detail and this is going to be navigation dot navigate towards the Pokemon detail page and look at the type safety. This is the beauty of it. Type script and then we have the data that I also wanted to pass this Pokemon data. Simple. Cool, now let's start implementing this. So this view is first of all going to have a style. This style is going to be styles.container. Perfect. And then inside this I am going to have a status bar. This status bar will come from expose status bar. is going to be as light. And then just one minute, let me self close this easy. And then I'm going to create here a component name as app header. This app header is going to have a title as Pokédex. And then I'm also going to pass another prop as show logo. Cool. Now let's move ahead and start creating this app header component.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-3-implementing-homescreen-add-other-components_epm",
+      "lessonFile": "mini-project-3-implementing-homescreen-add-other-components_epm",
+      "source": "class-subtitle/module 3/mini-project-3-implementing-homescreen-add-other-components_epm/mini-project-3-implementing-homescreen-add-other-components_epm.vtt",
+      "chunkNumber": 2,
+      "start": 255.02100000000002,
+      "end": 562.02,
+      "duration": 307,
+      "startTimestamp": "00:04:15.021",
+      "endTimestamp": "00:09:22.020",
+      "captionStart": 57,
+      "captionEnd": 127,
+      "tokenCount": 796,
+      "captions": 71
+    }
+  },
+  {
+    "id": "mini-project-3-implementing-homescreen-add-other-components_epm_chunk_0003",
+    "text": "This status bar will come from expose status bar. is going to be as light. And then just one minute, let me self close this easy. And then I'm going to create here a component name as app header. This app header is going to have a title as Pokédex. And then I'm also going to pass another prop as show logo. Cool. Now let's move ahead and start creating this app header component. So, let me come into here, close everything and inside this app create component folder. So, now we have this components inside this components first component is going to be as app header. So, this app header dot tsx Rn fes app header let me save it and then let me import it easy. Now let me save here. and only focus now on App header. So, this app header is first of all going to have bunch of things like first thing that we have is the react, then we have image, then we have platform. Just to identify this is OS, this is Apple or iPhone. Then we have status bar as react native status bar. Then we have style sheet, text and view. Then we also have safe area view, which is coming from react native safe area context. Then, let me add the interface for it. So, the interface is going to be title, write action and show logo. And then this is going to be we have title, we have write action, then we have show logo which is by default is false. And then type is going to be app header props. Easy. No problem. Perfect. Now, inside this. First, we have view. First of all, let me just paste all the design that we have. Again, you can do the same and let me import my colors constant. So we have all the background related design like for padding top if the platform is Android. Do something like this. Otherwise this is zero and then we have content, then we have title, then we have logo and title and write is empty for now. You can definitely implement this by yourself. Now let me import the logo. So from where you can get the logo, you can simply come into here and search for Pokemon logo. and you can install. But if you don't want it to do this, you can check my the source code for this in future and then you will get that as well. So let me grab it and paste the logo into the images that we have. Replace it, so not this logo, yeah, this one, cool, so this is our logo, easy, you can download from internet and get from my source code as well. Now it's up to you how you wanted to use it. Now inside this app header. Very basic design, first thing is we have view, this view is going to have a style and the style is going to be as styles.container. Perfect, now look at that and after adding this we are going to have a safe. area view that we have from safe area context and then inside this we are going to have another view. This view is going to have a style of styles.content. Perfect. And then we are going to have another view. This view will check is show logo is true. If this is true, then I wanted you to do what? I wanted you to show the image from react native and then render that. How you can render that source? Simple require. This require is coming from dot dot slash dot dot slash assets. this assets we have image then we have logo dot png easy and then we have again style this style dot logo then we have resize mode as contain easy and if I save it look at the logo you can definitely remove the background and only show this ball it's up to you. Inside this view you will simply say style and this style is going to be as styles.title",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-3-implementing-homescreen-add-other-components_epm",
+      "lessonFile": "mini-project-3-implementing-homescreen-add-other-components_epm",
+      "source": "class-subtitle/module 3/mini-project-3-implementing-homescreen-add-other-components_epm/mini-project-3-implementing-homescreen-add-other-components_epm.vtt",
+      "chunkNumber": 3,
+      "start": 528.66,
+      "end": 825.199,
+      "duration": 296.54,
+      "startTimestamp": "00:08:48.660",
+      "endTimestamp": "00:13:45.199",
+      "captionStart": 120,
+      "captionEnd": 187,
+      "tokenCount": 789,
+      "captions": 68
+    }
+  },
+  {
+    "id": "mini-project-3-implementing-homescreen-add-other-components_epm_chunk_0004",
+    "text": "How you can render that source? Simple require. This require is coming from dot dot slash dot dot slash assets. this assets we have image then we have logo dot png easy and then we have again style this style dot logo then we have resize mode as contain easy and if I save it look at the logo you can definitely remove the background and only show this ball it's up to you. Inside this view you will simply say style and this style is going to be as styles.title container and if I save it alright and then out of this here I wanted to show my title. So we are going to use the text and this is going to be the title. Let me import the text which is coming from react native and the style is going to be very basic as styles.title and if I save it this is how this Pokedex is going to look and in same way if we have any kind of write actions out of this view we are going to show that. Cool. So, but right now we don't have it. So that's why we are showing this. Perfect. Now, let's move ahead and close this. Once again, go to home screen. Inside the home screen below this app header, I wanted you to do what? Open one more new div, one more new view. Then, we are going to have a style. This style is going to be styles.content. Easy and if I save it, this is how they are going to look. And then we are going to have another view. This view is also going to have style, which is simple styles.searchcontainer. And this is going to have a search input component. which is again inside the component folder. So here I am going to create another which is name as search input dot tsx rn fes and this is going to become sear ch search input. Simple let me save it and let me just import it in a while. Cool. So this search input is going to have a bunch of icons. So I'm just simply going to copy and paste that and let me import my colors. I will import that in a while. In same way, let me drop all the styles that I have. Perfect. And let me import my colors. So I have style for container icon and input. And then we are going to have a simple interface which is on clear and then they are going to accept the on clear. We can also accept the style and then all the other props that you need. So you can simply say dot dot dot props and then this is going to be as search input props. Simple. And then let us design this. So let me just simply paste it. You can also un-copy and paste it. We don't have much here. So we have simple of view. This view have a style.container and then we have icon name as search size of 20 and then bunch of color and style. Then a simple text input. And if we have any value then we are going to show this close circle. Easy, and if I save it and go to my screen, home screen and then if I get a search input, this search input is going to have first of all the value. Value is going to be the type of search text. Then we are going to have a on change. change is going to be as setSearchText. On change, this is not on change. This is on change text. Then you can simple add the placeholder, which is going to be search Pokemon dot dot dot simple. And look at that. How beautiful they look. And you can say on clear. simply, call this and simply say set search text to the empty and if I save it, if I write something you will see this and if I cross this you will see this, I mean something like this, cool, perfect. Now, let us move ahead and start implementing other which is name as filter chips.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-3-implementing-homescreen-add-other-components_epm",
+      "lessonFile": "mini-project-3-implementing-homescreen-add-other-components_epm",
+      "source": "class-subtitle/module 3/mini-project-3-implementing-homescreen-add-other-components_epm/mini-project-3-implementing-homescreen-add-other-components_epm.vtt",
+      "chunkNumber": 4,
+      "start": 783.8,
+      "end": 1075.36,
+      "duration": 291.56,
+      "startTimestamp": "00:13:03.800",
+      "endTimestamp": "00:17:55.360",
+      "captionStart": 181,
+      "captionEnd": 248,
+      "tokenCount": 798,
+      "captions": 68
+    }
+  },
+  {
+    "id": "mini-project-3-implementing-homescreen-add-other-components_epm_chunk_0005",
+    "text": "And look at that. How beautiful they look. And you can say on clear. simply, call this and simply say set search text to the empty and if I save it, if I write something you will see this and if I cross this you will see this, I mean something like this, cool, perfect. Now, let us move ahead and start implementing other which is name as filter chips. So, what is that filter chips? of this div here, you will simply going to say view. This view is going to have a style and this style is going to be as styles.filterContainer and then let us create another filter chips component. So into this I can simply say filterChips.tsx easy and then rnfes filterChips. And you can again import it and do so. But now this filter chips is going to have two main thing. Perfect. So, now we have let me import. Although we don't need this view, you directly need a scroll view. Perfect. Then we have style sheet, text and touchable opacity. Simple components. So, first of all I need my scroll view as horizontal because I horizontally wanted to do so that then we have show horizontal indicator no I do not wanted to show any indicator then container style is going to be styles.container. We don't have the styles for it. So let me get all the styles and let me paste it. So now let me also import colors. So now we have container, chips design, active chips, text and active text. Perfect. Nice. Now, this is going to have first thing is touchable opacity. So, let me show you and let me paste it. So, this touchable opacity is going to first of all have a selected type. So, this selected type is coming as a prop and on select type this is basically going have interface. So, this interface is going to be the type of filter chips props easy. So, now we have selected type and on select type. This touchable opacity have bunch of styles you will seeing a lot of advanced thing, but this is very easy to understand and on press we are just setting that to null. Same, we are applying the style and all and if I save it, you will see nothing because we haven't used it. So let me go to my screen and let me import my filter chips and then pass the data. So the first thing is going to be selected type is going to be the type of selected type. And, then another thing is onSelectType is going to be setSelect, not setSearch, setSelectType. Perfect. And, look at that. Now, we have this all. Easy. Perfect. And not here you what you can do, you can cut this out, open this and here. Yes. Now, if I save it, you will see the all at the top of it. Now after this touchable opacity, what we need to do is to just again simple copy and paste and then show all after the all out of this opacity. Let me paste it. So, first of all we are importing all the Pokemon types we have, we have all of that running a simple map over it kind of and then we are rendering all of that same and for every type we are getting the color and applying the design on the basis of that and look at that. Now if I go to normal the color of normal is this if I go to fire the color of fire is this. I scroll towards the end, you will see something like. this, easy, simple style, nothing is happening, we are only writing the front end right now, got it, that's why I am not telling you too much of thing and then text, a simple text it and then we are showing and we are just converting to the upper case all every first letter, simple JavaScript logic.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-3-implementing-homescreen-add-other-components_epm",
+      "lessonFile": "mini-project-3-implementing-homescreen-add-other-components_epm",
+      "source": "class-subtitle/module 3/mini-project-3-implementing-homescreen-add-other-components_epm/mini-project-3-implementing-homescreen-add-other-components_epm.vtt",
+      "chunkNumber": 5,
+      "start": 1049.38,
+      "end": 1333.48,
+      "duration": 284.1,
+      "startTimestamp": "00:17:29.380",
+      "endTimestamp": "00:22:13.480",
+      "captionStart": 242,
+      "captionEnd": 306,
+      "tokenCount": 789,
+      "captions": 65
+    }
+  },
+  {
+    "id": "mini-project-3-implementing-homescreen-add-other-components_epm_chunk_0006",
+    "text": "is this. I scroll towards the end, you will see something like. this, easy, simple style, nothing is happening, we are only writing the front end right now, got it, that's why I am not telling you too much of thing and then text, a simple text it and then we are showing and we are just converting to the upper case all every first letter, simple JavaScript logic. Close this, close this, close this as well and this is your home screen. Easy. Perfect. Now, below this home screen, now let do bunch of other thing as well. So, out of this view like this filter chips and here. Yes. Now, what I am going to do open this I am going to share if we are in loading state end. Page count is equals to equals to one then wanted to show something otherwise wanted to show something else. So if we are on page number one then I am simply want to show a view. This view is basically going to show me activity indicator with color first of all let me get this activity indicator perfect and this activity indicator will come from react native. So, this will come from react native and the color is going to be accent emerald. So, kind of that and let me just design it as well. So, the design for it is going to be very center nothing else style is going to be as styles dot center nothing going to show to us because we need to use here the flat list. So, this is going to be flat list. Plat list, first of all, always accepting the display list that we wanted to show. Then we have key extractor that is going to have the access of items and this will become the item.name and then we have render item. This render item is going to have the access of item. Open this and then we are going to create something known as Pokemon card. We don't have that right now. This Pokemon card is going to have a name, name as item.name and then URL is going to be as item.url and then on press. We are going to do so with a simple handle cardpress simple and then out of this render, first of all, I wanted to show it content container style is going to be styles dot list content and then on and reached. Yes, the moment you reached on end, I wanted to create a load more method. Listen to me carefully above this below this. So load more method will just going to increase the count of page. So simply going to call this as load more and this is going to be as if display list dot length is less than filtered list dot length. Simple, then simply do what? Set page as the previous value whatever we have is going to be previous plus 1. Simple, so by doing so this you will load the next set of data. Easy and then you can add the threshold like on and reached threshold. So what is this threshold? The point where we need to trigger this on and reached. Perfect. So if you just reach towards this toward like something here we are going to call this load more method. Easy, now let's create this our last component which is Pokemon card and this is quite easy component. Again simple UI. Let's go to component and create Pokemon. card.tsx, rnfes and Pokemon card. Save this, import this. Easy? Perfect. Now this Pokemon card is going to have bunch of thing to import. Like we have use effect, use state, then activity indicator, image, style sheet, touchable opacity, text view, then two methods. One is get Pokemon detail and a type, which is this Pokemon detail. Easy. Now, first of all, let me going to create here the interface. Interface is going to accept the name, URL and onPress. Let me destructure all of them. Name, URL and onPress.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-3-implementing-homescreen-add-other-components_epm",
+      "lessonFile": "mini-project-3-implementing-homescreen-add-other-components_epm",
+      "source": "class-subtitle/module 3/mini-project-3-implementing-homescreen-add-other-components_epm/mini-project-3-implementing-homescreen-add-other-components_epm.vtt",
+      "chunkNumber": 6,
+      "start": 1309.221,
+      "end": 1620.08,
+      "duration": 310.86,
+      "startTimestamp": "00:21:49.221",
+      "endTimestamp": "00:27:00.080",
+      "captionStart": 301,
+      "captionEnd": 363,
+      "tokenCount": 788,
+      "captions": 63
+    }
+  },
+  {
+    "id": "mini-project-3-implementing-homescreen-add-other-components_epm_chunk_0007",
+    "text": "card is going to have bunch of thing to import. Like we have use effect, use state, then activity indicator, image, style sheet, touchable opacity, text view, then two methods. One is get Pokemon detail and a type, which is this Pokemon detail. Easy. Now, first of all, let me going to create here the interface. Interface is going to accept the name, URL and onPress. Let me destructure all of them. Name, URL and onPress. This is going to be the type of Pokemon card props. Then we are going to have two state variable. One is detail and another one is loading. So, now we have detail, set detail, loading, set loading. And now, like we have one kind of hosted URL from where you can basically get the image. So, for that you need to do some hack. Very simple hack for it. We need to first of all extract the id from the URL. So we will simply going to say id string is equals to URL dot split from here and then filter it. Yes, simply pass the Boolean and then pop it. Simple, so after it we are popping it up, so now we have this id and then let me just create this towards id string will going to be parse int str, we are converting this into integer otherwise we are returning 0 and then simple for image URL you need to write this. This is how you can basically extract it. So we have HTTPS, raw GitHub user content, Pocky API, sprites, master sprites, Pokemon, other official artwork and the ID and then simple PNGs. This is how we can extract it. So nothing rocket science. Then let me simply call this use effect. We are going to have a let mounted as true initially just for hydration thing just to get rid of hydration. Then we have const detail is equals to async. And, this async is basically going to have a try and catch. Simple. So, for try the imported method is going to call very simple. So, this is going to be const data is equals to await get Pokemon detail pass the id. And then if mounted is true. which is and then we can do what set detail as the data and then set loading as false and by any chance if we have any error and we are mounted then simply do what set loading to false. And, then after this you will basically call this fetch detail method and you can unmount this as well. So, by just simply calling this you will simply say mounted as false and then pass the dependency of id. Easy, and then let us also create const handle press is going to be this and if we have detail, this is going to be on press as detail. Cool. And then first of all, let me grab all the designs that I have. You need not to write anything. Look at that. We are rendering all the cards that we have. Now let me simply save it here. Let me import my colors. Cool. All the design, all the color related design, whatever. Cards, we have image container, we have image, we have info, ID, name, type, a bunch of things. Simple, and first thing that I wanted to use here the touchable opacity. This is going to have a style. Style will be simple, styles.card and if I save it and look at the card, how beautiful they look. And in same way we have here the onPress method. This will going to call the handlePress method that we have created. Then activeOpacity is 0.7 and then disable when we are loading it. Easy. Now, inside this going to open a view. This view is going to have a styles of styles dot image container. Yes. And I think we don't have view. So let me import it. And inside this I wanted to show the image. Let me import image as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-3-implementing-homescreen-add-other-components_epm",
+      "lessonFile": "mini-project-3-implementing-homescreen-add-other-components_epm",
+      "source": "class-subtitle/module 3/mini-project-3-implementing-homescreen-add-other-components_epm/mini-project-3-implementing-homescreen-add-other-components_epm.vtt",
+      "chunkNumber": 7,
+      "start": 1585.6,
+      "end": 1902.58,
+      "duration": 316.98,
+      "startTimestamp": "00:26:25.600",
+      "endTimestamp": "00:31:42.580",
+      "captionStart": 355,
+      "captionEnd": 425,
+      "tokenCount": 799,
+      "captions": 71
+    }
+  },
+  {
+    "id": "mini-project-3-implementing-homescreen-add-other-components_epm_chunk_0008",
+    "text": "This will going to call the handlePress method that we have created. Then activeOpacity is 0.7 and then disable when we are loading it. Easy. Now, inside this going to open a view. This view is going to have a styles of styles dot image container. Yes. And I think we don't have view. So let me import it. And inside this I wanted to show the image. Let me import image as well. This image is going to have first of all the source. Source is equals to URI which is going to be image URL. And if I save it, cool. we need to add. style for it, so style is going to be as styles.image and if I save it, boom, all the images that we are fetching, look at that, how beautifully we are fetching it and they are not fetching it once because we are using flat list, so you will see a proper. So, I am loving it. Cool. Now, let us move ahead. They start or they already start looking good. Now, inside this, I will say this as resize mode, contain, perfect. Now, let us create this info view. So, out of this, let me create this view. This view is going to have a style of what? styles.info, perfect. First thing is going to be show the ID of it. Perfect. So, styles.id. Perfect. Let me get my text. Text will come from react native. And if I save it, these are the ID that we have. And the another is going to be the name of it. Perfect. So, the name of it going to be something like this. Cool. First letter we are capitalizing them. So that's why I am writing something like this. Cool. And then out of this text, we are going to have this view. And, this view is going to be style and styles dot types. Perfect. And, then below this if we are in a loading state then I am wanted to show a loader which is named as activity indicator. Perfect. Otherwise, I wanted to show my type badge. that is not available for now. So first of all, let me get my activity indicator simple and then inside the detail that we have cool. So let me just come into here. We have this detail. have something known as types. And then type is going to be the type of array, then simply run my map method over it. This map is going to return a type and then I am going to simply say type a batch which we don't have right now. So, this type badge is going to have a key which is t.type.name and then we have the type and on the basis of this type we are again going to guess the color of it. Cool. So, type.name. Now, let's move ahead and start creating and I'm just directly going to copy and paste this component. So, this is going to be type badge. .tsx and let me paste it. Easy. So, let me first of all get this color. So, how this is working? Let me explain you. So, we have imported bunch of thing. We have simple interface. Then we have one component name as type batch and we are getting the type color on the basis of type. Easy. And then we are showing that background color as this. Simple, and if I save it and if I import that here and save this, look at that how beautifully we are able to render all of that onto our screen. And if you just simply press on normal, you will see that we are on normal. If you simply press on fire, alright. I think bulbos or electric they are showing all of that. So we need to implement this, do not worry. So this is how you can basically show that type of it. Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-3-implementing-homescreen-add-other-components_epm",
+      "lessonFile": "mini-project-3-implementing-homescreen-add-other-components_epm",
+      "source": "class-subtitle/module 3/mini-project-3-implementing-homescreen-add-other-components_epm/mini-project-3-implementing-homescreen-add-other-components_epm.vtt",
+      "chunkNumber": 8,
+      "start": 1860.46,
+      "end": 2149.42,
+      "duration": 288.96,
+      "startTimestamp": "00:31:00.460",
+      "endTimestamp": "00:35:49.420",
+      "captionStart": 416,
+      "captionEnd": 497,
+      "tokenCount": 793,
+      "captions": 82
+    }
+  },
+  {
+    "id": "mini-project-3-implementing-homescreen-add-other-components_epm_chunk_0009",
+    "text": "Simple, and if I save it and if I import that here and save this, look at that how beautifully we are able to render all of that onto our screen. And if you just simply press on normal, you will see that we are on normal. If you simply press on fire, alright. I think bulbos or electric they are showing all of that. So we need to implement this, do not worry. So this is how you can basically show that type of it. Cool. Now let us go to home screen once again because this is not working. So, on the home screen first of all let me clear and format everything properly. So, the main thing is this display list cool this display list where is that have using this use memo. Perfect, and yes, this is our mistake. I do not think so that we did any kind of mistake, but still let me just try to recopy and paste them. So, if we do not have any search text, return the master, otherwise show the filter this then simple display something like this. And now let me just reload it once. Perfect, so alright let me see how we can see all of that. Perfect, like that we have this filter chips and I think filter chips is not working because if I search for let's just say Pikachu, so yes look at that this is coming Pikachu whatever is that, I don't remember the name of all of them, like if I just search for CHAR, so this is working. This is working perfectly fine, but my chips is not working. Cool. So, there is something wrong with our filter chips. I think we forget to complete it. So, first of all, let me format this and let me see where we can fix it. Cool. So, onto the Pokemon types, you will see that we are returning the on select type. So, this on select type should change but this is not changing it. Perfect, we have this on select type and if it is selected then make the as null otherwise pass the type whichever we are selecting. Yes, this is what I wanted to do. But that is not if I click on normal, if I click on fire. cool. Click on fire, still getting this, click on water, still getting this electric, still getting this. So, set selected and the selected type that we have is also fine. So, what is happening? Let me research it. Alright. So, actually the issue is very simple. Like inside the fetch data. We are selecting the type but we are never basically updating that. So like we are getting this list but we are never updating it. So for doing so that it's going to be very simple. You just simply need to call set master list as whatever the list is coming. Simple and now look at that. If I click on normal, all the normal we have, if you click on let's say flying, all the flying Pokemon, psychic, bug, rock and how beautifully everything is working, perfectly fine. So yeah, this is quite big chapter, quite hard chapter, but this is definitely worth it if you just try to write everything by yourself once again you will understand everything. So yes, this is pretty much it for this chapter number 3 and see you in chapter number 4.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-3-implementing-homescreen-add-other-components_epm",
+      "lessonFile": "mini-project-3-implementing-homescreen-add-other-components_epm",
+      "source": "class-subtitle/module 3/mini-project-3-implementing-homescreen-add-other-components_epm/mini-project-3-implementing-homescreen-add-other-components_epm.vtt",
+      "chunkNumber": 9,
+      "start": 2116.14,
+      "end": 2356.339,
+      "duration": 240.2,
+      "startTimestamp": "00:35:16.140",
+      "endTimestamp": "00:39:16.339",
+      "captionStart": 490,
+      "captionEnd": 539,
+      "tokenCount": 677,
+      "captions": 50
+    }
+  }
+]

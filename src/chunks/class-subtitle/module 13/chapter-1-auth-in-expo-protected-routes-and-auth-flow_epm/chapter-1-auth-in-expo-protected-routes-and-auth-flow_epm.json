@@ -1,0 +1,128 @@
+[
+  {
+    "id": "chapter-1-auth-in-expo-protected-routes-and-auth-flow_epm_chunk_0001",
+    "text": "Alright everyone and welcome to one more new module and the name of this module is authentication in Expo. So in this entire module we are going to see with the help of Expo how you can implement authentication to your application. First of all we are going to understand about something known as protected routes in Expo then we are going to see with the help of Expo router, how you can implement credentials login, how you can implement Google and GitHub login and then with the help of third party providers like BetterAuth, like Clerc and bunch of other providers as well. So the motive of and the agenda of this chapter is to understand about how authentication in Expo actually work. And because of that, we are going to learn about something known as navigation auth flow. So the main name of this chapter is navigation auth flow. Alright, so without wasting any time, let's get started. First thing is authentication is a critical part of 90 to 95 percent of modern apps. We know that. This guide explain common methods, patterns and solution to help you implement authentication in your expo app. Alright, so TLDR initially they are giving you. Auth is hard. If you want to skip the complexity, jump to the Auth solution section. Alright. For ready-made solution otherwise keep reading. So if you simply press on auth solution you will find bunch of them better auth clerks, superways, cogrito, fireways auth but it's fine let me skip this we will come to it later but right now first of all let's understand about the core mechanism of it nice. So first thing that we wanted to understand about something known as navigation auth flow. So, let us start with the basic, any authentication system, yes, need to separate public screen such as login or sign up from protected screen such as home or profile. At the navigation level. It comes down to a simple check is the user authenticated or not. So, if user is authenticated let them access protected route easy, but if user is not authenticated then only allow them to access the public screens. Yes. So, to begin you can simulate this using a hard coded Boolean value. Yes, we are also going to use the same like is authenticated as true and build your navigation logic around it. Once everything is working, you can plug in your real authentication flow. So we wanted to use a expo router and you will find something known as protected route and then simply press over it. Protected routes are available in SDK 53 and later. Yes, we are using the later version. Don't worry. I think it's 54. So overview protected screens. allow you to prevent user from accessing certain routes using client-side navigation. If a user try to navigate to a protected screen or if a screen become protective, while it is active, they will redirect to the another route, usually the index screen or first available screen in the stack. So I think let's move ahead and start implementing it. So, for that what I will do basically let me just simply copy this perfect and after copying it and definitely let us move ahead and first of all create one application. So, bunx create expo app at the latest so and dot slash. Let's just wait for the installation then I will be right back. Alright now let's move ahead and let's just simply reset it. So run a reset project. This is basically going to reset my project. Simply say no and we are done. Perfect. Now if I simply run. Bunnx Expo start hopefully I'm writing the right command. This is basically going to start my applications development server and I can simply press on A. So this is going to open module 13 inside my expo go application. Right now we don't need a development build. We need that when we are going to implement Google or Apple authentication. All right. or GitHub authentication. So we'll see that later.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-1-auth-in-expo-protected-routes-and-auth-flow_epm",
+      "lessonFile": "chapter-1-auth-in-expo-protected-routes-and-auth-flow_epm",
+      "source": "class-subtitle/module 13/chapter-1-auth-in-expo-protected-routes-and-auth-flow_epm/chapter-1-auth-in-expo-protected-routes-and-auth-flow_epm.vtt",
+      "chunkNumber": 1,
+      "start": 1.039,
+      "end": 291.8,
+      "duration": 290.76,
+      "startTimestamp": "00:00:01.039",
+      "endTimestamp": "00:04:51.800",
+      "captionStart": 1,
+      "captionEnd": 68,
+      "tokenCount": 790,
+      "captions": 68
+    }
+  },
+  {
+    "id": "chapter-1-auth-in-expo-protected-routes-and-auth-flow_epm_chunk_0002",
+    "text": "Simply say no and we are done. Perfect. Now if I simply run. Bunnx Expo start hopefully I'm writing the right command. This is basically going to start my applications development server and I can simply press on A. So this is going to open module 13 inside my expo go application. Right now we don't need a development build. We need that when we are going to implement Google or Apple authentication. All right. or GitHub authentication. So we'll see that later. But right now this is what we have. All right. So right now if I go to my app, perfect. Let's say we have this index.tsx. No problem. In the same way, let's say I have this private.tsx. Perfect. Rn fes. And I can simply say this as private. Easy, and inside this if I just redirect my user towards the slash private page and I'm just redirect towards this private page. So this is going to work. We know that. There is no problem into it. So, let us say let me just simply coming to here and let me import the link from expo router easy no problem and then instead of using text let me simply use here link easy and this link is basically going to accept the href and I wanted to go private look at that and inside this I can. simply open this hopefully this will work and I can add here a simple text that will show me go to private easy and let me change this color to green alright so now you can see we are able to see the go to private perfect now if I press on go to private. I am onto my private page but one thing that you can observe here we are without authenticating a user without checking something I am allowing my user to access my private route this is very wrong. So how I can protect my private route and even my index route I only wanted to user I only want my user access this login.tsx. Perfect, rafce and not rafce, rnfes and login. Easy, I want my user can only access the /login page and if they are not authenticated then they let me show you. Perfect, let me change this to red. Perfect, now if I say go to login, perfect, easy, no problem, but I don't want my user to access my index or to access my private route. How I can implement that? Now there are various approaches to implement that. One approach is you will always maintain a straight variable is authenticated true or false. on the basis of that if the value of that state variable is true. Perfect. Let me explain you then you will let's say this is your private page, but only authenticated user can access that. So one basic thing what you will do you will basically add here a simple check. That check will run on use effect something like that and if user is authenticated then allow them to access otherwise redirect them to the same page. Perfect redirect them to the login page. So this is the basic thing so we are just checking it easy but this is quite lengthy procedure. Xpo router provide you something very interesting and let me show you that how. For that you need to go inside your layout easy and inside this layout first of all remove everything coming to here and then simply say this as stack. First of all we wanted to maintain here something known as is logged in, just a mockup data we can say is logged in is equals to false, easy the value of my is logged in variable is false, no problem, easy just give me a minute let me off my AI. And, then what I can do I can create here two route groups. How? I will show you. Inside this I can simply say stack and now this stack have something known as protected. Yes, this is something very interesting and this protected is now going to open a stack.screen",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-1-auth-in-expo-protected-routes-and-auth-flow_epm",
+      "lessonFile": "chapter-1-auth-in-expo-protected-routes-and-auth-flow_epm",
+      "source": "class-subtitle/module 13/chapter-1-auth-in-expo-protected-routes-and-auth-flow_epm/chapter-1-auth-in-expo-protected-routes-and-auth-flow_epm.vtt",
+      "chunkNumber": 2,
+      "start": 256.86,
+      "end": 547.56,
+      "duration": 290.7,
+      "startTimestamp": "00:04:16.860",
+      "endTimestamp": "00:09:07.560",
+      "captionStart": 58,
+      "captionEnd": 125,
+      "tokenCount": 791,
+      "captions": 68
+    }
+  },
+  {
+    "id": "chapter-1-auth-in-expo-protected-routes-and-auth-flow_epm_chunk_0003",
+    "text": "we can say is logged in is equals to false, easy the value of my is logged in variable is false, no problem, easy just give me a minute let me off my AI. And, then what I can do I can create here two route groups. How? I will show you. Inside this I can simply say stack and now this stack have something known as protected. Yes, this is something very interesting and this protected is now going to open a stack.screen and now you can give the name of the screen. So, we have lot of name one of them is going to be login. Easy and they have something known as guard. Perfect and this guard is behave on the basis of is logged in. So if user is logged in just listen to me carefully. If logged in user is false. Perfect then we will allow them to access this login page. So we can say that this is your public route. making sense, no problem, so what I will do, I will add here one exclamation mark, why? Because if the value is false, just listen to me carefully, if guard is true then I wanted my user to access this. Perfect, let me show you first of all then you will understand that in much better way, do not worry. Right now let me just simply say protected, one more protected route easy and inside this let me pass a guard and this guard is going to be as is locked, easy, nice and then what I will do I will only show my private page here, perfect. So, this is the first thing easy and what I will do let us say I do not want it to and even I can add my index page here. So, I can simply say screen and name is going to be as index and this. Alright, so just listen to me carefully, perfect. Now you will see just listen to me, the value is false, perfect. And when I adding here not of is logged in, this mean this is going to be not of false, so not of false will become true. So what I am saying here, if the guard value is true, wherever this true is going to become, I am going to render that page, got it. So, right now my logged in value is false and you can see that I am not be able to access my private and index page. How I can access that? Simply by changing this value to true. Perfect. And interestingly when the value is true you will be, let's coming to here and let me try to read it. Where is that? Okay, let me read this, see in this example the /private route is inaccessible because the guard is false, so when the guard value is false this means that specific route is not accessible, right now this is true, so which route is not accessible, this one, why not of true is always false. So, that is why, so if the value is false when a user attempt to access /private basically let me change this to private easy, so now you will see I am only able to access this route not this one perfect. So, in this example the /private route is inaccessible because the guard is false. When a user attempt to access /private they are redirected to anchor route which is index screen. Okay, additionally if a user is on /private/page on the guard condition change to false they will be redirected automatically. Yes, we have already seen that we are automatically redirecting. Interestingly, whichever the nearest, whichever the nearest first unprotected route, unprotected route we will be redirected towards that. Let me show you what I am talking about. If I make it true, you will see I am redirected to this private, not to this index. Why? Look at that, why? Because this is nearest to the stack.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-1-auth-in-expo-protected-routes-and-auth-flow_epm",
+      "lessonFile": "chapter-1-auth-in-expo-protected-routes-and-auth-flow_epm",
+      "source": "class-subtitle/module 13/chapter-1-auth-in-expo-protected-routes-and-auth-flow_epm/chapter-1-auth-in-expo-protected-routes-and-auth-flow_epm.vtt",
+      "chunkNumber": 3,
+      "start": 513.26,
+      "end": 786.64,
+      "duration": 273.38,
+      "startTimestamp": "00:08:33.260",
+      "endTimestamp": "00:13:06.640",
+      "captionStart": 119,
+      "captionEnd": 178,
+      "tokenCount": 777,
+      "captions": 60
+    }
+  },
+  {
+    "id": "chapter-1-auth-in-expo-protected-routes-and-auth-flow_epm_chunk_0004",
+    "text": "will be redirected automatically. Yes, we have already seen that we are automatically redirecting. Interestingly, whichever the nearest, whichever the nearest first unprotected route, unprotected route we will be redirected towards that. Let me show you what I am talking about. If I make it true, you will see I am redirected to this private, not to this index. Why? Look at that, why? Because this is nearest to the stack. If I just make it to the top and now if I save it, perfect, let me show you, let me first of all make it false. So now I am in login, let me make it true once again and save it. Look at that. Now I am into my index page and if I try to go to private, definitely I can go. But now if I go to login, I am not be able to access that login page. This is how. You can protect your routes. So this is the single level protection. In same way we can have multiple level of protection. How let's say this is index and private is a protected route. In same way we can have a profile page. So profile.tsx, rnfes, profile easy let me save it. And, let me go to my index page. Inside this index page, let me copy this private, let me paste it, let us go towards the profile page. Easy, and let me make it to blue and let me simply say profile. And if I save it, now if I press on go to profile, you will see I am on to the profile page. Perfect. Why? Because they are not included anywhere. So I need to protect them. Perfect. What I am saying? I need to explicitly protect my route. So how I can protect that? Very easily. I can say stack.screen name, name is going to be as profile and yep done. Easy, so now if I make it false and if I save it you will see I am again on to my login page then if I make it true then I am again to my index page I wanted to go to profile now I am profile I wanted to go to private now I am in private let me go to login no you can't. This is how you can basically implement this in same way. Let's see how you can implement nested routing very easy nothing rocket science here. Let's say this is your settings and inside this setting let me what I will do inside the settings I will say user settings. dot t s x r n f s user settings easy no problem simply go to layout copy any one of them paste that then simply say settings slash user settings that's all. Now your settings slash user setting is also protected. So, this is your protected routes making sense I hope this is very easy not rocket science at all let me show you that first of all let me format it this is your profile this is your login let me try to copy this once again let me paste it. Or let just search for user settings, perfect and let me add an indigo color, hopefully this will work and user settings and now if I save it, ok, now if I press on user settings now I am inside my nested route. But what if? I make this a false. This means this will become again protected and I am only going to redirect it towards my public router. Now if I save it, I am into my login. But if I login once again, so whichever the first one into the stack, I am redirected to that first page. So make sure to keep that in mind. Always keep your index file or whichever your main file to the top into the stack. Easy, nice. In same way, we can even create something known as protected tabs. So how you can create tab? Same thing, simply coming to here, alright into this app settings and you can simply create one route group for tabs.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-1-auth-in-expo-protected-routes-and-auth-flow_epm",
+      "lessonFile": "chapter-1-auth-in-expo-protected-routes-and-auth-flow_epm",
+      "source": "class-subtitle/module 13/chapter-1-auth-in-expo-protected-routes-and-auth-flow_epm/chapter-1-auth-in-expo-protected-routes-and-auth-flow_epm.vtt",
+      "chunkNumber": 4,
+      "start": 758.741,
+      "end": 1029.42,
+      "duration": 270.68,
+      "startTimestamp": "00:12:38.741",
+      "endTimestamp": "00:17:09.420",
+      "captionStart": 170,
+      "captionEnd": 238,
+      "tokenCount": 799,
+      "captions": 69
+    }
+  },
+  {
+    "id": "chapter-1-auth-in-expo-protected-routes-and-auth-flow_epm_chunk_0005",
+    "text": "But if I login once again, so whichever the first one into the stack, I am redirected to that first page. So make sure to keep that in mind. Always keep your index file or whichever your main file to the top into the stack. Easy, nice. In same way, we can even create something known as protected tabs. So how you can create tab? Same thing, simply coming to here, alright into this app settings and you can simply create one route group for tabs. So let me simply say this as. tabs and again this tab is going to have a layout.tsx and in same way we can have multiple data for it. Let's say inside this tab let me paste this data. So we have a feed and we have account. So let me add a feed.tsx, Rn fes. pd and in rnfes pd okay and in same way I can have account. So let me simply say account.tsx rnfes account easy no problem perfect. Now what we can do we can even protect this tab how simply go to the root tab. And again, simply copy this stack screen and inside this what you can do instead of this, let me just simply add the tabs I have. Perfect. And whenever I visit to slash tab and whatever the page that is and in same way we need to add the group for this. like inside this index and then and only we are able to access that. So let's try a slash not slash settings. I think now we need to go inside the tabs. Perfect. Let me try to go to tabs. Okay, and let me change this to go to account. We'll see this is work or not. If I simply say go to account and yes, look at that. Now I am inside the tab section and this is protected. Again you can modify this. You know everything how we can modify this pages, how we can simply go to the settings and implement all the properties that we have. I don't want it to recover that perfect because we already have a basic understanding of it how we can design it easy so this is how you can basically protect your routes or protect your tabs again if I simply say this as false I am again on my login page very easy very simple yes Suraj we are understanding everything very well and if yes then make sure to drop your feedback. In same way you can protect your drawers as well. How you can protect your drawers are very simple. Nothing rocket science again add here a drawer easy inside this drawer you can again have underscore layout dot t s x and then let me again add here something known as just happened. Okay, react navigation door could not be found within the project. Okay, no problem, we will install that and maybe we can install something like this. Has no exported member. Okay, maybe I think drawer will come from something else. Alright, so very easy. I know these are bunch of dependency that we need to install. So let me simply say, expo router drawer perfect and hopefully I will find the right documentation. And yes, this is that. Hopefully this will open and yep, then simply copy from here till here. Let me open this. Let me open one more new terminal and hit it. So this is going to install all the dependencies that we need to use drawer. All right, and after this, yes, we are good to go. Let me just simply coming to here and let me again import that from drawer. Okay, hopefully I am importing from the drawer. a right place. Yes, let me repaste it easy and this will work now. Don't worry the moment I reload it. Let's add two different pages. Well, one is going to be for dashboard dot TSX R and FES and another one is going to be for if I'm not wrong, that will be reports reports dot TSX.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-1-auth-in-expo-protected-routes-and-auth-flow_epm",
+      "lessonFile": "chapter-1-auth-in-expo-protected-routes-and-auth-flow_epm",
+      "source": "class-subtitle/module 13/chapter-1-auth-in-expo-protected-routes-and-auth-flow_epm/chapter-1-auth-in-expo-protected-routes-and-auth-flow_epm.vtt",
+      "chunkNumber": 5,
+      "start": 996.54,
+      "end": 1294.26,
+      "duration": 297.72,
+      "startTimestamp": "00:16:36.540",
+      "endTimestamp": "00:21:34.260",
+      "captionStart": 230,
+      "captionEnd": 294,
+      "tokenCount": 792,
+      "captions": 65
+    }
+  },
+  {
+    "id": "chapter-1-auth-in-expo-protected-routes-and-auth-flow_epm_chunk_0006",
+    "text": "Let me just simply coming to here and let me again import that from drawer. Okay, hopefully I am importing from the drawer. a right place. Yes, let me repaste it easy and this will work now. Don't worry the moment I reload it. Let's add two different pages. Well, one is going to be for dashboard dot TSX R and FES and another one is going to be for if I'm not wrong, that will be reports reports dot TSX. RNFES reports and yep, now let's move ahead and just quickly check that out. So let me close everything and after closing this first of all, let me go to my layout and let me also copy this. Let me also paste this and name this to drawer. Perfect. And in same way I can go to my index page and let me redirect user towards the drawer perfect and inside this drawer let me take them to the dashboard no problem easy and let me save it and go to dashboard and if I save it let me coming to here let me close everything Let me rerun my application and hopefully this will work right now. Let me close everything. Let us again go to expogo and after again going to my expogo. Perfect. We have this module 13. My server is still loading. I think we are good. Let me again press on module 13. Alright, so now our Android is bundled and hopefully this will work. Start working here, why it is loading. Okay, let me close this once again. Let us go to expo go once again. Let me once again close everything. Birnix expo start. This is normal. There is no, nothing to worry into it. Alright, so just give me a minute. Hopefully this will open now. And after this, I can simply press on A. So this is going to open onto the Android and yes, they have identified my screen. Okay. Module 13. Nice. I think this will work now. Hopefully this will work without any issue. And, yes now you can see that we have all of the routes and I think this is the high time to change the colour. So, I will change this to which colour let me change this to black and if I save it hopefully this is saving it. Let me go to the dashboard and yes, now you can see that we are on dashboard and yes, this is not showing we can definitely fix it. We have a dashboard, we have reports. This is perfectly fine and the moment I go to my layout and make it as false and now I am on to my login page. Amazing. So, this is how you can basically implement the public and protected routes inside the expo router be it single route, be it multiple route, nested route, tabs. Or draw in same way you can implement for models. Now you got the point perfect. So this is just a basic introduction on the protected routes inside the expo from the next chapter we are actually going to implement the email and password authentication and then again same with all. Google, GitHub and maybe Apple and then we will see how you can implement with the help of clerk with the help of better auth we will see that so amazing job this is the end of the chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-1-auth-in-expo-protected-routes-and-auth-flow_epm",
+      "lessonFile": "chapter-1-auth-in-expo-protected-routes-and-auth-flow_epm",
+      "source": "class-subtitle/module 13/chapter-1-auth-in-expo-protected-routes-and-auth-flow_epm/chapter-1-auth-in-expo-protected-routes-and-auth-flow_epm.vtt",
+      "chunkNumber": 6,
+      "start": 1260.84,
+      "end": 1497.82,
+      "duration": 236.98,
+      "startTimestamp": "00:21:00.840",
+      "endTimestamp": "00:24:57.820",
+      "captionStart": 287,
+      "captionEnd": 349,
+      "tokenCount": 670,
+      "captions": 63
+    }
+  }
+]

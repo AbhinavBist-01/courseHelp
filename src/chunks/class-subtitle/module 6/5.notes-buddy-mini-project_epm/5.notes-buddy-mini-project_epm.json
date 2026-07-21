@@ -1,0 +1,107 @@
+[
+  {
+    "id": "5.notes-buddy-mini-project_epm_chunk_0001",
+    "text": "Hey everyone and welcome to one more new mini project video. In this video we are basically going to build a nodes buddy with the help of xposequelite so that we can understand more about xposequelite and how you can build your offline first mobile applications. Alright, so for that first step is going to be install our application and reset that. Cool. And first of all, let me clear it and then this is going to be 1x create Expo app at the latest. So with that, let me just simply initialize inside a folder name as notes buddy and then I'll be right back. And now we have successfully installed it. The next step is simply going to be burn run and then reset project. So with the help of that they are going to reset it and then let me simply say no. Let me reset it. No. All right. Now we are good to go. So the first step is always bunnux. Expo start. So with the help of this we have started our Expo dub server. I can simply say A. The moment I press A my application is up and running into my physical device which is connected to my system and you are able to see this. Alright, now you can see that we have index at the top and then this edit app/index.tsx to edit this screen. Now let's move ahead and first step is going to be very very very easy and that is going to be first of all initialize our all the we can say database related functions and basically install a SQLite. Perfect. So, for that let me open it up and simply say bunx expo install expo sqlite perfect and then let me simply hit this. Now our expo SQLite installed successfully in less than one second and then let me close this and inside the. folder structure, I can create here a DB file in this DB we can have index.ts file and then let me just import bunch of utilities. I can simply say import asterisk as SQLite from SQLite. Expo or SQLite. Perfect and then first thing is always going to be create a variable with the proper typing, which is good. So simply say let DB this is going to be the type of SQLite. SQLite database. All right and this is or maybe this can be null. So right now initially this is going to become null and then I am going to create here we can say database which is basically simple. I can simply create const get data base is equals to async. And this is basically going to call this and then if we do not have a DB initialize basically. So then I am going to say DB is equals to await SQLite.openDatabaseAsync and then name of the data. So we are creating a notes buddy. So I can simply say notes.db. And then I'm going to create a table which is simply going to have a ID and then title and we can say content and then it's created at simple. So I can say await db.executeAsync and then simply add here a backticks and the query is basically going to be. Create table if not exist yes if not exi exist name of that table is nodes and the type is is going to be first we have a id which is type of integer. And then we are going to have a primary key constraints basically and then this is going to be auto increment and then simply add here a comma and then we can have a title. So this is a title which is type of text. Yes, basically that. Data type of it, we can say that. And then we have a content. This is also type of we can say text. And then we have a created created at. And this is also going to be the type of text. Easy. And this is basically going to return a DP. Perfect. Now this is your get database function. In same way I can simply create export const init database is equals to async and then this",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "5.notes-buddy-mini-project_epm",
+      "lessonFile": "5.notes-buddy-mini-project_epm",
+      "source": "class-subtitle/module 6/5.notes-buddy-mini-project_epm/5.notes-buddy-mini-project_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0.96,
+      "end": 329.34,
+      "duration": 328.38,
+      "startTimestamp": "00:00:00.960",
+      "endTimestamp": "00:05:29.340",
+      "captionStart": 1,
+      "captionEnd": 68,
+      "tokenCount": 793,
+      "captions": 68
+    }
+  },
+  {
+    "id": "5.notes-buddy-mini-project_epm_chunk_0002",
+    "text": "Yes, basically that. Data type of it, we can say that. And then we have a content. This is also type of we can say text. And then we have a created created at. And this is also going to be the type of text. Easy. And this is basically going to return a DP. Perfect. Now this is your get database function. In same way I can simply create export const init database is equals to async and then this is going to simply call await get database. Easy. In the same way, I am going to basically add three different functions. Alright, so the first is going to be for adding the notes. Second is for we can say getting the note updating and deleting. So let me just simply add all of them at once and you can pause this video and write all of them one by one. So the first we have get notes. This is a async. Returning a promise of type any. Getting our database. And then returning this get all sync. We are basically calling it in same way. We have add note in same way. We have update note and then delete note easy. Perfect. Now we are done with the main logical part. Now what I can do, I can simply close this and then I can go to my we can say first of all layout file inside this layout file. I can do something like this. Add a fragments first thing that we need a status bar and make sure to import that from expo status bar much better. And then this is going to be the style of light because we are going to create our node sample into the dark mode. And then I'm basically going to say here. And this stack is going to have a screen options, which is basically going to have a header shown option and header shown is going to be pulse because we don't wanted to show any header and then if I remove it and self close this, this is how this basically going to look and then I'm going to change the background colors. So inside, we have a the screen option itself, I can say content style is going to have a background color and this background color is going to be #121212 and now if I save it, look at that how beautifully we have aligned everything. Cool? Yes, we are done with this layout.tsx file as well. Now, move inside our index.tsx file and this is the main file where we wanted to write our main business logic. So, first thing first I wanted to initialize and import bunch of thing that we need. So, we need this much of thing. We need a use effect, use state, bunch of flat list, model, style sheet, text, text input, touchable opacity and view. And now we have this inside the @/db so that if I go to here, now I am able to access all my functions that we have. No problem. Perfect. Now let's move ahead and then initialize all the state variables that we need. So, and let me also import, let me also create here an interface for the notes. So the interface note, this is basically going to be the type of ID, title, content and created it. Perfect. So now you guys can see that we have a notes, use state, model visible state, editing note state, title and content. They both are just for forms or thing. Easy. So the first thing that I wanted to do every time when I come to my this index.tsx, I wanted to initialize my database. So I can simply say use effect. and run this function and add empty dependency inside this function I am basically going to have a function which is going to say const setup and this is equals to async and then I will say await init database no problem. And let's say I also wanted to load my notes. So I can also say await load notes.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "5.notes-buddy-mini-project_epm",
+      "lessonFile": "5.notes-buddy-mini-project_epm",
+      "source": "class-subtitle/module 6/5.notes-buddy-mini-project_epm/5.notes-buddy-mini-project_epm.vtt",
+      "chunkNumber": 2,
+      "start": 291.039,
+      "end": 591.5,
+      "duration": 300.46,
+      "startTimestamp": "00:04:51.039",
+      "endTimestamp": "00:09:51.500",
+      "captionStart": 58,
+      "captionEnd": 130,
+      "tokenCount": 791,
+      "captions": 73
+    }
+  },
+  {
+    "id": "5.notes-buddy-mini-project_epm_chunk_0003",
+    "text": "So the first thing that I wanted to do every time when I come to my this index.tsx, I wanted to initialize my database. So I can simply say use effect. and run this function and add empty dependency inside this function I am basically going to have a function which is going to say const setup and this is equals to async and then I will say await init database no problem. And let's say I also wanted to load my notes. So I can also say await load notes. Easy but you will see that we have don't have any method related to it. I will create it in a while and then I will call a simple setup. Easy. Now let's move ahead and first of all create a load notes method. This is quite straight forward. I will simply say const loadNodes is equals to async function and this async function is simply going to say const allNodes is equals to await getNodes. Easy and then setNodes is equals to allNodes. Perfect. In same way, I can create a, we can say save, handle, save, handle, edit a lot of things. So first of all, let's move ahead and start. First of all, let me paste all of my styling related thing so that we can see something out of it. So, let me come into here and paste this. So these are all the styles that we are going to use. Perfect. You can also copy and paste it directly. Need not to write anything by yourself. If you wanted to write, you can definitely write. We have a container. Then we have a bunch of headers. header title for adding button for button text. Same with all the empty states, notes card, model overlay, input, cancel, save button text, a lot of them. Easy. I just don't want it to waste your time on writing the CSS. That's why I'm wasting it out. I hope so you guys able to understand that strategy. Easy. So the first thing I wanted to do. is to inside this view like let me remove everything. Let me just initialize a view. This view is basically going to have a style and style is going to be the type styles.container. This is first and inside this view at the top level. We are going to have this view which is rendering a text which is saying as notes and then add button which is calling a handle new note and the moment you press simple plus this handle new note will going to call and then you will see a model that is basically prompting you to add the title and we can say description. So, first of all let me create a handle new note function. So, the handle new note is simply I can simply say handle new note is basically going to be something like this and then first thing is going to be set editing note as null. Set title as empty and then set content as empty as well and then just make model visible true so that the moment you click over it, your model visible is become true and on the basis of that true condition, we can render a model here. So, after this what I can do out of it I can show all the content that I am writing. So, bill out of this view here I will going to render my items, but right now we do not have anything related to items. So, no problem I will do it in a while. But for now... We are good to go. So let me come into here and now what we can do, we can let me first of all initialize all the methods that we need. So right now we have added handle new note in same way I can add a handle delete so that the moment you call a handle delete you will going to call a delete note which is accepting ID of a node. and we are running this delete query. I don't think so that I need to explain this very",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "5.notes-buddy-mini-project_epm",
+      "lessonFile": "5.notes-buddy-mini-project_epm",
+      "source": "class-subtitle/module 6/5.notes-buddy-mini-project_epm/5.notes-buddy-mini-project_epm.vtt",
+      "chunkNumber": 3,
+      "start": 550.36,
+      "end": 821.5,
+      "duration": 271.14,
+      "startTimestamp": "00:09:10.360",
+      "endTimestamp": "00:13:41.500",
+      "captionStart": 123,
+      "captionEnd": 185,
+      "tokenCount": 790,
+      "captions": 63
+    }
+  },
+  {
+    "id": "5.notes-buddy-mini-project_epm_chunk_0004",
+    "text": "We are good to go. So let me come into here and now what we can do, we can let me first of all initialize all the methods that we need. So right now we have added handle new note in same way I can add a handle delete so that the moment you call a handle delete you will going to call a delete note which is accepting ID of a node. and we are running this delete query. I don't think so that I need to explain this very much and then we are again calling a load notes. So, this is going to load the new notes. In same way, I am going to add the handle edit method. So, the moment you edit some note you will going to get a pre popped up title and content and then notes data and this model visible is again going to become true. In the same way, we also have a handle save method. So handle save method is just try to understand. We have a two type of save. One you wanted to edit something and another one you wanted to add a new note. So whenever you wanted to edit, so edit note, simple call this thing if we are in editing mode, but else simply call add note. And then bunch of resetting and again load new nodes. Easy. Perfect. Let's move ahead and then simply create a variable name as render node. This render node is basically going to have item. And this item is going to be the type of note that we have perfect. Then I am going to call this. Now this is basically going to render a touchable opacity, something like this. So we have a touchable opacity. which is having a style of note card on press. They are calling handle edit easy and then a view and a text inside the view. We are rendering a text with whichever the title is inside that specific note and then a delete something like this cross one easy. Perfect, now what I can do, I can simply coming to here and out of this view, I can render here a flat list. Yes, I can render here a flat list. This flat list is going to accept the notes data like the notes array we have. So, first of all, I can pass the data as notes. Second thing I can say what I wanted to render. So, I wanted to render my render notes component that I have created. Easy. Then what I wanted to do? Then, I wanted to get a key extractor. So, the key extractor is id simple. So, I can say item dot id dot to string so that this everything is in string and then simply add a container style. So, now we have a container style. So, if length is zero, then add empty container style, otherwise add a style list. So, now if we have us empty component, this means we don't have any notes, then I wanted to render something like this, a view, which is basically rendering this icon, this emoji, which is saying no notes yet. and then tap plus icon to create your first. Perfect. So why I am not be, why I am getting this is not assignable to void is if I try to save it, look at that. The moment I have saved it, you will see we don't have any notes. That's why we are getting this. We have all the, so the moment you click over it. Let's move ahead and create a model view so that the moment you click, I wanted to show here a model and we can use it. But right now you will see inside this notes, this is completely empty. That's why we are rendering this list empty component, which is basically showing us this. All right. I hope so. This is making sense. Now let me create a model. So we have a model coming from react native. And this model is only visible when model visible state variable is true like this one.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "5.notes-buddy-mini-project_epm",
+      "lessonFile": "5.notes-buddy-mini-project_epm",
+      "source": "class-subtitle/module 6/5.notes-buddy-mini-project_epm/5.notes-buddy-mini-project_epm.vtt",
+      "chunkNumber": 4,
+      "start": 795.54,
+      "end": 1060.48,
+      "duration": 264.94,
+      "startTimestamp": "00:13:15.540",
+      "endTimestamp": "00:17:40.480",
+      "captionStart": 179,
+      "captionEnd": 243,
+      "tokenCount": 798,
+      "captions": 65
+    }
+  },
+  {
+    "id": "5.notes-buddy-mini-project_epm_chunk_0005",
+    "text": "here a model and we can use it. But right now you will see inside this notes, this is completely empty. That's why we are rendering this list empty component, which is basically showing us this. All right. I hope so. This is making sense. Now let me create a model. So we have a model coming from react native. And this model is only visible when model visible state variable is true like this one. This is only going to visible when model state visible is equals to true and we have animation type. We can say a slide type of animation we need and then make it a transparent which is going to be true. And then inside this I wanted to have a view. So, this view is going to have a style of model overlay so that they can blur all the things behind the model. So, I will simply say model overlay easy and then inside this we can have a main model content. So, I am just copy and pasting that. You guys also do so this no, no problem at all. And then let me try to explain you. So inside this model overlay, first of all, let me format it and then I'll try to explain you. All right. So now we inside a model overlay, we have a model content view. First, we have a text input for title, then we have a text input for content and then we have or you will see two buttons. First one is a cancel button, second one is a save button and that save button basically we can say this is a touchable opacity basically you can touch that kind of and this is basically calling a handle save method. Easy, so now if I save it and if I click on plus icon look at that now we are getting this and let us say I have added a notes here learning about expo. And then I can say simple hello world, Suraj from this side. And the moment I press on save, I have to call that data. But all right, due to some reason, they are not rendering our file. It's fine. Let me just try to check that out. Why we are not be able to. render our data because we are writing something like this. So we need to explicit return it. So instead of curly braces we need to add this here. Yes and now if I save it look at that. This is our created. notes. And if you click over it, you will basically popping up the handle edit model. So the moment you are editing it, we are already popping the data which already exists and you can definitely aside. I will simply say edited and then if I save it and if I open it again, you will see that we have edited in same way. The moment I press on cross, I will delete it. I can again add some random data. Let me save it. You can add multiple notes as you wanted to look at that. How beautifully we have created this app and you can delete it in real time and everything is offline. Yes, you need not to get any database and then connect over here and then you should apply any CRUD operation. No, you can do that with the help of Xpo SQLite. Cool. So, I hope so you guys able to understand. I have not writing this much of code because they are just a repetitive code and they are just for UI purpose. So the main thing is your logic that how you can use it, how you can basically use the features which available inside Xposed. That's the main goal. All right. So, yes this is pretty much it for this mini project. I hope you love this project and this is pretty much it for this entire module and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "5.notes-buddy-mini-project_epm",
+      "lessonFile": "5.notes-buddy-mini-project_epm",
+      "source": "class-subtitle/module 6/5.notes-buddy-mini-project_epm/5.notes-buddy-mini-project_epm.vtt",
+      "chunkNumber": 5,
+      "start": 1029.581,
+      "end": 1281.059,
+      "duration": 251.48,
+      "startTimestamp": "00:17:09.581",
+      "endTimestamp": "00:21:21.059",
+      "captionStart": 235,
+      "captionEnd": 301,
+      "tokenCount": 759,
+      "captions": 67
+    }
+  }
+]

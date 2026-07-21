@@ -1,0 +1,44 @@
+[
+  {
+    "id": "01_eas-workflows_epm_chunk_0001",
+    "text": "Alright beautiful people, welcome to one more new chapter, in this chapter we will basically going to get the basic introduction about EAS workflows, alright. Now what is this EAS workflows? So learn how to use EAS workflows to automate your react-native CI/CD development, continuous integration, continuous development and release processes, perfect. So what is the prerequisite? First prerequisite is you need a basic expo account, then you need a project and make sure that you have basically sync your project with EAS. So we already have this application which matches all the criteria that we have. After that what you can do you can basically create one EAS JSON file and simply put all of the things that we need to add. Now what is the first step for working with EAS workflows? So for that create a directory name with the name of.eas. So I have already created one directory name with the name of let me show you that. Okay the name is basically.eas. Perfect. So this is the directory name, inside this directory name you just need to create one workflows and at the root of your project with.yml file inside of it. So for example.esworkflow create production build.yml anything can be there and this is just a simple example for creating your production build. So the moment you make any kind of commits to your github then this Jobs will automatically going, the moment you push anything to your EIS, this job will automatically going to trigger for you. So what you need to do right now is simply just make sure that you will go to your expo dashboard. After going to dashboard select any of your project or what you can do, yes let me just select my where is unit flow, ok this one and what after selecting this application just Move here and search for github. And make sure you will basically go and connect your GitHub application. Okay, this is very, very, very important. The moment you connect your GitHub application, you basically need to configure the EAS build for you. Let me show you that with any other example that we have. Maybe I can show you inside this EAS demo. I don't know. So for that, yes, I can simply press on GitHub and I wanted to connect the specific. What is the name of it? Let me just search for mobile development, wait a minute, ok. So this is the mobile dev that we have or ok, chai or mobile dev 2026, this is the basic a repo that we have and the name of it is basically let's just say EAS demo. And then what I can do, I can simply press on save. So the moment I save, this is the entry point I wanted to have. After that, I basically wanted to configure my EAS workflow. So I can simply press on get started. The moment I press on get started, what I can do, I can again press on get started. I already have all the builds simple then. Okay. Yes. First thing they are asking you to create this. We already I have already created that inside my currently working application, but you can even create your own and then simply again press on continue. Then this is a bunch of command. This is how you can basically run your workflow. Okay, and that's it. So what I can do, let me copy this command and let me show you simple one example and that's it because this workflow thing is something that is your DevOps engineering team will more of more often decide. So you just need to see that this is how you can basically configure it. So, I have already created one simple hello world dot eml application. So on push yes whenever I wanted to push something onto my main branch then I wanted to run this hello world job that will going to console hello world and hello Suraj for me. So how I can run this very simple.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0,
+      "end": 247.44,
+      "duration": 247.44,
+      "startTimestamp": "00:00:00.000",
+      "endTimestamp": "00:04:07.440",
+      "captionStart": 1,
+      "captionEnd": 62,
+      "tokenCount": 789,
+      "captions": 62
+    }
+  },
+  {
+    "id": "01_eas-workflows_epm_chunk_0002",
+    "text": "that's it because this workflow thing is something that is your DevOps engineering team will more of more often decide. So you just need to see that this is how you can basically configure it. So, I have already created one simple hello world dot eml application. So on push yes whenever I wanted to push something onto my main branch then I wanted to run this hello world job that will going to console hello world and hello Suraj for me. So how I can run this very simple. Let me simply paste this which is npx, as, cli, at the rate latest workflow run and the name of that workflow should be let me show you that that should be hello world and let me just simply press enter. So what this will going to do? This will going to trigger this specific workflow for me. And look at that using workflow file from this specific path and they are basically compressing my project file and uploading to AAS already uploaded but it's okay. So everything will this everything effect will going to show us inside the unit flow because this is just for demonstration purpose I wanted to show you but where is my unit flow this one. And the moment I basically come here and let me just show you look at that. These are some basic workflows that I have run previously. They're actually uploading the archive to EAS. We can wait for it. All right guys, amazing. And look at that. They have basically uploaded EAS JSON uploaded package and this is the workflow which have actually run for us. And let me show you that this is the hello world workflow. This is the workflow file that we have and they are actually running for us. Look at that. This is the logs and this is the waiting for start. Okay. Let just wait for it. Not only this let me show you something one more very interesting thing is let's just say let me just delete all the other workflows as well and they are actually running maybe they will take some time and let me just make some basic changes and after this let me just commit this and push into my github. This is on push. And then if I just once again come here look at that. Now these are the two jobs which is actually running. This is the first job which is completed right now. Look at that. This is the hello world that I basically got inside my console and this is the second job which is still running and this will again actually this is your manual run actually. But this is run on the basis of your git push but not only this you can actually learn more about other I can say that the triggers event about it these are just basic theories you have to do a very basic research like what are all the type of builds I can create. Okay let me show you other examples as well like you can actually schedule this actual build on 2 am every day. So, this is your on schedule and this is your cron job and this is some basic job you have to run. In same way this is the moment you push anything onto the main branch these are basic things we need to go through. In same way we have the preview build like the moment workflow dispatch like on manual I can say that and then this is the build Android and this is basically what I need to get. So, these are some of the basic stuff you can do with the help of expo preview, expo workflows, this expo workflow is paid initially but right now this is free for most of the user, so make sure to use this, do a basic research about it and look at that this is also working for us and there is nothing more to tell you about EIS workflows for now, so with this I can say that yeah this is pretty much it for it and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "01_eas-workflows_epm",
+      "lessonFile": "01_eas-workflows_epm",
+      "source": "class-subtitle/module 14/01_eas-workflows_epm/01_eas-workflows_epm.vtt",
+      "chunkNumber": 2,
+      "start": 218.881,
+      "end": 445.3,
+      "duration": 226.42,
+      "startTimestamp": "00:03:38.881",
+      "endTimestamp": "00:07:25.300",
+      "captionStart": 56,
+      "captionEnd": 114,
+      "tokenCount": 765,
+      "captions": 59
+    }
+  }
+]

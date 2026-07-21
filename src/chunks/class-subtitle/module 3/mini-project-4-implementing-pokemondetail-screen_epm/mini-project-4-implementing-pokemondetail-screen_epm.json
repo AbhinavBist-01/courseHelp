@@ -1,0 +1,86 @@
+[
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_chunk_0001",
+    "text": "All right, everyone, and welcome to chapter number four. In this chapter, we are going to implement the Pokemon detail screen. So the moment you click on any Pokemon card, you are going to be redirected towards the detail page of that specific Pokemon. So this chapter is all about that. So let's move ahead and without wasting any time, start implementing it. So, for that definitely you just simply need to click on any of the Pokemon and you will be redirected to this empty screen. So, let me just click it once again and let us move inside this Pokemon detail page and start implementing it. So, for that definitely first of all, let me just paste all my styles related thing and definitely you guys also need to do the same. So, let me paste all the styles related thing first of all. So, let me import my colors. So, you will see that I have container header safe area and lot of bunch of CSS related things. Cool. Perfect. Let's move ahead. And start importing bunch of other thing as well. Like let me just simply write here const route and let me off my AI. Perfect. So const route is equals to use route and make sure to import from react navigation. And this route is going to be the type of Pokemon detail screen route prop, perfect because they have this Pokemon detail and Pokemon detail is the type of this simple basic typescript thing. And then let me also initialize my navigation, navigation should also come from expo navigation And then let me extract my Pokemon from route params. Why this is coming from route params? Because every time when let me go to home screen and then let you know. So every time when you click on any card you will see that we are calling this function name as handle card press. And by pressing here we are navigating to this page by this data. So this is what I am talking about and we are extracting that. Cool. And then let me just simply write here the main type and this is going to be as Pokemon dot types the 0 because a Pokemon can have multiple types but let me just simply extract the 0th index type. name and let me just get the color of it. So, accent color is equals to get type color and then let me just pass my main type effect. And then let me start implementing the design. So the first thing is going to be view, which is the type of styles.container. And then inside this, let me also import this status bar. And this status bar will also basically come from a component named as status bar. For now, let me just import this specific status bar from expo status bar. Perfect. So, below this just simply says status bar and make sure to import that from expo and then add the style as light and then let me simply paste it. Cool. And then below this, let me handle the scroll area. So, let me simply say this as scroll view. This scroll view is first of all going to accept a prop as show vertical scroll indicator and this is going to be as false. And inside this scroll view, I wanted to show my header image area. So, I am just simply going to say this as view perfect and this view is basically going to have bunch of style. So, let me just first of all open here array and first is going to be header perfect and cool and then second after adding simple comma let me just simply say this as background color has co colors dot card. Perfect. Look at that. This is what I'm talking about. And then below this, let me have a safe area view. Make sure to import this from area context. And, then we are basically going to have a style. This style is also going to be equals to styles.safeArea. And then inside this I am going to render one view and this view is going to show us the iron icon of arrow back.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0,
+      "end": 309.24,
+      "duration": 309.24,
+      "startTimestamp": "00:00:00.000",
+      "endTimestamp": "00:05:09.240",
+      "captionStart": 1,
+      "captionEnd": 66,
+      "tokenCount": 794,
+      "captions": 66
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_chunk_0002",
+    "text": "color has co colors dot card. Perfect. Look at that. This is what I'm talking about. And then below this, let me have a safe area view. Make sure to import this from area context. And, then we are basically going to have a style. This style is also going to be equals to styles.safeArea. And then inside this I am going to render one view and this view is going to show us the iron icon of arrow back. Perfect, so let me paste that, you will see that and let me import my iron icons from vector icons, the name of arrow back, size, color and go back and if I save it, this is how they are going to look. But let me just add bunch of styles here as well. So this is going to be styles.navbar and now if I save it, this is how they aligned properly. Perfect. And then below this, I wanted to show my Pokemon ID. So this is going to be a simple hashtag. And then inside this, let me get this string. And this string is going to accept Pokemon dot and we have the ID for it. Let me just simply say pad start. This is going to be something like this and if I save it, this is how this #0001 looks to us. Then, let me simply add one style here as well and then I am simply going to say this as styles.headerId and now if I save it, this is how they look. Perfect, now out of this view let me coming to here, let me open one more new view, this view is going to have a style of styles.imageContainer, so this will become now image container and this image container is going to show us the image. So, now let me import my image component from react native. So, now this is how my store, source of it. So, Pokemon sprites other official artwork. This is how they come and front default and this is the style of image and if I save it, this is the style of our opened tabbed Pokemon. Let me show you once again. Let me search for electric and let me press on Pikachu. You will see that the image is showing off Pikachu. Easy. And you can definitely grab multiple images as well. Like below this you can add basic carousal kind of thing. And like we have front default in same way we can have back side as well. If you search for it, then you can also render that if you wanted to. Perfect, now out of this view like you will see that we have this scroll area and let me remove this text and out of this scroll area and this view I wanted you to do one thing more and first of all this is a scroll and this view. Cool. So, this is basically going to be something like cool. So, you will see that we have the scroll area, scroll view basically not scroll area. So, this one is for header and below this we wanted to show the content. So, simply here I am just basically going to open one more new view and this view is going to have a style, styles of content. not container, this is going to be style of container. And first thing we wanted to show the name of our basically Pokemon. And now if I save it, the name is coming something like this. Perfect. And let me also try to format it. And this is how they look. And we can also render the type badges of it. So this will going to become now view. This view is going to have a style and this style is going to become styles.typeContainer and inside this let me just simply render them. So Pokemon.types.map and they are going to have the access of type, all the type, implicit return it. And now I wanted to use the previously created type batch component.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "chunkNumber": 2,
+      "start": 271.8,
+      "end": 555.3,
+      "duration": 283.5,
+      "startTimestamp": "00:04:31.800",
+      "endTimestamp": "00:09:15.300",
+      "captionStart": 57,
+      "captionEnd": 119,
+      "tokenCount": 785,
+      "captions": 63
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_chunk_0003",
+    "text": "And let me also try to format it. And this is how they look. And we can also render the type badges of it. So this will going to become now view. This view is going to have a style and this style is going to become styles.typeContainer and inside this let me just simply render them. So Pokemon.types.map and they are going to have the access of type, all the type, implicit return it. And now I wanted to use the previously created type batch component. And this is going to accept the t.type.name and then also going to accept the type and this is going to be t.type.name once again and then size is going to become large. Now, if I save it, this is how they are going to show us. Perfect. Now, out of this div, simply let's create a about section. So let me just wrap this. thing only and here I just simply wanted to create about section so this is going to become one more new view. This view is going to have a style and then style is going to become now styles.section perfect and this style section is going to show us the about text some with this bunch of styles something like this. And then here I simply wanted to show a bunch of weight, height, lot of information that we have. So let me just open one more view. This view is going to have a style, style of styles.row. And then we are going to have another view. And this another view is also going to have a style, style of styles.statitem. This stat item is going to have another view and this view is going to show another style, which is basically equal to styles.staticon. Perfect. And then I am going to show the scale outline icon, something like this. And if I save it, this is how the scale outline icon going to show to us. Perfect and then below this I wanted to show the text out of this view. So this one like if I save it. Alright why they are coming at this point? So let me check and then I'll be right back. All right, our design is already fine. Just come here a minute. Let me save it because this will basically going to show in kind of an grid format. That's why the name is row. So no, no problem. We are doing good. So you will see that we have this view. You just need to copy this view and paste it once again. And now instead of showing this scale outline I wanted to show the resize outline. And instead of weight, I am going to say this as height and then this is going to become your height and instead of kg, this will become meter. Perfect. And if I save it, this is how they are going to look to us. Cool. Now, in same way, we have another item as well, StatItem. So let me paste it once again. And then now instead of like everything is same, StatItem. But now we don't need any icon for this. Instead of icon, I need a basic text. So let me paste that text. which is basically going to style.status label, which is as moves and then for moves, I am going to show all the moves that we have. So let me remove this and let me paste this only. So you will see the moves is now static. Perfect. You can even add here on the like multiple moves can have different icons. And then on the basis of ability name, you can render that icons as well. So take that as an assignment and try to implement by yourself. You can use AI for that as well. So no problem in it. Not at all. You can use AI, but while learning, try to avoid using that and write code by yourself so that your muscle memory could build. And then you can understand things very clearly. Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "chunkNumber": 3,
+      "start": 516.08,
+      "end": 807.58,
+      "duration": 291.5,
+      "startTimestamp": "00:08:36.080",
+      "endTimestamp": "00:13:27.580",
+      "captionStart": 111,
+      "captionEnd": 180,
+      "tokenCount": 792,
+      "captions": 70
+    }
+  },
+  {
+    "id": "mini-project-4-implementing-pokemondetail-screen_epm_chunk_0004",
+    "text": "And then on the basis of ability name, you can render that icons as well. So take that as an assignment and try to implement by yourself. You can use AI for that as well. So no problem in it. Not at all. You can use AI, but while learning, try to avoid using that and write code by yourself so that your muscle memory could build. And then you can understand things very clearly. Perfect. So now out of this style.rows, I wanted to create another style. So our about section is done. Cool. So this content section is basically like this content have this thing. something known as this section so this is your about section is done let's create another section so let me call this once again view and same thing nothing different style and this style is again going to become styles dot section easy Now, this style.section first of all going to show me the base status that why I have this and then I need to create one more new component to pokemon.stats.map and this is going to be stat. And then inside this, I simply wanted to show here the status bar. This is not an inbuilt component, stat bar, not the status bar. Sorry, this is going to be stat bar and they are going to accept label, value, color and key. Easy. So, let's move ahead and let me just directly and copy and paste this component. So, inside component stat bar. And I can directly write that and simply paste it. So you will see that this is your interface perfect and this is your component. They are accepting this calculating some percentages and on a view we are rendering all of that a kind of basic I'll show you what is progress kind of bar. So now if I import it. And then I will show you this is what I am talking about. You will see the HP is this, attack is this, defense is this, special attack, special defense and speed. Perfect. So, let me just try to search for fighting and if I just open it, so this is how they are going to look and you can keep changing it. So cool. If I go to psychic and this one, so this is how they are going to work. Rock and if I go with it, so this is how they are going to look. And if I search for dragon and this one, so this is how they are going to look so cool. Now we have successfully implemented the Pokemon detail page as well and we are fetching the details very, very nicely. You I look charming and I'm loving it. You can see that. So, yes, now let me close everything and close this. So, this is the end of chapter number 4. In chapter number 5, we are basically going to implement the Pokemon list screen like this one. Everything is going to same. We are just directly showing there all the list instead of adding this searching and this filtration properties. So, yes, this is pretty much it for this chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "lessonFile": "mini-project-4-implementing-pokemondetail-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-4-implementing-pokemondetail-screen_epm/mini-project-4-implementing-pokemondetail-screen_epm.vtt",
+      "chunkNumber": 4,
+      "start": 778.5,
+      "end": 991.699,
+      "duration": 213.2,
+      "startTimestamp": "00:12:58.500",
+      "endTimestamp": "00:16:31.699",
+      "captionStart": 172,
+      "captionEnd": 225,
+      "tokenCount": 617,
+      "captions": 54
+    }
+  }
+]

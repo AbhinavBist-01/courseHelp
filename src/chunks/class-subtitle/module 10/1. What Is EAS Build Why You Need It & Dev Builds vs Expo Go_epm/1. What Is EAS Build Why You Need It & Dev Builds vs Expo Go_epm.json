@@ -1,0 +1,86 @@
+[
+  {
+    "id": "1. What Is EAS Build Why You Need It & Dev Builds vs Expo Go_epm_chunk_0001",
+    "text": "Alright everyone and welcome to one more new module. In this module we are going to talk about the EAS. Alright now what is this actually? If I just simply visit to the export documentation and here you will find something known as EAS build. Perfect. And if you simply click on introduction. Now, EAS build is a hosted service for building apps binaries for your expo and the ag native app. Now, what do you mean by this? So first of all, the first question that is arise here is what is actually EAS? So, if I try to explain you, first of all, the full form of EAS is expo application services, alright, this is good, no problem. We can say it is a suit of cloud based services. Yes, what is this? It is a suit of cloud based services which is provided by expo that help developers to build yes in first of all whenever you wanted to build your application build for android build for iOS I'll explain you that then we have submit then and we can say that update their expo and react native applications perfect. So thing we can say that AS is we can say a complete deployment pipeline in the cloud got it alright. Now let us see. So, EAS provide you the three main services. All right, like let's say this is your EAS, they provide you three main services. So, the first services they provide you is EAS bed. Now, what is this EAS bed? This is a cloud based service for EAS. creating iOS and Android app perfect and there's something on as binaries and come to it. What is that? Don't worry. And the another services they provide you is. Yes, very nice service. This is your ES submit and what is this? We can say this is a automated app store submission. Yes, you can automatically submit your app towards the Play Store and towards the App Store. Perfect. So, automated app store submission service. Nice. We have one more thing. And that is known as EAS update. Now what is this EAS update? This EAS update means there is something known as over the air. Now what is this? Let's say you have installed some app. Perfect. This is your app. You have actually installed it. No problem inside your phone. So, without updating them, perfect, let's say this is your actual app the users are using and this is the app you are developing. So this is a dev app which is ready to go into the production, but you don't want user to update their application once again. So there is something known as over the top. over the air updates for your published app will break it down more in upcoming modules. So right now just keep that in mind over the air which is named as OTA. Perfect updates for your yes for your. Now, why do we even need to learn about this? This is the biggest question. Why do we even need the EAS? We already have expo go, we can test that out. So why do we even need EAS? Why EAS actually exist? So, before EAS, let's say you don't have an EAS, Expo Application Services or you wanted to create a, we can say iOS application, you locally wanted to install that application, you wanted to have an APK for Android. So, how you can do that? There is no another way. So, before EAS, yes. What you have to do, let's say you wanted to create a local build environment. So you will going to set up something known as local build environment using Xcode for iOS and Android Studio. Yes. Android Studio for Android and these are such a heavy software which is not going to run in your normal computers. So this is the limitation but by using EAS you need not to set up anything like this. Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 10",
+      "lesson": "1. What Is EAS Build Why You Need It & Dev Builds vs Expo Go_epm",
+      "lessonFile": "1. What Is EAS Build Why You Need It & Dev Builds vs Expo Go_epm",
+      "source": "class-subtitle/module 10/1. What Is EAS Build Why You Need It & Dev Builds vs Expo Go_epm/1. What Is EAS Build Why You Need It & Dev Builds vs Expo Go_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0,
+      "end": 322,
+      "duration": 322,
+      "startTimestamp": "00:00:00.000",
+      "endTimestamp": "00:05:22.000",
+      "captionStart": 1,
+      "captionEnd": 78,
+      "tokenCount": 795,
+      "captions": 78
+    }
+  },
+  {
+    "id": "1. What Is EAS Build Why You Need It & Dev Builds vs Expo Go_epm_chunk_0002",
+    "text": "There is no another way. So, before EAS, yes. What you have to do, let's say you wanted to create a local build environment. So you will going to set up something known as local build environment using Xcode for iOS and Android Studio. Yes. Android Studio for Android and these are such a heavy software which is not going to run in your normal computers. So this is the limitation but by using EAS you need not to set up anything like this. Cool. So for set up a local build environment you need a Xcode and you need a Android Studio before. Perfect. Then we have, let's say you definitely you need to manage certificates, provisioning profiles, there is a lot of things. Then deal with platform specific build configurations, a lot of things. Got it. You have to deal with. a platform specific configs then handle App Store submission individually. Let's say you wanted to submit your app to Play Store or App Store, then you need to individually do that. Perfect. So there's a lot of frictions into it. So, handle app store submissions individually excuse me for my spellings if they are getting wrong. So, but with the help of EAS, EAS simplifies all of this. Got it? You need not to do all of this circus. You just simply coming to here and with the help of ES, they like we have ES build, ES submit, ES update, all of these things are built by keeping these problems in mind. Now you might be thinking, alright, now then what is the use of expo go? So, whenever let's say if I just simply coming to here and let's say if I search for notifications perfect, hopefully I will find the package for it and let me show you or instead of notification let me search for maps perfect, let's say this is your expo map cool. So, what is this look at that. They are pointing out two thing, one is Android and one is iOS, there is nothing as expoGo here, got it? So this means, this expo map will only work inside the development build of Android or iOS. You can't test this expo map inside your expoGo application. So that is the limitation with expoGo. library. that provides access to Google Maps on Android and Apple Maps on iOS. And if we simply coming to here and hopefully they have told us that they are not supported into Expo and yes, if you don't see Expo Go here, this means they don't support. Let's say if I search for an application that support in all of the environments. I think that is Expo image and yes look at that. They are available in Android, iOS and included in Expo Go as well. So this is where the concept of development build come. So, we have now one of the biggest question, expo go versus development build. Alright, this is the question. So, what is expo go? We know that expo go is a pre-built app that is available on App Store and Google Play. We can just simply download that and they act as a sandbox. We know that. If I just simply get this, so let's say this is your expo, go application, perfect, this is your expo, go. So what is this expo go is actually used for, they are basically going to use, they are basically act as a sandbox. And inside this sandbox you can run your Android and iOS application. No problem. You can just simply install this and the moment you hit a Banex expose start or NPX expose start. So this is the basic command that we hit. So, this is the expo start that we hit and by hitting this we know that our development server will start inside the sandbox yes or no simply scanning the QR code we know that cool. But what is the limitation? So, lot of limitations.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 10",
+      "lesson": "1. What Is EAS Build Why You Need It & Dev Builds vs Expo Go_epm",
+      "lessonFile": "1. What Is EAS Build Why You Need It & Dev Builds vs Expo Go_epm",
+      "source": "class-subtitle/module 10/1. What Is EAS Build Why You Need It & Dev Builds vs Expo Go_epm/1. What Is EAS Build Why You Need It & Dev Builds vs Expo Go_epm.vtt",
+      "chunkNumber": 2,
+      "start": 283.08,
+      "end": 575.78,
+      "duration": 292.7,
+      "startTimestamp": "00:04:43.080",
+      "endTimestamp": "00:09:35.780",
+      "captionStart": 69,
+      "captionEnd": 137,
+      "tokenCount": 789,
+      "captions": 69
+    }
+  },
+  {
+    "id": "1. What Is EAS Build Why You Need It & Dev Builds vs Expo Go_epm_chunk_0003",
+    "text": "And inside this sandbox you can run your Android and iOS application. No problem. You can just simply install this and the moment you hit a Banex expose start or NPX expose start. So this is the basic command that we hit. So, this is the expo start that we hit and by hitting this we know that our development server will start inside the sandbox yes or no simply scanning the QR code we know that cool. But what is the limitation? So, lot of limitations. So, the first limitation that we have is they do not provide you lot of API. So, we can say simply limited to expo SDK APIs only. So, you can only use packages that are already included in expo. So, this is one of the biggest limitation. Let us say we wanted to test out some other APIs that is not available in expo go. So, how we can do so? So, that's why you needed a development build. You can't do anything known as no custom native code. So, you can't use libraries that required native code modification. There's something known as Bluetooth, NFC, specialized camera libraries, lot of that. Need not to dig into all of the topics. Just try to understand what I'm telling you. Then expo go is tied to a specific SDK version. Got it. So there's something known as fixed expo SDK version. So expo go is always tied to a specific SDK version. You can't test and push notification fully. Yes. Like some native features, we can say that behaved differently in expo go and in builds. Cool. These are a bunch of we can say. limitations, one more limitation and that is you cannot, we can say you cannot add a custom icons and splash screens for it, got it? And definitely you cannot test the performance of your application by only, by only relying towards the expo go. So, when to use expogo whenever you wanted to do a quick prototyping we can say whenever you learning something and you only using expo SDKs related APIs, you want a rapid development that's why and in that case you need expogo now. What is development build? Cool, if I just simply add a line here and let me just simply coming to here. Now what is development build? Cool, let me take this. This is your expo again and this time this is a development build. Perfect. So development build we can say that is like creating your own Custom version of expo go. Alright, what do you mean by this? This means you are basically downloading this, we will see that how to create then these things will more clear to you. So just simple meaning of this, creating own custom, yes, own custom version. of expo go. So tailored specifically for that specific project, you have all the native dependencies included inside that. Alright, so what is the, we can say they contain, you can use all the APIs that is available. Alright, so we can say. All code and dependencies is basically already included inside this, all right? All code and dependencies are already into it. Then we can say they have a very nice point, we can say that they act like a debug. Yes, they act like a debug version. of your app. Got it. And we can say this support fast refresh and instant update during development. Yes, you can also whenever whatever you make changes inside your code, they are instantly reflect inside your development build as well. Perfect. And how they basically solve the limitations because they provide you all the, yes, I can say they provide you all the custom native modules like you can install any React native libraries got it. Then second, they provide you native code modifications. So this means there whenever you create in next chapter, we will see that. whenever you build your application. So you will see two extra folder, one is for iOS and another one is for Android.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 10",
+      "lesson": "1. What Is EAS Build Why You Need It & Dev Builds vs Expo Go_epm",
+      "lessonFile": "1. What Is EAS Build Why You Need It & Dev Builds vs Expo Go_epm",
+      "source": "class-subtitle/module 10/1. What Is EAS Build Why You Need It & Dev Builds vs Expo Go_epm/1. What Is EAS Build Why You Need It & Dev Builds vs Expo Go_epm.vtt",
+      "chunkNumber": 3,
+      "start": 540,
+      "end": 843.74,
+      "duration": 303.74,
+      "startTimestamp": "00:09:00.000",
+      "endTimestamp": "00:14:03.740",
+      "captionStart": 128,
+      "captionEnd": 197,
+      "tokenCount": 794,
+      "captions": 70
+    }
+  },
+  {
+    "id": "1. What Is EAS Build Why You Need It & Dev Builds vs Expo Go_epm_chunk_0004",
+    "text": "reflect inside your development build as well. Perfect. And how they basically solve the limitations because they provide you all the, yes, I can say they provide you all the custom native modules like you can install any React native libraries got it. Then second, they provide you native code modifications. So this means there whenever you create in next chapter, we will see that. whenever you build your application. So you will see two extra folder, one is for iOS and another one is for Android. You can go and you can actually modify that, but you need not to do anything by yourself. Everything is handled by EAS build. All right. So we can say that native code modification. So for Android's, you can make specific changes for iOS. You can also make specific changes. support all the third party. SDKs like you can go with Firebase, Stripe or any native SDK, alright. You can test full features, perfect. You can test all the features into it. Like you can test the real push notification, deep linking and all the native features that are available and they are telling you the true performance. of your applications. This is really needed. And then you can do the custom branding. Yes, very nice point. You can do the custom branding of your application. You can put your own icons, own splash screens, depends. Cool. All right. So this is the basic an intro of ES and a basic difference between expo go and development build. So for this chapter, let's just stop here and definitely that's all about just basic theory of it. Got it. So let me just again go to the ES. Perfect. And then simply say get started. So you can just simply move ahead and whenever you wanted to get started in next chapter, we see that how we can start using this. So for now, this is pretty much it and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 10",
+      "lesson": "1. What Is EAS Build Why You Need It & Dev Builds vs Expo Go_epm",
+      "lessonFile": "1. What Is EAS Build Why You Need It & Dev Builds vs Expo Go_epm",
+      "source": "class-subtitle/module 10/1. What Is EAS Build Why You Need It & Dev Builds vs Expo Go_epm/1. What Is EAS Build Why You Need It & Dev Builds vs Expo Go_epm.vtt",
+      "chunkNumber": 4,
+      "start": 806.82,
+      "end": 940.82,
+      "duration": 134,
+      "startTimestamp": "00:13:26.820",
+      "endTimestamp": "00:15:40.820",
+      "captionStart": 189,
+      "captionEnd": 220,
+      "tokenCount": 386,
+      "captions": 32
+    }
+  }
+]

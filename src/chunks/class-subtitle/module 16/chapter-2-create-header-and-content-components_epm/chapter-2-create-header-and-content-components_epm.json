@@ -1,0 +1,128 @@
+[
+  {
+    "id": "chapter-2-create-header-and-content-components_epm_chunk_0001",
+    "text": "Alright everyone, welcome to chapter number two. In this chapter, we are going to create the header and content component inside our wallpaper app. For now, let me just simply come into here and head. Bunnex Expo Start. So this is going to start my development server into the Expo Go. Definitely in chapter three most probably and maybe in chapter four, we are going to create the development build for it. But for now, let me try to open my wallpaper app. And, definitely right now they just simply going to show me edit your index.tsx file. So, yes edit this path location to edit this screen. So, yes first step is let me simply go to my layout and inside this layout you will know that we have a header option. A screen option basically, so inside this screen option I wanted to show the header shown as false ok perfect. So now you can see that this is completely empty very good. Close this again open your index.tsx. And this index.tsx is actually going to have a lot of things, but for now, I just wanted to show all the images that I have. That is the main goal. Perfect. So what I will do first of all. Let me paste all the designs that I have so that I need not to write anything from scratch. Okay, just give me a minute. Let me first of all import my style sheet. Now you will see that inside the style sheets I have used here some best practices like this is a color variable that don't exist right now. So, what you will do a very easy step simply go inside your constant and create one file name as theme.ts and let me just paste entire theme that we have. So you will see that this is all the colors that we have. a background, a surface, a card, just to organize all of them and the moment you make any changes here every changes will reflect inside your actual application. So that in future if you wanted to change the branding of your application you can directly control that from here. This is a good practice in itself. So, we have a background, surface, card, text, text secondary, primary, primary dark, border, white, black, overlay. Okay. Then all the sizes like paddings, border radius, icon size, H1, H2, H3, then body, then some shadows. Okay. I hope this is fine. Nice. Now, let me just import all the colors that I have. Okay, I think I'm importing color from wrong place. I need to import from theme and then let me also import sizes. Nice. So now we have all the designs. No problem. Perfect. So, first thing first, let me instead of this view, we wanted to have a safe area view, safe area view basically not the provider actually. Safe area view will come from react native safe area. And this they are going to have a style, style of styles.container and then we have edges, edges will be from top. And then we have a status bar, no problem. status bar's style is going to be as light. Okay, and I think I need to import this status bar from exposed status bar not from here. Okay, so cut this out and import this from exposed status bar and the moment I import it and save it, so yes, look at that. This is the dark background we are using. You will see the background color and the background color is this deep dark color. So that's why this is how they look. Nice. After this, first thing I wanted to show my header. So what I will do? can simply say a view. And I think I need to import this view from react native. They are going to have a style. Style is going to be as styles.header. And inside this header, first thing we are going to have this design.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-2-create-header-and-content-components_epm",
+      "lessonFile": "chapter-2-create-header-and-content-components_epm",
+      "source": "class-subtitle/module 16/chapter-2-create-header-and-content-components_epm/chapter-2-create-header-and-content-components_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0.619,
+      "end": 284.8,
+      "duration": 284.18,
+      "startTimestamp": "00:00:00.619",
+      "endTimestamp": "00:04:44.800",
+      "captionStart": 1,
+      "captionEnd": 71,
+      "tokenCount": 795,
+      "captions": 71
+    }
+  },
+  {
+    "id": "chapter-2-create-header-and-content-components_epm_chunk_0002",
+    "text": "You will see the background color and the background color is this deep dark color. So that's why this is how they look. Nice. After this, first thing I wanted to show my header. So what I will do? can simply say a view. And I think I need to import this view from react native. They are going to have a style. Style is going to be as styles.header. And inside this header, first thing we are going to have this design. What is this? We are rendering a simple text which is showing first text is pixel, second text is wall. The moment I save it, this is how they look. A pixel wall. Wall. Okay, you can definitely change the name you want it to have. Nice. And the second thing that I wanted to have is the search bar. So for that what I will do, I can simply come into here and then I can again open one view. This view is going to contain the style and then I will say what styles dot search container and this search container is going to first of all show us the icons. So let me just grab the ions icon basically, ion icon. Let me just import them. Okay, so this is your IN icon that icons that will come from expo vector icons. Okay, nice. Then, then I wanted to show first of all my search icon here. So let me show that the moment I save it. Okay, so yes, this is how this view will look. This is a search container that have icon. here, perfect and after this definitely I can have one text input, this text input is going to first of all have a style of styles.input search, okay and yes I can definitely write here but it's okay, I don't need it, let me simply say done, we have a bunch of other components as well, name is keyboard, avoiding view, lot of things but for now, let me just Let me coming to here then in same way we can have a placeholder placeholder is search wallpapers and then we can have a placeholder text color that is equals to colors dot text secondary. Then, we can have the value, the value is equals to the query, this is a state variable that do not exist right now, we will fix it in a while. In same way, we can have onChangeText, this is equals to setQuery, okay. And then we can have onSubmitEditing, which will have a handleSearch function, which we do not have again. And return key type is search, nice. And then if the query length is greater than 0, then I also wanted to show a cross icon. Ok. So, first of all, sorry, let me first of all import my pressable. And let just move ahead and initialize this state variables. So the name of the state variable is simple which is name as query and set query. And we can even have search query and set search query like this. And handle search do not exist. Let me just make it in a while. So handle search is very simple. This handle search will going to call a cert search query and passing the query. Okay. So now you can see that this is the cross icon what I am talking about. Okay so it looks good. Nice. So now you guys can see that we have search bar as well. Perfect. Out of this search bar now what I can do I can even show the bunch of actions we can have yet. Okay, but before that, let me just add here one to do. The to do will show all the actions we have related to the headers, but not now. For now, we are good to go. Now let me come outside of this and then I will have the another. view component, this view component will going to have a style, this is your styles.content not container actually content.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-2-create-header-and-content-components_epm",
+      "lessonFile": "chapter-2-create-header-and-content-components_epm",
+      "source": "class-subtitle/module 16/chapter-2-create-header-and-content-components_epm/chapter-2-create-header-and-content-components_epm.vtt",
+      "chunkNumber": 2,
+      "start": 249.4,
+      "end": 537.3389999999999,
+      "duration": 287.94,
+      "startTimestamp": "00:04:09.400",
+      "endTimestamp": "00:08:57.339",
+      "captionStart": 62,
+      "captionEnd": 127,
+      "tokenCount": 789,
+      "captions": 66
+    }
+  },
+  {
+    "id": "chapter-2-create-header-and-content-components_epm_chunk_0003",
+    "text": "have yet. Okay, but before that, let me just add here one to do. The to do will show all the actions we have related to the headers, but not now. For now, we are good to go. Now let me come outside of this and then I will have the another. view component, this view component will going to have a style, this is your styles.content not container actually content. Let me save it and inside this styles I wanted to show the list that I have, so for this we have very amazing list, but for that we need to install one external react native library. So, for that you can simply hit one at at the rate react native S E O U L slash M A S O mentionary list. Okay. Let me install it. Alright. So, in less than seven second, we have installed it successfully. And then let me import the component we have installed. This is a third party library component. And, this component will actually going to render us the content that we wanted to show. Okay, no problem. But, there is lot of things to show. So before that, let me tell you something. Let me just coming to here and what I will do. I will have a bunch of state variables. Okay, so this is the three state variables that we need a wallpaper, a loading and a page just for pagination purpose and we can say kind of infinite scrolling. Then we can even add a category color and filter and selected image. Let me add all the state variables that I need. Okay, so this bunch of state variables. Now, let us create one function name as load wallpaper. Wallpapers, they are going to use the use callback function. Then we have a sync. Reset is equals to false initially and then inside this we are going to have empty dependency. Alright. So, inside this function first thing what I will do if we are into the loading state Then simply return from here need not to do anything otherwise simply say set loading as true perfect and then what I will do I can say next page is equals to reset if the value is reset is true then simply say one otherwise whatever the page value add one into it. So, basically we wanted to fetch the net next set of data. At once we are if I am not wrong we are fetching the 20 images. So after that 20 images I wanted to fetch the next 20 images. Okay and then just to get the new wallpaper what you can do you can simply say const new wallpapers is equals to await. fetch wallpapers method from the pixave service and then first thing is the search query, second thing is the category, third thing is the color, fourth thing is the next page. Okay, then what I will do, let me tell you, a simple handling I can say if the reset is true then simply do what? Set wallpaper as the new wallpaper which is coming. No problem. Otherwise, what you will do you can simply say set page and the value of set page is 1. Basically, we are fetching the first 20 images. Basically, we are setting the first 20 images and let me just fix the. So, I can first of all say they are going to return as the promise, which is the type of pixabay image and something like this. Hopefully, I am right. Okay. So, why this is not returning the data? Okay, I got it. Function lack ending return statement return type does not include undefined. What I can do? So for now what I will do let me simply say any we cannot write any like this. So let me just leave it for now. Let us just be with it and what I will do I will simply add here exclamation mark. So this is fine. Cool. Otherwise, if we if the reset is equals to false, so this means we wanted to fetch the next set of data.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-2-create-header-and-content-components_epm",
+      "lessonFile": "chapter-2-create-header-and-content-components_epm",
+      "source": "class-subtitle/module 16/chapter-2-create-header-and-content-components_epm/chapter-2-create-header-and-content-components_epm.vtt",
+      "chunkNumber": 3,
+      "start": 505.881,
+      "end": 809.08,
+      "duration": 303.2,
+      "startTimestamp": "00:08:25.881",
+      "endTimestamp": "00:13:29.080",
+      "captionStart": 121,
+      "captionEnd": 189,
+      "tokenCount": 800,
+      "captions": 69
+    }
+  },
+  {
+    "id": "chapter-2-create-header-and-content-components_epm_chunk_0004",
+    "text": "Function lack ending return statement return type does not include undefined. What I can do? So for now what I will do let me simply say any we cannot write any like this. So let me just leave it for now. Let us just be with it and what I will do I will simply add here exclamation mark. So this is fine. Cool. Otherwise, if we if the reset is equals to false, so this means we wanted to fetch the next set of data. So for that I can simply say const wallpapers, let me get all the previous values then I existing IDs then I can say let's create a new set whatever the previous data simply map over it get the picks and then map it with the ID so that we can have the unique set of data. Then, what I will do I can say unionique new is equals to new wallpapers dot filter p, filter all of them which is not inside the existing IDs, simple. This is how we will get the existing IDs has this ID. Okay, and then simply return all the previous data we have and all the unique new that we have. Okay, so hopefully this will work nice. So now we have all the new data. Then what I will do outside of this, I will set the page. to the next page value this means 1, 1 to 2, 2 to 3, 4, 5 something like this and then I outside of this I can simply say set loading as false and then we can add the dependency as page search query category, color basically sorry and then loading. And what we will do, we will simply use here a use effect, because initially we wanted to show some data. So that's why we need to call this use effect. Let's add the dependency search query category and then the color. Okay, and then I will simply call this load wallpapers method and initially let me simply say this as true. Okay, and one last thing that is one component name as render item. Render item is going to accept the item and the index of it which is the type of item of any and then i of as number. Then, I will simply open it. And then inside this, I will simply say image card. Nice. And now you might be thinking from where this image card component will come. So let me just copy and paste the image card. Let me close everything and at the top of it, I can simply create components. They are going to accept image card dot TSX. Let me paste the entire component. This is just a UI thing. They are accepting item on press and the optional style. And then we are getting the aspect ratio from it. And then we are basically rendering that image. Okay. By on the basis of the aspect ratio we have and then bunch of design that we have. Okay. Then let me import my image card component. This image card component and make sure you are implicit returning this. They are going to have the item something like this then we have on press I wanted to do what set selected item and set selected image equal to the item so that in future I can open the preview model as well and then what I will do margin left will depend on whatever the index modulus of 2. If it's equal to equal to zero. Then simply add 0 otherwise at 12. We are basically adding the gap to the right column, something like that. Okay, and let's move ahead. Hopefully this will work. Inside this content, let me just simply come into here and I will use my masonry list. So let me get that. Where is the masonry list component? Okay. Let me import it once again. All right. And let me come into here and then let me simply say this as masonry. I hope I'm pronouncing this right.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-2-create-header-and-content-components_epm",
+      "lessonFile": "chapter-2-create-header-and-content-components_epm",
+      "source": "class-subtitle/module 16/chapter-2-create-header-and-content-components_epm/chapter-2-create-header-and-content-components_epm.vtt",
+      "chunkNumber": 4,
+      "start": 766.5,
+      "end": 1085.44,
+      "duration": 318.94,
+      "startTimestamp": "00:12:46.500",
+      "endTimestamp": "00:18:05.440",
+      "captionStart": 181,
+      "captionEnd": 247,
+      "tokenCount": 784,
+      "captions": 67
+    }
+  },
+  {
+    "id": "chapter-2-create-header-and-content-components_epm_chunk_0005",
+    "text": "We are basically adding the gap to the right column, something like that. Okay, and let's move ahead. Hopefully this will work. Inside this content, let me just simply come into here and I will use my masonry list. So let me get that. Where is the masonry list component? Okay. Let me import it once again. All right. And let me come into here and then let me simply say this as masonry. I hope I'm pronouncing this right. Mascinary list, ok, then they are going to accept a lot of things. So first thing is they are going to accept the data, no problem, let me give the data, then second thing is the key extractor, no problem, number of columns, 2, I think this is fine, then content container style is equals to list content, wanted to show the vertical indicators? Nope. Render item, yep, we have a render item. Now if I save it and yes, we are loading it and look at that. This is all the item we are getting and in one basically you can say that in one row we are only showing the two things. So basically we have column of two. What if I make this of 3? So, they are trying to show that into three, but you can see that not looks that good. So, two is fine. Perfect. They look nice and yep, amazing. And you can see at once we are only fetching the 20 images. So, we definitely need to do what we need to do is on and reach. Yes, whenever we reach onto the end. I wanted to simply say load wallpapers and mark this reset as false so that we can fetch the next set of data as well. Yes, look at that. This is how now we are fetching the next set of data and then what we can even give the threshold is equals to 0.5. So, this equals to 0.5 and we can even have a list footer component that will kind of show a loader so that we can see that ok now we are getting the next set of data. So, I can simply show the list footer component let me import the activity indicator and let me save it and if I go to the very bottom of it. Hopefully, I will get it. Okay, I'm just getting look at that. This is all the images we are basically rendering and able to get cool. Definitely this will beautifully we have made it nice. Okay, let's move ahead and then what I will do if we don't have any component, then I will simply show. Like, how list empty component will look if we are not into loading state and the wallpapers length is 0 then I wanted to show what a image and then a text with no wallpaper found ok and then refreshing will basically equal to. loading and wallpaper length if it's zero and then what I will do on refresh I can simply say what load wallpaper and then simply make reset as true. Okay, so if I just try to refresh it now you will see we are I think only able to show the first 20 and whatever all the images we are getting it nice. Perfect. Now what is the next step? Next step is to add all the actions that we wanted to have here. Okay. Let's move ahead and start adding the actions. So the first action that I wanted to have after my this search query. Okay. Let me try to search. Is this going to work or not right now? I don't think so. But let me try to say let me if I search for car and hit this and yes look at that they are working. This is how the car will going to show. Okay. Let me going to search for coding. If I search for coding, look at that. All the images related to coding.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-2-create-header-and-content-components_epm",
+      "lessonFile": "chapter-2-create-header-and-content-components_epm",
+      "source": "class-subtitle/module 16/chapter-2-create-header-and-content-components_epm/chapter-2-create-header-and-content-components_epm.vtt",
+      "chunkNumber": 5,
+      "start": 1042.94,
+      "end": 1306.559,
+      "duration": 263.62,
+      "startTimestamp": "00:17:22.940",
+      "endTimestamp": "00:21:46.559",
+      "captionStart": 237,
+      "captionEnd": 304,
+      "tokenCount": 788,
+      "captions": 68
+    }
+  },
+  {
+    "id": "chapter-2-create-header-and-content-components_epm_chunk_0006",
+    "text": "Okay. Let me try to search. Is this going to work or not right now? I don't think so. But let me try to say let me if I search for car and hit this and yes look at that they are working. This is how the car will going to show. Okay. Let me going to search for coding. If I search for coding, look at that. All the images related to coding. And I hope you guys able to see the interactivity indicator as well. Amazing, amazing job. Let's move ahead and import implement a bunch of other things as well. So, after this query that we have, I basically wanted to show what, let me just come out of it, let me create one more new view, this view is the type style, I can simply show is as styles dot. header actions, ok, nice and this header actions first thing they are going to have a refresh button so that you can just directly refresh from here, ok, nice and then we have another pressable that is of home that will basically reset everything, ok and we can say that, load wallpaper method will triggered by use effect because we are definitely changing the states. So, let me just simply paste it. So, now you can see that we have a home the moment I press on home because I am already on home. So, this is how they are showing to us. We are just resetting all the queries, all the search queries, all the category, all the colors. Nice. Perfect. And, after this one last thing that is basically first of all let me come out of this view and yes out of this view I wanted to have one pressable. This pressable will going to contain a bunch of things. So first thing is they are going to have a style. Style is now going to be an array, first is simple styles.filterButton, second thing is depend on the if we have category or we have a color then simply do what styles.filterButton active. Okay, and then simply show the icon of filter. Easy. Let me save it. So this is how and the moment when I click on this filter, I wanted to show here a filter model, but that will implement in next chapter. So for now, this is how my application is look. I think this already look pretty amazing. Perfect. So with this, this is the end of chapter number two and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-2-create-header-and-content-components_epm",
+      "lessonFile": "chapter-2-create-header-and-content-components_epm",
+      "source": "class-subtitle/module 16/chapter-2-create-header-and-content-components_epm/chapter-2-create-header-and-content-components_epm.vtt",
+      "chunkNumber": 6,
+      "start": 1286.32,
+      "end": 1449.62,
+      "duration": 163.3,
+      "startTimestamp": "00:21:26.320",
+      "endTimestamp": "00:24:09.620",
+      "captionStart": 294,
+      "captionEnd": 339,
+      "tokenCount": 498,
+      "captions": 46
+    }
+  }
+]

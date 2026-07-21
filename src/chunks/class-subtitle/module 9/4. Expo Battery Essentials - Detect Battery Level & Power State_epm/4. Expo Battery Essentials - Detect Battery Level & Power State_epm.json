@@ -1,0 +1,65 @@
+[
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_chunk_0001",
+    "text": "Hey everyone and welcome to one more new lecture. In this lecture, we are going to talk about the battery we can say library. So a library that provides battery information for the physical device as well as corresponding event listener. So definitely we are connected to our physical device perfect. So expo battery provides. Information for the physical device such as battery level, whether or not a device is charging and more, as well as corresponding event listeners for it. So this is the chapter number 4 and you will learn how to check battery levels, charging status and monitor battery change in real time. So, what is battery API? So, we can again say just for checking the battery level, we need a battery API. Know if device is charging or not and monitor battery states and why do we even need it? Again, let's say you are creating a video calling app and you want at least a user's should be 10% and greater than 10% then only you will allow them to video call with each other got it same for gaming app like reduce you can whenever you have a low battery you can reduce the graphics for it perfect. So In all of this use cases, you can basically initialize this school. So let's see and how we can implement this. Again let's be inside the same module because I think this is the last module that we need and this is the last library that we need for it. So I can simply say battery and I can simply say battery example.tsx, r and fes. Let's save this and let's go inside the index.tsx. We don't need preceptics. Instead, we need a battery examples. Let me import it. Let me open my expo go. Perfect. And let me go to my module once again and let me try to reload it once. Nice. So, how you can use it? So let's move ahead first of all and let's try to install this. How you can basically install this very easy. Simply copy this command from here till here and then simply hit Banex. \"Expo install expo battery\" so this is going to install battery and yes you can see that this is the battery example and we don't even need maps here so I can save that so this is how they are coming nice. So let's see that how you can basically listen to battery levels battery state and low power mode everything. Simple and very easy, perfect. So for that, let me just simply coming to here and let me try to show you. So first thing first, let's maintain bunch of state variables. Perfect. So first of all, we have a battery level, battery state and low power mode. No problem. Alright. In same way, let me just move ahead and what I will do, let's first of all make a function name as get battery information. So what I will do, I can say get battery info and just give me a minute let me just fix it yes nice so for first of all let me off my AI I don't need it nice so this is going to be get the battery info and this is equals to your async and this async is simply going to first of all get the battery level battery state and is we are in power mode or not. So, this is how you can basically get it. So, how we can import a battery? Again a simple thing, simply say import as strict as battery from expo battery. Got it? Then we have level, then we have state and power mode, no problem. How you can get level? Simply call get battery level async. How you can get the state, simply say get battery state sync. How you can get is you are in low power mode or not. So this is how is low power mode enabled async. No problem. Very easy API. These are just API that we are using.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0.32,
+      "end": 281,
+      "duration": 280.68,
+      "startTimestamp": "00:00:00.320",
+      "endTimestamp": "00:04:41.000",
+      "captionStart": 1,
+      "captionEnd": 62,
+      "tokenCount": 789,
+      "captions": 62
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_chunk_0002",
+    "text": "Got it? Then we have level, then we have state and power mode, no problem. How you can get level? Simply call get battery level async. How you can get the state, simply say get battery state sync. How you can get is you are in low power mode or not. So this is how is low power mode enabled async. No problem. Very easy API. These are just API that we are using. And what I will do I can set the states for all of them nice. So set battery level, set battery state and set low power mode. In same way I am going to create a get state text. So if my battery state is in charging is in full is in unplugged unknown on the basis of that state we are going to show this. So, right now you will see battery dot battery state these are first of all let me add here this is going to be the battery state type got it and this can be of null as well. of it. So now if I come into here you will see. So we have a battery dot battery state dot charging. So the moment you press here you will get all the states that we have in same way we have full and plugged and unknown. We don't know what is the state for it in same way we can also create one utility. Name as get battery color. So that's crazy. These are just for UI purpose. You need not to do. This is just interesting. We can say activities that we are doing. Cool. In the same way, let me also create here get battery icons. So no problems. If battery state is charging, then show this icon. If battery level is null, then show. Otherwise, if 0.5 to return this. should return the low battery. These are just again a battery icons. Again for UI simulation purpose easy. Yes, battery levels will always in the points. So, 0 point between 0 and 0. to 1 and then we will multiply that by 100. Then we have 50%, 10%, 20% that is how we are calculating it. Cool? Yes, that's the one very important point we need to know. Nice. In same way, I also wanted to add one use effect. Again I'm not writing these off code because I don't think so that we need to write everything. You can also copy and paste. Again we are only understanding this. So that's why. So, if I just simply paste it, so first thing let me import my use effect. So first thing this is going to get the initial battery info no problem, then we are subscribing to battery level like what is my battery level and we are setting the state for it. Same for we can say battery state is it charging or unplugged we are listening in real time. Then we have power subscription got it is we are in low power mode or not. That's all we are basically doing. Nice. So now let me try to render all of that onto the UI. So well, first of all, let me copy the entire UI. So just give me a minute and then I'll try to show you. So these are just pretty straightforward and pretty interesting things by the way. So let me just copy. And from here to here, let me paste it. So, only thing that I need to change is this. We have a battery example, but below this I need to say export default battery example, nice. And now if I save it, look at that. Yes, this is the right percentage. I can't unplug it because the moment I unplug it you are not be able to see anything. So that's why and this is you can see that right now we are charging it. Cool. But what if I just coming to here and open my power saving mode.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "chunkNumber": 2,
+      "start": 254.48,
+      "end": 514.46,
+      "duration": 259.98,
+      "startTimestamp": "00:04:14.480",
+      "endTimestamp": "00:08:34.460",
+      "captionStart": 53,
+      "captionEnd": 119,
+      "tokenCount": 791,
+      "captions": 67
+    }
+  },
+  {
+    "id": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm_chunk_0003",
+    "text": "We have a battery example, but below this I need to say export default battery example, nice. And now if I save it, look at that. Yes, this is the right percentage. I can't unplug it because the moment I unplug it you are not be able to see anything. So that's why and this is you can see that right now we are charging it. Cool. But what if I just coming to here and open my power saving mode. So you will see that low power mode is enabled right now. Got it? In same way if we are in a low battery mode in another mode, so you can also simulate up on the basis of that. Got it? So this is how you can basically see multiple states of your battery like you can check for state, you can check for your battery level, you can even check for is you are in power mode or not. Then we have a bunch of battery state enums like charging full unplugged got it and yes, this is how you can basically Calculate that cool. So this is a simple battery simulator app And I hope you guys are loving it again if you wanted to go much in depth here. So, read more about it, but I think this is pretty much it for this entire module and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "lessonFile": "4. Expo Battery Essentials - Detect Battery Level & Power State_epm",
+      "source": "class-subtitle/module 9/4. Expo Battery Essentials - Detect Battery Level & Power State_epm/4. Expo Battery Essentials - Detect Battery Level & Power State_epm.vtt",
+      "chunkNumber": 3,
+      "start": 480.72,
+      "end": 572.48,
+      "duration": 91.76,
+      "startTimestamp": "00:08:00.720",
+      "endTimestamp": "00:09:32.480",
+      "captionStart": 112,
+      "captionEnd": 133,
+      "tokenCount": 265,
+      "captions": 22
+    }
+  }
+]

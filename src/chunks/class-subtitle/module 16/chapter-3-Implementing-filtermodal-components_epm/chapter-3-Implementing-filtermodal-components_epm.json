@@ -1,0 +1,86 @@
+[
+  {
+    "id": "chapter-3-Implementing-filtermodal-components_epm_chunk_0001",
+    "text": "Alright everyone and welcome to chapter number 3. In this chapter we are going to implement the filter model component. So the moment you press on to this icon I wanted to open my filter model so that we can apply filters on the basis of category and on the basis of colors and then we can see that. So let's try to implement that. So first of all let me close everything. And, we can simply go inside the components and inside this component I can simply say what filter model dot tsx and inside this simple rnfs perfect. And this filter model will going to accept what they are going to accept first thing is visible. Second thing is on close, third thing is on apply and fourth thing is selected category and the last thing is selected color. And then we can have one something known as initial color that do not have for now. Let me just simply add it name it as a initial color. And then what I will do I can simply create one interface and for applying this we have to approach but the simple approach is here I can simply say what. filter model props ok nice perfect but next I can have two state variable one is for active color second is for active category nice so you can see that right now I have one for active color another one for active category this is active category active color nice Perfect. What next? Next, we wanted to have a use effect. Then I can simply say use effect. This use effect will, if we have any, we can say selected color or selected category, then I first of all simply wanted to do what? Set active category is equals to selected category. And, then next is set active color is equals to initial color. Nice. And, then what I will do? I can simply pass the visible selected category and then initial color. Perfect. Then what next we can have two methods. One is handle apply and second thing is handle reset. So handle apply will simply call this on apply method that will return active category and active color to the parent component. And on the basis of that we can apply filter here. Then this is your handle reset. Nice and what next? First of all, let me paste all the design that we have related to this. Nice. And then let me just simply paste it. This is all the designs that we have. And let me also import my colors from the colors theme. This is the sizes from the theme. Nice. So, a lot of colors, lot of designs. You can definitely give it a try and see what are all of that. Perfect. But next, next first thing is I basically wanted to have a model. So this is your model. This model is basically the type of animation type. We can say the slide. Then what I will do? I will say transparent Astro. Next, what I will do visible will depend on the visible state variable, visible props that is coming and then on request close I will simple say on close perfect nice. But next I wanted to first of all have a view instead of text I wanted to have a view this view is that style of styles.centered view perfect. First thing that I can have is the blur view from where this blur view will come this will come from expo blur and I think we need to install that but for now let me just try to see ok so definitely we need to install it then I can simply run bunnex expo install expo blur. Okay, so in 700 milliseconds we have successfully installed this expo blur component. This is basically add blurriness to the behind of the model. So nice component by the way. Then, what I will do? I will simply come into here then I will say simple of view. Perfect. This view is going to be the style and then I can simply say the styles dot model view. Perfect. And then I can simply show one filters and then one icons. Okay.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-3-Implementing-filtermodal-components_epm",
+      "lessonFile": "chapter-3-Implementing-filtermodal-components_epm",
+      "source": "class-subtitle/module 16/chapter-3-Implementing-filtermodal-components_epm/chapter-3-Implementing-filtermodal-components_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0.879,
+      "end": 318,
+      "duration": 317.12,
+      "startTimestamp": "00:00:00.879",
+      "endTimestamp": "00:05:18.000",
+      "captionStart": 1,
+      "captionEnd": 73,
+      "tokenCount": 796,
+      "captions": 73
+    }
+  },
+  {
+    "id": "chapter-3-Implementing-filtermodal-components_epm_chunk_0002",
+    "text": "expo blur. Okay, so in 700 milliseconds we have successfully installed this expo blur component. This is basically add blurriness to the behind of the model. So nice component by the way. Then, what I will do? I will simply come into here then I will say simple of view. Perfect. This view is going to be the style and then I can simply say the styles dot model view. Perfect. And then I can simply show one filters and then one icons. Okay. Then let me get my pressable as well and my icons as well. So let me just import them. Let me just format this once. And now this is the high time. Let's see the output. Let me go to my index.tsx. And inside this index.tsx what I will do below this view, yep, simply do what simply say filter model, this filter model will first of all give us the visible, visible will depend on the selected image. thing is on close is simply wanted to call what. simply, we want not selected image actually, this is going to be the filter visible state variable and on close I can simply say set filter visible as false. Perfect. And then I will do what on apply. I can simply say handle apply filters. We don't have the method right now, but I will implement in a while and then we can have one selected category, which is type of category. Then we have selected color, which is also the color. Perfect. Now let's move ahead and then let me implement the handle apply filters. So where is that? Here. Perfect. Let me simply say const handle apply filters they are going to accept two thing one is the new category which is the type of string second thing is the new color which is again the type of string. And inside this string what I will do first of all I will simply say set category as new category. Okay. And then next one is going to be set color as new color not new category new color. Perfect. This is what I am talking about. Which one? So you can see that we have an onApply method. So this onApply will give us all the active color and category and then we are returning them so that here we have access of new category and new color. We are changing the state variable of it and on the basis of that this will apply to this method load wallpaper and then we will see that specific wallpaper. Okay, let me save it and the moment I press here you will see nothing is happening. Why? Let's see that right now we have a filter not here actually what is where is this this is a filter button. Nice, perfect, so this is a basic pressable, so the moment I what I wanted to do the moment I press over it, okay, this is a pressable the moment I press over it, yes, on press what I wanted to do, I simply wanted to do what set filter visible as Probe, nice. Let us try the moment I press you will see this is a model which is opening, okay, look at that. Nice. Perfect. And this is the on close method that we have implemented this one. This is a close icon, which is basically calling the on close. Nice. Now let's move ahead and render all the filters and all the categories that we have. So, for that what I will do out of this view I can have a scroll view and this scroll view is going to be the style, style will be styles.scrollcontent and then we can have what show vertical scroll indicator as false for now and let me show first of all the text this is how this will Okay, why they look like this? Maybe I need to come out of it. No, I do not think so. So what is the reason for it? Where is my model view component? Okay, this is the model view.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-3-Implementing-filtermodal-components_epm",
+      "lessonFile": "chapter-3-Implementing-filtermodal-components_epm",
+      "source": "class-subtitle/module 16/chapter-3-Implementing-filtermodal-components_epm/chapter-3-Implementing-filtermodal-components_epm.vtt",
+      "chunkNumber": 2,
+      "start": 279,
+      "end": 569.6,
+      "duration": 290.6,
+      "startTimestamp": "00:04:39.000",
+      "endTimestamp": "00:09:29.600",
+      "captionStart": 63,
+      "captionEnd": 134,
+      "tokenCount": 796,
+      "captions": 72
+    }
+  },
+  {
+    "id": "chapter-3-Implementing-filtermodal-components_epm_chunk_0003",
+    "text": "is going to be the style, style will be styles.scrollcontent and then we can have what show vertical scroll indicator as false for now and let me show first of all the text this is how this will Okay, why they look like this? Maybe I need to come out of it. No, I do not think so. So what is the reason for it? Where is my model view component? Okay, this is the model view. This is the scroll view. This is coming out of it. So yes, inside the model view, I think here, the moment I save it. Now this is at the right location. Perfect. Let me format it once. Nice. Then below this text, what I wanted to show, I wanted to show a view that will basically rendering all the categories basically. So, I can simply say here view this view can have a style ok and this style is basically equal to styles dot chips container because definitely we are showing all the categories into the chips format and then let me just get the design for it. So, you will see first of all let me get all the categories and let me format it once so that you guys can see this properly. So, we are just rendering the pressables. Okay. And this pressables have a key and then a simple category. First is the chip, second is active on the basis of active. We are showing the active chips design. Then on pressing we are changing the value of it and this is simple text again. General design and active design and then we are showing that we are just converting the first character into capital and then adding it the moment I save it look at that and the moment I selected yes this is what I am talking about ok nice perfect so this is your all the categories. Let me just close it in same way I can have one for my colors. So what I will do I can paste this as a color. So below this you will find a color nice then I can again have a view that view have a style which is simply going to be the type of styles.colours container. Okay, inside this colors container what I will do, let me show all the filters color that we have. Okay, let me get all the filters color, but you can see that right now we don't have any filters color. Okay, so for that what you need to do, you need to change the name of it. Right now this is coming as colors, no problem, we know that. Right now, this is coming as colors, but we need to change it. So here I can simply say color, but name this as filter colors. The moment I save it, this is what I am talking about. Look at that. So what is this? This is a pressable. You can see that this pressable again on press we are changing whatever the color we are selecting something like this. And this is the styles and a simple icon. Okay, so whatever the color we have, we are basically showing that and you can see this. If you selected this, this is the check mark. If we selected this, this is the check mark. Depends on active color. Fine. So, look at that. But if the color is white or yellow, we wanted to have a transparent otherwise black and white. Look at that. So, this will basically show to all the color style. Look at that. Nice. I can even select this and I can even select this and deselect this and select whatever is that and outside of scroll view, I can have one view that will basically show us reset and apply. Then I can simply show the styles. This is equals to styles.footer. Then I can have two pressable. Okay, let me paste it. First pressable is reset. Second is apply filter. The moment I save it, look at that. Okay, let's try that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-3-Implementing-filtermodal-components_epm",
+      "lessonFile": "chapter-3-Implementing-filtermodal-components_epm",
+      "source": "class-subtitle/module 16/chapter-3-Implementing-filtermodal-components_epm/chapter-3-Implementing-filtermodal-components_epm.vtt",
+      "chunkNumber": 3,
+      "start": 532.82,
+      "end": 803.12,
+      "duration": 270.3,
+      "startTimestamp": "00:08:52.820",
+      "endTimestamp": "00:13:23.120",
+      "captionStart": 127,
+      "captionEnd": 200,
+      "tokenCount": 795,
+      "captions": 74
+    }
+  },
+  {
+    "id": "chapter-3-Implementing-filtermodal-components_epm_chunk_0004",
+    "text": "Nice. I can even select this and I can even select this and deselect this and select whatever is that and outside of scroll view, I can have one view that will basically show us reset and apply. Then I can simply show the styles. This is equals to styles.footer. Then I can have two pressable. Okay, let me paste it. First pressable is reset. Second is apply filter. The moment I save it, look at that. Okay, let's try that. Let me simply say background and what if we have a green? The moment I simply say apply filter. Okay, and yes, look at that. Now we are getting the backgrounds which have a filter of green and you can see this is the active filters. You can again change this to, I don't know, but if I change this to red and then if I apply, okay, we only have two backgrounds related to this. Depends if I go to transport and then if I apply, okay, we have no wallpapers to show. No problem, but if I send for red food, we can have a lot of red foods, tomatoes, strawberries, okay, we only have two apples. What is this? I do not know. Okay, so yes, with this, you can see we have successfully implemented this filtration option as well. Let me reset this, let me close this and maybe if I reload it. And if I come to the home, you will see everything is reset. Perfect. Nice. What is the next step? Next step is the moment I click on any image, I wanted to show a we can say the image view basically. So that image detail model. So I can see the detail of this image and I can share this or download this. This is the two option that I wanted to have. Okay, but for that we need a development built because we are going to use here something known as expo media library and a lot of expo file systems as well. So we will see that how we can use it and even the expo sharing. So with this, this is the end of this chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-3-Implementing-filtermodal-components_epm",
+      "lessonFile": "chapter-3-Implementing-filtermodal-components_epm",
+      "source": "class-subtitle/module 16/chapter-3-Implementing-filtermodal-components_epm/chapter-3-Implementing-filtermodal-components_epm.vtt",
+      "chunkNumber": 4,
+      "start": 766.42,
+      "end": 905.54,
+      "duration": 139.12,
+      "startTimestamp": "00:12:46.420",
+      "endTimestamp": "00:15:05.540",
+      "captionStart": 189,
+      "captionEnd": 224,
+      "tokenCount": 436,
+      "captions": 36
+    }
+  }
+]

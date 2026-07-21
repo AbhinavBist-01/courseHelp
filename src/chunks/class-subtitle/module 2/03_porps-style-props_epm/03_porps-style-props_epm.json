@@ -1,0 +1,86 @@
+[
+  {
+    "id": "03_porps-style-props_epm_chunk_0001",
+    "text": "Hey everyone and welcome to brand new lecture. In this lecture we are going to talk about props and style props inside React Native. So, in this lecture we will write code together and understand the most important styling properties in React Native. And listen to me carefully, don't try to memorize everything, focus on understanding how layout and styling works actually. And but before moving ahead, I just wanted you to keep a bunch of rules inside your mind. So just listen to me carefully. This is what your important rule. First, react native styling is inspired by CSS. This is not your actual CSS. Inspired, INS, inspired by CSS. This is not CSS. Make sure to keep that in mind. Second, for layouting purpose, for now, on the latest version that we are using of React They only support flexbox, but in future if you're watching this, maybe they are also going to support grid, but for layouting for now, they only support flexbox only. Perfect. No grid CSS support yet, but they have a PR raised about it. and they are actively working on it. So maybe in future they are also going to support grid for us. But for now make sure to keep only these three points into your mind. First this is inspired by CSS. This is not your actual CSS. Then they use your flexbox only for layouting. They don't support grid for now. Perfect. And so now let's move ahead and start understanding bunch of style properties that we have so that in future whenever I am going to write any kind of react native CSS any kind of style props you can easily follow along with me. Perfect. So right now I have just basically imported this and created a basic index.tsx file, a basic react native component file with a view and a basic text. Easy? Nice. Now let me just simply add a basic design for it. So, let me just copy this and paste it. Perfect. I'm stopping myself. You can basically stop this video and start writing this and I'm also copy pasting the styles for it because I don't want to waste too much of time on writing this. Perfect. So, this is your style. And this is your view and we are just basically using styles dot containers, styles dot title, style dot card and style dot text and all the properties are here. Perfect. No problem. So this is how they basically look. But before moving ahead, one thing that I wanted to do, I wanted to change the color of my this. So let me change this to here. Perfect. Nice. Cool. Perfect. I hope you guys just copied and pasted this. Now let's move ahead and first of all start talking about the layout props that we have. Perfect. The layout props that we have, which is known as Flexbox. So React Native uses Flexbox by default, like Vue by default support Flexbox into it. And make sure to keep in mind this is different from web like inside the web by default direction of our flex is always row but inside your react native we have column. Perfect, nice. Now, if I just simply move ahead and focus on my card, you will see I have bunch of other properties as well. I will come to it, but for now, let me just simply coming to here and try to center this content. So, how you can do that? You need not to run write any display property. Let's say if I just simply coming to here and try to write display content flags null but by default all the display are flex itself. So you can just simply cut this out. Now let's move ahead and I wanted to make it center. So for that I am going to use here the align item as center. Easy. Justify content as center and the moment I save it, you will see the content is in center now.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0,
+      "end": 295.28,
+      "duration": 295.28,
+      "startTimestamp": "00:00:00.000",
+      "endTimestamp": "00:04:55.280",
+      "captionStart": 1,
+      "captionEnd": 76,
+      "tokenCount": 794,
+      "captions": 76
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_chunk_0002",
+    "text": "You need not to run write any display property. Let's say if I just simply coming to here and try to write display content flags null but by default all the display are flex itself. So you can just simply cut this out. Now let's move ahead and I wanted to make it center. So for that I am going to use here the align item as center. Easy. Justify content as center and the moment I save it, you will see the content is in center now. So, the first thing I hope you guys understand like how you can center the content. horizontal alignment perfect a l i g n I hope so I am right all right I need to remove it perfect. So, this is for horizontal alignment and this is for vertical alignment. Perfect. Now, in same way, we also have a flex property like this flex. I hope so you guys understand this. This is basically to fill up all the available spaces that we have a basic CSS, nothing rocket science. Let us say I also wanted to center it perfect. So, this is your main container like I am talking about this and I wanted to center this and I mean everything I wanted to center. So, how you can do so? Easy same. Justify content is going to be center and align item is also going to be center. Let me save it. Boom! Look at that. How beautifully you have done this. Easy. No problem. Perfect. Now, let's move ahead and start talking about some margin and padding. So, for understanding margin and padding let me just simply go to my cards property and you will see we have padding of 16, but if I just change the value to 20 you will see this is how they look. In same way I also have a margin again like if you have padding so you have all the directions you have padding top you have padding bottom, padding left, padding right you got the point. In the same way we have margin, let's say if I just add a margin of 20 and save it, so you have definitely seen the shift towards up, no problem. Margin is basically for outside space. and padding is for inside space. This is just a basic CSS property. I am just again giving you a basic overview how you can write it. Perfect. Again, this is not a detailed CSS course. I am just giving you an overview. You can take this as a bonus. Now, let's move ahead and how you can basically style your text. So this is your text. Now, let's see how you can basically style your text. First property we already know font size, like if I just make it 26, so the font size become large. In the same way, we have font weight and inside the font weight, you will see we have 100 to 900, then black, bold and condensed. If I just simply write condensed, this is how they look. If I write bold, this is how they look. And in the same way, we have 900 to 900. We have 800, 500, 700, the weight of your font. Perfect. In same way, we also have a color. This is how you can basically control the color of your properties. So if I just simply write #333, so you will see the change of the color. Let me just shift it. Let me just try to write this. I don't know how it looks, but if I save it, yes, let me change it to white. And if I save it, this is how they look. Perfect. In same way, we also have a line height. Let's see if I just added a line height of 22. So the height of all the characters that you have between them kind of perfect. So, text style only work inside the text component.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "chunkNumber": 2,
+      "start": 258.31,
+      "end": 524.46,
+      "duration": 266.15,
+      "startTimestamp": "00:04:18.310",
+      "endTimestamp": "00:08:44.460",
+      "captionStart": 68,
+      "captionEnd": 134,
+      "tokenCount": 789,
+      "captions": 67
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_chunk_0003",
+    "text": "Let me just try to write this. I don't know how it looks, but if I save it, yes, let me change it to white. And if I save it, this is how they look. Perfect. In same way, we also have a line height. Let's see if I just added a line height of 22. So the height of all the characters that you have between them kind of perfect. So, text style only work inside the text component. So, make sure to keep that in mind like we have text height in same way we have text align as well like if I just added the left here. So, text will align in left if they have space if we have multiple text here. Let me see if I just added here lorem30 and added this so you will see all your text is aligned towards left for now. And if I just make this in center you will see we are in center now. In same way if I change this to right we are aligned towards right. So I hope so I am making sense. Perfect. Line height, if I just add a 10, so this is how they look if I add just a 100. So this is how much spacing that we have. 34 is a sweet spot. I think yes, I can definitely change the size of my text and boom, this is how they look. And let me just shift towards left. Perfect and we can go with 24. Yeah, this is pretty much it. So how you can basically handle your text properties in same way, we also have some properties related to views. Let's say this is your container. So inside the container, I mean card is also a container. You can definitely manage that. So this is how you can change background color. This is how you can add paddings. This is how you can add margins. This is how you can add border radius. So if I just change this to 20, this is how they look. 10 is fine. In same way, we also have border color. And let me change this color to #DDDD. This will not show to us. Let me change this color to red. Maybe we'll see that. All right. We need to add definitely the border width. So this is how you can add border width. And if I save it, yes, now I hope you guys are able to see that. And this is how they look. Perfect, no problem, easy, very easy. You have border width, you have border color, you have border radius, background color and yeah, this is how you can basically handle them. In same way for images, let's say you are using image, let me just import it below this, let me paste it, let me import image. And let me add a design for image. So below this, let me use image property. How I am using this image, you will see inside the styles dot image. We have this. So I can definitely add the width. Let's say let me make it 100. Height is also 100. And I can even add margin bottom, not margin block. 10, margin bottom of 10 and if I save it, this is how they are going to look. I hope so it's very easy. In same way, we have a bunch of resize mode like you will see that we have a resize mode We have the cover and we have repeat, we have stretch, a lot of other properties as well. You can definitely play around them and see the different behavior of different resize mode. Now take that as an assignment and do it by yourself. Easy. In same way, we also have something related to shadows and elevation. So shadow work differently on different platform. Like how you can add a shadow like whenever you cross platform you are working. Let's say this is your card.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "chunkNumber": 3,
+      "start": 494.801,
+      "end": 759.36,
+      "duration": 264.56,
+      "startTimestamp": "00:08:14.801",
+      "endTimestamp": "00:12:39.360",
+      "captionStart": 127,
+      "captionEnd": 196,
+      "tokenCount": 797,
+      "captions": 70
+    }
+  },
+  {
+    "id": "03_porps-style-props_epm_chunk_0004",
+    "text": "We have the cover and we have repeat, we have stretch, a lot of other properties as well. You can definitely play around them and see the different behavior of different resize mode. Now take that as an assignment and do it by yourself. Easy. In same way, we also have something related to shadows and elevation. So shadow work differently on different platform. Like how you can add a shadow like whenever you cross platform you are working. Let's say this is your card. Let me change this to white or maybe this color. Perfect. And let me change my text color as well. Let me make this no problem easy. Let me remove my border and border color. This is what I am looking for. Let me make it full FFF so that I can see it. Yes, now I hope so this is visible. Perfect. No problem. Now, let me show you how you can add a shadow into your Android. So, inside adding Android like I cannot spin iOS into it, but do not worry. We have an Android shadow. Let us say elevation and then elevation is going to be 5. And, if I save it, look at that how beautifully I am able to add shadow here. Perfect. In same way, let's say you are working on iOS device. So, for adding a shadow into iOS device. You simply need to write this much of code. This is not simple like shadow color, the name, the color of the shadow you want, the shadow offset like the position basically how much you wanted to show that, the opacity, the radius, but whenever you are working with Android, this is what you need to write. Easy, so basically for adding shadow inside your iOS, you need to write this and adding shadow inside Android, you need to write only this. And again, one very important point to mention once again, React Native for now does not support CSS grid, they only use Flexbox. Perfect, so the if I just simply tell you the key takeaway of this class like we have seen that how you can styling or you can style with the help of JS, so styling JS based. And second is flex. Box is the only layout system, no problem. Third, we have seen text, view, image have different style props as I shown you there. Like we have text, we have view, we have image, they all have different style props. No grid support. And then practice is more important than memorizing. So yes, make sure to keep in mind you need not to memorize any of this property, any of the syntax of it. You just write as much code as you can. And ultimately you will see that yes, now I'm able to write and I'm able to build my application. So, in next chapter, we are basically going to create a mini project. Yes, this is time for mini project. Inside that mini project, we are going to make a photo gallery where you can basically show all your galleries into it properly. We will see that how much creativity I can add into it and give you a very, very, very beautiful mini project. So, yeah, this is pretty much it for this chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "03_porps-style-props_epm",
+      "lessonFile": "03_porps-style-props_epm",
+      "source": "class-subtitle/module 2/03_porps-style-props_epm/03_porps-style-props_epm.vtt",
+      "chunkNumber": 4,
+      "start": 727.7,
+      "end": 953.16,
+      "duration": 225.46,
+      "startTimestamp": "00:12:07.700",
+      "endTimestamp": "00:15:53.160",
+      "captionStart": 188,
+      "captionEnd": 242,
+      "tokenCount": 659,
+      "captions": 55
+    }
+  }
+]

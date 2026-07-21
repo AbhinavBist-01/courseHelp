@@ -1,0 +1,65 @@
+[
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_chunk_0001",
+    "text": "Hey everyone and welcome to one more new chapter. Now that you know what API routes are, so let's build some in an expo router project and then we will see them in action. So in this lecture, we will create some endpoints and then handle different HTTP methods and understand how this routes are executed on server side. Perfect. So let's move ahead. We already have one a simple API endpoint which is named as hello and this hello is basically returning you up. Let me remove this. We don't need it. This hello is basically returning you a message. Hello world. Perfect. So instead of this, let me just simply say as message and I can also say hello from API. Alright, so this function runs when someone make a get request on API slash hello make sense and then it's going to return us a JSON using the standard response object. Perfect. Now let's see how you can create a post endpoint. So let me create a echo like for this is how you do it. You can name it whatever you want. So echo plus api.ts and then I can simply say export. Async function and the name of this function is going to be post, yes, this is important. And then this is going to be request and I can simply say this as request. Now let's say in post you always going to get some sort of data. So how you can receive that you can simply say const data, even you can destructure it, it's up to you is equals to await and I can simply say request dot json. And then let's say I can simply say return response.json and then let me say this you send the data whatever you wanted to send. So let me try to test this. So for that, let me go to my postman and inside this postman, let me pencil and let me add one more endpoint. Perfect. and at this time this is going to be this so let me copy this endpoint let me paste it so if I send this you will see we are getting a data as hello world no problem I think I need to reload it maybe I am wrong alright so now if I reload it and then if I go to my here and if I now it alright so I am getting a data as hello world cool and then let me add another endpoint because I have changed the data but no idea cool no worries now let me copy this let me come into here and this is going to be echo and inside body pretty straight forward nothing rocket science Let me send the data as let me going to say this as let me yeah, we say search perfect and now if I send this I am getting echo 8081 slash API. I guess, slash api So, why I am not able to hit this, let me try to close my server, let me rerun it, maybe now this will work. Perfect and let me just simply hit reload, so by reloading it, I am able to see this. Perfect, nice and then if I localhost 8081/api/echo and now if I hit this, yes look at that, now we are getting 200 okay and you send this data and the data and the value. you see this key value thing is getting from here and if I retry to hit this. You will see that now you are getting the latest data. So this is how you can basically same thing goes for port, same thing goes for patch. So I hope you got the point. Let's see how you can handle query parameters. Let's say you are searching something and you are passing queries into that. So how you can handle that? Let me just simply create a search. plus api.ts easy and then let me copy my get endpoint let me paste it easy and right now I wanted to handle the queries thing like what I am talking like this like we have hello and I have passed some data here perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0.44,
+      "end": 287.92,
+      "duration": 287.48,
+      "startTimestamp": "00:00:00.440",
+      "endTimestamp": "00:04:47.920",
+      "captionStart": 1,
+      "captionEnd": 59,
+      "tokenCount": 790,
+      "captions": 59
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_chunk_0002",
+    "text": "So I hope you got the point. Let's see how you can handle query parameters. Let's say you are searching something and you are passing queries into that. So how you can handle that? Let me just simply create a search. plus api.ts easy and then let me copy my get endpoint let me paste it easy and right now I wanted to handle the queries thing like what I am talking like this like we have hello and I have passed some data here perfect. this a question mark and let's say this question mark is basically going to have a query is equals to expo something like this. So now you will see that we are getting a query value not not always Q you can simple say this name you can whatever you wanted to say this. Perfect, so how you can handle this very straightforward. I can simply say, \"conce URL = new URL\" yes. And then this request have access to our URL and then you can basically extract them by simple using the methods. So you can simply say query is equals to URL. Dot search params, yes, search params is important and then this search params have bunch of method one of them is get, where is that here and then you have to know about your name of this, the key of this. So let's say let me add one endpoint, let me copy this, let me paste it, easy and instead of hello let me say this as search and let me add here queue, easy, keep it simple. And then what is going to be the name of the query key which is Q and then I can return the response I can simply say const response dot json and this json is going to be a query. All right. And now if I try to hit this. Why I am getting 404 not found? What is the preview I am getting? No preview. I have passed it. Same thing I think. Maybe I have to reload it and then this will work. Like this is going to bundled every time you had this, so that's why. API/search, yes I am hitting that only. So let me try to close this once again, let me try to run this once again. Let me try to reload it once again, alright and then we have this search and then search is going to have a question mark Q is equals to x4 and now if I hit this, look at that. Now we are getting the query, whatever I have passed here, let's say let me change the value to Suraj and then if I pass it, you will see that I am getting Suraj. So I hope so, this is how you can handle your queries as well. And same we have same error status code, you can read more about that if you wanted to. So why this is basically matters, why we are even reading this, why we are even understanding it. So, we are understanding this to write server side logic right inside your expo project. So, this is the beauty. We don't want it to be depend on some external server initially let's say in future you wanted to shift it, it's fine, but initially let's say you don't want it to depend on some external server and let's say you can handle bunch of secret keys sensitive logic onto the server side itself. And you can call this endpoint from your client screen using fetch. Yes, let's say if you wanted to use them from this to how so basically how you can do so, you can simply coming to here and let's say let me create a const. handle fetch data easy this is going to be a sync data and then I can simply do what I can simply say cons response is equals to await a fetch no problem and then I can hit my API slash let's say I am hitting hello. easy and then I'm going to get my data as await response dot json and then let's say",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "chunkNumber": 2,
+      "start": 254.22,
+      "end": 536.279,
+      "duration": 282.06,
+      "startTimestamp": "00:04:14.220",
+      "endTimestamp": "00:08:56.279",
+      "captionStart": 52,
+      "captionEnd": 107,
+      "tokenCount": 791,
+      "captions": 56
+    }
+  },
+  {
+    "id": "2. Creating apis routes and calling from client side of screen_epm_chunk_0003",
+    "text": "you can simply coming to here and let's say let me create a const. handle fetch data easy this is going to be a sync data and then I can simply do what I can simply say cons response is equals to await a fetch no problem and then I can hit my API slash let's say I am hitting hello. easy and then I'm going to get my data as await response dot json and then let's say for now let me console this console my data and I can even alert my data just to see the data perfect and below this text let me add here a pressable And this pressable is going to save me get data and now if I save it, exactly, you must be inside a text. So let me paste it and let me change this to get data and here on press, yes on press I can simply say handle fetch data. All right. Let's try. Let me reload it once. Let me wait for it and now if I press on get data you will see object, object, alright it's fine like we are at least getting something just to fix this you can simply say json.stringify and then you will get your data nothing rocket science in it cool and now if I press on get data message and hello from API so this is how you can even call your internal APIs so yes this is pretty much it for this chapter and I hope you guys loved it now in from next chapter we are basically going to see that how you can call external API's like this is our internal API's but in same way we wanted to call our some external API's although we have already talked about it inside our Pokemon application like we have used they are the API's of Pokemon but still just for revision purpose I am also going to talk about how you can call external API's. So yes this is pretty much it for this chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "2. Creating apis routes and calling from client side of screen_epm",
+      "lessonFile": "2. Creating apis routes and calling from client side of screen_epm",
+      "source": "class-subtitle/module 5/2. Creating apis routes and calling from client side of screen_epm/2. Creating apis routes and calling from client side of screen_epm.vtt",
+      "chunkNumber": 3,
+      "start": 498.41,
+      "end": 652.019,
+      "duration": 153.61,
+      "startTimestamp": "00:08:18.410",
+      "endTimestamp": "00:10:52.019",
+      "captionStart": 103,
+      "captionEnd": 127,
+      "tokenCount": 380,
+      "captions": 25
+    }
+  }
+]

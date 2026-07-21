@@ -1,0 +1,86 @@
+[
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_chunk_0001",
+    "text": "Hey everyone and welcome to one more new module. In this module we are basically going to talk about Expo sensors and what is this? This is one of the powerful feature which is provided by Expo. So, Expo sensors, a library that provides access to a device, accelerometer, barometer, motion, xeroscope, light, magnetometer and barometer. What is this and what? There are so many types of meter, so many types of xeroscope, lightning. What is this? So, in this module, we are definitely going to understand each and every, like what is this accelerometer, what is barometer, how we can basically get the magnetism and magnetic field around your phone. I mean, this is very interesting. This is a revolution in itself. So now let's move ahead. And try to understand this perfect. So the first thing is what is sensors? Sensors are bit or we can say that something which is provided they are provided you a software layer something like if I just try to explain you first of all what is sensors. Sensors are hardware, yes they are hardware component in device like smartphones, tablets, smart watches that detect and measure physical properties. So, what is sensors? Sensors are hardware component in device that detects and measure yes very important point they detect and measure that and measure of physical property from environment, perfect, measure the physical. properties from the environment. So this is kind of an definition we can say for it. So they collect data that app can use to interactive experiences. So we can say that. So we have a bunch of sensors. So these are bunch of common sensors which is provided by any smartphone and tablets and anything. Like first one we have accelerometer. Magnetometer, device motion, barometer, light sensor and pedometer. So we are going to understand each and every step by step. So the first thing that we have is accelerometer. So let's move ahead and start talking about this accelerometer. So what is this? So this sensors we can say tell you how the phone is moving. Yes. So, how the phone is moving or we can say tilting, whatever you wanted to say. So, this sensors works is only this like how your phone is moving or tilting in your physical space. Perfect. So, and how they measures thing? They measures your this moving and tilting property in three dimensions. Perfect. They measure things in three dimensions. So, what are that three dimensions are? Like first dimension are forward and back. Second is going to be left and down and third is going to be up and down. Perfect, not left and down, this is going to be left and right. So these are the three dimensions which is measured by this accelerometer, accelerometer whatever that. So why do we even, we care about it. So, you can use this to make your app respond to device movement whenever you wanted to make an app that respond on device movement. Yes, whenever move your physical device. So, this is going to be if I just simply write here device movement. not just tab or a tabs and swipes like something you're really just picking up your phone and Let's say you are playing a game. So in that case you are physically moving your device and with the help of sensors We are responding to that movement with the help of these accelerometers, gyroscope, whatever is that? But right now we are talking about accelerometer. Perfect? Perfect So, now what is the real world use of it? So, the first thing is whenever you wanted to say a tilt to move a character in game. Let's say if you are making something that whenever you tilt your phone, tilt to move character in a game. So at that time you can use it and then we can say there is a lot of like if I just shake this phone",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0.68,
+      "end": 307.98,
+      "duration": 307.3,
+      "startTimestamp": "00:00:00.680",
+      "endTimestamp": "00:05:07.980",
+      "captionStart": 1,
+      "captionEnd": 66,
+      "tokenCount": 783,
+      "captions": 66
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_chunk_0002",
+    "text": "But right now we are talking about accelerometer. Perfect? Perfect So, now what is the real world use of it? So, the first thing is whenever you wanted to say a tilt to move a character in game. Let's say if you are making something that whenever you tilt your phone, tilt to move character in a game. So at that time you can use it and then we can say there is a lot of like if I just shake this phone and if I just opened any development server, you will see you are going to open an inspect mode inside the phone. So that is also the feature which is built using these kind of meters. Perfect. Second is shake to refresh we can say and also detect a sudden drop. or a motion. So, in that case you can use it, but let us move ahead and try to understand that in an example. So, for that let me simply run a bunX perfect bunX. Create, just give me a minute, burnx, create, expo app, add the latest and then dot slash. Let me just wait for it and then I'll be right back. Alright so now we have installed it successfully. Now let me just simply reset it. reset project. Perfect. So this is going to reset my project and back to normal. Alright. Now how you can install it and which library you have to install. So you simply need to copy this much and coming to here open your terminal and then simply paste bunnex and then the code we have copied. So, this is going to install expo sensor inside your project and then simply run bunx expo start. So, this is going to start my development server. Alright. Perfect. And then you can simply press A. So, by pressing A this is going to open. into my expogo app. Perfect. Let me just wait for it. And yes, now let's move ahead and let's see understand about accelerometer, how you can use it. Perfect. So let me just simply go to my app and index dot t s x. And inside this what I can do or instead I will create a component here. Perfect. So this is going to be a components and then I will simply going to name this as tiltcounter.tsx and rafce. And this is going to be my tilt counter app, not RAFC, sorry for that, RNFES, because this is a react native app, tilt counter. Alright, and then let me just simply import that for now. So I will simply say tilt counter. Perfect. So what we are making basically, whenever I move my application, I just wanted to show a text you moved left, you moved right, something like that. Cool. So first thing you need to import accelerometer from your expo sensor. Perfect. First of all let me simply add this and then make sure you don't misspell it. So we have accelerometer here. here. Perfect. Nice. And I just wanted to show here if I tilt my phone towards right, then I wanted to show right and if I tilt my phone towards up, then I wanted to show up. Otherwise, I wanted to show stable. Easy requirement. Let's see how we can achieve that using this So, I can first of all maintain a state variable tiLTTilt and then set tiLTTilt alright and then this is equals to use state and initially let me just maintain here a stable alright. And then for a view, first of all, let me just simply create here a style. So we have a container and a text. Easy. And then what is this basically going to show whatever the device's position we have. So right now you will see we are only able to see here stable. All right. Now all the game is inside use effect. So, I can simply create here a use effect and then no dependency needed to add for now.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "chunkNumber": 2,
+      "start": 276.039,
+      "end": 570,
+      "duration": 293.96,
+      "startTimestamp": "00:04:36.039",
+      "endTimestamp": "00:09:30.000",
+      "captionStart": 60,
+      "captionEnd": 117,
+      "tokenCount": 796,
+      "captions": 58
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_chunk_0003",
+    "text": "And then for a view, first of all, let me just simply create here a style. So we have a container and a text. Easy. And then what is this basically going to show whatever the device's position we have. So right now you will see we are only able to see here stable. All right. Now all the game is inside use effect. So, I can simply create here a use effect and then no dependency needed to add for now. So, let me just simply create it. Now what do you need to do? Simply first of all for always using this accelerometer where is that? Let me just import it. Just give me a minute. All right. So, for using it, first of all, you will create here a sub. We are subscribing to an event listener and then this is going to be accelerometer and then we have an add listener. All right. And inside this, we have a callback and this callback give you access of x-axis and y-axis. Cool. And, then inside this what I will do let me just simply do a basic calculation alright. So, for absolute values I can simply use math dot absolute and then I will just go for x. So, if the value is greater than 0.4. On the x axis basically, so I am going to use here the set tilt value and then I simply do a comparison. So if the x is greater than zero, this means we are tilting our phone towards right. Tilt right. Otherwise, I will show I mean this means we are less than zero. So I will simply going to show here t I will get tilt left. All right. And in same way, let me add else if here and let's do for up and down. So now we have to look this is for x-axis like this horizontally. Now let's do vertically. I will simply say. math dot absolute value for y and let's go with same threshold 0.4 and then let me simply say set tilt and what is that if x value is greater than zero isn't it? Just give me a minute I hope I'm doing right. Why this is crying? Okay, first of all we have add yes I need to get out of it and then simply set date. So same thing just copy this perfect just paste it but instead of x we have to go for white y and instead of right we have to go for up and instead of left we have to go for down. Otherwise, we are into stable mode. So I can simply say setTiltValue as stable, s, t, a, b, l is stable. And when we are not using it, then I just wanted to unmount it and simply remove the this eventlessness. So, sub.remove. the move. All right, now let's try to implement this. For now you will see that my value of setTilt is showing me a stable, but if I move it towards right, look at that I have tilted it towards right and if I move to left and you will see that I have tilted towards left. basically from where your. Phone is upside down. Got it? So, if I am going towards right, this means I have tilt towards left. And if I am going towards left, it tilts towards right. And if I go down, so you will see something like this. And if I go up, something like this. So, how I can show you that? like if you are not trusting me so let me just open that inside another phone then I will show you inside my video. Perfect. So just give me a minute and let me just quickly open it. Alright, so I am just basically showing you this look at that like my device is now in stable position. Perfect. right, look at that. So the position you're showing me is tilt left, easy. And in the",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "chunkNumber": 3,
+      "start": 536.38,
+      "end": 801.1,
+      "duration": 264.72,
+      "startTimestamp": "00:08:56.380",
+      "endTimestamp": "00:13:21.100",
+      "captionStart": 110,
+      "captionEnd": 175,
+      "tokenCount": 798,
+      "captions": 66
+    }
+  },
+  {
+    "id": "01_introduction-of-expo-sensor-and-accelerometer_epm_chunk_0004",
+    "text": "like if you are not trusting me so let me just open that inside another phone then I will show you inside my video. Perfect. So just give me a minute and let me just quickly open it. Alright, so I am just basically showing you this look at that like my device is now in stable position. Perfect. right, look at that. So the position you're showing me is tilt left, easy. And in the same way, if I go towards, look at that, this is showing me a right. And if I go up, look at that, my tilt position at up. And if I go towards down, look at that, I am towards down. So this is how we are basically grabbing it. Cool. I hope so. Perfect. Nice. So, this is how we see and look at that I shake my application and this opened up. So, you can also implement this feature. So, this feature is implemented definitely with the help of accelerometer. Cool. So I hope so you are loving it and this is how you can basically take use of accelerometer again if you wanted to deep dive into it you can simply go to documentation open this and read more about it if you wanted to. Cool. So yes this is pretty much it for our accelerometer thing and in next chapter we are going to talk about bunch of other sensors as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "lessonFile": "01_introduction-of-expo-sensor-and-accelerometer_epm",
+      "source": "class-subtitle/module 7/01_introduction-of-expo-sensor-and-accelerometer_epm/01_introduction-of-expo-sensor-and-accelerometer_epm.vtt",
+      "chunkNumber": 4,
+      "start": 774.36,
+      "end": 857.74,
+      "duration": 83.38,
+      "startTimestamp": "00:12:54.360",
+      "endTimestamp": "00:14:17.740",
+      "captionStart": 168,
+      "captionEnd": 192,
+      "tokenCount": 278,
+      "captions": 25
+    }
+  }
+]

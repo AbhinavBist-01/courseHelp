@@ -1,0 +1,44 @@
+[
+  {
+    "id": "2-File-Based Routing Basics_epm_chunk_0001",
+    "text": "Hey everyone and now that you understand what expo router is, now let's learn how the file based routing system actually work. Unlike react navigation where we manually define route in code, expo router automatically create route based on file and folder as we know that. So, now let's move ahead and start implementing it. So, for implementation this is going to be very easy without just wasting too much of time here. Let me move ahead here, perfect. And then let me simply hit 1x expo start. And after hitting this, let me just wait for starting my metrobangler. And then let me simply write a. So after pressing a, this is going to start my expo router, my expo application on to my physical device, which is connected to this. And now you will see they are showing us edit app slash index dot TSX to edit the screen. So, you have noticed one thing, the moment for the first time application is loaded, we are automatically redirected to this page. And let's say, if I just try to edit anything, and if I say hello world, and if I save it, you will see they are changing it. So, this means index.tsx for now is our entry file. Perfect. And now our scenario one is let's say I just wanted to add here about and I just wanted to add here details page and this example become all. Let's say I wanted to add here, we can say explore. And I wanted to add here feed page. Perfect. These are the two pages and two screens I wanted to add. So how you can do so that very easy. You can simply coming to here and say feed dot ESX and then let me try to copy this and make sure to export default this component. And instead of index, let me call it a feed. Perfect and I can rename this to feed. In same way, I can copy this and create one more route name as explore. So explore.tsx, let me paste it and let me call it explore. Perfect. And I can even call this as explore. So now how we can basically check it. So we have always two ways. One way is that you wanted to test that out inside your phone, but interestingly you can even test it out inside your web apps. So this is the beauty of it. If I just go to 8081 and if I hit it. You will see that our application is also working inside our web app. So, you need not to dig too much deep into it, but just for simulation purpose. Let me try to go inside /feed and now you will see we are inside feed page and in same way, let's say I just wanted to go inside explore. If I just go inside explore, this is how they are going to show to us. Perfect, but let me try to use here a link component which is provided by expo router. So let me import a link component from expo router and this link component, sorry let me remove it, let me snooze this, perfect. And now let me come into here and below this let me just simply use this link component. And with the help of this link component, I wanted to redirect myself, let's say towards feed and in same way towards explore. So let me first of all write here is feed and they accept a simple href and then you will see everything is properly tightly saved. So I love this. Let me just simply pass feed. And in same way I can come into here and I can take myself towards explore and I can write here not in small sorry this is going to be explore and if I save it and if I try to press on feed you will see that I am redirected towards feed page and they are tagged on each other because the moment I press on back I am again redirected to index page and if",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "2-File-Based Routing Basics_epm",
+      "lessonFile": "2-File-Based Routing Basics_epm",
+      "source": "class-subtitle/module 4/2-File-Based Routing Basics_epm/2-File-Based Routing Basics_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0.58,
+      "end": 257.82,
+      "duration": 257.24,
+      "startTimestamp": "00:00:00.580",
+      "endTimestamp": "00:04:17.820",
+      "captionStart": 1,
+      "captionEnd": 58,
+      "tokenCount": 787,
+      "captions": 58
+    }
+  },
+  {
+    "id": "2-File-Based Routing Basics_epm_chunk_0002",
+    "text": "will see everything is properly tightly saved. So I love this. Let me just simply pass feed. And in same way I can come into here and I can take myself towards explore and I can write here not in small sorry this is going to be explore and if I save it and if I try to press on feed you will see that I am redirected towards feed page and they are tagged on each other because the moment I press on back I am again redirected to index page and if If I go to explore, you will see I am in explore and again I can redirect myself. towards the index page. So this is how this file based routing actually work and if you wanted to add a nested file, perfect. So let's say let me just simply coming to here and inside this I have added here profile. And inside this profile, I can have again index.tsx file and another file as well. Let's say I've added here user.tsx and then same way R&FES user screen. Perfect. And just for UI purpose, let me copy this style and let me paste it. Easy. Nothing rocket science. And now let me try to go inside this. So this is basically going to be a link. This link is going to be redirect myself towards the profile slash user. Make sense? And then if I just simply press href. And now you will see that we have suggestion for this. So, if I just simply write it and now if I press it, you will see I am now inside the nested route, perfect. So, I am assuming that this is how basically this is how basically this is how basically file-based routing actually work. So you will see that we haven't written any kind of boilerplate code, no duplicates screen registration and automatically everything is properly linked to each other, we can automatically add here nested routes. So and this is also going to be very easy as a developer, this is going to be very nice developer experience for me to easily re-factor my moving files. Perfect. So file based routing means your file structure become your navigation structure. Now you will see that now. Perfect. And in same way routes are generated automatically based on files and folder inside and definitely they are automatically generating. You need not to manual route definition like we used to do inside react navigation and nested folder create nested rows automatically and this system going to work exactly same in let's say Android and if you are using a we can say iOS and if you are using web everywhere is going to be work at same as you are seeing here. So yeah, this is pretty much it for this chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "2-File-Based Routing Basics_epm",
+      "lessonFile": "2-File-Based Routing Basics_epm",
+      "source": "class-subtitle/module 4/2-File-Based Routing Basics_epm/2-File-Based Routing Basics_epm.vtt",
+      "chunkNumber": 2,
+      "start": 225.88,
+      "end": 408.02,
+      "duration": 182.14,
+      "startTimestamp": "00:03:45.880",
+      "endTimestamp": "00:06:48.020",
+      "captionStart": 52,
+      "captionEnd": 92,
+      "tokenCount": 537,
+      "captions": 41
+    }
+  }
+]

@@ -1,0 +1,191 @@
+[
+  {
+    "id": "chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm_chunk_0001",
+    "text": "Alright everyone and welcome to a brand new module and the name of that module is known as expo maps. Alright, so right now we know very well how to create a production and development build and a preview build of your application. So expo map. will allow us to use this. All right. And if you just simply coming to here and read it, this library is currently in alpha and will frequently experience breaking changes. So it is not available in expo go app. No problem. So, use development build to try it out and we know how to create a development build. That's the reason I have in between introduced how you can basically use ES build and use all of this libraries without any limitations. Perfect. So, first thing first, let me just simply go to my VS Code app and let's just simply create a new expo application. So, bunnix create. expo app, add the rate latest, so this is going to create it and then dot slash alright let's just wait for their installation then I'll be right back alright so now we have successfully installed it what next I can simply say burn run Reset project. So this is basically going to reset my project and I think we'll create a build in a while but for now let's just simply coming to here and we'll see what are all the things that we need to implement here. Perfect. First thing first let me just simply coming to here and say what is expo maps? So, we can say that Xpermapp is a cross, a cross platform map component. Yes, there are nothing just a map component that provides, that's provide a unified, very nice line which is provide a unified API for displaying maps. displaying maps on both of the system like be it Android and be it iOS. Alright, so in both of the ecosystem you can simply use this single component and you can use it like anything. So what are all the features they provide? First thing they provide you display Interactive maps, then another one is basically for you can even use something known as add markers and annotations, then they provide you, you can customize. The maps, according to your need, their appearance and they work on both Android and iOS. They support user location tracking. They also support handle user interaction like tapping, dragging a lot of things. Perfect. So under the hood, like for iOS. They use their own Apple Maps. Perfect. They use their own Apple Maps, which is named as MapKit. When it's come to Android, they use Google Maps. All right. When it's come to this, they use something known as Google Maps. All right. Nice. Now, let's move ahead and just install a bunch of things with me. So the first thing that I wanted you to install. is expo map. So, simply run bunx install expo map. So, this is basically going to install a map library for us. Alright, so in less than 6 seconds we have installed it successfully. Next, they are saying for configuration. So Xpermapp provide access to the platform native map API on Android and iOS. So Apple Maps available on iOS only, Google Maps available on Android only. Perfect, no additional configuration is required to use it after installing this package. So if you are using expo maps for iOS, you need not to do anything. But when it's come to Android, while Google provide a Google map SDK for iOS, expo maps support it exclusively on Android. If you want to use Google map on iOS, you can look into an alternative library or writing your own, but all right, we already have it. So first thing first, you need a Google Cloud API setup. So before you can use Google map on Android. You need to register a Google Cloud API project. Enables the map SDK for Android and add the associated configuration to your project.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm",
+      "lessonFile": "chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm",
+      "source": "class-subtitle/module 11/chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm/chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0.08,
+      "end": 301.12,
+      "duration": 301.04,
+      "startTimestamp": "00:00:00.080",
+      "endTimestamp": "00:05:01.120",
+      "captionStart": 1,
+      "captionEnd": 66,
+      "tokenCount": 786,
+      "captions": 66
+    }
+  },
+  {
+    "id": "chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm_chunk_0002",
+    "text": "support it exclusively on Android. If you want to use Google map on iOS, you can look into an alternative library or writing your own, but all right, we already have it. So first thing first, you need a Google Cloud API setup. So before you can use Google map on Android. You need to register a Google Cloud API project. Enables the map SDK for Android and add the associated configuration to your project. So first thing they are basically saying you is to register a Google Cloud API project and enable the map SDK. So simply press on Google API Manager. Alright and inside make sure that you are already logged in here and inside you basically need to search for something known as Google Maps and what I will suggest you, let us start understanding this from starting. So initially you will be at this. page and then you simply need to click on APIs and services alright and also before coming to this page make sure you have some existing project perfect so definitely you can create one if you wanted to so let me just simply say new project and I will simply this is name this as expo maps app perfect and then I can simply press on create Project, you can definitely wait for few seconds, so this is basically going to create a new project. Look at that, simply say select this project and now I am inside expo maps and then what you can do, you can again simply press on APIs and services. Just wait for few seconds, everything is booting it up, setting it up. It's fine. Perfect. Alright, so for that, what you need to do, first of all, simply search for Google Map SDK and this one simply just press and after pressing this, you will get some UI and then simply say enable. So right now we are basically enabling the map SDK for this specific Google project. Perfect. Alright, so now they are basically saying me is to verify. I don't, I hope so they will don't ask for any credit cards. Let me just wait for it. Alright. And now you guys can see that definitely I have to set up my cards, but it's fine. I mean, they're not going to charge you anything unless you just, uh, Choose that specific plan. I am on my free plan. Let me just simply copy this API key. Definitely I am going to revoke that in a while. But for now into ENV, let me just simply paste it. Cool. And then I can simply say go to Google Maps platform. Perfect, so protect your API key, so yes I wanted to go on Android apps and you will see on Android app they are asking me 2 information. First one is the package name and another one is the SHA1 certificate fingerprint. But we don't have any one of them. So how you can basically get it? Alright, so that's a good question. And if you just simply coming to it, you will already see register your Google Cloud API and copy your apps, shaven certificate. But right now we wanted to go with development build. So definitely let's just wait for a few minutes and install all of the other things that maybe or maybe not we need. phone now. also install bun add expo locations and I think bun add expo image alright these are some packages were just happened just give me a minute alright there is something wrong here it's fine let me just search for expo location, perfect and then let me just simply run this, alright. Again simply run 1x, expo install expo location and expo image, then hopefully this will going to install it, alright. In less than So, we can say 1.3 seconds, we have installed whatever we need, perfect. So, now let us move ahead and let us configure. First of all, let me just again go to expo maps. Inside this expo map, perfect. Inside the plugins, let me just simply copy this. Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm",
+      "lessonFile": "chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm",
+      "source": "class-subtitle/module 11/chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm/chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm.vtt",
+      "chunkNumber": 2,
+      "start": 269.2,
+      "end": 554.48,
+      "duration": 285.28,
+      "startTimestamp": "00:04:29.200",
+      "endTimestamp": "00:09:14.480",
+      "captionStart": 61,
+      "captionEnd": 127,
+      "tokenCount": 795,
+      "captions": 67
+    }
+  },
+  {
+    "id": "chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm_chunk_0003",
+    "text": "Again simply run 1x, expo install expo location and expo image, then hopefully this will going to install it, alright. In less than So, we can say 1.3 seconds, we have installed whatever we need, perfect. So, now let us move ahead and let us configure. First of all, let me just again go to expo maps. Inside this expo map, perfect. Inside the plugins, let me just simply copy this. Perfect. Let go to app Jason and search for plugins. So where is that? This one. And then inside this, you simply need to paste it. So which one? From here to here. Perfect, I think we are doing it right hopefully let me paste it nice. So first thing is they are asking for the permission and second thing they are basically true and location permission allow whatever the product name that we have. to use your location. All right, this is the first thing. And what is the next thing we wanted to do? Next thing I wanted you to add here the API key. But before adding plugins, I think we need to add that inside array. Yes, right now this is working completely fine. Perfect. Now let's move ahead and start adding API keys. All right, so let's search for Android section. Here you will see that we have an Android section. Below this simply open a config file inside this config file, what you can do basically you can open this and say Google Maps, yes look at that and inside this I wanted to add the API key that we have copied here. So let me just cut this out, let me just paste it, close this we don't need it anymore and now let's move ahead and we'll see what more we can do. Perfect. Once we have successfully configured our Google Maps API and also this permission, this is the right time to simply move ahead and start writing the command AS build hyphen pan drid android and profile is basically definitely we need to add double hyphen. So, this is going to be profile and profile is going to be as development, alright. Let me just simply hit this up, perfect and yes, we detect that you do not have expo client. So, do you want a ESCLI to install expo dev client for you? Yes, please install that for me. And I think we have installed that successfully. Perfect. So would you like to automatically create a EIS project? Yes, simply create it. Perfect. Let's just wait for it. And they are saying me, would you like your Android application ID? So yes, I just wanted to go with this ID, whichever you are suggesting me. Perfect. Yes, we wanted to have a new key store. Perfect. So now they are generating a new key store into the cloud. Let's just wait for this. And yes, we have successfully generating it. They are creating the key store, compressing my files and going to create a development build for us. Perfect. So, right now you will see that our build is in progress, but you can also see the logs here. So, let me just simply click it and let me open that here. Perfect. And you can see still in progress right now. If you search for something known as credentials, you can simply go inside credentials. So, inside this credential, first thing you will get your application identifier. Perfect. So, you can first of all see this is your SHA one fingerprint. So simply paste that and along with that, this is the application identifier. So also paste. Android app yes and here let me paste that and then simply say restrict key cool alright for some reason I think this is failed what I can do alright so I think let me just once again coming to here and search for Google map SDK and definitely this one I definitely wanted to go for Android",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm",
+      "lessonFile": "chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm",
+      "source": "class-subtitle/module 11/chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm/chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm.vtt",
+      "chunkNumber": 3,
+      "start": 520.28,
+      "end": 794,
+      "duration": 273.72,
+      "startTimestamp": "00:08:40.280",
+      "endTimestamp": "00:13:14.000",
+      "captionStart": 119,
+      "captionEnd": 183,
+      "tokenCount": 787,
+      "captions": 65
+    }
+  },
+  {
+    "id": "chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm_chunk_0004",
+    "text": "Perfect. So, you can first of all see this is your SHA one fingerprint. So simply paste that and along with that, this is the application identifier. So also paste. Android app yes and here let me paste that and then simply say restrict key cool alright for some reason I think this is failed what I can do alright so I think let me just once again coming to here and search for Google map SDK and definitely this one I definitely wanted to go for Android Okay, I think I need to enable it once more. So let me just again press on enable. Alright, they are again asking me for this. So let me just go with Android app. Yes, this one is the key and this one is the SHA. Let me simply again say restrict key. Perfect and again saying me fail to restrict API key, visit to go to API key page. Let me retry to do so this cool. Oh, okay. We can again select Android app. Perfect. And then this is the package name. and the fingerprints. So, let me just simply press on package name and this is the fingerprint, let me simply say done and what if I save this hopefully this will work right now and I think yes we have successfully set it up. Let me research it once again just to see is this enable or not and if this is enable then we are definitely good to go. Let me again coming to my android. And yes, look at that they are showing us enabled. So this means now we have successfully created this and connected this. Definitely we need to wait for a few minutes and then I'll be right back. Alright guys, so now we have successfully created the build and let me show you in 55 minutes we have created this build. It's fine sometime it take this much of time we can't do anything into it. Let me simply say no. And, let just coming to here and simply open this install and let me just scan this and try to install. Perfect. So, let me just quickly install this up. Cool, let's just wait for their installation and what I am getting just give me a minute. Alright let me just reload it and yes we are back to online and let me just simply press on install. This is basically going to start installing my application. Perfect and then we are good to go. Perfect, so you can see that in just few seconds we are successfully going to install it, nice. Now let me just simply press and then simply say this as install, perfect so this is going to install this application and let me just wait for it. Perfect and then let me just simply press on open, so by just simply pressing on open you can see that they are fetching the development server, let me just hit my Banex expose start, so this is basically going to run. And you will see that now we are inside the development build and I can say a perfect alright and now you can see that this is what our development build will look like. Now first thing first let's move ahead and first of all try to understand about something known as camera position, so how you can handle that out. So for that what I will do I can simply go to my apps and index.tx and here I just basically wanted to install my this packet, so I can simply go to usage. And then let me just simply copy this perfect and let me import it. So first thing you will see we have Apple Maps and second thing that we have you can see a Google Map perfect and yes let me just simply copy this code and instead of this I can paste it perfect and not definitely not in return statement let me repaste it And what I can do, again copy this and cut this out and paste it, perfect. And we can simply import the platform. So if the platform is iOS, we wanted to basically show the Apple Maps, but if the platform is Android.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm",
+      "lessonFile": "chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm",
+      "source": "class-subtitle/module 11/chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm/chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm.vtt",
+      "chunkNumber": 4,
+      "start": 751.45,
+      "end": 1040.58,
+      "duration": 289.13,
+      "startTimestamp": "00:12:31.450",
+      "endTimestamp": "00:17:20.580",
+      "captionStart": 176,
+      "captionEnd": 237,
+      "tokenCount": 795,
+      "captions": 62
+    }
+  },
+  {
+    "id": "chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm_chunk_0005",
+    "text": "see a Google Map perfect and yes let me just simply copy this code and instead of this I can paste it perfect and not definitely not in return statement let me repaste it And what I can do, again copy this and cut this out and paste it, perfect. And we can simply import the platform. So if the platform is iOS, we wanted to basically show the Apple Maps, but if the platform is Android. Then I wanted to show the Google map and if I am not wrong look at that. We are basically able to see this Google map in some different way. Alright definitely we can make something known as camera position changes and you will see how we can use it. Perfect, nice. Now let's move ahead and then definitely I just wanted to use something known as Google Google map, what I can do, I can open this perfect and maybe let's try to go inside coordinates perfect and inside this camera position. So this camera position is give you access of two things. First thing is known as coordinates and second thing is known as zoom. If I just simply press on coordinates, so coordinates have longitude and latitude. Perfect. So, let me just try to paste some sample longitude and latitude, then I will try to show you this out. Perfect. So, for that what I can do, let me again open this. No problem and inside this let me just work on this Google map and this Google map have something known as camera position, no problem. This camera position have coordinates and then we have a longitude. Let me just simply give the longitude as 49, I am just randomly giving it and first thing is latitude, second thing is longitude. Let a -148, I don't know, I'm just randomly giving it cool and I can even give the zoom value as 10 and the moment I save it, all right, I am getting them in this way. Why I'm not be able to see anything, what if I just remove it and definitely if you don't have any flex one, we not be able to see this. if I reload this app once. And still I am seeing the oceans, it is fine. So with the help of this definitely. But before doing that what I wanted you to do, simply just coming to here and inside this I can simply maintain here a state variable as I can simply say this as location index and then comma set location index and initially let me keep this as view state perfect. Keep that as zero. And then let me move ahead and simply say camera position and this camera position is definitely going to have the coordinates. So we have coordinates. I'm talking about this and then we also have this value. So let me just try to paste that out. Perfect. And then what I wanted you to show you will see that instead of showing this thing I can simply search for something known as location list. So, LOCA, location list perfect. Oh. I think location list will come from expo location if I am not wrong. So I can simply say location list and this will come from expo location I think does not have a exported member perfect. or definitely instead of importing that from thing, we can have a bunch of we can say sample location list. Alright, so what I will do basically, definitely I am taking help from documentation and here what I will do, inside my apps or at the root level of it, I can simply create something known as location. list, you will get all of that inside my rapport and this is just a sample locations, perfect. So we have ID, we have name and the stores which is showing us this address, address this, this address, lot of addresses that we have, cool? And then inside this definitely we wanted to import the location list. This location list will going to accept the location index and then we they have something",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm",
+      "lessonFile": "chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm",
+      "source": "class-subtitle/module 11/chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm/chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm.vtt",
+      "chunkNumber": 5,
+      "start": 1005.019,
+      "end": 1354.6,
+      "duration": 349.58,
+      "startTimestamp": "00:16:45.019",
+      "endTimestamp": "00:22:34.600",
+      "captionStart": 232,
+      "captionEnd": 292,
+      "tokenCount": 784,
+      "captions": 61
+    }
+  },
+  {
+    "id": "chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm_chunk_0006",
+    "text": "known as location. list, you will get all of that inside my rapport and this is just a sample locations, perfect. So we have ID, we have name and the stores which is showing us this address, address this, this address, lot of addresses that we have, cool? And then inside this definitely we wanted to import the location list. This location list will going to accept the location index and then we they have something known as stories, yes stores sorry and at the 0th index we will name this as point and point of 0. This is how we are basically accessing that and same thing will be for. I can say, this will the one perfect longitude. And for now let's keep the zoom value same. And instead of passing things like this, I can simply going to pass the camera position something like this and this is somewhere we are basically able to see all of them. Cool, nice. So next, definitely we wanted to talk about how you can create your own maps control. Perfect. So for that, I just basically wanted to create here one simple function that is basically going to render something known as two buttons. Perfect. So for that, what I will do below this, I can create here const. render, map controls and inside this what I will do open this perfect and then going to add here perfect you need to implicit return them so make sure to keep that in mind up yes now we are good inside this what I will do I will open a view. This view is basically going to have a very very simple design as flex of it and then this is the basic position alright. We don't need it, this is going to be a self closing and let me import the view and next thing that is going to have is the controls and for that first of all let me paste the design. So out of this, below this, I have a styles which is name S. control containers and let me import my style sheet. Okay, this is the second thing and after that what I will do first thing is let me just open here one new diff. So this is the name of the diff which have a style. Perfect and then as pointer event as null and then we are going to have two buttons. So button one is going to say us the previous and button two is going to say us next and then we have two method one is handle change with rough they are basically accepting the previous and next and we are doing nothing with it simple let me paste the method. Perfect. Let me just try to explain you. But before that, let me create a ref for it. So this is the ref we have. Let me import this use ref. Perfect. First ref that we have is the Apple map, second dot view. But right now we are using the Google maps. So I can simply say Google maps dot view. So this is the ref. This is simple method and for SFZoom let me just keep it as 10. This is just a hard coded value. Perfect. Perfect. And then what I can do like wanted to render this. Cool. So you will see that we have a Google map view. So, inside this Google map view, so first of all, let me just cut this out and let me just paste this out. Perfect. And below this, we can have a safe area that is basically going to render this. First of all, let me import it. cool and then definitely padding is going to be as a bottom. So let me just first of all there is one very nice I can say methods that we have is known as a hook basically tab bar background but for now let me just hard code this with 20. So the moment I say 20 you will find something like this but if I say 30 cool what if I say 20 or 10 is fine.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm",
+      "lessonFile": "chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm",
+      "source": "class-subtitle/module 11/chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm/chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm.vtt",
+      "chunkNumber": 6,
+      "start": 1321.761,
+      "end": 1598.3,
+      "duration": 276.54,
+      "startTimestamp": "00:22:01.761",
+      "endTimestamp": "00:26:38.300",
+      "captionStart": 287,
+      "captionEnd": 350,
+      "tokenCount": 787,
+      "captions": 64
+    }
+  },
+  {
+    "id": "chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm_chunk_0007",
+    "text": "First of all, let me import it. cool and then definitely padding is going to be as a bottom. So let me just first of all there is one very nice I can say methods that we have is known as a hook basically tab bar background but for now let me just hard code this with 20. So the moment I say 20 you will find something like this but if I say 30 cool what if I say 20 or 10 is fine. Let us keep it, so first value that we have is previous and then we have next. If I simply say next, this is how you can see that we are moving it out and if I simply say previous, this is how we are basically moving it at. Got it? Nice. Let me retry and reload it definitely. Perfect and I wanted you to do next thing is, next thing is simply going to be, this is how you can basically add your own map controls. So what is this basically expo map controls means? Alright, so this is how you can basically work it and definitely if you wanted to see that onto the full screen, so instead of this, definitely there is something known as absolute fill, you can use that and bring this map towards the whole screen, it's up to you and you will also see that they are just not, they have a proper transition in between them. So for that what you can do? You can simply use this ref, perfect and inside this map view you can pass this ref is equals to the value of ref that we have and you will definitely change some basic data and this is how they are basically going to work. So right now you will see this is the method that we have. And if you use it, they are basically going to change that according to the reference. But for now, let's move ahead and we'll see how you can basically put marks on to your we can say Apple and Google Maps. So, for using marker, I have bunch of other data as well. So, let me just bring all of them and below this, let me just paste it down. So, this is definitely only for marker Googles. In same way, you can even have this for I can say Apple as well and let me also paste here polyline coordinates. These are just a basic random data. So, now you can see this is the marker Google which have first thing as coordinate except latitude and longitude then the title and then the snippet and is it draggable or not and yes you can see that this is properly draggable pointer events you can use it here. Nice. Now, let us move ahead and we will see that how you can basically use marker. So, for that inside your Google map, yep, what you can do, you can, inside Google map, you can search for markers and inside this you can pass the markers. Google and the moment I save it look at that this is how you can have your own custom markers at different positions into your area you can definitely get the real area right now I am not using my actual location that is why I have to do this much of things perfect. So this is how you can put markers on to the and the moment you click it yes look at that. the moment I click over it, look at that. This is how we can see the actual information, what is on to that specific pointer. So this is how you can have your own markers as well, nice. And let me show you how you can have your own polylines. So if I just simply say polylines. Open this first thing they accept is the color of the line. Let me keep that as red or blue. Let me keep the width as 20 and then we have a coordinates and coordinates is equals to polyline coordinates. And now if I save it perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm",
+      "lessonFile": "chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm",
+      "source": "class-subtitle/module 11/chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm/chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm.vtt",
+      "chunkNumber": 7,
+      "start": 1569.15,
+      "end": 1813.24,
+      "duration": 244.09,
+      "startTimestamp": "00:26:09.150",
+      "endTimestamp": "00:30:13.240",
+      "captionStart": 345,
+      "captionEnd": 398,
+      "tokenCount": 783,
+      "captions": 54
+    }
+  },
+  {
+    "id": "chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm_chunk_0008",
+    "text": "So this is how you can have your own markers as well, nice. And let me show you how you can have your own polylines. So if I just simply say polylines. Open this first thing they accept is the color of the line. Let me keep that as red or blue. Let me keep the width as 20 and then we have a coordinates and coordinates is equals to polyline coordinates. And now if I save it perfect. So let me just try to show you that where we can basically use it and see perfect. Alright, I don't know for some reason we are not be able to see the polylines. Perfect. But if I try to reload, what I'm getting? Camera position has been rejected by Java animation cancelled. It's okay. I don't know why I'm not getting the polylines. Cool is my polylines data is fine, this is the polylines yes then we have a width for it perfect and what if below the marker if I try to put this out. Let's say we have this markers perfect, we have this camera position and what if at the below of camera position, if I try to paste this out and let me go little here, okay, I'm still not able to see that, it's fine, okay, we will see that in a while. But if we move ahead and let me try to show you some properties which is available. Like first thing is inside this that we have, let me open one more object. First thing that we have is the map type, like which type of map you wanted to show. So first thing that we have Google Maps Map type. Perfect. You will see that we have at least four type of maps. So, first thing if I show you satellite and if I save it, I think this is how the satellite view of your map. Perfect. In same way I can have a t-rain. So, this is how they basically show to us. Perfect. If I go a little closer, this is how we can see it. Definitely I can go more closer as look and that and in same way I can also change this to let us say right now normal. So this is definitely going to shift towards the normal. I can also change this to hybrid. So this is how a hybrid map is basically going to look perfect. You can even see the traffic of that specific area. So, if I simply say is traffic true, so this is how they are basically going to show you the specific traffic of that area. Then we have is my location enabled. So, if I just simply say is my location enabled true and if I save it, so we have I am not able to get it for some reason which is fine. Let me reload it. Let me mark this as false, perfect and let me reload it and maybe I will close this. Let's go to module 11 once again and hopefully this will work right now. If I try to reload it. Let me again go to close this app. Let me go to module 11. Perfect. I think there is something wrong with this property. It's okay. Let me just remove that property and let's again go to module 11 and hopefully this will work at this time. Perfect. So nice. In same way we have is end-o enabled a lot of things. I don't know why this one is especially not working. What if I change this to blue? We are still not be able to see that. It's okay. It's fine. No problem. But this is how you can basically work with it. In same way, we have map events as well. So if you just simply see this first event that we have is on polyline click. But for some reason, we are definitely not be able to see the polyline. So hopefully you are able to see that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm",
+      "lessonFile": "chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm",
+      "source": "class-subtitle/module 11/chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm/chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm.vtt",
+      "chunkNumber": 8,
+      "start": 1784.99,
+      "end": 2039.38,
+      "duration": 254.39,
+      "startTimestamp": "00:29:44.990",
+      "endTimestamp": "00:33:59.380",
+      "captionStart": 391,
+      "captionEnd": 453,
+      "tokenCount": 797,
+      "captions": 63
+    }
+  },
+  {
+    "id": "chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm_chunk_0009",
+    "text": "What if I change this to blue? We are still not be able to see that. It's okay. It's fine. No problem. But this is how you can basically work with it. In same way, we have map events as well. So if you just simply see this first event that we have is on polyline click. But for some reason, we are definitely not be able to see the polyline. So hopefully you are able to see that. So, we have on map click, on map long click, these are all the events that we have inside this. On POI click, on marker click, on camera move, in all of that events, you can make decisions and work according to your things. Perfect. So, yes. So, we can say this is how you can basically take use of entire camera map. API and you can again see there is lot of things available inside this. So access course location access find location foreground service for iOS we have different different properties. So definitely you can check that out and try to learn more about this if you wanted to but with this this is pretty much it how you can use expo maps and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 11",
+      "lesson": "chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm",
+      "lessonFile": "chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm",
+      "source": "class-subtitle/module 11/chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm/chapter-1 Bring Native Maps Into Your App - Expo Maps Overview_epm.vtt",
+      "chunkNumber": 9,
+      "start": 2013.6,
+      "end": 2091.98,
+      "duration": 78.38,
+      "startTimestamp": "00:33:33.600",
+      "endTimestamp": "00:34:51.980",
+      "captionStart": 444,
+      "captionEnd": 465,
+      "tokenCount": 241,
+      "captions": 22
+    }
+  }
+]

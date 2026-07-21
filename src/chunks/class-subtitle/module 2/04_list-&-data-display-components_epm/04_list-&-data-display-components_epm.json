@@ -1,0 +1,86 @@
+[
+  {
+    "id": "04_list-&-data-display-components_epm_chunk_0001",
+    "text": "Alright guys and welcome to one more new lecture. In this lecture we are going to talk about list and data display components. Into this we are basically going to cover two powerful components. One is flat list and another one is section list. So, now let's move ahead and start understand about, start understanding about it. But before moving ahead, I just wanted to talk about, let's say when you have lot of data inside an array, perfect, let's take an example of an array. This is data 1, data 2, data 3, in a specific structure, we can say the array of object, no problem. and whenever you are onto the web. So, you are using dot map method to render a JSX for it, yes or no? Yes and whenever you are going to use it on the basis of that map, we have all the items that you have rendered onto the UI. Is that making sense? Yes. But when it's come to mobile application, this approach is not going to work. Yes, this is not recommended. I mean you can use if you wanted to, but this is not recommended. Perfect. Let's say if you wanted to write. So, something like this, like this is your data, you have simply used the map and then you have basically used the text. So, this is not a recommended method. This is going to work fine for small list. Let's say if you have a small list of data, but on mobile. If the list is long, this approach renders all items at once. This means, yes, listen to me carefully, this means they are going to consume a lot of battery of your application. I mean of your entire phone. So the first thing is battery and instead we can say high memory usage. If you are going to use this approach, they are going to use a lot of memory. slow scrolling because they are going to render all the data at once. Then we have a very very bad user experience and if user is not happy with your application, then you are going to shut it down in a while. Perfect. Then. React Native provide you this two OG components. First one is flat list and second one is section list, which are optimized for performance and only render items when needed. This concept is called virtualization. You can definitely read more about virtualization. Only item currently visible on the screen are rendered kind of that. So perfect. So, now let's move ahead and start talking about first component name as flat list. Perfect. So, what is this flat list is used for? This is basically used for showing all the simple list that you have. Perfect. So let me just simply visit here and read more about it. A performance interface for rendering basic flat lists supporting the most handy features like fully cross-platform, optional horizontal mode, a lot of other things. I mean, basically they have, they are basically using for this thing. Let's say inside the array you have bunch of data and you wanted to render that data onto the UI optimistically. So that's why you are using it. Perfect. So now let's move ahead and directly start using it. Perfect. So let me just simply go to my VS code and open this inside this how you can use it. So I have a bunch of So, perfect. So, first of all, let me paste that data. So, I have a const vegetables id, one name image. In same way, I again have id name image and then id name image. Easy, no problem and everyone has same image for now. You can definitely change that in future. Now, I wanted to render them onto the UI. So, how you can basically do that? It's very easy. So, for using that instead of using, I mean, let's keep this view, let's remove this text inside this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0.679,
+      "end": 274.4,
+      "duration": 273.72,
+      "startTimestamp": "00:00:00.679",
+      "endTimestamp": "00:04:34.400",
+      "captionStart": 1,
+      "captionEnd": 71,
+      "tokenCount": 796,
+      "captions": 71
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_chunk_0002",
+    "text": "So, I have a const vegetables id, one name image. In same way, I again have id name image and then id name image. Easy, no problem and everyone has same image for now. You can definitely change that in future. Now, I wanted to render them onto the UI. So, how you can basically do that? It's very easy. So, for using that instead of using, I mean, let's keep this view, let's remove this text inside this. Let me just simply import my flat list. And, this flat list is going to have bunch of props. So, the first prop is going to be the data you wanted to render. So, this is your data name as vegetables. Let me first of all off my AI. Cool. So, we have these vegetables and then we need to provide them a key extractor just to identify them uniquely. So, this is going to be item and item.id from where this item is coming. So, this is your entire data. Each data have this item 1, item 2, item 3 and item have different properties like id, name and image. So, we are using id as a unique identifier. I hope so that makes sense. And in same way we have here something known as render item. This is where you are actually going to render your actual UI. Here we are basically going to return a JSX. Not yes I mean kind of we can say that this is a kind of JSX and this is JSX not kind of this is exactly JSX. Inside this let me just destructure my item. And then inside this I am going to basically render a UI. So let me just simply paste this UI. We have this view and let me import my image from react native and then we have a text simple and then we just simply need to add a design for it. So just give me a minute. Let me bring my design. So, that I need not to write anything from scratch and paste this and look at that the moment I save it and now you can see that this is your data in same way you can have bunch of multiple data as well and then this is a simple flat list first thing is data a unique identifier and then a render item and the UI that you have written here. Basically simple and let's say I just simply add a elevation of 10 then we have a basic shadow here as well. Perfect. Alright guys, so these are the bunch of props that we have, but along with this props, we have bunch of other props as well. Let's say below this render item, if I just simply add here horizontal and make it true, like by default this is going to be something like this. If you don't add true, this is going to be true, but let me just simply define that explicitly. And the moment I write horizontal true, now you will see they now become horizontal. Perfect, you can even decide the number of columns you wanted to show. So you can simply say num columns and if I just simply say 2, let me just try to show you. Alright, they are reloading. Let me simply press R and hope so perfect. So num does not support exactly I mean that makes sense. Instead of let me just go with this if you are on vertical then and only you can basically show number of rows you wanted to show which is I mean basic logical thing. Perfect in same way we have two other props as well like we have a list. header component. So this is basically the header of the list you wanted to show. Let me just simply try to show you header and if I save it you will, I do not know you are able to see it or not but yeah look at here. This is your header. In same way we have list footer component and this is also going to be a text. Let me show you that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "chunkNumber": 2,
+      "start": 239.48,
+      "end": 500.92,
+      "duration": 261.44,
+      "startTimestamp": "00:03:59.480",
+      "endTimestamp": "00:08:20.920",
+      "captionStart": 63,
+      "captionEnd": 126,
+      "tokenCount": 796,
+      "captions": 64
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_chunk_0003",
+    "text": "Perfect in same way we have two other props as well like we have a list. header component. So this is basically the header of the list you wanted to show. Let me just simply try to show you header and if I save it you will, I do not know you are able to see it or not but yeah look at here. This is your header. In same way we have list footer component and this is also going to be a text. Let me show you that. Text and I can simply say this as footer. So we have the footer as well. Perfect. You we can even have item separator like first of all let me remove this horizontal true and save it. This is your header. This is your footer and in same way we have a item separator component as well and you what you can do basically here again return a JSX and that is going to be a view and we can say this as a self-closing view which have a style. And the style is going to be pretty basic, like I can give it a height of one, a basic horizontal line and then background color as hashtags CCC. And if I save it, you will see here a basic horizontal line which is coming. We also have on refresh and refreshing bunch of on and reached on and threshold extra data get item layout. We have a lot of props, but you need not to understand that for now. Perfect. So I hope so you guys able to understand that till now how you can use flat list. In same way, we also have something known as a section list. So how you can basically manage your section list? So for managing section list, let me first of all save this and just give me a minute, push this to a GitHub so that you have a track of it. Cool. So just give me a minute. Nice. Now let me remove anything. Rn fes and this is your index. Let me save it. Perfect. Now I wanted to create here and use here section list. So, let me first of all grab my section list data and then we can use it. Don't worry. So, let me copy this and paste this. We have which section where we have an object with a title. Make sure to keep that in mind. We have a title. Then we have a data and each data have ID, name, image. ID, name, image same here as well. Perfect. Now, how you can use this now, let me simply remove all of the view and simply write here this import here the section list component from react native and then first thing we are going to have a sections. So, sections is going to be wedge section first data they are accepting second is the key extractor that we have. So, we are going to have a basic item and then item.id no problem same then again same we have a render item and then this render item destructure the items you can name it anything but let me just name this as item. And then inside this, let me just return implicit return here. So let me just simply return a view with view image and text. Let me import the image from react native. Perfect. And one last thing that we need here. is to render section header and we know about that. So, I can simply say render not footer we know that we have a render section header and what you can do now, now we have access of section here again you can name it anything and inside this we are going to have a text and each text is going to say us something known as We need a title easy and then you can again give it a style of style something like this styles dot header. Perfect and let me just simply copy my styles and paste that easy. I hope so no problem in it. I don't want it to write it from scratch. That's why I am copy and pasting most of it and boom look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "chunkNumber": 3,
+      "start": 470.62,
+      "end": 750.68,
+      "duration": 280.06,
+      "startTimestamp": "00:07:50.620",
+      "endTimestamp": "00:12:30.680",
+      "captionStart": 119,
+      "captionEnd": 187,
+      "tokenCount": 800,
+      "captions": 69
+    }
+  },
+  {
+    "id": "04_list-&-data-display-components_epm_chunk_0004",
+    "text": "this we are going to have a text and each text is going to say us something known as We need a title easy and then you can again give it a style of style something like this styles dot header. Perfect and let me just simply copy my styles and paste that easy. I hope so no problem in it. I don't want it to write it from scratch. That's why I am copy and pasting most of it and boom look at that. So now we have basically used here the section list. And this is how you can use it. So the sections are array where each element has a title and each title has its own data array. Perfect. In same way we have a section render section header we already talked about that. We have a render item that will going to show item inside the sections. So section list is like a flat list but with group support. I hope so that makes sense and now I hope so why you need not to use dot map here. Perfect so if I just try to give you a basic summary use flat list for flat list where performance optimization use section list when items are grouped and need headers both are better than simple dot map method with long list because they only render. when needed virtualization. So I hope so that makes sense. And yeah, that is pretty much it for this chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "04_list-&-data-display-components_epm",
+      "lessonFile": "04_list-&-data-display-components_epm",
+      "source": "class-subtitle/module 2/04_list-&-data-display-components_epm/04_list-&-data-display-components_epm.vtt",
+      "chunkNumber": 4,
+      "start": 717.941,
+      "end": 820.04,
+      "duration": 102.1,
+      "startTimestamp": "00:11:57.941",
+      "endTimestamp": "00:13:40.040",
+      "captionStart": 181,
+      "captionEnd": 202,
+      "tokenCount": 277,
+      "captions": 22
+    }
+  }
+]

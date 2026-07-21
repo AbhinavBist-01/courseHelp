@@ -1,0 +1,86 @@
+[
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_chunk_0001",
+    "text": "Hey everyone, in this lecture we will learn how to pass data between screens using navigation params, how to read those params and how to customize the headers, including adding buttons and styling. This is essential for real world app where screen need to communicate and headers need polish kind of that. So the first thing that I wanted to discuss is passing params between screens. So if you wanted to pass params between screen in react navigation you can send data to another screen using the params. You can pass them as the second argument. So now let's move ahead and we'll see that how you can do so. Easy. So, let me go to my apps home screen. Now into this home screen you will see we have this navigate method. We are moving to details page. So, in same way if you wanted to pass some data to details page you can basically do you know what just simply append this another method and just give me a minute. All right, because this is going to cry. So, let me just simply add any so that we don't have any type script error and you can definitely pass the data. Let's say let me pass the item ID as 40 to anything I mean just random I am just reading from documentation. And then we have other params as let's say hello from home easy and then if you just simply press go to details you will see that you have the access of item ID and other params as well. So then in detail screen you can read them how you can read them let me go to my details screen. So, I can simply go to my details and again just make this as an any for now I mean just for now and then here you can simply say route easy and then this route is basically going to have the access of two thing. First thing is going to be the item ID another one the name of the object that you have written which is otherparam and you will simply say route.params. Easy and let me show you that so what I can do out of this pressable I can simply. Add the item ID and other parameters and if I save it and if I just go to details screen, look at that. We have this 42 and then hello from home. Easy. I hope so this is making sense. You can definitely change the data as well. So let me go to home page once again and let me say Suraj from this site and if I save it and click on go to details, you will see this is showing me Suraj from this site. And, one more thing parems should be JSON serializable, so they persist properly, so yeah make sure to keep that in mind. Now if I move ahead and then take you here you will see that this is how you can get it and you can definitely generate randoms data as well, so what I am talking about. Let's say you are on detail page, perfect. Instead of replacing let me just simply say here push, just listen to me carefully and I wanted to push to the same screen but right now with different data. So let me just simply say item ID, perfect and then alright not here, sorry. So, I can simply say here the item id and I can simply run the math.random method. So, let me copy it easy and then let me just simply paste it. So, I am just run here math.floor math.random between 100 number because math.random is generating between 0 to 1. So, if I am multiplying that with 100, so they are going to generate between 0 to 100, easy basic maths. So, now if I just simply press on go to details again. And if I save it and let me try if I just simply press you will see the random ID if I once again click here you will see the random ID by once again click you will see the random ID.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0,
+      "end": 274.68,
+      "duration": 274.68,
+      "startTimestamp": "00:00:00.000",
+      "endTimestamp": "00:04:34.680",
+      "captionStart": 1,
+      "captionEnd": 58,
+      "tokenCount": 789,
+      "captions": 58
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_chunk_0002",
+    "text": "generating between 0 to 1. So, if I am multiplying that with 100, so they are going to generate between 0 to 100, easy basic maths. So, now if I just simply press on go to details again. And if I save it and let me try if I just simply press you will see the random ID if I once again click here you will see the random ID by once again click you will see the random ID. So this is how you can basically pass the data I mean same thing nothing rocket science is going on. Now, let's move ahead we have something known as initial params as well. What is this initial params? You can also pass some initial params to a screen if you don't specify any params when navigating to this screen I mean this details screen. The initial params will be used. They are also shallow merged with any params that you pass. Initial params can be specified here. So we will see that how you can do so. So for that you need to go into app.tsx and inside this stack.screen here you can simply initial parameter and you can pass the item ID as let's say 100. And, if I save it and let me just try to and look at that how much tag that we have cool and if I go to details nothing is going to change but let's say by any chance you are not passing any data from here. Perfect. Let me just remove it. Easy, let me go back once again and now if I click on go to details and here as well, let me just remove this as well and now if I save it and if I click on go to details you will see that this is the initial parameter which is passing from here. Easy. No problem. Yep. And while moving between screen you can even update your params. You can definitely research more about it if you wanted to. But yeah, this is how you can basically pass data, pass parameters between screens. Now let's move ahead and now close all the screen component and just open this app.tsx. Let me show you something interesting. Let's say you wanted to initialize your header, you wanted to configure the header bar. So what you can do? You can let just say for the home screen you wanted to instead of showing the home you wanted to show my home. So what you can do? Let me copy this. Coming to here and we have options and then inside this options what I can do look at that I can simply open one more object and then I can pass the title and let me say this as my home perfect and let me see is this going to work or not and if I save it look at that you can even customize your stack screens header as well. Perfect. So, you again, I mean, not only this, you can do a bunch of other things as well. Like let me show you, like we have header style prop as well. So, inside this header style, you can change their background color. And again, they don't support all the properties, but most of them, let's say, let me change this to #222. And this is your header style. You can change the header title style as well. So, we have header, title, style. And this header titles style is only going to have a font related method. So first of all, let me change the font weight. Let me just call this as bold and then color is going to be hashtag FFF. And if I save it, this is how they are going to show to us. Easy. You can do a bunch of other things if you wanted to. I mean, nothing rocket science. Cool. Perfect, if I just go to details page, now you can in same way you can customize here as well, you can customize other pages as well in same way. Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "chunkNumber": 2,
+      "start": 244.6,
+      "end": 511.84,
+      "duration": 267.24,
+      "startTimestamp": "00:04:04.600",
+      "endTimestamp": "00:08:31.840",
+      "captionStart": 52,
+      "captionEnd": 116,
+      "tokenCount": 791,
+      "captions": 65
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_chunk_0003",
+    "text": "Let me just call this as bold and then color is going to be hashtag FFF. And if I save it, this is how they are going to show to us. Easy. You can do a bunch of other things if you wanted to. I mean, nothing rocket science. Cool. Perfect, if I just go to details page, now you can in same way you can customize here as well, you can customize other pages as well in same way. Perfect. Let's say you wanted to add here some buttons, so how you can on the right hand side, so what you can do, you can simply like in same way you can simply add here a comma and then Then you can search for something known as header right. And on the header right, you can just simply return a JSX. So this is going to be, let's say a self closing button. Let me import button from react native and then I can pass the title, title, let me just call this as info. And then on press whenever you press on this button, I just simply wanted to show alert. This is a native alert. And let me call this as this is a header button. Easy. And if I save it, look at that. And the moment you click it, you will see this is the header button. Perfect. You can change the color of it as well. Sorry, you can simply say the color of this going to be hashtag FFF. And if I save it, alright, color basically means the if I'm not wrong, the text color they are talking about. If you wanted to change the color of this button, you can simply add the style tag here and on the basis of that style, if I'm not wrong, you can change it. I mean, yes, you can definitely change it. Easy, so this button is basically appearing on the right side of the header and can run any action like navigating to some screen, showing some drawer, popping up something. So you can definitely handle them clearly. Easy. And one more thing if you wanted to update your headers programmatically we have bunch of other ways of doing it as well but again you need not to jump too much depth into it. Yes because we are going to understand all of this once again inside our expo router but right now you have a very good understanding that how you can do so this. Perfect, you can in same way you let's say let me go to my detail page. So on this detail page you can again customize this if you wanted to you can change their colors, change their options, do like you can look at that like they are showing you this. So let me just copy this. Perfect. And let me try to paste that onto my details page. Easy. And instead of my home, I'm going to simply share this as details. And if I save it, look at that. This is how you can change your details page as well. You can modify a bunch of other things if you wanted to. Cool. So, again if you wanted to share some common patterns, so you instead of designing a single screen separately, you can design something like this at the top of it. I mean at this point inside here. Perfect. So, it's easy this is how you can basically do this and if you wanted to you can read this about header right you can even fix your header left you can do bunch of other thing as well. So, I am just suggesting you if you wanted to deep down deep dive in if you wanted to deep dive much more into it and learn something more if you wanted to I am not going to suggest you to do those do so this but still. So you can read more about it, but from next chapter we have one more chapter left for it where you will see that how we can create our tabs and how we can open drawer and models.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "chunkNumber": 3,
+      "start": 482.02,
+      "end": 734.6,
+      "duration": 252.58,
+      "startTimestamp": "00:08:02.020",
+      "endTimestamp": "00:12:14.600",
+      "captionStart": 108,
+      "captionEnd": 170,
+      "tokenCount": 795,
+      "captions": 63
+    }
+  },
+  {
+    "id": "4. Params, Initial Params & Header Customization_epm_chunk_0004",
+    "text": "as well. So, I am just suggesting you if you wanted to deep down deep dive in if you wanted to deep dive much more into it and learn something more if you wanted to I am not going to suggest you to do those do so this but still. So you can read more about it, but from next chapter we have one more chapter left for it where you will see that how we can create our tabs and how we can open drawer and models. So that is very easy, very basic. So for this chapter, this is pretty much it and from next chapter we are going to see bunch of other thing as well and then going to create the mini project. So for now, bye-bye, take care, see ya and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "4. Params, Initial Params & Header Customization_epm",
+      "lessonFile": "4. Params, Initial Params & Header Customization_epm",
+      "source": "class-subtitle/module 3/4. Params, Initial Params & Header Customization_epm/4. Params, Initial Params & Header Customization_epm.vtt",
+      "chunkNumber": 4,
+      "start": 708.841,
+      "end": 750.16,
+      "duration": 41.32,
+      "startTimestamp": "00:11:48.841",
+      "endTimestamp": "00:12:30.160",
+      "captionStart": 165,
+      "captionEnd": 174,
+      "tokenCount": 155,
+      "captions": 10
+    }
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_chunk_0001",
+    "text": "Alright guys and welcome to chapter number two of our Pokemon multi-screen app. In this chapter, we are basically going to add all the backend fetching logic with Pokemon API and then simply going to copy and paste all the types that we have for it. Easy. So what you need to do simply go inside your app folder and then create an API folder. Yes. API simply say Pokemon dot. TS, easy. And then let me first of all paste all the types that I have related to my Pokemon. Again you can again go to this Arapa, you will get all of that onto my GitHub, don't worry about that and below into zip file as well. So, this is your first Pokemon ref, we have name and URL. Then another thing is export interface Pokemon list that we have count next previous result. This is basically just for infinite scrolling feature that we are going to implement. Then we have type entry like the slot type name URL, then we have status, then we have Pokemon details. This is very important. We have the ID of Pokemon, the name, the types that we have, the status, the sprites. Then we have width, weight, height, abilities like ability name. This will be into the array. So kind of that. Perfect, now let's move ahead and then simply say const base URL is equals to https colon slash slash pokeapi.co slash API slash V2. So this is the free base URL for using Pokemon API. So easy. And, then we are going to create three functions. Perfect. First function is going to be getPokemonList and we are basically going to fetch 20 Pokemon at a one time. So, I can simply say export const. get Pokemon list is equals to async and then first thing is going to be the limit which is type of number is equals to 20, offset is always going to be the number and then 0 and let me just simply coming to here, easy and they are going to return me a promise, And the type of this promise is going to be the Pokemon list response. Perfect, easy. And then we are basically going to have a very simple fetch API call. I will call a const. response is equals to await, which back ticks, this is first of all going to have a base URL and then the endpoint we need. So this is going to be for Pokemon. Then let me add some params, some queries basically, the limit is basically going to be as the limit. So, this is the limit that we have and in same way the offset we have. So, end offset easy this is basically also equal to the offset perfect and then I am basically going to return response dot JSON. Easy, let me format this for you just to make it more readable. Now you will see a basic response and returning it. We can just add one check that is going to be if we do not have the response.ok throw this new error, fail to fetch Pokemon list. Simple, perfect. Then, let's move ahead and then say simple export const get Pokemon detail and this is equals to the async and then I will call this as name or id and this will become your string or number. Perfect. You will basically get Pokemon by their name or by their id. This is going to return a promise which is type of Pokemon. And then this will going to return us this very basics again simple database call, simple fetch call response is equals to await fetch back ticks this is going to be as base URL and after the base URL this is going to be the Pokemon. And I will call this name or ID, whatever name is coming, whatever ID is coming on the basis of that we are returning it. Then same thing, failed to fetch Pokemon details. Perfect. And you can definitely add other data like you can add this here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0.4,
+      "end": 312.94,
+      "duration": 312.54,
+      "startTimestamp": "00:00:00.400",
+      "endTimestamp": "00:05:12.940",
+      "captionStart": 1,
+      "captionEnd": 64,
+      "tokenCount": 782,
+      "captions": 64
+    }
+  },
+  {
+    "id": "mini-project-2-backend-api-and-constants_epm_chunk_0002",
+    "text": "fetch call response is equals to await fetch back ticks this is going to be as base URL and after the base URL this is going to be the Pokemon. And I will call this name or ID, whatever name is coming, whatever ID is coming on the basis of that we are returning it. Then same thing, failed to fetch Pokemon details. Perfect. And you can definitely add other data like you can add this here. And, then simple return response dot json simple and then in same way I can write export const get pokemon by type like you can also fetch pokemon by their type like you are fetching on their fire water like we have multiple traits. and the Pokemon type which is coming, so type will going to be here the string and they are going to return you again the promise is going to be as Pokemon rough which is type of an array because we can have multiple Pokemon of same type that's why. And, then same simple const response is equals to await fetch and then this will going to become a back tick and base URL slash type slash whatever the type is coming as a prop. And, then same thing like if this is not going to be as going to return this otherwise simple Data is equal to await response dot json and then going to return a data dot pokemon dot is going to be map. We have item which is type of any for now. And then we are returning the item.Pokemon just in a proper formatted way. That's why we have added here array. That's why we're returning into the map. Perfect. Nice. So, yes, we are done with this. But before moving ahead, let me close this. Let me open this, close everything. At the root of our application and not into root, into the app, I wanted to create a constant. And inside this constant, we are going to have two constant. One is for colors that we are going to use all the colors we have. Let me just simply paste them. So you will see that we have a background card. We are going to use that text, subtext, border, accent yellow, accent emerald, then all the types color we have, like we have normal, we have fire, we have water, we have electric, grass, towards the ferry. Easy and then a simple we are exporting it something like this. Then let me also add here types.ts and now we have the color and the colors and we are returning all the Pokemon types we have. Then, in this format basic and then we are also saying get type color. Let us say if the type is normal, we are just simply searching the type normal's color and returning that something like this. Perfect, so basic logic, don't think too much over it, you can simple copy and paste that for now. Our main focus is to understand this React navigation, that's it. Perfect, eventually you will understand all of this in upcoming lectures, so don't take any stress for now, just write with me, keep your brain open and just write with me things for now. Alright, so now we are good to go. So we have successfully completed the chapter number two with adding all the backend fetching logic and Pokemon API. From next chapter we are going to implement the home screen and in same way in upcoming chapters there. This is pretty much it for this chapter and see you in chapter number three.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-2-backend-api-and-constants_epm",
+      "lessonFile": "mini-project-2-backend-api-and-constants_epm",
+      "source": "class-subtitle/module 3/mini-project-2-backend-api-and-constants_epm/mini-project-2-backend-api-and-constants_epm.vtt",
+      "chunkNumber": 2,
+      "start": 275.9,
+      "end": 543.02,
+      "duration": 267.12,
+      "startTimestamp": "00:04:35.900",
+      "endTimestamp": "00:09:03.020",
+      "captionStart": 58,
+      "captionEnd": 110,
+      "tokenCount": 690,
+      "captions": 53
+    }
+  }
+]

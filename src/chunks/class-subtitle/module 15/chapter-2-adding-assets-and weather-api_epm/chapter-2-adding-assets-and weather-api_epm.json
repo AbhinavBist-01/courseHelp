@@ -1,0 +1,86 @@
+[
+  {
+    "id": "chapter-2-adding-assets-and weather-api_epm_chunk_0001",
+    "text": "Alright everyone and welcome to chapter number two. In this chapter we are going to add all the assets related to our application like all the images that we need and then going to create one use weather hook and a simple weather utilize. Alright, so let's move ahead and start implementing it. So first step first again if you wanted to grab all of the assets simply need to visit my I can say GitHub repo and from there you can grab all of it nice. So inside the asset what is the first thing I wanted to add is the cloudy image perfect. So let me just paste that. So this is the cloudy image in same way I can have one night image. So let me also paste that. my night image. So this is the night image easy I can also have one known as rain image. So this is the rain image and then I also have a snow image. Yep this looks nice. So this is the snow image that we have and lastly we have one sunny image. So these are all the images. that we need cloudy night, rain, snow, sunny, you can even go to the nano banana and ask it to generate for you, alright and you can even download from internet and you can even grab it from my GitHub repo, easy, nice. So the first thing is done, we have successfully added all the assets, what is the next Next step is to use create one use weather hook. So for that what I wanted to do, again inside this source let me create one hooks folder and inside this hooks folder I can simply create use weather dot ps and this use weather dot t s is going to use something known as a bun x expo install expo location. Alright. Okay. So now we are basically installing the expo location. Perfect. And after installing the expo location, what is the next step? Next step is with the expo. very simple. Let's use that inside this use weather.ts. Perfect. So let me import all of the things that I need. But before that I wanted to add all the types that I'm going to have again. Source. Let me create one types folder inside this type. I can have one weather.ts and I will paste all of the types that I have. This is the first type which contain the weather data name. Since basically they have country sunrise sunset and the main which contain temperature feels like humidity and pressure then we have weather which give us the ID main description. and icon, wind and then dt. In same way forecast, same way we have aqi. Okay, no problem. Let's just copy and paste it. No problem. Nice. Now let me come into here and import all the important things that I need. So I need here a location from expo location. Then I need use effect and use state. Then I need fetchCords by city and fetchWeather byCords easy and then the types for the AQI data, for Cust data and weather data no problem. Okay let's create one hook a custom hook I can simply say exportConst useWeather and this useWeather is basically. going to have bunch of state variables. So let me add all the state variables that we are going to have. So we are going to have the loading, set loading, error message, weather, forecast and AQI set AQI. Okay, these are all the state variables that we need. And And first thing is let us create one function name as getLocationWeather. So I can simply say const getLocationWeather is equals to a sync and inside the sync let me open it. And into it first thing is always set loading. Okay, and then second thing is I can say set error message as empty string and then I will open one try and catch inside this try first of all let me request for the permission so what I will do I can simply say const status is equals to of it location is",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-2-adding-assets-and weather-api_epm",
+      "lessonFile": "chapter-2-adding-assets-and weather-api_epm",
+      "source": "class-subtitle/module 15/chapter-2-adding-assets-and weather-api_epm/chapter-2-adding-assets-and weather-api_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0.32,
+      "end": 301.48,
+      "duration": 301.16,
+      "startTimestamp": "00:00:00.320",
+      "endTimestamp": "00:05:01.480",
+      "captionStart": 1,
+      "captionEnd": 58,
+      "tokenCount": 789,
+      "captions": 58
+    }
+  },
+  {
+    "id": "chapter-2-adding-assets-and weather-api_epm_chunk_0002",
+    "text": "So I can simply say const getLocationWeather is equals to a sync and inside the sync let me open it. And into it first thing is always set loading. Okay, and then second thing is I can say set error message as empty string and then I will open one try and catch inside this try first of all let me request for the permission so what I will do I can simply say const status is equals to of it location is location.request foreground permission async and then if the status is not equal to equal to granted then simply set error message and set loading as false and return from here because we need the users location. nice and then what next, next I will say const LOC is equals to await and then I can say location.getCurrentPositionAsset and they are going to get the accuracy on the basis of location.accuracy.valuance. Yes, you can even get the accuracy. a best for navigation high high as low simply go with balanced nice and then again simply call the method load up definitively we need the method here so we are going to create that in a way so name of the method is load weather data which going to accept location location.cords.latitude then second thing is location.cords.longitude okay and then inside the catch I can simply return the error that we have so E and I can mark this as any and simply paste it. Now let's move ahead and create this function named as load weather data. So out of this, I can simply create const load weather data. They are going to accept the latitude number and the longitude again number and okay. Let me open this once again. Let me simply open try and catch. First thing is simply call the data is equals to await fetch weather by quotes going to accept the latitude and longitude. Perfect. Nice. But next. Next. Next. Next. Next. Next you can see that we have one state variable with the name of weather. So I wanted to set this data with this name and this data contain weather forecast and AQI what we need we need a weather. All right. Now let's move ahead and then what I will do basically. I will simply try to let me just move ahead and hopefully my sound is coming correctly there is no okay just give me a minute nice. Now you can see that we have a load weather data. So inside this what I will do I will simply going to say set. a weather and this set weather is going to be the data dot weather and then set forecast this is also equals to data dot forecast. And last thing is set AQI and this AQI is equals to again data dot AQI. Nice. And then we can simply say set loading as false. Then into the catch again, let me just make it easy type of any and then paste it easy nice. So this is your another method and after this what you need you need a use effect. So on load this hook I wanted to call the use effect which is going to call get location weather and then I can simply open it. Perfect, last method and the name of that last method is alright, so the next function name is search city. So they are basically going to accept the city name and on the basis of city name, I'm going to get the data so I can simply say city of type string and then a simple function call. What if I just simply copy and paste them? Yep, so now right now you can see that where is my fetch codes by city. So you can see that a simple loading is true, set error message, empty message, then a try and catch, then we are calling a simple coordinates by city yes and then they are going to return us the latitude and longitude and on the basis of this latitude and longitude we are again calling the load weather data this one and then they are going to give us the actual data alright nice. Now, at the very end a hook will always return you sometime return you something.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-2-adding-assets-and weather-api_epm",
+      "lessonFile": "chapter-2-adding-assets-and weather-api_epm",
+      "source": "class-subtitle/module 15/chapter-2-adding-assets-and weather-api_epm/chapter-2-adding-assets-and weather-api_epm.vtt",
+      "chunkNumber": 2,
+      "start": 254.46,
+      "end": 598.14,
+      "duration": 343.68,
+      "startTimestamp": "00:04:14.460",
+      "endTimestamp": "00:09:58.140",
+      "captionStart": 53,
+      "captionEnd": 117,
+      "tokenCount": 799,
+      "captions": 65
+    }
+  },
+  {
+    "id": "chapter-2-adding-assets-and weather-api_epm_chunk_0003",
+    "text": "So you can see that a simple loading is true, set error message, empty message, then a try and catch, then we are calling a simple coordinates by city yes and then they are going to return us the latitude and longitude and on the basis of this latitude and longitude we are again calling the load weather data this one and then they are going to give us the actual data alright nice. Now, at the very end a hook will always return you sometime return you something. So, we are going to give the loading, we are going to give the error message, we are going to give the weather, a forecast, a QI and then the method with the name of get location weather. and then search search city so nice now we have successfully added all the assets and added use weather hook now let's move ahead and start adding the weather utils so for that let me close this let me open the weather utils file that we already have which only contains this but we need here four methods and that That method will nothing just going to return you. I can say the images on the basis of condition perfect. So if the condition is we can say very cold, so then I wanted to return the background images, no kind of. So let me first of all create export const get export const. background image and this is equal to the condition and this will the string and then we can have the icon. Icon is also string and then let's keep it as any perfect and then we simply need one a lot of switch cases here. So first thing is we are going to get like this icon will come from the API that we are going to call. So, for now I can simply say going to track is it night or day. So when it's night, when this icon include a word name is N and then what I will do, I can simply say if this is night, then simply say and condition is equals to equals to clean. Then simply return this statement, return require this asset, perfect. Otherwise return the night asset again. So, we are returning the same assets itself, but you can have. Let's say this is your night image or you can even have a clean image for the night like if the sky is clean so you can return the night clean dot PNG something like that but right now I'm just going with the same image that we have. Okay, nice. So this is for the night. Perfect. But let's go with the daytime mapping. So I can simply say switch statement. Yes, we need switch here on the basis of condition. The first case is going to be I can simply say case if the case is clear. Then simply return the sunny.png. Perfect, if the case is clear, then simply return the sunny.png Otherwise if the case is clouds, then simply return I can say require and this is again going to accept a bunch of the cloud then we want to return the cloud easy and then in same way we can have for all the other types as well. So it's up to you like how you wanted to add images. So let me just simply copy the entire statement for now. Perfect and let me paste it here and let's try to understand. If the condition is clear, then return this. Otherwise this if the rain, so you can add something related to rain. If the drizzle, you can add related to drizzle like thunderstorm, then we are returning the rain dot PNG snow returning snow dot PNG. If missed fog, then you can also return this. For his otherwise returning a simple sunny dot PNG. Okay, no problem. Got it. So you got the point what you need to do just to make it more better solution for seeing the weather. Okay, so you can definitely improve them. Okay, so I hope you got the point. Like we can have the get background image in same way we can have get weather icon.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-2-adding-assets-and weather-api_epm",
+      "lessonFile": "chapter-2-adding-assets-and weather-api_epm",
+      "source": "class-subtitle/module 15/chapter-2-adding-assets-and weather-api_epm/chapter-2-adding-assets-and weather-api_epm.vtt",
+      "chunkNumber": 3,
+      "start": 565.24,
+      "end": 860.76,
+      "duration": 295.52,
+      "startTimestamp": "00:09:25.240",
+      "endTimestamp": "00:14:20.760",
+      "captionStart": 112,
+      "captionEnd": 173,
+      "tokenCount": 795,
+      "captions": 62
+    }
+  },
+  {
+    "id": "chapter-2-adding-assets-and weather-api_epm_chunk_0004",
+    "text": "rain dot PNG snow returning snow dot PNG. If missed fog, then you can also return this. For his otherwise returning a simple sunny dot PNG. Okay, no problem. Got it. So you got the point what you need to do just to make it more better solution for seeing the weather. Okay, so you can definitely improve them. Okay, so I hope you got the point. Like we can have the get background image in same way we can have get weather icon. So what is that I can simply say export const get weather icon and this is again going to accept the condition and the icon. So just give me a minute let me copy this, let me paste it and then they are going to return you something known as string. and let me open it. How this actually going to work? Let me again copy and paste them. So just give me a minute. Let me paste it. You can also copy and paste them. If it's night and include n, so simple condition or if the If the weather is clear and is night then return this weather night icon otherwise return weather sunny all of this icons names are available to the API we are using weather open API here if you just simply visit here and read about this icons you will get all of them ok so chill In same way if it's night, so simply return this icon otherwise return this same for rain, drizzle, thunderstorms, snow, mist, fog, haze and you can search for them and have a better icon names. Okay, got it. In same way we can have a weather color. So let me paste for weather color. So again if night, so it's night, then simply give the light slate night color for night icons. Otherwise, if the condition is clear, then return gold. If cloudy return blue gray, otherwise return light blue light blue of 200 something more lighter, thunderstorm return yellow, snow, sea and you can also do for mist fog and haze haze has sea and of 100 otherwise default it is white got it. Now we can have something known as very interesting function. The name is get. weather image URL and this is going to accept something known as icon code. Okay, in this icon code have a string. Then I will simply open it. Perfect. Nice. And there is one API endpoint from the same API we are using. Image something, let me show you what is that. They accept something known as icon code. And on the basis of the icon code, this one, these are we can say kind of the icon code. So on the basis of the icon code, we are returning the icon which they have inside their, we can say. Endpoint. So, let me I hope you got the point perfect. Nice. So, these are all the methods which are ready for us. So, now we have a get weather icon, we have get weather color, get weather image URL, all of the utilities related to weather in same way we can also have the hooks for it. So, yes, we can say this is the right time from the next chapter, we can start creating this index page. So, amazing, amazing job and this is the end of chapter number two. See you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-2-adding-assets-and weather-api_epm",
+      "lessonFile": "chapter-2-adding-assets-and weather-api_epm",
+      "source": "class-subtitle/module 15/chapter-2-adding-assets-and weather-api_epm/chapter-2-adding-assets-and weather-api_epm.vtt",
+      "chunkNumber": 4,
+      "start": 825.899,
+      "end": 1051.04,
+      "duration": 225.14,
+      "startTimestamp": "00:13:45.899",
+      "endTimestamp": "00:17:31.040",
+      "captionStart": 164,
+      "captionEnd": 212,
+      "tokenCount": 663,
+      "captions": 49
+    }
+  }
+]

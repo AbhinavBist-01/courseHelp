@@ -1,0 +1,170 @@
+[
+  {
+    "id": "chapter-2_epm_chunk_0001",
+    "text": "Alright everyone and welcome to chapter number two. In this chapter we are going to implement the screens and navigation of our application. Perfect. So, basically we are going to design the UI of our index page and we can say of our something known as story page. Perfect. So, let's move ahead and start implementing this. So for the implementation, first step is simply go inside your index page. Perfect. And definitely I'm just hitting and trying something. That's why this is edited. It's okay. Let me just simply coming to here. And first step is I wanted to add here. something known as all the designs related to this page that we are going to use. So let me just simply paste all of the designs, no problem. This is what we are doing from the start. No, we have no problem in it. And then let me simply import my style sheet. this theme of And this colors perfect and yep all the designs are here nice cool. So now we can definitely use this properties and we are good to go. So the first thing is what I wanted you to do is to simply add instead of this view simply use something known as keyboard avoiding view. Yes this is something very interesting component. So, every time whenever you are using some input and text area, you will see that your keyboard is basically overlapping that text area. So, if you are going to use this keyboard avoiding view that will actually push your that specific text area or input box to the top depends on the platform you are dealing with. Let's say we have something known as behavior. And, this behavior is depends on the platform dot os. If this is equals to equals to ios then simply add some paddings otherwise change the height of the application ok. Nice, and then after that I can simply add the container style. So I can simply say styles, styles.container and after this what I will do first thing we are going to have here a scroll view. Let me import my scroll view. And, this scroll view is going to have a style. This style is equals to styles.scrollview. Nice. And then we are going to have the content container style. This is also equals to style.scrollcontent. And then we can have a shows vertical scroll indicator as false. Very good. And then inside this we are actually going to have a view. And let me import the view component. This view is going to have a style. This style is equals to styles dot content. Nice. And then what I will do first view is basically related to all the text inputs and all the headers basically I can say. Let me just paste that header. This header is basically going to this is your view no problem inside this view first thing we have icon a book open icon so we are going to use here or something new icon library the name is react lucid react native if I'm not wrong let me see that and this is your title and this is your description for it we know that cool. Let's move ahead and then simply run burn add lucid react native. So this is basically going to add this icon library. Perfect. Alright guys, so now we have successfully installed it. Let me close this. Perfect. And then we can now import this. Book open icon and this book open icon will come from below this. I can simply say import book open icon from Lucid react native. And yes, the moment I save it and what just happened. Unable to resolve arrow down JS. It's okay. I can simply hit the reload. Maybe that will work. I can close this. this once again and read in my application. All right, and maybe I need to change the version of it. I don't know. We'll see that or maybe we will change the entire library if it's throw us so much of error. Let's just wait for it. And yes, look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-2_epm",
+      "lessonFile": "chapter-2_epm",
+      "source": "class-subtitle/module 17/chapter-2_epm/chapter-2_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0.799,
+      "end": 326.72,
+      "duration": 325.92,
+      "startTimestamp": "00:00:00.799",
+      "endTimestamp": "00:05:26.720",
+      "captionStart": 1,
+      "captionEnd": 79,
+      "tokenCount": 798,
+      "captions": 79
+    }
+  },
+  {
+    "id": "chapter-2_epm_chunk_0002",
+    "text": "Unable to resolve arrow down JS. It's okay. I can simply hit the reload. Maybe that will work. I can close this. this once again and read in my application. All right, and maybe I need to change the version of it. I don't know. We'll see that or maybe we will change the entire library if it's throw us so much of error. Let's just wait for it. And yes, look at that. We have a story generator open and definitely powered by open router create magical stories. Open router provide you more than 51 AI models that is free to use. That's why I'm using this. And then we have this very beautiful icon. Amazing. Now let's move ahead. And next step is we already have a header. So, inside this content, we already have a header. Now what I need? I need another view. This view is going to have a style and that is going to be styles.inputContainer. And this input container is going to contain something known as one text input, but before using that text input, we need a state variable for it. So, I can simply say prompt and then set prompt is equals to use state. And then initially this is going to be one empty string. I think we are good to go. In same way we can have one loading state as well loading and set loading is equals to use state and initially I can mark this as false. And then I can simply come into here and paste my text input. So, let me simply copy this and paste it and let me import my text input and format this once. So, you can see that right now this is a text input that have a style, a placeholder and then a placeholder text color. Alright, so now you guys can see and the moment I simply press on save, this is how my input box is actually looks. Perfect. Nice. And what I will do outside of this view basically like from here I think. Yep. Outside of this we can have one touchable opacity that will show us a button that will say generate story. Okay. So, this is going to be touchable opacity and this is going to be touchable opacity. Inside this touchable opacity we are going to have some style. Style is equals to the array of first thing is the style start button no problem. And if we are in loading state, then show the style of style dot button disabled. And, nice and then on press we are going to have some method here right now we do not have it and then when this button is disabled when we are in loading state easy and then we have active opacity of 0.8 no problem. So, what I will do here right now, if we are in loading state then I wanted to show something otherwise I wanted to show something. So, whenever I am in loading state then I wanted to render here the activity indicator that is showing the generating text. Like this. Ok. And then inside this I will show some icons. Let me import my wand 2 icon. Ok. And then first of all let me add them into the react fragment. Yep. And then I can also import my sparkles. And the moment I save it, this is how they look. Easy. So, this is your home screen. And, what I will do next, next outside of this touchable opacity, I will simply do what example underscore prompts dot length. If this is greater than 0, then we wanted to show the example prompts. So, what I will do? I can simply open one view. Inside this view, we are going to have a style. Style is equals to styles.exampleContainer and this example container is going to have a text that will show a simple example prompts and this text will simply show a style. That will be styles.examples we have something on its title.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-2_epm",
+      "lessonFile": "chapter-2_epm",
+      "source": "class-subtitle/module 17/chapter-2_epm/chapter-2_epm.vtt",
+      "chunkNumber": 2,
+      "start": 285.64,
+      "end": 598.88,
+      "duration": 313.24,
+      "startTimestamp": "00:04:45.640",
+      "endTimestamp": "00:09:58.880",
+      "captionStart": 68,
+      "captionEnd": 142,
+      "tokenCount": 792,
+      "captions": 75
+    }
+  },
+  {
+    "id": "chapter-2_epm_chunk_0003",
+    "text": "example underscore prompts dot length. If this is greater than 0, then we wanted to show the example prompts. So, what I will do? I can simply open one view. Inside this view, we are going to have a style. Style is equals to styles.exampleContainer and this example container is going to have a text that will show a simple example prompts and this text will simply show a style. That will be styles.examples we have something on its title. Okay, so if I save it, this is how this example prompt will look. Then we have one grid style and let me tell you very interesting thing. Inside the react native into designs, we don't have grid. You need to keep that in mind. They have some PR raised for that into their GitHub repo. But for now, they don't support grids. So this does not mean that react native is bad or they don't support react native. You can do everything with Flexbox itself. Then this is going to be your view. View will have something known as style.example grid design. Okay, but internally they use flex, what irony and then inside this I can simply say example prompts.mapit. Map this, this is your example, then we can have index and this is simply going to return you another touchable opacity. So, let me simply say touchable opacity that will basically render a text that is showing example. Okay. If I save it, this is how all the text will look, but no, this is very bad. So, let me just enhance the design. First thing is let me give the key for each of the text. Very good. And next what I will do, I will simply give the style to it. Style is going to be styles.exampleCard. So now this looks amazing. And yes, you can even scroll it and this is how they look. No problem. And then on press, this is basically going to call one method name as handle example prompt and then they are going to get the basically the example, the moment you click, we wanted to add this prompt onto our. text area, you got the point. Then I can simply say disable, disable on loading. Nice. Now let's move ahead and implement two method. One method is this and definitely we are not going to implement the actual logic right now, just a simple initialization. So this is the handle generate method and below is handle example prompt. So let's move ahead and first of all. Let me create const handle example prompt this is going to accept the example prompt of string nice and then I can simply say set prompt set prompt is equals to example prompt nice and then what I will do I will only initialize one empty function. handle generate ok, this is just a simple function ok, so the moment I save it and let us say I clicked here look at that, if I clicked here look at that, this is how this actually works. right now we are done with the index page, what next? Next is your main story page. So story pages also basically this depends on some UI elements for now. But what I will try to do is to implement that I think when we have some AI response. Or maybe we can take some sample AI response and then try to load it up. So let me just close this or instead of closing this, let's go inside the story page. So how I will go it? I just simply add one hacker. I'll change that in a while. This is your link. This will basically... Take me to the, let me import the text, go to story and then right now what I will do href, href will take me to the story. Okay, if I save it, nice, let me add the style. is going to be the color of white. Okay, so the moment I press on go to story, I am into the story page, into in story page",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-2_epm",
+      "lessonFile": "chapter-2_epm",
+      "source": "class-subtitle/module 17/chapter-2_epm/chapter-2_epm.vtt",
+      "chunkNumber": 3,
+      "start": 555.6,
+      "end": 876.9,
+      "duration": 321.3,
+      "startTimestamp": "00:09:15.600",
+      "endTimestamp": "00:14:36.900",
+      "captionStart": 135,
+      "captionEnd": 198,
+      "tokenCount": 799,
+      "captions": 64
+    }
+  },
+  {
+    "id": "chapter-2_epm_chunk_0004",
+    "text": "I'll change that in a while. This is your link. This will basically... Take me to the, let me import the text, go to story and then right now what I will do href, href will take me to the story. Okay, if I save it, nice, let me add the style. is going to be the color of white. Okay, so the moment I press on go to story, I am into the story page, into in story page right now. Let me close this index, open this story.tsx. Okay, so first thing is definitely we are going to have a lot of data, a lot of search parameters, a lot of things. But for now... Let me try to add all the state variables that we need. So, the first thing that will come in future is data, data from use local search params and yes, after this we can have one router. router is equals to use router. And, then we can have one image loading and then set image loading is equals to use state nice. And, then we can have another state variable with the name of image error and set image errors. is equals to again a use state and then simply open it. And at the end we can have one image URLs and then set image URLs. Perfect. And then this is equals to use state as well. Nice, and what next? Next what we will do, we will just initialize one empty let story because right now we do not have any story. So I will just keep it story. This is basically the type of story response that contain the title and paragraph and that paragraph also contain the prompt to image. and the actual paragraph. So what I will try to do right now is we are good to go. We can simply initialize that as a null for now. Good. And then what I will do, I will simply say if we don't have any story, okay, if we don't have any story, which is we don't right now, then first of all, let me grab all the designs that I need. Let me copy this and then let me paste it. Okay. So, this is the colors. Let me import the colors. Let me import my theme and yes, nice. So, this is all the designs that we have. We also need to import the platform. Perfect. So, this is all the designs that we need. Now, let us move ahead and if we do not have any story for now, ok. So, if you do not have any story, then I wanted to show no story found something like that. So, let me simply return this UI that is. No story found and then let me import the arrow left from the react native. Okay. So this is the icon we need the moment I say it. Yes, you can see that right now. No story found. If I go back, if I again press, this is how this will look. This is simple touchable opacity that is showing on press, go back and then arrow left and then a text. No problem. Easy. But let's say we have some UI, then what I will try to do, this view is going to have a style, then we have styles.container and then we have another view. This view is again going to have a style and this style is going to be styles.header. Okay, and then what I will try to do right now What I will do, I will just add some sample story data here. Okay, so right now for the story, let me just try to do you know what I can simply say this as like this. Okay, this is just a sample story and I can definitely change the name of it to story once again. So for the story you will see that we have a title. Then some paragraph, let me just show you the structure so that you can also use AI",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-2_epm",
+      "lessonFile": "chapter-2_epm",
+      "source": "class-subtitle/module 17/chapter-2_epm/chapter-2_epm.vtt",
+      "chunkNumber": 4,
+      "start": 840.66,
+      "end": 1140.44,
+      "duration": 299.78,
+      "startTimestamp": "00:14:00.660",
+      "endTimestamp": "00:19:00.440",
+      "captionStart": 191,
+      "captionEnd": 261,
+      "tokenCount": 797,
+      "captions": 71
+    }
+  },
+  {
+    "id": "chapter-2_epm_chunk_0005",
+    "text": "What I will do, I will just add some sample story data here. Okay, so right now for the story, let me just try to do you know what I can simply say this as like this. Okay, this is just a sample story and I can definitely change the name of it to story once again. So for the story you will see that we have a title. Then some paragraph, let me just show you the structure so that you can also use AI and generate a same structure like this. Then we have inside this paragraph, this is a paragraph sexually, which are array that except array of object, which have one paragraph and then the prompt to image. This prompt will go to AI right now. We are not that much focusing on to this. But yes, this is your story. Perfect. So now if I save it, okay, so yes, now you can see that definitely let's move ahead and start implementing this. So the first thing is we already have one view. This view is the header view that will actually going to show one touchable opacity. something like this. Now if I save it, this is what you can see right now. In same way, I can show the story title. So, the story title is The Night and the Hidden Portal. Okay. This is the story title that we have. So, padding top what I am saying, no, I think I need more paddings. So, padding of 40 is fine. I think we can keep the 60 or maybe 50. Okay, this is fine. Cool. So, this is how this the title will coming from this sample story that we have. Okay, no problem. After this, I wanted to add here one share button. This share will going to use something known as handle share that do not have right now. So I can simply initialize one handle share button and we are good to go. Let me save it. Yes, so this is how this handle share will look. Fine. Outside of this view, I wanted to have one scroll view. This scroll view is again going to have three things, a style, content style and show vertical scroll indicator. And then I simply wanted to open this and what I will do? I will simply say story, yes, story.paragraphs.map because we know that paragraphs is the array and then inside this we have a part and the index. And then I will try to implicit and not implicit, let explicit return it. And inside this first thing is we can have one image URL. Image URL will come from image URLs index. You might be thinking what is this image URLs? So this image URL is nothing, just this one. This is the state variable that we have. And what I will try to do, I will try to add a types for it. So this is the object that have a key of number because that is an index and that will return as a string. So yes, this is how this actually going to look. I know it's a bit confusing, but let me explain you. The image URL will accept a key which is a type of number. So this number is your index. And, on the basis of this we are going to return a string. So, that is why we are doing it like this. Image URL, image URL is accepting the index and this after this, this will return as a string to this. Ok, that is why the type look like that. Nice. And after this what I can do? I can simply have has error and is loading same way. So this is your has error and then is loading. Perfect. And this will actually going to return. Okay now you can see there stop crying. Image URL probably undefined. Okay we will fix it. No worries. For now we are good to go. And then we have one view. This is your view. Okay.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-2_epm",
+      "lessonFile": "chapter-2_epm",
+      "source": "class-subtitle/module 17/chapter-2_epm/chapter-2_epm.vtt",
+      "chunkNumber": 5,
+      "start": 1109.24,
+      "end": 1387.02,
+      "duration": 277.78,
+      "startTimestamp": "00:18:29.240",
+      "endTimestamp": "00:23:07.020",
+      "captionStart": 255,
+      "captionEnd": 326,
+      "tokenCount": 799,
+      "captions": 72
+    }
+  },
+  {
+    "id": "chapter-2_epm_chunk_0006",
+    "text": "Ok, that is why the type look like that. Nice. And after this what I can do? I can simply have has error and is loading same way. So this is your has error and then is loading. Perfect. And this will actually going to return. Okay now you can see there stop crying. Image URL probably undefined. Okay we will fix it. No worries. For now we are good to go. And then we have one view. This is your view. Okay. Excuse me. Let me fix my spelling. Nice. So, this view is first thing they are going to have a key. So, key can be we can say the story, then part and then index. Yep, and second thing is we can have a style, style is again the styles.part container. Okay, then we can have one simple view. This view is basically going to be the style, style is styles.image container. And, then we can say that if it is loading ok, if this is loading then I simply wanted to show the activity indicator, no problem, nice. So, this is what activity indicator we have, but. So, if we have the image URL, yes if we have image URL then I basically wanted to show my image. So, image can be quite big. So, let me just simply grab my image and make sure that this image will come from the image React native, ok, and not react native actually, sorry, from the expo image. So what I will do, I will simply come into here and then I will import the image from expo image. Ok, so these are bunch of inbuilt component provided by expo like next years. And, then what I will do, let me once again coming to here and ok, so this is our image, this image will contain what this image will contain a source, source can be of URI which is equals to image URL, no problem, then we can have a style, style is again equal to styles.image then we can have content fit which is cover. Then we can have a transition, this transition is actually of we can say 200, then on load start what I will do, I will simply show this. So on image loading simply make this image loading is true and image error make as false. On load end same thing make this false, which one is false? okay the first one. This image loading will be false. Okay. Why? Because we don't want it to load the another image, but by any chance, if we have any error, then we wanted to say error as whatever the handle image error method that we have will implement that in a while. For now, let me just simply make this as empty array as empty initialize function. Okay. And what just happened? I am not able to understand that. Okay, so we have a transition, there is something wrong with it, I will figure out in a while, so just give me a minute. Alright guys, so for some reason we are getting some syntax issue here, so let me try to go back, back and once again back. Hopefully, this will work right now and we are still getting it. I do not know from where we have expo image. Okay, nice. Okay, what if I remove this entirely and what if I also remove this? So if I try to save it, you can see that this issue will go from here. No problem. Try to rewrite this same thing once again. So if we have this, what I will try to do, I will try to return something. Okay. So what is that returning part? A simple view. Nice. That view have a key and a style. No problem. Then what we have? We have one image container. Okay. which have a style, style of what? Style of styles not image container and this image container first thing contain the loading state.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-2_epm",
+      "lessonFile": "chapter-2_epm",
+      "source": "class-subtitle/module 17/chapter-2_epm/chapter-2_epm.vtt",
+      "chunkNumber": 6,
+      "start": 1347.74,
+      "end": 1653.64,
+      "duration": 305.9,
+      "startTimestamp": "00:22:27.740",
+      "endTimestamp": "00:27:33.640",
+      "captionStart": 312,
+      "captionEnd": 388,
+      "tokenCount": 798,
+      "captions": 77
+    }
+  },
+  {
+    "id": "chapter-2_epm_chunk_0007",
+    "text": "No problem. Try to rewrite this same thing once again. So if we have this, what I will try to do, I will try to return something. Okay. So what is that returning part? A simple view. Nice. That view have a key and a style. No problem. Then what we have? We have one image container. Okay. which have a style, style of what? Style of styles not image container and this image container first thing contain the loading state. This is the first thing that we are going to contain inside this image container, this loading state and what next? Next we are going to have the image. So, if we have a image URL then simply. render this one, otherwise render something else. Okay, I got it. Where is the issue? So, if we don't have any image, then I can simply show what no preview image is available. But if we have that, then I wanted to use here the image thing. Okay, and now if I save it, you will see the error and error is definitely we need to provide bunch of props inside this image. So, the first few props are very simple that we have source, style, content fit and transition. If I go to story, can't convert undefined value to object. We know that why I am getting it. Then simple onload start, onload end and onload error. things that we need to add. So for now, I will try to keep it as empty callback. Okay. Same thing with on load and let me also keep this as an empty callback and last on error. Let me also keep this as empty callback. Perfect. And if I once again coming to here, cannot convert undefined value to. object. No problem. If we have the image URL, otherwise show. Otherwise what I will do, I will use the dice API. So dice API API dice bar. I think this one. And let me just simply copy this. Let me simply paste it instead of SVG, just change this to JPG and maybe PNG. And now if I save it and hopefully this will work. Not working. Okay. I'll see that. No worries. So what I will try to do next, let's say if we have any kind of error, then I wanted to render that error as well. Okay. We have any error and we are into loading state. So I think out of this basically if I am not wrong this one. We need to paste it. So, if we have any error, can't find name has error, but we have has error. So, this is written statement. So, maybe the inside this written statement. outside of the, maybe inside in the image container we need to add it. So you will see that this is for loading state. This is if we have image. Okay. So from here we are done. Nice. After this what I will try to do, I will simply try to paste this and yes look at that. If we have any error and we are not into the loading state, then we simply wanted to show fail to load image. Otherwise, outside of this we simply show the index of the image and the paragraph of the image. So, yeah cool then what I will do outside of this we will simply show that the end thing ok. Now, the one thing that I wanted to fix is this issue that is can't convert undefined value to object. Okay, what if I reload it? Because this is definitely the end of it. This is just some UI part. Okay, nothing rocket science. So, let me just figure out and the issue is render error. Okay, I know what is the issue. Let me fix it. All right. So, what I can do for it, like I can definitely add a bunch of types for it. Okay.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-2_epm",
+      "lessonFile": "chapter-2_epm",
+      "source": "class-subtitle/module 17/chapter-2_epm/chapter-2_epm.vtt",
+      "chunkNumber": 7,
+      "start": 1614.721,
+      "end": 1891.96,
+      "duration": 277.24,
+      "startTimestamp": "00:26:54.721",
+      "endTimestamp": "00:31:31.960",
+      "captionStart": 374,
+      "captionEnd": 450,
+      "tokenCount": 785,
+      "captions": 77
+    }
+  },
+  {
+    "id": "chapter-2_epm_chunk_0008",
+    "text": "value to object. Okay, what if I reload it? Because this is definitely the end of it. This is just some UI part. Okay, nothing rocket science. So, let me just figure out and the issue is render error. Okay, I know what is the issue. Let me fix it. All right. So, what I can do for it, like I can definitely add a bunch of types for it. Okay. So, let me try to grab them and simply try to paste them. Okay, so now you guys can see for the type, this is type of record, number and Boolean. Okay, all of them is same. This is the first thing and then if I save and go to story, you can see that right now we are only saying no image available, no image available, no image, no image, no image. Okay. And then we are getting the 1, 2, 3, 4, 5 as well. But one more thing that I can do for the image thing and that is let me show you. Let me fix this logic with this logic. If we have an image URL, then show this URL. Otherwise, simply show this URI. Okay. And also for this, I can paste this one. So, on load start, on load end and on error we wanted to fix this and right now if I try to reload it hopefully this will work. Alright, so the first issue is you guys can see that right now we are showing the image badge which is this index depends on the index. This view will come out of here. Okay, so the moment I save it now you are able to see the prompt. This is sample prompts which is coming and this is how this actually look to us. Alright and the only thing which is left is for the image. Right now you can see that what I am doing actually is we are showing no preview image is available. Okay, this is what we are actually doing. But what if I will do here, you know what, I can simply remove this condition. Okay, and after removing this condition, instead I will add simple and, and then you will see something, hopefully I am able to render this glass or maybe, maybe I will remove this whole condition itself. Okay, let me save it and yes this look at that by any chance if we don't have any image. So this is some sample image that we can show that from that specific API and definitely we can even change the UI for it like let me show you how right now we can simply pass parameters. And let me show you what I'm talking about right now. Let's say at this point, what I will do, I will create one placeholder. You are the, you can see that this is the API we are using and this is simple seed. Yes, they accept something known as seed and the seed is depend on the index and then some basic title. And now if I just simply grab this and show this placeholder URI and now if I save it you can see for different title and for different placeholders we can have different images, but definitely this is just a placeholder image for some reason AI will not be able to generate the image. In that case we are going to show. this thing so with this you can see that we are done with the index UI and we are also done with the image UI so I hope so this looks good with this this is the end of this chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-2_epm",
+      "lessonFile": "chapter-2_epm",
+      "source": "class-subtitle/module 17/chapter-2_epm/chapter-2_epm.vtt",
+      "chunkNumber": 8,
+      "start": 1866.96,
+      "end": 2092.02,
+      "duration": 225.06,
+      "startTimestamp": "00:31:06.960",
+      "endTimestamp": "00:34:52.020",
+      "captionStart": 440,
+      "captionEnd": 495,
+      "tokenCount": 716,
+      "captions": 56
+    }
+  }
+]

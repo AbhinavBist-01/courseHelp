@@ -1,0 +1,44 @@
+[
+  {
+    "id": "11-platform-specific-components_epm_chunk_0001",
+    "text": "Hey everyone and welcome to one more new lecture. In this lecture, we will learn how to write platform specific code in an export outer app. Since export outer let you build universal app, we know like we can build Android, we can build iOS, we can build web apps as well. with one code, but sometime you will need to render different UI or functionality depending on the platform. So in this chapter, we will explore how to do that in a right way. So for implementing that, let me take the example of dashboard. All right. So, if I am using Android, I wanted to show here Android dashboard and if I am using iOS, I wanted to show here iOS dashboard and in same way if I open this into my web, then I wanted to show web dashboard, easy. But let's see how you can achieve that. So, for that the best practice is to always create a component folder. And, inside this component folder basically what you need to do, you simply need to let us say I wanted to create for dashboard. So, let me simply write here dashboard.dsx easy and then let me call it dashboard easy. This is your default one. But in same way, you have to create three other same of we can say file as well. So same component as well, but something like this, I will call this as dashboard.ios.tsx. So this is what I am talking about. And you can also change this to iOS and you can also coming to here and you will simply say. iOS alright and here you can also call this as iOS in same way you can also create for a and Android dot TSX let me paste the code and wherever my dashboard I just wanted to change this with dashboard Android. And then in same way let me also create for web. So I can simply say this as dashboard.web.tsx and let me paste the same code and let me say this as instead of android I will call this as android of dashboard web. And then let me save everything, let me close everything and let me go inside my dashboard and instead of using this view, I am going to import my dashboard component. But at this time, let me say this as dashboard screen so that we don't have any confusion and I am going to import my dashboard from default one from here. And then let me save it and then let me wait for it as my application is going to broke or this is going to work. But right now you will see they are rendering everything and Metro handler is going to do a magic for you. So if you just coming to here. and press on dashboard, you will see onto my windows screen, they are showing me a Android, a dashboard Android, alright. But in same way, if I visit localhost, let me bring it here and let me go to my dashboard, look at that, they are showing us dashboard web and in same way, if I show you that inside my dashboard, I will show you that. I mean inside my iOS, so just give me a minute, let me show you that, cool. Alright so right now I am assuming that you guys able to see this and let me show you something, if I just simply click here and take myself to a dashboard, you will see the default one. Alright. Alright, initially they are showing me a default one because I have some problem but right now if you see this they are showing me a dashboard iOS. So alright now this is visible to you guys and in same way you can define however you basically want it to. So, yes this is pretty much it for this shifter, this is how you can basically we can say define your platform specific code and edit as you wanted to do so, cool. So, this is a very useful feature and very advanced feature which is basically provided by the expo router. So, why basically we need this platform specific code?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0,
+      "end": 274.22,
+      "duration": 274.22,
+      "startTimestamp": "00:00:00.000",
+      "endTimestamp": "00:04:34.220",
+      "captionStart": 1,
+      "captionEnd": 57,
+      "tokenCount": 797,
+      "captions": 57
+    }
+  },
+  {
+    "id": "11-platform-specific-components_epm_chunk_0002",
+    "text": "So alright now this is visible to you guys and in same way you can define however you basically want it to. So, yes this is pretty much it for this shifter, this is how you can basically we can say define your platform specific code and edit as you wanted to do so, cool. So, this is a very useful feature and very advanced feature which is basically provided by the expo router. So, why basically we need this platform specific code? Because let's say whenever you are building some universal app, so different platforms sometimes require a we can say different behavior. So, we can say that web often need link and desktop layout. Mobile might need gestures native UI element. iOS and Android. have some slightly different conventions. So that's why this platform specific convention is such a game changer and by using this you can build and like anything. So yes, this is pretty much it for this chapter and I hope you guys are loving this. By the way, yep, this is the end of this entire module and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "11-platform-specific-components_epm",
+      "lessonFile": "11-platform-specific-components_epm",
+      "source": "class-subtitle/module 4/11-platform-specific-components_epm/11-platform-specific-components_epm.vtt",
+      "chunkNumber": 2,
+      "start": 239.93,
+      "end": 317.68,
+      "duration": 77.75,
+      "startTimestamp": "00:03:59.930",
+      "endTimestamp": "00:05:17.680",
+      "captionStart": 51,
+      "captionEnd": 66,
+      "tokenCount": 214,
+      "captions": 16
+    }
+  }
+]

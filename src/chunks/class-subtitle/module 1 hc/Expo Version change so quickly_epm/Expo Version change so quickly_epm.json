@@ -1,0 +1,44 @@
+[
+  {
+    "id": "Expo Version change so quickly_epm_chunk_0001",
+    "text": "I absolutely love Expo and these days whatever the application we are building are 100% Expo based. Our application serves thousands and thousands of active user daily basis and Expo is the right way of building these days modern application that can serve on Android applications as Android phones as well as iPhones as well. But here's the thing Since I have been propagating about things, what to do, what not on YouTube for a really long time, a lot of people picked up my videos and wrote articles about them and helped me to pass on the narration further on. And these are all based on my experience that I get. Now, before almost, I guess in like 7 or 8 years ago, I was a big sayer of saying that you need to build your application with React Native CLI. During those days, the expo was not a mature platform. And I was very right at that point. But over the years and especially in last five or seven years Expo has picked up really well. Now my saying is that hey you should build your application with and only with Expo React Native CLI you don't need to it and there is no good reason to do so. Your performance is all good your all the APIs, APK Everything is available within the Expo itself and you can reliably build an application and I'm building my own but here's the problem Since those words amplified so much that now it's getting even for me difficult to convey the fact that we have new facts now. We need to change our perspective with the new facts now. And it is very hard to convince all the people. But here's I am saying out loud that yes, Expo is the way to build React Native application or cross platform application. These are not hybrid applications, these are real applications which actually the code that you're writing is in JavaScript and TypeScript but the applications which your platform sees are native applications in itself. Until and unless you are making some next generation game itself, for all the other applications, Expo and React Native are the right fit to go for. You will never face any lag, any kind of performance issue, nothing at all. We use them every single day, we bill for clients as well. But there is one thing which I'm not happy about the expo and you really need to know about it Expo is doing everything great except marking their versioning number Somehow expo doesn't use the semver versioning of rolling out the updates and they roll out updates so fast that it is Almost impossible to catch them. In fact, their own team is finding difficulty to catch these updates Their own application as the time of recording of this video in the store supports the version 54 But their application is rolling out version 57 and there is no major difference in them That is the pain point. They all are backward compatible all code works in the previous applications or previous versions But still they keep on rolling. Let me show you something very interesting to prove my point apart from that I love XBOW but Look at this. This is expo 57. They rolled out great, but where is the previous version just here it is expo 56 Ah, so May 22 and then July Who rolls out version that quickly but somehow they do it They never roll out versions like 56.1, 56.2, they just roll out 56, 57. Where is 55? You might be asking. Here it is. February. 55. And you might be seeing the same kind of pattern going up. If I load more, you'll see the exact same pattern. So, my goal before making this video is that please don't worry about the version of Xpo. Just feel free to choose whatever is the latest version or use the version that we are using in the application and you will be absolutely fine. There is no need of using the cutting edge because you won't be able to use it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1 hc",
+      "lesson": "Expo Version change so quickly_epm",
+      "lessonFile": "Expo Version change so quickly_epm",
+      "source": "class-subtitle/module 1 hc/Expo Version change so quickly_epm/Expo Version change so quickly_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0.839,
+      "end": 232.98,
+      "duration": 232.14,
+      "startTimestamp": "00:00:00.839",
+      "endTimestamp": "00:03:52.980",
+      "captionStart": 1,
+      "captionEnd": 50,
+      "tokenCount": 788,
+      "captions": 50
+    }
+  },
+  {
+    "id": "Expo Version change so quickly_epm_chunk_0002",
+    "text": "February. 55. And you might be seeing the same kind of pattern going up. If I load more, you'll see the exact same pattern. So, my goal before making this video is that please don't worry about the version of Xpo. Just feel free to choose whatever is the latest version or use the version that we are using in the application and you will be absolutely fine. There is no need of using the cutting edge because you won't be able to use it. Their own expo go application supports version 54. So even if I want to I cannot use expo version 56 right now So again, this is a little mismatch, but you don't have to worry go with little bit older version Which are much more stable does the job and we have also recorded in them. So this is very stable So, don't worry about the entire course that hey the version is outdated or it is not. We have taken special care so all the code runs in all the versions, it is backward compatible and rest assured we'll be keep on updating if anything new extreme happens. So don't worry on that. Just only my 2 minute rant or complain that Hey Expo! Please use Sember versioning. Rolling out the new mega version update number It gives panic to everyone in the industry, in the learner, everyone Hope they will listen to me soon and they still stop rolling out this 56, 57. By this speed They will be on target 100 probably within few months Anyways, so the model of the story is - don't worry about the versioning, that is okay, totally completely fine. We have taken care all of it. You will have a good experience while learning through this entire mobile development journey. That is it from my side. That's it. Let's catch up in next video.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1 hc",
+      "lesson": "Expo Version change so quickly_epm",
+      "lessonFile": "Expo Version change so quickly_epm",
+      "source": "class-subtitle/module 1 hc/Expo Version change so quickly_epm/Expo Version change so quickly_epm.vtt",
+      "chunkNumber": 2,
+      "start": 209.74,
+      "end": 308.46,
+      "duration": 98.72,
+      "startTimestamp": "00:03:29.740",
+      "endTimestamp": "00:05:08.460",
+      "captionStart": 43,
+      "captionEnd": 69,
+      "tokenCount": 373,
+      "captions": 27
+    }
+  }
+]

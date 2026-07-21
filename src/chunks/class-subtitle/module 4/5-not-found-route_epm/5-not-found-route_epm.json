@@ -1,0 +1,44 @@
+[
+  {
+    "id": "5-not-found-route_epm_chunk_0001",
+    "text": "Alright everyone and in this lecture we will learn how to handle unmatched route inside the expo router. Perfect. So in traditional web apps when a user type any URL that does not match any route so we know that server is going to return as a 404 page. But in native mobile apps, there is not a server. We can say so technically there is not any HTTP 404. Yep, but if we are building a universal app, let's say native plus web, like this is your native, like you can run this inside your Android iOS and even in web. So technically there is, so we can say you still want a way to show a custom not found. When the path does not exist, that's why expo router provides this using a special file name notation. We can something say that as app and plus not-found.tsx. So plus not-found is the main thing here. Cool, so this is a special notation just to create a unmatched route, a custom unmatched route pages. Cool, so native app as you guys read here don't have a server, so there is technically no 404. However, if you are implementing a router universally, then it makes sense to handle a missing route. This is done automatically for each app but you can also customize it. Cool? So, let's see how we can basically customize this. So, it's easy. You can ignore it. Let me show you in much easier way. So, how basically this is going to work? Like, if I tell you the default behavior of it. So, the default behavior is explore outer will automatically cache all your unmatched route perfect this is automatically going to cache all my unmatched paths and render it either like let me try to show you what I am talking about if I go to my app. an index cool and let me try to go in a page that don't exist let's say this pages don't exist this screen is don't exist if I press on feed you will see I am seeing here unmasked route and page could not be found at this point if you they even provide you site map so by that you can click anywhere and redirect there let's say let me go to my index but And if I again press you will see this is your unmask route. Perfect. So this is the default unmatched routes screen we can say. So you can definitely customize it. How you can customize this? Inside the app at the root level, like this is your global, we can say not found page. So you can simply say plus not found dot TSX. And then inside this plus not found dot TSX, you can write whatever you want. Cool, so you can definitely something like this, let me just try to write it. I can say this as custom not found, so R and FES and I will say this as custom not found. Perfect. And then let me press on site map, we will see is this going to work or not and let me try to go my feed and boom look at that. Now we are rendering our custom not found page. Perfect. So this is your global level not found page. In same way, you can even create for specific route segments as well. Let's say for profile, I wanted to create it. Alright, so we'll see how you can create it simple inside profile. We can say you can create same thing, not found dot tsx and let me just copy this. Let me paste it. Just instead of this, let me just simply say. profile, custom not found cool. And let me try to regenerate an error. Let's say inside profile, like this one, we have user, but let's say instead of user, I accidentally write here users. And if I save it and try to go to my profile, now you will see we are able to see the profile, custom not found.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0,
+      "end": 268.68,
+      "duration": 268.68,
+      "startTimestamp": "00:00:00.000",
+      "endTimestamp": "00:04:28.680",
+      "captionStart": 1,
+      "captionEnd": 62,
+      "tokenCount": 792,
+      "captions": 62
+    }
+  },
+  {
+    "id": "5-not-found-route_epm_chunk_0002",
+    "text": "Let me paste it. Just instead of this, let me just simply say. profile, custom not found cool. And let me try to regenerate an error. Let's say inside profile, like this one, we have user, but let's say instead of user, I accidentally write here users. And if I save it and try to go to my profile, now you will see we are able to see the profile, custom not found. So, I hope so, I am making sense and yes, this is how you can basically create your global level not found and a scope level not found. Perfect. So, yeah, this is pretty much it for this easy chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "5-not-found-route_epm",
+      "lessonFile": "5-not-found-route_epm",
+      "source": "class-subtitle/module 4/5-not-found-route_epm/5-not-found-route_epm.vtt",
+      "chunkNumber": 2,
+      "start": 239.94,
+      "end": 283.52,
+      "duration": 43.58,
+      "startTimestamp": "00:03:59.940",
+      "endTimestamp": "00:04:43.520",
+      "captionStart": 55,
+      "captionEnd": 66,
+      "tokenCount": 142,
+      "captions": 12
+    }
+  }
+]

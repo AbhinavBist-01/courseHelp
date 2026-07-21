@@ -1,0 +1,44 @@
+[
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_chunk_0001",
+    "text": "Alright guys and welcome to one more new chapter. Right now we are done with this X-ROSCOPE. Let's move ahead and start talking about this magnetometer. This is also very easy and easy to understand. Let me try to explain you what is the use of this. So this sensor tell you the magnetic field. Perfect. The only work of this sensor is to tell you the magnetic field around your phone. So you can use this as a compass, which you can use like again a digital compass. Perfect. So why this actually matters? So instead of just reacting on motion, you can tell which way the device is pointing. So real use case for this magnetometer is again a compass screen. And then directional map. Yes, you can use this as a directional maps. You can orientation base UIs. You can basically create that. Perfect. So let me try to explain you this by again having a great example. So let's move ahead. Let me add a component and I will simply say this as compass dot t s x r a f c e not r And this will become my compass. Perfect. And we don't need it right now. And below this I can import my compass. Perfect. Let me close this, close this as well and only focus here. So, again I simply wanted to show perfect. So, let's move ahead and start implementing step by step. So, the first thing first let me just simply have here our direction. So, direction and then set direction this is equals to use state and right now by default we can keep it as unknown. And in same way, let me have again simple design. This is for a style and this is for this school. So you will see right now showing us unknown. Very good. Let's move ahead and again start implementing this. So for that I can have a use effect. And this use effect will again going to subscribe to an event but first of all let me add an empty dependency. So this is going to be sub is equals to let me import this magnetometer. So this is magnetometer. meter dot add listener. Perfect. And then we have a x axis, y axis and again not x. This is going to be z axis. And then again let's use simple maths dot absolute value. If maths dot x is greater than. So, math dot absolute of y perfect this means our direction will be in eastish or westish perfect. So, if x value is greater than 0 this means value is something around eastish. Otherwise, this is going to be westish, perfect. So, westish. Else, this is going to be northish and southish, perfect. So, I can simply have the directions as well and at the very bottom I can again come into here and say return and then whatever this let me just simply remove it. Cool. Let's test this out, but you will see right now my phone position is in something Southish, but if I try to rotate it and look at that now we are in West now in North. And hopefully in HD, yes, so successfully I am able to track my locations. Perfect. So how I am able to do so with the help of this Magnetometer. Perfect. So amazing. Alright, so let's enhance this bit more again. Perfect. So for that, let me grab a bunch of styles. And let me paste all of that here. Perfect. And then in same way, I can also have a view. Now this view have a something new thing as arrow and a color. All right. So let me add all the three state variables that I need. We already have a direction. We need arrow and a color. And if I, what happened? Just give me a minute. And if I save it, you will see something like this. Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0.64,
+      "end": 299.62,
+      "duration": 298.98,
+      "startTimestamp": "00:00:00.640",
+      "endTimestamp": "00:04:59.620",
+      "captionStart": 1,
+      "captionEnd": 76,
+      "tokenCount": 794,
+      "captions": 76
+    }
+  },
+  {
+    "id": "3. Magnetometer - Turn Your App Into a Digital Compass_epm_chunk_0002",
+    "text": "And let me paste all of that here. Perfect. And then in same way, I can also have a view. Now this view have a something new thing as arrow and a color. All right. So let me add all the three state variables that I need. We already have a direction. We need arrow and a color. And if I, what happened? Just give me a minute. And if I save it, you will see something like this. Cool. Let's try to enhance this bit more. Everything is fine. We have X and Y. We don't need Z right now. Perfect. And if this is here, so what I will say here, inside this if I will add one more condition and let me just simply paste that. So, if x is greater than 0, this means direction is in east, arrow should be here and then color is something like this. Otherwise, we are in west and arrow is in here and set color is this. Why we are calculating for 0? Imagine this as a Cartesian Plan. Perfect. So, at this point, right at the bottom we have x-axis and y-axis as zero. If we are increasing this, we are moving towards east. If we are decreasing this, we are moving towards west. That's why. Otherwise, let's do same thing inside the here, so perfect. Now if y is greater than 0 this means we are moving towards north, if less than 0 this means negative we are moving towards south and if I save it look at that. My phone is facing towards south right now but if I change it look at that my phone is facing towards west. Now on north and then in east. So I hope you are loving it and this is how you can basically use it and create your own compass. Perfect. So, yes, so magnetometer give you X and Y values. So bigger value decide directions. So which show an arrow and color. That's it. Cool. Yes. So this is pretty much it for this our entire chapter. So again, we are also done with this one like this magnetometer. Perfect. So let me just make it green and amazing, amazing job. See you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "lessonFile": "3. Magnetometer - Turn Your App Into a Digital Compass_epm",
+      "source": "class-subtitle/module 7/3. Magnetometer - Turn Your App Into a Digital Compass_epm/3. Magnetometer - Turn Your App Into a Digital Compass_epm.vtt",
+      "chunkNumber": 2,
+      "start": 269.7,
+      "end": 415.199,
+      "duration": 145.5,
+      "startTimestamp": "00:04:29.700",
+      "endTimestamp": "00:06:55.199",
+      "captionStart": 65,
+      "captionEnd": 113,
+      "tokenCount": 455,
+      "captions": 49
+    }
+  }
+]

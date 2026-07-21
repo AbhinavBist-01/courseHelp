@@ -1,0 +1,296 @@
+[
+  {
+    "id": "chapter-3-implementing-google-oauth_epm_chunk_0001",
+    "text": "All right, everyone, and welcome to one more new chapter. In this chapter, we are going to implement a Google OAuth inside our expo app. Perfect. But before moving ahead, I just wanted to talk about what is OAuth 2.0. So, to let your user login using their existing account from the services like Google, Apple, GitHub and many more, you can use OAuth 2.0. So, OAuth 2.0 is widely used secure protocol that allows your app to access user information from another device without needing to handle password. Very important point. It's allow your user to log in with a single tab with saved times, build trust and remove the need to manage passwords. So basically whenever you are using OAuth, you are not managing any kind of password. You are authenticated or instead we can say you are authorizing a user from a third party service provider like Google. like GitHub, like Apple, like Facebook, something like that. Perfect. And one very important point they have mentioned, Authflow can be complex. Alright, if you are looking for a simple integration, most provider offer SDKs. and services that handle everything for you. You can learn more about this in Auth Solution section, but we are going to skip this for now and let's move ahead and try to implement by ourselves. If you are looking for a full control or want to understand how OAuth actually works under the hood, the following section show how to implement a complete OAuth flow yourself using expo. Alright, so how this is how this OAuth actually work. So OAuth work by introducing an authorization server. So let me just quickly open this diagram. Perfect. Let's say this is your expo app. No problem. and you clicked on login with Google, then this login with Google make authorization request. Listen to me carefully, they make authorization request perfect and then basically then we are redirecting ourselves toward this service provider or authorization provider at this time. Let's say Google. Then Google will basically show you their consent screen. Basically the account you wanted to select and from which account you wanted to choose. And then you give the authorization grant. Alright. And after getting authorization grant, we are going to the auth provider. Auth provider giving you the access token and on the basis of access token, we are able to. access all the user information. So kind of that this is not the right diagram I can say for the OAuth but yes this is how kind of they work. Alright and this is how we are going to implement that inside the Expo API routes. Yes we are going to use Expo API routes for it. So, this is your Expo client, this is your API route, which is Expo API routes, thanks to Expo and then we have Google Auth, which is the provider at this time. So, you will see like this is your initial Auth request clicked on sign in with Google, then this request will go to the API route server. And then this is basically redirects to Google auth page. And then user basically approve the access and whenever user will approve the access when we are going to implement that in code, you will understand this much better. Then they are again redirected to the server with server Expo API server with the auth code. And then on the basis of this auth code, we are going to exchange this auth code with client ID and client secret. Yes, then this client ID and client secret will basically again with the like we are going to have four three information. One is this code, then a client ID, then a client secret. And. the scope you wanted to access and then along with this we are again hitting the Google and then Google will validate all of this information like is this the code which I have sent and on the basis of that they return you the access token and then we have access token on the basis of that access token we can access users information like the name,",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-3-implementing-google-oauth_epm",
+      "lessonFile": "chapter-3-implementing-google-oauth_epm",
+      "source": "class-subtitle/module 13/chapter-3-implementing-google-oauth_epm/chapter-3-implementing-google-oauth_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0.52,
+      "end": 294.48,
+      "duration": 293.96,
+      "startTimestamp": "00:00:00.520",
+      "endTimestamp": "00:04:54.480",
+      "captionStart": 1,
+      "captionEnd": 63,
+      "tokenCount": 795,
+      "captions": 63
+    }
+  },
+  {
+    "id": "chapter-3-implementing-google-oauth_epm_chunk_0002",
+    "text": "going to have four three information. One is this code, then a client ID, then a client secret. And. the scope you wanted to access and then along with this we are again hitting the Google and then Google will validate all of this information like is this the code which I have sent and on the basis of that they return you the access token and then we have access token on the basis of that access token we can access users information like the name, their email, their avatar, a lot of information. Alright. So, explain let you implement the entire OAuth flow directly in your app using these three things. First is Expo router, second is Expo router API and third is Expo auth session. So I think let's move ahead and start implementing that. So, first of all, let me just simply come into here and first thing that I wanted you to do is to install a bunch of things with me. I think we already have that. So first of all, let me go to my package.json and search for expo auth. Alright, we don't have it. So I think let's move ahead and does we have Expo secure store? Oh yes, we already have a Expo secure store. So it's fine. Simply run 1x Expo install and we wanted to install Expo auth session. Expo web browser. Yes, you need to install it and then Expo secure store. We already have it and then one very interesting thing, which is Jaws and then simply install this. Cool. So, let me just wait for installation. Alright, so now we have successfully installed it. Now what is the next step? Next step is let's move ahead and get the Google OAuth credentials. So, for getting the Google OAuth credentials, I basically wanted you to simply. So, for that what I will do, I can simply visit to my Google cloud console. Alright. So, I can simply search for Google cloud console and I will open any one of them. Go to my console. Yes. And after going to console. And then after that what I basically wanted to do is just give me a minute. All right. And then first thing is I basically wanted you to choose any project. Perfect. So, what if I go with let me just go with this current project, my first project. All right. And then what I basically wanted to have is just give me a minute. This is my first project. Or maybe what if I choose my Google or anything you can create your own project and let me search for APIs. Why I'm not getting that. This is the problem with it. So just give me a minute. Alright so you can just simply press here and you will find something known as API and services simply press over this and after pressing and maybe let me just open this fully Fix it nice. Now you will see this lot of information. First thing what you need to do is to simply go inside your OAuth consent screen. Yes, first step is always you need to create OAuth consent screen. And why I am not getting alright this is the overview. I think this is the client. Yes, simply press on client and then simply press on create client because you wanted to create one client for it. So application type is choose right now web application and web client to and the JavaScript Authorize URL will be your application's running server. So, if I am not wrong whenever we run any development build yes we need to create a development build for it. So, their host is going to be HTTP slash slash localhost. 8081. Yes, so this is the port for it. Let me add authorization callback and this is again going to be HTTP localhost 8081 slash API. Yes, just add with me auth slash callback. Perfect. And after adding this simply press on create and the moment you press on create, we have two things.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-3-implementing-google-oauth_epm",
+      "lessonFile": "chapter-3-implementing-google-oauth_epm",
+      "source": "class-subtitle/module 13/chapter-3-implementing-google-oauth_epm/chapter-3-implementing-google-oauth_epm.vtt",
+      "chunkNumber": 2,
+      "start": 264.881,
+      "end": 562.16,
+      "duration": 297.28,
+      "startTimestamp": "00:04:24.881",
+      "endTimestamp": "00:09:22.160",
+      "captionStart": 57,
+      "captionEnd": 130,
+      "tokenCount": 789,
+      "captions": 74
+    }
+  },
+  {
+    "id": "chapter-3-implementing-google-oauth_epm_chunk_0003",
+    "text": "development build for it. So, their host is going to be HTTP slash slash localhost. 8081. Yes, so this is the port for it. Let me add authorization callback and this is again going to be HTTP localhost 8081 slash API. Yes, just add with me auth slash callback. Perfect. And after adding this simply press on create and the moment you press on create, we have two things. First one is the client ID and second thing is the client secret. And please don't use mine secrets because otherwise I'm definitely going to remove all of them. Let me just simply create one ENV. paste one credential, let me copy the another one, let me paste the another credentials as well. Easy, nice, then simply press on OK. Now we have this web client 2 as well. Close this. Now let's move ahead and start setting up first to fall a bunch of we can say. back-end endpoints and maybe before that let's move ahead and let me just simply where is my device I think this one cool and let me also fix their size just give me a minute and then we will good to go alright so now I have successfully set all of them and what is the next step is simply go inside your app and create one API perfect yes and inside this API first end point that I wanted you to create is very simple you simply going to create here something known as first of all create a folder with the name of auth alright. And inside this what we will going to do is to first of all create one endpoint. Yes, the endpoint name is going to be authorized. Yes, authorized plus API dot. Yes, simple. But before using this, yes, what you need to do need to go inside app.json. Search for web, change this static to server, very good and then again let us go inside the authorized.api and inside this we need to import bunch of we can say constant variables. So, at the root of it, I can simply create here some constants. And, then I can simply say this as index dot ts and first constant that we are going to have is the client id alright and you cannot directly create this export const alright. So, this is the first variable in same way. I can have the export const Google client secret. So let me just create them as secret and let me off my AI because disturbing me a lot. All right. And hopefully let me just initialize them, initialize them as well. Perfect. And one more, two more, by the way. I can simply say export const base_url. Yes, we need a base URL and I think for now we are good to go. So what is this base URL is going to be? So this is the base URL we can say backticks HTTP //localhost 8081. So this is the base URL we have. Nice. And in same way we can have one thing which is known as Google Auth URL. So this is the end point we are going to hit from our backend. Alright. Nice. Let me close everything. Let's open dot env inside this dot env. The first variable is Google client ID. Okay. And let me change this to environment variable. Now this is showing a syntax highlighting. Then the another thing that we have. is Google client secret easy perfect and then what you need to do simply say process dot env and this is basically going to be Google client ID nice and the second thing is going process dot env Google client secret. So, these are bunch of constants that we need. Let me close everything only simple focus on to this file and this file is simply going to have what let me just import all of them. from at the rate slash constants. Okay, so I need the base URL. I need the Google client ID and I need the let me import one more thing. Google client of secret. Okay, so these are all the things that we have.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-3-implementing-google-oauth_epm",
+      "lessonFile": "chapter-3-implementing-google-oauth_epm",
+      "source": "class-subtitle/module 13/chapter-3-implementing-google-oauth_epm/chapter-3-implementing-google-oauth_epm.vtt",
+      "chunkNumber": 3,
+      "start": 524.441,
+      "end": 846.98,
+      "duration": 322.54,
+      "startTimestamp": "00:08:44.441",
+      "endTimestamp": "00:14:06.980",
+      "captionStart": 121,
+      "captionEnd": 188,
+      "tokenCount": 801,
+      "captions": 68
+    }
+  },
+  {
+    "id": "chapter-3-implementing-google-oauth_epm_chunk_0004",
+    "text": "process dot env Google client secret. So, these are bunch of constants that we need. Let me close everything only simple focus on to this file and this file is simply going to have what let me just import all of them. from at the rate slash constants. Okay, so I need the base URL. I need the Google client ID and I need the let me import one more thing. Google client of secret. Okay, so these are all the things that we have. Now, let me create export async function and this function is going to be the get function which have access of request and this is going to be the request. Let me open it and first thing is going to be let me initialize the new URL. Then we are going to have the request.url. Okay, no problem. Then second thing we need to extract the redirect URI. So I can simply say url.search_params which going to have the redirect_uri. And, okay, we need to use the method here. So this is going to be URL dot search param dot get. All right. And one more thing, which is the state. This is the random string we will sending from the client side to the Google authorization server. Let me just get the state as well. And then let me make ready my parameters. So now you will see that I have created the parameters. So we have a client ID. client redirect URI, response type, scope and the state and the prompt. And after this last thing is simply going to be return this response with Google auth URL alright and then a simple question mark and parameters. Why we are getting this definitely some Type Client ID, maybe this thing. Yes, now we are good to go. Let me format this once. Perfect. So, do not be sending any redirect URI that we are extracting. I think not. So, we do not need it. So, let me just remove it. Perfect. So, this is your first endpoint. Now, what is your next endpoint? Next endpoint is the callback endpoint. Perfect. So, for the callback endpoint, what we will do again, let me simply come into here and let me call this as callback plus API dot TS. And inside this, first of all, let me copy them and paste them. Perfect. Don't need any constant variables for now. We need the state, we need the code as well. So I can simply say const code is equals to url.searchparams.get and then we have the code as well. And after that, let me remove everything. Perfect. And one more thing if you go inside your app dot json. Perfect. So inside this app dot json you will find something, something known as a scheme. So right now you will see my app scheme name is module 13. Okay, so keep that in mind for now. Perfect. So, now let us move ahead and inside this callback URL. Yep, inside this callback URL, I simply wanted to have what I simply wanted to have something known as the scheme. And, on the basis of that scheme we will basically going to return the response. So, simply I can say here the const redirect URI is equals to let us say right now the scheme is module 13 colon slash slash this should match yes this should match your scheme from here. Perfect. And then what we will do, I can simply say const params is equals to new URL search params. Then we are going to have the code of code colon and then we are also going to have a state state of state. this, then I can simply return this spawns return towards the redirect URI alright with all the information that we have perfect. Now, let's move ahead. Alright, so this is two endpoints which is done for now. Now what we can do, we can simply move ahead and start implementing some UI. So definitely I can simply run bunnex expostart.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-3-implementing-google-oauth_epm",
+      "lessonFile": "chapter-3-implementing-google-oauth_epm",
+      "source": "class-subtitle/module 13/chapter-3-implementing-google-oauth_epm/chapter-3-implementing-google-oauth_epm.vtt",
+      "chunkNumber": 4,
+      "start": 808.2,
+      "end": 1131.919,
+      "duration": 323.72,
+      "startTimestamp": "00:13:28.200",
+      "endTimestamp": "00:18:51.919",
+      "captionStart": 181,
+      "captionEnd": 254,
+      "tokenCount": 795,
+      "captions": 74
+    }
+  },
+  {
+    "id": "chapter-3-implementing-google-oauth_epm_chunk_0005",
+    "text": "Then we are going to have the code of code colon and then we are also going to have a state state of state. this, then I can simply return this spawns return towards the redirect URI alright with all the information that we have perfect. Now, let's move ahead. Alright, so this is two endpoints which is done for now. Now what we can do, we can simply move ahead and start implementing some UI. So definitely I can simply run bunnex expostart. Alright, and after running this bunnex expostart, I can simply go inside my expogo. Perfect. And then first of all, let me connect my Wi-Fi so that we can simply run that here. Alright, now if I just simply hit my module 13, so hopefully this will work. Not now. Okay, no problem. I can simply press A and we are bundling it. So right now you can see that we already have one sign up screen, but we don't need it right now. Perfect. So, I can simply go inside my layout. I don't need any sign up screen. I only need a login screen and also inside the login screen, I am completely going to change it. So, this is going to be RNFES login. Perfect and maybe I can reload it once so that everything should work correctly. So, just give me a minute. Perfect. What next? Next, I simply wanted to implement we can say the login screen. So, login screen is depend on something known as our auth context. So, the first thing is we need to create a context at the very top of it. Let me create one context. I can call this as auth_context, perfect. So auth_context.tsx, perfect and inside this just import bunch of thing that I am importing, perfect. So, I need a react, I need a web browser from expo web browser and then I need auth request config discovery document make redirect uri use auth request from expo auth session very important then we have imported expo secure store then two more thing one is going to be the base URL this will come from the constants and the joes perfect. First thing we will do is simply say web browser dot maybe complete auth session. Perfect. Then let's create the auth user interface. So this is how my auth user will going to look. They have a sub, a name, an email, a picture, sub kind of we can say the ID. I don't know. We'll see that. And then we have all the interface related to auth context. So we have a user, we have sign in, we have sign out and then we have is loading. Perfect. And then what I will do, I can simply initialize my create context. Easy. So that will also going to pretty much straightforward. So auth context type simply call. Let me remove this. Let me just directly import. Okay, so create context this is the type of this context initially user will be null sign in sign out and is loading is false. Perfect. Now, we need to first of all get the config. So, I can simply say const config which is the type of auth request config. ID is equal to what is first thing we need a client ID. So client ID will have the Google then we have a scope. So I need the open ID. Then I need the profile. Then I need the email and at the end of it, what I will do, I can simply say redirect URI that will simply call make redirect URI. Nice. And then we need two things. First is the discovery endpoint. So let me show you what I'm talking about. These are the two endpoints that we need authorization endpoint. We have already initialized the second one is the token endpoint. So we haven't initialized this will do that in a while. No worries.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-3-implementing-google-oauth_epm",
+      "lessonFile": "chapter-3-implementing-google-oauth_epm",
+      "source": "class-subtitle/module 13/chapter-3-implementing-google-oauth_epm/chapter-3-implementing-google-oauth_epm.vtt",
+      "chunkNumber": 5,
+      "start": 1089.98,
+      "end": 1376.72,
+      "duration": 286.74,
+      "startTimestamp": "00:18:09.980",
+      "endTimestamp": "00:22:56.720",
+      "captionStart": 247,
+      "captionEnd": 317,
+      "tokenCount": 789,
+      "captions": 71
+    }
+  },
+  {
+    "id": "chapter-3-implementing-google-oauth_epm_chunk_0006",
+    "text": "Then I need the email and at the end of it, what I will do, I can simply say redirect URI that will simply call make redirect URI. Nice. And then we need two things. First is the discovery endpoint. So let me show you what I'm talking about. These are the two endpoints that we need authorization endpoint. We have already initialized the second one is the token endpoint. So we haven't initialized this will do that in a while. No worries. And then at the end, let me create my export const auth provider. This auth provider will going to call the children perfect. This children is going to be the type of children and we can simply say react dot react node. Okay, and hopefully let me import this and inside this what I will do, let me open this one. Nice. And then we need bunch of state variables. First state variable that I need is the user and set user. Second is access token set access token. Third one is coming from the hook. Name is useAuthRequest, they load an authorization request for a code when the prompt method complete then the response will be fulfilled. So they are giving you the request, the response and the prompt async and then we have isLoading and setIsLoading. So, first thing is always handle the OAuth response. So handle OAuth response, we don't have it right now. So we'll implement that in a while. Second thing is Restore session on app start. So whenever my app will start, I will call one function known as Restore session. Perfect. Now, let me simply paste my Restore session code. So, this is how my restored session code will look. Set is loading as true, then a simple try and catch block. Inside this try, I have just simply implemented the stored token getting from the secure token with the name of access token. Then we are decoding them getting the expiration date basically and again setting them. Okay, this is the one method which is done. In same way, I need another method. We will write that by ourselves, which is known as handleAuthResponse. They will going to accept a code. We can say this as a string. Let me simply open a try and catch then set is loading is equals to true initially and then I can say const form data is equals to new form data. Something like this. All right. And after this, what I will do, I can simply say form data dot append. Then we can have a code and then this is the code value. Okay. And if the request is code, you can look at a lot of things. First thing would we need the code verifier, then simply append the request dot code verifier. here. And then we are simply going to hit the endpoint which do not exist right now with the help of this form data. Base URL simply hit API slash auth slash token we are basically getting the token and saving that token inside the secure store. Easy. So, I can simply say const tokens is equals to await token response dot json. And, then I can simply say save simply call the secure store set item async and then name it as access token and whatever the access token we can have I can simply say tokens.excess token. And I can also change my state variable as set access token to the token access token and then I will decode it and then set the data with it. So this is what we have decoded as auth user by any chance if we have any error I can show the error. Otherwise inside the finally. I can simply say set is loading as false. And then outside of this handle auth response, I will create one sign in method that will simply call one method known as prompt async. Yes, I know there is a lot of boilerplating for implementing the auth by ourself, but this is how the things work. We can't do anything out of it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-3-implementing-google-oauth_epm",
+      "lessonFile": "chapter-3-implementing-google-oauth_epm",
+      "source": "class-subtitle/module 13/chapter-3-implementing-google-oauth_epm/chapter-3-implementing-google-oauth_epm.vtt",
+      "chunkNumber": 6,
+      "start": 1343.64,
+      "end": 1649.42,
+      "duration": 305.78,
+      "startTimestamp": "00:22:23.640",
+      "endTimestamp": "00:27:29.420",
+      "captionStart": 308,
+      "captionEnd": 375,
+      "tokenCount": 791,
+      "captions": 68
+    }
+  },
+  {
+    "id": "chapter-3-implementing-google-oauth_epm_chunk_0007",
+    "text": "the error. Otherwise inside the finally. I can simply say set is loading as false. And then outside of this handle auth response, I will create one sign in method that will simply call one method known as prompt async. Yes, I know there is a lot of boilerplating for implementing the auth by ourself, but this is how the things work. We can't do anything out of it. Alright, so this is the first thing, second thing that we need is the sign out. So this is the sign out and at the very bottom I can simply return auth context dot provider. They will have a value. First thing is the user, second we can give the sign in. Sign out. And then we can say is loading. Perfect. And inside this, I can simply say this as children. And at the very bottom, I can create one hook for it with the name of use auth. Perfect. So this is the hook. Now only one thing which is left for the backend. Let me go to my app, my API and inside this I will create one token plus API dot TS and this token is basically we are handling. We can say that JWT token creating the custom tokens and storing them kind of that a lot of things is going on. So first of all let me simply get my google_videos. client ID, google_clientsecret yes we need that and then the base URL and the JWT_SECRETCRET which do not exist right now. So let me go to my constant and simply say export const JWT secret. And inside this I will call process dot env dot JWT underscore sec id secret. Let's go inside the dot env and after going it, let me paste it. There's multiple ways of creating a simple random string. So let me show you something interesting. Open your git bash. And inside this, what you will do, you will run one method known as open SSL random hex and I think 32. So this is just a random 32 bit of string, hex of strings. So basically this is 68 characters if I'm not wrong, if I save it. So yes, this is a random and make sure you will not share this with anyone. Perfect. And then add this everywhere. Perfect. Then let me coming to here. Now we have this. Now I can simply say export async function, name this as a post. They have access of request. This is the type of request. Perfect. Simply say try and catch. First thing we will get the code. like this code that we are sending from the auth context, which one this form data is code inside this handle you will see that we get this code we are sending here you can see that we are basically getting them perfect. So, now let me just simply format this once and then this is the point where basically we are going to exchange the code with Google. So, that Google will give us the access token. So, I can say const token response is equals to await patch this is the endpoint for getting HTTPS OAuth to Google APIs dot com slash token. Yep. And inside this first thing is going to be the method. Method is post and then I can simply say headers. Headers is again going to be the content type application. Let me show you what is that. This one. Nice. So, you can see we have a content type application X www hyphen form URL encoded. Perfect. Then what I can do, I can send the body for it. So, body is simply a new URL search params, which have the code. which have the client_id which is equals to Google client id. Then we now we are sending the client secret very important. Then this is going to be Google client secret and at the end we are going to have the redirect_uri this will basically redirect toward the uri that we have created.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-3-implementing-google-oauth_epm",
+      "lessonFile": "chapter-3-implementing-google-oauth_epm",
+      "source": "class-subtitle/module 13/chapter-3-implementing-google-oauth_epm/chapter-3-implementing-google-oauth_epm.vtt",
+      "chunkNumber": 7,
+      "start": 1620.121,
+      "end": 1946.98,
+      "duration": 326.86,
+      "startTimestamp": "00:27:00.121",
+      "endTimestamp": "00:32:26.980",
+      "captionStart": 368,
+      "captionEnd": 439,
+      "tokenCount": 787,
+      "captions": 72
+    }
+  },
+  {
+    "id": "chapter-3-implementing-google-oauth_epm_chunk_0008",
+    "text": "Perfect. Then what I can do, I can send the body for it. So, body is simply a new URL search params, which have the code. which have the client_id which is equals to Google client id. Then we now we are sending the client secret very important. Then this is going to be Google client secret and at the end we are going to have the redirect_uri this will basically redirect toward the uri that we have created. And then grant_type, these are all the parameter which is accepted by Google's API. So if you're not understanding them, it's completely fine. You just need to read and implement these two to three times. You will start understanding everything. So chill, don't worry. Let me just simply copy them and paste whatever I'm sending. So this is the code verifier. If we have that, then simply send this code verifier. Cool. And now we are going to have the access of tokens. This tokens is going to be await. token response dot Jason. And then I am going to call one endpoint that will give us the this is your access token. Yes. So inside this token, we have access token. Now I can get user information. How? Let me show you very easy. I have just basically called this endpoint HTTPS this Google API OAuth v2 user info and then inside this authorization I have passed this access token from here. Now we have this user info. I can say const user info. is equals to await user response dot json ok and then I will basically create one JWT for it and assign it and return it. So first of all let me simply say this as secret new text encoder encode then get the access token something like this. Perfect can't find name. Let me just import them at the top and here. Perfect. So now I have juice as well. So yes, this is no need new sign JWT. This is the sub. This is the name email picture. Just create on the basis of that this and then pass all of the other information that we need. So, we need the set protected header with this algorithm expiration time of seven days when issued at and sign with this secret with secret this one which is basically store inside this. So, this is how we sign a JWT. I hope you guys understand this. They just a basic backend stuff. So definitely if you don't understand this, you can research more and implement it. So Jason, we wanted to simply return access token and inside this catch, I will return this error. So hopefully we are done with it. Perfect. Now I can close everything and now I can go inside my login. Perfect. And inside this login, what I will do, I can simply first of all, import the things that I need. I know there's a lot of things to implement, but okay, I'm loving it. Hopefully you are also let me paste. I need a react and this is not we have a not this. context slash auth context. So I have imported this use auth hook. So first thing is I will get my sign in and is loading variable. This will basically come from use auth and then what I will do, I will simply paste the code for it. So this is the code. Let me paste the CSS for it. You will get everything onto my GitHub. So don't worry. Let me paste them. Let me save it. So the moment, hopefully the moment I save it, I'm able to see the reflect and yes, but let me show you something very interesting. The moment I click on sign in with Google, nothing is happening. I mean, nothing is happening. I'm clicking it. Nothing is happening. Why? Let's reload it. Cool. Okay, if I once again click nothing is happening. What if I close my server and rerun this? next exposed art. Okay.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-3-implementing-google-oauth_epm",
+      "lessonFile": "chapter-3-implementing-google-oauth_epm",
+      "source": "class-subtitle/module 13/chapter-3-implementing-google-oauth_epm/chapter-3-implementing-google-oauth_epm.vtt",
+      "chunkNumber": 8,
+      "start": 1909.04,
+      "end": 2204.52,
+      "duration": 295.48,
+      "startTimestamp": "00:31:49.040",
+      "endTimestamp": "00:36:44.520",
+      "captionStart": 433,
+      "captionEnd": 514,
+      "tokenCount": 792,
+      "captions": 82
+    }
+  },
+  {
+    "id": "chapter-3-implementing-google-oauth_epm_chunk_0009",
+    "text": "So the moment, hopefully the moment I save it, I'm able to see the reflect and yes, but let me show you something very interesting. The moment I click on sign in with Google, nothing is happening. I mean, nothing is happening. I'm clicking it. Nothing is happening. Why? Let's reload it. Cool. Okay, if I once again click nothing is happening. What if I close my server and rerun this? next exposed art. Okay. Nice, and then I will open once again this inside my android and now if I click it, ok, if I reload it, android is bundled once again. Cool. Still clicking, nothing is happening. Why? Okay, so on press I have basically called this sign in method. So this sign in is basically this async if we don't have any request, then simply return it. Okay, so is we have successfully implemented if I go to my app Jason. Yes, we have the server right now. Okay, this is also fine. Let me see that. Okay, so what we can do actually, let me try that. I can make here one function, name it as handle sign in. Okay, this is basically going to be the async function. Nice. And then I can call it here this sign in method. Fine, let me coming to here and then what I will do, I will pass this handle sign in instead of that. But if I click right now, still nothing is happening. So this means we are not getting any request from it. So if I remove this, perfect. And once if I click it. So, I can see that the Oh, nothing is happening. Okay. Let me just check that out. Okay. And I think I get the problem because we have created this auth provider. Yeah. But we haven't used it anywhere. So that's the main problem. All right. So for wrapping that up, make sure that you come inside your layout. And, inside this layout at the top of this you can simply say auth provider and make sure to import this. Let me close everything and let me wrap this up. Nice and hopefully this will work right now. So, what I can do now I can again coming to here reload it once so that everything is properly synced up. Fine. So let's just wait for it. So now if I just try to click on sign in with Google and look at that. Now we are redirected to our Google and let's say let me choose any of my ID and hopefully this will work and we'll see your sign in back. Okay. Let me simply press on continue and you will see this our back end is properly bundled and we'll see. And you will see that right now. Let me tell you why this is just stuck here. Why? Because for using Google OAuth, we need a development build. So let me close this because we don't need it. Let me close everything. Perfect. And then simply say EAS in it. And, after initializing this would you like to create a project and yes let us create this. Perfect. So, let me just wait for it project added successfully and then what I will do I will Simply say yes. So, this is basically, ok, I think this spelling is right, not good. I think I can directly run it. We will see that. But if I simply run EAS build perfect hyphen hyphen profile and the profile is going to be as and instead EAS build hyphen hyphen platform is going to be as android. And the next step is going to be hyphen hyphen profile as development. Now if I hit this perfect. So would you like to yes, let I wanted to install my export of client loaded this. Now they are basically setting my environment variables, resolving all the issues. Cool. So let me just wait for it. Nice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-3-implementing-google-oauth_epm",
+      "lessonFile": "chapter-3-implementing-google-oauth_epm",
+      "source": "class-subtitle/module 13/chapter-3-implementing-google-oauth_epm/chapter-3-implementing-google-oauth_epm.vtt",
+      "chunkNumber": 9,
+      "start": 2170.88,
+      "end": 2463.22,
+      "duration": 292.34,
+      "startTimestamp": "00:36:10.880",
+      "endTimestamp": "00:41:03.220",
+      "captionStart": 502,
+      "captionEnd": 587,
+      "tokenCount": 799,
+      "captions": 86
+    }
+  },
+  {
+    "id": "chapter-3-implementing-google-oauth_epm_chunk_0010",
+    "text": "be as and instead EAS build hyphen hyphen platform is going to be as android. And the next step is going to be hyphen hyphen profile as development. Now if I hit this perfect. So would you like to yes, let I wanted to install my export of client loaded this. Now they are basically setting my environment variables, resolving all the issues. Cool. So let me just wait for it. Nice. Okay, so I can go with the same Android application ID. New key store. Yes, create that new key store for me. Generating the key store in the cloud. Cloud. Okay, create that. Okay. Okay, so now you can see that a compressed file uploaded to EAS computed project fingerprint and you can see there's my build is in queue. So I can simply just open this up and let me show you. So now you can see that waiting to start spinning up the build environment. So yes, now our build is in progress so we can wait for a few minutes and then I'll be right back. Alright guys, so now you can see that we have our development build. So let's just simply visit over here. Perfect and let me just quickly download this. So I can simply press on install and let me open my camera and scan this up. Perfect. Let me visit here. And let's just wait for it and quickly start downloading. So I can simply press on download. So this is going to start downloading it and definitely I can wait for a few more seconds and then we are good to go. Alright, so now we have installed it successfully. Let me just simply press on install. So this is going to install it. Alright, let me simply press on open. So this is going to open this. And perfect. Let me clear everything first of all. Nice close all. Let me simply run bunx expose start and after this I can simply press on my module 13 and yes at this point my application is up and running. Yes continue. Okay, let me reload it. Nice. This is what we actually getting. And finger crossed, let me simply press on sign in with Google. Okay. Let me choose this account. Nice. And, okay, no problem. We are redirected to this and now you can see that invalid value provide to secure store value must be string consider JSON encoding. Okay, so this is basically a problem from our end. But right now you can see that we are redirecting to our page. This is very nice thing. Now let's move ahead and fix this issue. Very simple issue. Okay, so let's just check it out. So initially we have all of this. No problem. We have this as well. Then we got our code. Then we basically, we can even console it here. Like is we are actually exchanging our code or not just for a debug purpose. Then, this is the token response that we are getting. We are calling it and code, client ID, everything is fine. One more thing we can do. Let's say if the token response is not okay, then simply throw the error here. No problem. Then we got the token. I can console it once again, which is got token from the Google so that we will satisfy from our end like Google is working fine. This is also fine. This is also fine. And I can even console entire user information, not only the email. Then I think at this point, maybe we need to add the await. Yes, I think this is the, this can be one problem. All right. And everything is then fine. I can even add one more console just for debug purpose like created JWT token and we are good to go. So let me reload it once. Perfect. Let me simply press on sign in with Google. After signing with Google I can simply click it, click over it once again.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-3-implementing-google-oauth_epm",
+      "lessonFile": "chapter-3-implementing-google-oauth_epm",
+      "source": "class-subtitle/module 13/chapter-3-implementing-google-oauth_epm/chapter-3-implementing-google-oauth_epm.vtt",
+      "chunkNumber": 10,
+      "start": 2428.481,
+      "end": 2711.8,
+      "duration": 283.32,
+      "startTimestamp": "00:40:28.481",
+      "endTimestamp": "00:45:11.800",
+      "captionStart": 580,
+      "captionEnd": 665,
+      "tokenCount": 798,
+      "captions": 86
+    }
+  },
+  {
+    "id": "chapter-3-implementing-google-oauth_epm_chunk_0011",
+    "text": "Then I think at this point, maybe we need to add the await. Yes, I think this is the, this can be one problem. All right. And everything is then fine. I can even add one more console just for debug purpose like created JWT token and we are good to go. So let me reload it once. Perfect. Let me simply press on sign in with Google. After signing with Google I can simply click it, click over it once again. Okay, I'm still getting the error is alright. So now you can see exchanging code with Google is fine. The actual error is happening the invalid grant. Okay, code verifier or verifier is not needed. Nice. And then we have the error handling auth is invalid value provided to secure store must be the string. Okay. All right. So I think we need to make few changes. So for that, let me go to my auth context inside this auth context. And at this point, you can say one thing here. Use PKSAE as false. This is the first step you need to do. And after this, let me go to this token API and they don't need this code verifier. So okay, I can simply pass this. Hopefully this will actually going to work. Alright, so what I can do first of all, let me just simply come into here. We have just successfully removed it. And let's see is this actually going to work or not. Once again, let me reload it. Perfect. Sign in with Google. Okay. Coming here and yes, look at that. Now we are exchanging the code, getting the token. This is the user information and created the GWT. Amazing. Now, let's move ahead and what I wanted to implement here, if user is logged in, then I will redirected them to the home page. Perfect. So, for that I simply need to go inside the layout page. And instead of getting this from the previous use auth, I will get this use auth. Let me show you how. I can simply say const. I will get my user and I will simply call the use auth. But make sure to import this use auth not from here. I will import this from the context use auth and is logged in. I can simply say when user is logged in. When the value of user is basically we can say to the perfect. I will update it. Now if I save it and if I try to reload it once, so hopefully I will be redirected to home page. No, I'm not. It's fine. Let me sign in with Google once again. Let me log in with this information. Continue. Nice. We are logged in. We have the user information, but for some reason we are not be able to. login. So what I will do, I will try to console my user just to see is we have any information related to user not and we are getting null found now. It's fine. I'll fix it. Don't worry. Alright guys, so now let me tell you where we are actually lacking. Let me show you one very interesting thing. Whenever when we log in, no problem. We are getting this user information and this is the log for user information. Inside user information, does we have something known as sub? No, we have ID. Sub is coming from GitHub. But we don't need right now. You will see that we have ID, we have email, we have name, lot of things. So, first thing you need to change is instead of sub you need to make it as id. Yes, this is the problem which is happening. This is the problem number 1 and if you fix this I think this will work now cool. Just simply fix this to id. And now if I come into here, let's say this is the auth user. Okay.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-3-implementing-google-oauth_epm",
+      "lessonFile": "chapter-3-implementing-google-oauth_epm",
+      "source": "class-subtitle/module 13/chapter-3-implementing-google-oauth_epm/chapter-3-implementing-google-oauth_epm.vtt",
+      "chunkNumber": 11,
+      "start": 2675.039,
+      "end": 2951.04,
+      "duration": 276,
+      "startTimestamp": "00:44:35.039",
+      "endTimestamp": "00:49:11.040",
+      "captionStart": 655,
+      "captionEnd": 732,
+      "tokenCount": 791,
+      "captions": 78
+    }
+  },
+  {
+    "id": "chapter-3-implementing-google-oauth_epm_chunk_0012",
+    "text": "You will see that we have ID, we have email, we have name, lot of things. So, first thing you need to change is instead of sub you need to make it as id. Yes, this is the problem which is happening. This is the problem number 1 and if you fix this I think this will work now cool. Just simply fix this to id. And now if I come into here, let's say this is the auth user. Okay. We have sub, but this inside this we have ID. So if I retry this, okay, reload it, sign in with Google. Perfect. Let me sign in with this account. Sign in with Google created it. Okay. data, I wanted to console dot log my user. I am getting this, but for some reason is I'm still not getting it. Okay. But if I simply log in, so still this is giving me null. Okay. So what if I close everything and rerun my application, close everything as well and let me go to my module 13. And let us simply create one build of sign in with Google. Okay, we are getting null. No problem. Let me again coming to here. Token is created. Everything is working. We are getting the user information, but for some reason, still we are getting the issue. Okay, so what we can do right now. Just to make things easy for us, we don't need to sign it, but if we don't sign the user information and instead I can directly return something known as user info. Yep, and inside this user info and if I go to my auth context whenever I am signing in I don't need this and I don't even need this perfect because at this point I am going to get something known as user info. Perfect and what if I save this right now? And if I just simply coming to here and console.log my tokens. Perfect. So, okay, I'm getting this failed to exchange the code. It's fine. Let me reload everything. Let me sign in with Google once again. Let me coming to here. OK, and yes look at that token received this is the user information that we have. So if I go inside my layout and if I try to console it once again this is the current user information which is coming as null. Why? because we are directly storing this user info. Okay. Okay. So what we can actually do, let me go to my Auth context and right now, you will see that we have a user information. Alright. So instead of token, now I can say this as user info. And, what I will do now, I will simply come into here and say const normalize user and then first thing we have a sub, sub is going to be as user info, user info dot id in same way we can have name, we can have picture. Perfect. And then I can set the user as normalize user. So I think this is fine. Hopefully and instead of sending this as an object, I can directly send the user info. Perfect. So I think this will work right now. Or let's move ahead and what we can do inside this token we have a user info. Okay, so let me cut this cool. Let me come into here inside this we have a normalized user and then I can pass user as normalized user. Don't pass any token right now. We are good to go with it. And, then if I coming to here you will see that we are going to have the information. So, this is your token still your token then I can say token dot user perfect and I think this will work right now. So, let me try let me reload it. Let me sign in with Google. Let me login it. Okay. Exchanging the token. Got tokens from the Google. And if I console.log my token.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-3-implementing-google-oauth_epm",
+      "lessonFile": "chapter-3-implementing-google-oauth_epm",
+      "source": "class-subtitle/module 13/chapter-3-implementing-google-oauth_epm/chapter-3-implementing-google-oauth_epm.vtt",
+      "chunkNumber": 12,
+      "start": 2922.62,
+      "end": 3229.1,
+      "duration": 306.48,
+      "startTimestamp": "00:48:42.620",
+      "endTimestamp": "00:53:49.100",
+      "captionStart": 726,
+      "captionEnd": 800,
+      "tokenCount": 795,
+      "captions": 75
+    }
+  },
+  {
+    "id": "chapter-3-implementing-google-oauth_epm_chunk_0013",
+    "text": "We are good to go with it. And, then if I coming to here you will see that we are going to have the information. So, this is your token still your token then I can say token dot user perfect and I think this will work right now. So, let me try let me reload it. Let me sign in with Google. Let me login it. Okay. Exchanging the token. Got tokens from the Google. And if I console.log my token. So hopefully I'm able to see something. Okay. What I'm getting? I'm getting token exchange failed. Invalid grant. Bad request. fail to exchange token Okay, but if I once again login, I am going to fix it anyhow. Code snippet. Okay. Alright, so you will see this right now inside my user. I am getting all of this information and if I just open it, you can see my images which is basically showing. So we are getting the information. Alright, but for some reason we are not be able to update this user information. Perfect. And what more we can do according to me like inside this token API along with user. Yes, you can see that right now we are sending this but along with user we can even send the access token that we have. Perfect. So you can see that inside this tokens we have this. Perfect. So I can also send the tokens dot access token along with user as well with the name of access token. Cool. So that onto the front end I have access of my access token and then I can save that. Inside the secure store, so right now inside this we are getting two thing. First thing is the user and second thing is the we can say token. Perfect. So, this is equals to token access token. So, make sure to match this. Yes, we have this access token. Alright. So, token dot access token. I am just planning to set this out. Hopefully, what I am getting? value must be a string consider JSON encoding or value of you if they are serialize or I can simply say JSON.stringify my the value I have perfect so hopefully this will work now. Okay, and let me tell you one very interesting thing, what wrong thing we are actually doing and that is if I take you towards my layout. So one thing you will see my entire app is wrapped inside auth provider, but right now I am using this use auth. outside of the auth provider. So this is the core reason that's why this is not working. All right. So first thing first, let's just fix the issue is inside this token API, everything is fine. Everything is working cool. No need to change anything. We can simply go into this and yes, they will always accept you the string value. Perfect. So, simply you can pass this and second thing is inside the handle auth response, you will see we have a form data. Perfect. And this is the end. I think we don't even need the code verifier because you need not to even pass this code verifier. We are good to go with it because we are not using it. Then this is the token response. Everything we are sending. Perfect. And then we are going to have a token and at the very end we are setting the user. This is the one fix and if I now take you towards the something known as layout. So inside this layout what you will do right now is let me show you at the top of it you can simply going to create export default. Yes, export this. I can simply say export default and you can simply say function and name this as root layout. Yes. Suppose this root layout will basically return. and wrap my entire application into it. So, I can again say auth provider. Auth provider will we exchange this name we can say this as root layout content and you need not to export default this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-3-implementing-google-oauth_epm",
+      "lessonFile": "chapter-3-implementing-google-oauth_epm",
+      "source": "class-subtitle/module 13/chapter-3-implementing-google-oauth_epm/chapter-3-implementing-google-oauth_epm.vtt",
+      "chunkNumber": 13,
+      "start": 3189.9,
+      "end": 3491.119,
+      "duration": 301.22,
+      "startTimestamp": "00:53:09.900",
+      "endTimestamp": "00:58:11.119",
+      "captionStart": 790,
+      "captionEnd": 873,
+      "tokenCount": 795,
+      "captions": 84
+    }
+  },
+  {
+    "id": "chapter-3-implementing-google-oauth_epm_chunk_0014",
+    "text": "can simply going to create export default. Yes, export this. I can simply say export default and you can simply say function and name this as root layout. Yes. Suppose this root layout will basically return. and wrap my entire application into it. So, I can again say auth provider. Auth provider will we exchange this name we can say this as root layout content and you need not to export default this. simply call this and yes wrap this root layout content inside this. This is the one fix and second thing is right now we do not need any DB but it is fine and remove this auth provider from this point. Perfect. So, this is the another change we need to make. Perfect. Nice. Now, if I save it and look at that, I am redirected to my home page. Why? Because I am logged in now. Everything is working fine. But because of this one issue, we are not be able to use it. So one last thing that I know the video is too big, but it's fine. This is the nice part of development. This is how you face the bugs and this is the investigative studies. Let me go to component and let me create here something known as user button user button dot t s x perfect and this user button this we can say that basically going to show the users information are instead user button. I will create one profile that is much better. Perfect. So let me go inside the app and at the root of it, I can simply create one profile dot t s x. And I think we already have one profile. Yes, this one. And inside this profile, what I will do basically. I will simply come into here and try to get the user information and implement sign out button and then instead of writing everything from scratch, I will just simply come into here and try to copy and paste it. Perfect. So I have get here icons, user and sign out button. Perfect. And, yep, need not to import this safe area view from here. We want it to import from react-native safe area view and hopefully everything is fine. Nice. And if I try to go to profile and yes, look at that. This is the information that we are basically getting from. the Google and this is how you will implement and if I press on sign out and sign out, let me log in with Google once again. Let me log in with this my code snippet ID. Perfect and let's just wait for a few seconds. All right. Keep loading. Still loading. Hopefully, this will work and yes now if I say go to profile look at that. So amazing job and I know there's a lot of bugs lot of things to figure out but this is known as investigative study and this is what we are actually doing here. So amazing job this is the end of this chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-3-implementing-google-oauth_epm",
+      "lessonFile": "chapter-3-implementing-google-oauth_epm",
+      "source": "class-subtitle/module 13/chapter-3-implementing-google-oauth_epm/chapter-3-implementing-google-oauth_epm.vtt",
+      "chunkNumber": 14,
+      "start": 3451.821,
+      "end": 3655.2,
+      "duration": 203.38,
+      "startTimestamp": "00:57:31.821",
+      "endTimestamp": "01:00:55.200",
+      "captionStart": 865,
+      "captionEnd": 920,
+      "tokenCount": 587,
+      "captions": 56
+    }
+  }
+]

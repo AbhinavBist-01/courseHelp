@@ -1,0 +1,44 @@
+[
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_chunk_0001",
+    "text": "Alright guys, so welcome to one more new chapter and as you see that like we have a lot of other sensors as well like we have device motion barometer, every one of them have same interface of using it. Cool, so I hope you understand that barometer is basically used to detect the pressure on your, we can say air pressure around your device, which is basically helpful for measuring altitude or we can say a weather trends. Cool, so whenever pressure change your measurement go up or down. Perfect and like we can say you are climbing a mountain and you are climbing a stairs at that time this barometer will very helpful. In same way we have a device motion. So this sensor give you a combined picture of the device motions like we can say this is the mixture of accelerometer and xeroscope kind of cool and on the basis of that this view a bunch of... I mean something like that cool. So I hope so that I need not to again explain you this what is this and why do we need to understand let's move ahead and start understanding about light sensors this is very important to understand. So right now let me just simply coming to here and create let me open a compass and And then I will simply say this as. light sensor dot t s x R n f e s and this is going to become your light sensor I will save this and import my light as e n light sensor let me import it yes I have imported it then why not working check render method of index. Light sensor, we don't need this compass. All right, just give me a minute. We have this light sensor or maybe I think I need to change this light sensors name to something else. Perfect. So, I will say light mode, light mood label. The light mood is something like this. Cool. And then I will say RnFes and this is become your light mood so that on the basis of light we are showing users mood. So light mood and I think this will work now. Alright, because light sensor is already reserved. That's why maybe we can't use it. So, what is this light sensor is actually. So it is basically gives a ambient light level like this is something known as LUX. This is work mainly on Android. So why it basically matters like let's say your app can adapt its UI depending on the light conditions. Like if you are going inside a dim room, you will see that your mobile's brightness will automatically go down. Perfect. But if you are going into sunlight, then you will see your mobile brightness will automatically increase. So, that is where we are using this light sensor. Perfect. So, this is basically we can say whenever you wanted to implement auto dark and light mode feature you can use it. Brightness aware UI changes then you can also use it. Perfect. So, let me just simply copy this entire component and paste it and try to explain you that. Cool, so right now you will see that we have a light sensor importing from expo sensor, then same thing, then this is something the measurement unit of it and you will see that this light sensor return as a illuminance and we are just setting the value for it. Cool, and then if lux is greater than 1000 we will show here bright. is greater than 300, we will show normal, otherwise dim. And if I try to apply my another phones light here, you will see right now the value is coming as 42, 43 around. And if I just put my phone's light here, you will see they're increasing like anything. Like you will see we have 300, 400. And if I add all, if I on all the lights off my room, you will see something crazy like this will definitely go towards. 1000 perfect. So this is how you will basically measure this. I mean look at that perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0.7,
+      "end": 284.28,
+      "duration": 283.58,
+      "startTimestamp": "00:00:00.700",
+      "endTimestamp": "00:04:44.280",
+      "captionStart": 1,
+      "captionEnd": 64,
+      "tokenCount": 797,
+      "captions": 64
+    }
+  },
+  {
+    "id": "4. Light Sensors & Ambient Illumination_epm_chunk_0002",
+    "text": "coming as 42, 43 around. And if I just put my phone's light here, you will see they're increasing like anything. Like you will see we have 300, 400. And if I add all, if I on all the lights off my room, you will see something crazy like this will definitely go towards. 1000 perfect. So this is how you will basically measure this. I mean look at that perfect. If I how closely I am coming my phone's light and you will see this cool. So this is how you will basically measure it. Perfect. So for understanding bit more, let me just try to copy and paste another example here. Perfect. Nothing. We only have a container and on the basis of light we are showing another emojis. Then we have mood and lux property. Perfect and if you see right now the light is bit dim. Perfect same thing nothing changed. Basically we are just changing like the mood is dim then emoji will show here and background color will something like this. Cool and if I just try to put some light here you will see. the value will change look at that now it's coming as normal and if I increase my phones and my entire home slide then and if I go in sunlight you will see this will become bright and the background color will change according to that so that is why we basically need this sensor and on the basis of this sensor you can do magic sort of it cool. Perfect, so this is how you can basically use your light sensors and these are just basic if-else and basic UI simulation nothing as rocket science as going on here. So yeah this is pretty much it for this chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "4. Light Sensors & Ambient Illumination_epm",
+      "lessonFile": "4. Light Sensors & Ambient Illumination_epm",
+      "source": "class-subtitle/module 7/4. Light Sensors & Ambient Illumination_epm/4. Light Sensors & Ambient Illumination_epm.vtt",
+      "chunkNumber": 2,
+      "start": 260.24,
+      "end": 372.64,
+      "duration": 112.4,
+      "startTimestamp": "00:04:20.240",
+      "endTimestamp": "00:06:12.640",
+      "captionStart": 57,
+      "captionEnd": 83,
+      "tokenCount": 347,
+      "captions": 27
+    }
+  }
+]

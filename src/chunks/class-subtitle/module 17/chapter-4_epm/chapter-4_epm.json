@@ -1,0 +1,170 @@
+[
+  {
+    "id": "chapter-4_epm_chunk_0001",
+    "text": "All right, beautiful people's welcome to one more new chapter in this chapter we are going to talk about AI integration. So this is the soul of our entire application. This is where we are actually going to implement the story related logic and along with story the also images generation related logic. Perfect, so first of all we need to understand how we are actually going to integrate the AI inside our application. So if I just simply coming to here, perfect let's just try to focus every time whenever I put some prompt let's say this is the prompt. Okay. So, I will say the first thing that we have is the prompt, the user prompt, user will give the prompt like I wanted to generate this and the moment user press on generate story then I would then basically I am going to call the expo API routes. Okay, so basically I can say I am going to hit my backend API. And, then this backend API will going to talk to the LLMs provider, going to talk to the LLMs providers. Ok, now what do you mean by LLM providers? We know that into the market. We have a lot of large language models. I can say related to OpenAI, we can have related to Gemini, we can have related to Claude, Anthropic, lot of them. So we know that. What is the meaning of LLMs? So there is a lot of providers into the market that give you the one single API layer. One of them is open router. Let me try to explain you what is this open router. So, this open router will expose you some API some rest API URL. Okay because you can't directly talk to LLMs or Gemini basically LLMs you can't directly talk to the LLMs you need your application need some rest API layer so that you can talk to this open AI Gemini and all the open router supported LLMs. Yes. Open router is not any LLM, it is the LLM provider that provides you some LLM. If I just simply visit to the documentation and the website open router, what is this? This is the unified interface for LLMs, better prices, better uptime and no subscriptions and you can see one API for any model. Basically, you need one REST API and with the help of this one REST API URL, you can use OpenAI's LLMs, you can use Gemini LLMs and you can use lot of free LLMs. We can say AI models, okay, so that you never directly talk to the open AI, Gemini, free AI models because you need some rest API URL then and only your expo backend will talk to this rest API URL and internally they have some implementation and that is how we are actually able to talk to them. Again, this rest API URL will need one more layering. Yes, this will need one more layer of abstraction that is known as SDKs. Okay, SDKs means software development kit. Now into the market, we have a lot of AI related SDKs. We have OpenAISDK. Okay, we have, we can say if you have a lesson about TanzTech AI, we have something like that, okay, you need not to understand everything for now. Then we have something known as AISDK. This lot of SDKs that in turn that will basically provide you. application layer where you will basically expose to some methods, some methods, some hooks, you should just simply use this methods and hook and you're basically you will directly going to write TypeScript or JavaScript code and then your TypeScript and JavaScript code will talk to this REST API URLs and this REST API URLs internally have support of OpenAI, Gemini, FreeAI models, all of them. So, kind of we can say that this is how this actually works. Okay.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-4_epm",
+      "lessonFile": "chapter-4_epm",
+      "source": "class-subtitle/module 17/chapter-4_epm/chapter-4_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0.72,
+      "end": 288.42,
+      "duration": 287.7,
+      "startTimestamp": "00:00:00.720",
+      "endTimestamp": "00:04:48.420",
+      "captionStart": 1,
+      "captionEnd": 57,
+      "tokenCount": 780,
+      "captions": 57
+    }
+  },
+  {
+    "id": "chapter-4_epm_chunk_0002",
+    "text": "application layer where you will basically expose to some methods, some methods, some hooks, you should just simply use this methods and hook and you're basically you will directly going to write TypeScript or JavaScript code and then your TypeScript and JavaScript code will talk to this REST API URLs and this REST API URLs internally have support of OpenAI, Gemini, FreeAI models, all of them. So, kind of we can say that this is how this actually works. Okay. And not only OpenAI, TenStack, AISDK, we have lot of other things as well. Okay, you can search for Lang graph, you can search for lot of things. I mean you can just simply search for Lang chain, Lang graph. These are the first guy. who took the concept of AI agents and with the help of that now we have AISDK, OpenAISDK, lot of things. So you can simply read if you just simply visit AISDK. What is this? The AI toolkit. Yes, we can say that this is the toolkit. which is provide you all the required tools, all the required functions, hooks, we can say even the UI elements, yes they are providing even the UI elements, with the help of that you can build generative AI application. Because as an application developer, our only work to understand how we can build AI generated application need not to go into the research part like how we can build our own LLMs. No, that is not our work. Our work is simple. You just give me the API. I will integrate that inside my application. And this is what most of the application developer is going to do. Most of the AI engineer is going to do. Alright guys, so I think this is the high time, first step is always simply go inside the open router. Now what is this open router? Open router will again just provide you one API for using I can say most of the LLMs, higher availability, price and performance, custom data policies and you can see these are bunch of models that they have, but if you just simply coming to here and hit free. Okay, and you can even see that if I am not wrong, let me show you something. Yes, look at that. This is the free models. So if I just simply come into here and from where I can see, okay, I can let me go inside models and simply hit the free and simply hit it. You can see right now we are able to see the 33 models, which is free to use. Okay. for programming, for role play, then we have this as well. A lot of I mean DeepSec, DeepSec, R1, NVIDIA, Stefffun, these are all the AI models which is free to use. You need not to pay a single penny for using it. So this is something StealDeal. Alright, so what is the step? You simply visit to the open router, log in yourself and then simply press on get API key. And after getting it, I already have one. You can just simply press here create API key. So I will simply say AI story generator API. Okay. And if you wanted to add some expiration, you can simply add. Let me simply add one day of expiration because I don't need it after one day. I can simply press on create and then I will copy it easy. Now we have open routers API. So, let me simply open this ENV, paste this ENV for now, go inside your getignore and where is ENV? Yep, below this add your.env as well. Hopefully this will work. Yep, look at that. This is ignored and amazing. Nice. So, now we have this API keys. Perfect. What next? Next is simply inside your dot env, you will simply paste this name.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-4_epm",
+      "lessonFile": "chapter-4_epm",
+      "source": "class-subtitle/module 17/chapter-4_epm/chapter-4_epm.vtt",
+      "chunkNumber": 2,
+      "start": 254.86,
+      "end": 509.12,
+      "duration": 254.26,
+      "startTimestamp": "00:04:14.860",
+      "endTimestamp": "00:08:29.120",
+      "captionStart": 51,
+      "captionEnd": 118,
+      "tokenCount": 783,
+      "captions": 68
+    }
+  },
+  {
+    "id": "chapter-4_epm_chunk_0003",
+    "text": "Now we have open routers API. So, let me simply open this ENV, paste this ENV for now, go inside your getignore and where is ENV? Yep, below this add your.env as well. Hopefully this will work. Yep, look at that. This is ignored and amazing. Nice. So, now we have this API keys. Perfect. What next? Next is simply inside your dot env, you will simply paste this name. The name is open router underscore API underscore key is equals to this and then I will made it as API key. So this is our open router API key. we simply save it. Perfect. Now, let me come into here and let us try to understand how our application is actually going to use the API. Perfect. So, let me again come into here. This is the prompt. Nice. After giving this prompt, we simply press on generate. We have called our Expo backend API. Okay, we understand that this is our Expo backend API. Now this Expo backend API will use some methods which is provided by AISDK. I will show you bunch of them. Then this method will actually call the open routers. API key simple very simple steps you don't even realize they are internally using it. So it's so easy to implement and then this open router API will talk to the any free model whichever I am going to select so chill for that and then that LLM will going to generate some data so they will return this to AISDK and then AISDK will give to our backend and This backend will get a structured output. Yes, we can even get the structured output like I need the output in which format. We know that if I go to the storage, I know this is the format in which I need my data. I need title. I need paragraphs. Paragraphs will further contain paragraph and prompt to image. Yes, all of this will become generated by AI. And, then we will only need this prompt to image from this and then we are again going to make one another API call and this API call will give us the image URL something like that. Okay, this is the simple strategy that we are going to use. Perfect, so the first step is simply go to the documentation and then press on get started. So, the moment you just coming to here you will find this installation command. You can see that I am new to AI, try the AISDK, show me some examples and I need help. Let's say you are new to AI. So the moment you press here, you will find the overview. What is this overview? The AISDK standardized integrating artificial intelligence models across supported providers. They have a bunch of supported providers. They have Anthropic, they have OpenAI, they have Google, OpenRouter, lot of the providers. This enables the developer to focus on building great AI application, not waste time on technical details. This is what I am talking about. For example, how you can generate text with various models using AISDK. This is how you will simply import. One method name is generate text from this AI package. So by reading this name I am understanding what is this going to generate? This is going to generate some text for us. And two things they are accepting, first is model, which model you wanted to use, alright no problem. Second is what is your prompt, so if I just give this prompt here and then if I just simply hit this command they are actually going to generate me a story. Nice. So you will see that this is the AI response to effectively revolutionize the AISDK. It helped to familiarize yourself with the following concept. What is generative AI, artificial, large language models, embedding models. You can definitely read a bit more about this. All right. And then simply you will see all the providers and models we have and look at that. These are bunch of methods.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-4_epm",
+      "lessonFile": "chapter-4_epm",
+      "source": "class-subtitle/module 17/chapter-4_epm/chapter-4_epm.vtt",
+      "chunkNumber": 3,
+      "start": 473.08,
+      "end": 755.96,
+      "duration": 282.88,
+      "startTimestamp": "00:07:53.080",
+      "endTimestamp": "00:12:35.960",
+      "captionStart": 107,
+      "captionEnd": 177,
+      "tokenCount": 797,
+      "captions": 71
+    }
+  },
+  {
+    "id": "chapter-4_epm_chunk_0004",
+    "text": "hit this command they are actually going to generate me a story. Nice. So you will see that this is the AI response to effectively revolutionize the AISDK. It helped to familiarize yourself with the following concept. What is generative AI, artificial, large language models, embedding models. You can definitely read a bit more about this. All right. And then simply you will see all the providers and models we have and look at that. These are bunch of methods. First is generate text, second is generate object. This is the object we are going to use. This generate object will help us to generate this title paragraph, then paragraph will further have a paragraph. This is paragraph actually sorry for that. Then prompt image. Simple. So, it's ok. So what I will do right now, I can simply press here. Perfect. And then I will simply press on get started and you guys know we are using expo. We can simply press on expo. After pressing on expo, what I will try to do. I will simply try to install the dependency. Yes, I can simply go inside the bun, copy this much and open one new PowerShell and simply paste it. So we are installing AI, AISDK React some package and then Zod. Okay, this is Zod for validations. I will clear it. What next? Next is inside dot env local. You should configure your AI API key. We already have it. So chill. Okay, and after this they are saying you to create a API routes will create that don't worry and choose the provider. So I wanted to use even simply press on providers and inside the provider you will definitely find where is open router. I am not seeing that. We have bunch of them. Maybe I need to search for it so I can simply open it and search the open router. So this is the provider that we have. Okay, open router is a unified API gateway that provide access to hundreds of AI models from leading providers like Anthropic, Google, Meta, Mistral and more. Okay. Then, you can simply install this dependency. This is the open router AISDK provider. No problem. Let me install this as well. Cool. Nice. What next? Next, they are saying you to create one provider instance. We will create all of them. So I think this is the high time to start using it. So, the first step is I wanted you to simply close everything and first thing is I wanted to create the generate plus API k. Okay, so basically our endpoint name as So, this generate will actually going to generate me and it simple. So, this will accept some prompt and on the basis of prompt we are going to return one title then we will going to return the paragraphs. This paragraphs will be array that array will contain one object and object will have the whatever the text and then prompt to image. This is the simple that we wanted to do. Cool. So, this is what I basically wanted to get from this end point. So, how you will get it? Simple. Close everything, go inside your app, create one directory with the name of API and the API endpoint is. generate plus API dot ts. But before using this, I hope you got the point. Go inside your app dot json and what we need to change. Just try to think whenever we wanted to implement some backend related stuffs, then search for web, change this output static to std. Server, cool, you guys getting smart, good. Now let's move ahead and then I will import how what is the first step they are telling us? First step they are telling us is create this instance. So let me copy this, let me paste it directly, okay, nothing, I have just grabbed this code and paste it here, let me off my AI first of all. I've just imported create open router.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-4_epm",
+      "lessonFile": "chapter-4_epm",
+      "source": "class-subtitle/module 17/chapter-4_epm/chapter-4_epm.vtt",
+      "chunkNumber": 4,
+      "start": 725.881,
+      "end": 1010.24,
+      "duration": 284.36,
+      "startTimestamp": "00:12:05.881",
+      "endTimestamp": "00:16:50.240",
+      "captionStart": 171,
+      "captionEnd": 247,
+      "tokenCount": 794,
+      "captions": 77
+    }
+  },
+  {
+    "id": "chapter-4_epm_chunk_0005",
+    "text": "Server, cool, you guys getting smart, good. Now let's move ahead and then I will import how what is the first step they are telling us? First step they are telling us is create this instance. So let me copy this, let me paste it directly, okay, nothing, I have just grabbed this code and paste it here, let me off my AI first of all. I've just imported create open router. from AISDK provider. Okay. And after this you can see that we have one open router. You need to pass the API key. So we can simply password process.env.openrouter_api_key. And then simple exclamation mark just to deal with some typescript error. Let me go to env and I hope this is the correct name. Just confirm perfect. So first thing is simply create one end point. So I can say export async function. This async function is the post. Then I can say here request this request is the type of request simple then for using this endpoint what we need we need the users prompt yes so whenever I press on generate story I am definitely going to hit this endpoint. But this is the post request, so we need some data. So this is the prompt that will come from request json. So I can destructure it. First of all, let me add try and catch. Inside this, I can simply say prompt. Prompt is equals to await. request.json nice now we have a prompt but by any chance if someone is trying to use this endpoint without providing the prompt then I will simply return the error you know this is very easy. I can simply say return response dot json and this json will return error. And the error will we can say prompt is required. Nice. Then you can even pass the status code if you wanted to. So this will be we can say a 400. Okay. There is something wrong. I need to remove it. Cool. And then I need to close this. Fine. Now, what next? Next is I wanted to generate, I wanted to generate object. So, you will search for, if you simply go to docs and open this, search for generate object. Yes, this is the method. So, what they are saying, generate object is depreciated, use generate text with the output property instead. So, it is fine. We can simply press definitely. we need a structured data. Right now we know that, let's say this is your AI and you are asking your AI to generate me a data, so I have just simply said give me a story. So, AI will definitely going to generate you some text based on the prompt AI will going to generate you some story in the format of text we know that no problem into it but does we only need the text no we need data in a structured format I wanted to tell my AI hey AI can you please give me the data in this format. Then AI will say no I don't know how to give in this way. So that is why we need this function, this utility but is the name of utility a simple generate text that will simply accept one XORed schema. What is the Zord schema? Zord schema means the structure of your application, structure of your data that's it, this is it cool. So what I will do I will simply come into here and I will import generate text. generate text from ai cool nice you also need to import something known as Zord you will see here we have a Zord as well so let me import Zord as well cool what just happened cool so this is the Zord api no problem we have imported the Zord as well. So, before hitting any endpoint, I wanted you to create the story schema. So, how much story will look? I can simply say const story schema is equals to z dot object. We know that first thing is what is the first thing?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-4_epm",
+      "lessonFile": "chapter-4_epm",
+      "source": "class-subtitle/module 17/chapter-4_epm/chapter-4_epm.vtt",
+      "chunkNumber": 5,
+      "start": 983.2,
+      "end": 1288.88,
+      "duration": 305.68,
+      "startTimestamp": "00:16:23.200",
+      "endTimestamp": "00:21:28.880",
+      "captionStart": 241,
+      "captionEnd": 311,
+      "tokenCount": 796,
+      "captions": 71
+    }
+  },
+  {
+    "id": "chapter-4_epm_chunk_0006",
+    "text": "see here we have a Zord as well so let me import Zord as well cool what just happened cool so this is the Zord api no problem we have imported the Zord as well. So, before hitting any endpoint, I wanted you to create the story schema. So, how much story will look? I can simply say const story schema is equals to z dot object. We know that first thing is what is the first thing? If I take you to the, what is that, storage. So, what is the first thing title second thing is paragraph ok. So, I will simply say this as title is z dot string that is it you can even describe this like what is the use of it. So, I can simply say that title of the story nice then what is the next step next Next step is paragraph, so I can simply say this is the paragraph I need but the paragraph is type of array and then further they contain another schema. Okay, so this means I need to say this as z.array. Okay, you are the type of paragraph schema which don't exist right now and minimum we need 10 data. Okay, minimum we need 10 data. Basically, we wanted to get 10 paragraphs at minimum. And then what I will do I will simply say describe and then this describe will simply say array of at least we can say 10 paragraphs and each with story. Text and image prompt. Simple this is the simple description for it. Now let's move ahead and create another schema. So I can say const paragraph schema is equals to again z.object. So, first thing is paragraph, second thing is prompt to image. So, what if I just simply paste the paragraph. So, paragraph z.string describe a single paragraph of the story 3 to 5 sentence and then prompt to image. This prompt to image is again a type of string and then simple description, a detailed visual description for generating an image that matches this paragraph. This is just a description, so that is all. So now we have a proper structure of our data. What next? Next is simply go inside the documentation. Go inside the documentation and inside the documentation how you will use it? This is how you will basically use it. So you can simply below this, you can simply say const get the output. Output is equal to await, generate text and this generate text will first thing going to accept the model. Model will come from open router. This configuration and inside this open router, let me go to this and we have lot of free models. If I just simply press on models and I think Gemini is also free to use. 2.5 if I'm not wrong. So, we can definitely use this AI model, you can simply copy the name of this model and paste that model cool, yes this is it what you need to do to use it cool. So, this is a Gemini 2.5 flash we are good to go with it then what next? Next, is the schema and instead of schema let me come into here next is your output ok. So, this is your output this output will be the type of how this is actually going to work here you will also need to import one more thing the name is output ok. So, this output will be output dot, output dot what do you need? We need object. Yes or no? Output dot object and then this object will be the type of, this will be the type of schema. We know that what is the schema? I can simply say schema and schema is the type of, where is my story schema? This one. That's it. This is how you will basically get it. But next thing and the last thing is the prompt we have. So this prompt is coming from the front end. That's all. So by doing this, what you are doing? You will simply calling this generate text.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-4_epm",
+      "lessonFile": "chapter-4_epm",
+      "source": "class-subtitle/module 17/chapter-4_epm/chapter-4_epm.vtt",
+      "chunkNumber": 6,
+      "start": 1256.7,
+      "end": 1571.24,
+      "duration": 314.54,
+      "startTimestamp": "00:20:56.700",
+      "endTimestamp": "00:26:11.240",
+      "captionStart": 306,
+      "captionEnd": 369,
+      "tokenCount": 799,
+      "captions": 64
+    }
+  },
+  {
+    "id": "chapter-4_epm_chunk_0007",
+    "text": "We know that what is the schema? I can simply say schema and schema is the type of, where is my story schema? This one. That's it. This is how you will basically get it. But next thing and the last thing is the prompt we have. So this prompt is coming from the front end. That's all. So by doing this, what you are doing? You will simply calling this generate text. This is basically. using, this is basically coming from the AISDK, look you are actually implementing the AI inside your application, so clap for yourself guys, clap for yourself. Then we have the simple model, this is the model I wanted to use, then a simple output and the prompt. Perfect, ok, this is your prompt but along with prompt we have one more thing which is known as system prompt. What is this system prompt? System prompt is something which is you are giving the additional information to your LLM. So you are basically telling your LLM that you have this system prompt. like you are an expert, we can say that you are an expert thumbnail generator that is basically generating a thumbnail on the basis of the schema and then this they have some training data we know that. LLMs are always working on some training data, but along with some training data, we are giving additional prompt like this is your additional prompt, this is your system prompt on the basis of this you will generate the data whatever the user will prompt. So we have two types of prompt first of all understand this is the user prompt your actual requirement this is the system prompt that you will use in back of the mind. Like this is what I need to keep in mind while generating the response. And let me try to just paste the entire system prompt. So the system prompt is this. You are a creative storyteller, generate a detailed engaging story with at least 10 paragraphs. For each paragraph, write three to five compelling sentences that advance the story. Create a detailed visual prompt for AI image generation. Be specific about scene, characters, mood, colors and style. Structure your entire response as a valid JSON with a title field and a paragraphs field which is the array of object with paragraph and prompt image field. Okay, we already have this output, but it's fine. This is also a good practice and make sure the story has a clear beginning, middle and end. Each paragraph should flow naturally to the next. Okay. And then we also wanted to modify a little bit of this system prompt. So simply add backticks. paste this, okay. So right now you can see that right, a creative story based on the prompt. This prompt is coming from the AI. Okay, and why I am not be able to highlight this? Hopefully this is highlighting. And yes, showing us the cons, this means this is fine. Cool, ok, prompt whatever the prompt is coming the story must have at least 10 detailed paragraph with corresponding image prompt for each. Ok, and I think one last thing which is known as temperature. What is the meaning of temperature? Temperature setting, the range depend on the provider and model. Temperature is basically just to give how much creativity to your model. Okay something like that. So I can simply add 0.7 that's all. Nice. So now we have inside this output we are going to have the actual data. Perfect. So you will basically yes this result you will simply return the result to the AI and yes we are good to go. Perfect. Alright, so what next you can do you can simply come into here and at the end of it we can simply return the response. So I can say return response.json and then return this output. Cool. So this output contain the title and paragraph. Cool, so now we are done with this generate API endpoint, perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-4_epm",
+      "lessonFile": "chapter-4_epm",
+      "source": "class-subtitle/module 17/chapter-4_epm/chapter-4_epm.vtt",
+      "chunkNumber": 7,
+      "start": 1543.36,
+      "end": 1826.86,
+      "duration": 283.5,
+      "startTimestamp": "00:25:43.360",
+      "endTimestamp": "00:30:26.860",
+      "captionStart": 360,
+      "captionEnd": 430,
+      "tokenCount": 784,
+      "captions": 71
+    }
+  },
+  {
+    "id": "chapter-4_epm_chunk_0008",
+    "text": "Perfect. So you will basically yes this result you will simply return the result to the AI and yes we are good to go. Perfect. Alright, so what next you can do you can simply come into here and at the end of it we can simply return the response. So I can say return response.json and then return this output. Cool. So this output contain the title and paragraph. Cool, so now we are done with this generate API endpoint, perfect. So with this I can end this part from the next part of the same chapter we will implement some further information, alright.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-4_epm",
+      "lessonFile": "chapter-4_epm",
+      "source": "class-subtitle/module 17/chapter-4_epm/chapter-4_epm.vtt",
+      "chunkNumber": 8,
+      "start": 1794.66,
+      "end": 1834.1,
+      "duration": 39.44,
+      "startTimestamp": "00:29:54.660",
+      "endTimestamp": "00:30:34.100",
+      "captionStart": 421,
+      "captionEnd": 432,
+      "tokenCount": 119,
+      "captions": 12
+    }
+  }
+]

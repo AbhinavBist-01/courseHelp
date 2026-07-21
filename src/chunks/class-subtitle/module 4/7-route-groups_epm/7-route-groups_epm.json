@@ -1,0 +1,65 @@
+[
+  {
+    "id": "7-route-groups_epm_chunk_0001",
+    "text": "Hey everyone, in this lecture we will explore route groups in explore order that let you organize your file based routes without affecting the actual URL structure. So this is a powerful tool we can say for keeping your project is structured and scalable. Perfect. So, what is this actually? So, you can see the syntax of creating a route group is this parenthesis. A directory with its name surrounded in parenthesis indicates a route group. These directories are useful for grouping routes together without affecting the URL. For example, a file name app and then parenthesis closed tabs slash settings will have only slash settings. So, this is the beauty of this parenthesis for its URL. Even though it is not directly in the app directory. Let's see that basically how you can create then you have much understanding of it. But first of all, why do we even need this route group? So basically we need a route group just to organize our screens and layout. Perfect. Just to organize our screens and layouts. without changing the route URL. So let's say in traditional file based routing system that we know every file is treated as a route segment. Perfect. But let's say with the help of route group, you can create folder for organizational purpose only. They wouldn't affect your actual route path. So, let's say for now we have this post and for visiting towards post ID we need to pass slash post slash post ID making sense let's say I am creating a login system. So for that I am going to create login dot let's say let me create RNF SCS whatever is that. same way let me create one more file signup.tsx And then let me create one more file. We can say that as forget password. Alright, so now you can see that all my authentication related screens are scattered inside my app directory, which is not organized. Let's say in future, 10 developers are going to work on different features. group is working on authentication. one group is working on post section, one group is working on profile, then things are not organized as they used to be. So for that, what we are going to do, we are simply going to create one here, auth folder, making sense and then all the login, let me remove them all the sign up. All the forget password related, all the authentication related logic are inside this auth. Alright, now this is much more organized, making sense, forget, password, no problem. But let's say, This is good for authentication, but in future you are going to create something for marketing something for analytics So showing analytics slash Dashboard analytics slash overview is not a good. We can say URL's naming standard so for that let's say if I just simply go to my index.file and at the bottom of this Perfect, if I just save it and now if I wanted to go to my login, so you can't go with this as you know you have to pass where is my auth, let's say like this easy and now if I press over this I can redirect myself towards login page, easy no problem but I don't want it to write this auth like I don't want. So what you can do now? You can just simply wrap them inside this. Now you will going to see something very interesting. If I reload my page, now you will see this is your organizational route syntax. This is your route groups. Perfect. So, now if I press on login, you will see I am going to get right now I am getting something known as alright. So, this is basically we can say automatically solving it, but this is not a feasible approach like you can see that they are showing us this. Now, I am creating this just for organizational purpose and if I open this inside web, you will see this is not going to work like let me show you, yes, you can even open this inside the web.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0.44,
+      "end": 292.6,
+      "duration": 292.16,
+      "startTimestamp": "00:00:00.440",
+      "endTimestamp": "00:04:52.600",
+      "captionStart": 1,
+      "captionEnd": 65,
+      "tokenCount": 791,
+      "captions": 65
+    }
+  },
+  {
+    "id": "7-route-groups_epm_chunk_0002",
+    "text": "known as alright. So, this is basically we can say automatically solving it, but this is not a feasible approach like you can see that they are showing us this. Now, I am creating this just for organizational purpose and if I open this inside web, you will see this is not going to work like let me show you, yes, you can even open this inside the web. So, let me show you that, give me a minute, easy. So let me try to go localhost, where is that? 8081. Perfect and look at that. Where is that? This one. Now you will see app slash auth slash login dot tsx no such file or directory open. Now let me try to go to my login. You will see no such file is available here. Now not linked in, I don't want it to open my linked in 8081 and I'm still getting this error they are saying me auth/login.tsx don't exist like this one because now we have this thing. So for that you need to pass or you even need not to pass it. So, now if I go to my here let me just try to maybe I need to reload it and then reopen it then maybe this will work let me try to reload cool we will see. And yes, now you can see that I have just closed my server and restarted. You will see this is showing to us and if I visit to login, you will see now by only visiting slash login, I am able to open this. Why? Because I have arranged that inside my auth route group. But instead of passing this, if I just simply pass this, you will see custom not found. Perfect, but definitely we are not creating this for webs. So you can close it and just keep that in mind for organizational purpose for a better folder structure, we are using it. Cool. So I hope so as your app grows. Often we have many screens and without grouping them, you might end up with deep or messy folders. So let's say this is only for authentication purpose. In same way, you can have one for marketing purpose. Then all the marketing related thing are into it. Let's say like we have all lot of root thing like we have index, we have feed, we have explore. organized all of them inside this route. Like you can cut all of them and simply inside auth you can paste it and you can use them as you want. Cool? So, yeah, this is how you can basically not here just give me a minute you can cut all of them. and paste them inside this route. So this is also a right purpose. Now you will see all our files are now organized. Now all the authentication related routes and screens inside this auth route group, all the marketing related will come here. All the root file are inside this root route group and same you can do for admin, but let's say let's keep it same for post same for profile you can add all of them into miscellaneous but it's up to you that how you wanted to do it. So the main job of this syntax of this route group is to organize your many screens that's all you need to do for it. Cool? So, this is Matters in Real App because you are you, we can say that your URL structure stay clean and this is much more user friendly. Cool. So, I hope so. This is making sense and in same way you can create nested groups and layouts as well. file. Like this is the first use case of organizing your file. Second use case is let's say you wanted to share the common layout between all of them. So then how you can basically do it? You can simply add layout easy and then let me go to my root and copy this layout. Let me paste. and instead of calling this root layout let me call this as auth layout",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "chunkNumber": 2,
+      "start": 268.94,
+      "end": 529.6,
+      "duration": 260.66,
+      "startTimestamp": "00:04:28.940",
+      "endTimestamp": "00:08:49.600",
+      "captionStart": 60,
+      "captionEnd": 125,
+      "tokenCount": 793,
+      "captions": 66
+    }
+  },
+  {
+    "id": "7-route-groups_epm_chunk_0003",
+    "text": "This is making sense and in same way you can create nested groups and layouts as well. file. Like this is the first use case of organizing your file. Second use case is let's say you wanted to share the common layout between all of them. So then how you can basically do it? You can simply add layout easy and then let me go to my root and copy this layout. Let me paste. and instead of calling this root layout let me call this as auth layout perfect and I don't need any footer I can simply say my auth layout and if I save it and look at that I am able to see my auth layout here easy and you will see we are only sharing our auth layout here, we don't see this layout why? Because this is now organized inside our root. So for all the root folders, we are going to show this root layout, but for all the auth, we are going to show this my auth layout. So this is the power and this is the beauty of this, we can say. So, yeah, this is pretty much it and we will see that more use case of it in upcoming chapters, in upcoming lectures, when we are going to create some projects, you will learn more about it. So, don't worry, you will definitely going to love this series and if you are loving it, then make sure to drop your feedback and whatever is that, I am not asking for only 5 star, if you love it, then drop, if you don't love it, then also drop. So that we have our proper track that we are doing good or bad and where we can improve it. So yeah, this is pretty much it for this chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "7-route-groups_epm",
+      "lessonFile": "7-route-groups_epm",
+      "source": "class-subtitle/module 4/7-route-groups_epm/7-route-groups_epm.vtt",
+      "chunkNumber": 3,
+      "start": 499.639,
+      "end": 602.06,
+      "duration": 102.42,
+      "startTimestamp": "00:08:19.639",
+      "endTimestamp": "00:10:02.060",
+      "captionStart": 120,
+      "captionEnd": 143,
+      "tokenCount": 353,
+      "captions": 24
+    }
+  }
+]

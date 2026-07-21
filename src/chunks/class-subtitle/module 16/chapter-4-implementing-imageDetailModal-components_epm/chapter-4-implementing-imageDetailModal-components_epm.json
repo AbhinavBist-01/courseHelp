@@ -1,0 +1,128 @@
+[
+  {
+    "id": "chapter-4-implementing-imageDetailModal-components_epm_chunk_0001",
+    "text": "Alright everyone and welcome to one more new chapter. In this chapter we are going to implement the image detail component, image detail model component. In this component our key feature is we wanted to show the full size of the image. And, then we definitely wanted to show the close button and then in the footer of this specific model, I wanted to show two action. One is download or save something like that and then another one is the share. Perfect. So, let us move ahead and start implementing it. So, for implementation. Simply, what we need to do is to close everything and then simply create one more new component and the name of that component is ImageDetailModel.tsx and then RNFES. All right, and then inside this image detail model, what I wanted to do is I wanted to have one interface. This interface have a visible, true or false and then image which is type of pixabay image and then on close I wanted to show this and then definitely this is the type I wanted to have. Now, let me close my AI. We have a visible image and then on close. After this, I wanted to have three state variable. First one is the status. Second thing is the we can say download and sharing. So for status, we definitely need a development build. But for now, I can simply import the downloading and a sharing thing. Okay. Along with this, I wanted you to install one dependency. or simply run. Bunnx, Expo install, Expo media lib, R-A-R-Y library. Perfect. This is your Expo media library. So you can definitely search for this Expo media library and you can open this. So, you can see that they are even included into expogo. So, expo media library provide access to the users media library allowing them to access their existing images and videos from your app as well as saves a new one. You can also subscribe to any update made to the users media library when a very important thing. Android allows full access to media library which is the purpose of this package only for application needing broad access to photo to see the this basically permission policies but it is fine and then definitely you after installing this. If you wanted to fix this like just simply coming to here and copy from this is basically for permission if you wanted to have all right which have photo permission save photos permission prevent automatic limit access alert lot of things. All right then one important thing are you using this library in existing react native app? No. Then, this is how you can basically use them. So right now, let me just simply come into here. Hopefully this will work inside the app JSON, inside the plugins, outside of this array, I wanted to paste it. So okay. I only need from here to here. I think we are good. Let me paste it. So right now you can see that this is the photos permission, save photo permission, access media located enable and permission is no, we don't need audio. Now, let us only go with a photo, perfect. Then I can simply come into here and for using this you can see the first thing they are showing us is this permission, perfect. So, here what I can do at the top of it, I can simply say this as. Permission response, this will definitely come from the media library component. So let me import it, easy, yes. But instead of naming this permission response, I can simply say status and request permission, ok, nice. And after this what we can do? We can simply say if we don't have any image. Then I simply going to return null here. Otherwise, what I am going to do is, let's say for now, I can simply implement the UI. So, first thing is we need a model. This model have animated type, which is of fade. Then, we have our transparent, transparent as true.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-4-implementing-imageDetailModal-components_epm",
+      "lessonFile": "chapter-4-implementing-imageDetailModal-components_epm",
+      "source": "class-subtitle/module 16/chapter-4-implementing-imageDetailModal-components_epm/chapter-4-implementing-imageDetailModal-components_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0.44,
+      "end": 309.12,
+      "duration": 308.68,
+      "startTimestamp": "00:00:00.440",
+      "endTimestamp": "00:05:09.120",
+      "captionStart": 1,
+      "captionEnd": 70,
+      "tokenCount": 797,
+      "captions": 70
+    }
+  },
+  {
+    "id": "chapter-4-implementing-imageDetailModal-components_epm_chunk_0002",
+    "text": "ok, nice. And after this what we can do? We can simply say if we don't have any image. Then I simply going to return null here. Otherwise, what I am going to do is, let's say for now, I can simply implement the UI. So, first thing is we need a model. This model have animated type, which is of fade. Then, we have our transparent, transparent as true. Then, we can have visible. Visible is equals to visible as well. Alright. Alright, so the visible is actually going to be equal to the visible props which is coming. Alright, this one and the last one is going to be onRequestClose is equals to onClose. Okay, we know that very well. Perfect. And then let me just paste all the design related to this. So, below this I can paste all the styles that we have. Okay. Nice. So, we have container, header, close button, image container, image, footer, info container, tag container, lot of other things. And then we have tag, text, user text, actions, action button, icon circle and action text. Okay. Now, let's move ahead and after this what I wanted to do is to simply add here one view. Okay. So, we have a view here. Inside this view, I can have one style and I think I need to import the view. from react native then we have a style, style is equals to style start container then when we are going to have a blur view this blur view will come from expo blur we know that ok. So let me just simply import my expo blur component. And, after this what I wanted to show here, after this I wanted to have one more, let me coming to here, ok. So, after this view below this I can have one more view, this view can have a style, and this style is equals to styles.header and then I can have one pressable that will basically show on close button. So let me import my icons and all of the other things as well. This color will come from constant theme. Let's use this. So for that I can simply go to my index.tsx and inside the index.tsx what I will do below this filter model I will simply paste my image model and then I will import image model we have a visible image and then on close I will set this to null. Let me save it. Hopefully this will work. The moment I click it, nothing is working. Definitely we need to implement bunch of more logic for it if I am not wrong or what if I reload this once? So maybe this will work. Handle search does not exist. So, the moment I am trying to reload you can see nothing is happening. So, I will re-try to open my application. Let me go here. Let me press it. Okay. And let's just wait for opening it. Okay, so you can see that right now we are able to see this and something is happening due to Android permission requirement. Expo go can no longer provide full access to media library. Okay, we definitely build a development build in a while, so no worries in it. But now if I press it, yes, look at that. Nothing is showing in that way, but you can see we can see this cross button. Okay, perfect. Now, let us move ahead and focus on implementing this. So, what I will do? Okay, we have this view. Perfect. Inside this view, we already have blur view. Then this is just a cross button. Okay. So, outside of this, I can have one more view and I think this is where I wanted to show my image into full width. So, this is another view that will basically render an image like this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-4-implementing-imageDetailModal-components_epm",
+      "lessonFile": "chapter-4-implementing-imageDetailModal-components_epm",
+      "source": "class-subtitle/module 16/chapter-4-implementing-imageDetailModal-components_epm/chapter-4-implementing-imageDetailModal-components_epm.vtt",
+      "chunkNumber": 2,
+      "start": 275.26,
+      "end": 560.92,
+      "duration": 285.66,
+      "startTimestamp": "00:04:35.260",
+      "endTimestamp": "00:09:20.920",
+      "captionStart": 63,
+      "captionEnd": 135,
+      "tokenCount": 781,
+      "captions": 73
+    }
+  },
+  {
+    "id": "chapter-4-implementing-imageDetailModal-components_epm_chunk_0003",
+    "text": "Okay, perfect. Now, let us move ahead and focus on implementing this. So, what I will do? Okay, we have this view. Perfect. Inside this view, we already have blur view. Then this is just a cross button. Okay. So, outside of this, I can have one more view and I think this is where I wanted to show my image into full width. So, this is another view that will basically render an image like this. Let me import image from react native and what just happened I think does we need a expo image if I am not wrong because you can even use expo image here. So that is also a nice. component to go with, so I think yes. Instead of importing this from react native, we can import this from expo image. Alright, now this is fine, perfect. What next? Next is I wanted to design this as well, so I can simply say style, style is equals to styles.image container. Let me save it the moment I press. Okay. Yes, look at that. I hope you guys are still able to see that into full screen something like this. I okay. Hopefully this will show us. Okay. Yes, look at that. This is how they look. Not that good, but it's fine. Perfect. After this what I will do out of this view, yes this view I wanted to show the another view this will basically going to be the style, style is equals to styles.footer and then let me paste my pressable. So this is basically going to be for showing the text from react native. showing all the tags we have related to this. Let me format it once because it's little confusing to understand. This is your info container. Okay. This is all the information related to this image. Second, we are going to have all the actions that we have. So, you will see let me first of all import activity indicator. So, first action that we have and the second action we have two action. First action is download, second action is share. Perfect. Nice. Now, let's move ahead and add two functions here. Handle download, simple async. Okay. And second thing is I think handle share. So let me also initialize like this. Perfect. Now if I save it and open any of the image, let's say, let me open this. We can definitely wait for image to load and yes this is all the tags related to this the author name you can save it and you can share it. First of all let implement the sharing feature perfect so for implementing the sharing feature it is quite easy so what you will do everything is fine. I can simply say try and catch, shut sharing is true. Then I can say simple file uri is equals to we need a file system.document directory yes if we have it otherwise empty string. Then, simply add a image ID whatever the image we have just a URI we are getting it, image ID dot jpg and we definitely need to import expo file system as well. So you will come here and search for expo. File system, yes and you even need to install this. So simply copy this, simply run, not here, simply run, bunnex expo install, expo file system, nice. And does we already have expo file system? No, we need to install it and yep, we are good to go. Now I can simply import my expo file system. So let me import my expo file system below this. Nice, and then I can definitely fix it. So instead of file system, we can have a directory. Okay, so now I am going to have all the file URL for it. What next? Does we need a directory or does we need file? I think directory, ok and after this what I will do I can simply say URI is equals to",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-4-implementing-imageDetailModal-components_epm",
+      "lessonFile": "chapter-4-implementing-imageDetailModal-components_epm",
+      "source": "class-subtitle/module 16/chapter-4-implementing-imageDetailModal-components_epm/chapter-4-implementing-imageDetailModal-components_epm.vtt",
+      "chunkNumber": 3,
+      "start": 525.52,
+      "end": 831.48,
+      "duration": 305.96,
+      "startTimestamp": "00:08:45.520",
+      "endTimestamp": "00:13:51.480",
+      "captionStart": 125,
+      "captionEnd": 198,
+      "tokenCount": 786,
+      "captions": 74
+    }
+  },
+  {
+    "id": "chapter-4-implementing-imageDetailModal-components_epm_chunk_0004",
+    "text": "Now I can simply import my expo file system. So let me import my expo file system below this. Nice, and then I can definitely fix it. So instead of file system, we can have a directory. Okay, so now I am going to have all the file URL for it. What next? Does we need a directory or does we need file? I think directory, ok and after this what I will do I can simply say URI is equals to await file system dot download async I think this is depreciated instead use download file async, ok. So, let me just use this download file async. So, this download file async is accepting does not exist on type of expo file system, do you mean download async? If I am adding download async, they are showing me the depreciated thing. Ok, we can, let me try to go with it. Large image URL, first thing, second thing is the file URI we need to pass. And now if I go to, let me search for the correct name. The name is download file. download file sync ok then I think they have a file URL and if I'm not wrong right now I can simply add the ps ignore for it hopefully this will work if not will figure out something don't worry and then I can simply say await media library save to library async and then and the URI we have. And then I can simply show the toast. As alert, let me import the alert success image save to gallery and then I can simply show the catch and then I can also show the finally. So for the finally or or or okay, okay, sorry, we don't want it to download this actually. Okay, my mistake, remove everything, sorry. Instead first of all I will get the file information. So this is how you will get the file information. So we have file system, get info and then if we do not have any info, we will simply call this function. download this ok otherwise we will import expo file sharing because we wanted to share something so I can simply search for expo sharing and simply install the expo sharing library. I can simply say bunx expo install expo sharing. Alright perfect. And, after this what I will do, let me move ahead, ok, and inside the finally, I will just simply try to say set sharing as false, ok, and instead of showing download the image, we will show the fail to share the image. So, if we do not have any existing file information then download it otherwise what I will do I can simply say await then I am going to import the sharing this sharing will come from exposharing. So, I will come into here and then I will simply say sharing from exposharing. Nice. Okay. And then after this what I will do, I will simply try to say is available async, then I will call this function, open this and then simply say await. sharing.shareasync ok and then simply add the file uri we have otherwise simply show the error sharing is not available ok nice. So if I just simply open this click on share so you can see that we are just opening it Alright, why it is taking so much of time? You can see that we have a sharing is true. Okay. Still it is loading. Alright. So let me figure out what is going wrong. Alright guys. So I have figured out something very interesting. So instead of sharing going with this function, let me update it. Okay, first thing you can see that we have a file system, then something that we have a cache directory, then a simple image, okay, then this function download a sync, alright, and after that we are basically trying to share this. If I open this, okay, we are still showing this, so this is coming as true, let me reload it, okay, then maybe this will work.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-4-implementing-imageDetailModal-components_epm",
+      "lessonFile": "chapter-4-implementing-imageDetailModal-components_epm",
+      "source": "class-subtitle/module 16/chapter-4-implementing-imageDetailModal-components_epm/chapter-4-implementing-imageDetailModal-components_epm.vtt",
+      "chunkNumber": 4,
+      "start": 793.26,
+      "end": 1120.44,
+      "duration": 327.18,
+      "startTimestamp": "00:13:13.260",
+      "endTimestamp": "00:18:40.440",
+      "captionStart": 191,
+      "captionEnd": 253,
+      "tokenCount": 790,
+      "captions": 63
+    }
+  },
+  {
+    "id": "chapter-4-implementing-imageDetailModal-components_epm_chunk_0005",
+    "text": "So instead of sharing going with this function, let me update it. Okay, first thing you can see that we have a file system, then something that we have a cache directory, then a simple image, okay, then this function download a sync, alright, and after that we are basically trying to share this. If I open this, okay, we are still showing this, so this is coming as true, let me reload it, okay, then maybe this will work. And, yes you can even see that there is something wrong here as well, but we will figure out ok, no worries. Ok, let me try to reload it once. Alright, so if I just simply press and then click on share, okay, so now I am basically getting what? Fail to share image, why I am failing to share image? Because method download async imported from this is depreciated, you can migrate to new file system API using file and directory or import the legacy API from legacy, okay, we have two approaches. So, I think what I will do, let me figure out. Alright guys, so let me just retry to paste this and then try to explain you this. Okay, there is nothing just a simple change. First is we have cached the directory file. You can see the file system, new file system, then directory, then whatever the file system path cache for it, we know that very well. like how to access the cache folder, image directory, whatever all that, then we are downloading it and sharing the downloaded file. Okay, so if I try to share, click here and yes, look at that. This is how you can share to, if you have bunch of social media installed, you can even share to them as well. Amazing, now the next step is to implement the save feature, how you can implement the save feature, ok, so let's move ahead and try to implement that as well. So first step is first simply, first thing I wanted to get the, we can say permission to download, ok, so simply open try and catch. Then say set downloading is true, no problem, then I can say what? Let status is equals to await media library dot request permission async, then what I will say? If not of permission granted, show the error, permission required, please grant the permission, ok. Alright. After this. First of all, let me download the image to cache directory and then give it a unique name. Simple. So this is the cache directory that we are going to have. Let me show you something like this. This is the same code that we need. Alright, so you can see this. We have a cache directory and this is the file that we have. Nice. will do next. Next, I will try to basically download it. This is where we have this is your media. All right. And after getting this file, what I will try to do is I can simply say await media library dot. Save to library async and then I will pass the file here basically okay and this file will contain the URI for it okay and hopefully this will work we will see that then I can simply show alert success image save to gallery. Otherwise, I will show the console error and inside the finally, I can simply say set downloading as a false. Okay, if at the moment press on safe, what I am getting fail to save image. Why has been rejected or you have requested the audio permission, but it is not declared. Okay, so for using this, let me close everything. Perfect. And then what next? Let me close this as well. I can simply say EAS init. So this is going to initialize it and yep, I wanted to create this. Then let's just wait for a few seconds. Project link successfully. Okay. Then what I will see, EAS build configure.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-4-implementing-imageDetailModal-components_epm",
+      "lessonFile": "chapter-4-implementing-imageDetailModal-components_epm",
+      "source": "class-subtitle/module 16/chapter-4-implementing-imageDetailModal-components_epm/chapter-4-implementing-imageDetailModal-components_epm.vtt",
+      "chunkNumber": 5,
+      "start": 1087.24,
+      "end": 1375.66,
+      "duration": 288.42,
+      "startTimestamp": "00:18:07.240",
+      "endTimestamp": "00:22:55.660",
+      "captionStart": 248,
+      "captionEnd": 316,
+      "tokenCount": 795,
+      "captions": 69
+    }
+  },
+  {
+    "id": "chapter-4-implementing-imageDetailModal-components_epm_chunk_0006",
+    "text": "Why has been rejected or you have requested the audio permission, but it is not declared. Okay, so for using this, let me close everything. Perfect. And then what next? Let me close this as well. I can simply say EAS init. So this is going to initialize it and yep, I wanted to create this. Then let's just wait for a few seconds. Project link successfully. Okay. Then what I will see, EAS build configure. Okay, so hopefully this will work now. Which platform? Definitely Android for now and then what next? Next is run EAS build. simply run EAS build platform is going to be hyphen hyphen platform is Android. And, hyphen hyphen profile is going to be development and then I can simply head this. Yes, I wanted to install export of client as well. They're smart enough to tell us everything. Okay, and then they are installing all the dependencies that we need and yes, we do not have any environment variable for now. Actually, we do have, but for now, we can definitely go with this approach as we are not sharing this app with anyone. Then I can simply say, yes, go with this name. Okay, we have initialized it. Keystore, yes, create new Keystore, generating Keystore in the cloud. Yep, we can wait for it. Alright, so now you guys can see that we are compressing the project file and uploading to EAS build. Alright, so now you can see this is the logs. So let me just try to open this and show here. Yes, now you can see that our. application is in queued and then build queued okay and I think spinning up the build environment and all of the things you can definitely wait for a few minutes and then I will be right back. Alright guys so now our development build is ready so simply say no. And then let me close everything. Let me open my camera. Alright. And then let me try to download this. So, just give me a minute. Alright. Let me just simply scan this up. Okay. And then I can simply open it. And then I can press on install. Okay, let's go inside the details and we are installing it. Alright, let's just wait for few seconds. Alright, and then I can simply press on install. Let's just wait for installation. Okay, and then let me simply try to open this application. Alright, and then I can simply hit 1x expose start. And then what I will do I will try to connect this okay invalid URL host we already have this right host but okay but if I try to simply press on A and this is going to open this inside okay let me simply press on continue okay let me reload it once again. Alright, and now we can see that all the images that we are getting and what if I just simply open it and try to save it. Look at that. Now they are asking us to allow. I can simply say allow all and okay. They are keep loading and loading images saved to gallery. Let's check the gallery. Okay. And hopefully we find something here. And yes, look at that. This is the image that we have downloaded. Nice. If I open this once again, let's say I have closed it and let me try to get something green or definitely background. We will get a lot more. I can simply say apply filter. So, yes, look at that. This is the filters that we got and let me try to download this. Open this simply press on save images save to gallery. Let me open my gallery and yes, amazing, amazing job. This is the end of our entire wallpaper application. I hope you loved it and if yes, then make sure to drop your feedback with this boy. Take care. See you and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 16",
+      "lesson": "chapter-4-implementing-imageDetailModal-components_epm",
+      "lessonFile": "chapter-4-implementing-imageDetailModal-components_epm",
+      "source": "class-subtitle/module 16/chapter-4-implementing-imageDetailModal-components_epm/chapter-4-implementing-imageDetailModal-components_epm.vtt",
+      "chunkNumber": 6,
+      "start": 1340.24,
+      "end": 1624.52,
+      "duration": 284.28,
+      "startTimestamp": "00:22:20.240",
+      "endTimestamp": "00:27:04.520",
+      "captionStart": 306,
+      "captionEnd": 384,
+      "tokenCount": 796,
+      "captions": 79
+    }
+  }
+]

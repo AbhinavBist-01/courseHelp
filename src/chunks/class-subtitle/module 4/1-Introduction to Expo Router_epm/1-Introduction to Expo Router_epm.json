@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1-Introduction to Expo Router_epm_chunk_0001",
+    "text": "Hey everyone and welcome to chapter number one in our expo router module. In this lecture, we will learn what expo router is, what file based routing means and why expo router is recommended way to handle navigation and new expo projects. So, for now I have already installed a basic expo application and reset that cool and nothing rocket science I have done here. So I hope so you guys can do it very easily. Now let me focus here and then a simply write what is expo router? Perfect. So expo router means file based navigation system. Outer means file based. navigation system. So, this means like that instead of manually defining navigation stacks like we do in react navigation into this expo router, yes into this expo router your file and your folder is now going to become like this is your file in same way that you are going to have multiple folders. is going to become your routes, perfect. This is basically going to become your routes automatically. When you add any file under into this basically, when you add any file under this app directory, It become a route inside our app. Cool. So this is what expo router is and if I just simply open the documentation of it and try to read it. So expo router is a file based router for react navigation and web apps. It allows you to manage navigation between screen in your app, allow user to move seamlessly between different part of your apps UI. This is what navigation actually means, using the same component on multiple platform. And again, they provide you bunch of features, just basic introduction, like they basically going to provide you the native support. So, ExpoRouter is built on top of our powerful React navigation suite and we know React navigation very well. ExpoRouter navigation is truly native. So, this is the beauty of ExpoRouter. This is native. Nothing is coming out of the box. Then something shareable, when we talk about deep link then at this point you are going to understand much better. And we have offline first, this is the one of the feature like if you have created a replication and let's say by any chance we don't have internet connection, you can still use use the cached route segments kind of. So we can say that like the explore router's idea is very similar to how modern web frameworks Like if I just try to give you example of next years, next years is also handle routing inside their app router version, something like this, which make it familiar, intuitive and fast to work. Perfect, so now you guys have the understanding of what is a expo router is. Expo router is basically if I just try to summarize overall thing for you, so expo router is basically mean like this is your file structure, perfect. So your file structure is equals to your app navigation. I hope I'm making sense. Now let's move ahead and try to understand what is file based routing. Now what is the meaning of this? So traditionally in React navigation, we write code something like this if I just try to give you an example of this. So yes, like if I wanted to add some screen, let's say we have two screen, one is home, And another one is profile. So this is how we are going to add it. But with expo router, if I just simply come into here and just try to point out with expo router and let me just try to add the expo icon. So, this is the expo icon. So, with expo router you are not going to do anything like this. You know what? Instead of that inside your app file like let's say let me treat my home as the index and if I just simply write here profile.tsx. Now this is going to become something like this, like this stack.screen thing. So, if I just try to paste the structure of it, so something like this, cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "1-Introduction to Expo Router_epm",
+      "lessonFile": "1-Introduction to Expo Router_epm",
+      "source": "class-subtitle/module 4/1-Introduction to Expo Router_epm/1-Introduction to Expo Router_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0.32,
+      "end": 280.15999999999997,
+      "duration": 279.84,
+      "startTimestamp": "00:00:00.320",
+      "endTimestamp": "00:04:40.160",
+      "captionStart": 1,
+      "captionEnd": 63,
+      "tokenCount": 781,
+      "captions": 63
+    }
+  },
+  {
+    "id": "1-Introduction to Expo Router_epm_chunk_0002",
+    "text": "So, this is the expo icon. So, with expo router you are not going to do anything like this. You know what? Instead of that inside your app file like let's say let me treat my home as the index and if I just simply write here profile.tsx. Now this is going to become something like this, like this stack.screen thing. So, if I just try to paste the structure of it, so something like this, cool. So with expo router, this is how you are going to define your route segment, your screen segments we can say that. So, for indexed.tsx and this is going to become my home screen and for profile slash profile is now treated as this screen. Perfect, so expo router definitely automatically going to map all of these files to the route. So by just looking at the file structure, we can understand how navigation actually work. So I hope so now you have the understanding of what is file based routing is. Now let's move ahead and the biggest question that is arises now is why expo router is recommended? Like this is the question, alright my spelling is not correct. So why export outer is basically recommended, perfect for all the new export projects. So definitely again, you can definitely read all of these features like they provide and that is why we are using it and as you guys know we are creating a modern mobile applications which is supported in iOS. in Android. So, that is why I always recommend you to use this expo router and in future when we understand all the other concepts which is available inside expo router then you will definitely going to love it even more. So, now let us move ahead and if I just try to give you a simple summary of this lecture, like what is expo router? Expo router is basically a file based routing system for react native applications. Perfect what is file based routing? File based routing means instead of manually defining all the stack screens and not only stack, tabs, all the other things. And we are going to basically rely on our file based system and why expo router is recommended because they are provide you bunch of feature like they are native, they are shareable, they are offline first, they are highly optimized, iteration universal like you can Android, iOS web, you can share anywhere. This is discoverable like expo router enable built in static rendering on web. And do not just go too much in theory and just recommend you. So yeah, this is pretty much for the introduction of it from next chapter we are going to move inside expo router one in one where we are going to understand all the rules, all the norms for it how you can define multiple type of files notations. So yeah, this is pretty much it for this chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "1-Introduction to Expo Router_epm",
+      "lessonFile": "1-Introduction to Expo Router_epm",
+      "source": "class-subtitle/module 4/1-Introduction to Expo Router_epm/1-Introduction to Expo Router_epm.vtt",
+      "chunkNumber": 2,
+      "start": 250.4,
+      "end": 448.98,
+      "duration": 198.58,
+      "startTimestamp": "00:04:10.400",
+      "endTimestamp": "00:07:28.980",
+      "captionStart": 57,
+      "captionEnd": 95,
+      "tokenCount": 563,
+      "captions": 39
+    }
+  }
+]

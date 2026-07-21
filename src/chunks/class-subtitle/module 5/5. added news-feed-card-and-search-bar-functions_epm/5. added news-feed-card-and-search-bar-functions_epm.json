@@ -1,0 +1,128 @@
+[
+  {
+    "id": "5. added news-feed-card-and-search-bar-functions_epm_chunk_0001",
+    "text": "Alright guys so welcome to chapter 2 and in this chapter first of all we are going to fix the chapter number 1's error and the error is like we are not be able to fetch the correct API as I am just consoling and checking the things and This is what I am getting. Everything is working fine. Like but for the API key, this is showing us your API key is invalid or incorrect. This means we are not be able to fetch our API. So for that, first of all, you need to go inside. your ANV and then simply add expo public yep you need to add it and then copy this and then add here expo public news API key and then let's try and now if I try to reload it. And we'll see is we are still able to fetch that or not. And now look at that we are able to fetch at least the data. This is not rendering here it's completely fine. But now at least you will see that we are able to fetch. the data that we have here and the only thing that we need to do is to simply render them onto the UI but first of all let me just quickly add basic fix here. So again if we don't have any news API, so you already have it so you need not to change it. If you don't have any news API key, then simply return from here. Perfect. And then let me remove this, let me remove my query perms, my URL and my data as well. Perfect. So, now if I coming to here and if I reload this, so still everything is going to working perfectly fine. And now you guys can see that my data is coming perfect, but because of some reason I am not be able to render them. So you will see the response is possibly null, a bunch of thing is coming here, it is fine. So we are also getting response, no problem. So I can simply say this as like alright, you can be null, no problem. So, let me just add you something like this. Alright, so just give me a minute. Cool. And let me add this co-sealing as well. And then if I reload it once again, alright. So, for now, I think it is high time to fix all the other thing which is happening and then I'll see that. So for now, I wanted you to close everything and create one component and we already have that. So, first of all, let me go to my news feed. And this news feed is have like this flat list, let me simply format this and this flat list have something known as refresh control. Yes. So, we have this refresh control and this refresh control have a one very interesting component and the name of that component is also refresh control. and they are going to accept a bunch of props. So let me add all of that. So now you will see that I have a refreshing. On refresh is going to be handle refresh, tint color and the colors. So this is basically the moment you scroll it down so you are able to see that. Cool. Perfect. Now let's move ahead and create one component name as header. Yes. And then we'll just focus on fixing them. So let me simply coming to here and write headers dot TSX. And this header is going to have a bunch of things. So let me import all of them for now. And after that, let me move ahead and let me add all the header props that we need. Perfect. And then I can add the categories, simple constant. We have category as general and then we also have icon for it. In same way, we have bunch of countries and then countries can also have bunch of flags like flag US flag, GB, Flag CA, this is how they basically then for India we also have iron. So this is how you can identify your flags.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "5. added news-feed-card-and-search-bar-functions_epm",
+      "lessonFile": "5. added news-feed-card-and-search-bar-functions_epm",
+      "source": "class-subtitle/module 5/5. added news-feed-card-and-search-bar-functions_epm/5. added news-feed-card-and-search-bar-functions_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0.58,
+      "end": 271.6,
+      "duration": 271.02,
+      "startTimestamp": "00:00:00.580",
+      "endTimestamp": "00:04:31.600",
+      "captionStart": 1,
+      "captionEnd": 60,
+      "tokenCount": 798,
+      "captions": 60
+    }
+  },
+  {
+    "id": "5. added news-feed-card-and-search-bar-functions_epm_chunk_0002",
+    "text": "now. And after that, let me move ahead and let me add all the header props that we need. Perfect. And then I can add the categories, simple constant. We have category as general and then we also have icon for it. In same way, we have bunch of countries and then countries can also have bunch of flags like flag US flag, GB, Flag CA, this is how they basically then for India we also have iron. So this is how you can identify your flags. Perfect, and then I can simply say export const header and this header is going to be react.function component and this is going to be the type of header props. And then first thing that we are going to have here is on search. So let me add that and then I can basically initialize something like this. All right. And then I can add here bunch of state variables perfect and then we'll see oops what is happened now cool. Perfect, then I can simply move ahead and then I can simply use there something known as safe area inset, it's a good thing to have. So I can simply say inserts not inserts, this is going to be inserts and then I can say use safe area, inserts, alright. And then I can create here two function handle search submit and handle clear search. Cool, we have two of them and then I can have here selected country data, perfect. And then I can first of all let me render here all the I can say like this is quite big component to have, but don't worry, let me first of all add all the styles that I have. Perfect. So, you will see that we have bunch of styles, I mean lot of styles and this is interesting. Now, let's move ahead and start implementing my header component. This is really a very big component, but don't worry. So, first thing let me coming to here simply say return and then we wanted to return a view this view is going to have a style and this is basically first thing is going to be styles.container, second thing is going to be have a padding top which is equals to insets.top. Perfect. And then inside this, we are first of all going to have the main header component. So this main header, yes, look at that, this main header contain icons which is of newspaper and showing us news feed. And then a basic view which is having a touchable opacity and showing us something like selected country flag. Otherwise we are showing here the globe. Perfect. And then let me close this and out of this now I wanted to show my search bar. So I can simply say here the view. And this is going to have a style and style is equal to styles.searchcontainer and first thing we are going to have a search icon and the second thing we are going to have a search input text area basically. So this text input let me import this. So we have styles placeholder text color value on change on submit and return type. Perfect. Now let's move ahead and then out inside this search container itself, we can simply have one basic rendering, which is if we have a local search query, which whose length is greater than zero. Then I basically wanted to do what I just wanted to have a touchable opacity and this touchable opacity have an icon of closed circle. Cool. Then we have a on press which is going to say handle clear search and then a basic style. And then out of this search container, we are also going to have a category filter bar. So let me just simply add that category filter bar. Perfect. So you will see that we have this category filter bar. And just a minute. Let me come into here, first of all let me remove it. So this category filter bar is basically going to be inside the we can say search scroll area, let me import scroll view from react native, this is horizontal.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "5. added news-feed-card-and-search-bar-functions_epm",
+      "lessonFile": "5. added news-feed-card-and-search-bar-functions_epm",
+      "source": "class-subtitle/module 5/5. added news-feed-card-and-search-bar-functions_epm/5. added news-feed-card-and-search-bar-functions_epm.vtt",
+      "chunkNumber": 2,
+      "start": 237.2,
+      "end": 541.68,
+      "duration": 304.48,
+      "startTimestamp": "00:03:57.200",
+      "endTimestamp": "00:09:01.680",
+      "captionStart": 54,
+      "captionEnd": 115,
+      "tokenCount": 794,
+      "captions": 62
+    }
+  },
+  {
+    "id": "5. added news-feed-card-and-search-bar-functions_epm_chunk_0003",
+    "text": "And then out of this search container, we are also going to have a category filter bar. So let me just simply add that category filter bar. Perfect. So you will see that we have this category filter bar. And just a minute. Let me come into here, first of all let me remove it. So this category filter bar is basically going to be inside the we can say search scroll area, let me import scroll view from react native, this is horizontal. and then bunch of props, then a basic touchable opacity, same for the categories that we have, cool. And then a basic icon which is optional outline, cool. All right, let me close this as well and in same way we have a category models as well. They are basically going to render all the category onto the models as well. So let me first of all import my model as well. You can also copy and paste it directly because this is not just only about UI. Main thing is how you can call your internet. All right. So I think yes, now I can save it. And I can like this is basically category model in same way we can have country model as well. So, inside this I am going to show all my countries as well. Cool. And now let me go to my news feed component and this news feed component at the top of this flat list I wanted to render my header. So this is my header component. from here and this header component is going to accept bunch of props like first thing we have on search and then this then search query. So let's move ahead and initialize two thing, two state variables I can say. First is search query and then we have a search mode. Perfect. And handle search don't exist. No problem. We can create our handle search method as well. So let's move ahead and start creating. I can say handle search method. So, handle search is going to pretty straightforward. So let me just paste that. So this is your handle search and below this is much better. So copy this and paste it. Cool. Alright and now if I save it, you will see something like this, I mean nothing is able to show to us. So now let me close everything, go to app and layout. Inside this, let me first of all fix this to a stack and this stack is basically going to do what? And instead of this, let it be self closing much better. Just let me fix it, self close this and then simply say screen options and then I wanted to say header shown and this header shown is going to be as false. So this index is going to be vanished from here and then content style is going to have a background. color and this background color is going to be hashtag F9FAFB. Perfect. So, now look at that. You can see that we have this, if I jump pressing here definitely not be able to see them perfectly, but if you press something here you will see. something like this and in same way we can have bunch of other thing but not be able to see them properly. Perfect so I think that we need to fix bunch of UI related thing. So let us move ahead and we will see what more we can do just to see output. First of all, I hope I am writing the correct styling here. Perfect. So let me copy and paste the entire style sheet that I have. And after the style sheet, like inside this main return thing, everything is fine. Perfect. We have everything related to this and whenever when we are basically rendering this, we are rendering this if yes, if the loading let me simply if the loading and whatever the articles dot length is basically equal to equal to 0, then I wanted to fetch this and I can simply return this. Cool? Alright, and then but if we don't have this then I basically wanted to render my empty.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "5. added news-feed-card-and-search-bar-functions_epm",
+      "lessonFile": "5. added news-feed-card-and-search-bar-functions_epm",
+      "source": "class-subtitle/module 5/5. added news-feed-card-and-search-bar-functions_epm/5. added news-feed-card-and-search-bar-functions_epm.vtt",
+      "chunkNumber": 3,
+      "start": 505,
+      "end": 821.64,
+      "duration": 316.64,
+      "startTimestamp": "00:08:25.000",
+      "endTimestamp": "00:13:41.640",
+      "captionStart": 108,
+      "captionEnd": 177,
+      "tokenCount": 797,
+      "captions": 70
+    }
+  },
+  {
+    "id": "5. added news-feed-card-and-search-bar-functions_epm_chunk_0004",
+    "text": "Perfect. We have everything related to this and whenever when we are basically rendering this, we are rendering this if yes, if the loading let me simply if the loading and whatever the articles dot length is basically equal to equal to 0, then I wanted to fetch this and I can simply return this. Cool? Alright, and then but if we don't have this then I basically wanted to render my empty. So we are entering our empty and then we also wanted to render our I can say false. So we are also rendering that as well. Cool. And maybe I'm doing it wrong. Just give me a minute. Not this, cool? We don't want it to show them like this. So I am wrong, my apology. Let me remove it as well, cool. First thing that I wanted to do is if we are in loading state. If we are in loading state and the articles dot length if this is equal to equal to 0, then basically coming to here and return a view with header and which is basically going to show us this like a header of basic view with the activity indicator and loading news. All right. And but if we wanted to render empty, so this is how we can render our empties, so no problem in it and this is how we can render our thing, but the main thing is we are still not be able to see anything here. So that's the main problem. Why that is happening? I am not be able to understand. Cool, so maybe if I go to my news API, inside this news API, I think everything is fine. Then why we are not seeing that we have top headlines query parents, we have response and if the response is not okay, then I can maybe show maybe I think we are getting that cool. What is happening here? Reference error, alright, no need to worry about this reference error. But if I reload, I'm still seeing like look at that we are able to see the activity indicator. This means we are fetching things properly, but nothing is showing on to the UI. Alright, let me fix it. Just give me a minute. Alright guys, so I have found a bunch of issues inside our code. So let me tell you line by line. So the first issue is inside our index.tsx and that is you need to tell safe area style as flex of one. This is one fix perfect after that inside your news feed We definitely need to add bunch of changes here Perfect and that is like inside your load news page. Yep You will see that we have a page number and then reset so inside the try First thing is always call this set load more And all only call when page number is greater than 1. And then if reset like this one is true, then only say set loading is true and then get the response cool and one more thing also pass here the query query as search query. And again if we don't have any response, then simply show this. Otherwise, and what you can do in same way if we don't have any articles and articles length is 0, then a bunch of error handling, nothing rocket science. And if we have like reset and then simply show this same thing, nothing to change here like the same thing that we have did and has more is also going to be something like this and just remove all the question mark that we have. and set error as null, yes you need to set it, otherwise you will not going to work this properly and yep, this is how this basically going to work and you will see we have added the category, country and search query as the dependency, perfect and for calling this load news I have also added the load news as the dependency. Perfect and same changes will be inside your handle refresh, so where is my handle refresh?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "5. added news-feed-card-and-search-bar-functions_epm",
+      "lessonFile": "5. added news-feed-card-and-search-bar-functions_epm",
+      "source": "class-subtitle/module 5/5. added news-feed-card-and-search-bar-functions_epm/5. added news-feed-card-and-search-bar-functions_epm.vtt",
+      "chunkNumber": 4,
+      "start": 782.42,
+      "end": 1084.92,
+      "duration": 302.5,
+      "startTimestamp": "00:13:02.420",
+      "endTimestamp": "00:18:04.920",
+      "captionStart": 171,
+      "captionEnd": 227,
+      "tokenCount": 779,
+      "captions": 57
+    }
+  },
+  {
+    "id": "5. added news-feed-card-and-search-bar-functions_epm_chunk_0005",
+    "text": "just remove all the question mark that we have. and set error as null, yes you need to set it, otherwise you will not going to work this properly and yep, this is how this basically going to work and you will see we have added the category, country and search query as the dependency, perfect and for calling this load news I have also added the load news as the dependency. Perfect and same changes will be inside your handle refresh, so where is my handle refresh? So that handle refresh is also going to have this set error as null, cool and I have also added here the handle search which is same like set query whatever you are writing into it and then if we has more and if we are in search mode, alright. And then one more thing inside your news API that I have added basically so where is my news API? So this one cool. So this news API like we are having the basically response and data we are also checking for error like by any chance if we have any error. And if response is not okay, then throw the error like these two, three changes and then look at that. This is working very fine and UI is very top notch. Perfect. Let me just search for R, A. KERS, perfect. And if I hit this and look at that, this is our and the moment you click over it, so this needs to be work. Cool. So we can fix that no problem. Like let me try to click. And if I'm clicking it, nothing is happening. Why? Because if I am not wrong, if I go to my flat list, we have this news card, we haven't handle this handle press. So, let's move ahead and let me just basically go to my news card and this news card is basically going to do you know what a simple thing like you can see that we have a on press as a prop. So I can say if we have on press then simply do this on press. Otherwise, simply go inside else. This else is going to use a linking from React Native. This is used for deep linking. And then you can simply search for open URL. This is going to open this article dot URL. Perfect. And again, by any chance, if we have any error. Then I can simply going to show the error which is equals to console.error and I can render all the error that I have. Perfect and if I click on any news you will see that I am redirected to that specific news. Perfect, in same way you can change let us say let me go to technology and the moment I press over it you will see all the technology related news are coming and if you go little bit side you will found all the filters inside the models and this is your country change model. Cool, isn't it? And you will see that at the top of it, our activity indicator is not showing. So how you can fix that? So let me go to my header and at the top of this header and I will go to my header. Below this I think maybe I can search for something known as activity indicator. So activity and status bar not the activity indicator we have something known as status bar and this status bar is going to have the theme. and maybe the color background color maybe and if I just simply say this as #CCC all right what if #000 and if I save it all right so let me just quickly find out where we can add so that this thing at the above of it is going to show us Maybe inside index, I don't know if I go to my index and below this if I import my status bar component. Perfect. And if I save it, let me just quickly fix it. Cool. Alright, so I have basically imported this status bar inside the index.tsx and let's say at the top of it you will see that they are showing us at as white.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "5. added news-feed-card-and-search-bar-functions_epm",
+      "lessonFile": "5. added news-feed-card-and-search-bar-functions_epm",
+      "source": "class-subtitle/module 5/5. added news-feed-card-and-search-bar-functions_epm/5. added news-feed-card-and-search-bar-functions_epm.vtt",
+      "chunkNumber": 5,
+      "start": 1048.02,
+      "end": 1335.34,
+      "duration": 287.32,
+      "startTimestamp": "00:17:28.020",
+      "endTimestamp": "00:22:15.340",
+      "captionStart": 222,
+      "captionEnd": 285,
+      "tokenCount": 797,
+      "captions": 64
+    }
+  },
+  {
+    "id": "5. added news-feed-card-and-search-bar-functions_epm_chunk_0006",
+    "text": "out where we can add so that this thing at the above of it is going to show us Maybe inside index, I don't know if I go to my index and below this if I import my status bar component. Perfect. And if I save it, let me just quickly fix it. Cool. Alright, so I have basically imported this status bar inside the index.tsx and let's say at the top of it you will see that they are showing us at as white. So I wanted to change it so simple you need to search for a prop name as bar style and then I can change this tool if I just add default you will see they are showing us default. But if I change this to... dark content and if I save it look at that, now this is changed to dark and that is why this is how they are basically showing, perfect. So amazing, amazing job and yes, this is how we have successfully completed a very basic mini project using. external news API and integrated them and onto a very good UI. So that's why it has take us lot of efforts to build it, but everything is going to be worth it at the end. So don't worry about it. So yeah, this is pretty much it for this entire module and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "5. added news-feed-card-and-search-bar-functions_epm",
+      "lessonFile": "5. added news-feed-card-and-search-bar-functions_epm",
+      "source": "class-subtitle/module 5/5. added news-feed-card-and-search-bar-functions_epm/5. added news-feed-card-and-search-bar-functions_epm.vtt",
+      "chunkNumber": 6,
+      "start": 1302.6,
+      "end": 1391.02,
+      "duration": 88.42,
+      "startTimestamp": "00:21:42.600",
+      "endTimestamp": "00:23:11.020",
+      "captionStart": 278,
+      "captionEnd": 297,
+      "tokenCount": 262,
+      "captions": 20
+    }
+  }
+]

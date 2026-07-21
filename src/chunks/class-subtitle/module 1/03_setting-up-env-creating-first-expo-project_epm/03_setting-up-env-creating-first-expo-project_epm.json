@@ -1,0 +1,86 @@
+[
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_chunk_0001",
+    "text": "Alright guys and welcome to one more new chapter. In this chapter we are going to do our environment setup and going to write our first expo project. So before you can build any mobile app you need a proper development server. Like if you don't have any setup then you are going to have lot of errors and lot of frustration and lot of time going to be wasted. So, in this video we will set up everything step by step and going to create our first expo app. So, let's start with the tool we need. So, the first tool that make sure you have is the VS code. Perfect. I mean it depends. You are using VS code. You are using cursor and then a please, please, please don't use notebook if anyone you are using it. So make sure you are using VS code, cursor, anti-gravity and it depends like my suggestion is go with VS code. So how you can install VS code? You can simply visit to code.vslstudio.com and if you are using macOS, if you are using Windows. On the basis of that you can simply install it and make it up and running something like this. Perfect. After that what you can do you can simply move ahead and then make sure that you have bun install inside your system. Yes. So what is bun? Bun is a fast JavaScript runtime and all in one toolkit. Incrementally adoptable all in one JavaScript, TypeScript and JSX toolkit are basically runtime same as we can say kind of NodeJS. Perfect, this is fast and easy to set up. So what you need to do, you simply need to if you are on Linux or Mac OS run this command. If you are on Windows, then run this command inside your PowerShell or terminal. Perfect. So the first thing is that you need VS code. Second thing you need is a bun. Perfect. And third thing that you need is simply go to your expo and make sure to log in, create ID. I mean, it depends on basic thing. And then you can simply run this command. But as you guys know, we are using bun. So instead of writing NPX, we are going to run bun X create expo app. So the first thing, make sure you have a visual studio code. Second thing, make sure you have a bun. Third thing and this is very optional like if you can set up an emulator of Android and let's say I am using Windows so that's why I am going with Android but if you are using Mac OS you can simply set up simulator but if you are developing a expo app one of the best thing about it you can simply go to your Play Store. and app store and you can simply search for expo go app. Perfect, so the moment you simply go to expo go and install it, so this is something you can simply scan, I will show you everything, you can scan the scanner given by expo and you will see all the output inside your actual physical device. Perfect. So, I hope so this makes sense. Perfect. Now, let's move ahead and simply copy this command and make sure to go inside your VS code. I have created here module 1 and inside this. Let me simply just give me a minute. Let me just quickly set up my VS code and then I'll be right back. Alright guys, so this is how I have basically added my phone simulator basically at this emulator and this is here my VS code and simply need to run bunX and the command of that is going to be let me simply paste that perfect and instead of NPX I'm simply going to run Bunn-X. Create Expo at the latest and the moment you hit this you are going to see something like this. Now what is your app name? So we wanted to install our application inside the current folder. So, I am simply going to write dot slash.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0.639,
+      "end": 257.16,
+      "duration": 256.52,
+      "startTimestamp": "00:00:00.639",
+      "endTimestamp": "00:04:17.160",
+      "captionStart": 1,
+      "captionEnd": 69,
+      "tokenCount": 791,
+      "captions": 69
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_chunk_0002",
+    "text": "emulator and this is here my VS code and simply need to run bunX and the command of that is going to be let me simply paste that perfect and instead of NPX I'm simply going to run Bunn-X. Create Expo at the latest and the moment you hit this you are going to see something like this. Now what is your app name? So we wanted to install our application inside the current folder. So, I am simply going to write dot slash. And after that you will see like burn is installing all the dependencies for it. So you can definitely wait for it and see the output. All right, so now you will see that this command has installed a bunch of dependencies and a lot of other things. And now they are even giving you the command to run something like this. But for now let me clear everything. Perfect, and let me shift to my bash command so that I have a proper Linux like that, but I just wanted to be inside bash. That's all I wanted to say. Cool. Now, before start writing anything, a lot of you may have a question like which theme you are using, which icons you are using. So the theme that I am using here. You can definitely see that this is the theme they look at the name of the theme is a Vesper. Perfect if you wanted to use same theme as me so you can definitely install that and if I am not wrong file icon name is material icon theme. Perfect. So this is what I am basically using. Now we are good to go. Now listen to me carefully. You will see a bunch of file, a bunch of folders are here. Let me start from the starting. First thing that we have is a dot VS code. What is this? This is related to VS code. Like we have extensions, we have settings. So all right, this is related to VS code. You can ignore it. Now we have the main folder, which is your app folder. Inside that we have some tabs, some layout model. Ignore it. Then we have the asset inside the asset as the name is defining itself for having your fonts for have your fonts for your image for your audios for your videos all of that will coming inside this asset folder in same way. We have components and you will see this components is resembling with the react like this is how we write react native react code. So yeah, this is your component folder where you are going to write all the components. In the same way we have constants, constants are for your constant values and something like that. In the same way we also have hooks. Script, what is this script is for? I'll show you that but in the same way we have node modules. What is node modules? Node modules have all the dependencies packages inside the node modules. Then we have get ignore. You will see that we have node modules, export, dist, web builds, all of that file. So inside this, like all the ignoring file, like the file you don't want it to push onto the GitHub, we are going to write that here, the path of that. Then we have app.json. This is something new. Like from here you can definitely configure your expo application. Then we have bunlock. No problem. Then we have eslink. Then we have package.json. So every node.js and bun project have this. So you will see inside this we have bunch of command. We have bunch of dependencies, we have bunch of dev dependencies and lot of other things as well. Then we have readme and then we have tsconfig like if you are using typescript and yes for the entire course we are going to use typescript here. Perfect. Now how you can start this? So for that you can simply run burnx expose start. So, this is going to you will see the started project react compiler and then they are going",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "chunkNumber": 2,
+      "start": 221.24099999999999,
+      "end": 494.26,
+      "duration": 273.02,
+      "startTimestamp": "00:03:41.241",
+      "endTimestamp": "00:08:14.260",
+      "captionStart": 62,
+      "captionEnd": 136,
+      "tokenCount": 797,
+      "captions": 75
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_chunk_0003",
+    "text": "We have bunch of dependencies, we have bunch of dev dependencies and lot of other things as well. Then we have readme and then we have tsconfig like if you are using typescript and yes for the entire course we are going to use typescript here. Perfect. Now how you can start this? So for that you can simply run burnx expose start. So, this is going to you will see the started project react compiler and then they are going to start Metro bundler they are using something known as Metro bundler and you will see a QR code here alright then you will see IP address like expo and then this is the IP address the port where your application is up and running. Then they are also prompting you this scan the QR code above with expogo if you are using Android they will provide you that or if you are using iOS make sure that you have installed expogo application and with the help of iOS camera you can scan this and you will see something like this I will show you. using expo go you can simply press on S A to open Android W to open web lot of things but let's say I wanted to open Android so the moment I press A you will see opening on Android and opening at this port so make sure your computer and your computer is connected to the computer. Your phone are connected to same network and of the moment I press A you will see that automatically they have installed a new application name as expogo and the moment you open this pogo and again if I just simply press A. Look at that. This is our one of the first mobile application that we have home. We have Explorer and inside this you will see they are saying us welcome step one, step two, but this is little confusing for us. Perfect. And let me just once again open it, press open A and you can definitely log into it so that you will see all the development app right into the expogo app. So, perfect. Now if I just simply close this, clear everything inside the app you will see we have lot of files that we haven't even talked about it. So never touch this. They have provided you something known as scripts. So simply go inside the script and we have reset project. Yes, so we wanted to reset it and back to normal. So for that you can simply write bun. Go inside your scripts slash reset project and hit this. And now they are asking you, do you want to move existing file to slash app example instead of deleting them? So I said, no, I don't want it to move my existing app. Anywhere, I just wanted to reset it. So simply say no and now you will see all the extra files are deleted and then we are back to normal. So now if I clear this and go to my app, you will see we have only two files. One is _layout.tsx and another one is index.tsx and if I rerun this 1x expose start, it will And the react compiler enabled starting Metro bundler and the moment again press A you will see something very interesting. Perfect. So opening on Android and maybe I think I need to reload it. So for reloading you can simply press on R. So, the moment I press on R let me see perfect. So, if this takes time you can simply close all the files from here and you can sorry for that perfect you can restart it perfect opening an app like you can see they are bundling it and yes. For edit this what they are saying edit app/index.tsx to edit the screen. So I am here I can simply inside the text we are going to talk about all of them don't worry. So inside that this I can simply remove all of that and write hello world and boom. clap for yourself because for the first time you have written this by yourself.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "chunkNumber": 3,
+      "start": 461.8,
+      "end": 738.4,
+      "duration": 276.6,
+      "startTimestamp": "00:07:41.800",
+      "endTimestamp": "00:12:18.400",
+      "captionStart": 129,
+      "captionEnd": 188,
+      "tokenCount": 782,
+      "captions": 60
+    }
+  },
+  {
+    "id": "03_setting-up-env-creating-first-expo-project_epm_chunk_0004",
+    "text": "for that perfect you can restart it perfect opening an app like you can see they are bundling it and yes. For edit this what they are saying edit app/index.tsx to edit the screen. So I am here I can simply inside the text we are going to talk about all of them don't worry. So inside that this I can simply remove all of that and write hello world and boom. clap for yourself because for the first time you have written this by yourself. This is your first application inside your Android and if you're using iOS you will see that. So yeah, pretty amazing, amazing job. So let me just push this. So 01 setup of expo. Let me simply commit this so that all the code are available to you guys. Perfect, so this is pretty much it for today guys and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "03_setting-up-env-creating-first-expo-project_epm",
+      "lessonFile": "03_setting-up-env-creating-first-expo-project_epm",
+      "source": "class-subtitle/module 1/03_setting-up-env-creating-first-expo-project_epm/03_setting-up-env-creating-first-expo-project_epm.vtt",
+      "chunkNumber": 4,
+      "start": 703.181,
+      "end": 765,
+      "duration": 61.82,
+      "startTimestamp": "00:11:43.181",
+      "endTimestamp": "00:12:45.000",
+      "captionStart": 182,
+      "captionEnd": 195,
+      "tokenCount": 171,
+      "captions": 14
+    }
+  }
+]

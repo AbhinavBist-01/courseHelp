@@ -1,0 +1,107 @@
+[
+  {
+    "id": "chapter-3_epm_chunk_0001",
+    "text": "Alright everyone and welcome to chapter number 3. In this chapter we are going to implement the index page where we are actually going to see that how you can implement the background images related to the current weather condition and then going to fetch bunch of other parameters and simply going to show that. onto this screen. So this is going to very interesting chapter for you guys. So let's move ahead and start implementing it. First thing is, I'm not I'm not liking this. You can see that. This index thing. So for that, let me go to my layout. And inside my layout, I wanted to hide this up. So for that, I can simply say screen options. And this is screen options have something known as header shown and mark this as a false. Perfect. So hopefully this will work now. Okay. I think I need to reload it. So let me just wait for a few seconds. Okay, so now you can see that now everything is in proper sync and we are not be able to see anything perfect. Nice. Cool. So what next? Next is simply go inside your index dot TSX. And inside the index.tsx, first thing is simply coming to here and use your hook that you have created with the name of use weather. This use weather is going to have lot of methods. So let me just add them one by one. First, first variable that we have is the loading, then error message, weather forecast AQI, get location weather, this is the method and this is also the method. Perfect. Nice. And first thing first, if we are in the loading state, perfect. So for that, what I can do, I can return a view and that view will basically show us the activity indicator. So, this activity indicator is basically we can say or loading kind of things. So first of all, I think let me paste my all of the designs that I need. So, let me come into here and at the bottom of it, I will paste it. Perfect and then let me import my style sheet and let me also import this platform. Perfect. Let me also import this status bar. Nice. So if I save it, nothing is happened. Why? Okay, if I reloaded this will definitely going to work, but for now you will see that if you are in a loading state then I wanted to show this. In same way if we have a error message and we don't have any weather then I basically wanted to render this. First of all, let me import the material community icon from expo vector icons. Yes, so you will see that this is rendering a view, a icon and then a touchable opacity and also showing the error message, otherwise a fallback something went wrong. And then we have a simple touchable opacity which is again calling. the get location weather. Alright, so after this what I will do, I will get my background image. So I can simply say const bg image is equals to get background image. They are going to accept the weather dot. weather of 0th index dot main and then second thing is weather dot weather of 0th index dot icon. Alright and then we have very interesting component and that component is I think for the first time we are using here name as image background. Perfect and make sure to import this image background component from the React Native. Okay, nice. And after this, let me again coming to here. So you will see that this is your image background component. And this image background component is going to accept something known as source. And this source is going to have a background image. And then I wanted to show the style. Style is equals to the styles.bg image. Okay. And then I can even have something known as resize, not method, resize mode is equals to cover.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-3_epm",
+      "lessonFile": "chapter-3_epm",
+      "source": "class-subtitle/module 15/chapter-3_epm/chapter-3_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0,
+      "end": 296,
+      "duration": 296,
+      "startTimestamp": "00:00:00.000",
+      "endTimestamp": "00:04:56.000",
+      "captionStart": 1,
+      "captionEnd": 69,
+      "tokenCount": 783,
+      "captions": 69
+    }
+  },
+  {
+    "id": "chapter-3_epm_chunk_0002",
+    "text": "Okay, nice. And after this, let me again coming to here. So you will see that this is your image background component. And this image background component is going to accept something known as source. And this source is going to have a background image. And then I wanted to show the style. Style is equals to the styles.bg image. Okay. And then I can even have something known as resize, not method, resize mode is equals to cover. Okay, and then they are going to have a simple view that view, let me open a view and that view is going to have a style. This style is have something on as styles.overlay. Perfect, then we can have a simple safe area view, make sure to import the safe area view and you can even add the style into the safe area view with the name of styles.container. And then they contain a status bar. They have a bar style, bar style is type of light content and then background color of we can say transparent and then translucent and then I will self close this and if I save it ok nothing is showing to us ok, but if I close everything. Expo one start let me close this as well let me reopen it ok and yes now you can see that they are also showing us some warning new expo go version is coming soon so ok when this come we will update our expo go application no problem into it. Okay, so the moment I open it and now you can see that they have already fetched and maybe they will going to ask you for the first time for the location permission, you can definitely allow them and yes look at that. The area in which I live we have definitely a sunny weather, so that's why we are able to see this. So this is the beauty of a react native. Nice. Let's move at we already have a. status bar here, so this is the status bar that you are seeing this one got it and after this what you need to do let's add another component and the name of that component is search bar that accept event name as on search and then we will simply pass the search city method. and let me close everything and let's create this search bar component so into source let me create one components folder then they have a search bar dot tsx rn fes and let me save it. Let me import that from here. Perfect. And then I will save it. And then inside this, yep, we can have on search. Nice. So this on search is basically going to have an interface. Okay, so let me add the interface of search bar prop having accepting the city type of string and returning null. And then what I can do, I can simply add the type for it, which is going to be the search bar props. Okay, implicitly have type any maybe I am adding at the wrong place. Instead what I can do, I will show you something interesting, the better practice and that is let me show you, that is this one. Okay, so you will see that we have a react.fc and they have the search bar props. You can also go with this. And another approach as well. Then they are going to have two thing. First is the query, second thing is the set query. This is equals to use state which is empty string for now. And then what I will do, we can have a handle submit. This handle submit, first of all the query, let me trim this up. so that we don't have any extra spaces from on the left hand side and right hand side and then on search whatever the query is coming simply call it and then set query as empty string perfect and what if I just directly copy and paste my UI here a simple text input you can see that let me import the text input the touchable opacity and material community icon which have the name of magnify and then let me also paste my style here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-3_epm",
+      "lessonFile": "chapter-3_epm",
+      "source": "class-subtitle/module 15/chapter-3_epm/chapter-3_epm.vtt",
+      "chunkNumber": 2,
+      "start": 253.32,
+      "end": 559.94,
+      "duration": 306.62,
+      "startTimestamp": "00:04:13.320",
+      "endTimestamp": "00:09:19.940",
+      "captionStart": 60,
+      "captionEnd": 120,
+      "tokenCount": 796,
+      "captions": 61
+    }
+  },
+  {
+    "id": "chapter-3_epm_chunk_0003",
+    "text": "so that we don't have any extra spaces from on the left hand side and right hand side and then on search whatever the query is coming simply call it and then set query as empty string perfect and what if I just directly copy and paste my UI here a simple text input you can see that let me import the text input the touchable opacity and material community icon which have the name of magnify and then let me also paste my style here. Okay, so now if I save it, you can see that a search bar, okay and whenever you hit something you can definitely able to see that. Okay, let's say if I just simply hit Jaipur, I think Jaipur have also same weather condition if I am not wrong. Definitely, I can wait for a few seconds and I can have a better implementation for them. Then we are able to see and yes, you can see that I think the same. What if I had something, what if I just say Jammu and now if I had this, okay, maybe because of some reason we are not be able to see the correct weather condition, okay, I will fix that in a while. But now it's okay. We are getting this, no problem. We have a text input, we are able to enter the data and this is how this actually look to us, no problem. Let's move ahead and implement two more component, but that is inside the scroll view. So I can first of all get my scroll view from React Native. This scroll view is going to contain a style. This style is type of styles.scroll view. Then we have content container style. This is equal to styles.scroll content and then show vertical scroll indicator as false. Perfect. Then the component we are going to render here is named as current weather. Okay, so let me go inside my components and let me simply create one current weather dot TSX and then R and FES. This is your current weather and then I will import it. Okay. Perfect. So, now you can see that we have this component, no problem. And inside this component, they are again going to accept two things. First is the weather. Second is the AQI. Okay. And then they are again going to have an interface. So let me get my interface. Yes, they are type of weather data and they are type of AQI data. easy. And then I can again put the types for it. Nice. And then what next? Next is let me get the width here. So width will basically come from dimensions.get of window whatever the width for it and we are getting it nice. And what I will actually do here, I will try to copy and paste the entire component and I think we can write bunch of them just to have a better understanding. First of all, let me paste all of the styles that I have. So we have a lot of styles. Let me show you them one by one container, a city name, data text, temperature container. And then we have weather icon, temperature, weather descriptions, stats grid, stat item, stat value, stat a lot of them. Okay, so one component that we need to create right now is name as stat item. This stat item is going to accept the icon, the value, the label and last thing is the color. Okay. And they are the type of we can say this object. First of all, let me off my AI. Okay, and after adding this, let me add the type. So the type is icon, which is the type of string, then we have a value, then we have all of this and then let me simply open it. Okay, nice. And then they are going to use something known as a glass view component, although we don't need this glass view component. So what we can do?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-3_epm",
+      "lessonFile": "chapter-3_epm",
+      "source": "class-subtitle/module 15/chapter-3_epm/chapter-3_epm.vtt",
+      "chunkNumber": 3,
+      "start": 527.7,
+      "end": 818.12,
+      "duration": 290.42,
+      "startTimestamp": "00:08:47.700",
+      "endTimestamp": "00:13:38.120",
+      "captionStart": 114,
+      "captionEnd": 177,
+      "tokenCount": 786,
+      "captions": 64
+    }
+  },
+  {
+    "id": "chapter-3_epm_chunk_0004",
+    "text": "First of all, let me off my AI. Okay, and after adding this, let me add the type. So the type is icon, which is the type of string, then we have a value, then we have all of this and then let me simply open it. Okay, nice. And then they are going to use something known as a glass view component, although we don't need this glass view component. So what we can do? Okay, so let me just come into here and here I will create one more new component with the name of glass view dot TSX. This is a simple copy and paste component because we don't have any style for it. You can even definitely enhance that. So this is a simple reusable view component, nothing else, which accept our children and a style. Okay. So, this is basically just going to return you. And again, simply coming to here and then they are going to return you a glass view, which is the design of this stat item and then material community icon from here. Perfect. All right. So this is the component which is basically a stat item. I'm going to show all the stats that we have. Very easy. And after this what I wanted to do is to simply coming to here and then we will simply implement the style. Style is equals to styles.container and this container is first of all going to show the city name and we can say whatever the date time is happening. If I save it, you can see that, I don't know you are able to see it not, yes look at that. This is how they are basically showing the Gautam Buddha Nagar India, Monday February to 2026. So this is how we are basically showing it in same way, I can show the image. So what is the image? Let me show you below this text. I will paste this. So let me import my image component. So now you can see that this is a image temperature container showing the image URL. So let me get this function and if I save it, yes, this is the cloud basically I am getting and then the temperature in a round off format is 14 degree Celsius. All right. And after this what I can do I can even show the description for the temperature. So if I save it scattered clouds okay and then I can show all the stats that we have. So if I save it and if I do something like this I hope you guys are able to see this. This is the wind, this is the humidity, this is the fields like and this is the AQI that we have. So, this is the stat item 1, stat item 2, 3 and if we have any AQI then we wanted to show the AQI. Okay, so this is how this basically shows to us, nice. So this is your current weather component. Let me go to index and one more component that you wanted to show if there is something known as forecast list. What if I change this? to let's just say Delhi. Okay, and if I just simply press on search. Okay, so now you can see that this is how the Delhi's temperature is. What if I change this to Jaapur? And now if I search it, look at that. This is how they basically look. In same way you can change the city and just get the temperature out of it. In Pune, we have 27 degree, okay. And this is the clear sky. This is all the... stats that we have when the humidity fees like I think we are not able to get the AQIs but yes this is how this actually work perfect and you can even see on the basis of weather condition we are changing our background images perfect so let me also add one more component That is Namaskar, overcast list dot.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-3_epm",
+      "lessonFile": "chapter-3_epm",
+      "source": "class-subtitle/module 15/chapter-3_epm/chapter-3_epm.vtt",
+      "chunkNumber": 4,
+      "start": 788.019,
+      "end": 1043.64,
+      "duration": 255.62,
+      "startTimestamp": "00:13:08.019",
+      "endTimestamp": "00:17:23.640",
+      "captionStart": 170,
+      "captionEnd": 234,
+      "tokenCount": 784,
+      "captions": 65
+    }
+  },
+  {
+    "id": "chapter-3_epm_chunk_0005",
+    "text": "In Pune, we have 27 degree, okay. And this is the clear sky. This is all the... stats that we have when the humidity fees like I think we are not able to get the AQIs but yes this is how this actually work perfect and you can even see on the basis of weather condition we are changing our background images perfect so let me also add one more component That is Namaskar, overcast list dot. TSX and I paste it directly and then let me save it and we will see that. This is basically accepting the forecast data and again the glass view showing whatever the icon we have and the color we have. Okay. We are basically getting the icons name according to the material icon. We see we are using the vector icons, so whatever the correct name we are able to show that. So hopefully this will also work. So below this if I just simply paste the weather forecast list. They are going to accept the data, data have a forecast data and if I save it, so we will see is this going to show us something or not and yes look at that. Below this we have early forecast, this is how they actually look. And, if I again shift this to Delhi and search this, okay, so you can see that definitely you can play more with background colors because right now they are not able to show us in a better format, okay. So, this is how this actually look and you can see all the weather forecast that we have in a proper scrawlable view. Yes, look at that. This is how this actually looks to us. So I hope you guys are able to understand this, how we have built this mini application, a mini weather application, but such a really useful application for it. With this, this is the end of our weather app intermediate level project. Hopefully you love it. So for now, bye bye take care, see ya and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-3_epm",
+      "lessonFile": "chapter-3_epm",
+      "source": "class-subtitle/module 15/chapter-3_epm/chapter-3_epm.vtt",
+      "chunkNumber": 5,
+      "start": 1011.5,
+      "end": 1146.96,
+      "duration": 135.46,
+      "startTimestamp": "00:16:51.500",
+      "endTimestamp": "00:19:06.960",
+      "captionStart": 228,
+      "captionEnd": 257,
+      "tokenCount": 397,
+      "captions": 30
+    }
+  }
+]

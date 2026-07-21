@@ -1,0 +1,212 @@
+[
+  {
+    "id": "chapter-2-push-notification_epm_chunk_0001",
+    "text": "Alright everyone and welcome to a brand new chapter. In this chapter we are going to talk about push notification like how you can set up push notification inside your expo application. But for that I have definitely created a brand new folder. I know it is such a time consuming thing but we have to do it. And then without wasting any time, let me just simply run \"Bunex create Expo at the latest\". So, this is basically going to create me my application. ./ just give me a minute. Alright, so now we are basically installing the Expo. Perfect, let's just wait for it. Alright guys, so now we have successfully installed it. Let me simply clear it and then let me run run, reset project. So this is basically going to reset my project and perfect. Now let us simply move to this documentation. Alright and I hope you guys are able to see the link for it. So make sure to visit only this. And if you try to read it to utilize expo push notification service, you must configure your app by installing a set of libraries implementing functions to handle notification and set up credentials for Android and iOS. Perfect. So for that, like do you want to use FCM, APN directly? Now what is this? I'll explain everything. Don't worry. Now, very important point push notification are not supported on Android emulators and iOS simulators a real device is required. So, I hope you guys have a real device because this is the real device which is basically connected to my system. And, then you will see these are the libraries they are asking us to install. So, let me just simply copy this and run 1x expo install expo notification expo device and expo constant. Why expo notification? We know that library is used to request a user's permission and obtain the expo push token for sending push notification not a local notification. This is the push notification and expo device is basically used to check whether the app is running on a physical device or not and expo constant is used to get the project ID value from the app configuration and the second step they are asking us is to add exponent notification. Plugin in the plugins array of app config perfect. So if we are not wrong so they automatically do this for us if I go to my app.json alright and let me go to my plugins ok so we explicitly need to add that no problem let me just simply copy this expo notification. And out of this and I think below this let me open one array and inside this array let me just simply pass this expo notifications. Alright and the next step is they are basically asking us to add a minimal working example. So what if we simply just copy this the code below shows a working example of how to register Send and receive notification in a react native app copy and paste it into your project will based it right now. Let's leave it as it is. And the next step they are asking us to using the previous example. I mean this one. When you are registering for push notification you need to use a project ID. So what is this project ID? Basically your EAS builds project ID. We will grabbing that in a while. This property is used to attribute expo push notification to the specific project. for projects using EAS. All right. And the next step is get credentials for development build. Now, this is the right time. I wanted you to simply visit the firebase.google.com. Yes, you need to visit here. And then let me just change my account. Let me log in with this. And after this, simply press on go to console. And after coming here, I wanted you to simply press create a new Firebase project. And you can add Firebase to an existing project. OK, let me just change this to default one. Maybe we have here if I just simply say add a project perfect now let me just simply say",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 12",
+      "lesson": "chapter-2-push-notification_epm",
+      "lessonFile": "chapter-2-push-notification_epm",
+      "source": "class-subtitle/module 12/chapter-2-push-notification_epm/chapter-2-push-notification_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0.86,
+      "end": 301.88,
+      "duration": 301.02,
+      "startTimestamp": "00:00:00.860",
+      "endTimestamp": "00:05:01.880",
+      "captionStart": 1,
+      "captionEnd": 70,
+      "tokenCount": 790,
+      "captions": 70
+    }
+  },
+  {
+    "id": "chapter-2-push-notification_epm_chunk_0002",
+    "text": "Yes, you need to visit here. And then let me just change my account. Let me log in with this. And after this, simply press on go to console. And after coming here, I wanted you to simply press create a new Firebase project. And you can add Firebase to an existing project. OK, let me just change this to default one. Maybe we have here if I just simply say add a project perfect now let me just simply say this as expo push notification app and then I can simply press on continue. All right, if they are recommending us, let's move ahead and then simply press on continue. Then once again, press on continue default account for Firebase and then simply press on create projects. All right, let's just wait for it. All right, guys, so now we have successfully created this project and then simply press on continue. All right, now we have a expo. I mean, Firebase project as well. Cool. Let's hold on and let me go to my eraser. And first of all, let's try to understand what is FCM. Perfect. Yes, what is FCM? Why do we need Expo push tokens now? What is this basically? So these are very big question and we need to understand about it. Not DCM this is FCM. Alright. So, let me just say one really big thing notification don't magically reach to your phone you know that let's say this is a WhatsApp, this is a WhatsApp server and your friend like someone has messaged you but you don't know so for that WhatsApp is basically sending you a push notification. agree WhatsApp is basically sent going to send you a push notification, but notification don't magically reach to your phone. We need some identification matrix. We need something so that we can send you notification. So, that is why there is always a small service in the middle. Yes, in the middle we have a very small service for it. This is basically is the service which is we can say delivers the notification to your registered phone. So, there are two types of services like if you are Android user, so most probably you guys are using the FCM perfect and if you are iOS user you are most probably using something known as APNs. Perfect and now what is this FCM? So FCM is basically means if I just simply write FCM, FCM is means Firebase Cloud Messaging. Yes FCM basically means Firebase Cloud Messaging and FCM we can say that is a Google's push notification delivery service. Perfect. What is FCM? It is a Google's post notification delivery service for Android devices. And what FCM actually do? They basically delivers the notification to the Android phones. Yes, make sure to keep that in mind. They delivers that in the Android. Android's phone. Perfect. And one of the nice thing about this, like if your phone is off and you just forcefully stopped your app and your phone is logged, they work even that condition as well. And who is using basically these FCM? So a lot of big companies like WhatsApp. is using FCM, we can say Instagram is also using FCM, Zomato is also using FCM, Uber is also using FCM and we can say almost every Android app is using FCM, basically the Firebase cloud messaging services. And you can even build your own, but all right, who's going to manage that infrastructure? So Firebase cloud messaging is basically it's a Google's push notification delivery service for Android device. Perfect and very, very important rule here. Every Android app that send push notification eventually talk to FCM got it. So as you know, we know that this is the middleman. So, every time when we wanted to send a push notification to your device, so your notification will always go to the first of all FCM, then FCM will send this notification to the mobile",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 12",
+      "lesson": "chapter-2-push-notification_epm",
+      "lessonFile": "chapter-2-push-notification_epm",
+      "source": "class-subtitle/module 12/chapter-2-push-notification_epm/chapter-2-push-notification_epm.vtt",
+      "chunkNumber": 2,
+      "start": 268.139,
+      "end": 575.16,
+      "duration": 307.02,
+      "startTimestamp": "00:04:28.139",
+      "endTimestamp": "00:09:35.160",
+      "captionStart": 63,
+      "captionEnd": 131,
+      "tokenCount": 797,
+      "captions": 69
+    }
+  },
+  {
+    "id": "chapter-2-push-notification_epm_chunk_0003",
+    "text": "So Firebase cloud messaging is basically it's a Google's push notification delivery service for Android device. Perfect and very, very important rule here. Every Android app that send push notification eventually talk to FCM got it. So as you know, we know that this is the middleman. So, every time when we wanted to send a push notification to your device, so your notification will always go to the first of all FCM, then FCM will send this notification to the mobile phone. Perfect. So, we can say that like this is your backend server and from wherever you are basically generating the notification and then in between we have FCM. Firebase cloud messaging and then we are basically sending this to your Android phone. Alright so I hope so this is making sense now. Now very important term which is basically this push token. Now what is this actually push token is or instant we can say this as FCM token. Now what is in? So, FCM token is the address of an Android device got it. So, this is the where we are basically identifying this. So, let us say this is your Android device. So, this is basically the address for it. So, we can simply say this as this is basically the address of your Android device and very important point to mention this is unique per app perfect per app per device this is very important this is unique per app and per device all right interesting. And, then can change anything we can say that this can be changed anytime and must be stored safely on the backend got it. So, why do we use FCM directly in XPOT this is the biggest question. So, we can say that. The problem with FCM directly is they require a Firebase setup and we definitely going to use that. So don't worry about it. Perfect and then you need to add server keys, Android credentials, a lot of things. But one more very interesting thing that we have. is known as expo notification. So from here you just simply add your expo exponent push token we get that and then whatever message title you wanted to send and then simply press on send notification and this is going to work very fine. Perfect, and now one thing that we have is expo push token. This is basically FCM token. This is different. Now, we have another thing which is known as expo push token. So, expo push token is not same as FCM token. Make sure to keep that in mind. So, this expo push token is the token which is issued by your expo servers. We can say that they act as a proxy and we can easily generate that and we can easily use it. Cool. So, I think let us move ahead and try to understand that how we can actually set up all of that. So, overall if I just simply tell you one word then we will move ahead definitely. So, every time whenever you wanted to send a push notification to the Android, so Firebase cloud messaging is always involved doesn't matter you are directly using it or you are using with the help of expo. Perfect, this is the non-negotiable rule we can say that, cool. So all Android push notifications are delivered by FCM, got it. Now let's move ahead and let me simply come into here and start setting it up. simply press on the settings. And after settings you can simply let me just simply say on general and inside the general you will find something known as service accounts. Perfect and hopefully this will load it. And after loading this service account, you will see that we have a node.js, Java, Python. Only thing that you need to do simply say generate new private key. Then simply say generate key. Perfect. So this is basically going to generate you one private key. So basically grab this, open your VS code and make sure to save this here. Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 12",
+      "lesson": "chapter-2-push-notification_epm",
+      "lessonFile": "chapter-2-push-notification_epm",
+      "source": "class-subtitle/module 12/chapter-2-push-notification_epm/chapter-2-push-notification_epm.vtt",
+      "chunkNumber": 3,
+      "start": 540.7,
+      "end": 823.02,
+      "duration": 282.32,
+      "startTimestamp": "00:09:00.700",
+      "endTimestamp": "00:13:43.020",
+      "captionStart": 125,
+      "captionEnd": 189,
+      "tokenCount": 787,
+      "captions": 65
+    }
+  },
+  {
+    "id": "chapter-2-push-notification_epm_chunk_0004",
+    "text": "you will find something known as service accounts. Perfect and hopefully this will load it. And after loading this service account, you will see that we have a node.js, Java, Python. Only thing that you need to do simply say generate new private key. Then simply say generate key. Perfect. So this is basically going to generate you one private key. So basically grab this, open your VS code and make sure to save this here. Perfect. So, just give me a minute let me open my explorer and let me bring this once again and drop it here perfect never push this to your GitHub for now at least. Alright so now we have this perfect close this and now if you go to general what you to do is to . setup your app Android. So, I can simply press on Android and now this is very important point first thing they are asking you to add your Android package name and Android app ID and whatever you wanted to do, but for setting it up we definitely need to build our application perfect. So, we will build that right now. So, for that what I can do Let's move ahead and trigger a build here at least and get the bunch of credentials that we need. All right, so for that, what we can do first of all, let me fix it. All right, let me open this as well. And where is my device just give me a minute. Let me open it. All right. And first thing first, make sure you are successfully logged in with your EAS and I can simply hit EAS in it. So this is basically going to initialize my EAS project. Perfect. So would you like to create a project for this? Yes, I wanted to create. And now they are basically creating my project. Perfect. So we can definitely wait for a few seconds and they are still creating it. Alright, I am basically getting would you like to create this and a project with this slug has previously created by this account. So provide a different project slug. Alright, let me try to add a different slug. Hopefully that will work right now. So, the idea is this would you like to link this project? Yes, hopefully this will link and work. Alright, so now you will see that project successfully linked and if I move ahead and then if I go to my app Jason at the very bottom, you can see this. Yes, and the owner. Perfect. So, first thing that we have is the project ID. Perfect. Now, what next? So, after initializing this I basically wanted you to set up this credentials yes you need to add this and then what I can do I can simply coming to here and then I can say EAS build colon and just give me a minute let me just first of all clear it and then let me say again say EAS build colon configure perfect and now they are basically going to ask me. for which platform would you like to configure this. So we definitely wanted to go with Android and now you will see that your project is ready to build run EAS build when you are ready to submit. All right, we'll do that in a while. And now if I take you to this, we can say. Alright, just give me a minute. This looks weird little. Alright, now we are fine. If you again coming to here, perfect. And let me take you towards town and hopefully I will find post notification service. And yes, this is very nice diagram by the way, if you wanted to read about it, you can definitely read. I'm just searching for that. Just give me a minute. And then we are good to go. Alright, so basically I am not finding it out but it is okay. Next thing what you need to do you simply need to run EAS credentials perfect. So now you will going to see they are going to prompt you to select basically which platform",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 12",
+      "lesson": "chapter-2-push-notification_epm",
+      "lessonFile": "chapter-2-push-notification_epm",
+      "source": "class-subtitle/module 12/chapter-2-push-notification_epm/chapter-2-push-notification_epm.vtt",
+      "chunkNumber": 4,
+      "start": 792.201,
+      "end": 1051.72,
+      "duration": 259.52,
+      "startTimestamp": "00:13:12.201",
+      "endTimestamp": "00:17:31.720",
+      "captionStart": 181,
+      "captionEnd": 250,
+      "tokenCount": 797,
+      "captions": 70
+    }
+  },
+  {
+    "id": "chapter-2-push-notification_epm_chunk_0005",
+    "text": "And yes, this is very nice diagram by the way, if you wanted to read about it, you can definitely read. I'm just searching for that. Just give me a minute. And then we are good to go. Alright, so basically I am not finding it out but it is okay. Next thing what you need to do you simply need to run EAS credentials perfect. So now you will going to see they are going to prompt you to select basically which platform so yes we wanted to build for Android. Now which profile? So always select production for now. Perfect, so we wanted to go with production and now the next option, alright now they are basically saying me android.package in app.json. So run this command once again, alright I got it. So basically we haven't configured the android package name. So basically what you need to do, you simply need to go inside your as json. And inside this es json everything is fine. Let me go to app json and search for android. So it is my android up here is it perfect and then what you need to do you simply need to below this and not the dot sorry simply need to search for something known as package and inside this simply try to add the package. I can simply say dev dot. expo. and whatever the name of your application. So this is going to be expo push notification perfect and just remove this hyphens and yes this is the right approach of doing it perfect. So now you will see that we have a dev.expo.expo push notifications. So this is your package name we know that no problem. And in the same way, if you are doing for iOS, there is something known as a bundle identifier. So you can basically use that if you wanted to. Perfect. So let's move ahead and try that once again. So for doing that once again, what I will do, let me just come into here and rerun EAS credentials. Cool. They are basically running ASCLI and yes Android and now basically they are asking for the profile so yes select the production and hopefully this will work right now. And, and, and, okay, using Nice. So now you will see they found the project. Now they found the Dev Expo, basically application identifier. And the next thing you basically need to open this Google service account. Yes. Now let's move ahead. And let's implement it. So now simply select this Google service account. Yes, you need to do so that and then let me simply open it. And now you will see manage your service account key from Play Store. No, I manage your Google service account key for push notification FCM V1. Yes, we wanted to do so this now you can see that how we are connecting the dots. In the moment I coming to here and now they are saying set up a Google service account key for push notifications, select an existing Google service account key for push notifications. So set up a Google service account key and they will basically going to ask you, we can say the key. So choose an existing key, upload a new service key. So simply say upload a new service key. And, they are saying expo push notification. Yes, I think they found it out. Would you like to use this file? And hopefully you have imported this. Yes, you will see that how smart the ESCL is. They have automatically identified this key and simply say yes. Now, the moment I say yes, you will see uploaded Google service account and Google service account key assigned to this specific bundle identifier basically package name for FCM V1 press any key to continue. Let me simply press enter. Perfect and nice. So now we are basically done with it. So I can simply control see this perfect and after cancelling this what I will do let me clear everything and let me just simply go to my expo we can say dashboard. Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 12",
+      "lesson": "chapter-2-push-notification_epm",
+      "lessonFile": "chapter-2-push-notification_epm",
+      "source": "class-subtitle/module 12/chapter-2-push-notification_epm/chapter-2-push-notification_epm.vtt",
+      "chunkNumber": 5,
+      "start": 1022.52,
+      "end": 1290.14,
+      "duration": 267.62,
+      "startTimestamp": "00:17:02.520",
+      "endTimestamp": "00:21:30.140",
+      "captionStart": 243,
+      "captionEnd": 311,
+      "tokenCount": 797,
+      "captions": 69
+    }
+  },
+  {
+    "id": "chapter-2-push-notification_epm_chunk_0006",
+    "text": "Now, the moment I say yes, you will see uploaded Google service account and Google service account key assigned to this specific bundle identifier basically package name for FCM V1 press any key to continue. Let me simply press enter. Perfect and nice. So now we are basically done with it. So I can simply control see this perfect and after cancelling this what I will do let me clear everything and let me just simply go to my expo we can say dashboard. Perfect. Now, after going to my export dashboard, yes, this is the application I'm talking about. Let me just simply open it after opening it. If you go to the overview, these are the slug, the ID, all of that thing. Perfect. Let me go to my, if I'm not wrong to a submission or general, I think towards the general and maybe in the fingerprints, we will find the things that we need. All right. Create a fingerprint for this project. Okay, if I go to my builds, okay, we don't even have any builds. If I go to my overview, all right. So basically, I think what we can do, let me just close this. Cool. Let me just come into here. First thing first, let me copy this package name. Yes, we understand this and let me come into here and paste my package name. Perfect. You can name it as expo push notification and simply say register your app. So this is basically going to register my app. All right, let me just wait for it. Now, you will see they are giving us something a Google service. Jason. So, yes, you need to download this. Let me just simply press a download. Let me once again open my VS code and bring that here. Cool. Nice, and after this, let me just rename it perfectly. Nice. So, now we have a Google services dot Jason. Nice, we need it. And after that, you can simply press on next and everything is done simply again say next and then say continue to console. So the moment you continue to console, you will find here something known as SHA certificate fingerprints. So we need to definitely add a fingerprints as well. Alright so now if I go to my dashboard, you will see like if I just go to my credentials, I am not founding anything useful here. Like you can see that we don't have any, alright, we have client, we have private key, but we don't have the SHA fingerprints. So for that we need to trigger a build for it. Yes, I know it's a lot of things to do, but as I said you earlier, this is one of the hardest part and you need to go through it. Perfect, so how I can basically hit the development build, so for that I can simply run EAS, alright just give me a minute, let me see a little set EAS build and the -p profile and I can say the profile is basically for Android, perfect, so -p and Android and just hit it, we do not need any, basically the platform we do not need any profile for now. So, now you will see perfect they are basically saying no environment variable with visibility plain text and sensitivity. All right let just wait for it and yes generate a new key store generating the key store into the cloud. All right let just wait for it as well. Perfect. Now they are basically compressing the project file. All right, we can definitely wait for this as well. And now if I come into here and if I go to my builds, all right, there's nothing stills because they are already uploading it. All right, so now you can see that our build is in progress. Definitely we are going to cancel this build. But first of all, let me open this build. And now you can see the build is in progress. Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 12",
+      "lesson": "chapter-2-push-notification_epm",
+      "lessonFile": "chapter-2-push-notification_epm",
+      "source": "class-subtitle/module 12/chapter-2-push-notification_epm/chapter-2-push-notification_epm.vtt",
+      "chunkNumber": 6,
+      "start": 1252.1,
+      "end": 1505.34,
+      "duration": 253.24,
+      "startTimestamp": "00:20:52.100",
+      "endTimestamp": "00:25:05.340",
+      "captionStart": 303,
+      "captionEnd": 371,
+      "tokenCount": 796,
+      "captions": 69
+    }
+  },
+  {
+    "id": "chapter-2-push-notification_epm_chunk_0007",
+    "text": "All right, we can definitely wait for this as well. And now if I come into here and if I go to my builds, all right, there's nothing stills because they are already uploading it. All right, so now you can see that our build is in progress. Definitely we are going to cancel this build. But first of all, let me open this build. And now you can see the build is in progress. Perfect. Let me just again go to credentials. And we already have this fingerprints and IT. So let me just open this. Okay and okay, I think we don't have let me go to my credentials inside the credentials. Let me open this and yes, this is your SHA1 fingerprint simply copy this fingerprint and add a fingerprint simply paste it cool and then simply say save. And then simply say add add up all up to your app Android. We have already added this. All right, we are good to go now. Perfect. So now you can see that we have successfully registered this now. What next is go to your build, make sure to open this and I wanted to cancel it for now. So let me just simply press on cancel. And hopefully this will stop because right now we don't want it to build anything. We just need a bunch of credentials for setting it up everything and perfect. Alright, so now you guys can see that. Let me first of all coming to here and now you can see that we have a Google services dot Jason. But. This Google services dot json and this expo push notifications all of these are file that we do not want it to push this towards the GitHub. So we know that I can just simply add that inside my git ignore and after this what you can do first of all we do not need it anymore so I can simply delete it because you have successfully uploaded that and then you can simply coming to here and what you can do You can just simply say dot slash Google services dot json because we don't want it to push this to the GitHub. So basically our main goal is we never wanted to push this towards the GitHub. So I think I need to add that in this way. Alright, now you can see this is ignore but one more thing to keep in mind is this something known as EAS ignore as well. Perfect, now what is this EAS ignore? EAS ignore is all the file that you do not wanted to push to the EAS while building the EAS builds basically. So I just wanted to coming here but yes we need to push Google services.json to the EAS build. We do not wanted to push this to the GitHub but we wanted to push this towards the EAS build. So that is why I have just added this like. in this format. Perfect. Now let's move ahead and after this what you need to do simply go inside your app.json and inside this make sure that you are into this Android section and inside this simply open and search for Google services file and then add your Google services dot slash. And let me copy the path for it and all right, not the path, the relative path. Hopefully this will work right now. Yes. So this is the basically relative path of our Google services. Perfect. Nice. So, I think yes, we are all set for sending the push notifications. You might be thinking a lot of things to do, but alright now we have successfully added this and we know that we have successfully installed all of the things that we need to install. Nice. So, now let's move ahead and start adding some code and start making a push notifications. Alright, so for that what we can do, let me again go to my folder structure and first thing first let me go to my app and maybe at the top of it what I can do, I can create here a folder as the name of notifications and inside this notification I can first of all",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 12",
+      "lesson": "chapter-2-push-notification_epm",
+      "lessonFile": "chapter-2-push-notification_epm",
+      "source": "class-subtitle/module 12/chapter-2-push-notification_epm/chapter-2-push-notification_epm.vtt",
+      "chunkNumber": 7,
+      "start": 1482.7,
+      "end": 1733.08,
+      "duration": 250.38,
+      "startTimestamp": "00:24:42.700",
+      "endTimestamp": "00:28:53.080",
+      "captionStart": 364,
+      "captionEnd": 428,
+      "tokenCount": 797,
+      "captions": 65
+    }
+  },
+  {
+    "id": "chapter-2-push-notification_epm_chunk_0008",
+    "text": "this and we know that we have successfully installed all of the things that we need to install. Nice. So, now let's move ahead and start adding some code and start making a push notifications. Alright, so for that what we can do, let me again go to my folder structure and first thing first let me go to my app and maybe at the top of it what I can do, I can create here a folder as the name of notifications and inside this notification I can first of all wanted to register my push notifications. I can say register push dot ts. And inside this simply paste this code. Now what is this? Let me just explain you that one by one. First thing first we have successfully imported the expo constants, expo device and expo notification. No problem. Then created a simple function. The name of this function is register for push notification async easy. Then first of all I have checked. Is my device is physical device or not? So then I have added alerts. If not of the physical device, then I will show here push notification require a physical device and after this what I will do? This is how we are basically asking for permission. We know that. And then if existing status is not equal to granted then ask for permission perfect and again if it's not granted then simply say permission not granted. Then this is very important point this is what we have did this much of circus then simply say const token data is equals to await notifications.getExpoPushTokenAssign now what is this? This return a expo token that can be used to send a notification to the device using exposed post notification service. This means makes request to expo servers and it can reject in case where the request itself fails so alright. They are basically going to give you the we can say expo push token this is what we need and we are basically getting the project data and from where we are basically getting the project data constant expo config dot extra dot es dot project ID. Yes, we have this project ID. And now what I will do, let me go to my app and index.tsx. Yes, we know that we haven't show anything extra here. So let me just paste that entirely. Perfect. So first thing, okay, we need to install Xpoclipboard. So I can simply save BunX, Expo install. Expo clipboard, so this is and you can see that there is lot of libraries inside the Expo itself. So, this is basically for using the clipboard for accessing the clipboards. Okay, so now we have react native and then we have Expo clipboard and then we have this register push easy. First thing what I did here, I have just initialize here a token and a state variable then call a use effect. This is basically registering my push notification perfect. And this is my expo push token and this is token selectable and let me just simply save it. All right. And now what next? Next is to basically build our entire application and wait for it. All right. So what I can do for that, I can simply come into here, clear everything and then simply run EAS build perfect. And then I wanted to build a platform as Android, A and D, R, O, I, I, D, I hope my spelling's right. If not, excuse me for that. And profile is going to be development. So, now this is basically going to start creating build for my application perfect. So, they have resolved and hopefully this will work right now. So, let us just wait for it and we are good to go. Alright, so now you can see that we are basically uploading this to AIS build. Perfect. Alright guys, so now you guys can see that we have successfully created the build. Right now let me simply say no and let me go to my builds. Perfect. And let me reload it once. Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 12",
+      "lesson": "chapter-2-push-notification_epm",
+      "lessonFile": "chapter-2-push-notification_epm",
+      "source": "class-subtitle/module 12/chapter-2-push-notification_epm/chapter-2-push-notification_epm.vtt",
+      "chunkNumber": 8,
+      "start": 1699.78,
+      "end": 1976.62,
+      "duration": 276.84,
+      "startTimestamp": "00:28:19.780",
+      "endTimestamp": "00:32:56.620",
+      "captionStart": 422,
+      "captionEnd": 493,
+      "tokenCount": 791,
+      "captions": 72
+    }
+  },
+  {
+    "id": "chapter-2-push-notification_epm_chunk_0009",
+    "text": "So, they have resolved and hopefully this will work right now. So, let us just wait for it and we are good to go. Alright, so now you can see that we are basically uploading this to AIS build. Perfect. Alright guys, so now you guys can see that we have successfully created the build. Right now let me simply say no and let me go to my builds. Perfect. And let me reload it once. Perfect. So now we have successfully created it. Simply press on install and then let me open my camera and scan this, open this. Perfect. So let's just wait for it. Okay. So now you guys can see that we have this build artifact. Simply press on install. So this is going to start downloading my files. And now we have successfully installed it. Let me go to the downloads and yes, we are still downloading it. All right. Ninety four, ninety eight. Hopefully this will finish. All right. So now let me just simply press this and yes, expo push notification and then simply press on install. All right. And then I can simply press on open. So perfect. wait for it. So, this is basically opening my application and definitely I can close it and I can run 1x Expo Start. Alright and now you will see right now they are showing still showing us this Expo Go. Perfect. Alright, let me again run this 1x Expo Start. Alright, and if I open my expo this application, ok, Android is building this. And yes, look at that. First of all, they are asking me allow push notification. Simply press on allow. And yes, right now we are able to get our push notification, but we are not done yet. As you guys can see that. Alright, so next step is like you guys can see that we are asking for notifications, permission, we are even getting the expo push token, but this is not enough. Why this is not enough? Let's move ahead and we need bunch of requirement. First requirement is done. We have a development build. Next requirement is we need to add an Android notification channel. Without this Android may silently drop notification. So for that what we can do, let me just go inside my index and inside this index, I will We can basically create a function name as we can say setup Android channel and let me paste that first of all and we do not need to export it. First of all, let me import my platform and let me also import this notification. So we can import notification like this from here to here. Perfect. So what is this basically? setup Android channel. So the channel if the platform.os is Android, then simply do this notification channel name is default and make sure to add the importance to max. If the importance is low, sometime your device may miss this notifications. We don't want that. Alright. And after this, what we will do, let me just take you to the code example. This will much easier. So first thing that we have did, this is where is that? Yes, this thing you can even add vibration and light colors. So, let me add the vibrations and light colour for it. Nice. And after that, yes, you need to also add for the notifications permission. We have already handled that one more thing. One last thing of this one. Set notification handler because we haven't added that. So below this I can also add it. So this is your notification dot set notification handler should play sound should set badge should show banner should show list. All right. These are all the things. After this, what you need to do, let's move ahead and simply add all of that inside the notification listener and we can say notification response received. So let me show you how you can basically handle it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 12",
+      "lesson": "chapter-2-push-notification_epm",
+      "lessonFile": "chapter-2-push-notification_epm",
+      "source": "class-subtitle/module 12/chapter-2-push-notification_epm/chapter-2-push-notification_epm.vtt",
+      "chunkNumber": 9,
+      "start": 1944.62,
+      "end": 2222.7,
+      "duration": 278.08,
+      "startTimestamp": "00:32:24.620",
+      "endTimestamp": "00:37:02.700",
+      "captionStart": 485,
+      "captionEnd": 563,
+      "tokenCount": 783,
+      "captions": 79
+    }
+  },
+  {
+    "id": "chapter-2-push-notification_epm_chunk_0010",
+    "text": "One last thing of this one. Set notification handler because we haven't added that. So below this I can also add it. So this is your notification dot set notification handler should play sound should set badge should show banner should show list. All right. These are all the things. After this, what you need to do, let's move ahead and simply add all of that inside the notification listener and we can say notification response received. So let me show you how you can basically handle it. Alright, so first thing first, let me just cut this down and add this into the use effect as well. And after this, yes, you also need to copy this. and below this call this function. So we are basically setting the notification handler. We are setting up the Android channel and registering the push notification. All good. Nice. Now, what we can do basically, I think we are good to go for now. Let me just copy my token. Perfect. Hopefully this will work. Let me add my push notification token. drink water, anything. I can give this message body. Message body can be hello boy, stay hydrated, whatever is that. Nice, and let me just try to send a notification. Perfect, we will see is this fail or going to work. Perfect. And look at that. This is the beauty of push notification and if I just remove all of the other notification and show you this, look at that. This is your push notification which is basically coming from some push notification tools. Look at that. Please drink water. Hello boys stay hydrated amazing amazing job guys. Now one interesting thing you can definitely modify this you can modify the entire color of it. You can do whatever you want it to do with this but with this this is pretty much it. This is how you can basically set up a push notification for your We can say application as well. So let me just fix this, fix this code, copy this and paste this and yes. In next chapter, we are basically going to see that how you can handle a deep linking with the help of your push notification, how you can basically, we are basically going to create one small application. Perfect. but with this. Let me just end this chapter because already we are 40 minutes and 39 minutes pretty basically. So yeah this is pretty much it for this entire push notification chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 12",
+      "lesson": "chapter-2-push-notification_epm",
+      "lessonFile": "chapter-2-push-notification_epm",
+      "source": "class-subtitle/module 12/chapter-2-push-notification_epm/chapter-2-push-notification_epm.vtt",
+      "chunkNumber": 10,
+      "start": 2184.64,
+      "end": 2369.76,
+      "duration": 185.12,
+      "startTimestamp": "00:36:24.640",
+      "endTimestamp": "00:39:29.760",
+      "captionStart": 554,
+      "captionEnd": 600,
+      "tokenCount": 489,
+      "captions": 47
+    }
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "2.expo-secure-store_epm_chunk_0001",
+    "text": "Alright everyone and welcome to one more new lecture. In this lecture we are going to talk about X4 secure store. So this is the chapter number two where basically we are going to see that what are all the other ways to secure and to basically store your data to the mobile storages. So this is the second one. First one is the sync storage. This is the secure storage. So definitely they have something related to security. So, a library that provide a way to encrypt and securely store key value pairs locally onto the device. So, Expo secure store provide a way to encrypt and securely store key value pair locally on the device. has a separate storage system and has no access to storage for other expo projects. This is the beauty of it. So large payload can be rejected definitely. Don't save a 2GB file, a 5GB file inside your local system and even don't save more than 10MB, 20MB. For that. Like they have already told you like this is the number of bytes you can store, but I don't recommend you to use it completely. Perfect. So, if you wanted to ever store the large files and something, so use something known as Expo file system for it, but for now, let's not focus on the size of your data, focus on how you can basically store it. Perfect, so first of all before starting anything what is secure storage? What do you understand by secure storage? Perfect, and why do we even need it? So secure storage is a way to save sensitive data. Why basically we need it? Just to save the sensitive data. We can say like API keys, like tokens. like passwords on a user device. It's encrypt the data so it's safe from unauthorized access. We can say that. Perfect. So for using it, simply copy this command. And, coming to here close this simply coming to here and say burnex expo install secure store. So, this is going to install this package. Close this index file and instead I will say you to coming to here and I can say this as screen.tsx and simply copy this and simply paste this here just to maintain this file and wherever we have index I will basically going to say this as sync storage screen. Perfect. Now let me close this and remove everything RnFes simple react native snippet and then let me rerun my application. So burnx expose start. Perfect. And then I can simply reload it and then I'll be right back. Perfect. So it is still loading and I think it will load in a while and yep. Now how you can basically use it. So for using it again this is very straightforward like they are saying you to configure a bunch of things but for now ignore this and move ahead and we will see basically how you can use the APIs of it. So, for using the API simply import it and this is how you can set it, this is how you can get it, but we will see how I can implement that. So, for this and first step is always going to be import star as I will say this as secure store from expo secure store. Perfect, and then let's say I just wanted to create here a username and password and I wanted to store that. Cool, so we can take that as an example. So I can simply say const username, I mean, yes, a state variable. Set username and then this is equals to use state and keep this as an empty. And then I can again coming to here simply press control D and just to duplicate it. You have some different key bindings for it. So then this is going to be a password and I can call this as set password. Perfect. And then let me first of all design it. So for designing it, let's say for this view, I can simply say this as a style.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "2.expo-secure-store_epm",
+      "lessonFile": "2.expo-secure-store_epm",
+      "source": "class-subtitle/module 6/2.expo-secure-store_epm/2.expo-secure-store_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0.939,
+      "end": 302.539,
+      "duration": 301.6,
+      "startTimestamp": "00:00:00.939",
+      "endTimestamp": "00:05:02.539",
+      "captionStart": 1,
+      "captionEnd": 69,
+      "tokenCount": 793,
+      "captions": 69
+    }
+  },
+  {
+    "id": "2.expo-secure-store_epm_chunk_0002",
+    "text": "Set username and then this is equals to use state and keep this as an empty. And then I can again coming to here simply press control D and just to duplicate it. You have some different key bindings for it. So then this is going to be a password and I can call this as set password. Perfect. And then let me first of all design it. So for designing it, let's say for this view, I can simply say this as a style. can be padding of 20 and then margin top of 50 once again. Then we can have a input box like two input box. One is for username and another one is for password. Not rocket science. I mean just basic UI. And if I save it, you will see it. Cool. Nice. In the same way I can have we can say a button which is basically going to show us the save credentials thing. So let me just import a button from react native. So, self close this and first thing you can pass here as the title and you will say this as save credentials perfect IELTS. Alright, now if I save it you will see this is how you can get it cool. So, you can simply write any data you can pass a password and the moment you press on You will get it cool but for that definitely we need to implement here the on press method and I can create here the on save. So let me coming to here and start using it. So what you can do you can simply say const on save and again this is going to be a sync. Perfect. And then I can come into here, say try and catch, and then I can simply say await secure store. All right. Let me reimport it. So let me copy this. Let me paste it. Perfect. So, secure storage and then this is going to be set item async because we wanted to store data asynchronously and then key is going to be username and then password whatever inside this username easy no problem and then again say await and then secure storage dot set item async. And, then this is going to be your password and then I can pass password as well. And after this I can simply show the alert, alert dot alert and I can say this as success credentials saved, s a b saved securely. Perfect. SECU securely. Perfect. Now if I, let me come into here, let me add username as this and password as 12329. Perfect. And if I press on save credentials, you will see I am getting credentials saved securely. Now what is the meaning of it? Let's move ahead and we will see how we can basically load the password. Perfect. So for loading it, what I can do, first of all, let's say by any chance if we have any error. So let me copy this, paste it and this will become error. And then I can simply show the error. And instead of this I will say. fail to save data, whatever is that. Cool. Now let me create one more button. Let me copy this. Perfect. Let me save it. Nice. And then I can say this as load credentials and instead of on save, I can say this simple handle load simple. I mean on load and then I can create const on load is equals to a sync. Again, try and catch because this is a good practice to always keep try and catch here and let's say I wanted to get data. I can simply say await secure store dot. Or I can store the data inside a variable. Better approach. Saved user name is equals to await secure store. Get item async and then this is going to be user name. Perfect. In same way, I can get my saved password as await secure storage. dot get item async and then make sure to pass the correct key for it and in same way you can show the alert. Show alert can be loaded username and whatever your",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "2.expo-secure-store_epm",
+      "lessonFile": "2.expo-secure-store_epm",
+      "source": "class-subtitle/module 6/2.expo-secure-store_epm/2.expo-secure-store_epm.vtt",
+      "chunkNumber": 2,
+      "start": 270.4,
+      "end": 595.819,
+      "duration": 325.42,
+      "startTimestamp": "00:04:30.400",
+      "endTimestamp": "00:09:55.819",
+      "captionStart": 63,
+      "captionEnd": 139,
+      "tokenCount": 801,
+      "captions": 77
+    }
+  },
+  {
+    "id": "2.expo-secure-store_epm_chunk_0003",
+    "text": "I can simply say await secure store dot. Or I can store the data inside a variable. Better approach. Saved user name is equals to await secure store. Get item async and then this is going to be user name. Perfect. In same way, I can get my saved password as await secure storage. dot get item async and then make sure to pass the correct key for it and in same way you can show the alert. Show alert can be loaded username and whatever your username is going to be. Perfect, you can again add here design but let me just simply add a view which is self closing view which is basically going to add the margin vertical here something like this and if I alright save it and if I just. Make it empty. Like let me remove it and let me remove this as well. And if I simply press on load credential, you will see this data is securely coming from my secure storage. Perfect. And if you wanted to, let's say, show your password as well. So let me just see that I can show this or not. password I mean definitely I can show. So this is going to be saved password. If I simply press on load credentials, this is how you will fetch it. Cool. Now, let's how you can clear this very simple. So I can again create here one more method like we have on load. In same way I can create on delete and then I can simply say async. Simple try and catch. Cool. And let me just simply paste that entirely. Here. Perfect. So we have simple try which is await. Another await. Then it is just simply resetting it and credential cleared. Perfect. And then let me copy this much and paste this much and instead of load credentials, I can say this as clear credentials and I can use here on clear. Is this the name of it? On delete. Yep. So, I can simply say on delete and the moment I hit this, you will see that my secure storage is now empty. Now, we have a bunch of advanced features as well. Like we can say while storing, like this is your on safe. Perfect. We have secure store, set item, a sync, username and the data whatever you are saving. But we can pass bunch of other data as well. You will see that we have these options. And, if you press over this secure options, one of them is, let me show you, let me open here the option, we have one thing known as require authentication. And if I simply say this as true, and another thing is authentication prompt. So, if I just say coming to here and then say authentication prompt and you will simply say authenticate to access your SEC secret. Perfect. So let me try. Let me just simply say Suraj and password, simple password and if I say save credential you will see an error. Why I am getting this error? Any guess why I am getting this error? Fail to save data. Okay. So for this, you need to go inside your app.json and inside this app.json, you simply need to add this. Like you will search for plugins and simply copy this from here till here. So let me search for plugins. This one. And we have Expo Secure Store already added here as a plugin. So, what I can do, I can paste this like something like this. Cool. So, this is the name and this is the configure Android backup true and face ID permission, whatever is that. In same way, you can also configure this for your iOS. So, you can simply open your iOS config and then this is what you need to add. So, where is my iOS? Here. I can simply copy this object. Perfect. And below this I can simply paste it. Easy. And let me reload it once again. Now look at that. Save username and password to something.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "2.expo-secure-store_epm",
+      "lessonFile": "2.expo-secure-store_epm",
+      "source": "class-subtitle/module 6/2.expo-secure-store_epm/2.expo-secure-store_epm.vtt",
+      "chunkNumber": 3,
+      "start": 546.16,
+      "end": 862.3,
+      "duration": 316.14,
+      "startTimestamp": "00:09:06.160",
+      "endTimestamp": "00:14:22.300",
+      "captionStart": 131,
+      "captionEnd": 214,
+      "tokenCount": 795,
+      "captions": 84
+    }
+  },
+  {
+    "id": "2.expo-secure-store_epm_chunk_0004",
+    "text": "whatever is that. In same way, you can also configure this for your iOS. So, you can simply open your iOS config and then this is what you need to add. So, where is my iOS? Here. I can simply copy this object. Perfect. And below this I can simply paste it. Easy. And let me reload it once again. Now look at that. Save username and password to something. So let me say save it. Cool. And now they are asking me bunch of thing. Samsung pass asking me for update. I will update it later. Cool. Let me press on simple continue. I don't know whatever they're asking. So just give me a minute. Let me see how I can make it more secure. Then I'll be right back. Alright, so I have reloaded my application. Let's see what we can see here. Perfect, they're still showing me this module 6 and loaded. Let me try to resave it. Perfect. So let me add my username and password something like this. And if I say save credential. still showing me a error. Perfect. Alright guys, so I have basically consoled the error and as expected, they are basically saying me that for using this, like we have already passed the option, like we need authentication. So now you will see that they are saying me like, \"Hey, this request has been rejected.\" Because, could not authenticate the user. Why? Because no biometrics are currently enrolled. So for accepting biometrics, now you can see that we are right now dealing with biometrics. Cool, this is quite advanced thing, but what you can do, I am just making it something like this, like this is not important to always go with it, you can completely skip it. But let's say, let me say can use bio. I am just showing you how you can do so this bio matrix is equals to await perfect and this is going to be secure store dot can use bio metric authentication and call this perfect. So, check if the value can be saved with required authentication, true if the device support biometric authentication, otherwise false and then this is how this basically going to be work. All right, they have no effect over it and then I can basically say can use biometrics. So, if we can use biometrics, then I wanted to go with this approach. Perfect. Same for storing password as well. So I can cut this for password, save this and I can simply copy this option. Perfect. And save it. Cool. But let's say we don't have anything related to biometrics. Then what I can do basically like out of this, I can go to my else. And I can just without using this options I can save it. Yes, this is the one approach you can go with it. So let me try to remove it because we don't need it. Same with this. Perfect, so we will try this once again. Let me first of all try to reload it. I hope so. Never use for this. Never use. Let me simply say ok. Perfect. Let me simply say you Suraj Kumar and whatever the value I am basically going to add and if I say save. So now I am getting credentials saved successfully. All right, but how they have basically saved if I'm not wrong. So they are basically going inside the else. But what if I removed the else and inside the else I can show the alert no biometrics, then maybe this will not work. Recheck it. Cool. If I say no, oh, now look at that credential saved successfully and now you are getting no biometrics. Cool. So basically we are going inside the else. I mean, we need to set up a bunch of things for using bio matrix for now. So I don't want it to get into that. Cool.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "2.expo-secure-store_epm",
+      "lessonFile": "2.expo-secure-store_epm",
+      "source": "class-subtitle/module 6/2.expo-secure-store_epm/2.expo-secure-store_epm.vtt",
+      "chunkNumber": 4,
+      "start": 830.92,
+      "end": 1103.46,
+      "duration": 272.54,
+      "startTimestamp": "00:13:50.920",
+      "endTimestamp": "00:18:23.460",
+      "captionStart": 203,
+      "captionEnd": 281,
+      "tokenCount": 798,
+      "captions": 79
+    }
+  },
+  {
+    "id": "2.expo-secure-store_epm_chunk_0005",
+    "text": "But what if I removed the else and inside the else I can show the alert no biometrics, then maybe this will not work. Recheck it. Cool. If I say no, oh, now look at that credential saved successfully and now you are getting no biometrics. Cool. So basically we are going inside the else. I mean, we need to set up a bunch of things for using bio matrix for now. So I don't want it to get into that. Cool. And they have already provided you like how you can use it. Like we have this can use bio matrix. Perfect, maybe if I just try to use this into my iOS. Let me try this. Cool, maybe I can show you that. So just give me a minute, let me check it and then I will show you that. Cool. Alright guys, so I have done a bunch of research and let me tell you one thing. Right now we are using basically something known as Expo Go. Perfect, and inside the expogo you cannot test this out like something you cannot have, we can say that in expogo like this require authentication thing is won't work as we are expecting because expogo does not support biometric authentication directly. So in upcoming chapters, when we are going to talk about like how you can build your standalone version of the app for Android and iOS separately, then this would be work. But right now I don't want it to cover that thing and confuse you guys. So for now, what you can do, you can completely ignore this part. I mean the code is right, everything is right, each and every implementation is right, but the actual problem is there is something known as a build. So for build like that thing come in two, three chapters later. So, after that I'll explain you how you can basically build the separate standalone versions of your Android and of your iOS and then how you can basically test that out. But for now, whatever we are doing, everything is right. But because of the limitation of Expo Go, we can't test this out, which is a good thing. I mean, you can't get the direct access by using just the Expo Go. Perfect. So, just for now, you can definitely keep this as the reference, but let's say if you wanted to test this out, so you need to build this application and then see this. So, for now, you can completely skip that part and this is how you can basically set this item. This is how you can basically get this item and this is how you can basically delete that. So, these are all the things that we wanted to keep in mind for now. Perfect. So if I just try to give you a basic summary of it all over. So the basic summary is use secure store when you need to store passwords, tokens, APIs and keep sensitive. This is basically going to keep your data as encrypted and this is very secure authentication credentials and you can why you keep this as secure because when you are going to make this application for production, then you will see the real superpower of it. And don't use when you wanted to store large file and non-sensitive things like for that we already have async storage. And let's say like you have already seen this the size of your file. file like basic data is basically something known as 2048 bytes. So this means overall 2 KB. So you can't put more than 2 KB of data up here. So make sure to keep that also in mind. Like if the data is more than 2 KB, so don't use it, then use file system. We'll talk about that in upcoming chapters. So, yes, this is pretty much it for this chapter. I hope you loved it. Perfect. And you have just learned something new, like whenever you wanted to test something and",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "2.expo-secure-store_epm",
+      "lessonFile": "2.expo-secure-store_epm",
+      "source": "class-subtitle/module 6/2.expo-secure-store_epm/2.expo-secure-store_epm.vtt",
+      "chunkNumber": 5,
+      "start": 1072.9,
+      "end": 1323.779,
+      "duration": 250.88,
+      "startTimestamp": "00:17:52.900",
+      "endTimestamp": "00:22:03.779",
+      "captionStart": 271,
+      "captionEnd": 331,
+      "tokenCount": 792,
+      "captions": 61
+    }
+  },
+  {
+    "id": "2.expo-secure-store_epm_chunk_0006",
+    "text": "So you can't put more than 2 KB of data up here. So make sure to keep that also in mind. Like if the data is more than 2 KB, so don't use it, then use file system. We'll talk about that in upcoming chapters. So, yes, this is pretty much it for this chapter. I hope you loved it. Perfect. And you have just learned something new, like whenever you wanted to test something and see the real power of you, it you wanted to build your application and extract that. We'll talk about that in upcoming lectures. But for now, this is pretty much it and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "2.expo-secure-store_epm",
+      "lessonFile": "2.expo-secure-store_epm",
+      "source": "class-subtitle/module 6/2.expo-secure-store_epm/2.expo-secure-store_epm.vtt",
+      "chunkNumber": 6,
+      "start": 1299.22,
+      "end": 1336.12,
+      "duration": 36.9,
+      "startTimestamp": "00:21:39.220",
+      "endTimestamp": "00:22:16.120",
+      "captionStart": 324,
+      "captionEnd": 334,
+      "tokenCount": 135,
+      "captions": 11
+    }
+  }
+]

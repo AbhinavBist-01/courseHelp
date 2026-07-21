@@ -1,0 +1,44 @@
+[
+  {
+    "id": "mini-project-5-implementing-pokemonList-screen_epm_chunk_0001",
+    "text": "Alright everyone and welcome to chapter number 5. In this chapter we are basically going to create one of the easiest component and easiest screen of our entire mini project. So let's move ahead and start implementing it inside your app. simply go to screen and Pokemon list screens and inside this Pokemon list screen we need to first of all keep it easy let me just simply write here const navigation this is going to be const navigation is equals to use navigation make sure to import this from react navigation native. And this is going to be the type of home screen navigation prop. Then let me add bunch of state variables that we need. So first of all, let me import my use state from react and then Pokemon rough. So you will see that we have this list offset load more has more easy kind of an infinite scrolling. And then let me move ahead and first of all create the load more method. So load more is basically going to be a sync method and if we are into loading state perfect and we don't have has more then we simply going to return it. Then, by doing so this let me simply initialize my loading as true, open try catch and finally and in finally let me set is loading as false. Into the try let me simply say const data is equals to alright just happened cool. So, const data is equals to await. get Pokemon type and instead of Pokemon type this will Pokemon list which is going to accept the initial data and your offset. Perfect and then we are going to simply say set list. is equals to all the previous data that we have and open an array, spread all the previous data and spread all the latest data dot results which is coming. In same way, let me set my offset. as well and then if we don't have any data.next because we are doing kind of an pagination but in kind of scrolling view if we have has more if we don't have this if this becomes false this means we have nothing to fetch more. So let me just simply say set has more as false and by any chance if we have any error let me simply console it. And then let me call my use effect and this use effect is directly going to call this and load more function and this load more function have empty dependency. Let me also add here the handle press method import this Pokemon detail. Cool. And let me first of all paste the styles that I need. So this is the styles and let me import my colors. Cool and very easy. View. So view is going to be the style and as a styles dot container. And then we are going to have something known as app header with the title of a full list. And now if I save it and let me just try to go inside the Pokemon Dex. What just happened? Cool. I don't want it to use it. If I just try to press on Pokemon Dex, so I'm redirecting to back. Yes, normal behavior because instead of pressing that Pokemon Dex, I am pressing my this thing. So just give me a minute. Let me recheck it. Otherwise, I am going to make it quite up. But if I now coming to here, press it again coming to cool, cool, cool. So what I can do now, just for that thing, let me go to my home screen and I will fix that in a while. And at the above, let me import a button. This is optional. You need not to do so this. And let me import my button and the moment I press my button, I wanted to navigation dot navigate navigate to Pokemon list. Perfect. Then let me simply say this as title of go to list. And now if I save it, cool, they are showing us here. Let me add that below this. Cool. So if I press on go to list, navigate dot name Pokemon list was not handled by any navigator.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-5-implementing-pokemonList-screen_epm",
+      "lessonFile": "mini-project-5-implementing-pokemonList-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-5-implementing-pokemonList-screen_epm/mini-project-5-implementing-pokemonList-screen_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0.66,
+      "end": 327,
+      "duration": 326.34,
+      "startTimestamp": "00:00:00.660",
+      "endTimestamp": "00:05:27.000",
+      "captionStart": 1,
+      "captionEnd": 64,
+      "tokenCount": 788,
+      "captions": 64
+    }
+  },
+  {
+    "id": "mini-project-5-implementing-pokemonList-screen_epm_chunk_0002",
+    "text": "This is optional. You need not to do so this. And let me import my button and the moment I press my button, I wanted to navigation dot navigate navigate to Pokemon list. Perfect. Then let me simply say this as title of go to list. And now if I save it, cool, they are showing us here. Let me add that below this. Cool. So if I press on go to list, navigate dot name Pokemon list was not handled by any navigator. So for that is I need to go inside my app navigator. So, we have Pokemon list. Yes, we have that. But into home, we only have this. So, if I just try to go once again, where is my home screen? Pokemon list if I try to go cool cool cool. So just give me a minute let me try to fix it. Alright, so by using my physical device I am able to come into here so it's fine. Now you can remove this. This is not working because for home screen we have only set up this two stack. One is home and another one is Pokemon detail. So that's why you are not be able to access this from here. Cool. Now, below this, let me just simply add my flat list and let me try to import my flat list. Perfect. And this flat list, I hope so I'm right screen. I am. And then let me first of all pass all the thing that I need. Perfect. So first of all, let me import my card and my activity indicator. Format this and you will see we only have two components. One is app header, this one. Another one is flat list. And if I save this, you will see all the component that we have. And if I keep scrolling, you will see that by every hitting 20, you will see that we have activity indicator and we are loading them. Cool. So, this is how this is going to work for us. And again if you press on any component, any card, then you are redirected to the Pokemon detail page. Perfect. So, this is how you can implement this Pokemon detail page. So, let me come into here and they are showing me yes because we have error. Let me close everything and this is the end of chapter number 5. In next chapter we are going to add bunch of icons and bunch of other things so that let me show you our application is going to look professional in a while.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-5-implementing-pokemonList-screen_epm",
+      "lessonFile": "mini-project-5-implementing-pokemonList-screen_epm",
+      "source": "class-subtitle/module 3/mini-project-5-implementing-pokemonList-screen_epm/mini-project-5-implementing-pokemonList-screen_epm.vtt",
+      "chunkNumber": 2,
+      "start": 282.46,
+      "end": 468.58,
+      "duration": 186.12,
+      "startTimestamp": "00:04:42.460",
+      "endTimestamp": "00:07:48.580",
+      "captionStart": 55,
+      "captionEnd": 101,
+      "tokenCount": 506,
+      "captions": 47
+    }
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "5. Navigation Patterns , Tab , modal & drawer_epm_chunk_0001",
+    "text": "Alright guys, welcome to one more new lecture. In this lecture, we will explore different type of navigators that help to organize screens in real app. Like we have bottom tab for main section, drawer for side menus, model screen for temporary or overlay content. So, these navigators make it easy to structure your app navigation in a way that user can basically have a nice experience. Alright, so we are going to implement them step by step. So the first implementation we are going to do is for tab navigation. So what is it? Tab navigation provide like if I just take you towards this. Perfect, like this is our expogo app and at the very bottom you will see that we have two tabs. One is for settings, another one is for home. So we will see that how you can implement this inside your application. Very easy. Not rocket science. So for that first thing that you need to do is to install bunch of dependencies. Perfect. So for implementing tabs just simply run bunnex expo and then after that. is going to be at the rate react perfect expo install. Sorry, this is going to be at the rate react navigation slash bottom tabs. Perfect. So the moment you hit this, this is going to install this dependency after installing this successfully very easy approach. you need to do is to simply go inside your app.tsx. And whatever is written here, I just wanted you to cut them out. Perfect. Now, first step is to simply write here, import, create bottom tab navigator. Perfect. You need to import bottom tab navigator. from bottom tags. And after that, you need to import some icons if you wanted to. Let's say, let me just get my ION icons from expo vector icon. We definitely need to install them. And I think already we have it. I don't know. I think yes, we already have this vector icons installed. And first of all, let me off my AI. Perfect. And then simple, you can simply say const tab is equals to create bottom tab navigator and then call this and then you can simply say function tab navigator and then I can simply come into here and then say return, return what? So the first thing is going to be. Tab.navigator. Perfect. And this tab navigator is going to accept tab screens. Same like stack. So you can simply say tab.screen and this and make itself closing. Sorry. And then let's say so this screen is going to be the name of our home. And let me just call this in this way. This is going to be home. Then you can definitely render the component. So let me render my home component. Perfect. And then let's move ahead. Let me just copy this once again and paste this once again. And let me call this a details and let me render my details page here in same way. I can render another one and this is going to be for profile. And then this is also going to be for profile. Easy. And then I can simply say export default function, name this as an app. And then this is going to be written as tab navigator. Perfect. Let me save it. So, boom look at that the moment you save it at the bottom you will see home details and item. I already this is just basically related to this. So, let me remove everything and then simply write this one. All right. PAILSDETAILS and then let me just simply save it and boom and I can go to details in same way I can go to profile. So I hope so you guys able to understand this for now. Alright so now let's move ahead and we'll see that how you can customize them and add bunch of designing over it. So, first of all let me just try to customize this tab navigator very easy simple search",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "5. Navigation Patterns , Tab , modal & drawer_epm",
+      "lessonFile": "5. Navigation Patterns , Tab , modal & drawer_epm",
+      "source": "class-subtitle/module 3/5. Navigation Patterns , Tab , modal & drawer_epm/5. Navigation Patterns , Tab , modal & drawer_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0,
+      "end": 288.159,
+      "duration": 288.16,
+      "startTimestamp": "00:00:00.000",
+      "endTimestamp": "00:04:48.159",
+      "captionStart": 1,
+      "captionEnd": 77,
+      "tokenCount": 781,
+      "captions": 77
+    }
+  },
+  {
+    "id": "5. Navigation Patterns , Tab , modal & drawer_epm_chunk_0002",
+    "text": "All right. PAILSDETAILS and then let me just simply save it and boom and I can go to details in same way I can go to profile. So I hope so you guys able to understand this for now. Alright so now let's move ahead and we'll see that how you can customize them and add bunch of designing over it. So, first of all let me just try to customize this tab navigator very easy simple search for a screen options and then inside this we have like first thing that we have tab bar active tint color and then you can definitely add bunch of colors. So, let me add F4511E and if I save it look at that. And then we have a tab bar inactive background color or inactive tint color for now. So I can make this as a gray. So this is how they are going to look to us. Perfect. So. We will see what more you can do here. So in same way we have an option known as tab bar style and inside this tab bar style you can add background color, top width, border, a lot of things. Let me just add them. And now you will see that so the moment I'm adding it we have this background color border top with border top color. Definitely they are white. That's why they are not visible. Now let's move ahead and then in same way you can add header styles a lot of I mean a lot of options is coming need not to remember anything. Let me just try to add header style header tint color and the font weight for it. So look at that. This is how you can customize your headers as well. Let's see now how you can add icons here. So let me go to this tab screen for home and then open the options. Inside the option first thing is going to be is the title. So let me just say this as home and search for this home icon. And if I save it, this is how they are going to look to us. In same way you can search for tab bar icon and this icon having two things one is color another one is size. Have other thing as well but for now let's be with it and then you can basically use the iron icon and give the name of it. So. I can't find the name, but why I have imported it. Alright, so let me import my iron icons and then I can basically use them. So if I save it, you will see the home icon we are using it easy. So let me copy this once again. Let me paste on the here. Perfect. And then I can call this as a details page. Perfect. So, let me just simply save it. So, you will see this is how details is coming and for details what I can use. I mean, I don't remember the name of them, but let me search for it. So, I have basically visited to this specific website. Cool. And then let me search for details. So, maybe I can import it and I can use something like this, but I am using ION. So, I am just adding like ION icon and for detail we don't have. So, we can use any I mean. Cool. So, what if I just use this folder for details? Cool. So, let me just call this as a folder. Perfect. So, if I just simply add here folder, so this is how this details is coming, cool and then profile is pretty easy. So, for profile I can use the person, perfect. So, let me copy this option. Let me paste this option. Title is going to be as profile and name is going to be as person. Easy. And if I save it, look at that how beautifully they are looking and this looks a bit unprofessional. So let me remove the emoji and look at that.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "5. Navigation Patterns , Tab , modal & drawer_epm",
+      "lessonFile": "5. Navigation Patterns , Tab , modal & drawer_epm",
+      "source": "class-subtitle/module 3/5. Navigation Patterns , Tab , modal & drawer_epm/5. Navigation Patterns , Tab , modal & drawer_epm.vtt",
+      "chunkNumber": 2,
+      "start": 257.86,
+      "end": 515.6,
+      "duration": 257.74,
+      "startTimestamp": "00:04:17.860",
+      "endTimestamp": "00:08:35.600",
+      "captionStart": 71,
+      "captionEnd": 140,
+      "tokenCount": 790,
+      "captions": 70
+    }
+  },
+  {
+    "id": "5. Navigation Patterns , Tab , modal & drawer_epm_chunk_0003",
+    "text": "profile is pretty easy. So, for profile I can use the person, perfect. So, let me copy this option. Let me paste this option. Title is going to be as profile and name is going to be as person. Easy. And if I save it, look at that how beautifully they are looking and this looks a bit unprofessional. So let me remove the emoji and look at that. How easily you can simply create your bottom tab navigations like this. Perfect. Nice. Now, let's move ahead and start understanding bunch of other thing as well. But before moving ahead, I just wanted to organize them here. So what I'm going to do at the very top, I'm going to create here a navigation folder. Inside this navigation first is going to be for tab navigation.tsx and I am simply going to copy this course code and paste this code. Perfect. You need not to do anything for it. Just keep it here and once again let me make it empty. Now I just wanted to implement the other thing which is model. Basically, so how model is going to work? Model is very simple. I mean model is just a behavior you are going to see. So for that very simple you just simply need to add a tag. Let me just go one screen back. Perfect. Let me just close this and we don't need tab navigator. Let me just go back from here. Instead, I don't need, I'm just giving back, just give me a minute, I'll be right back. Alright, so now you guys can see that I am on my previous screen, which is the stack navigator. We have a home screen, we have details, we have profile as well. So how you can basically treat any screen as a tab. So for that, what you can do, let me just try to show you that into the screen. Let me add here something on his model screen. Simple, not rocket science and in this model screen basically I am just adding a basic component you need not to write this from scratch I am just writing this just for demonstration purpose cool. So you will see that this is the UI of a model screen we are basically showing the view then we have simple scroll view then we are showing bunch of titles. And bunch of other thing, nothing, nothing rocket science, a basic design. You will get all the code for it. Cool. So let me save it and let me see that how we can implement this. So it's very easy. So for using it, go inside your app below this profile. Listen to me carefully below this profile let me just simply say a stack dot screen simple same thing that you are doing and give this a name let me name it as model you can name it whatever you want then simply add here the component, component is going to be as model screen. And then option is very important here. So first thing for making it as a model you can simply say presentation and presentation you can see we have bunch of options but right now I wanted to go with model. Easy, then in same way you can give it a title. So let me give the title as filter options, whatever you want. In same way I can add bunch of header styles. So I'm just simply copy and pasting that because now you have understanding that how you can write them. Cool. So, if I just simply paste it nothing going on wrong this is the your header style this is your tint color this is your header left header right just for a done perfect let me remove this white color we do not need it easy and for home I also wanted to remove the this white color perfect and if I save it and if I just press R just to reload it Perfect, and if I come into here, this is how they are showing. Now let's go to our home page and instead of going to details, let me just simply say",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "5. Navigation Patterns , Tab , modal & drawer_epm",
+      "lessonFile": "5. Navigation Patterns , Tab , modal & drawer_epm",
+      "source": "class-subtitle/module 3/5. Navigation Patterns , Tab , modal & drawer_epm/5. Navigation Patterns , Tab , modal & drawer_epm.vtt",
+      "chunkNumber": 3,
+      "start": 487.06,
+      "end": 752.6,
+      "duration": 265.54,
+      "startTimestamp": "00:08:07.060",
+      "endTimestamp": "00:12:32.600",
+      "captionStart": 133,
+      "captionEnd": 197,
+      "tokenCount": 799,
+      "captions": 65
+    }
+  },
+  {
+    "id": "5. Navigation Patterns , Tab , modal & drawer_epm_chunk_0004",
+    "text": "is your tint color this is your header left header right just for a done perfect let me remove this white color we do not need it easy and for home I also wanted to remove the this white color perfect and if I save it and if I just press R just to reload it Perfect, and if I come into here, this is how they are showing. Now let's go to our home page and instead of going to details, let me just simply say this is go to model and instead of saying go to model, let me say this as open model. Perfect, and if I save it and if I just simply press on open model you will see the behavior something like this. But if I try to show you just give me a minute. Cool. One minute let me just connect my iPhone and then I will show you something. Alright, so right now I have opened my application onto my iPhone and then if I just simply try to show you that. Look at that. Cool. I simply press over this open model. Alright, look at that, the behavior you are able to see like this is your model behavior, perfect. And in same way you can close this and this is how they are going to close. So perfect. So I hope so that makes sense now. Let me once again open my this. Cool. Perfect. So this is how and this is how this is basically going to show inside your Android and if you simply press on done you can do bunch of other actions if I close this. So this is going to close if I open it this is going to open if you simply press on go to home and now you are on home. Perfect and on iPhone home if I just let me show you once again let me open my camera and then I will show you that once again cool. So look at that this is my phone and if I click on open model this is how my model is opening and if I just simply press on go to home you will see that this is how that go to home is working. Cool. Like in kind of a same way that we are able to see. Perfect. So yeah, this is how you can basically create your models. Now let's move ahead and see like for creating model just a simple flag and the name of that flag is presentation as model. That's it. And then this is going to work as model. Now, last thing which is left for this chapter and then from next chapter definitely we are going to create the project. Don't worry. So the last chapter for this is going to be create a drawer. So now let's move ahead and start implementing that. So now I have cleared this and for using drawer, you basically need to install a bunch of things. So the first thing is you need to install this React navigation drawer. So, let me open my terminal, let me clear this and then simply add one add react navigation and make sure to close your application and then open it otherwise this will going to show you some error and then also make sure just to check that you have react native gesture handler react native reanimated and react native worklets. These are bunch of dependencies that you need. And, instead of using NPMX make sure to using bunnx. That's all you need to do. Cool. Now, let's move ahead and we will see that how you can implement it. So, very simple. First thing is you need to import your create drawer navigator. So, let me coming to here and let me just copy this much of code. Yes. Simple, no problem and let me just copy this, nothing rocket science. Let me paste it. So let me get my home component and in same way let me try to get my profile component and I can even get my details. So nothing. So, let me just add here this and let me remove this instead of home let me call this as detail",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "5. Navigation Patterns , Tab , modal & drawer_epm",
+      "lessonFile": "5. Navigation Patterns , Tab , modal & drawer_epm",
+      "source": "class-subtitle/module 3/5. Navigation Patterns , Tab , modal & drawer_epm/5. Navigation Patterns , Tab , modal & drawer_epm.vtt",
+      "chunkNumber": 4,
+      "start": 719.62,
+      "end": 977.72,
+      "duration": 258.1,
+      "startTimestamp": "00:11:59.620",
+      "endTimestamp": "00:16:17.720",
+      "captionStart": 193,
+      "captionEnd": 259,
+      "tokenCount": 798,
+      "captions": 67
+    }
+  },
+  {
+    "id": "5. Navigation Patterns , Tab , modal & drawer_epm_chunk_0005",
+    "text": "So, let me coming to here and let me just copy this much of code. Yes. Simple, no problem and let me just copy this, nothing rocket science. Let me paste it. So let me get my home component and in same way let me try to get my profile component and I can even get my details. So nothing. So, let me just add here this and let me remove this instead of home let me call this as detail and again you can change their name in small letters and let me get my details page as well. So, the step number one is done. Step number two is very simple that you need to do what you simply need to say export default function app. And this export default function app is going to return you this drawer like this my drawer. Perfect. So let me just coming to here simply add this and then this is how you can add this and let me save it. Perfect. Now try to close your currently running application. Clear everything and rerun this. Perfect so that we can have a fresh development build. And let me just simply write R just to reload this. Perfect. So ignore this iOS 1 because it is also running on my iPhone. That's why, so I hope so this will open in a while and perfect, finger cross because sometime models is behave in weird way, if I just simply press over it and look at that, if you press on details you are on details page, if you press on profile you are on profile page, press on go back definitely you need because you can't do so this, look at that. not handled by any navigator, so you can definitely handle them initialize navigator and you can do so that as well. So but right now our main focus is to see like this is how you can basically implement drawer as well. So, yes, we have seen how you can implement stack, how you can implement tabs, how you can implement models, how you can implement draw. Cool. So, yes, this is pretty much it for this chapter and from next chapter we are going to create our Pokemon application. So, see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "5. Navigation Patterns , Tab , modal & drawer_epm",
+      "lessonFile": "5. Navigation Patterns , Tab , modal & drawer_epm",
+      "source": "class-subtitle/module 3/5. Navigation Patterns , Tab , modal & drawer_epm/5. Navigation Patterns , Tab , modal & drawer_epm.vtt",
+      "chunkNumber": 5,
+      "start": 943.6,
+      "end": 1100.08,
+      "duration": 156.48,
+      "startTimestamp": "00:15:43.600",
+      "endTimestamp": "00:18:20.080",
+      "captionStart": 252,
+      "captionEnd": 289,
+      "tokenCount": 436,
+      "captions": 38
+    }
+  }
+]

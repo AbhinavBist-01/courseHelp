@@ -1,0 +1,149 @@
+[
+  {
+    "id": "02_eas-update_epm_chunk_0001",
+    "text": "Alright, beautiful people, welcome to one more new section. In this section, we will basically going to talk about that how you can publish your application to the Play Store or App Store. Perfect. So in this specific section, we'll actually going to learn about. What is EAS update? What is EAS workflows? What is EAS submit? Along with that we are also going to see that how you can create the production build of your any application. We will take some sort of any example application and how you can take that application to the play store. So that is going to be the complete goal of this entire specific section that we will going to learn. So, this is going to be the chapter number one of this section and in this section specifically we will going to basically talk about the EAS update. Perfect. So, the first thing that we wanted to learn is EAS update. So for that this is the documentation that you have to search for. This is your docs.expo.dev/easupdate/introduction. Simple. Perfect. So, now what is this EAS update? EAS update is a cloud service that serves update for projects using the expo update library very important. All right. Along with that EAS update makes. fixing small bugs and pushing quick fixes, a snap in between app store submissions. So now what is this actually? This is something known as a concept known as OTA. Now what is the full form of this OTA? Over the air updates, perfect, over the air updates, now this is the full form of OTA. Let me try to explain you this with the help of a diagram, perfect. Till now we know that like this is our application, perfect and if I wanted to publish this application to my play store. So, basically I have to go through with a lot of steps like I need my Google Play Console ID and I can basically publish my application. Now my app is onto the Play Store and if someone is basically wanted to use my app, they have to install that specific application from the Play Store. No problem and then and only they can basically going to use that app inside their mobile phone. Makes sense? Perfect. Now your application your mobile app let's say you have created basically a simple unit converter application okay this application will basically going to convert a unit into some specific unit perfect like a Fahrenheit to Celsius, Celsius to Fahrenheit, dollars to rupees, rupees to dollars you got the point perfect but there is one typo mistake and And that mistake is instead of offline. You somehow just made a typo there with the offline. Now the F, one single F is missing. This is a problem. Why? Because now if you don't know about this OTA or this EAS update, now what you will do once again? You will once again going to make fixes into your source code that then you will going to build your entire application that application will again go to the Play Store then Play Store will take again some sort of verification time and after that user will have to again update your application and then and only they can see the this type of fixes but this is a very long procedure. There is something unknown as EAS update exists. Now what is the work of this EAS update? When you have some sort of small typos and whenever you wanted to make some design changes perfect and some JS specific changes you can only change only this is the limitation of it and which is good thing. So, let's say you just wanted to fix the typo, so what you will do instead of going through this much of steps you can use something known as ES update and this ES update will directly push yes this ES update will directly going to push the changes inside the installed application of a user. Oh, so this is known as your OTA and with the help of OTA you can bypass the play store verification step.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "02_eas-update_epm",
+      "lessonFile": "02_eas-update_epm",
+      "source": "class-subtitle/module 14/02_eas-update_epm/02_eas-update_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0,
+      "end": 266.84,
+      "duration": 266.84,
+      "startTimestamp": "00:00:00.000",
+      "endTimestamp": "00:04:26.840",
+      "captionStart": 1,
+      "captionEnd": 70,
+      "tokenCount": 789,
+      "captions": 70
+    }
+  },
+  {
+    "id": "02_eas-update_epm_chunk_0002",
+    "text": "it and which is good thing. So, let's say you just wanted to fix the typo, so what you will do instead of going through this much of steps you can use something known as ES update and this ES update will directly push yes this ES update will directly going to push the changes inside the installed application of a user. Oh, so this is known as your OTA and with the help of OTA you can bypass the play store verification step. Now let's move ahead and try to once again read this. So ES update makes us fixing small bugs and pushing a quick fixes a snap in between app store submission. Perfect. It accomplishes this by enabling an app update its own non-native pieces. Very important point. such as JavaScript, such as some sort of styling and some sort of images over the air. All app that include the expo updates library have the ability to receive the updates and this is how you can basically use the updates. So now let me just tell you what we will basically going to do inside this lecture. I have already created a application. Okay. sample application name of this application is unit flow. So for this I have already created yes so for this I have already created one development build and I hope you guys know about what is development build and I have also created one preview build. Perfect and this preview build is basically the type of APK. Perfect so that I just don't have to once again write everything and then makes you guys just wait for this application to finish their building process that is why I have already prepared something. And now what we will basically going to do inside this like we already have this preview and development build so I'm just going to use this as an example and show you how this over the top air updates and how this expo updates actually work. So basically this is the name of that application I have basically created an expo application services now what I'm going to do let me just simply open this current application inside my cursor. I'll also demonstrate everything inside one sample application so that you can also follow everything step by step along with me. So let it open and after that what I'll do, let me just once again also create another folder and let me just name it as just say EAS Updates. Perfect. Anything. You can name it anything you want. And let me also open this inside my VS code. And inside my VS code, so this is just a simple empty folder perfect and this is the complete working application that we have perfect nice. So the step number one that I wanted you to is to simply just again a quick disclaimer I am recording this video. at the very end of this entire course. So till then the newest version of Expo already come which is fine I mean we can simply work same with Expo as DK54, Expo as DK55 everything is same you just have to read one simple blog and everything start making sense for you. Perfect. So for now basically what I wanted to do I wanted to create one simple Expo application. So this should be Bunnex. Create Expo app at the latest. Perfect. So when you run this command, if you are using latest version of Expo, create Expo app, then you will see some differences right now. I just wanted to create inside the current working directory, which is fine. Now they're asking. which version you wanted to use but right now I wanted to use 55 but if you are following the old videos then what you can do you can even select SDK 54 which is completely fine no problem in it perfect. So let me just go with 55 right now because the expo go version that I have right now is 55 that is why I basically wanted to go with it. Alright, so installation of this application is completely done. Nice, cool. Now we already have this application, so let me show you the plan what we wanted to follow.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "02_eas-update_epm",
+      "lessonFile": "02_eas-update_epm",
+      "source": "class-subtitle/module 14/02_eas-update_epm/02_eas-update_epm.vtt",
+      "chunkNumber": 2,
+      "start": 237.18099999999998,
+      "end": 502.02,
+      "duration": 264.84,
+      "startTimestamp": "00:03:57.181",
+      "endTimestamp": "00:08:22.020",
+      "captionStart": 64,
+      "captionEnd": 129,
+      "tokenCount": 790,
+      "captions": 66
+    }
+  },
+  {
+    "id": "02_eas-update_epm_chunk_0003",
+    "text": "the old videos then what you can do you can even select SDK 54 which is completely fine no problem in it perfect. So let me just go with 55 right now because the expo go version that I have right now is 55 that is why I basically wanted to go with it. Alright, so installation of this application is completely done. Nice, cool. Now we already have this application, so let me show you the plan what we wanted to follow. So just give me a minute, let me just quickly fix this. Okay, yeah, cool. So, if I just run this application cool let me open this and let me simply hit npx expo start this is the complete application that we have. So, the moment I run this application and open this application inside the expo go then let me show you cool and right now instead of using development build I directly wanted to use this application inside my expogo. So, now this is open inside the expogo let me simply press on A and they are entering this nice and then let me try to reload this. And again I just don't want it to use development build actually so I have to just change the build that is selected. Now you might be thinking that how I can actually change which build is actually selected so you will see right now I am getting here development build but I wanted to switch to the expogo and the moment I press on A this will actually going to ask me in which, why this is showing me this just maybe I need to reload. Okay, perfect. Now this is actually opening inside the expo go and the moment I open this application inside my expo go. So this is just a sample application I have created with the help of AI just to demonstrate you how to use expo updates. Easy. Perfect. So, this is just a simple converter application, this is how you can basically convert up any Euro to something like that and these are all the history that we have, but right now this is working inside the developer, inside the expogo. This means if I change anything here, let's say if I just simply go to my app and inside index.tsx. And inside this index.tsls instead of offline let me convert this to online so no problem I can instantly get this output perfect. But you know what I have something very interesting here if I right now go inside my EAS JSON and inside my EAS JSON I have this preview ignore everything which is coming here you can see this is not for you right now. Inside this preview I have the distribution as internal and I hope everyone know about what is this because we have already covered about AAS build in previous section so make sure to watch that first then and only watch this. Now we have this Android which build type is APK. Now this channel is something new I will explain you about this now. for that but we can do actually. We can basically create the development build of this application and every time when you create development build now how we can create you can simply say EAS in it perfect I can simply come here and I can simply say EAS in it and then I can simply say yes. After that, they will going to create the project for me and now what I can do, I can simply say EAS build hyphen hyphen profile, profile should be development for now and then platform should be Android. We know about this very well. Let me simply hit enter and first thing they will ask me to install expo dev client a look at that. So I can simply press yes. So they will automatically going to install expo dev client for me which is what we need and after this what will going to happen. Let's just wait for few seconds. And they will going to prompt us for first thing. Okay, now first thing they're asking me, what would you like your Android application ID to be?",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "02_eas-update_epm",
+      "lessonFile": "02_eas-update_epm",
+      "source": "class-subtitle/module 14/02_eas-update_epm/02_eas-update_epm.vtt",
+      "chunkNumber": 3,
+      "start": 472.759,
+      "end": 731.3,
+      "duration": 258.54,
+      "startTimestamp": "00:07:52.759",
+      "endTimestamp": "00:12:11.300",
+      "captionStart": 123,
+      "captionEnd": 183,
+      "tokenCount": 789,
+      "captions": 61
+    }
+  },
+  {
+    "id": "02_eas-update_epm_chunk_0004",
+    "text": "Let me simply hit enter and first thing they will ask me to install expo dev client a look at that. So I can simply press yes. So they will automatically going to install expo dev client for me which is what we need and after this what will going to happen. Let's just wait for few seconds. And they will going to prompt us for first thing. Okay, now first thing they're asking me, what would you like your Android application ID to be? Okay, let's just go with the same ID which is suggesting and second key store. Yes, I wanted to store the key store. Everything is more of specific to Android build how you can create it. not to worry too much about all of the concept for now at least. And after this you will see I am getting compressing your project file, uploading to esbuild and now I can basically wait for few seconds. Perfect. So basically now we definitely need not to wait for it. Let me show you what will basically going to happen. After the build will complete you will basically going to open this specific link. So the moment you visit this link you will see we will actually building our application in profile of development. But for using OTA updates for using EAS update you actually need either. Preview build or either production build but right now for production build we don't have all the setups so we will prefer to go with preview build. So first step for using your EIS update you need a preview build. I hope no problem first thing you need your preview build ok but before creating any preview build what I will suggest you stop this progress thing ok. And, along with this also just come here and make sure to cancel build from here otherwise you will hit rate limit if I am not wrong. Yes, basically what we wanted to do is I wanted to install now my es update. So what I can do I can simply copy this after copying this let me just simply import it. So, NPX Expo install Expo updates. Perfect. Everything is already installed inside this. I'm just demonstrating you how you have to do. First step, install your Expo updates. Next step is simply run EAS update configure. Perfect, next step is simply run EAS update configure. So the moment you run this EAS update configure, this will going to show you some logs. Let's just read about this logs. The following process will configure your project to use EAS update. This changes only apply to your local project files and you can safely revert them at any time. Configured updates URL are this and then configured runtime version for Android and iOS with the policy as app version. We basically need that on which policy you wanted to apply this updates. So basically we wanted to. See the app version we will only send the updates in the specific version if you have newer version of your application then you have to rebuild your entire application and reconfigure this expo updates then and only we can send in the updates to the another version ok and then we have configured the EAS JSON as well so the moment you configure your EAS JSON with the help of expo update configure you will find something very interesting. First thing you will find in all the builds section on the build profile we have something new this channel. So, this is your development channel for development profile, this is your preview channel for preview profile and this is your production channel for production profile. This is something interesting cool. And then that's it. Now what you can do you can basically make any kind of changes and see the output. So this is only configuration and again the moment you add anything like this you have to rebuild your entire application and then install this application and then see the changes. Okay simple again I hope you guys not the 12 year old children that we need to spoon feed you everything. And you will see the output perfect. Now let me show you everything in a working scenarios. Okay.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "02_eas-update_epm",
+      "lessonFile": "02_eas-update_epm",
+      "source": "class-subtitle/module 14/02_eas-update_epm/02_eas-update_epm.vtt",
+      "chunkNumber": 4,
+      "start": 704.1,
+      "end": 976.58,
+      "duration": 272.48,
+      "startTimestamp": "00:11:44.100",
+      "endTimestamp": "00:16:16.580",
+      "captionStart": 175,
+      "captionEnd": 241,
+      "tokenCount": 798,
+      "captions": 67
+    }
+  },
+  {
+    "id": "02_eas-update_epm_chunk_0005",
+    "text": "And then that's it. Now what you can do you can basically make any kind of changes and see the output. So this is only configuration and again the moment you add anything like this you have to rebuild your entire application and then install this application and then see the changes. Okay simple again I hope you guys not the 12 year old children that we need to spoon feed you everything. And you will see the output perfect. Now let me show you everything in a working scenarios. Okay. So for that what I can do let me go to my home page, home page of the expo dashboard. So this is my expo dashboard inside this expo dashboard where is my okay now this is the unit full application that I have. And, then let me search for builds and inside this build I have one profile and I wanted to basically install one for preview profile or what for the preview profile and then the moment you have basically configure your expo updates you will find this runtime versioning as well and this channel as well. But before that you will find and look at that. But the moment you set up expo updates you will see this new values as well. Now I basically wanted to click here and after clicking this I wanted to install this. So for installing this what I can do I can simply come and see how I can basically install it, show the details and review. So, how I can install this specific application? This is the build artifact that we have. Okay, availability is basically got expired of it, which is fine because I already have the inside my history. Okay, let me just search for it. Give me a minute. So, I have basically found the preview build of this application and I'm just basically installing this inside my spare device. So let me just wait for a few seconds then I'll be right back. Alright guys, so this is my, let me show you that. This is a completely standalone application with the name of unit flow. Look at that and this is your preview build which is the APK. You can share this with anyone and anyone can actually use this. Perfect. So, I just wanted to show you very magical thing and that is this is your currently running development build. Okay, if I'm not wrong this is your currently running development build which have this online conversion. So let's say instead of going through all that building procedure, all of that pushing updates, let me show you what you can do. Let me just first of all send only this one update, okay, I just wanted to send this one update, so how I can send? I can simply close the currently running application and after that let me just go to the EAS update documentation. And after that I can simply open this and what are the changes? So simply copy the command and open this and let us try to read the command which is EAS update channel. Now channel should not be the production because right now we have the preview channel and the message should be, what is the message? it is. Name changed typo fixed, okay let me say this as typo fixed and let me simply press enter, so the moment I press enter you will interestingly see something, now they are asking you select the environment definitely, environment is preview. Now they have already selected the environment for me. Look at that. Now they are basically doing non interactive is not supported. No problem using source app is now your root directory, which is fine. React compiler enabled starting some Metro bundler iOS Android Android iOS doing a lot of steps internally. We need not to worry about anything right now. And the moment this updates is actually going to finish I have implemented some update on demand known as something let me just search for it update banner yes. So now they also provide you something known as bunch of hooks I will come to it in a while",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "02_eas-update_epm",
+      "lessonFile": "02_eas-update_epm",
+      "source": "class-subtitle/module 14/02_eas-update_epm/02_eas-update_epm.vtt",
+      "chunkNumber": 5,
+      "start": 941.4,
+      "end": 1211.2,
+      "duration": 269.8,
+      "startTimestamp": "00:15:41.400",
+      "endTimestamp": "00:20:11.200",
+      "captionStart": 232,
+      "captionEnd": 296,
+      "tokenCount": 781,
+      "captions": 65
+    }
+  },
+  {
+    "id": "02_eas-update_epm_chunk_0006",
+    "text": "No problem using source app is now your root directory, which is fine. React compiler enabled starting some Metro bundler iOS Android Android iOS doing a lot of steps internally. We need not to worry about anything right now. And the moment this updates is actually going to finish I have implemented some update on demand known as something let me just search for it update banner yes. So now they also provide you something known as bunch of hooks I will come to it in a while need not to worry about anything for now and let's just wait for all the changes ok look at that. And, interestingly, we can basically see now, we have all of these logs and at the very bottom we got this published. So if I close my development build right now, okay, let me just show you that. If I just simply come. And let me just simply go to the home page and let me open this another application and interestingly I hope you guys able to see that if not let me reconnect my application and let me show you that just a minute. And let me show you this. Okay, now you guys can basically see that this is the application that I am getting right now. All right, and inside this I am getting this alert and the moment I press download you will see that we are basically downloading the over the top updates without building the new application and now I got the another update. Oh crazy. Let me open my expogo once again and what I can do let me simply use a simple AI for it and what I can do right now let me show you the magic. Let me search for the themes actually that we have. Where the theme that I am using just a minute. Okay. So, basically constants, does we have any constant? Yes, so this is the theme. Yes, let me change my theme to pick or I can say change my accent color to pick. Okay, right now we have the lime accent color, but I can actually change the my accent color to the pink. Okay, let's just wait for the changes. Alright, so now they have basically made changes inside the theme. Let me just try to open my application and show you the changes inside the expo go first and then I'll show you the changes without anything. Then I'll show you the current state of the preview build of application. Okay, right now I wanted to change towards the expogo. So let me simply press S and open this inside the expogo. Okay, just a minute. Alright, so now they are basically open inside the expogo application and now theme is pink. No problem. This is running inside your expogo application. This means no changes will actually affect inside this. So look at that. This is still pink. And this is an offline application but now I wanted to send the OTA update, how I can send? Very easy, let me show you, let me simply run this specific command once again, expo update channel preview and now I can say this instead of typo fix you can name it whatever you want. Let me say this as theme changed, ok and then let me simply press on enter. Let's just wait for a few seconds again environment is preview for now and in most of the cases we use OTA in preview or the production builds. Okay now let's just wait for it. Alright so now update is published and you will see in within few seconds what will going to happen if I close my application right now and if I reopen my application then we will basically going to see the output. So, just a minute let me once again open my unit flow look at that I got this update available and the moment I press on download and look at that we are basically downloading let me restart my application and amazing job this is the beautiful thing about OTA now we have successfully changed the theme towards the pick of OTA.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "02_eas-update_epm",
+      "lessonFile": "02_eas-update_epm",
+      "source": "class-subtitle/module 14/02_eas-update_epm/02_eas-update_epm.vtt",
+      "chunkNumber": 6,
+      "start": 1180.24,
+      "end": 1442.44,
+      "duration": 262.2,
+      "startTimestamp": "00:19:40.240",
+      "endTimestamp": "00:24:02.440",
+      "captionStart": 290,
+      "captionEnd": 352,
+      "tokenCount": 784,
+      "captions": 63
+    }
+  },
+  {
+    "id": "02_eas-update_epm_chunk_0007",
+    "text": "to happen if I close my application right now and if I reopen my application then we will basically going to see the output. So, just a minute let me once again open my unit flow look at that I got this update available and the moment I press on download and look at that we are basically downloading let me restart my application and amazing job this is the beautiful thing about OTA now we have successfully changed the theme towards the pick of OTA. One more thing, last thing is you just need to like how you can basically update your application on demand, how do we know that we have the update, so for that they provide you a theme, they provide you a hook known as, let me just show you the name of hook, they basically provide you hook with the name of use updates. Okay, this use updates will basically come from expo updates and they provide you this is update available, is update pending, is downloading, is checking, download progress, check error, download error. So, on the basis of this what you can do, you can basically set up bunch of use effects and bunch of download button and you can simply run a basic update. Okay, this is more of logic specific thing, so need not to worry about it. So, this is how you can basically work with expo updates and I hope you guys loved it, if yes then make sure to drop your feedback with this, let me end this entire chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 14",
+      "lesson": "02_eas-update_epm",
+      "lessonFile": "02_eas-update_epm",
+      "source": "class-subtitle/module 14/02_eas-update_epm/02_eas-update_epm.vtt",
+      "chunkNumber": 7,
+      "start": 1411.14,
+      "end": 1503.18,
+      "duration": 92.04,
+      "startTimestamp": "00:23:31.140",
+      "endTimestamp": "00:25:03.180",
+      "captionStart": 347,
+      "captionEnd": 365,
+      "tokenCount": 296,
+      "captions": 19
+    }
+  }
+]

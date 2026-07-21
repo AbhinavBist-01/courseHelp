@@ -1,0 +1,86 @@
+[
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_chunk_0001",
+    "text": "Alright everyone and welcome to one more new chapter in this chapter we are going to implement the clerk authentication inside our expo quick start you can use all of these videos as a reference video so every time whenever you wanted to implement your own custom authentication you can use our all the previous chapters whenever you wanted to implement. authentication with the help of better auth you can use the last recorded chapters I think that is chapter number four or five I don't know exactly and this is the chapter where you can see the guide related to clerk like how you can implement clerk authentication inside your app perfect. First thing is... Enable native API in clerk dashboard navigate to native application page ensure the native API is enabled. Okay, so we will see that what they are basically saying you is to enable the native API. Okay, I do not think so that we need to do anything extra here. now what we can do. is I think we need some publishable key up. So we definitely need to sign up here. So perfect. No problem. Let me open it and let me log in with Google. Let me just wait for it. Okay. So let me log in with any of one of my account. And okay. Nice. So you will see that I already have two applications. They are just previous application. I can simply press on new application and I can name it as expo authentication or expo or the guide. I think much better name and yes, you can enable the email and I think I can even enable the GitHub. And, yep, we are good. I can simply say create application. So this is going to create application for me. And yes, we wanted to create this for the expo. Okay, so whenever you wanted to create this for a expo, these are all the steps you need to follow. So first step is definitely we are using one. You need to install clerk, clerk expo. So okay. Let me just simply coming to here first of all let me fix this nice. So let me close my currently running application and again if you wanted to create the separate build for it you can also do that and then let me again clear everything. Where is that? I think this one. Now I can simply copy this command and then I can paste it. So this is basically going to install the clerk slash clerk expo. Perfect. Okay, so now you can see that in 52 seconds we have installed around 176 packages. Okay, and then what I will do second thing is you need to add this publishable key. So simply copy this key and then I can simply go inside my.env file and then I will paste it. So you will see that right now we have this expo public clerk publishable key. Nice, and after that next step is add a clerk provider to your root layout ok. The clerk provider component provides session and user context to clerk hooks and component. It is recommended to wrap your entire app at the entry point with clerk provider and to make authentication globally accessible. Nice. So let me try to copy this. Perfect and they are basically saying us is to. Create this root layout. So let me go to my slash this and I think I can paste it. And right now you can see that they are using slots. Okay. So I hope you guys know about slots. And then configure the token cache with expo. So we already have the secure store need not to install anything and then again copy this and again paste it perfect. So right now you can see that we have a clerk provider a token cache from clerk, clerk expo token cache and then a slot. No problem. And then what I can do, protect your auth route in the layout. Okay. So, Clark currently only support control component for Expo. You can definitely read more about control components kind of things. But right now, let's move ahead and for Expo native UI components are only available for Expo web.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0.7,
+      "end": 298.82,
+      "duration": 298.12,
+      "startTimestamp": "00:00:00.700",
+      "endTimestamp": "00:04:58.820",
+      "captionStart": 1,
+      "captionEnd": 74,
+      "tokenCount": 797,
+      "captions": 74
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_chunk_0002",
+    "text": "and again paste it perfect. So right now you can see that we have a clerk provider a token cache from clerk, clerk expo token cache and then a slot. No problem. And then what I can do, protect your auth route in the layout. Okay. So, Clark currently only support control component for Expo. You can definitely read more about control components kind of things. But right now, let's move ahead and for Expo native UI components are only available for Expo web. Instead, you must build custom flow using Clark API. The following section demonstrate how to build custom email password sign up sign in flow if you want to use different authentication methods such as passwordless or see the dedicated custom flow guide. So, you can definitely read them and see. First, protect your sign up and sign in page, create a new route group with this name and with underscore layout file within the following code. So why not? Let us move ahead and try to create it. So inside this I will just simply create this auth. All right, and now first of all, what I will do, I will try to make the changes so that you have a track of the GitHub. So I can say better auth implemented in last chapter definitely. I just forget. to push this up. Okay, now I have pushed it up so that you have a track because I'm definitely going to remove them. Alright, and what just happened? Why I'm pushing my environment variables? Alright, so I'll fix them in a while. Right now we are good to go. Don't worry. So, okay, so inside the app auth first thing we need to create underscore layout dot TSX. Okay, so let me simply create underscore layout dot TSX and then I will paste it. So you will see we have a redirect and stack and then a simple use auth hook basically coming from clerk Expo. And then you need to add a signup page. So, let me simply add that. I can simply say signup.tsx. Okay. So, this is all of the things. We have a simple use signup hook, some link and router and then bunch of component and I think simple implementation of them if I am not wrong. So, yes need not to get too depth. into it and then let me move ahead and let me also implement sign in page. So along with sign up, I can have a sign in dot t s x and then I'll paste it as well. Perfect. Then what I will do, you can even create your own sign out button. So why not? Let's just copy and paste it. Let me show you how easy to integrate a clerk inside your application. So easy. implementation is so straight forward. component and this will be our sign out button dot TSX. Then I'll paste it. Okay. So I think we are good to go. All right. And then next is you need to create one home route. Nice. So let me just simply copy this and then I'll create one home inside this home. I can have again underscore layout layout dot t six and then I'll paste it. No problem. And then we can have one index dot t s x inside this. So this is one. So I'll delete this for now because we don't need it. And inside this, I'll create the another index dot t s x and then I'll paste in this one. Okay. And, yep, I think we are good to go. So let's move ahead and you can definitely continue to expo guide how you can protect your user auth examples, how you can get your user data, lot of things to do. So a finger crossed, hopefully without any issue this will work. Let me first of all clear this and module 13. Let me run burnx expostart, clear all the caches that we have. Okay. And nice.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "chunkNumber": 2,
+      "start": 264.72,
+      "end": 542.88,
+      "duration": 278.16,
+      "startTimestamp": "00:04:24.720",
+      "endTimestamp": "00:09:02.880",
+      "captionStart": 65,
+      "captionEnd": 140,
+      "tokenCount": 794,
+      "captions": 76
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_chunk_0003",
+    "text": "Okay. And, yep, I think we are good to go. So let's move ahead and you can definitely continue to expo guide how you can protect your user auth examples, how you can get your user data, lot of things to do. So a finger crossed, hopefully without any issue this will work. Let me first of all clear this and module 13. Let me run burnx expostart, clear all the caches that we have. Okay. And nice. But if I try to open this. Alright, so we are getting one simple issue, I think, and that is this one. Okay, so let me go to my index and definitely this is the wrong path. I need to import that from the right place and if I now reload it, hopefully this will work. Let me again open that onto my Android. Okay, so now you can see that right now I am into my index page and I am getting a sign in and sign up. Okay, so what if I just simply press on sign up, I am redirected to my sign up page. Okay and definitely I can put some data. Gmail.com and password. I know the UI is not that good. Then I can simply press on continue. Okay. So I'm doing saying this done. Why nothing is happening? Because I am getting it. Clark has been loaded with development key development have a strict usage limit should not used when deploying an application to production. Password has been found in an online data breach. Okay. Oh, nice. This is actually a good thing. Now you can't put this simple password. So such a nice practice. I can simply say add the rate double eight two six five six seven six nine six some some hard password but let me put something that I remember. Okay so I have put some nice password if I now try to login and then if I say continue hopefully this will work now and yes look at that. If I try to save it, we'll see that. Okay, now we are verifying this. What is this? This is actually opening into my phone. I don't want that. Okay, let me try to reload it once again. Perfect. And you can see one very interesting thing. I don't know you are seeing it or not because I got the email onto the email that I am using. So such a powerful thing and I think I can log in with the same information. Let me try to re-login. Perfect. because I don't know I'm just not getting satisfied with it or maybe I can just enhance my design and then I'll be right back. Alright guys so I've just applied some basic styles into my application so hopefully this will look much better right now. And again, you will get all the design files, everything onto my GitHub. And let's say by any chance you are not be able to find the code exact and writing here. So there's a high chance that is overwritten by the latest commit. So what you can do, you can always go to the repo. And yes, you can always just keep track of this commits. The moment you press here, you will get all of the commits name. Perfect. And you will find that that is much easier for you. Perfect. Nice. So let me again try to sign up and let me try to put some another data. Okay. Let me try to login once again. Okay, let me press on sign up and nice and yes, I got some verification code. So just give me a minute. Let me just quickly put that verification code here and then I will show you that. So that is 366208 and if I try to simply verify. And if I try to verify this once again, ok, I think I got some error for it. And ok, let me try to reload it once again, cancel it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "chunkNumber": 3,
+      "start": 508.56,
+      "end": 792.7,
+      "duration": 284.14,
+      "startTimestamp": "00:08:28.560",
+      "endTimestamp": "00:13:12.700",
+      "captionStart": 132,
+      "captionEnd": 202,
+      "tokenCount": 788,
+      "captions": 71
+    }
+  },
+  {
+    "id": "chapter-6-implementing-clerk-authentication_epm_chunk_0004",
+    "text": "Okay, let me press on sign up and nice and yes, I got some verification code. So just give me a minute. Let me just quickly put that verification code here and then I will show you that. So that is 366208 and if I try to simply verify. And if I try to verify this once again, ok, I think I got some error for it. And ok, let me try to reload it once again, cancel it. All right, so let me just retry to sign up once again and hopefully at this time I will put all the credentials correctly. So just give me a minute and let me try to re log in. And yes, look at that right now you can see this. This is the email I am logged in with. This is the username I am getting a simple hello and a simple avatar and whole Gmail and I can simply press on sign out. Definitely I can implement sign out functionalities as well and you can look at that. This is how they all are working, you are sign out. I can now again simply sign in with the same information that I have put. So let me try to sign in only right now. And let me simply say sign in and yep look at that. So this is how you can use clerk. So clerk is much more easier than all of the others auth provider but definitely they are bit expensive. So if you can afford to use clerk you can definitely go with it. In same way if you wanted to go with some other features as well like you wanted to with Google Auth, with GitHub, with Apple, you can definitely give it a try and try to implement by yourself. So with this, this is the end of the entire OAuth and we can say authentication module. Hopefully you loved it. And if yes, then make sure to drop your feedback with this. Bye bye. Take care. See ya and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-6-implementing-clerk-authentication_epm",
+      "lessonFile": "chapter-6-implementing-clerk-authentication_epm",
+      "source": "class-subtitle/module 13/chapter-6-implementing-clerk-authentication_epm/chapter-6-implementing-clerk-authentication_epm.vtt",
+      "chunkNumber": 4,
+      "start": 754.28,
+      "end": 888.18,
+      "duration": 133.9,
+      "startTimestamp": "00:12:34.280",
+      "endTimestamp": "00:14:48.180",
+      "captionStart": 197,
+      "captionEnd": 227,
+      "tokenCount": 391,
+      "captions": 31
+    }
+  }
+]

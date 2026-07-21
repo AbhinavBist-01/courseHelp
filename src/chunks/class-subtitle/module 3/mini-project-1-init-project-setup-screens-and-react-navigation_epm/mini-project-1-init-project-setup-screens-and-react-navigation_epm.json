@@ -1,0 +1,128 @@
+[
+  {
+    "id": "mini-project-1-init-project-setup-screens-and-react-navigation_epm_chunk_0001",
+    "text": "All right, everyone, and welcome to a mini project tutorial. Here we are basically going to create a Pokemon multi-screen app. In this app, you will basically going to see that how you can fetch all the data, all the Pokemon related data from the Pokemon API, and then you can render them on multiple screens. The main reason of building this mini project is to having all the understand, have all the understanding about React navigation. So, this is going to be the last time we are using React navigation into our course from next module we will only going to use expo router perfect. So, now let us move ahead and start with chapter number 1. So, chapter number 1 is basically going to be initialize project and setup react navigation. So, it's fine. So for initializing the project, what you can do, you can simply go to expo website and then simply press on documentation and this is the command for installing your expo. So let me go to my VS code. Let me open my terminal. And then simply hit one X create expo app at the rate latest. And then this is going to ask what is the name of your app. So let me just create that into the same folder because the name of my folder is Pokemon multi screen app. You can give it whatever you want. Alright, so now you can see that our application has installed successfully. Now let me simply hit burnx as expostart. So by hitting this you will see that our react compiler is up and running. So let me just wait for it and the moment you simply press on A. This is going to start that into my physical device and let me just wait for it and we'll see what is going to show to us. So they are basically showing us. Alright, so now you can see this is what they are showing into the by default of the expo application. But right now, first step is going to reset this. So for resetting it simply say a bun and then this is going to be inside scripts inside project, and then simply hit this, do you want it to move existing file to /app example? No, I don't. Then let me just simply write n, and now you will see that we have a new basic reset and a basic template, and yes, they are basically showing us this index and this layout. No problem. And now if I rerun this once again you will just basically going to see that edit this specific page. Perfect. So, this is going to be the basic thing. Now let's move ahead and we will see what are all the other things that we need to do. And if you just coming to here you will see that already we have react navigation native bottom tag elements because as you guys know. Xpo router is built on top of react navigation. So for now we need not to install anything. Perfect. Now let's move ahead. And a first thing that I wanted to do is to initialize. Yes, is to initialize my application. So I mean basically some bunch of basic screen. So let me go to my app and then simply remove both of them. Perfect. And after removing both of them inside this app, I wanted to create some screens. Perfect. And along with screen, I also wanted to create a navigation folder. No problem. So right now we have two folders. One is screen. Another one is navigation. Read the screen. Create a three files with me. Just create with me. Simply say this as home screen dot t s x r n f e s. No problem. Perfect. In same way, also create a Pokemon D E T A l detail screen dot t s x and then r n f e s. No problem, not rocket science at all. And in same way, one more file, nothing much. You can simply write here, Pokemon list screen and this is going to be dot t s x and then",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-1-init-project-setup-screens-and-react-navigation_epm",
+      "lessonFile": "mini-project-1-init-project-setup-screens-and-react-navigation_epm",
+      "source": "class-subtitle/module 3/mini-project-1-init-project-setup-screens-and-react-navigation_epm/mini-project-1-init-project-setup-screens-and-react-navigation_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0.38,
+      "end": 277.659,
+      "duration": 277.28,
+      "startTimestamp": "00:00:00.380",
+      "endTimestamp": "00:04:37.659",
+      "captionStart": 1,
+      "captionEnd": 70,
+      "tokenCount": 799,
+      "captions": 70
+    }
+  },
+  {
+    "id": "mini-project-1-init-project-setup-screens-and-react-navigation_epm_chunk_0002",
+    "text": "Just create with me. Simply say this as home screen dot t s x r n f e s. No problem. Perfect. In same way, also create a Pokemon D E T A l detail screen dot t s x and then r n f e s. No problem, not rocket science at all. And in same way, one more file, nothing much. You can simply write here, Pokemon list screen and this is going to be dot t s x and then once again R n f e s. Perfect. Let me close everything. Now, inside this navigation what you need to do is to create an app navigator. So, what is that app navigator is going to be? Where basically we are initializing our stack, our tab kind of that I mean we already did that, but now I am using the best practice. So, simply name this as app-navigator.tsx perfect and then after doing so that I just wanted you to first of all import the create bottom tag navigator tabs navigator and then another thing is go first of all let me off my AI. Perfect, and then another thing is going to be navigation container that we need and one more thing that we need for now is create navigation, create a navigator stack basically, alright. Let's move ahead and then simply say const stack is equals to create not bottom create native stack navigator. Perfect. This one. So let me paste it and then let me call it easy. In same way, I can also create a tab here because I am going to use multiple tabs. I am simply going to call this as create bottom tab navigator. Easy. Now I wanted you to do two things. Simple nothing as hard as you think. Simply move ahead and as you guys let me just tell you that how our application is going to look to us. Perfect. So let me just search for mobile. Perfect, this is your mobile phone and let's say this is your app. So you are on home page. So on home page, perfect like you are on your home page. So from home page you can go to one screen name as Pokemon detail. Perfect, so this is going to be as Pokemon detail. Now what is this Pokemon detail page? On the home page we are going to fetch all the Pokemons that we have. The moment you click on any single Pokemon then you will going to redirect it towards Pokemon detail page. Easy. In same way at the bottom we have another page name as Pokemon list this is going to be same as this but just for demonstration purpose this will also going to be redirect just give me a minute. This will also going to be redirect me towards Pokemon detail page. Perfect. So let me just move ahead and start going to create a stack for this and in same way stack for this as well. Easy. So this is going to be very, very, very simple. home stack display and then let me just simply call this this home stack display is going to call a stack navigator and this stack navigator is definitely going to have bunch of options still going to do so that in a while but for now. And, this is also going to have stack.screen. Easy. So, we have two screens. One is home, another one is Pokemon detail here. So, the first screen and let me just make it self-closing. First screen name is going to be home. Simple. And then their component name is going to be as a home screen. Easy. And then let me just simply copy this and let me paste this once again and change this name to Pokemon detail. And, instead of home screen we are simply going to use Pokemon detail screen. You can copy this, you can paste this. So, instead of calling this home stack, now you can call this as list stack display. And then instead of home I am simply going to call this as Pokemon list and this is going to be as Pokemon list screen. Easy.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-1-init-project-setup-screens-and-react-navigation_epm",
+      "lessonFile": "mini-project-1-init-project-setup-screens-and-react-navigation_epm",
+      "source": "class-subtitle/module 3/mini-project-1-init-project-setup-screens-and-react-navigation_epm/mini-project-1-init-project-setup-screens-and-react-navigation_epm.vtt",
+      "chunkNumber": 2,
+      "start": 243.26,
+      "end": 554.94,
+      "duration": 311.68,
+      "startTimestamp": "00:04:03.260",
+      "endTimestamp": "00:09:14.940",
+      "captionStart": 62,
+      "captionEnd": 136,
+      "tokenCount": 799,
+      "captions": 75
+    }
+  },
+  {
+    "id": "mini-project-1-init-project-setup-screens-and-react-navigation_epm_chunk_0003",
+    "text": "Easy. And then let me just simply copy this and let me paste this once again and change this name to Pokemon detail. And, instead of home screen we are simply going to use Pokemon detail screen. You can copy this, you can paste this. So, instead of calling this home stack, now you can call this as list stack display. And then instead of home I am simply going to call this as Pokemon list and this is going to be as Pokemon list screen. Easy. So these are two stack that we have created. Perfect. Now let us go ahead and create the list. we are going to have the main app navigator component. So this is going to be const app navigator is going to be something like this easy and they are wrapped inside something known as navigation container. And this navigation container is now going to use two things. Like now we need here tab navigation and then we are going to use this stacks. So I know this bit kind of we can say tricky but you will love it. Trust me you will love it. So, let me just simply write here tab.navigator and this tab navigator is going to have two things. First is going to be tab screen for explore, name them as explore and this is the component that we are going to use. Yes, definitely I am going to fix all the types into this project and in same way, I Another screen I am going to call them as Pockydex perfect and then we have list stack display. So these are two things that we are going to use easy and now let's move ahead and again you need not to write that types by yourself anything from scratch. So, simple let me just simply say this as types.ts and then let me just paste the type that we have for now. First of all let me import bunch of type which is provided by react navigation one is route prop another is native stack navigation prop perfect and then we are going to have. two props like two navigation prop one is home screen navigation prop another one is Pokemon detail screen route prop you need to do so that so just do it with me for now and then simply paste this this is going to be root stack we have home we have Pokemon list. And, Pokemon detail is going to have Pokemon, but for now let me make this as to do and let me just simply add to do fix later. Simple, don't worry. This is just basic types. You can completely skip them and then use here something known as TS ignore, but I just wanted to explain you that because this is the last time we are using it. So that's why I am just wanted to little bit complicate this. Easy. And, let me just simply add the type as root stack param list easy and the moment you save it and now let us move ahead and alright they are showing us this component what they are saying not assignable or not assignable this will assignable when we are going to edit this but this is your app navigator perfect. Now, let's move ahead and last step, very easy, last step is going to be close everything at the root of your application. We have something known as app.tsx and this app.tsx is going to have something known as your app navigator, your actual app navigator. So, this is basically going to be export default function. And, let me just call this and then I can simply come into here and return this and return this inside a safe area view, all right, which is coming from safe area provider coming from react native safe area. So, that this will not show at the top of your displays at the bottom of this. So, that is why we need it. And here inside a view. Let me import my view. I'm simply wanted to use my app navigator component. Perfect. And what they are saying app navigator can't be used as a JSX component because blah, blah, blah. But it's fine.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-1-init-project-setup-screens-and-react-navigation_epm",
+      "lessonFile": "mini-project-1-init-project-setup-screens-and-react-navigation_epm",
+      "source": "class-subtitle/module 3/mini-project-1-init-project-setup-screens-and-react-navigation_epm/mini-project-1-init-project-setup-screens-and-react-navigation_epm.vtt",
+      "chunkNumber": 3,
+      "start": 516.679,
+      "end": 813.92,
+      "duration": 297.24,
+      "startTimestamp": "00:08:36.679",
+      "endTimestamp": "00:13:33.920",
+      "captionStart": 128,
+      "captionEnd": 192,
+      "tokenCount": 797,
+      "captions": 65
+    }
+  },
+  {
+    "id": "mini-project-1-init-project-setup-screens-and-react-navigation_epm_chunk_0004",
+    "text": "from react native safe area. So, that this will not show at the top of your displays at the bottom of this. So, that is why we need it. And here inside a view. Let me import my view. I'm simply wanted to use my app navigator component. Perfect. And what they are saying app navigator can't be used as a JSX component because blah, blah, blah. But it's fine. Then we have successfully imported it. Now let's move ahead. Finger crossed. 1x expo start. So, the moment you hit this and we will see what they are going to show to us. So, and once again if I just simply press on A and simply press on R. So, this is basically going to reload and rebuild my Android application. Perfect. And now you will see only a single screen name as home screen. But now we have successfully implemented the stack navigation basically into it. So just to see the output, what you need to do right now, some basic design things. So it's completely fine if you wanted to copy and paste them because you are going to get all the code related to this. Perfect, so for a UI purpose, my suggestion is to simply copy and paste them. Perfect. But now let's move ahead and let me go to my tab navigator and start designing this for you guys. So inside this tab navigator, let me simply use the screen options that I am going to have. This screen option is going to have the access of route. And, then first thing that I wanted to do here is header shown is going to be false. Then another thing we are going to have something known as tab bar style. So, tab bar style is going to have first thing for background color B A C K background color. I am going to implement that in a while. Same way we are going to have border top color and then in same way we are going to have padding top. So, padding top is going to be 5 and then. Padding bottom is going to be of 5 and then height of my tab is going to be as 60. Now let's move ahead and then start adding the color of it. So the background color is for now going to be #27272A. So this is how they are going to show and we have border top color as well. So border top color is going to be # 3F, 3F, 4, 6. Perfect. Now, let's move ahead and start implementing bunch of other styles as well. And let me tell you one thing. What you can do, you can just out of it, simply say tab bar active tint color, just to show this and let me just add the tint color. So tint color is going to be as #TintColor 34D399 kind of emerald kind of effect. Perfect. And then along with this, let me add tab bar inactive tint color. And this is going to be as kind of a zinc. Perfect. So let me just paste the color of it. So, this is going to be kind of zinc. Perfect. Now, if I save it you will see nothing is showing to us. No problem. In a while they are going to show. Then simply set tab bar icon. Now we wanted to use here icon. This icon is going to have first thing known as focused. Another thing is color, then we are going to have a size for now. And then first thing that I wanted to do is to simply say icon name, which is going to be initially as home. And then I can simply add a basic logic if the router.name is equals to equals to explore like if this is going to be the name of the router then I basically wanted to change the icon name if that is focused like if you are on to that. Then simply show home otherwise that is not focused then show the home outline.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-1-init-project-setup-screens-and-react-navigation_epm",
+      "lessonFile": "mini-project-1-init-project-setup-screens-and-react-navigation_epm",
+      "source": "class-subtitle/module 3/mini-project-1-init-project-setup-screens-and-react-navigation_epm/mini-project-1-init-project-setup-screens-and-react-navigation_epm.vtt",
+      "chunkNumber": 4,
+      "start": 783.641,
+      "end": 1073.679,
+      "duration": 290.04,
+      "startTimestamp": "00:13:03.641",
+      "endTimestamp": "00:17:53.679",
+      "captionStart": 183,
+      "captionEnd": 251,
+      "tokenCount": 801,
+      "captions": 69
+    }
+  },
+  {
+    "id": "mini-project-1-init-project-setup-screens-and-react-navigation_epm_chunk_0005",
+    "text": "And then first thing that I wanted to do is to simply say icon name, which is going to be initially as home. And then I can simply add a basic logic if the router.name is equals to equals to explore like if this is going to be the name of the router then I basically wanted to change the icon name if that is focused like if you are on to that. Then simply show home otherwise that is not focused then show the home outline. So from where the name are coming? These names are coming from expo vector icons that we have. Then out of this if condition you can simply say else if. Then, what is the another name? Another name is Pockydex, then we are going to show some list kind of thing. So, I will say if route.name is equals to equals to Pockydex, then I can simply say icon name is equals to focused and then this will going to become list otherwise list outline simple. I hope so and after this condition I just simply wanted to return my ION icons which is not imported yes and the name of that icon is going to be icon name this variable and And size is going to be size. And then color is going to be color, which is by default extracting from here. Now let's move ahead and let me just self close this first of all. Let me import this iron icons. Easy and again this mini projects is in multiple parts. So you can watch a one part in a day. I mean if you wanted to. And let me just import my iron icons. So, this is the name of ion icons. Let me just simply paste it properly and cool and if I save it and if I just try to simply hit my reload button cool just to see if something is showing up here or not. And, hope so this will show otherwise we will fix it, don't worry. New update is available and they are still bundling. They are saying us something is missing require export default ensure a react component is exported, they are exported. And they are still showing me this. Alright. So, what if I stop my server. And, again start this. So, burn x expose start sometime this is a common behavior. And, then if I just simply press on R once again and we will see is they are going to show us something or not. And if not then we are going to implement bunch of other designs as well and then we will see. Cool. So they are still showing me this only home screen. Fine. It's fine. No problem. Now let me go to my app navigator and inside this step navigator, I'm basically going to add a bunch of screen options. Perfect. So let me copy all my screen options that I have. So, this is basically going to be like this. We have header shown as false and content style. Let me just grab the hex of my this constant. So, that is going to be hashtag this. And now if I save it, cool. Now let's move ahead. And in same way, let me just simply copy this. And after copy this, let me just simply paste this once again, but they are only still showing us this. So what is happening wrong? Let me try to figure that out. All right, got it. Let me close this. Easy. Let us go inside the app.tsx file. Easy. This is the first step that we did. Now, at the bottom of this I wanted to say styles is equals to style sheet make sure to import that from react native. This is going to be create and simple. We are going to have a container. This container is going to have a flex of 1 and background color is going to be as #18181B. Perfect. And then inside this view, I am simply going to say style is equals to style.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-1-init-project-setup-screens-and-react-navigation_epm",
+      "lessonFile": "mini-project-1-init-project-setup-screens-and-react-navigation_epm",
+      "source": "class-subtitle/module 3/mini-project-1-init-project-setup-screens-and-react-navigation_epm/mini-project-1-init-project-setup-screens-and-react-navigation_epm.vtt",
+      "chunkNumber": 5,
+      "start": 1037.779,
+      "end": 1324.44,
+      "duration": 286.66,
+      "startTimestamp": "00:17:17.779",
+      "endTimestamp": "00:22:04.440",
+      "captionStart": 246,
+      "captionEnd": 318,
+      "tokenCount": 790,
+      "captions": 73
+    }
+  },
+  {
+    "id": "mini-project-1-init-project-setup-screens-and-react-navigation_epm_chunk_0006",
+    "text": "Easy. This is the first step that we did. Now, at the bottom of this I wanted to say styles is equals to style sheet make sure to import that from react native. This is going to be create and simple. We are going to have a container. This container is going to have a flex of 1 and background color is going to be as #18181B. Perfect. And then inside this view, I am simply going to say style is equals to style. styles dot container and now if I save it and try to reload this once again just to see that is our background color is changing here or not. Perfect. So then we will see something. Alright guys, so this is home screen is coming here because of two reasons. One reason is you have to shift this app.tsx inside this app folder. Yes, this is the first fix and after fixing this, yes, after fixing this what you need to do, what they are telling you unable to resolve this, alright no problem. Let me just remove this and re-import it. Alright, no problem. Easy. Perfect. And another thing is make sure to export default this app navigator. I mean instead of export const just export default it. Easy. Then you will see something very interesting. Now here I haven't returned it. So instead of directly doing this let me just come into here and return this. Perfect. So, just give me a minute, yep. So, cut this out coming to here write return statement and then paste it perfect. So, this is a very major issue. So, make sure to fix this make sure to return it and then paste it once again easy now save this and then restart it perfect. So, the moment you reload your application. And then let me wait for it and then I will show you this new update is available and they are now downloading it. Perfect. Alright, so now you will see that they are showing us this empty screen why because we yeah basically that we haven't added return statement here as well. So cut this down, return it then simply paste it. But you will see one more error. Yes. So, let me save it first of all for you and now you are saying they are saying you look like you have a nested navigation container. As you guys know we are using expo router. So, expo router has already implemented this navigation container for us. So, need not to do so this and at the bottom of it yes look at that. Now, you guys can see that home screen and this definitely I am going to enhance this as much as I can so that this thing is not going to disturb us. Don't worry about that. Cool. So, yes, we have successfully implemented the initialize the project and successfully set up the react navigation from next chapter. We are going to write all the backend related logic and then going to see some other thing as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-1-init-project-setup-screens-and-react-navigation_epm",
+      "lessonFile": "mini-project-1-init-project-setup-screens-and-react-navigation_epm",
+      "source": "class-subtitle/module 3/mini-project-1-init-project-setup-screens-and-react-navigation_epm/mini-project-1-init-project-setup-screens-and-react-navigation_epm.vtt",
+      "chunkNumber": 6,
+      "start": 1283.82,
+      "end": 1494.279,
+      "duration": 210.46,
+      "startTimestamp": "00:21:23.820",
+      "endTimestamp": "00:24:54.279",
+      "captionStart": 310,
+      "captionEnd": 364,
+      "tokenCount": 596,
+      "captions": 55
+    }
+  }
+]

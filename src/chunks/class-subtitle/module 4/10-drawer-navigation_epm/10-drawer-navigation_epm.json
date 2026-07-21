@@ -1,0 +1,44 @@
+[
+  {
+    "id": "10-drawer-navigation_epm_chunk_0001",
+    "text": "Alright everyone and in this lecture we are going to talk about drawer navigation. This is going to be one of the easiest lecture so far. So drawer navigation is pretty straightforward. So how you can basically implement a drawer navigation? So for implementing that you need to install a bunch of things. So make sure to visit this page docs.expo.dev/router/advanced/draw. Copy from expo to here, perfect. And after that, just basically open your terminal and simply hit 1x, just a minute, 1x and then paste it. I have already installed all of them and you can see in less than 500 millisecond, we have installed it successfully. Now, what you need to do for implementing it? Go inside your layout. And instead of using stack you can import a drawer perfect. So drawer you can import this drawer from explore outer drawer perfect. Let me save it and let me add bunch of file. Let's say let me import settings.tsx, rn, fe s. In same way, let me import dashboard, so R and FES and in same way, let me also create one more file. I can call this as profile. and R and FES and this is going to be profile, alright easy nothing rocket science. Now what you can do right now, you can simply coming to here close everything and clear this as well and simply once again hit this server and wait for it. Alright, and then let me just reload my current application, what is happening? Alright, so let me close everything, let me again go to expo go and alright, I am getting it. So if I go to my layout, I have export, alright, so the spelling is different here, that is why they are showing us error, let me go to once again here. And I think we are good to go now. Maybe this will throw another once again, but let's just wait for it and then we can see the output. Alright, now look at that at the top of it, you will see index, you will see profile, you will see settings and you will also see dashboard. And again, if you wanted to modify the design of it, so let me give you a spoiler, this is going to be ads same as a tab navigation. So let me just coming to here, do something like this, not this, let me close it, let me snooze my AI. And then inside this, I can simply say draw and draw dot screen, all right and self close. Same let us say we have index, we have profile, we have settings and we have dashboard. So I can in same way add a name. So first one is going to be for index. And then second one is going to be for dashboard and third one is going for profile and this is going to be as settings, alright. And if I save it, you will still see everything is working fine. But now as you can see that we have multiple options, you can change whatever you want. Let's say you wanted to change the drawer icon. Alright, so let me just add here draw icon. You can again return the props, you can import the same icons and change it. So let me wait and change it. And now you will see that in place of draw icon, I have added basically the font or some icon and I have imported this and look at that for index, I have added index. I mean, again, you can change this draw. Tint title basically and let me just search for it draw label yes or draw label I can add whatever I want let's say let me call this as an home and you can even return here a proper JSX with the help of that JSX you can modify according to your requirement. So take this as an assignment and design it properly like add bunch of other icons.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "10-drawer-navigation_epm",
+      "lessonFile": "10-drawer-navigation_epm",
+      "source": "class-subtitle/module 4/10-drawer-navigation_epm/10-drawer-navigation_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0.3,
+      "end": 288.1,
+      "duration": 287.8,
+      "startTimestamp": "00:00:00.300",
+      "endTimestamp": "00:04:48.100",
+      "captionStart": 1,
+      "captionEnd": 56,
+      "tokenCount": 786,
+      "captions": 56
+    }
+  },
+  {
+    "id": "10-drawer-navigation_epm_chunk_0002",
+    "text": "I mean, again, you can change this draw. Tint title basically and let me just search for it draw label yes or draw label I can add whatever I want let's say let me call this as an home and you can even return here a proper JSX with the help of that JSX you can modify according to your requirement. So take this as an assignment and design it properly like add bunch of other icons. bunch of other designs, different design for draw or active like home is active. So, I wanted to see different design for it, change this to dark mode. Now, it is up to you that how you wanted to modify it. So, take this as an assignment and try to do everything by yourself. Perfect, so in next chapter basically we are going to see how you can write platform specific code. Let us say if you are on Android device, how you can see the output only for Android device and if you are on web and same if you are on iOS, you will see bunch of different design. So yes, this is pretty much it for this chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "10-drawer-navigation_epm",
+      "lessonFile": "10-drawer-navigation_epm",
+      "source": "class-subtitle/module 4/10-drawer-navigation_epm/10-drawer-navigation_epm.vtt",
+      "chunkNumber": 2,
+      "start": 257.42,
+      "end": 330.28,
+      "duration": 72.86,
+      "startTimestamp": "00:04:17.420",
+      "endTimestamp": "00:05:30.280",
+      "captionStart": 52,
+      "captionEnd": 65,
+      "tokenCount": 226,
+      "captions": 14
+    }
+  }
+]

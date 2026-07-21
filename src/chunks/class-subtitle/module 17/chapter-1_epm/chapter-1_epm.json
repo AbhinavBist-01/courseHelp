@@ -1,0 +1,65 @@
+[
+  {
+    "id": "chapter-1_epm_chunk_0001",
+    "text": "All right, everyone, and welcome to one more new module. In this module, we are going to talk about one more new project. The name is AI Story Generator. And this is one of the amazing project that you can directly add into your resume. This is the project we are. Actually, let me if I just try to explain you the flow of this application, let's say this is a mobile phone and then at the top of it you are going to get a text area and you will enter your prompt. On the basis of this prompt, we are going to hit a. your expo API route, basically the backend of it. This backend is using some AI related stuff, something known as AISDK. I'll explain you everything. Don't worry. So, this AISDK and everything is free to use. So, don't worry about it. Then this AISDK is going to give us some response and then on the basis of this response we are going to use some third party library that will generate a text to image for us alright and on the basis of that image we are going to create one story page and into Let's say at least of 10 images and stories. So this is our image 1, then we have paragraph related to this. In same way, this is our image 2, then the paragraph and scrolling towards the top and you can even download the images and read the story. So this looks very simple, but you will learn a lot of things into it. So, the first step is simply move ahead and initialize a project and some bunch of foundational related things we are going to implement into this chapter number one. So, I have already created one folder name is ai-story-generator then simply run burnx create expo app at the latest. So, this is going to create a new application for me then dot slash alright. So, we can definitely wait for few seconds and then I will be right back. Alright and after this what we will do we can simply reset our project. So, I can simply say burn run reset project ok and then I can simply say no or maybe not you can reset that. Alright, then if I simply run bunx expostart, so this is going to run my development server. Perfect. So, let's just wait for it. Simply press on A. So, this is going to build the bundle of Android and then going to open for us. Alright. Perfect. So, this is how our application actually looks. Now, let's move ahead. And, first thing is I wanted to set up my all the constants that I am going to use in upcoming chapters. So, for that at the root of it I am going to create one constant. And then the name of this constant is going to be the theme. theme.ts, perfect. And then let me simply copy and paste all the themes that I'm going to use. So this is the colors like some bunch of shades related to zinc. Just trying to match with Tailwind's design strategy. And then this is related to yellow. Yes. So the theme of our application is zinc or yellow. This is the accent color and this is the background colors that we have. And this is all the themes like this is your background. This is your card. This is your borders text, text, secondary, primary and primary dark. This is always a good practice to define all of your themes and color related thing. And we can say branding related thing into a separate file. So, that in future let's say you wanted to change your branding, so you can just directly change that at one place and it will reflect into your entire application. So, that is the main point of doing this easy. So, I hope so this makes sense now perfect. Now let's move ahead and simply go inside the root layout as well.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0.719,
+      "end": 267.88,
+      "duration": 267.16,
+      "startTimestamp": "00:00:00.719",
+      "endTimestamp": "00:04:27.880",
+      "captionStart": 1,
+      "captionEnd": 63,
+      "tokenCount": 789,
+      "captions": 63
+    }
+  },
+  {
+    "id": "chapter-1_epm_chunk_0002",
+    "text": "And we can say branding related thing into a separate file. So, that in future let's say you wanted to change your branding, so you can just directly change that at one place and it will reflect into your entire application. So, that is the main point of doing this easy. So, I hope so this makes sense now perfect. Now let's move ahead and simply go inside the root layout as well. And inside this root layout, okay, so this is the root layout that we have. For now, they are only showing us what? A stack. But I wanted to have my application into the dark theme. So, for that, we are going to use here, I can simply say import, then simply say dark theme. Yes, dark theme from React navigation and also the theme provider. Perfect. And let me off my AI as well. Nice. And then instead of this, I'm simply going to return the stack. But this stack is wrapped inside something known as theme provider. Let me cut this down and let me paste it. And then this theme provider is going to have a value. The value is going to be dark theme. Perfect. Now look at that. We are into dark mode. Nice. And easily you can implement the dark and light mode toggle with the help of this theme provider. Such amazing thing. After this, what I wanted you to do is to simply go to a stack and inside the stack you can pass all the screen options that we have. So the first screen option is header shown as false and then a lot of things. Let me show you all of them. Okay, let me paste it and then let me import my theme from constant theme. So now you guys can see that we are not anymore able to see the headers. Why? Because header shown is false. Then we have a content style. Then we have header style and header tint color. Okay, very good. Now we are going to have two main screen. One is your index screen and another one is your story screen. So we already have an index screen, no problem. In the same way I can have one story screen. So R and FES and I can simply say this is story. Okay, close this and now coming to here and let's modify them as well. So, first thing that we have the stack screen and the name of this screen is index, no problem. In same way, I can have another screen, stack screen and the name is going to be, guess that story exactly. So, this is your story and then what I will do, I will simply add the options and for the story, okay, I can simply say. header shown as false and then title is going to be we can say your story whatever is that you wanted to add it's up to you. After this, I wanted to show header back title is back itself. So perfect. And then I will self close this. Very good. And last thing is the status bar because although we need not to but it's fine. Let me just simply add the status bar and this status bar will come from expose status bar. No problem. And then simply format it once. Amazing. Now this is what we are done with. Now we have successfully organized it and in same way if you wanted to use the link and let's say you wanted to go into story and let me just simply render here the text. The text is going to say me go to story. Okay. And definitely this is in black color. We'll fix it. Don't worry. And the moment I press, I'm definitely in story. Hopefully when I'm not be able to see anything here. Okay. It's fine. Maybe. Yes. I don't know you are able to see this or not, but this is the story text that we have. I will fix it later, no worries.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "chunkNumber": 2,
+      "start": 241.34,
+      "end": 517.819,
+      "duration": 276.48,
+      "startTimestamp": "00:04:01.340",
+      "endTimestamp": "00:08:37.819",
+      "captionStart": 58,
+      "captionEnd": 134,
+      "tokenCount": 796,
+      "captions": 77
+    }
+  },
+  {
+    "id": "chapter-1_epm_chunk_0003",
+    "text": "The text is going to say me go to story. Okay. And definitely this is in black color. We'll fix it. Don't worry. And the moment I press, I'm definitely in story. Hopefully when I'm not be able to see anything here. Okay. It's fine. Maybe. Yes. I don't know you are able to see this or not, but this is the story text that we have. I will fix it later, no worries. But for now, we have successfully set up this. From the next shifter we are going to work on to our UI screens and navigation. So yes, this is pretty much it for this shifter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 17",
+      "lesson": "chapter-1_epm",
+      "lessonFile": "chapter-1_epm",
+      "source": "class-subtitle/module 17/chapter-1_epm/chapter-1_epm.vtt",
+      "chunkNumber": 3,
+      "start": 492.8,
+      "end": 534.12,
+      "duration": 41.32,
+      "startTimestamp": "00:08:12.800",
+      "endTimestamp": "00:08:54.120",
+      "captionStart": 122,
+      "captionEnd": 137,
+      "tokenCount": 143,
+      "captions": 16
+    }
+  }
+]

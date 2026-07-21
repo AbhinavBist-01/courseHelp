@@ -1,0 +1,65 @@
+[
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_chunk_0001",
+    "text": "Alright everyone and welcome back in this section which name is intermediate project. So we are not just building small demos, we are actually going to build some real world project like properly in step by step format. The same way you do it in actual development workflow. And this is the first project in this section with the name of intermediate project in same way we have lot more other projects as well you will definitely love all of them don't worry. So what is this chapter is all about because this is the chapter number one. So in this chapter we will focus on just two thing. First thing is the project initialization. and second thing is just to set up your weather API. Got it? So we can say that no UI, no fancy stuff. We'll just start with the clean and step by step we can raise the bar like anything. So alright, let's move ahead and start building this. First step is make sure that you have already initialized one empty folder. And after this, what you need to do, you simply need to go inside your documentation and you can search for it. But now I exactly remember what is the command, 1x create expo app at the rate latest. So this is going to create the latest expo application and then dot slash. And then definitely we can wait for it. Perfect. And then what is the next step? Next step is simple to reset this project. So bund run reset project and then simply say no and perfect. And then I can simply run bundx export start. then I can simply run it. Nice. Let's just wait for few seconds just to start this and then I can simply press on A the moment I press on A automatically just happened. Okay, let me go to home. Let me carry our previous loaded app and then let's again I'm going to press on A and hopefully you should learn at this point. time try to reload the project okay what if I close everything go to my expo app close my current running application alright I can close this once again and let me open it perfect and just wait for it alright so now we got this and what I can do actually let me try to scan this with my camera and hopefully at this time this will work perfect so I have just okay is my internet is connected yes internet is connected then what is happening I don't know what if I press reload if I press on A1 again. Alright guys so after just reconnecting my physical device this is working perfectly fine. It's fine. Nice. So right now you can see that we have successfully initialized our project. What is the second step? Second step is to set up the weather API. For using the weather API. We are going to use something known as Open weather map. Perfect. So you can definitely search for that open weather map API. And after searching for this, you can simply open this one. And after opening this, you can simply accept it. And definitely if you wanted to log in, you can. So just give me a minute. Let me log in. Alright, so you can see that now I am successfully sign it and then what you need to do simply press on API keys and after pressing on API key you can definitely give it a name like you can see that I already have one generated so I can simply gonna copy this otherwise you can coming to here and you can again say whether app 2 or not. or whatever you wanted to give the name to your application and then simply press on generate the moment you press on generate you will get this API key so make sure to keep this API key to you got it nice and after this let me tell you one nice practice at the top of it create one source folder. nice and inside this source folder create one utils folder and into this utils folder right now only just create one thing simply say whether utils dot ts and first thing for now you can simply say.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0.32,
+      "end": 287.44,
+      "duration": 287.12,
+      "startTimestamp": "00:00:00.320",
+      "endTimestamp": "00:04:47.440",
+      "captionStart": 1,
+      "captionEnd": 54,
+      "tokenCount": 793,
+      "captions": 54
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_chunk_0002",
+    "text": "or whatever you wanted to give the name to your application and then simply press on generate the moment you press on generate you will get this API key so make sure to keep this API key to you got it nice and after this let me tell you one nice practice at the top of it create one source folder. nice and inside this source folder create one utils folder and into this utils folder right now only just create one thing simply say whether utils dot ts and first thing for now you can simply say. weather underscore api underscore api underscore key let me off my AI first and then for now okay definitely we will want to add all of them into the expo environment variables but for now first of all let me off my AI nice. And second thing just simply add let me tell you what simply add the base URL. So this is the base URL of your weather API which is htps/api.openweathermap.org/data/2.5 for now just add like this nice perfect and then you can simply save it. So now you can see that we already have the weather API. What is the next step? Let's add two endpoints. Perfect. We can say that even the weather API. API. So, for that let me create one simple API folder. Definitely we are not using here the expo API routes. We are just creating one convention and you can simply say weather API dot ts is the nice. And after this what you can do you can simply install one very interesting package and the name of it burn add exios all right you need to add the exios package perfect let's just wait for a few seconds ok so now you can see that in 8 second we have successfully installed it nice now But next, next is we simply wanted to initialize a simple two methods. Perfect. So the first method is first method is basically a fetch weather by coordinates. So we are actually getting the user's latitude and definitely we are going to request the location with the help of expo location and on the basis of that we are going to get the weather by the coordinates. So first thing is I can simply say import a xios from xios nice and what I am going What next? Next is I wanted to get two things. First is the base underscore URL and second is the weather API key. Nice. And let's simply create one function name as export const fetch weather by const. and this is simply equal to a sync and then I can say latitude which can be of number yes it is number and then longitude and this is also of number and then what I will do I will try to get the weather the forecast and the air pollution three simultaneous API call using simple. I will first thing I will get as weather response, second thing I will get as forecast response and third thing I will get as aqiaqi response perfect. And then I can simply say await promise.all and then inside this I will open one array and just simply want to make the call. So, xyors.get a backticks first thing is going to be as base underscore url and slash weather. This is the first endpoint in same way we can have the another endpoint just give me a minute okay definitely we need to add this. the second endpoint is going to be the forecast and the third endpoint that is going to be a air pollution. So, okay not rocket science at all. This is going to be air underscore pollution. Perfect. Definitely we need to pass bunch of options. So this will going to accept the parameters and inside the parameters first thing is latitude then longitude not lock and then we can have the units units will be type of matrix and one last thing which is your API ID so I mean the app ID So app ID is going to be the weather API. So this is going to be the weather API key. Perfect. And simply copy this coming to here and then also paste this here in same way, copy this and paste it here.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "chunkNumber": 2,
+      "start": 244.681,
+      "end": 598.66,
+      "duration": 353.98,
+      "startTimestamp": "00:04:04.681",
+      "endTimestamp": "00:09:58.660",
+      "captionStart": 48,
+      "captionEnd": 106,
+      "tokenCount": 794,
+      "captions": 59
+    }
+  },
+  {
+    "id": "chapter-1 Project Initialization & Weather API Setup_epm_chunk_0003",
+    "text": "So this will going to accept the parameters and inside the parameters first thing is latitude then longitude not lock and then we can have the units units will be type of matrix and one last thing which is your API ID so I mean the app ID So app ID is going to be the weather API. So this is going to be the weather API key. Perfect. And simply copy this coming to here and then also paste this here in same way, copy this and paste it here. And only thing that you know no need here it's cunits simply longitude. latitude, longitude and app ID and at the bottom of it, we can simply return from this function. But first thing is the weather. Weather will basically come from weather response easy and this weather response will contain something known as data. We can even add the types for it in a while. Second thing we can have the forecast and this is again coming from the forecast dot response dot data dot list. Yep. And last thing is also going to be for the AQI list. So let me just add it and this will we are accessing from the first index. is this is how the structure of the data. So I'm just making things easy for you. You need not to do so much of research. Just write with me. All right. Nice. Perfect. What next? Next we need the fetch by the city name. So this is your coordinates, your current location. But let's say you wanted to fetch the location by entering the city name. Be it Noida be it Gujarat, Jaipur, Bangalore, Mumbai, Hyderabad, Pune kind of that got it. So I can simply say export const fetch cuts by city okay and this is simply going to accept the city name. Okay. and this is your string up next and then I can again say const response is equals to await exios.get and then we are simply going to have a backticks and a simple end point here which is HTTPS / API over open weather map or then geo 1.0 slash direct. All right. And as the options, they are actually going to accept what the params params is going to have first of all the query and inside the query, they have something known as city. We can even have the limit of one and then simple app ID, which is type of weather API key. And what we can do if the response dot data dot length is equals to equals to zero, then I simply wanted to throw a new error by saying city not far. Otherwise I wanted to return the latitude and longitude and on the basis of that longitude and latitude I am going to hit this endpoint. Got it. So, this is the smart approach. Perfect. So, now we have a fetch weather by coordinates fetch coordinates by city and then all the weather related utilities. Definitely we need bunch of them but no problem for this chapter we are done. So I can simply say we have successfully initialize the project and weather API setup. So in next chapter we are going to see that definitely we need to add lot of images, lot of sdgs. SVGs actually they all are images and then we are going to create one use weather hook and then weather utility. So this is definitely going to be a big chapter but it's fine this is pretty much it for this chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 15",
+      "lesson": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "lessonFile": "chapter-1 Project Initialization & Weather API Setup_epm",
+      "source": "class-subtitle/module 15/chapter-1 Project Initialization & Weather API Setup_epm/chapter-1 Project Initialization & Weather API Setup_epm.vtt",
+      "chunkNumber": 3,
+      "start": 555.92,
+      "end": 816.98,
+      "duration": 261.06,
+      "startTimestamp": "00:09:15.920",
+      "endTimestamp": "00:13:36.980",
+      "captionStart": 101,
+      "captionEnd": 152,
+      "tokenCount": 678,
+      "captions": 52
+    }
+  }
+]

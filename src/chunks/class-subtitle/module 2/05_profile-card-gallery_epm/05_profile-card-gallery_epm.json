@@ -1,0 +1,65 @@
+[
+  {
+    "id": "05_profile-card-gallery_epm_chunk_0001",
+    "text": "Hey everyone and welcome to one more new lecture. In this lecture we are going to create a profile card gallery mini project. Perfect. So, inside this we are basically going to use the real data from the random user API and will style the screen with a sleek dark theme and use flat list. to display multiple profile card efficiently. Perfect. So, now let us move ahead and start implementing that. So, for that I have already created here a folder profile card gallery and then I am simply going to run the same command that we have the name of that command. Let me try to show you that. So just give me a minute. Perfect. So the name of that command is bunx create expo at the latest. So this is going to create an expo application invalid only contain URL friendly characters. All right. So just give me a minute. I'll be right back. Alright, so actually the issue is like in previous name of this folder we don't have any hyphens. So that's why they are throwing an error but it's fine. Let me rerun the same command bunx create expo app and that app is basically going to be for dot slash for the current folder and this is going to install my expo application. Perfect, so now we can see that our application has installed successfully and the next step is basically go inside your scripts and reset your project. So reset project and simply hit enter, no and this is going to reset your project and then simple burn x, expose start. So, by doing this, this is going to make up and running my expo application and then I can simply hit A. So, the moment I hit A, now you will see profile card gallery and yes this is what we are basically able to see that perfect. Nice. Now, let's move ahead and let's plan that step by step what is our goal and what is going to do. So for implementing that we are going to use this API. The name of this API is random user dot me slash API and then the results you wanted to show at once. Perfect. So, we are basically going to create a gallery screen where I just wanted to show all the basically profiles here with their name and with their photo very very minimal and easy to implement application. So, I think without wasting any time. Let's move ahead and start implementing it. So for implementation what you need to do right now is to first of all go to your app and inside this app you will see we have this fine completely fine no problem but right now. Close everything, create a new folder name as components and inside this component folder, I wanted to create a profile gallery component. So I will simply say this as profile. gallery dot t s x perfect and then r n f e s and I will simply say this as profile gallery no problem easy perfect and along with that I wanted to import bunch of thing. So, the first thing that I wanted to import is the use effect. Yes, you can use use effect here. Then I wanted to import here use state. We have style sheet, we have text, we have view. I need here something known as flat list. I also need here image and then we have one more component. This is the new component, which is activity indicator. So, this is basically going to show you the loader and basically like that. Easy. No problem. Perfect. Now, let's move ahead and start implementing it. So, for the implementation, how you can basically fetch the data from API? Very easy. Going to call this API inside the fetch use effect. So, I think this is a basic react everyone know. So, first of all, let me create some state variable. So, we have users, then we have set users, this is going to become empty array and let",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0,
+      "end": 283.06,
+      "duration": 283.06,
+      "startTimestamp": "00:00:00.000",
+      "endTimestamp": "00:04:43.060",
+      "captionStart": 1,
+      "captionEnd": 68,
+      "tokenCount": 780,
+      "captions": 68
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_chunk_0002",
+    "text": "Easy. No problem. Perfect. Now, let's move ahead and start implementing it. So, for the implementation, how you can basically fetch the data from API? Very easy. Going to call this API inside the fetch use effect. So, I think this is a basic react everyone know. So, first of all, let me create some state variable. So, we have users, then we have set users, this is going to become empty array and let me snooze my AI and then I am also going to have loading and then set loading. This is also going to become use state and let me make it true initially. Perfect, and then a simple one more thing which is pretty interesting which is the in built colour scheme. So you can simply just write with me colour scheme is equals to use colour scheme and which is coming from react native. This is basically used to identify is we are in dark mode or light mode, simple. And then I'm simply going to write a use effect. So how you can write it? Simple use effect and inside this use effect, let me add empty dependency. And then I'm directly going to use here the fetch. Inside the fetch, let me use that random API. Yep, easy. And then let me just promisify this. So simple dot then inside dot then let me get my response. This response is going to be first of all, response dot json and then another then. And, this another then is going to be the data and inside this data what I can do I can simply come into here and say set users and this is going to be data dot they have something known as results yes important. So, this is how they return data to us. Then I can make my set loading as false. Perfect. Let handle error as well. So let me just go inside the catch and by any chance if we have any kind of error, then I'm simply going to console dot error. Yes, console dot error the error. and set loading to false once again very easy nothing rocket science here I hope so perfect cool so if we are yes just listen to me carefully if we are in a loading state then I wanted to show activity indicator. I can simply say. Return, return what? Return a view. This view is going to use the activity indicator and then this is going to be self-closing and let me just simply add a size. Size is going to be as large. And color, so let me just simply add a color as hashtag FFF white color. And for now, let me simply add my style here. And this is going to be styles dot. Loader container and let me just first of all copy my all the style so that I need not to write anything. So that's why I'm doing so that perfect. So just give me a minute. Let me copy all of them and paste them. So this is my style. I'm just simply going to paste it. Perfect. So we have a container style where we have dark BG, light BG, loader container, container and then we have a card. Then we have avatar. Then we have name and then email. Simple nothing rocket science. Easy. Perfect. So loading state is done. Now let me just simply go to my views, the main return. Let me open the style. The style is I'm going to open array. First I'm going to pass styles.container. So, all the style related to container, so we have a simple flex of 1, easy no problem and along with that I also going to check for colour scheme, if the colour scheme is equals to equals to dark. Then I'm going to use here the styles dot dark, dark BG, easy. Otherwise I'm going to use a styles dot light BG, easy. Perfect. And then inside this view, let me remove it. Let me simply use my flat list.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "chunkNumber": 2,
+      "start": 252.16,
+      "end": 549.62,
+      "duration": 297.46,
+      "startTimestamp": "00:04:12.160",
+      "endTimestamp": "00:09:09.620",
+      "captionStart": 59,
+      "captionEnd": 134,
+      "tokenCount": 797,
+      "captions": 76
+    }
+  },
+  {
+    "id": "05_profile-card-gallery_epm_chunk_0003",
+    "text": "So, all the style related to container, so we have a simple flex of 1, easy no problem and along with that I also going to check for colour scheme, if the colour scheme is equals to equals to dark. Then I'm going to use here the styles dot dark, dark BG, easy. Otherwise I'm going to use a styles dot light BG, easy. Perfect. And then inside this view, let me remove it. Let me simply use my flat list. A flat list, yep and this flat list first data they are going to have a data which is coming as users and then we have a key extractor. So I can simply say this as item. And this item is going to be item.login.uuid. Perfect. We can definitely add types here as well. But for now, let me move ahead and then I can simply say render item. Render item is going to have item. And then we have destructured this item outside of this parenthesis. Let me return a JSX and this JSX is going to be a very basic UI. First of all, let me import image. Perfect. So, we have a view this view at the top of it we have image then we have a text then we have a email and each one of them have a basic UI design easy make sense and out of this yes here I can simply say content container style is basically going to be padding 20. And if I save it and then what I am going to do, I am simply going to copy this component and instead of showing this view, I am simply going to render this profile gallery component. Finger cross, we'll see for the first time this is going to work or not. And look at that. You can definitely change this change other data as well. But now we can say that we have all the profile, all the 10 profiles that we are seeing and how beautifully we are able to rendering all of them. So yeah, this is how you can basically create a very basic mobile application, a basic profile gallery application inside react native expo. So yeah this is pretty much it for this video for this mini project. I hope you guys are enjoying this and learning something new. If yes then don't forget to drop your 5 star rating. Till now bye bye take care see ya and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 2",
+      "lesson": "05_profile-card-gallery_epm",
+      "lessonFile": "05_profile-card-gallery_epm",
+      "source": "class-subtitle/module 2/05_profile-card-gallery_epm/05_profile-card-gallery_epm.vtt",
+      "chunkNumber": 3,
+      "start": 514.6,
+      "end": 693.94,
+      "duration": 179.34,
+      "startTimestamp": "00:08:34.600",
+      "endTimestamp": "00:11:33.940",
+      "captionStart": 127,
+      "captionEnd": 162,
+      "tokenCount": 476,
+      "captions": 36
+    }
+  }
+]

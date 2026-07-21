@@ -1,0 +1,86 @@
+[
+  {
+    "id": "3. Navigation Between Screens_epm_chunk_0001",
+    "text": "In real apps, users just don't stay on just one screen as you guys all know. They move between screens. In this lecture, we will learn how to navigate between screens imperatively using React Navigation's Navigation Object. You will see how to go forward, go back, replace any screen and control the navigation stack. Perfect. So, now let's move ahead and start talking about it. So the first thing that I wanted you to simply visit to this page and using the navigation button, using the navigation object because we have already talked about this link or button. So, into this you will see. Another way to navigate is by using the navigation object. This method gives you more control over when and how navigation happens. So the navigation object is available in your screen components through the use navigation hook. Easy. So, now let's move ahead and start talking about this use navigation hook. So, use navigation is a hook that give access to navigation object. It's useful when you can't pass the navigation object as a prop to the component directly or don't want to pass it in case of deeply nested child. So, basically you always have two ways of handling this. One way is you have this navigation objects access with the help of props, but that is not recommended way don't use it I mean in most of the cases. So, this is how we are going to see how you can do so that. Perfect, so make sure that you are on your VS code and after coming to VS code first of all just simply move ahead and then let me run bunx expose start. So this is going to make up and running my application. So, let me wait for it. Perfect. Now, let me just simply press A. So, this is going to start into my Android. You can go back to expo and try to reload the project. Perfect. I think I need to click here. Alright, no problem. Let me just scan my QR code and then we can start. Cool. So, just give me a minute. Let me simply press on my QR code. Let me scan it and hope so. This will start working right now. Let me press no app sending reload to react native app. Just give me a minute. All right. Actually, my phone's Wi-Fi is not connected. That's why it is not working. So, now if I just simply press A, then this is definitely going to open that into it and boom, look at that. They are bundling. And now we are good to go. Cool. So, no problem. Perfect. Now let me go to my file explorer and just give me a minute. And inside this file explorer, I can simply go to my app and let's say let's go to our home page. Right now if I wanted to go to my details page this is how I am able to do so that cool but we have another way of doing it as well. How like first step is like you can always get from here this something known as navigation object. Perfect and for now I am just making this as kind of this just for now I mean definitely we have navigation types properly and let's say instead of using this link component like if I just save it everything is fine. Let me just get a pressable. Perfect, and this pressable is going to show me a text and this text is going to show me go to details and if I save it this is how they are going to just a minute let me off my AI. Cool. And what I wanted to do on press on this pressable easy, I just wanted to call a callback method that is going to do what navigation dot and then you will see that we have a method known as navigate and the page name that you wanted to go. So I just simply add here make sure to copy this and paste this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0,
+      "end": 266.6,
+      "duration": 266.6,
+      "startTimestamp": "00:00:00.000",
+      "endTimestamp": "00:04:26.600",
+      "captionStart": 1,
+      "captionEnd": 71,
+      "tokenCount": 789,
+      "captions": 71
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_chunk_0002",
+    "text": "go to details and if I save it this is how they are going to just a minute let me off my AI. Cool. And what I wanted to do on press on this pressable easy, I just wanted to call a callback method that is going to do what navigation dot and then you will see that we have a method known as navigate and the page name that you wanted to go. So I just simply add here make sure to copy this and paste this. Cool and if I save it and if I just try to press on go to details and boom look at that this is how you can basically move to it but instead of using this approach what I wanted you to do is to remove this. Easy and then import navigation from from where look at that they are importing this use navigation hook from here. So, let me just simply copy that let me just paste that and here I can simply say const navigation is equals to use navigation. And then now if I save it and if I just go back and again click here look at that this is how they are going to work and one beautiful thing about this is now we have bunch of methods need not to understand about every method each and every method you can skip bunch of them and I will tell you but for now the first method that we have is navigate. Navigate is always accepting what navigate to a screen in current parent navigate. So alright, I just wanted to move towards details page. Perfect. And then if I just simply press over it, this is how I can move again. You can style it. You can give it a very good style. You can centralise everything. And I mean, this is not about UI. You can definitely style it as much as you want. Perfect, now let's move ahead and this navigation object have bunch of other methods as well like first method is navigation.navigate no problem. Perfect, and let me show you one very interesting thing if I copy this and if I go to details page and if I just paste this here no problem easy. First of all let me import my pressable. And let me just initialize this navigation here as well. And then let me just not export, make sure you are not importing this from export out because we are right now using. the react navigation now if you are on to the details page already and if you just once again press this go to details nothing is going to happen isn't seems very common I mean yes this is how they are going to behave like if you are already on this screen then how you can navigate again to this screen getting my point but if I just move ahead and tell you something like you can see that. What is that about this push like right now we are using this navigate method but instead of using navigate if I now use navigate dot push perfect and then if I save it and once again if I press over it so look at that we are adding. same screen multiple times into the same stack. Look at that and if I just again press back you will see I am going to be back again on details page, details page, details page. So yes they have bunch of use cases about this as well. Like if you just coming to here and let's look at that. So we now have the stack with two routes the home route and detailed route. What would happen if you navigate it to the details route again from the details screen. If you are using this method, if you run this code, you will notice that when you tap go to details, it doesn't do anything. I mean, yes. This is because you are already on the details route. So the navigate function, listen to me carefully, navigate function roughly means go to this screen got it, but when it's come to push. Push means each time you call push we add a new route to the navigation stack. Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "chunkNumber": 2,
+      "start": 237.32,
+      "end": 514.44,
+      "duration": 277.12,
+      "startTimestamp": "00:03:57.320",
+      "endTimestamp": "00:08:34.440",
+      "captionStart": 65,
+      "captionEnd": 122,
+      "tokenCount": 782,
+      "captions": 58
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_chunk_0003",
+    "text": "If you are using this method, if you run this code, you will notice that when you tap go to details, it doesn't do anything. I mean, yes. This is because you are already on the details route. So the navigate function, listen to me carefully, navigate function roughly means go to this screen got it, but when it's come to push. Push means each time you call push we add a new route to the navigation stack. Perfect. And when you call navigate it only pushes to a new route if you are not already on that specific route. So, I hope so that this is making sense right now. Now let's move ahead and start talking about other method as well. Let's say instead of going to the details page once again, let go to profile page, but for now let me go to details and from detail I wanted to go profile page. Easy and now if I click on profile I am on profile page. Now you can create your custom going back method as well. How you can do so that? So let me go to my profile and let me just copy this once again. Let me just paste it. Let me grab my pressable and let me just initialize this as well. Perfect. And then let me not from expo router. I just wanted to get it from react navigation. Easy. Perfect. But right now I don't want it to go to again profile page. Now I wanted to use the go back method. So if you just simply call here the go back. And instead of this you can simply say what go back and let me save it and now if I press on go back you will see I am on to this page but if you wanted to go back to the first page listen to me carefully if you wanted to go towards the first page so for that you need to understand about something known as pop method. Right now this is how go back is going to work exactly like this. If you just simply press on go back you are on to the back screen. Perfect you are come one step back into the stack. Making sense I mean it's pretty very very easy. So, now let's talking about the popping screens method. What is that? We have basically two main method for that like going back this is how they are going to work. We also have pop to method, pop to top method and pop method. We have three method around this. So, how this is going to work? First of all let me talk about pop to method. to and the screen that you wanted to go. Let's say I wanted to go home and if I save it let me just try if I just simply press and I am on my home page in same way let's say I wanted to go to the details page. OPT details page, so now you are on to the details page. Perfect. Now, let us move ahead and by popping it this means you are just removing the stacks from removing the stacks I mean making sense and we have another one as well pop. So, pop is going to do so one very very easy thing this is going to go back to one screen perfect this is going back to one screen perfect. So, go back to one screen. So, now if I go to my profile page and simply press go back so I am on details page once again. Perfect. In same way you can definitely enter the numbers like how many screens you wanted to go back to. Perfect. Let's say if I just go to details and if I go to profile and the moment I press on go back. So, profile to details, details to home. So, I am just directly if I am not wrong I am going to be here. So, if I just simply press and boom look at that I am on my home page. We have one more which is known as pop to. Pop to top.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "chunkNumber": 3,
+      "start": 481.9,
+      "end": 745.52,
+      "duration": 263.62,
+      "startTimestamp": "00:08:01.900",
+      "endTimestamp": "00:12:25.520",
+      "captionStart": 115,
+      "captionEnd": 181,
+      "tokenCount": 792,
+      "captions": 67
+    }
+  },
+  {
+    "id": "3. Navigation Between Screens_epm_chunk_0004",
+    "text": "to. Perfect. Let's say if I just go to details and if I go to profile and the moment I press on go back. So, profile to details, details to home. So, I am just directly if I am not wrong I am going to be here. So, if I just simply press and boom look at that I am on my home page. We have one more which is known as pop to. Pop to top. So, this pop to top means this is going to be go back to the first root screen. whichever your root screen you are going back to that. Let's say in future you have bunch of other screens as well but you wanted to go back at the root screen so how you can do so that this is how you can basically use this method for it. Easy. I hope so. Yes. And before moving ahead one more thing like you are seeing here the swiveling lines here. So this is nothing. While initializing this here if you just pass the we can say we have bunch of types which is provided by that like let's say for this we have native navigation props. And, then we have bunch of root, stack, parameter list, you will define all the other routes there, then this will not going to throw any error, you will see that. But for now I am just adding here any, but this is not a good practice at all, but just this is not showing me that red lines here. Perfect. So, you can fix it if you wanted to, otherwise for now you can definitely bear it. Now, let us move ahead and start talking about other functions as well, but right now this is very much in that you are going to use, you are going to use navigate in 90% of the case, push and pop, pop number of screen that you wanted to do and one last method that we have. is known as replace method. So, replace is basically going to be let's say if you are on the profile page let's say let me go to my profile and the moment I press alright. So let me find the moment I coming to here and simply press and look at that. So, every time when I am going to details page and then I click on go to profile, I am replacing the stack with the profile stack perfect and if I just press go back I am on my home page. Home page I mean look at the behavior by default if you are on home page and from home page if you are going to details space they both are into stack making sense and from detail if you are going to profile page. You are onto this profile page and if you are going back, so ideally you should on details page, but you will see that you are directly going to home page. Let me show you. Let me go to my detail page. No problem. Let me go to my profile page. No problem. by using this replace method. You will see the moment I click on go back, I'm directly going back to homepage. Why? Because this details is replacing itself with profile. So that is how they are working. Cool. So let's not complicate it much. And yes, this is how they are basically and we have other methods as well. If you wanted to explore them, take this as an assignment and try to do more research over it. But you do not need anything right now. I mean we are good to go. So cool yeah this is pretty much it for this chapter and from next chapter we are going to see bunch of other things as well and then going to create a very nice Pokemon app mini project you will learn everything from there as well. So yeah see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "3. Navigation Between Screens_epm",
+      "lessonFile": "3. Navigation Between Screens_epm",
+      "source": "class-subtitle/module 3/3. Navigation Between Screens_epm/3. Navigation Between Screens_epm.vtt",
+      "chunkNumber": 4,
+      "start": 721.321,
+      "end": 944.9590000000001,
+      "duration": 223.64,
+      "startTimestamp": "00:12:01.321",
+      "endTimestamp": "00:15:44.959",
+      "captionStart": 173,
+      "captionEnd": 235,
+      "tokenCount": 758,
+      "captions": 63
+    }
+  }
+]

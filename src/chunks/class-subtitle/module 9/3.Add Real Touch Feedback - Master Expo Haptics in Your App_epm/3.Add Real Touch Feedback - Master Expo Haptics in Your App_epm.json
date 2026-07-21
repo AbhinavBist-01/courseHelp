@@ -1,0 +1,44 @@
+[
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_chunk_0001",
+    "text": "Alright everyone and welcome to one more new lecture. In this lecture we are going to talk about haptics. So what is this haptics actually means? So a library that provide access to a system's vibration effect on Android, the haptics engine on iOS and web, a web vibration API on web. So basically let's see that this is the direct use case. So let me just simply copy this and we'll see how you can use it and how you can see So, let me just simply say 1x expo install expo haptics, alright, installed in 100 milliseconds. So, basically in 1 seconds and let us see that how you can implement this. So, in components, let me create a haptics. inside this what I will say, I will simply say press haptics dot tsx rnfs press haptics easy. Let me save it, let me go to my index and below this let me simply say press haptics. Cool. And let me save this and inside this first of all let me import haptics from haptics easy. And then let me create three functions. Just see that how I'm creating it. So the first function is handle press where just listen to me carefully. I have used haptics impact a sync and then inside this haptics I have added light then medium and then heavy. All right. Let's see that and let me import and let use that on to the UI as well. Cool. And let me just paste it easy. Let me import my touchable opacity and then let me paste the design that I wanted to use here. Cool. And if I just simply paste it and save it. Cool. So let's try to first of all, but press that. So, you will see that your, if I am not wrong, your app has just vibrated a bit. If you just press a long, perfect, then second option that we have is a press in, if you just keep press and if you just press long, precious, look at that, your app has vibrated Look at that, cool, yes, this is your long press, look at that, got it and press in, this is showing us a pressed, perfect. So what is this basically? This is actually for controlling the intensity of the vibration you wanted to have into your So, this is basically giving you the access of your, you can even see that a library that provide access to the system's vibration effect. This is literally a game changing thing. Got it and you can definitely read more about it. You can see notification async, yes we also have a notification async. So, let me try to show you that, cool. So, let me try to show you that. So, what I will do I can completely copy this file, perfect and what I will do inside this I can simply say example 2.tsx easy and let me save it, no problem and inside this example 2. We have some bunch of styles. Don't we have that here right now? We should have but it's fine but I can do I can simply coming to here and get a design for my text as well. Perfect. So font of 18, medium. Alright. Now let me save it and let me go to my index.tsx. We don't need this press haptics. Let me try to render here. I think the name of that is app. Maybe I'm wrong. But now if I save it, alright, so you will see a lot of examples, perfect. So the first example that we have here is the moment you simply press selection. Cool? Look at this is just for selecting it, nothing is happening, no problem. Let's move ahead and you will see that we have a button which is showing us a notification async and success.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0.46,
+      "end": 267.88,
+      "duration": 267.42,
+      "startTimestamp": "00:00:00.460",
+      "endTimestamp": "00:04:27.880",
+      "captionStart": 1,
+      "captionEnd": 64,
+      "tokenCount": 796,
+      "captions": 64
+    }
+  },
+  {
+    "id": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm_chunk_0002",
+    "text": "Let me try to render here. I think the name of that is app. Maybe I'm wrong. But now if I save it, alright, so you will see a lot of examples, perfect. So the first example that we have here is the moment you simply press selection. Cool? Look at this is just for selecting it, nothing is happening, no problem. Let's move ahead and you will see that we have a button which is showing us a notification async and success. If I just simply press over it in same way we have error and warning. Why this is not working as my application is up and yes, let me try to reload it once. All right, I don't know, due to some reason they are not showing us the kind of notification we want, but it's completely fine because we have already seen that inside our press septic's example. And if I just import my press haptics from here and yes jump the moment I press yes my application is vibrating if I press long pressed and yes that is how they are also working. So the main thing and the main motive behind this expo haptics library is basically provide you the touch feedback. Alright, like Android device using vibrator system iOS 10 and plus basically device use Taptic Engine they have their own implementation of it cool. So they have given you a bunch of examples, you can definitely give it a try but trust me you never going to use it as much as you think. So, these are all the miscellaneous modules that we are doing, but I hope you are enjoying it and if yes, so this is the end of our chapter number three and with this we can end this device and system APIs. Initially, we have seen how you can work with network same how you can work with links and then how you can work with haptics. So, this is the end of the chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 9",
+      "lesson": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "lessonFile": "3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm",
+      "source": "class-subtitle/module 9/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm/3.Add Real Touch Feedback - Master Expo Haptics in Your App_epm.vtt",
+      "chunkNumber": 2,
+      "start": 236.66,
+      "end": 360.56,
+      "duration": 123.9,
+      "startTimestamp": "00:03:56.660",
+      "endTimestamp": "00:06:00.560",
+      "captionStart": 56,
+      "captionEnd": 83,
+      "tokenCount": 390,
+      "captions": 28
+    }
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "02_react-native-vs-expo_epm_chunk_0001",
+    "text": "All right everyone and welcome to chapter number two of our module number one. In this chapter we are going to understand React Native and we are also going to understand what is Expo and then we are going to have a very good comparison between React Native and Expo. Perfect, this is definitely going to be a theoretical chapter but don't worry every bit of it is going to be worth it. Now before moving ahead first of all I just wanted to talk about what is React Native. If I just simply coming to here and write what is RN? RN means React Native. Perfect, but also before this if I just simply ask you one question. If you want to build an app like Instagram perfect if I just simply coming to here and then I write drop here the Instagram let's say if you wanted to build a app like Instagram so do you really wanted to write two separate code base just listen to me carefully let's Instagram clone, do you really want it to write a two separate app, one for iOS and then another one is for Android? I don't think so, like most developers don't and that's exactly why React Native exists. So, what is react native? If I just simply come into here and say react native is a framework, yes, react native is a framework that lets you build that lets you build. Real mobile app using JS and react like if you are a web developer and switching to mobile development you just need to know about JavaScript and react which is you know very well. So, with one code base like if I just simply come into here and then say with one code base like this is your one code base you can write your app for Android and you can even write your app for iOS. So, this is the beauty of React Native. Now, very important thing, listen to me carefully. React Native apps are not website. Yes. So keep this in mind. I'm just marking here a star. React Native apps are not website. Like most of developer are confusing this, but make sure to keep that in mind. React Native apps is the actual mobile app. Be it iOS or Android doesn't matter. They don't run inside a browser. When you write react native code, you are going to see something very different. Like instead of writing div, I'll show you the entire code of it. Don't worry. Instead of writing div, you are going to write here the view. instead of writing paragraph, h1, span, you are going to write here the text or for button I mean this is same you are going to write here the button. So what is this means? This means... React Native converts it into actual native components. You need not to go too much depth into it, but just listen to me carefully. React Native converts it into actual native native component. Perfect. Actual native component. Cool. So that's why app build with react native, like whenever you build any app with react native, first of all, they are going to feel you very fast. Then they are going to look very native. Native means if you build for iOS, you will see like every UI is resembling with the iOS UI. But whenever you are building for Android, you are going to see all your UIs, all your buttons, all your selects are resembling with an Android native UI. Perfect. They work offline. Yes, they work very well offline. They can access. Yes, one of the best thing about React Native, they can access your camera. They can access your GPS. They can help you to create a notification system. They can even access your gallery. They can even access a xero scope. I mean, there are a lot of things to do and don't worry. We are going to discuss each and every topic out of it. So, if I just tell you a simple comparison between web apps, first of all let me change my color this one.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0,
+      "end": 298.86,
+      "duration": 298.86,
+      "startTimestamp": "00:00:00.000",
+      "endTimestamp": "00:04:58.860",
+      "captionStart": 1,
+      "captionEnd": 62,
+      "tokenCount": 798,
+      "captions": 62
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_chunk_0002",
+    "text": "GPS. They can help you to create a notification system. They can even access your gallery. They can even access a xero scope. I mean, there are a lot of things to do and don't worry. We are going to discuss each and every topic out of it. So, if I just tell you a simple comparison between web apps, first of all let me change my color this one. If I just try to give you a basic comparison this is your web apps. So web apps always runs in browser we know that then they uses HTML and CSS and JavaScript They have limited access to device features. Yes, like whenever you are building a web apps, they don't have even the direct access of your actual device features. But whenever you build a react native app, whenever you build. If I just try to copy this and write down that here, whenever you wanted to build a react native app. So this is going to be built like first of all, they are going to build using JS. So everything is going to be look known to you. You have a one code base for iOS for Android. Then they give you a near native performance. What is this native mean? Native mean for which platform you are developing like is you are developing for Android or iOS. So native means Android or iOS depends on your mobile device. Cool. So this is going to be near native performance and faster development. Why faster development? You have one code base for two different apps. for two different OS. So for 90% of real world app, React Native is more than enough. So that's why like companies, yep, that's why companies like Insta, companies like Shopify, companies like Discord, companies like Uber, they all are using, yes, they all are using React natives to build their apps. Perfect, but it is a limitation. What is the limitation? Let me take you to the documentation of react native dot def. So make sure you visit here. This is how the landing page looks. You can definitely scroll and skim it. But I just simply wanted to click on get started and the moment you click on get started just try to read this react native allow developers who know react to create native apps at the same time native developers can use react native to gain a parity. I hope I'm pronouncing it right if not excuse me for that between a native platforms by Common features once. What is native developers? Native developers means like if you are only developing for iOS or only developing for Android like if you are only using Flutter or SIFT. I hope so I make sense. We believe yes, we believe that the best way to experience react native is through a framework. Yes, we have react natives framework as well a toolbox with all the necessary APIs to let you build production ready apps. You can also use react native without a framework. Don't worry like if you don't want it to go with any framework, you can simply use it. But react native officially recommending you to use a framework. So the name of that framework is expo. So you can simply visit to this site known as Expo and let me just simply go to my documentation and this is what Expo means and let me go to my introduction. What is this Expo means? So Expo is a framework, React natives framework that makes developing Android and iOS app easier. Our framework provide file based routing. Familiar with Next.js like if you don't it's fine but if you are familiar with Next.js so they also support file-based routing. A standard library for native modules and much more. Expo is a open source like this is free to use. So this is what Expo is and now we are going to talk about Expo. So, where expo comes in, now react native is a powerful we know that react native is very powerful like this is let's say this is your react native very powerful, but setup",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "chunkNumber": 2,
+      "start": 273.061,
+      "end": 575.8,
+      "duration": 302.74,
+      "startTimestamp": "00:04:33.061",
+      "endTimestamp": "00:09:35.800",
+      "captionStart": 58,
+      "captionEnd": 122,
+      "tokenCount": 795,
+      "captions": 65
+    }
+  },
+  {
+    "id": "02_react-native-vs-expo_epm_chunk_0003",
+    "text": "so they also support file-based routing. A standard library for native modules and much more. Expo is a open source like this is free to use. So this is what Expo is and now we are going to talk about Expo. So, where expo comes in, now react native is a powerful we know that react native is very powerful like this is let's say this is your react native very powerful, but setup can sometime feels heavy like if you wanted to setup a react native you are going to feel very heavy for that like you need to run this command that command ejected do lot of bunch of things. But this is where Expo comes. So think of it like React Native is there, we can say that the engine, but Expo is a smooth driving experience. So now let's move ahead and talk about what is Expo. And, and again Expo is not a replacement for React Native. React Native is the core framework and Expo is a tool built on top of React Native. So first thing is if I just write the definition about Expo let me search if we have the logo for it yes. So what is this Expo? Expo means Expo is a framework or tool we can say built on top of a React Native. Perfect. So, Expo sit on top of React Native and make things easier for you. Like they give you minimal setup, ready to use APIs. APIs means they give you camera API, they give you media API, they give you location API out of the box. And, they even provide you for a better development experience like whenever we are going to set up our expo in upcoming lectures, you will going to learn about expogo. So expogo is for your application testing, you can just simply install that and see all the outputs inside your app or emulator, whatever you are using simulator, emulator whatever is that. Perfect, so Expo is faster to start, they have less configuration, they are very beginner friendly and still production ready, like you can directly ship your products into the production. Like if I just simply go to chai code website. Perfect, if I just simply go to chai code website and if you go at the very bottom of it, we have bunch of app like chai code, we have masters G, we have a lot of other app as well. So they all are built with expo itself. If I just simply press on Master G. This app, yes, we have also the MasterG app as well. So whenever you are going to check that, you will going to see that they built on top of expo itself and we are handling a huge user database. Perfect, huge user base. So, now the one of the question arise which one you choose, so which one you choose which is recommended by official documentation of React Native. If you want a best way to experience React Native is through a framework and the name of that framework for now is Expo. With the help of Expo, you can create Android, iOS, TV and yes, you can even create web apps, but let's not go web is let's leave aside web because we have Next. Yes, we have angular. We have react. We can use that. But for now, we are only focusing on iOS Android apps. So Expo is the best way to start with your. mobile development journey best framework need not to jump to flutter jump to Kotlin expo is one of the best if you are coming from web developer web development background if not it's completely fine you can start from here. So, now tell me like if this video clear your confusion so make sure to drop the 5 star rating and now it's completely up to you. So, yeah this is pretty much it for this chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 1",
+      "lesson": "02_react-native-vs-expo_epm",
+      "lessonFile": "02_react-native-vs-expo_epm",
+      "source": "class-subtitle/module 1/02_react-native-vs-expo_epm/02_react-native-vs-expo_epm.vtt",
+      "chunkNumber": 3,
+      "start": 544.22,
+      "end": 802.72,
+      "duration": 258.5,
+      "startTimestamp": "00:09:04.220",
+      "endTimestamp": "00:13:22.720",
+      "captionStart": 117,
+      "captionEnd": 172,
+      "tokenCount": 758,
+      "captions": 56
+    }
+  }
+]

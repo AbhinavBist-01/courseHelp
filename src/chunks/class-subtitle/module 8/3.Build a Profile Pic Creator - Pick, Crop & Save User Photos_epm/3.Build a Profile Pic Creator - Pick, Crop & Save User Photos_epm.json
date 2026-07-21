@@ -1,0 +1,44 @@
+[
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_chunk_0001",
+    "text": "Alright everyone and welcome to one more new mini project video. In this chapter we are basically going to create a profile image picker mini project. So let's move ahead and start building it. Right now let me come into here and then simply initialize R and FeS and then let me simply say index. Perfect. And then let me try to reload it once so that we are back to normal. And for creating this, you need a bunch of things, but we already have other things, but first of all, let me simply CLS it and then run Banex Expo install. And first thing I wanted you to install is Expo image picker so that we can understand about this as well. Then we can import expo image manipulator like we have a tons of libraries, manipulator and I think yes this is what we need for now and then I can simply say expo image manipulator perfect. Let me just clear it. And let me import all of the thing that I need. So I need an image manipulator from Expo image manipulator. I need an image picker from Expo image picker. Use router. Use state. Alert. Image. Style sheet. Text. Touchable opacity and view. Perfect. And then what I can do first of all let me simply maintain and first of all let me just add all the styles that I need so I can come into here and save it perfect. So, all the styles related to container, title, profile container, profile image, placeholder, placeholder text, button container, button and button text, alright. Then what I can do, I can move ahead and first of all initialize all the state variable that I need. So, I only need one state variable that is as profile image and set profile image perfect. And along with that let me first of all paste my entire UI. So, this is the entire UI I need. So we have a view. This view have a text as profile picture. Then we have a profile picture container, something like this, whatever the profile image is coming, otherwise we are showing no photo and then a titchable opacity, which is calling a take photo and then a pic photo. All right. Nice. Now let's move ahead and first of all ask for a permission. So for asking for a permission I can simply say const request permissions is equals to a sync and then I can say const status and I will say this as camera status is equals to await image picker. .Request camera permission async in same way I can ask for media permission so I can say status and this will equal to media status and I can say this as await again image picker .request media library permission async perfect and a simple check if we don't get any permission then I can simply say I need permission bro please allow me otherwise I will return a simple true perfect if we are not getting any permission we are showing alert and returning a false otherwise we are returning a true nice. Now, let's move ahead and create first method name as take photo. So I can say simply take photo is equals to async async async and this is first of all check has permission. and await request permission perfect and again if we don't have any permission so I can simply return it otherwise I will say try and catch inside the try first thing first let's launch our camera. So, I will write something like this, image picker launch camera sync, yes you can also launch from here and say media type as image, allow editing true, aspect ratio of our image is 1 is to 1 and then quality is 0.8. But if result is now become cancelled, then I can say if not of result dot cancelled and result assets is something like this then what I will do I will resize to square or profile pic. So we are basically resizing bunch of thing. First of all let me get my image ref and you just get confused after this but no problem let me paste it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0,
+      "end": 325.24,
+      "duration": 325.24,
+      "startTimestamp": "00:00:00.000",
+      "endTimestamp": "00:05:25.240",
+      "captionStart": 1,
+      "captionEnd": 67,
+      "tokenCount": 800,
+      "captions": 67
+    }
+  },
+  {
+    "id": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm_chunk_0002",
+    "text": "is 1 is to 1 and then quality is 0.8. But if result is now become cancelled, then I can say if not of result dot cancelled and result assets is something like this then what I will do I will resize to square or profile pic. So we are basically resizing bunch of thing. First of all let me get my image ref and you just get confused after this but no problem let me paste it. I have a image ref, I am just getting with this, so await image manipulator dot image manipulator dot manipulate and result dot asset at the zeroth index we have the access of URI and the size is something like this and then render this image. Then, I will simply say const menuPulateImage is equals to await imageRef.SaveAsync. So, we are saving this and I can first of all say compress this image 0.8 and then format will be saved. is image manipulator dot save format and let's save in JPEG PNG or the P let's save in JPEG perfect and then I will set my profile image equal to manipulate image dot URI so something like this manipulated image dot URI nice and but any chance if we have any error then we will simply show this error. So let me save it perfect. All right, we don't have a method I think if I'm not wrong but no problem. Let me come into here. This is our take photo. In same way I can have a pic photo. pick photo is also same kind of like that. So let me just copy and paste my pick photo. So this is my pick photo also everything is same. We are just manipulating the result and asset saving in JPEG and setting the profile like this. Alright, and if I reloaded once again let me close everything rerun my application. Let me close all, where is my expo go? This one, perfect. Now let me open my module 8 and look at that, this is our no photo and now if I press on take photo, so you will see I am able to open my camera and if I let's say just take the photo of my PC. And if I save it, look at that. This is what my image is coming and if I press on OK, all right. Now they are asking me to crop because we are setting this up for our profile. If I simply say crop, look at that. Now we are able to set this. image as my profile. If I press on choose from gallery, look at that. Now my gallery is I am able to access my gallery. Perfect. And let's say if I just select this photo and if I simply press on crop, look at that. So this is how you can basically access your user's gallery with the help of these library image manipulator and image picker. But if you wanted to use. Expo some another media library for that you need to create a build but yes this is how you can choose your images, take photos and set that as a profile picture but you can definitely change as background, set as wallpapers, it's up to you. Perfect. So this is how you can basically take the help of expose, expose lot of libraries like camera, media, audio, file picker, image picker, image manipulator, you can do bunch of things. Perfect. So with this, this is pretty much it for this entire module and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 8",
+      "lesson": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "lessonFile": "3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm",
+      "source": "class-subtitle/module 8/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm/3.Build a Profile Pic Creator - Pick, Crop & Save User Photos_epm.vtt",
+      "chunkNumber": 2,
+      "start": 291.08,
+      "end": 551.66,
+      "duration": 260.58,
+      "startTimestamp": "00:04:51.080",
+      "endTimestamp": "00:09:11.660",
+      "captionStart": 61,
+      "captionEnd": 110,
+      "tokenCount": 697,
+      "captions": 50
+    }
+  }
+]

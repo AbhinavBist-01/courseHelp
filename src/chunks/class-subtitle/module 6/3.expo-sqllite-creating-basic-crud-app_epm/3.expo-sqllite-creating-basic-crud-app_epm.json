@@ -1,0 +1,86 @@
+[
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_chunk_0001",
+    "text": "Alright guys and welcome to one more new chapter. In this chapter we are basically going to talk about Expo SQLite. This is again a library that is providing you the access of database locally into your phone. Perfect like this is good for making offline applications. So you will definitely love it. So for using it, simply copy this command from here till here and then you can basically run this. So let me clear my currently running application and install it. So I have run basically bunnex expo install expo SQLite easy and then let me rerun my application. Our next expose start. And after doing this, let me just reload it once. And this is my index.txx file, which is completely empty. And so for always using ExposeSQL, I mean SQLite, you need to do a bunch of settings and bunch of organizational thing. So for that. At the root level, make sure to create a DB file, data file, whatever you wanted to call it. And then let me simply say database.ts. So at this point, I am going to initialize my data. I can simply say import ashrick as SQLite from SQLite. Exposequalite, easy. And then I can create a function as, I will say this as export const dbpromise because SQLite. We have method something known as open database async. So we are using async. That's why I have named it as dbpromise. Cool. Whatever you wanted to name it, it's up to you. and then name the database name. So I've just named it as appdata.dpa. Whatever you want it to give, you can simply give it. Now, this is the step number one. Now let's say I wanted to create a user table. As you guys know, we are using SQL. So definitely we are going to write here SQL query. And again, I am not going to teach you how to write SQL. So I hope so you guys know that and if not, then you can simply just follow along with me and see how you can write any SQL queries. Perfect. So let me for that, let me create here a function as create tables.ts and then first thing I am wanting to import my DB promise. So, something like this from dot slash database and then what I can do I can simply create one function I can name that function as export async function and the name of that function is create tables. And this create tables is basically first of all, let me get the data from this promise. So I can simply say access from this. So DB is equals to await DB promise. Now inside this we have the DB access. And now what I can do? Let me I just wanted to run a basic command. So, for running a command we have a method you can definitely go and check that like you can see that we have execute async we have run async run async lot of methods. So, for that I wanted to use await db.runAsync method and inside this into back ticks I can write my query easy. So, let me try to paste the query because again I'm not wanted to write anything from So, this is the basic SQL query. So, what is this create table if not exist simple basically we are asking our SQL to create a user table if they don't exist and which with bunch of structural thing like the ID is going to be integer and the constraint as primary key and then auto increment. Easy. Then we have name which is type of text and this is not null. This means you need to pass some data. Same for email and this is also text. This is unique. So email needs to be unique. You can't save same emails into your database. And then we have again not null. So, this is one method is ready. Perfect. Now, how you can use it? You can simply copy this.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0.56,
+      "end": 278.74,
+      "duration": 278.18,
+      "startTimestamp": "00:00:00.560",
+      "endTimestamp": "00:04:38.740",
+      "captionStart": 1,
+      "captionEnd": 73,
+      "tokenCount": 790,
+      "captions": 73
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_chunk_0002",
+    "text": "Easy. Then we have name which is type of text and this is not null. This means you need to pass some data. Same for email and this is also text. This is unique. So email needs to be unique. You can't save same emails into your database. And then we have again not null. So, this is one method is ready. Perfect. Now, how you can use it? You can simply copy this. Let's say, let me go to my app and index. Perfect. And you can even run that into your layout. But let me just open my index and call this function on first load. So, I can simply import my use effect. And simply call my create tables method and add an empty dependency. Easy. Now you will see nothing has bragged one thing. And I think we are good to go now. Alright, so I think we also need to configure this. So let me just copy everything that we have. Perfect. From here till here, just simply copy it. So let me go to my app, Jason, and you will see that we already have this expo SQLite added as plugin, just enhance this, whatever is written inside the documentation, just use it. like enable FTS, use SQL Cypher and for Android we have bunch of settings for iOS we have other settings as well and you guys might be thinking what is the meaning of this enable FTS I will talk about this in a while but for now if I reload my current application just to see what can be the output here. Perfect. Alright, and then I can still see nothing has changed. So this means everything is working fine for now. Perfect. So with this, let's move ahead and let me create a bunch of CRUD operations and then we'll see how I can use it. Easy. So, for that what I can do I can simply go to my DB once again and I can create here simple crud.ts file and then let me add bunch of functions here. Perfect. So, I am just directly copy and pasting it. You also need to do the same. So, you will see that the first method that we have is insert user and like here you can notice one thing like insert into users the name and email simple and values and why I have added this question mark. So, this question mark is a good practice like someone if someone is trying to do a sequel injection. So, this thing is going to save that. We can say thing like save that practice. Got it? So that's why you need to put it whenever you are getting something you can go with it. Cool and values. So whatever the value is like this is the name and this is the email. This will take the place of this. Perfect. Same with get user. So this is how you can get simple select star from users. we have get users on the basis of ID. So, this is your get users and this is our get user. Make sure to keep that in mind and then we have delete user. This is how you can delete it and then we have update. Simple update user set name is equals to this one. And the ID is equals to another, I mean this question mark. Perfect. So this is how this basically work. I mean very fairly simple syntax like this question mark is going to take place with this name and the another question mark is going to take place with this ID. You need to pass something like this. Now, let me save it and let me try to use it. So how I can basically use it? So for using it, let me go inside my app. Inside my app, let me first of all what I can do, I can create here screens. Perfect. And instead of screen, I can directly create here a stack as users list.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "chunkNumber": 2,
+      "start": 252.8,
+      "end": 509.02,
+      "duration": 256.22,
+      "startTimestamp": "00:04:12.800",
+      "endTimestamp": "00:08:29.020",
+      "captionStart": 62,
+      "captionEnd": 138,
+      "tokenCount": 782,
+      "captions": 77
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_chunk_0003",
+    "text": "this name and the another question mark is going to take place with this ID. You need to pass something like this. Now, let me save it and let me try to use it. So how I can basically use it? So for using it, let me go inside my app. Inside my app, let me first of all what I can do, I can create here screens. Perfect. And instead of screen, I can directly create here a stack as users list. dot t s x simple and then r n f e s and I can call this as users list and I will save it. Let me go to my index and let me get my link from expo router and let me go to slash users list. users list and if I just simply press I am onto my users list component and here what I wanted to do basically I simply wanted to like we already have react, style, view, lot of things. Let me import two method. So the first method is getUsers and the another one is deleteUser. Simple. And with style sheet, I also need here a pressable. And what I can do, I can simply call a use effect and get all the data. But right now we definitely don't have it, but we'll do something. So let me simply come into here and say, const users. And this is going to be set users. And I can say this as-- use state and my user is empty and I can what I can do basically I can simply say a sync Function should be loadUsers. And then I can keep it empty and I can simply say cons list is equals to await get users. All right. And then I can simply say set users and simply equal to list. Very simple, fairly simple. And let me set the type as any for now just to don't want it to see any typescript error. And then I can simply call my use effect. And inside this I can call my loadUser function and we are good to go. Now just to render them onto the UI let me just simply paste it. But right now you guys can see that we have UID, U name, email and then on press we are calling this method. Perfect, like deleting it and after deleting it we are getting opening the then and then again loading the user just to see the instant update. But for now you guys can see that we have nothing to show. So for it what I can do I can basically move ahead and start creating one more method. Perfect. So how I can basically create it. This is going to be fairly simple. So let me show you how. So, for that what I can do basically I can go to my users and out of this I can simply initialize a link. This link will take me to the I can say insert user screen which don't exist for now, but it will in a while and then I can say. insert user simple and let me create that so for that I can simply say insert user dot TSX RNFES and insert user save this and save this as well and the moment I click on insert user I am here And what I can do now, I can simply initialize the UI. So let me just simply copy and paste so that we don't waste much of time. And let me import them one by one. One I have text input. Another one is the button from react native and then a method which is insert user. And let me initialize all the hooks that we need. So the first hook is neem. SetName which is equals to use state initially this is empty same for email so I can simply say const email and set email is equals to use state and again empty. And for router I can simply say cons router is equals to use router from expo router. Perfect, so this will push me to user list. Now let me try to use it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "chunkNumber": 3,
+      "start": 475.241,
+      "end": 771.279,
+      "duration": 296.04,
+      "startTimestamp": "00:07:55.241",
+      "endTimestamp": "00:12:51.279",
+      "captionStart": 131,
+      "captionEnd": 192,
+      "tokenCount": 789,
+      "captions": 62
+    }
+  },
+  {
+    "id": "3.expo-sqllite-creating-basic-crud-app_epm_chunk_0004",
+    "text": "And let me initialize all the hooks that we need. So the first hook is neem. SetName which is equals to use state initially this is empty same for email so I can simply say const email and set email is equals to use state and again empty. And for router I can simply say cons router is equals to use router from expo router. Perfect, so this will push me to user list. Now let me try to use it. So for name let me simply say Suraj Kumar and for email let me simply say suraj@suraj.com. And if I press on save and look at that, now this insert user has using this query by running this query and if I am going to my users list, you will see I am getting this cool. And if I delete by pressing over it, this user is deleted. I can reinsert the data. Perfect. In the same way, you can insert bulk data. You can do whatever you want it to do. Let me again save this and again I'm getting I can insert lot of email, lot of gmail.com and if I save it, I'm getting two data. It's perfect and I can delete it as well. Cool. So in this, in same way, like let's say you wanted to see the detail of some user, you can go with that approach. You guys know you need to create a edit user with the ID page and there you can basically implement all of this. So these are, this is how you can basically use SQLite and why do we even need SQLite? just to go or complete offline sometimes and you wanted to create offline first application. Let's say in mini project when this module will comes to end we are going to create a mini project. And in that project, we will see that how you can create offline notes app, like where you will maintain your own notes and perform a full CRUD operations using SQLite database that will work fully offline. Perfect. So yes, this is pretty much it. A simple basic step. Initialize your database. Fairly easy. Create as much tables as you want and implement as much CRUD operations as you want and just simply use it. So yeah, this is pretty much it. And let me just end this chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "lessonFile": "3.expo-sqllite-creating-basic-crud-app_epm",
+      "source": "class-subtitle/module 6/3.expo-sqllite-creating-basic-crud-app_epm/3.expo-sqllite-creating-basic-crud-app_epm.vtt",
+      "chunkNumber": 4,
+      "start": 733.5,
+      "end": 896.18,
+      "duration": 162.68,
+      "startTimestamp": "00:12:13.500",
+      "endTimestamp": "00:14:56.180",
+      "captionStart": 186,
+      "captionEnd": 224,
+      "tokenCount": 465,
+      "captions": 39
+    }
+  }
+]

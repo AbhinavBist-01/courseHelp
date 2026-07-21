@@ -1,0 +1,65 @@
+[
+  {
+    "id": "5. Pedometer & Step Tracking_epm_chunk_0001",
+    "text": "Alright everyone and welcome to one more new chapter. In this chapter we are going to talk about our last X-Pos sensor that is a pedometer. So what is this pedometer actually is? So this is something that you are using on daily basis. And that is we can say this will track your steps. Yes, this is basically used to track your number of steps like you walked 10,000 step, 20,000 steps whatever is that. So this is basically used to track your track steps. And this is basically used to measure the physical activities like fitness tracker, step goal dashboard. You can make applications like this very easily. Perfect. So let's move ahead and start creating this. So for that, first of all, let me comment this out. And, inside this I will name this as stepcounter.tsx, Rn fes and this is going to become your stepcounter. Let me import my stepcounter here. And this is what they are showing to us. Perfect. And inside this step counter very easily like first of all let me just have a basic UI design for it. So first of all let me grab all my CSS that I have. I don't want it to write them line by line. Perfect. So I have a basic card, emoji, account, a bar, a fill and a message. Cool. And then let's maintain two state variable. So the first state variable that we have is steps and second we have set steps. And this is equals to use state and let me just initially have the zero value. And then let me just simply add here available and maybe this will work on Android or not. I'm not 100% sure, but this is working fine on iOS. So I will show you the value on iOS. Perfect. So available is equals to. use state and let me just mention this as a true and let's add a threshold of daily goal. Let's say your daily goal is 2000 step like this is very less. Perfect. You at least have to walk a 10,000 steps, but all right, you are starting it out and your daily goal is 2000 steps. So how you can measure this? So, for that first thing first let me import my padometer sensor and then I can simply say use effect and then let me open it add an empty dependency array. Alright, so how you can do like first thing first always while using it you have to check like if is this available then this will return you a promise. And this promise inside this we have avail value. Alright and then this avail value if we have this sensor available then I will simply show here what I simply show here avail. If this sensor is not available then I will simply return it. Cool. I mean nothing rocket science. I will simply say if this is not available then return from here need not to go ahead. Alright, and then I will say first of all subscribe this so con sub pedometer and then we have look you can see that we have bunch of method but only method that we need is watch step cant. Alright. And you will see that right now I am using watch step count and what is this a callback that invoke when new step count data is available. Alright and then inside this we have a simple step. Perfect. And this step will simply say steps and then we have a simple step here. Perfect. And then what you will do you just unsubscribe to this sub so you can simply say return this. Alright, then what I will do, why I am getting this, alright my mistake, this is steps, perfect. And return here, from return you will see sub dot remove, perfect. And let me just simply create here an emoji and a simple progress, just to show that. here perfect and let me now simply paste the entire UI whatever I wanted to show let me",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0,
+      "end": 291.44,
+      "duration": 291.44,
+      "startTimestamp": "00:00:00.000",
+      "endTimestamp": "00:04:51.440",
+      "captionStart": 1,
+      "captionEnd": 66,
+      "tokenCount": 797,
+      "captions": 66
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_chunk_0002",
+    "text": "Perfect. And then what you will do you just unsubscribe to this sub so you can simply say return this. Alright, then what I will do, why I am getting this, alright my mistake, this is steps, perfect. And return here, from return you will see sub dot remove, perfect. And let me just simply create here an emoji and a simple progress, just to show that. here perfect and let me now simply paste the entire UI whatever I wanted to show let me paste it perfect so we have a emoji so emoji will show on the basis of steps if the step is greater than our daily goal then it will show us a trophy otherwise it will show us this and otherwise this cool. Now, if I save it, you will see right now, I have only walked zero steps. Like let me just open that inside my iPhone, then let me just walk few steps and then I will show you how we are basically tracking that out. Cool. And you will see what is happening. I don't know. Let me reload it. Perfect. Let me open the same inside my iPhone as well. So just give me a minute. Alright. And then I'll showing you that. Alright guys, so we have a small mistake here actually and that is my mistake. Just let me just reset that first of all. Cool. So you will see we are immediately just returning this from here. So that is our mistake. What you need to do out of this, yes at this point. So that is my simple typo and a mistake. And let me just quickly fix it for you guys. Cool. So how I can basically fix it. Let me just show you. So what we can do instead of this, I can add the top of it, maintain a sub, which is, let's say for now type of this. And then here I will say sub is equals to this. And let me just format this once. Cool. And I think right now we are good to go. So, what is happening? Remove is not available to undefined. Alright, so we are updating this value. So, we are not able to go there. Alright, so just give me a minute. Let me just fix it. Then I'll be right back. Alright, so I just made a basic changes here. First thing first, I have just maintained here a let subscription as any. Then I have just opened this pedometer thing. If it is available, then set the value. Same thing. And otherwise, and then we are grabbing all the values inside this. And if we have a subscription, then simply return it and remove it. Cool. And if we don't have available, then we are going to show here pedometer not available on this device. And let me just hard reload it and then let me try to show you the value. Perfect. So. Alright guys, so I have made bunch of new changes just to simulate you in that on a better way. Perfect. So, you will see everything is same just made bunch of changes here like available we are checking the availability then on the basis of operating system. Like we are getting the starting date like we wanted to get like in whole like 12 hours like basically from 12 a.m. to right now it's 1 p.m. around so the number of steps you have did so your device keep track of each of them then we are basically getting the past step And we are setting that value and every time when you steps and when you walk newly then you will get a new value. Perfect and otherwise like for Android this feature is not supported for now that's why we are just only getting this value. Perfect and everything is very very very same. So, let me just simply show you the value of my iOS. Perfect. So, just give me a minute.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "chunkNumber": 2,
+      "start": 255.72,
+      "end": 524.179,
+      "duration": 268.46,
+      "startTimestamp": "00:04:15.720",
+      "endTimestamp": "00:08:44.179",
+      "captionStart": 61,
+      "captionEnd": 134,
+      "tokenCount": 787,
+      "captions": 74
+    }
+  },
+  {
+    "id": "5. Pedometer & Step Tracking_epm_chunk_0003",
+    "text": "did so your device keep track of each of them then we are basically getting the past step And we are setting that value and every time when you steps and when you walk newly then you will get a new value. Perfect and otherwise like for Android this feature is not supported for now that's why we are just only getting this value. Perfect and everything is very very very same. So, let me just simply show you the value of my iOS. Perfect. So, just give me a minute. Let me open my camera and you will see this is the value which is coming. And right now I have walked for few steps and let me just update this value and then I will show you once again. And yes, now you will see that previously we are only able to show here some other value, but right now you will see the value is coming as 438. Perfect. So this is how basically you can track your steps and build an application around this. So amazing, amazing job. And this is the end of our entire module where we have talked about a lot of We can say sensors which is available inside the expo. Perfect. I hope you are loving it and if yes then make sure to drop your feedback. So this is pretty much it and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "5. Pedometer & Step Tracking_epm",
+      "lessonFile": "5. Pedometer & Step Tracking_epm",
+      "source": "class-subtitle/module 7/5. Pedometer & Step Tracking_epm/5. Pedometer & Step Tracking_epm.vtt",
+      "chunkNumber": 3,
+      "start": 484.241,
+      "end": 577.079,
+      "duration": 92.84,
+      "startTimestamp": "00:08:04.241",
+      "endTimestamp": "00:09:37.079",
+      "captionStart": 126,
+      "captionEnd": 147,
+      "tokenCount": 260,
+      "captions": 22
+    }
+  }
+]

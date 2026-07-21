@@ -1,0 +1,44 @@
+[
+  {
+    "id": "8-stack-and-modal-navigation_epm_chunk_0001",
+    "text": "Alright everyone and in this chapter we are basically going to talk about stack navigation inside our expo router. So you can implement a stack navigator in your root layout as shown basically they are basically talking about this and we know that cool because we have already seen about stack navigation tab navigation drawer navigation inside our react navigation module. everything is going to be same. But still we are going to simulate all of them and see all the thing in action, cool. So let's see and how we can basically do so that. So for that I have created here new folder with the name of stack navigation and I have reset it and this is how they look to us right now. So, for using stack navigation inside your root layout make sure you have imported stack cool. And now let's say you wanted to add another screen now let me call this as about.tsx rn fes and let me call it a about cool. And then let me just simply copy the design and let me paste it here directly. And then if I wanted to move myself towards about page what I can do, I can simply import the link component from exporter right now and yes I wanted to go towards about screen and just a basic design. And if I press on about, you will see I am redirected myself towards the about page and what is going to happen after this. So this is your home screen and the moment you redirected yourself towards the about page. So this is how they are tagged over each other and whenever you wanted to go back again to home page, you will simply press back. Now this is how they basically going to look. Cool, so you are behind this like home page is in front now and the moment you again press it, now they stacked one another, something like this, cool. So this is how this stack navigation work, we know that, we know that very well, but Let's say right now I wanted to modify these headers. So how you can do so pretty straightforward. You just simply need to go inside your layout. And now instead of creating this as self closing, you can basically something do something like this. And then let's say and let me just wrap all of them inside this. Cool and let me fix it, just give me a minute, let me format this and let me off my AI because it disturbing me a lot. Alright and then inside this stack same thing, same everything is going to be same, you just simply need to basically coming to here and then let me show you what you can do. So, for that you can adjust simply coming to here and say stack.screen and just simply need to pass the name of the screen, need not to pass the component explicitly here, cool. And then we have again we have bunch of options. So, let me just do this for about as well name and I can again call this as about. No problem. And then let's say I wanted to design my index page. So for that what you can do, you can just simply come into here and use something known as options. Let's say I wanted to call this as home. Perfect. Let's say I wanted to change the header style. me change this background color to #6a. 5 to A and now if I save it, this is how they look and let's see let me change this to something like this and if I save it, this is how they look right now, cool. In same way, you can change your colors, so how you can do so, you can simply say header, color and this is going to be hashtag FFF and if I save it now this become white and let's say and again I am going to say this as header title style and I can simply say this as font weight. And let me make it bold and if I save it now this become bold.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "8-stack-and-modal-navigation_epm",
+      "lessonFile": "8-stack-and-modal-navigation_epm",
+      "source": "class-subtitle/module 4/8-stack-and-modal-navigation_epm/8-stack-and-modal-navigation_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0.44,
+      "end": 275.98,
+      "duration": 275.54,
+      "startTimestamp": "00:00:00.440",
+      "endTimestamp": "00:04:35.980",
+      "captionStart": 1,
+      "captionEnd": 58,
+      "tokenCount": 782,
+      "captions": 58
+    }
+  },
+  {
+    "id": "8-stack-and-modal-navigation_epm_chunk_0002",
+    "text": "In same way, you can change your colors, so how you can do so, you can simply say header, color and this is going to be hashtag FFF and if I save it now this become white and let's say and again I am going to say this as header title style and I can simply say this as font weight. And let me make it bold and if I save it now this become bold. This is how you can modify this same thing if you wanted to apply here you can again coming to here paste all of it and let us say for about I am going to change it and if I go to my home about screen this is how they going to look. Cool? Like something like this. But let's say you wanted to see the common design into about screen and into home screen. So instead of passing separately, what you can do basically, you can cut this out, go inside your stack, yes. And here you can simply use something known as screen options and then inside this paste We can directly paste it, cool. And then let me remove this because we don't need it. And now if I save it, you will see that this same UI is applied on every page. Let's say if I am going to add right now a profile page, profile.tsx and then let me copy the same, let me paste the same and let me change about to profile, easy. And if I save it go to about screen this is how they look and in same way let me go to my profile and now if I save it we will see. So let me coming to here let me change this to profile. And if I click on profile, now I am onto my profile page. So I hope so, this is making sense and in same way, same as react navigation, you can also change the left button, you can also change the right button, same thing. I mean, like you can again go to options, inside options you have a header right and then you can use here any component you wanted to use same for header left. So, yeah, we have already seen all of this inside our react navigation. So everything is a ditto same. Oh, yeah, yeah, this is pretty much it. We can save for this chapter. So let me just create one commit stack. Perfect. And from next chapter, we are basically going to see how you can create tab navigation and then model navigation. We'll see all of that. Don't worry. In same way. Now, let us say you wanted to use this as a model. So, how you can use it? You can simply inside this option, you can simply say here something like presentation and presentation as model. Now, this home screen is going to treat it as a model. Got it? If you open this inside your iPhone and something, you will see the output as something like model. Let me show you. But for that I need to cut it out and I need to paste it here. Now let me click on about. So let me show you how this model is basically going to look like an iPhone as well. Alright guys so now I am showing you my iPhone basically and if I the moment click on about you will see this that this is basically showing as a about. Cool. So yeah this is how you can basically change it. So, I am assuming you guys loving this series and yep, this is pretty much it for this chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "8-stack-and-modal-navigation_epm",
+      "lessonFile": "8-stack-and-modal-navigation_epm",
+      "source": "class-subtitle/module 4/8-stack-and-modal-navigation_epm/8-stack-and-modal-navigation_epm.vtt",
+      "chunkNumber": 2,
+      "start": 247.72,
+      "end": 479.08,
+      "duration": 231.36,
+      "startTimestamp": "00:04:07.720",
+      "endTimestamp": "00:07:59.080",
+      "captionStart": 54,
+      "captionEnd": 109,
+      "tokenCount": 713,
+      "captions": 56
+    }
+  }
+]

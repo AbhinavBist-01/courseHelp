@@ -1,0 +1,44 @@
+[
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_chunk_0001",
+    "text": "Alright everyone and welcome to a mini project video. In this video with the help of our expo sensors we are going to create a tilt game mini project like we are into the same project that you can see this. But with the help of accelerometer we are going to create a tilt game. project. Perfect. So for that, let's move ahead and reset this towards the perfect. So now let's move ahead and first thing first, whatever the things that I need to build this, Let me import that. So, I need accelerometer, status bar and then use effect, use state, dimensions, style sheet, text and view. Perfect. And then initially first of all I wanted to get the width of my screen. So for that I wanted to use dimensions.get and I need for window. Perfect. I can simply say box_size is equal to with -40. And then let me create a ball_size is equal to 30. And, inside this I wanted you to set a position. So, position and then this is going to be set position and then use state for it and for x-axis. Whatever, whatever the box size minus the ball size and then divided by 2, so that we keep that in centre kind of cool, is not as constant. But we have that and same thing we have for this. Perfect. What is happening? Alright, so we don't equal to this is going to become minus. And from accelerometer we can have the x and y axis values. So let's get a sensor values and set sensor values. And this is equals to U state and then I can have x-axis as 0 and y-axis as 0. All right. And then what we can do basically right now. Let's move ahead. And first of all, let me initialize my design. So we have entire style. Let me simply paste it here. Perfect. So all the styles, container, title, game box, ball, info container, info text and instructions. And then let me paste my entire view for it. So let me copy the entire view and let me paste it. All right, and if I save it right now and try to close this and bunnx expose start once again and then let me simply press A. So this is going to open this onto Android and let me reload it. All right. And you will see UI something like this. Perfect. So, what like you can see that right now my ball is in center. Perfect. Every time when I move my screen, I wanted to see the position of my ball where it is actually going. So for that I can simply use my use effect. And this use effect is basically something like this. Like we have here an empty dependency. And what I can do every 2 milliseconds, 20 milliseconds, I wanted to add a update interval to set update interval is going to be 20. And then we have const subs. encryption is equals to accelerometer dot add listener then we have a basic data and let first of all set sensor values as x is going to be data dot x and for y data dot y all right and for positioning set position whatever the previous position is coming and And inside this first of all I need a sensitivity and then we are calculating the new position by multiplying this whatever the sensitivity is and then we are changing the position for it. So, for x-axis ball size minus box size and new position will come and then we are returning the new value of my ball. Perfect. And if I save it, look at that. And I can also unsubscribe to this. So this is going to be return. Call this value and subscription dot remove. All right. And you will see right now my phone is here. And as I keep moving my phone, you will see, look at that. Look at that. How beautifully I can tilt my this phone in different directions.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0.739,
+      "end": 336.36,
+      "duration": 335.62,
+      "startTimestamp": "00:00:00.739",
+      "endTimestamp": "00:05:36.360",
+      "captionStart": 1,
+      "captionEnd": 70,
+      "tokenCount": 794,
+      "captions": 70
+    }
+  },
+  {
+    "id": "6. Tilt the Ball Game - Mini Project_epm_chunk_0002",
+    "text": "the new value of my ball. Perfect. And if I save it, look at that. And I can also unsubscribe to this. So this is going to be return. Call this value and subscription dot remove. All right. And you will see right now my phone is here. And as I keep moving my phone, you will see, look at that. Look at that. How beautifully I can tilt my this phone in different directions. And this is how they are working. Amazing, isn't it? And you will also see the value of this at the bottom of it. So, yep, this is pretty much amazing for it. And if I just try to explain you, this is your sensitivity. Like you will see the new x-axis is whatever the previous value of x and whatever the data is coming from here. Add it and then add a basic sensitivity to it. Easy and same thing same and we are just updating it something like that. this. I know it's bit confusing but it's fine. This is how you can use this. Look at that and take that as an assignment and try to build same applications with the help of other sensors and tag me on Twitter and tag Ateesha on Twitter and we'll see where we can take this to. Alright, so this is the end of our entire module and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 7",
+      "lesson": "6. Tilt the Ball Game - Mini Project_epm",
+      "lessonFile": "6. Tilt the Ball Game - Mini Project_epm",
+      "source": "class-subtitle/module 7/6. Tilt the Ball Game - Mini Project_epm/6. Tilt the Ball Game - Mini Project_epm.vtt",
+      "chunkNumber": 2,
+      "start": 304.381,
+      "end": 393.88,
+      "duration": 89.5,
+      "startTimestamp": "00:05:04.381",
+      "endTimestamp": "00:06:33.880",
+      "captionStart": 60,
+      "captionEnd": 84,
+      "tokenCount": 277,
+      "captions": 25
+    }
+  }
+]

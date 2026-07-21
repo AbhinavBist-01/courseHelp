@@ -1,0 +1,107 @@
+[
+  {
+    "id": "chapter-4-implementing-github-authenitcation_epm_chunk_0001",
+    "text": "Alright everyone and welcome to one more new chapter. In this chapter we are going to see that how we can implement GitHub authentication. In last chapter we have seen that how you can implement Google but right now let us move ahead and start implementing the GitHub authentication. Again very easy authentication, same approach nothing is going to change. So first thing is... Again, let me go to my app into my API inside my API. You will see we already have everything related to Google and same thing we need to create for we can say GitHub. So I am simply going to say GitHub. authorize plus api.ts and inside this let us let go inside the constant file. So, inside this what I will do I will add bunch of constant variable related to github as well. So, let me just organize them this is related to Google. This is something that we need every time. At this point, we are going to have something related to GitHub underscore client ID. Yes, GitHub client secret. Let me off my AI. And after that, we also need GitHub auth URL, GitHub token URL and GitHub, we can say user API. So, this is basically related to your GitHub auth URL in same way. In same way I can have GitHub token URL. So, if you hit this, you will get token. I mean you getting the point in same way we can have a GitHub user API URL. So, if you are hitting this end point, you are basically going to get the user API. No problem. Perfect. Now, let me come into here and first thing is let us import all of the things that we need. So, I need a base URL, GitHub auth URL, GitHub client. No problem. Perfect. And, in same way what I will do I can simply say export a sync function. The name of this function is get. And then what we can have, we can have a request. This request is the type of request. Perfect and yes, everything is going to be very much of same. So first we need a URL. Second thing that we need is the state. Yes, we are understanding that. No problem at all. Perfect. What is the third thing? We need to make our params. So I will paste it. So this is your params which have a client ID, the redirect URL and the scope basically getting the email and the state. And at the very bottom, I will return a response, basically not return, basically redirect my response towards this GitHub auth URL with the parameters attached to it. So this is your GitHub authorized API. So, let me just try to explain the key difference from the Google. So, GitHub uses scope perfect instead of using the response type and prompt and GitHub uses user email or we can say read user read email for more permissions, but for now we do not need any prompt parameter what I am talking about. If I go to authorize.api you will see that we have here prompt. We don't need it. We can simply pass the scope and we are good to go. Cool. So now I can close this. But next, next we can initialize the callback. So let me go to app auth and this is your GitHub and in same way I can have what? GitHub callback plus API dot ts and then this is also going to be export default function name of this function is going to be as get they have something known as request and then this is equal to the request. And let me open this, but next we need to get a bunch of information from the URL. First is the URL, second is the state, third one is the code. Yes, this is the code and then we have the error. So, if we have any error, then I simply wanted to return this. redirect URI this is the app scheme error is equals to whatever the error is coming and then we are redirecting is to redirect URI alright no problem.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-4-implementing-github-authenitcation_epm",
+      "lessonFile": "chapter-4-implementing-github-authenitcation_epm",
+      "source": "class-subtitle/module 13/chapter-4-implementing-github-authenitcation_epm/chapter-4-implementing-github-authenitcation_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0.599,
+      "end": 277.15999999999997,
+      "duration": 276.56,
+      "startTimestamp": "00:00:00.599",
+      "endTimestamp": "00:04:37.160",
+      "captionStart": 1,
+      "captionEnd": 70,
+      "tokenCount": 798,
+      "captions": 70
+    }
+  },
+  {
+    "id": "chapter-4-implementing-github-authenitcation_epm_chunk_0002",
+    "text": "And let me open this, but next we need to get a bunch of information from the URL. First is the URL, second is the state, third one is the code. Yes, this is the code and then we have the error. So, if we have any error, then I simply wanted to return this. redirect URI this is the app scheme error is equals to whatever the error is coming and then we are redirecting is to redirect URI alright no problem. Next what I need next I need the redirect URI so redirect URI is equals to again what Module 13 Alright, and then what next? A simple parameters. Perfect. Then I will simply come into here. We have what a code and then this state and then I will simply copy this and then I will paste it. This will again redirect me to the redirect URI and whatever the parameters we have. Perfect. Now what next? In same way, we also need the token API like this. So, I can again coming to here then I will going to call it as github token plus api.ts no problem. Now let me import all of the things that I need. I need base URL, github client ID, github client secret, github token URL, github user API URL. Alright, lot of information. Then this is going to be your post request. So, I can simply say what I can simply say here export a sync function this is going to be your post then we have the request, request is the type of request perfect then I can simply open one try and catch inside this try first thing I can get the code from the form data same. Then what I will do, I will simply call the endpoint to exchange my code. So I will just copy and paste that. Okay, so now you can see that right now we have a token response. We are fetching this token URL endpoint. This one. To get the access token sending the headers and then inside the body we have a code client id client secret and then the redirect uri like where I wanted my user to redirect and after this I can simply say if we do not have any token response dot ok then I can simply get what my error text I can say await token response get me the text and then console the error and return the response. Perfect, consoling the error and returning the response. No problem. Alright, but next I will get my tokens. So I can say what? I can say const tokens is equals to await token response dot json. And, then I can say this as const access token is equals to tokens dot access token. This is the first thing we have and again if we do not have any access token then I will return no access token received. And now what I need to do I wanted to fetch my user information with on the basis of this access token. So I will hit this endpoint fetch GitHub user API URL this headers with this bearer token and again if we don't have any user response I will throw the error like GitHub user API failed this is your issue. Otherwise, we will get what we will get the user info which is equals to await user response dot json. Sometime GitHub may not return email in user endpoint if it's private. So we definitely need to fetch email separately. You also need to do so that but I think it's fine no problem. We can simply move ahead and then I can do what I can again normalize my user. Perfect. So, I can say const normalize user is equals to first thing is the sub we are going to have. So, I can say user info dot id to string. And I think this is going to break, but it's fine. Let me console the user info as well so that we will debug it properly. Second thing we are going to have is the user name. If we have otherwise the login. Yes, this is how they come.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-4-implementing-github-authenitcation_epm",
+      "lessonFile": "chapter-4-implementing-github-authenitcation_epm",
+      "source": "class-subtitle/module 13/chapter-4-implementing-github-authenitcation_epm/chapter-4-implementing-github-authenitcation_epm.vtt",
+      "chunkNumber": 2,
+      "start": 246.5,
+      "end": 545.14,
+      "duration": 298.64,
+      "startTimestamp": "00:04:06.500",
+      "endTimestamp": "00:09:05.140",
+      "captionStart": 65,
+      "captionEnd": 132,
+      "tokenCount": 790,
+      "captions": 68
+    }
+  },
+  {
+    "id": "chapter-4-implementing-github-authenitcation_epm_chunk_0003",
+    "text": "Perfect. So, I can say const normalize user is equals to first thing is the sub we are going to have. So, I can say user info dot id to string. And I think this is going to break, but it's fine. Let me console the user info as well so that we will debug it properly. Second thing we are going to have is the user name. If we have otherwise the login. Yes, this is how they come. Third thing is we are going to have the email. So again, user info dot email. Perfect, and at the end I can even get the picture from my GitHub. So this is my user info avatar URL. And at the end I will return this, the access token and the normalize user. Otherwise I can return. So, all right, now we are done with all the backend endpoints we have. What next? Next is let's move ahead and start implementing and fixing our auth context. Because right now we only support, let me go to my auth context, right now we only support what Google, but we wanted to support GitHub as well. So everything is going to be same, every existing will look, but one thing you need to change right now inside this auth context, now inside the sign in, we are going to provide them the provider. Yep. Then we have a Google or maybe we can have the GitHub and this will going to return us the promise. Perfect. Now, as you guys can see right now, we have configuration related to Google, but in same way we need one GitHub config as well. Let me add it. This is your GitHub configuration. client ID, scope, make redirect URI and this easy. You can see that this is your Google discovery, but in same way we need what GitHub discovery. So let me paste that as well. So I have authorization endpoint and again I have token endpoint easy nice. Now, below your access token state variable or maybe is loading state variable, we can have one provider we can say state variable which is be it Google or be it GitHub. Perfect. Nice. Now what we can do, we can simply move ahead and use one hook. The name is useAuthRequest. I mean this one. So let me take it below and yes this is not how you are going to use it. Let me just change this for you. So, first we need the Google request, use auth request. Second one is related to your GitHub auth request. Perfect. Nice. And now inside this use effect, you also need to change it. And let me show you how, let me paste that, so what I am telling it, if Google response type is equals to success, then call this method, got it. If the GitHub response type is success, then call another method with this and definitely we need to update that as well. Now they are accepting the code which is fine, but they are also accepting something known as auth provider. Auth provider and this Auth provider is the type of Google or this is the type of GitHub. Perfect. Nice. And now if I save it, look at that. They are working fine and definitely we need to make changes here as well. Now, form data is same, but we need to maintain one endpoint URL. So, I can simply say what? Endpoint is equals to what? If the auth provider is equals to equals to Google, then use this URL. Got it? Let me simply add that. Let me add backticks then add that. Otherwise use another URL which is related to GitHub token. Perfect. Let me add backticks and paste that. So this is your endpoint. Now instead of calling this, pass this dynamic endpoint based on the provider we are using. Easy. Nice, now we have a token, but now this token can be of two types, one is for access token, another one is for GitHub access token.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-4-implementing-github-authenitcation_epm",
+      "lessonFile": "chapter-4-implementing-github-authenitcation_epm",
+      "source": "class-subtitle/module 13/chapter-4-implementing-github-authenitcation_epm/chapter-4-implementing-github-authenitcation_epm.vtt",
+      "chunkNumber": 3,
+      "start": 514.6,
+      "end": 805.54,
+      "duration": 290.94,
+      "startTimestamp": "00:08:34.600",
+      "endTimestamp": "00:13:25.540",
+      "captionStart": 124,
+      "captionEnd": 198,
+      "tokenCount": 797,
+      "captions": 75
+    }
+  },
+  {
+    "id": "chapter-4-implementing-github-authenitcation_epm_chunk_0004",
+    "text": "Got it? Let me simply add that. Let me add backticks then add that. Otherwise use another URL which is related to GitHub token. Perfect. Let me add backticks and paste that. So this is your endpoint. Now instead of calling this, pass this dynamic endpoint based on the provider we are using. Easy. Nice, now we have a token, but now this token can be of two types, one is for access token, another one is for GitHub access token. So I will say something like this, token key auth provider can be Google, if the auth provider is Google name it as access token, otherwise name it as GitHub access token and then it Change this as well and change this token key to this. Cool. And at the very end, we already have this token dot user. And one more thing we can say set provider. Provider is equal to the auth provider we have. Nice. And in same way into the sign in, we will always provide the auth provider, which is type of Google and GitHub. And by default, this is type of Google. And then what we will do, let me change the code. We will do something like this. Set provider, whatever the auth provider we have. If the auth provider is Google, then call this Google prompt async. This one. Otherwise, call what? Otherwise, call GitHub PromptoSync. Easy. Same thing will happen to the sign out. So instead of deleting this, no, we need to delete the key related to the provider. So I can say token key. If the provider is Google, then use this key. Otherwise, use GitHub access token key. Easy, and then rest of the component is same. Need not to change anything. Now simply go inside your login dot, yes look at that, they are invalidated now, which is fine. Inside the sign in, create two methods. One is handle, Google sign in, another one is handle, GitHub sign in. And then what we will do basically, let me also update my UI. Did we show you how? Perfect. And let me also update my design. So just give me a minute. Let me quickly update that. Just give me a minute. Let me grab my design because definitely I don't want it to write them from scratch. So that's the reason. Got it? I hope yes. So, let me copy this. Let me come into here and let me paste it. Nice. So, if I also save this, cool. So, now you can see that we have sign in with Google. We have sign in with GitHub. Perfect. Now, how to grab your GitHub client ID and client secret? Simply go to your github and inside this github simply search for settings. Inside the settings go at the very bottom and search for developer settings. Simply open your developer settings and then go inside OAuth apps and then simply press on new OAuth app and you can name it. Let's say right now I am naming it as. Expo auth, Expo GitHub auth much better. And then again login URL is going to be not 87878081. And for the callback, callback is going to be as HTTP slash API slash auth slash I think GitHub callback if I am not wrong. Perfect. So hopefully this is the correct URL which we have. Let me just check it out. App slash API slash auth slash github hyphen callback. API auth github hyphen callback. Yep. I think this is right. And make sure you don't have any extra spacing anywhere. So this is your client ID and I need to generate my client secrets. So let me generate it. Now you guys can see that I have my client ID and I do have my client secret. And again, don't use my credentials. I am definitely going to change them. Now let me come into here and first of all let me change this to environment variables.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-4-implementing-github-authenitcation_epm",
+      "lessonFile": "chapter-4-implementing-github-authenitcation_epm",
+      "source": "class-subtitle/module 13/chapter-4-implementing-github-authenitcation_epm/chapter-4-implementing-github-authenitcation_epm.vtt",
+      "chunkNumber": 4,
+      "start": 770.16,
+      "end": 1056.18,
+      "duration": 286.02,
+      "startTimestamp": "00:12:50.160",
+      "endTimestamp": "00:17:36.180",
+      "captionStart": 188,
+      "captionEnd": 270,
+      "tokenCount": 797,
+      "captions": 83
+    }
+  },
+  {
+    "id": "chapter-4-implementing-github-authenitcation_epm_chunk_0005",
+    "text": "Yep. I think this is right. And make sure you don't have any extra spacing anywhere. So this is your client ID and I need to generate my client secrets. So let me generate it. Now you guys can see that I have my client ID and I do have my client secret. And again, don't use my credentials. I am definitely going to change them. Now let me come into here and first of all let me change this to environment variables. Alright now in same way I need my github_client_id and then I also need github_secret client secret. I think whatever is that sec are to get up secret. Then let me go to the index store T s of my constants and I think this is client secret. So let me change the variable name and then. Let me copy this. Let me paste it. Nice. In the same way, I will also copy this. And also paste this. Cool. Perfect. So now, we are good to go. Perfect. Alright. So I think this is the high time to test it out. Hopefully, everything will work. Let me reload everything. Perfect. And yes, let me say sign in with GitHub. Definitely I need to, I think, log in into this device and look at that. I'm redirecting to this. Let me try to continue with Google to my GitHub and we'll see. Let me if I tried to. Google and if I press code snippet with this because I know this is the ID that I have we send you verification request to your GitHub mobile app. So just give me a minute. Let me just quickly verify that from my GitHub mobile app and then we are good to go. All right. So just give me a minute. And I think yes and boom look at that. Authorize, let me authorize this and ok what I am basically getting method is not allowed. Ok I will fix it no worries but right now I think this will definitely going to work. Okay, so I think there is something wrong into it. So first of all, like you can see that we have a request export async function and this is the function we wanted to export. Perfect. So this is right. Okay. And let me just copy from here till here. Okay. callback and yes look at that this is the issue so let me fix it as well issue one and into GitHub token if I am not wrong then maybe we need to give the spacing here of it so now if I reload it alright and hopefully let me go to my app let me reload it once again Perfect, nice, let me sign in with GitHub and okay, we are still loading and look at that we are logged in successfully and I can see all of my information at this point. Look at that. This is actually coming from GitHub and okay, my email is coming as null. No problem. I'll fix it. Then we have this. Then we have this picture and then we have sub as well. So only thing that we are not getting is the null. I mean the email. But I think we have email. If not, it's fine. We will fix it. But. If I go to my profile, look at that. This is the profile which is basically coming from GitHub and I can sign out. I can even log in with Google. Hopefully this will work. Let me log in with it. All right. Let me wait for it and okay. Error handling is something wrong. If I go to a profile, look at that. This is how this is basically working. So amazing, amazing job. This is the end of the GitHub authentication chapter. From the next chapter, we are going to see that how we can use the third party libraries to implement authentication in the Expo application. And then you will see that how easy it is to implement all of these things. So amazing, amazing job and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 13",
+      "lesson": "chapter-4-implementing-github-authenitcation_epm",
+      "lessonFile": "chapter-4-implementing-github-authenitcation_epm",
+      "source": "class-subtitle/module 13/chapter-4-implementing-github-authenitcation_epm/chapter-4-implementing-github-authenitcation_epm.vtt",
+      "chunkNumber": 5,
+      "start": 1028.119,
+      "end": 1298.9,
+      "duration": 270.78,
+      "startTimestamp": "00:17:08.119",
+      "endTimestamp": "00:21:38.900",
+      "captionStart": 262,
+      "captionEnd": 340,
+      "tokenCount": 798,
+      "captions": 79
+    }
+  }
+]

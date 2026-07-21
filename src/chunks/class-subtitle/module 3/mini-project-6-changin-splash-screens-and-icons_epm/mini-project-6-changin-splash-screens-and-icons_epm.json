@@ -1,0 +1,23 @@
+[
+  {
+    "id": "mini-project-6-changin-splash-screens-and-icons_epm_chunk_0001",
+    "text": "Alright guys and welcome to one more new chapter. In this chapter we are going to change this icon and the moment you press this and reload your application and do anything with it. So instead of showing that by default expo splash screen we are going to talk about it more. So I wanted to show my icon. So how you can fix it? Very easy. You can simply search for a file name as app.json. Jason. And this app dot json you can see that we have option as icon. Instead of showing this icon dot png I wanted you to simply say this as logo dot png. And if you just redirect towards this page you will start sharing this. Cool and definitely you can change the name of this application whatever you want it to and then you can definitely change the background color. Let me just add 18181B. Perfect. And in same way if you wanted to change other things so you can like let's say just for web instead of showing fav icon you can simply write here logo.png. In same way you can instead of showing splash icon you can simply show logo.png easy. So let's try to see this look at that. So the moment I reload it you by doing by changing this you are able to see that and if I go to complete home page and look at that now we have successfully changed the logo of our application. With this the end of our entire mini project I hope so you have learned a much much more about react navigation and this is going to be the last time we are talking about react navigation because from next module we are going to start learning about and exploring about X-PORouter. So yes this is pretty much it for this entire module and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 3",
+      "lesson": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "lessonFile": "mini-project-6-changin-splash-screens-and-icons_epm",
+      "source": "class-subtitle/module 3/mini-project-6-changin-splash-screens-and-icons_epm/mini-project-6-changin-splash-screens-and-icons_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0.9,
+      "end": 123.16,
+      "duration": 122.26,
+      "startTimestamp": "00:00:00.900",
+      "endTimestamp": "00:02:03.160",
+      "captionStart": 1,
+      "captionEnd": 29,
+      "tokenCount": 349,
+      "captions": 29
+    }
+  }
+]

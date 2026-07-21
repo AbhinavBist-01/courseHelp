@@ -1,0 +1,44 @@
+[
+  {
+    "id": "3. Consuming external apis_epm_chunk_0001",
+    "text": "Hello everyone, in this lecture we are going to learn how to talk to external APIs from your expo app. External APIs are services you don't control like we can say public rest services, whether APIs or any backend you did not write. So, we will see how to fetch data from those services using fetch and you can even use a library known as Xeos. So, it's up to you, but I'm going to be as native as possible. So, I wanted to use fetch here. So, why do we even need to consume external APIs? I mean, it's straightforward. sometime. External APIs are everywhere. They powers you lot of features out of the box. Like sometimes you wanted to fetch some real data like weather, stock price, mapping, getting information we can say from third parties services. Like let's say you wanted to integrate Stripe, Firebase, Superbase, Convex, then you need external API calling. So that's why we are doing it. Perfect. So let's move ahead and let me keep it very short and simple. Let me create one more new here something known as post.tsx, rn, fes and this is going to be post. Perfect and let me take myself towards the post page. So below this, let me simply use the link href2. Yes, this one and then I can simply say this as post. Perfect. And if I press on post, I am on to my post page. Now inside this post page, there is a very interesting API name is Jason placeholder. Perfect, if I just simply hit the URL as sttps json placeholder.type icode.com/post and you will get bunch of posts. Perfect, so on the basis of that you can render them on UI but we'll see how we can do that inside our expo app. So, for that, let's say whenever I redirect myself towards this page, I wanted to see that. So, I can use use effect and use state simple. So, let me simply say here the const posts and then set posts is equals to use state Alright, and then let me just inside this use state let me add here the array like definitely this post can be the array like you can see this array of object and then I can simply use the loading. And this is going to be as a set loading, LOADNG loading is equals to a view state and let me initialize as true, easy. And then I can simply use a method. Let me name the method as const fetchPosts is equals to async. And let me wrap them up wrap them up inside a try and catch finally block. It's a good practice. Then let me set loading as false every time when this request complete or not. And by any chance if we have any error so console.error and error is basically going to be something went wrong or we can say error fetching post. Alright, so this is going to be error fetching posts and then I can simply say an inside my try I can simply say cons response is equals to await fetch not fetch post this fetch you can even use a axios here as well and inside this let me use this URL perfect. So, I can simply paste this URL and yep, we are good to go. Now let me simply say data, this data is equals to await and response dot json. And then I can do what I can simply say set posts as data. Yep. Nice, now but this is not going to work, we definitely need to wrap this up inside a use effect. So this use effect is going to be here and inside this I can simply call my fetch posts and I can simply call my fetch posts. And then I can add a dependency of empty dependency and if I save it still nothing to show because definitely we haven't added anything. Now if we are into loading state, yes, if we are into loading state, then I wanted to",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0.76,
+      "end": 302.2,
+      "duration": 301.44,
+      "startTimestamp": "00:00:00.760",
+      "endTimestamp": "00:05:02.200",
+      "captionStart": 1,
+      "captionEnd": 62,
+      "tokenCount": 794,
+      "captions": 62
+    }
+  },
+  {
+    "id": "3. Consuming external apis_epm_chunk_0002",
+    "text": "Nice, now but this is not going to work, we definitely need to wrap this up inside a use effect. So this use effect is going to be here and inside this I can simply call my fetch posts and I can simply call my fetch posts. And then I can add a dependency of empty dependency and if I save it still nothing to show because definitely we haven't added anything. Now if we are into loading state, yes, if we are into loading state, then I wanted to return here a component inbuilt component as activity indicator and add a size as large. Alright and for the UI I can simply use the flat list and show them. So let me paste the UI, let me import my flat list. So now you will see we have a data, a simple key extractor and I wanted to render this. And now if I save it, look at that, we are rendering all the random posts and all this is just simple simulation, I can enhance this as much as I want, but I just don't want it to get into it. But yes, like look at that, now if I go to post and if I go to here, you will see we have rendered all the data which is coming from this external API. Cool. So, yes. This is how you can basically use it in same way if you wanted to send data now I am not going to teach you how to use fetch API you know that very well so yep alright. So this is pretty much it for this shifter we are going to create a very crazy mini project For that mini project, we are going to create a news app like we are going to use the external news API and consume that and show them on to the UI. So we will see. So yeah, this is pretty much it for this chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "3. Consuming external apis_epm",
+      "lessonFile": "3. Consuming external apis_epm",
+      "source": "class-subtitle/module 5/3. Consuming external apis_epm/3. Consuming external apis_epm.vtt",
+      "chunkNumber": 2,
+      "start": 269.5,
+      "end": 387.46,
+      "duration": 117.96,
+      "startTimestamp": "00:04:29.500",
+      "endTimestamp": "00:06:27.460",
+      "captionStart": 56,
+      "captionEnd": 80,
+      "tokenCount": 375,
+      "captions": 25
+    }
+  }
+]

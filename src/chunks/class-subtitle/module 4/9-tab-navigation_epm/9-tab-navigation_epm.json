@@ -1,0 +1,44 @@
+[
+  {
+    "id": "9-tab-navigation_epm_chunk_0001",
+    "text": "Alright everyone and welcome to one more new lecture. In this lecture, we are going to talk about tab navigation inside export outer. So much like stack, you can implement tab navigator in your layout file and all the routes directly inside that directory will be treated as a tab. Simple as that. Consider the following structure. So let's start with this structure. So, for that I have already created one more new folder with the name of tab navigation and initialize a expo project with resetted project, cool. So, we only have this and a basic layout as well, perfect. So, for implementing tabs, you need to, I mean, this is a good practice and this is how you should always create it, you need to create a route group named as tabs and inside this, let us try to copy this. So we have index, feed and profile, all right. So let me simply create index.tsx, feed.tsx and profile.tsx. TSX, alright. And then let me try to copy this page. And first of all, let me paste an index, same in feed and same in profile. Let me change all of their name. So for the tabs, index. Let me just simply going to call this. Let me call it a home, perfect, copy this, change this to home. For the feed, let me also going to change this to feed and let me call this a feed as well and same for profile. So let me call this as a profile and change this index to profile. So, this is the step number one and the step number two is going to be inside your root layout what you need to do, you simply need to first of all do something like this. Let me just simply say this as stack and inside this get your stack then let me call this a screen and then just happened. me fix it. Cool. So, just give me a minute, let me quickly fix it. All right, then basically instead of this for the name of the screen, I am basically going to call it a tabs, something like this, perfect. And after this, what do you need to do or the options, you just need to change a header shown variable to false because tab navigation have their own headers. And then if I save it cool and then you can inside your tabs but you can do for now you can definitely delete this because we do not need it. So let me delete this and let me try to reload everything but you will not going to see anything the way we wanted to see but let me just reload it and let me be on this screen. So you will only see the tab slash fade for now. And then what is the next step you need to do for the next step you basically need to go inside your feed like here and then inside this you need to also create a new layout dot TSX and then for this layout dot TSX what you can do you can simply going to import a tab here perfect. So you can simply going to say import. tabs, not alright import tab from export out and then you can simply say export default and instead of root I can say this as tab layout and let me off my AI and look at that. You have successfully initialize our tab, you will see index, you will see feed and you will also see profile something like this. So, now let's move ahead and we'll see how you can basically modify this. So for modification again, you need to something like this. Let me just coming to here and use this as tabs. And then inside this, let's say for the first index screen, let me say this as tab screen self closing name, name is definitely we have index, but I can change it, I can simply say options. And this options is going to have a tab bar label and this label, I can say this as home.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0.12,
+      "end": 281.8,
+      "duration": 281.68,
+      "startTimestamp": "00:00:00.120",
+      "endTimestamp": "00:04:41.800",
+      "captionStart": 1,
+      "captionEnd": 57,
+      "tokenCount": 790,
+      "captions": 57
+    }
+  },
+  {
+    "id": "9-tab-navigation_epm_chunk_0002",
+    "text": "So for modification again, you need to something like this. Let me just coming to here and use this as tabs. And then inside this, let's say for the first index screen, let me say this as tab screen self closing name, name is definitely we have index, but I can change it, I can simply say options. And this options is going to have a tab bar label and this label, I can say this as home. So now you will see form index, this is changed to label. Let me copy this, paste this and paste this as well and although we already have this correctly, but let me just simply move ahead and after that what I can do, I can simply use here something known as explore. And inside this explore, I will call this as this explore, cool. And let me also create here profile. And I will call this as my profile perfect. And if I save it, you will see I have home, I have my profile and we all already although have now this is not profile, sorry, my mistake. This is Feed. And I will say this as my feed, perfect. Now if I save it, this is how they basically going to look because first is the home and second is going to be our profile. So let me change this to profile and now if I save it, now everything is saved. perfectly fine but let's say right now I wanted to change my local icon. So how you can change it? So for that you can basically import a font awesome icon library from a very nice I can say vector icons slash a font awesome. Perfect and if you wanted to be and if you basically wanted to use it so you can use it very easily. So let me show you how you can basically use it. So for that you can just basically coming to here and use the tab bar icon. easy. And inside this tab bar icon you can return a jsx. So, how you can basically do so this simply coming to here. And let me just simply coming to here and say this as font awesome. Where is my font awesome import? Just give me a minute. Let me re import it. So just a minute. All right. So now you guys can basically see that we have this font awesome and I can definitely change this name to the home and you can also give it a size. So let me give the size of 24. And if I save it, look at that. In same way, you can do this for profile, you can also do this for my feed and you can also do this for your profile my feed home everyone like instead of home if we have something related to profile, alright we do not have maybe we have parser and maybe we definitely have user. So, for user this is going to be this and for So, now we have this list perfect, you can also change the color of this let's say you wanted to set the active state depends I mean how you basically wanted to do so this cool. So I hope you are loving this like how you can basically change it how you can modify this now it's completely up to you you know all the hair and their of this stack navigation tab navigation and same thing is going to be for draw navigation as well. So yeah, see you in next chapter for this chapter, this is pretty much it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 4",
+      "lesson": "9-tab-navigation_epm",
+      "lessonFile": "9-tab-navigation_epm",
+      "source": "class-subtitle/module 4/9-tab-navigation_epm/9-tab-navigation_epm.vtt",
+      "chunkNumber": 2,
+      "start": 249.87,
+      "end": 485.139,
+      "duration": 235.27,
+      "startTimestamp": "00:04:09.870",
+      "endTimestamp": "00:08:05.139",
+      "captionStart": 52,
+      "captionEnd": 103,
+      "tokenCount": 683,
+      "captions": 52
+    }
+  }
+]

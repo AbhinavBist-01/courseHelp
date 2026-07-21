@@ -1,0 +1,191 @@
+[
+  {
+    "id": "4. expo file system_epm_chunk_0001",
+    "text": "Hey everyone and welcome to one more new lecture. In this lecture, we are going to learn about Expo file system, a powerful API that lets your app, we can say manage files right on the device and with the help of a file system, you can do the CRUD operations, you can download it, you can upload files and we can say you you can use it with. Photos, you can use it with PDFs, backups, logs and many more. And this is going to be the essential when your app needs to handle read file content and not just we can say key value storage like in previous chapters we have learned about that how you can store data more of in key value pair or let's say in a SQLite format. But whenever you wanted to use the actual file system. So what is expo file system? If I just simply coming to the documentation of expo file system. So expo file system provides access to files and directories store on the device or bundled as assessed asset into the native project. It is also allows downloading file from the network. Amazing, isn't it? So let's move ahead and try to break it down more. So expo file system first of all is the library. All right, which give you the access of we can say file system of users device. And then this will work both on Android and iOS and we can know that each app let's say that means is simply coming to here and grab it. So each app have their own private file system. Perfect each app have their private folders. So, that with the help of expo file system we can read from it and we can write to it. You can also download files from the internet and we can definitely save them locally. So, let us move ahead and try to understand why do we even need the file system. So, we can know that we already have async storage which is definitely great for storing small bits of data. So, whenever you wanted to store small bits of data, then async storage is fine. Perfect. Then async storage and key value storage, whatever is that, they are good for it. But sometime we need to deal with entire files like we have 1 GB of data, 2 GB of data. So for that we can, let me just try to give the example for it. Let's say you wanted to up saving a user selected photos. Let's just say this is your work. So definitely photos are very big in size and if they are in high quality, let's say are exporting. app data as document. Yes, this is this can be also the feature. Let's say you are exporting app data as a document. So, this is where we also need it. You are we can say that you are downloading a PDF. So, definitely we need it. You are uploading a file to the back end. Yes, you are uploading a file. to the backend. So, in that case we also need expo file system. So, with the help of file system, so basically we can say file system gives you full control over these operations. And you can definitely say that we have bunch of method I mean lot of methods definitely need not to get too much depth into all of them. But let me just try to explain to you guys bunch of them one by one. So for that let me just simply copy this installation command. Let me go to my terminal, open a new terminal and then simply hit \"Bunex Expo Install Expo File System\" alright. So this is basically going to install this library. And after that we will going to see that. A bunch of things and don't worry about it. So before like this is installed successfully. So the first thing that I wanted to explain you guys is about we can say we have three directories. Perfect. We can have we can even name this as the three directories.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "4. expo file system_epm",
+      "lessonFile": "4. expo file system_epm",
+      "source": "class-subtitle/module 6/4. expo file system_epm/4. expo file system_epm.vtt",
+      "chunkNumber": 1,
+      "start": 0,
+      "end": 297.32,
+      "duration": 297.32,
+      "startTimestamp": "00:00:00.000",
+      "endTimestamp": "00:04:57.320",
+      "captionStart": 1,
+      "captionEnd": 58,
+      "tokenCount": 788,
+      "captions": 58
+    }
+  },
+  {
+    "id": "4. expo file system_epm_chunk_0002",
+    "text": "File System\" alright. So this is basically going to install this library. And after that we will going to see that. A bunch of things and don't worry about it. So before like this is installed successfully. So the first thing that I wanted to explain you guys is about we can say we have three directories. Perfect. We can have we can even name this as the three directories. And the name of that directory is the first one is known as paths.document. I will explain you each of them. And then second one that we have is paths.cache and the third one that we have is paths.bundle and this is optional. So you can definitely skip it but alright I will just try my best to explain you about each of them. Perfect. So now whenever you are dealing with expo file system, you have access of three directories. I mean you have a bunch of other but these are main hero of our entire game. First one is the path document. Second one is path cache. And third one is... We can say bundle. Perfect. So let's move ahead and try to understand. So what is path document actually means? Let's try to understand this first. So we can say that whenever you install any app into our folder into your operating system into your mobile. So operating system give that their own private space. can say that give their own. Private storage, just give me a minute, storage, perfect, yes we understand that. So we can say think of it like a folder on your phone that belongs only to these directories, perfect, like first one that we have is document. So document is a folder we can say a document. folder where you can save file. Yes, where you can basically save files and we can say that whenever you wanted to care about something for long term. So you save file for long term. In that case, we are going to save them into path document. But the second one which is come is path cache. So why even we need it? So we can say that this is a cache folder. This is a cache folder for temporary. Let me just fix my spellings. Excuse me for that. files that can. that can be removed by OS anytime. Perfect. That can be removed by OS anytime. So into the cache folder, we only store that data. That is not permanent. We always wanted to store the temporary data into it. And the third one is the bundle. So this is basically we can say a folder where app bundled asset come. Perfect. Like we have images, we have some config, we have some another logos, a lot of things. So all the bundled thing will live here and this is only read only. You can't write anything into it. Cool. So this bundle is a read only. So that's why I can say you can ignore it for now. And just focus on these two. So the first one is where you wanted to store the permanent data. And the second one is we can say this is where you can basically store the temporary data. So you can do all the read and write operation and this is persist for longer time. And when it's come to? cache, you can also do read and write here, but this will not consist for longer time. So you can always use this for temporary data and third one is just give me a minute. Third one is something known as paths dot bundle. So you can't write anything. You can read it and bundles data always persist and you will always use this for storing your apps asset like asset like images or fonts. I mean, a lot of other things. So these are the main thing that we need to understand for now. All right. Now we are good to go. Perfect. So, now let's move ahead and try to understand how we can perform operations. So for that let me come into here and import three things. Perfect.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "4. expo file system_epm",
+      "lessonFile": "4. expo file system_epm",
+      "source": "class-subtitle/module 6/4. expo file system_epm/4. expo file system_epm.vtt",
+      "chunkNumber": 2,
+      "start": 264.84,
+      "end": 566.38,
+      "duration": 301.54,
+      "startTimestamp": "00:04:24.840",
+      "endTimestamp": "00:09:26.380",
+      "captionStart": 50,
+      "captionEnd": 125,
+      "tokenCount": 800,
+      "captions": 76
+    }
+  },
+  {
+    "id": "4. expo file system_epm_chunk_0003",
+    "text": "You can read it and bundles data always persist and you will always use this for storing your apps asset like asset like images or fonts. I mean, a lot of other things. So these are the main thing that we need to understand for now. All right. Now we are good to go. Perfect. So, now let's move ahead and try to understand how we can perform operations. So for that let me come into here and import three things. Perfect. So, the first thing I have imported file, second thing I have imported directory and And third one is... path. No problem. You can even go depth into it from here. Like we have directory, we have file, we have paths as well. Perfect. We also have file handle, but all right. These are three main things we have imported. So these are the classes. Perfect, yes these are the classes that we are importing. Now for simulating bunch of them like let's say you wanted to read data, write data and create data. Perfect, so for that how you can write that function. So let's try to understand that very easy. Let me simply coming to here and simply say, just give me a minute. Let me off this. All right. So we can simply say const create and read file. No problem. And then I can simply use here the async and then always like whenever you are using async or something, always try to be inside, try and catch. This is the good practice that we can follow. All right. Perfect. And then what you can do, you can simply say const file is equals to initialize like first thing we wanted to initialize the path of we can like let me just tell you how you can do so. simply say new file no problem. This is basically the constructor. We are basically constructing it and creating the instance of it. All right. I hope so not using too much of jargons and then you will always give it the path like where you wanted to store this thing so I can simply say paths. Dot, you can see lot of things, but main thing that we need for now is document. Now you guys understand a property containing the document directory, a place to store file that are safe from being deleted by the system. Yes, we know that. And second thing you can give the name of your, we can say your file. So I can simply say hello.txt. No problem. This can be exist and this can't be. So right now nothing exists like this. And then what I can do, I can simply say file dot create. That's it. Now after doing so this our file will create. Now what you can do, let's say I wanted to write something into it. So I can simply say file dot write, not streams. We just wanted to write it like this. I can say hello from expo file system easy. So this is how you can create it. This is how you can write it. Let us say you wanted to. read the content kind of that. So, what you can do you can simply say cons content is equals to await yes you need to await it because let us say the file is too big. So, it will take some time. So, then you can simply say text. So, this is basically going to return you a promise that resolve with the content of the file as a string easy and let us say Let me create one more log like we have created previously. So I can simply say const logs and then I can say set logs. This is equals to use state and this is an empty array. No problem. And I can create a function that will basically going to add a log for us. Just for simulation, I can also copy that from the another finds, but no problem. And then this is basically going to do what? This is basically going to do set logs.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "4. expo file system_epm",
+      "lessonFile": "4. expo file system_epm",
+      "source": "class-subtitle/module 6/4. expo file system_epm/4. expo file system_epm.vtt",
+      "chunkNumber": 3,
+      "start": 533.56,
+      "end": 803.58,
+      "duration": 270.02,
+      "startTimestamp": "00:08:53.560",
+      "endTimestamp": "00:13:23.580",
+      "captionStart": 116,
+      "captionEnd": 185,
+      "tokenCount": 797,
+      "captions": 70
+    }
+  },
+  {
+    "id": "4. expo file system_epm_chunk_0004",
+    "text": "Let me create one more log like we have created previously. So I can simply say const logs and then I can say set logs. This is equals to use state and this is an empty array. No problem. And I can create a function that will basically going to add a log for us. Just for simulation, I can also copy that from the another finds, but no problem. And then this is basically going to do what? This is basically going to do set logs. So, whatever the previous data we have and this is basically going to be all the data we are spreading it perfect and whatever the message is coming. Easy. What just happened? I wanted to store this message as a string. So how I can store it? Let me just check it like this. And what if I can do something like this? Is it possible? I am getting this error. Alright, I can fix it. I can simply say this is the type of string. Now this is fine. No problem. Now we have created it and then you can simply say here add log and whatever the content will come and I can make it much better. I will say this as file created. and read easy and then whatever the content will come let's say in two double ticks a double quotations I can show my content now if I call this you know that we can get the data no problem but by any chance if we have any error I can add a log for my error. Easy. I don't think so there is any rocket science is going on here. Perfect. Let's move ahead and try to see the output. But for seeing the output first of all let me paste my CSS. You can definitely get all of the CSS from my Github repo. Alright, now let's move ahead and try to initialize this. So the first thing that I wanted to do and let me just quickly do it and then I'll be right back. Alright guys, so now I have just created a very basic simulation UI. Now you can see that this is our view. Inside this I have added basic file system operation header and then a scroll view where we can actually going to add the button and the moment you do something over it, you can see the logs. have the context out of it. And then this is a view where we have added another text which is saying operation logs and then a simple scroll view which is basically logs all the data which is inside this state variable which is an array. Alright no problem. Now let's move ahead and try to use it. So, what you can do now, you can simply let me show you, you can simply come into inside this buttons container and let me just add here another view and this view will say as the style. And I can call it this styles dot row and then I can paste this perfect and I can get my button button from react native. And now if I save it, you will see we have create and read and the moment I click it, you will see file created and read and what is the content is coming. Hello from Xposed system. Why? Let's say let me change this to Suraj from this site. And now if I save it and then if I again write it now you can see what is saying has been rejected cause unable to create file directory it is already exist. So again now we are trying to do we are trying to recreate this file which is already exist. So you can instead of this. Now you can comment out this create thing. Perfect. And then if you just simply press now you will see file created and read so much from this site and one interesting thing every time you writing something new you can see that every time you writing something new that a data is over writing. So you need to keep that in mind. Perfect. So this is the example number one. I hope I am able to simulate it properly.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "4. expo file system_epm",
+      "lessonFile": "4. expo file system_epm",
+      "source": "class-subtitle/module 6/4. expo file system_epm/4. expo file system_epm.vtt",
+      "chunkNumber": 4,
+      "start": 769.14,
+      "end": 1043.74,
+      "duration": 274.6,
+      "startTimestamp": "00:12:49.140",
+      "endTimestamp": "00:17:23.740",
+      "captionStart": 178,
+      "captionEnd": 246,
+      "tokenCount": 795,
+      "captions": 69
+    }
+  },
+  {
+    "id": "4. expo file system_epm_chunk_0005",
+    "text": "So you can instead of this. Now you can comment out this create thing. Perfect. And then if you just simply press now you will see file created and read so much from this site and one interesting thing every time you writing something new you can see that every time you writing something new that a data is over writing. So you need to keep that in mind. Perfect. So this is the example number one. I hope I am able to simulate it properly. In the same way, I am just keep adding bunch of other methods and bunch of things like give you lot of assignments out of it. So make sure to give it a try. Now let's move ahead and we will see that how you can basically read any data as a base 64 format. basically so you can simply create one read as. Base64, perfect and then what you can do you can simply run again async and then again add a try and catch and you will say const file is equals to new file no problem and then again paths.document. And then same file name make sure to give it and then hello easy and then you can try to recreate it but already existed so you need not to do so anything and sorry need not to do so this you can change it and what you can do you can change the name of this file as well. Let us say I have just created this as base 64 test. dot txt and then I can again say file dot create easy and then I can say file dot write and then you can say convert me to base 64. Easy and then I can get my base64 data. How you can get it? Let's say above we are getting in the format of text. So instead of text I can simply say base64. I don't think so any rocket science is going on. I can simply say file and base64. So now you are getting the data into the base64 format. And let me copy this log and add log, but instead of content, I will say this base64, but if I just only console and log it as a base64, you will not be able to understand that. So that's why let me convert this and not convert this. Let me just extract the substring 0 to 30 so that we'll see something later. Perfect. And in the same way, if we have any error, then I am going to show the error. Easy. Now, what you can do? You can simply come into here and maybe copy only this and I can just paste it here. No problem. And I will Give it a 2 and what I can say read base64. Easy and instead of I can directly say base64 and I will read as base64. Easy and now if I say base64 look at that. This is how data is coming in the format of base64 but let's say you wanted to read it properly. So what you will do? two string and then definitely two string. All right. Well, let's say that we just try to read something like this, unable to create. I know that we already have this file. Perfect. And if I say base 64, all right, still they are giving me the format into the. Base64, no problem. So what you can do instead of this, you can directly say this as text and the moment you call it, you will get your data. So I hope so I'm making sense in same way. Let's say let me just now quickly add the methods and in same way you can simulate that I hope you guys able to do so that. Let's say in same way you wanted to we can says copy some file and delete some file get let's say how you can delete some file. Perfect. So for that what you can do I am just directly writing it. I can simply say delete file no problem.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "4. expo file system_epm",
+      "lessonFile": "4. expo file system_epm",
+      "source": "class-subtitle/module 6/4. expo file system_epm/4. expo file system_epm.vtt",
+      "chunkNumber": 5,
+      "start": 1014.34,
+      "end": 1276.38,
+      "duration": 262.04,
+      "startTimestamp": "00:16:54.340",
+      "endTimestamp": "00:21:16.380",
+      "captionStart": 237,
+      "captionEnd": 298,
+      "tokenCount": 790,
+      "captions": 62
+    }
+  },
+  {
+    "id": "4. expo file system_epm_chunk_0006",
+    "text": "So I hope so I'm making sense in same way. Let's say let me just now quickly add the methods and in same way you can simulate that I hope you guys able to do so that. Let's say in same way you wanted to we can says copy some file and delete some file get let's say how you can delete some file. Perfect. So for that what you can do I am just directly writing it. I can simply say delete file no problem. Just give me a minute and delete file will always going to be something like this. You can simply say create a file like we already have existing file we can say and for deleting this first three thing is same. Easy. First three things is always going to be same and instead of this, you can simply say delete me. Perfect. And you can change this to delete me. No problem. I can even wrap this inside a function and we can call it and pass the argument. And on the basis of that, we can get different data, but I just don't want it to. And how you can delete it? Simple you can simply say file.delete and this is how you will basically delete it. No problem. Let's say you wanted to copy some file. So what you will do? Let me simply copy this much coming to here instead of delete file. Now I will say this as copy file. Easy. So, how you can copy this? Everything will same. No problem. So, before copying it, I will say, hope so this file is exist. So, what you can do? You can simply say, a file or instead of file, we can call it as original. Perfect. And I will name it as original. No problem. And let me fix my spellings. Alright. And then what I can do? I can simply say if not of original dot exist. Perfect. Not origin. This is going to be as original dot. exist, then what I can do, I am going to create it and then write some bunch of data into it. Making sense? All right. I need to also fix this, fix this and we are good. Nice. This is making sense. No problem. And what you will do now, whenever you wanted to copy some data. So what if we store that into a cache? That is a good practice. So I will say this as const copy is equals to new file. And then now give the path as cache like I wanted to store that data into the cache folder so that if needed my system will delete this file. Perfect and I will name this as copy.txt and then what you can do you can simply say original copy that into this location. Perfect. So now every data which is available inside this is going to be copied into this folder easy and this is how you can console it and check it in same way. Let's say you wanted to move a file from one location to another location. I mean you can just coming to here. Let me tell you. And you will found this look at that we have move async same view also have move in same way we have delete async no problem. Now we have create upload task, create download, copy async lot of things. I hope so you guys can just simply coming to here and read it and just. According to you, you can implement all of them. Now, interestingly, let's see how you can list all of your directories. So that is interesting. I can simply say list directory is equals to let me just come into here. And then I will call it and then I can simply add the try and catch. No problem. Let me now create a directory. Now I'm not creating a file. I'm creating a directory. So I will say simply directory coming from expo file system. This will going to accept the path.document. Now we have a folder.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "4. expo file system_epm",
+      "lessonFile": "4. expo file system_epm",
+      "source": "class-subtitle/module 6/4. expo file system_epm/4. expo file system_epm.vtt",
+      "chunkNumber": 6,
+      "start": 1247.76,
+      "end": 1506.6,
+      "duration": 258.84,
+      "startTimestamp": "00:20:47.760",
+      "endTimestamp": "00:25:06.600",
+      "captionStart": 291,
+      "captionEnd": 363,
+      "tokenCount": 794,
+      "captions": 73
+    }
+  },
+  {
+    "id": "4. expo file system_epm_chunk_0007",
+    "text": "So that is interesting. I can simply say list directory is equals to let me just come into here. And then I will call it and then I can simply add the try and catch. No problem. Let me now create a directory. Now I'm not creating a file. I'm creating a directory. So I will say simply directory coming from expo file system. This will going to accept the path.document. Now we have a folder. Now inside this folder how I can get it. I can simply say items is equal to dir.list. Yes, this is how you can get it. Now we have list of all the items that we have inside it. And what you can do, you can basically, we can say show the length of it. So what if I add a simple log, which is saying found items dot length, this much of item, easy. And let's try to use it. So, for using it what I can do below this let me just copy this and come into here. Alright, this is another row and I will use this list directory method. Perfect. I will name it to 3 and say this as list directory. Perfect. And then how you can basically get it? It's simple. Easy. And now the moment you call it, you will going to get some data. Let me just try to see. If I say simply list directory, you will see that we are getting a 16 items. Maybe we have a bunch of other files, other things into that as well. So that's why what we are getting, we are getting 16 files. Perfect. Nice. In same way, you can create some file how you can we can say how you can work with bytes. Now, interestingly, one last example I wanted to take and one more example after it how you can upload some file that is interesting. So let's move ahead and try to understand. Alright, so for that what you can do, it's a pretty straightforward but very interesting with the help of fetch you will do so this. So I will say this as upload file no problem, I will name it async and then I can add a simple try and catch. Then this try and catch like uploading will take some time. Agree. So what if we maintain a state variable for that? I can say this as a loading and set loading and this will equal to use state and initially this is false. Perfect now inside this upload file what I can do I can simply coming to here and first before starting it I will say set loading as true. Making sense and right now let's say let me create a file. So I will say this as const file is equals to new file with the name of inside the cache folder because definitely we don't need it cache and I will name it as upload.txt. And then I will create this file. Then I will write bunch of data into it. So I will say file.write and let me write it as upload this content. Perfect. And with the help of this you can even create your own file system manager. So, this is a very powerful thing and let us say let me say this as const form data initialize of form data and then I will append this file inside my form data. I will say form data append this file this is going to be the file and then path of that file is equals to this file. And now I wanted to upload it. So where I wanted to upload it? You can simply say, just listen to, I can simply say const response is equals to await fetch. Perfect. Now we have two types of fetch. So, the first fetch will come from native JavaScript that we know, but we have one more thing which is known as ExpoFetch. So, you can simply say fetch and this fetch will come from ExpoFetch, but as you guys can see like yeah we are getting the suggestions.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "4. expo file system_epm",
+      "lessonFile": "4. expo file system_epm",
+      "source": "class-subtitle/module 6/4. expo file system_epm/4. expo file system_epm.vtt",
+      "chunkNumber": 7,
+      "start": 1475.9,
+      "end": 1764.62,
+      "duration": 288.72,
+      "startTimestamp": "00:24:35.900",
+      "endTimestamp": "00:29:24.620",
+      "captionStart": 354,
+      "captionEnd": 423,
+      "tokenCount": 796,
+      "captions": 70
+    }
+  },
+  {
+    "id": "4. expo file system_epm_chunk_0008",
+    "text": "So where I wanted to upload it? You can simply say, just listen to, I can simply say const response is equals to await fetch. Perfect. Now we have two types of fetch. So, the first fetch will come from native JavaScript that we know, but we have one more thing which is known as ExpoFetch. So, you can simply say fetch and this fetch will come from ExpoFetch, but as you guys can see like yeah we are getting the suggestions. So, we already have it. Now with the help of ExpoFetch, yes now this fetch is coming from ExpoFetch. And then I can use it. So what you will do like there is a API. I don't know you guys know about it or not. That is known as HTTP bin. Yes, if I am not wrong. So, what I will do I will simply coming to here give the locations I will say https/httpbin.org/post because we wanted to post it. Then we will give the method as post method we know that I will say this as post and in the body I will pass my form data. Perfect. And then you can definitely get this response status like is it okay? Is it failed? Whatever. Now let's try to use it. And then what I will do, let's say by any chance if we have any error, then we will show the error. Yes, and into the finally, I will set my loading to the false. Doesn't matter we are getting error or we are getting success. We always wanted to make it false. And then what I can do, I can create a button as upload file. So what if I just below this, I add this perfect and this is going to be fourth. So, now we have upload file perfect and the moment I press upload file alright we are into loading state and look at that we are getting uploaded and the status as 200 this means if I try to go HTTP bin dot org perfect. So, you will see that a simple HTTP request response service. Perfect. So, you will see that we have a post. This is how you can post some data and pass something and you will get the request post parameter just for testing purpose we need it. Perfect, in same way we have get method, you can always get it and try to get the method you wanted to have. Perfect, so you will see that this is how you can use this and you will get data something like this. I mean cool. Perfect, so this means we have successfully able to upload this file. So I hope so you guys able to understand it and getting everything clearly. In same way if you wanted to store data in JSON format you can just stringify the data and store it. So yeah. This is how you can create, read, update, delete, whatever you wanted to do. Lot of methods. You just go and execute all of them one by one. You will get to know a lot more other things as well. Perfect. Expo also have bunch of examples. I have did the same thing. You need not to do anything. And again you can also picking file from the system. Let's say you wanted to pick some file but we haven't talked about the export document picker. So that's why I am not bringing this up. You will understand this in upcoming lectures. Alright. In same way we have how you can download some file. from somewhere else like we have a sample PDF. You will get the destination and you want it to download it. So for downloading we have a download file async. A download file, let's say the file size is too big so you don't want it to block some other operations. In that case you can use it. In same way we have a fetch, we have already used it. Then we have moving and copying file, we did it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "4. expo file system_epm",
+      "lessonFile": "4. expo file system_epm",
+      "source": "class-subtitle/module 6/4. expo file system_epm/4. expo file system_epm.vtt",
+      "chunkNumber": 8,
+      "start": 1727.54,
+      "end": 2000.96,
+      "duration": 273.42,
+      "startTimestamp": "00:28:47.540",
+      "endTimestamp": "00:33:20.960",
+      "captionStart": 415,
+      "captionEnd": 487,
+      "tokenCount": 789,
+      "captions": 73
+    }
+  },
+  {
+    "id": "4. expo file system_epm_chunk_0009",
+    "text": "from somewhere else like we have a sample PDF. You will get the destination and you want it to download it. So for downloading we have a download file async. A download file, let's say the file size is too big so you don't want it to block some other operations. In that case you can use it. In same way we have a fetch, we have already used it. Then we have moving and copying file, we did it. We have legacy file system which is this below this I think we have. Yes, you will see that we have legacy. So you can also try that out, but not important at all. So we can say this is how basically you will deal with all of this data storage and file system into the expo. Perfect, definitely you need to practice a lot. But in next chapter with the help of Expo SQLite, we are going to create offline notes app and you will definitely love it. But for now, this is pretty much it and see you in next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 6",
+      "lesson": "4. expo file system_epm",
+      "lessonFile": "4. expo file system_epm",
+      "source": "class-subtitle/module 6/4. expo file system_epm/4. expo file system_epm.vtt",
+      "chunkNumber": 9,
+      "start": 1977.9,
+      "end": 2039.96,
+      "duration": 62.06,
+      "startTimestamp": "00:32:57.900",
+      "endTimestamp": "00:33:59.960",
+      "captionStart": 480,
+      "captionEnd": 496,
+      "tokenCount": 207,
+      "captions": 17
+    }
+  }
+]

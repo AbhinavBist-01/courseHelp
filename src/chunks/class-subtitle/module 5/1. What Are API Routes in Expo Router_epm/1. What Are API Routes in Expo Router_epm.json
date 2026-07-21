@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_chunk_0001",
+    "text": "Hey everyone and welcome to one more new module in this module we are basically going to talk about networking and backend integration. So this is the chapter one in this lecture we are going to learn about API routes in expo router. So, this is a really exciting feature because it's allow you to write server side endpoints right inside your expo project. It is interesting like using the same file based routing system you already know. So, what are API routes? I mean, I hope you guys know about what are API routes. If I just simply coming to here and write what are API routes? So, API routes we can say that they are special server functions, they are server functions you can create inside your expo router, you can basically create them inside your expo router project. and they are going to act like they are going to and let me just simply say they are going to act like a internet alright so let me get them cool so this API routes is basically going to act like a API we can say that you are creating back-end in express in fastify in fast api whatever you are using for it. So kind of them they are going to act like this endpoints. So this is definitely similar to the backend endpoint. You had normally build with node express or other backend frameworks. Cool. So these endpoints can be called from your app. from external even from external system to fetch and we can say the process or data. Cool. So if in in simple words I can say API routes, let your expo app act like both print and plus back end. This means you can create. Rent inside of your app by using expo, you can even create back inside your application by using expo without needing any separate server project. So this is the beauty of we can say. All right, perfect. So let's move ahead and we'll see how you can basically create them. So this is going to very straightforward syntax like you are always going to use this syntax. So what is the syntax is this is your app and let me just organize them inside API folder and the name of the route you wanted to create and then simple convention plus API. That's all. inside that file you are like inside this file like the we are creating you can define get endpoint you can define post endpoint you can even define put you can define delete you can define patch whatever you want. So when a request matches the route path and we can say method expo will execute that function and return you a response. Cool. So, let's say and let me move ahead. So for that, let me start installing my expo application. So how you can install that? So for installing that, you can simply run the command and install it cool. Alright, so let me just simply go to the documentation and now you guys can see this is the command of creating it. Let me copy it. Let me come to my VS code, bun X and then simply paste it, create expo app at the latest. I have already created a module 5. Sorry, this is module 5 whatever number can be changed, but this is how I'm just trying to be in sequence. And then let me simply what is your app name. to be inside the same folder. And then this is going to install all the dependencies that we need. Alright so now I have successfully installed it. Now let me simply run 1x expose start and then this is going to start my server. So let me wait for it. Alright and then simply press a. So after pressing A they are going to open this module 5 inside my module 5. Expo Go App, perfect, nice. Now you can see this is the by default Expo router which is coming but let move ahead and reset it. So simply say burn run reset project. So by doing this you will see that they are going to run it and simply say no.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "chunkNumber": 1,
+      "start": 1.14,
+      "end": 292.22,
+      "duration": 291.08,
+      "startTimestamp": "00:00:01.140",
+      "endTimestamp": "00:04:52.220",
+      "captionStart": 1,
+      "captionEnd": 66,
+      "tokenCount": 789,
+      "captions": 66
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_chunk_0002",
+    "text": "So let me wait for it. Alright and then simply press a. So after pressing A they are going to open this module 5 inside my module 5. Expo Go App, perfect, nice. Now you can see this is the by default Expo router which is coming but let move ahead and reset it. So simply say burn run reset project. So by doing this you will see that they are going to run it and simply say no. And yes, now let me run it once, not this, sorry, let me run it once again, bun x expose start and then let me reload it and after reloading it, you are basically going to see a simple page which is saying us edit this, I mean, you know, cool. Perfect. So now let's move ahead and we'll see how you can basically create the API routes. So this is very straightforward. So let me go to my app and inside this, let me create a API folder, always create a API folder. This is the good practice. And let's say I simple wanted to create a hello world. So, I can simply going to name it. So, name should be hello and then I wanted to treat this as a expo backend API route. So, I can simply say plus API dot ts yes and then you can simply say. export function, I can let make it get yes, make sure to make this capital, just give me a minute, let me off my AI. Alright, and after that, same here you are basically going to have access of response and request, let me get my request, and this is going to be the type of request. And then I can simply return a response dot, and we return JSON, and then a simple this and I can say data, and inside the data, I can simply say hello world. Easy? Yes. This is how you can basically create API route inside your Xpo app. Here you can do DB call, you wanted to have some heavy logic, you can do whatever you want. Alright, so now how you can use this endpoint, that's the main point. Easy, very easy. You can simply go to our index and wherever you want it to go and then what you can do, you can just simply coming to here and start using it. We will see that in upcoming chapters like how you can integrate this and use this in same way. Let's say you wanted to create something else. So in same file, yes, in same file, you can also create another function name as post. And here inside this post, let's say you have received some data, you can simply say data await request dot json. Yes. easy and don't forget you can also mark this as a sync this is a good practice and also add here a sync cool. Now what you can do you can simply return your data easy and if you wanted to create a separate we can say get data so you can simply do so here get data and then simple plus API dot TS. This is also going to be completely valid. Alright, so yep, but there is a point for using it. You need to make sure need some changes inside your app json. So for that, you simply search for app json and search for web and inside this web you will find output. This is by default static, but we wanted to use the server as well. So that's why we need it. Cool because in future whenever you are going to deploy your app You separately need to deploy your API routes as well. So you will see that don't worry that's bit of advanced thing but I'm talk about that in upcoming chapter school. All right and yes you can simply hit by this as well. So let me try to show you like what I'm talking about. Let me try to reload it.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "chunkNumber": 2,
+      "start": 261.22,
+      "end": 528.1,
+      "duration": 266.88,
+      "startTimestamp": "00:04:21.220",
+      "endTimestamp": "00:08:48.100",
+      "captionStart": 59,
+      "captionEnd": 119,
+      "tokenCount": 782,
+      "captions": 61
+    }
+  },
+  {
+    "id": "1. What Are API Routes in Expo Router_epm_chunk_0003",
+    "text": "So that's why we need it. Cool because in future whenever you are going to deploy your app You separately need to deploy your API routes as well. So you will see that don't worry that's bit of advanced thing but I'm talk about that in upcoming chapter school. All right and yes you can simply hit by this as well. So let me try to show you like what I'm talking about. Let me try to reload it. Perfect, so let's let's say let me go to this endpoint perfect and where is that this one now they are showing us this but right now if I go to API slash hello and hit this look at that we are getting a data a backend data from this endpoint by default we are hitting the get request and you can even see. Lambda bundled web bundled and they are basically showing us the output. Cool. Nothing to worry much about it. So yes, this is how you can basically create APR out. What is APR out? You have a good idea out of it. Perfect. So if I just try to give you a quick recap, API routes are server endpoints, which is create inside your folder structure inside your expo folder structure expo is a framework which support frontend and back end both and they run server side code as well. And this is how you can basically create your server side of API routes. Be it get, be it post, be it put, delete doesn't matter. So in next lecture, we will get to see that how you can basically create here some bunch of other API routes and then we are going to see how to call it from screen using fetch. Alright, so yes, this is pretty much it for this chapter and see you next time.",
+    "metadata": {
+      "course": "Mobile Development with Expo",
+      "module": "module 5",
+      "lesson": "1. What Are API Routes in Expo Router_epm",
+      "lessonFile": "1. What Are API Routes in Expo Router_epm",
+      "source": "class-subtitle/module 5/1. What Are API Routes in Expo Router_epm/1. What Are API Routes in Expo Router_epm.vtt",
+      "chunkNumber": 3,
+      "start": 502.56,
+      "end": 617.22,
+      "duration": 114.66,
+      "startTimestamp": "00:08:22.560",
+      "endTimestamp": "00:10:17.220",
+      "captionStart": 112,
+      "captionEnd": 137,
+      "tokenCount": 349,
+      "captions": 26
+    }
+  }
+]

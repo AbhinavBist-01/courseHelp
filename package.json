@@ -11,6 +11,10 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "node-webvtt": "^1.9.4"
+    "@pinecone-database/pinecone": "^8.1.0",
+    "dotenv": "^17.4.2",
+    "js-tiktoken": "^1.0.21",
+    "node-webvtt": "^1.9.4",
+    "openai": "^6.48.0"
   }
 }
